@@ -1,0 +1,3 @@
+[submodule "src/commonTeam"]
+	path = src/commonTeam
+	url = git@bitbucket.org:zextras/team_web_client.git
