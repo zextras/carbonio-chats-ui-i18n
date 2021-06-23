@@ -1,3 +1,327 @@
 {
-
+    "action": {
+        "add": "Add",
+        "instantMeetingAlreadyRunningText": "Creating a new one will overwrite the older one and your attendee will lost the connection, what would you do?",
+        "instantMeetingAlreadyRunningTitle": "An instant meeting is already running"
+    },
+    "appVersion": "App version",
+    "appVersionCopied": "App version copied",
+    "button": {
+        "create": "Create"
+    },
+    "cancel": "Cancel",
+    "chats": "Chats",
+    "conversationsList": {
+        "noActiveChats": "There aren't active Chats at the moment. Create a new Chat or switch tab.",
+        "noActiveInstantMeetings": "There aren't active Instant Meetings at the moment. Create a new Instant meeting or switch tab.",
+        "noActiveSpaces": "There aren't active Spaces at the moment. Create a new space or switch tab.",
+        "noFilteredChats": "There aren't Chats that correspond to this filter.",
+        "noFilteredInstantMeetings": "There aren't Instant Meetings that correspond to this filter.",
+        "noFilteredSpaces": "There aren't Spaces that correspond to this filter."
+    },
+    "copyAppVersion": "Copy app version",
+    "create": {
+        "chat": "Create Chat",
+        "group": "Create Group",
+        "instantMeeting": "Create Instant Meeting",
+        "space": "Create space"
+    },
+    "creation": {
+        "chat": {
+            "addParticipant": "Choose a participant to start a Chat with",
+            "chatFilterDescription": "You can create a chat just by clicking on the participant you want to talk to",
+            "description": "Chats are one to one conversations that help you to keep in touch with contacts."
+        },
+        "group": {
+            "addParticipantsDescription": "Invite participants by typing their name or e-mail addresses. You need to invite at least two other participants, otherwise you can create a Chat.",
+            "groupWithoutNameAddParticipant": "Add participants to your Group",
+            "inputTopicDescriptionLabel": "It describes the subject of the Group",
+            "mainDescription": "Groups need to include more than two participants. Name the Group as preferred in order to describe it's subject",
+            "setImageAndTopicDescription": "Set an image that will help users to identify the Group within the ones in the list."
+        },
+        "instantMeeting": {
+            "addAttendees": "Add attendees to your Instant Meeting",
+            "addAttendeesDescription": "Invite attendees by typing their name or e-mail address here.",
+            "addAttendeesInputExplanation": "You can invite also external users just by typing their e-mail address.",
+            "attendee": {
+                "feedback": {
+                    "negative": "The email entered is not a valid one, please insert a valid address",
+                    "neutral": "Select one or more attendees"
+                }
+            },
+            "description": "Instant meetings are video calls that are designed to be quick and momentary, no trace of the chat will be kept and once the call is over, it will cease to exist. Instant meetings can be created by Pro users can be also joined even from external users.",
+            "titleDescription": "You should give to the Instant Meeting a recognizable Title, so your attendees will know the purpose of this call."
+        },
+        "participants": {
+            "feedback": {
+                "neutral": "Select two or more participants"
+            }
+        },
+        "space": {
+            "addMembersDescription": "Invite people by typing their name or e-mail addresses. You need to invite at least two other people, otherwise you can create a Chat.",
+            "mainDescription": "Spaces are generic communication environments that include specific chats called Channels, each one with its own topic. To create a Space you need to invite at least to participants. Channels can be added directly from the Space's info panel.",
+            "spaceWithoutNameAddParticipant": "Add participants to your Space",
+            "titleDescription": "The title identifies the Space and thus is should describe in a couple of word it's topic.",
+            "topicDescription": "Since Spaces are chats driven by the topic discussed, a topic that better describe the subject is recommended.",
+            "topicInputExplanation": "It describes the subject of the Space"
+        },
+        "titleInputRequirements": "140 characters allowed, Title must be unique",
+        "typeWithNameAddParticipant": "Add participants to"
+    },
+    "deleteMessageModal": {
+        "description": "When deleting a message, it won't be visibile anymore to you and all other recipients"
+    },
+    "deletedMessage": "Deleted message",
+    "description": {
+        "members": {
+            "many": "",
+            "one": "One participant"
+        }
+    },
+    "error": {
+        "uploadConversationPicturesFailed": "Failed to upload conversation picture"
+    },
+    "filterChatList": "Filter list chat",
+    "forward": "Forward",
+    "forwardModal": {
+        "chips": {
+            "selectOneOrMoreConversations": "Select one or more conversations"
+        },
+        "inputLabel": {
+            "typeToFilterTheList": "Type to filter the list"
+        },
+        "tabs": {
+            "spaceAndChannels": "Space and Channels"
+        },
+        "title": {
+            "forwardedMessageFrom": "Forwarded message from"
+        }
+    },
+    "instantMeeting": {
+        "continue": "Continue with the old instant meeting",
+        "create": "Create a new instant meeting"
+    },
+    "instantMeetings": "Instant Meetings",
+    "meeting": {
+        "interactions": {
+            "closeCall": "Close this call",
+            "disableAudio": "Disable Audio",
+            "disableVideo": "Disable Video",
+            "enableAudio": "Enable Audio",
+            "enableVideo": "Enable Video",
+            "mutedByOthers": "You have been muted",
+            "status": {
+                "cameraMicOff": "Your camera and microphone are off",
+                "cameraOff": "Your camera is off"
+            }
+        },
+        "startModal": {
+            "cancel": "Cancel",
+            "description": "How do you want to enter the meeting?",
+            "enter": "Enter",
+            "noVideoAndAudio": "Camera off, Microphone on",
+            "noVideoAndNoAudio": "Camera off, Microphone off",
+            "videoAndAudio": "Camera on, Microphone on",
+            "videoAndNoAudio": "Camera on, Microphone off"
+        }
+    },
+    "message": {
+        "now": "Now",
+        "yesterday": "Yesterday"
+    },
+    "new": {
+        "attendee": {
+            "feedback": {
+                "emailReplicated": "The email entered has already been added",
+                "positive": "Attendee added to the list"
+            }
+        },
+        "participants": {
+            "requires": {
+                "one": "Requires at least one more participant",
+                "two": "Requires at least 2 others"
+            }
+        }
+    },
+    "notification": {
+        "answer": "Answer",
+        "conversation": {
+            "created": ""
+        },
+        "dismiss": "Dismiss",
+        "meeting": {
+            "endedAtTime": "Meeting ended at ",
+            "startedAtTime": "Meeting started at "
+        },
+        "member": {
+            "changed": {
+                "name": {
+                    "channel": "",
+                    "space": ""
+                },
+                "picture": {
+                    "channel": "",
+                    "group": "",
+                    "space": ""
+                },
+                "topic": {
+                    "channel": "",
+                    "group": "",
+                    "space": ""
+                }
+            },
+            "channel": {
+                "join": ""
+            },
+            "created": {
+                "channel": "",
+                "group": "",
+                "single": "",
+                "space": ""
+            },
+            "deleted": {
+                "channel": "",
+                "instantMeeting": "",
+                "space": ""
+            },
+            "invited": "",
+            "join": "",
+            "kicked": {
+                "channel": "",
+                "group": "",
+                "space": ""
+            },
+            "left": {
+                "channel": "",
+                "group": "",
+                "space": ""
+            },
+            "you": {
+                "invited": "",
+                "kicked": {
+                    "channel": "",
+                    "group": "",
+                    "space": ""
+                }
+            }
+        },
+        "newMeeting": "Incoming call from:",
+        "you": {
+            "changed": {
+                "name": {
+                    "channel": "",
+                    "space": ""
+                },
+                "picture": {
+                    "channel": "",
+                    "group": "",
+                    "space": ""
+                },
+                "topic": {
+                    "channel": "",
+                    "group": "",
+                    "space": ""
+                }
+            },
+            "created": {
+                "channel": "",
+                "group": "",
+                "single": "",
+                "space": ""
+            },
+            "deleted": {
+                "channel": "",
+                "instantMeeting": "",
+                "space": ""
+            },
+            "invited": "",
+            "join": {
+                "channel": "",
+                "group": "",
+                "instantMeeting": "",
+                "space": ""
+            },
+            "kicked": {
+                "channel": "",
+                "group": "",
+                "space": ""
+            },
+            "left": {
+                "channel": "",
+                "group": "",
+                "space": ""
+            }
+        }
+    },
+    "placeholder": {
+        "filter": "Type to filter the list",
+        "pickAddress": "Start typing to pick an address"
+    },
+    "selection": {
+        "participants": {
+            "many": "",
+            "none": "You have reached the limit of participants set by the administrator"
+        }
+    },
+    "settings": {
+        "meeting": {
+            "description": "Set your audio and video preferences to enter in meetings. You'll can always customize your preferences before entering in every meeting.",
+            "enableCamera": "Enable camera",
+            "enableMicrophone": "Enable microphone",
+            "meetings": "Meetings"
+        },
+        "modal": {
+            "description": "Here you can set all Team's dedicated preferences in order to enjoy a complete customized chatting experience!"
+        },
+        "notification": {
+            "desktop": "Desktop notifications",
+            "spawn": {
+                "label": "Notification time spawn"
+            },
+            "spawn0": "Never disappear",
+            "spawn10": "10 seconds",
+            "spawn3": "3 seconds",
+            "spawn5": "5 seconds",
+            "title": {
+                "hint": "Show message preview in notifications",
+                "minichat": "Open the minified chat as a new message arrives",
+                "notifications": "Notifications"
+            }
+        },
+        "notifications": {
+            "description": "Set your preferences for every type of notification in Team."
+        },
+        "profile": {
+            "chooseAProfilePic": "Choose a profile pic to let other users see, the image will be centered automatically.",
+            "maximumDimension": "Maximum dimension: 256kb.",
+            "reset": "Reset",
+            "restore": "Restore",
+            "statusOptionalDescription": "Optional. Let others now what are you thinking about. Max lenght: 256 characters",
+            "title": "Profile",
+            "update": "Update"
+        }
+    },
+    "spaces": "Spaces",
+    "status": {
+        "last_seen": "",
+        "offline": "Offline",
+        "online": "Online"
+    },
+    "title": "Title",
+    "topic": "Topic",
+    "treeMenu": {
+        "conversations": "Conversations"
+    },
+    "writing": {
+        "generic": {
+            "status": "is writing..."
+        },
+        "messageSentBy": {
+            "Me": "Me"
+        },
+        "status": {
+            "plural": "are writing..."
+        }
+    },
+    "you": "You"
 }
