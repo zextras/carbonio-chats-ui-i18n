@@ -1,13 +1,53 @@
 {
+    "ReplyToSomeone": "Reply to",
+    "ReplyToYourself": "Reply to yourself",
     "action": {
+        "activateNotifications": "Activate notifications",
         "add": "Add",
+        "addChannel": "Add Channel",
+        "addMembers": "Add members",
+        "addNewMembers": "Add new members",
+        "addNewMembersTo": "Add new members to",
+        "confirm": {
+            "clearHistory": "You will clear permanently your chat history. Other participants' history of this chat won't be deleted. This action is irreversible.",
+            "deleteChannel": "Are You sure to delete this channel?",
+            "deleteSpace": "Are You sure to delete this space?",
+            "leaveChannel": "Are You sure to leave the channel?",
+            "leaveGroup": "Are You sure to leave the group?",
+            "leaveSpace": "Are You sure to leave the space?",
+            "removeBuddy": "Are you sure you want to remove this buddy?"
+        },
+        "deleteChannel": "Delete channel",
+        "deleteSpace": "Delete space",
         "instantMeetingAlreadyRunningText": "Creating a new one will overwrite the older one and your attendee will lost the connection, what would you do?",
-        "instantMeetingAlreadyRunningTitle": "An instant meeting is already running"
+        "instantMeetingAlreadyRunningTitle": "An instant meeting is already running",
+        "joinChannel": "Join the channel to send messages and to receive notifications",
+        "joinChannelAction": "Join channel",
+        "leaveChannel": "Leave channel",
+        "leaveGroup": "Leave group",
+        "leaveSpace": "Leave space",
+        "muteNotifications": "Mute notifications",
+        "removeBuddy": "Remove buddy",
+        "scrollToNewMessage": "",
+        "scrollToTheBottom": "",
+        "selectMoreParticipantsForInstantMeetings": "Select a participant from the list or type the address to add an external user",
+        "selectOneOrMoreUsers": "Select one or more users",
+        "showPreviousConversationHistory": "Show previous conversation history"
     },
     "appVersion": "App version",
     "appVersionCopied": "App version copied",
     "button": {
-        "create": "Create"
+        "clearHistory": "Clear History",
+        "create": "Create",
+        "delete": "Delete",
+        "join": "Join",
+        "leave": "Leave",
+        "no": "No",
+        "remove": "Remove",
+        "yes": "Yes"
+    },
+    "buttons": {
+        "ok": "Ok"
     },
     "cancel": "Cancel",
     "chats": "Chats",
@@ -21,12 +61,20 @@
     },
     "copyAppVersion": "Copy app version",
     "create": {
+        "channel": "",
         "chat": "Create Chat",
         "group": "Create Group",
         "instantMeeting": "Create Instant Meeting",
         "space": "Create space"
     },
     "creation": {
+        "channel": {
+            "mainDescription": "Channels are a well-defined topic chats that are included into a Space. Space's participants can join the Channel to actively discuss about its topic. Participants can abandon the Channel without leaving the Space too.",
+            "setImageAndTitleDescription": "Set an image to better recognize the Channel inside the hosting Space. Channel's image can also be set or changed on Channel's info panel.",
+            "titleInputRequirements": "140 characters allowed, Title must be unique inside hosting Space",
+            "topicDescription": "Since channels are chats driven by the topic discussed, a topic that better describe the subject is recommended.",
+            "topicInputExplanation": "It describes the subject of the Channel"
+        },
         "chat": {
             "addParticipant": "Choose a participant to start a Chat with",
             "chatFilterDescription": "You can create a chat just by clicking on the participant you want to talk to",
@@ -78,8 +126,17 @@
             "one": "One participant"
         }
     },
+    "descriptionHistoryClearedInfo": "This conversation is now empty, it has been moved on the bottom of the conversations list in order to emphasize the active ones.",
+    "editYourMessage": ">Edit your message",
+    "email": "Email",
     "error": {
         "uploadConversationPicturesFailed": "Failed to upload conversation picture"
+    },
+    "external": {
+        "login": {
+            "accessMeeting": "To access the meeting",
+            "signIn": "Sign in"
+        }
     },
     "filterChatList": "Filter list chat",
     "forward": "Forward",
@@ -97,23 +154,55 @@
             "forwardedMessageFrom": "Forwarded message from"
         }
     },
+    "header": {
+        "channelInfo": "Channel Info",
+        "contactInfo": "Contact Info",
+        "groupInfo": "Group Info",
+        "instantInfo": "Instant Meeting Info",
+        "spaceInfo": "Space Info"
+    },
+    "input": {
+        "topicOptional": "Optional. It describes the subject matter"
+    },
     "instantMeeting": {
         "continue": "Continue with the old instant meeting",
         "create": "Create a new instant meeting"
     },
     "instantMeetings": "Instant Meetings",
+    "label": {
+        "historyClearedSuccessfully": "History cleared successfully!",
+        "info": "Info"
+    },
+    "leaveAndDeleteConversationModalDescription": "",
+    "leaveAndDeleteConversationModalTitle": "Leave and delete",
     "meeting": {
         "interactions": {
+            "cinemaView": "Cinema View",
             "closeCall": "Close this call",
             "disableAudio": "Disable Audio",
+            "disableFullScreen": "Exit full screen",
+            "disableScreensharing": "Disable ScreenSharing",
             "disableVideo": "Disable Video",
             "enableAudio": "Enable Audio",
+            "enableFullScreen": "Fullscreen",
+            "enableScreenSharing": "Enable ScreenSharing",
             "enableVideo": "Enable Video",
+            "gridView": "Grid View",
+            "hideChat": "Hide Chat",
+            "hideParticipants": "Hide Participants",
+            "muteUser": "Mute",
+            "muteUserForAllDescription": "By muting the user, all the participants won't hear the user anymore. Only muted user can be unmute himself. Proceed?",
+            "muteUserForAllTitle": "Mute for all",
+            "mutedByModerators": "You've been muted by a moderator, unmute yourself to speak",
             "mutedByOthers": "You have been muted",
+            "pinVideo": "Pin video",
+            "showChat": "Show Chat",
+            "showParticipants": "Show Participants",
             "status": {
                 "cameraMicOff": "Your camera and microphone are off",
                 "cameraOff": "Your camera is off"
-            }
+            },
+            "unpinVideo": "Unpin video"
         },
         "startModal": {
             "cancel": "Cancel",
@@ -129,6 +218,21 @@
         "now": "Now",
         "yesterday": "Yesterday"
     },
+    "miniChat": {
+        "header": {
+            "close": "Close",
+            "collapse": "Collapse",
+            "expand": "Expand",
+            "meeting": "Start Meeting",
+            "openInTeam": "Open in Team"
+        }
+    },
+    "modal": {
+        "closedInstantMeeting": "Instant meeting closed",
+        "endCallByOwner": "The owner of the instant meeting has decided to end the call, we hope you enjoined the instant meeting experience"
+    },
+    "moderatorCannotLeaveGroupDescription": "",
+    "moderatorCannotLeaveGroupTitle": "Wait, a new moderator is needed",
     "new": {
         "attendee": {
             "feedback": {
@@ -143,6 +247,8 @@
             }
         }
     },
+    "newMessages": "New Messages",
+    "nickname": "Nickname",
     "notification": {
         "answer": "Answer",
         "conversation": {
@@ -206,6 +312,8 @@
             }
         },
         "newMeeting": "Incoming call from:",
+        "notificationsActivatedForThisChat": "Notifications activated for this chat",
+        "notificationsMutedForThisChat": "Notifications muted for this chat",
         "you": {
             "changed": {
                 "name": {
@@ -253,7 +361,10 @@
             }
         }
     },
+    "otherParticipants": "",
+    "participants": "Participants",
     "placeholder": {
+        "attendeesComing": "Participants are coming",
         "filter": "Type to filter the list",
         "pickAddress": "Start typing to pick an address"
     },
@@ -303,6 +414,7 @@
     },
     "spaces": "Spaces",
     "status": {
+        "guest": "Guest",
         "last_seen": "",
         "offline": "Offline",
         "online": "Online"
@@ -312,6 +424,7 @@
     "treeMenu": {
         "conversations": "Conversations"
     },
+    "undo": "Undo",
     "writing": {
         "generic": {
             "status": "is writing..."
