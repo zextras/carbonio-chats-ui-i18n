@@ -10,4 +10,12 @@ module.exports = function (wpConf, zappConfig, options) {
 		ws: true,
 		secure: false
 	});
+	wpConf.entry['external_app'] = './src/commonTeam/src/external/LoginPage.js';
 };
+
+/*
+* , {
+		context: ['/team/instant-meeting/*'],
+		target: !options.server || options.server === 'none' ? 'http://localhost' : `https://${options.server}`,
+		secure: false
+	}*/

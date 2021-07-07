@@ -9,7 +9,7 @@
  * *** END LICENSE BLOCK *****
  */
 
-import { hooks } from '@zextras/zapp-shell';
+import {getBridgedFunctions, useReplaceHistoryCallback} from '@zextras/zapp-shell';
 import {
 	getChannelPath,
 	getConversationPath,
@@ -21,16 +21,16 @@ import {useCallback} from "react";
 
 const useNavigation = () => {
 
-	const replaceHistoryCallback = hooks.useReplaceHistoryCallback();
+	const replaceHistoryCallback = useReplaceHistoryCallback();
 
-	const routeToMainPath = useCallback(() => replaceHistoryCallback(getMainPath()), [replaceHistoryCallback]);
-	const routeToSpaceList = useCallback(() => replaceHistoryCallback(getPaths().SPACES), [replaceHistoryCallback]);
-	const routeToInstantMeetingList = useCallback(() => replaceHistoryCallback(getPaths().INSTANT_MEETINGS), [replaceHistoryCallback]);
-	const routeToConversationPath = useCallback((conversationId) => replaceHistoryCallback(getConversationPath(conversationId)), [replaceHistoryCallback]);
-	const routeToMeetingPath = useCallback((meetingId) => replaceHistoryCallback(getMeetingPath(meetingId)), [replaceHistoryCallback]);
-	const routeToChannelPath = useCallback((spaceId, channelId) => replaceHistoryCallback(getChannelPath(spaceId, channelId)), [replaceHistoryCallback]);
-	const routeToSpacePath = useCallback((spaceId) => replaceHistoryCallback(getSpacePath(spaceId)), [replaceHistoryCallback]);
-	const routeToMeetingEndedPagePath = useCallback(() => replaceHistoryCallback(getMeetingEndedPagePath()), [replaceHistoryCallback]);
+	const routeToMainPath = useCallback(() => replaceHistoryCallback('/conversations'), [replaceHistoryCallback]);
+	const routeToSpaceList = useCallback(() => replaceHistoryCallback('/spaces'), [replaceHistoryCallback]);
+	const routeToInstantMeetingList = useCallback(() => replaceHistoryCallback('/instantMeetings'), [replaceHistoryCallback]);
+	const routeToConversationPath = useCallback((conversationId) => replaceHistoryCallback(`/conversation/${encodeURIComponent(conversationId)}`), [replaceHistoryCallback]);
+	const routeToMeetingPath = useCallback((meetingId) => replaceHistoryCallback(`/meeting/${encodeURIComponent(meetingId)}`), [replaceHistoryCallback]);
+	const routeToChannelPath = useCallback((spaceId, channelId) => replaceHistoryCallback(`/channel/${encodeURIComponent(spaceId)}/${encodeURIComponent(channelId)}`), [replaceHistoryCallback]);
+	const routeToSpacePath = useCallback((spaceId) => replaceHistoryCallback(`/channel/${encodeURIComponent(spaceId)}/${encodeURIComponent(spaceId)}`), [replaceHistoryCallback]);
+	const routeToMeetingEndedPagePath = useCallback(() => replaceHistoryCallback(`/meetingEndedPage`), [replaceHistoryCallback]);
 
 	return {
 		routeToMainPath,

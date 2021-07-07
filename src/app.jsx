@@ -12,7 +12,8 @@
 import React, { useEffect } from 'react';
 import { filter, find, forEach } from 'lodash';
 import { skipWhile, take } from 'rxjs/operators';
-import { setMainMenuItems, setRoutes, hooks } from '@zextras/zapp-shell';
+import { Switch, Route, useRouteMatch } from 'react-router-dom';
+import {getBridgedFunctions, registerAppData, useUserAccounts} from '@zextras/zapp-shell';
 import {NotificationCenterBloc} from "./commonTeam/src/commonComponents/blocs/NotificationCenterBloc";
 import {ApiClient} from "./commonTeam/src/commonComponents/network/ApiClient";
 import createApiLink from "./commonTeam/src/commonComponents/network/links/rest/apiLink";
@@ -40,9 +41,8 @@ import {simpleMessageBuilder} from "./commonTeam/src/commonComponents/components
 import {fileShareMessageBuilder} from "./commonTeam/src/commonComponents/components/commons/conversation/messages/FileShareMessageBuilder";
 import {serviceNotificationBuilder} from "./commonTeam/src/commonComponents/components/commons/conversation/messages/ServiceNotificationBuilder";
 import {deletedMessageBuilder} from "./commonTeam/src/commonComponents/components/commons/conversation/messages/DeletedMessageBuilder";
-import {writingMessageBuilder} from "./commonTeam/src/commonComponents/components/commons/conversation/messages/WritingMessageBuilder";
-// import ChannelPage from "./commonTeam/src/commonComponents/components/pages/ChannelPage";
-// import MeetingPage from "./commonTeam/src/commonComponents/components/pages/MeetingPage";
+import ChannelPage from "./commonTeam/src/commonComponents/components/pages/ChannelPage";
+import MeetingPage from "./commonTeam/src/commonComponents/components/pages/MeetingPage";
 // import ExternalMeetingPage from "./commonTeam/src/commonComponents/components/pages/ExternalMeetingPage";
 // import ExternalInstantMeetingPage from "./commonTeam/src/commonComponents/components/pages/ExternalInstantMeetingPage";
 
@@ -51,10 +51,13 @@ window.PRODUCT_TYPE = 'zapp-team'; // 'classic-team' | 'external-team
 window.PRODUCT_NAME = 'zimbra-team'
 window.ZIMLET_PACKAGE_NAME = 'com_zimbra_connect_modern';
 window.ZIMLET_VERSION = '0.0.0';
-window.COMMIT_ID = 'blablabla';
+window.COMMIT_ID = 'commitId';
 
 export default function App() {
-	console.log('Hello from zapp-team');
+	console.log(
+		'%c com_zextras_zapp_team launched',
+		'color:#0088C1; font-weight:bold; font-size:1.1rem; padding: 4px'
+	);
 
 	// TODO
 	const context = {};
@@ -79,7 +82,6 @@ export default function App() {
 	const sendFileBloc = new SendFileBloc(apiClient, conversationsListBloc, notificationCenter);
 	const chatWindowListBloc = new ChatWindowListBloc(apiClient, sessionBloc);
 
-	// apiClient.login().then(() => null);
 	apiClient.isConnected.subscribe((isConnected) => {
 		if (isConnected) {
 			conversationsListBloc.init();
@@ -123,49 +125,32 @@ export default function App() {
 	const SpaceList = contextWrapper(<SpaceListPage NotificationPortal={NotificationPortalHandler} MiniVideoPortal={MiniVideoPortalHandler} />);
 	const InstantMeetingList = contextWrapper(<InstantMeetingListPage NotificationPortal={NotificationPortalHandler} MiniVideoPortal={MiniVideoPortalHandler} />);
 	const ConversationPageView = contextWrapper(<ConversationPage NotificationPortal={NotificationPortalHandler} MiniVideoPortal={MiniVideoPortalHandler} />);
-	// const ChannelPageView = contextWrapper(<ChannelPage NotificationPortal={NotificationPortalHandler} MiniVideoPortal={MiniVideoPortalHandler} />);
-	// const MeetingPageView = contextWrapper(<MeetingPage NotificationPortal={NotificationPortalHandler} />);
+	const ChannelPageView = contextWrapper(<ChannelPage NotificationPortal={NotificationPortalHandler} MiniVideoPortal={MiniVideoPortalHandler} />);
+	const MeetingPageView = contextWrapper(<MeetingPage NotificationPortal={NotificationPortalHandler} />);
 	// const ExternalMeetingPageView = contextWrapper(<ExternalMeetingPage />);
 	// const ExternalInstantMeetingPageView = contextWrapper(<ExternalInstantMeetingPage />);
 
 	// const MiniChatPortalHandler = contextWrapper(<MiniChatPortal NotificationPortal={NotificationPortalHandler} />);
 
-	console.log(hooks.useUserAccounts());
+	const { getAccounts } = getBridgedFunctions();
 
-	useEffect(() => {
-		setRoutes([
-			{
-				route: '/team/conversations',
-				view: ConversationList
-			},
-			{
-				route: '/team/spaces',
-				view: SpaceList
-			},
-			{
-				route: '/team/instantMeetings',
-				view: InstantMeetingList
-			},
-			{
-				route: '/team/conversation/:conversationId',
-				view: ConversationPageView
-			},
-			// {
-			// 	route: '/team/meetingEndedPage',
-			// 	view: ExternalMeetingPageView
-			// }
-		]);
-	}, []);
+	console.log(getAccounts());
+	console.log(useUserAccounts());
 
-	setMainMenuItems([
-		{
-		  id: 'team-root',
-		  icon: 'TeamOutline',
-		  to: '/team/conversations',
-		  label: 'Team Home',
-		  items: []
-		}
-	]);
+	const ZappTeamMainView = () => {
+		const { path } = useRouteMatch();
+		return (
+			<Switch>
+				<Route exact path={`${path}`} component={ConversationList} />
+				<Route path={`${path}/conversations`} component={ConversationList} />
+				<Route path={`${path}/spaces`} component={SpaceList} />
+				<Route path={`${path}/instantMeetings`} component={InstantMeetingList} />
+				<Route path={`${path}/conversation/:conversationId`} component={ConversationPageView} />
+				<Route path={`${path}/channel/:spaceId/:channelId`} component={ChannelPageView} />
+				<Route path={`${path}/meeting/:meetingId`} component={MeetingPageView} />
+			</Switch>
+		);
+	};
 
 	apiClient.currentSession.pipe(
 		skipWhile((loginData) => (loginData == null)),
@@ -176,9 +161,17 @@ export default function App() {
 			messageFactory.addMessageBuilder(fileShareMessageBuilder);
 			messageFactory.addMessageBuilder(serviceNotificationBuilder);
 			messageFactory.addMessageBuilder(deletedMessageBuilder);
-			messageFactory.addMessageBuilder(writingMessageBuilder);
 		});
 	apiClient.login().then(() => null);
+
+	useEffect(() => {
+		registerAppData({
+			icon: 'TeamOutline',
+			views: {
+				app: ZappTeamMainView
+			},
+		});
+	}, []);
 
 	return null;
 }
