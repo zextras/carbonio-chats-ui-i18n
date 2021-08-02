@@ -13,7 +13,7 @@ import React, { useEffect } from 'react';
 import { filter, find, forEach } from 'lodash';
 import { skipWhile, take } from 'rxjs/operators';
 import { Switch, Route, useRouteMatch } from 'react-router-dom';
-import {getBridgedFunctions, registerAppData, useUserAccounts} from '@zextras/zapp-shell';
+import { registerAppData } from '@zextras/zapp-shell';
 import {NotificationCenterBloc} from "./commonTeam/src/commonComponents/blocs/NotificationCenterBloc";
 import {ApiClient} from "./commonTeam/src/commonComponents/network/ApiClient";
 import createApiLink from "./commonTeam/src/commonComponents/network/links/rest/apiLink";
@@ -45,13 +45,6 @@ import ChannelPage from "./commonTeam/src/commonComponents/components/pages/Chan
 import MeetingPage from "./commonTeam/src/commonComponents/components/pages/MeetingPage";
 // import ExternalMeetingPage from "./commonTeam/src/commonComponents/components/pages/ExternalMeetingPage";
 // import ExternalInstantMeetingPage from "./commonTeam/src/commonComponents/components/pages/ExternalInstantMeetingPage";
-
-// TODO manage better globals
-window.PRODUCT_TYPE = 'zapp-team'; // 'classic-team' | 'external-team
-window.PRODUCT_NAME = 'zimbra-team'
-window.ZIMLET_PACKAGE_NAME = 'com_zimbra_connect_modern';
-window.ZIMLET_VERSION = '0.0.0';
-window.COMMIT_ID = 'commitId';
 
 export default function App() {
 	console.log(
@@ -85,7 +78,6 @@ export default function App() {
 	apiClient.isConnected.subscribe((isConnected) => {
 		if (isConnected) {
 			conversationsListBloc.init();
-
 			// Matomo initial data about conversations
 			setTimeout(() => {
 				const userId = sessionBloc.userInfo.getValue().id;
@@ -127,15 +119,10 @@ export default function App() {
 	const ConversationPageView = contextWrapper(<ConversationPage NotificationPortal={NotificationPortalHandler} MiniVideoPortal={MiniVideoPortalHandler} />);
 	const ChannelPageView = contextWrapper(<ChannelPage NotificationPortal={NotificationPortalHandler} MiniVideoPortal={MiniVideoPortalHandler} />);
 	const MeetingPageView = contextWrapper(<MeetingPage NotificationPortal={NotificationPortalHandler} />);
+
 	// const ExternalMeetingPageView = contextWrapper(<ExternalMeetingPage />);
 	// const ExternalInstantMeetingPageView = contextWrapper(<ExternalInstantMeetingPage />);
-
 	// const MiniChatPortalHandler = contextWrapper(<MiniChatPortal NotificationPortal={NotificationPortalHandler} />);
-
-	const { getAccounts } = getBridgedFunctions();
-
-	console.log(getAccounts());
-	console.log(useUserAccounts());
 
 	const ZappTeamMainView = () => {
 		const { path } = useRouteMatch();
