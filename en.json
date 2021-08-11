@@ -176,6 +176,13 @@
     "leaveAndDeleteConversationModalDescription": "",
     "leaveAndDeleteConversationModalTitle": "Leave and delete",
     "meeting": {
+        "defaultViewModeDedicatedLabel": "The \"Dedicated Mode” will redirect you to a separated tab of your browser to enjoy the Meeting experience at its best.",
+        "defaultViewModeDedicatedModeLabel": "Dedicated Mode",
+        "defaultViewModeDefaultLabel": "Selecting the \"Default Mode\", the Meeting will start in the current internal environment.",
+        "defaultViewModeDefaultModeLabel": "Default Mode",
+        "defaultViewModeSaveLabel": "Save Option",
+        "defaultViewModeSecondaryDescriptionLabel": "This option will be saved in your settings and can be updated every time you want.",
+        "defaultViewModeTitleModal": "Meetings environment options",
         "interactions": {
             "cinemaView": "Cinema View",
             "closeCall": "Close this call",
