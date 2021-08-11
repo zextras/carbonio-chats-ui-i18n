@@ -73,7 +73,7 @@ export default function App() {
 	const settingsManagerBloc = new SettingsManagerBloc(zimbra);
 	const notificationBloc = new NotificationBloc(serviceWorkerBloc, apiClient, userInfoCacheBloc, sessionBloc, settingsManagerBloc, conversationsListBloc);
 	const sendFileBloc = new SendFileBloc(apiClient, conversationsListBloc, notificationCenter);
-	const chatWindowListBloc = new ChatWindowListBloc(apiClient, sessionBloc);
+	const chatWindowListBloc = new ChatWindowListBloc(sessionBloc);
 
 	apiClient.isConnected.subscribe((isConnected) => {
 		if (isConnected) {
