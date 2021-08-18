@@ -59,8 +59,8 @@
 	},
 	"dependencies": {
 		"@reduxjs/toolkit": "1.4.0",
-		"@zextras/zapp-shell": "^0.1.0-beta.31",
-		"@zextras/zapp-ui": "^0.0.64-beta.10",
+		"@zextras/zapp-shell": "^0.1.0-beta.45",
+		"@zextras/zapp-ui": "^0.1.0-beta.27",
 		"core-js": "3.7.0",
 		"immer": "7.0.14",
 		"lodash": "4.17.20",

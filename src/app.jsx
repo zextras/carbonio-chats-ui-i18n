@@ -75,6 +75,7 @@ export default function App() {
 	const sendFileBloc = new SendFileBloc(apiClient, conversationsListBloc, notificationCenter);
 	const chatWindowListBloc = new ChatWindowListBloc(sessionBloc);
 
+
 	apiClient.isConnected.subscribe((isConnected) => {
 		if (isConnected) {
 			conversationsListBloc.init();
