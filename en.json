@@ -393,17 +393,13 @@
         },
         "notification": {
             "desktop": "Desktop notifications",
-            "spawn": {
-                "label": "Notification time spawn"
-            },
-            "spawn0": "Never disappear",
-            "spawn10": "10 seconds",
-            "spawn3": "3 seconds",
-            "spawn5": "5 seconds",
+            "openMinichatDescription": "Customize your minichats' opening behavior",
             "title": {
-                "hint": "Show message preview in notifications",
-                "minichat": "Open the minified chat as a new message arrives",
-                "notifications": "Notifications"
+                "notifications": "Notifications",
+                "openMinichat": "Open as a new message arrives",
+                "openMinichatForGroup": "Open as a new Group message arrives",
+                "openMinichatForSingle": "Open as a new Single message arrives",
+                "openMinichatForSpace": "Open as a new Space message arrives"
             }
         },
         "notifications": {
