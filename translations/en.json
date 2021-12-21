@@ -6,6 +6,7 @@
         "add": "Add",
         "addChannel": "Add Channel",
         "addMembers": "Add members",
+        "addModerator": "Add moderator",
         "addNewMembers": "Add new members",
         "addNewMembersTo": "Add new members to",
         "confirm": {
@@ -18,21 +19,30 @@
             "removeBuddy": "Are you sure you want to remove this buddy?"
         },
         "deleteChannel": "Delete channel",
+        "deleteRoom": "Delete Room",
         "deleteSpace": "Delete space",
         "instantMeetingAlreadyRunningText": "Creating a new one will overwrite the older one and your attendee will lost the connection, what would you do?",
         "instantMeetingAlreadyRunningTitle": "An instant meeting is already running",
         "joinChannel": "Join the channel to send messages and to receive notifications",
         "joinChannelAction": "Join channel",
+        "joinRoom": "Join Room",
         "leaveChannel": "Leave channel",
         "leaveGroup": "Leave group",
         "leaveSpace": "Leave space",
         "muteNotifications": "Mute notifications",
         "removeBuddy": "Remove buddy",
+        "resetLink": "Reset Link",
+        "roomLink": "Room's Link",
         "scrollToNewMessage": "",
         "scrollToTheBottom": "",
         "selectMoreParticipantsForInstantMeetings": "Select a participant from the list or type the address to add an external user",
-        "selectOneOrMoreUsers": "Select one or more users",
-        "showPreviousConversationHistory": "Show previous conversation history"
+        "selectOneOrMoreUsers": "Select one or more users"
+    },
+    "activeMeetingRooms": "Active Meeting Rooms",
+    "addModeratorModalDescription": "Select one or more users to promote them to moderators of this Room",
+    "addModeratorModalTitle": "Add moderators",
+    "addModerators": {
+        "placeholder": "Add other moderators"
     },
     "appVersion": "App version",
     "appVersionCopied": "App version copied",
@@ -40,9 +50,11 @@
         "clearHistory": "Clear History",
         "create": "Create",
         "delete": "Delete",
+        "goToGuide": "Go to the guide",
         "join": "Join",
         "leave": "Leave",
         "no": "No",
+        "plan": "Plan",
         "remove": "Remove",
         "yes": "Yes"
     },
@@ -51,15 +63,24 @@
     },
     "cancel": "Cancel",
     "chats": "Chats",
+    "connection": {
+        "offline": "It seems to be a server connection issue",
+        "online": "Back online!",
+        "retryConnection": "Retry connection",
+        "tryAReconnectionIn": ""
+    },
     "conversationsList": {
         "noActiveChats": "There aren't active Chats at the moment. Create a new Chat or switch tab.",
         "noActiveInstantMeetings": "There aren't active Instant Meetings at the moment. Create a new Instant meeting or switch tab.",
+        "noActiveMeetings": "There aren't active Rooms at the moment",
         "noActiveSpaces": "There aren't active Spaces at the moment. Create a new space or switch tab.",
         "noFilteredChats": "There aren't Chats that correspond to this filter.",
         "noFilteredInstantMeetings": "There aren't Instant Meetings that correspond to this filter.",
+        "noFilteredMeetings": "There aren't Rooms or planned meetings that match this filter",
         "noFilteredSpaces": "There aren't Spaces that correspond to this filter."
     },
     "copyAppVersion": "Copy app version",
+    "copyUserRoomTooltip": "Copy your Personal Room Link",
     "create": {
         "channel": "",
         "chat": "Create Chat",
@@ -119,6 +140,7 @@
     "deleteMessageModal": {
         "description": "When deleting a message, it won't be visibile anymore to you and all other recipients"
     },
+    "deleteRoomModalDescription": "Are you sure you want to delete the Room?",
     "deletedMessage": "Deleted message",
     "description": {
         "members": {
@@ -128,14 +150,13 @@
     },
     "descriptionHistoryClearedInfo": "This conversation is now empty, it has been moved on the bottom of the conversations list in order to emphasize the active ones.",
     "editYourMessage": ">Edit your message",
-    "email": "Email",
+    "enterYourRoomTooltip": "Enter your Personal Room",
     "error": {
         "uploadConversationPicturesFailed": "Failed to upload conversation picture"
     },
     "external": {
-        "login": {
-            "accessMeeting": "To access the meeting",
-            "signIn": "Sign in"
+        "waiting": {
+            "userJoinedWaitingRoom": "There seems to be someone in the waiting room"
         }
     },
     "filterChatList": "Filter list chat",
@@ -159,11 +180,13 @@
         "contactInfo": "Contact Info",
         "groupInfo": "Group Info",
         "instantInfo": "Instant Meeting Info",
+        "roomInfo": "Room's info",
         "spaceInfo": "Space Info"
     },
     "input": {
         "topicOptional": "Optional. It describes the subject matter"
     },
+    "inputRoomTitle": "Room's name*",
     "instantMeeting": {
         "continue": "Continue with the old instant meeting",
         "create": "Create a new instant meeting"
@@ -203,6 +226,7 @@
             "mutedByModerators": "You've been muted by a moderator, unmute yourself to speak",
             "mutedByOthers": "You have been muted",
             "pinVideo": "Pin video",
+            "shortCutLabel": "(C)",
             "showChat": "Show Chat",
             "showParticipants": "Show Participants",
             "status": {
@@ -211,8 +235,9 @@
             },
             "unpinVideo": "Unpin video"
         },
+        "resetMeetingUrlModalDescription": "",
+        "roomLinkTooltip": "Copy this link to share the Room",
         "startModal": {
-            "cancel": "Cancel",
             "description": "How do you want to enter the meeting?",
             "enter": "Enter",
             "noVideoAndAudio": "Camera off, Microphone on",
@@ -221,6 +246,8 @@
             "videoAndNoAudio": "Camera on, Microphone off"
         }
     },
+    "meetingLinkCopied": "Room's link copied",
+    "meetingRooms": "Meeting Rooms",
     "message": {
         "now": "Now",
         "yesterday": "Yesterday"
@@ -234,6 +261,8 @@
             "openInTeam": "Open in Team"
         }
     },
+    "mockDisplayDescription": "Choose a conversation to start a chat",
+    "mockDisplayTitle": "Let's keep in touch!",
     "modal": {
         "closedInstantMeeting": "Instant meeting closed",
         "endCallByOwner": "The owner of the instant meeting has decided to end the call, we hope you enjoined the instant meeting experience"
@@ -255,14 +284,17 @@
         }
     },
     "newMessages": "New Messages",
-    "nickname": "Nickname",
+    "notShowAgain": "Do not show this again",
     "notification": {
         "answer": "Answer",
         "conversation": {
             "created": ""
         },
         "dismiss": "Dismiss",
+        "invitationToPersonalRoom": "Invitation to Personal Room from:",
+        "join": "Join",
         "meeting": {
+            "ended": "Meeting ended",
             "endedAtTime": "Meeting ended at ",
             "startedAtTime": "Meeting started at "
         },
@@ -354,7 +386,8 @@
                 "channel": "",
                 "group": "",
                 "instantMeeting": "",
-                "space": ""
+                "space": "",
+                "userRoom": ""
             },
             "kicked": {
                 "channel": "",
@@ -370,11 +403,21 @@
     },
     "otherParticipants": "",
     "participants": "Participants",
+    "personalRoom": "Personal Room",
     "placeholder": {
         "attendeesComing": "Participants are coming",
         "filter": "Type to filter the list",
         "pickAddress": "Start typing to pick an address"
     },
+    "planMeeting": {
+        "action": "Plan a meeting",
+        "description": "Room's name helps the attendees to know the Room's matter of discussion."
+    },
+    "planMeetingTooltip": "Plan a meeting",
+    "roomLinkCopied": "Room's link copied",
+    "roomsFunctionalitiesChangelog": "We have made important changes to the meeting functionalities. Read the introduction to the Rooms to find out more!",
+    "save": "Save",
+    "scheduledMeetings": "Scheduled Meetings",
     "selection": {
         "participants": {
             "many": "",
@@ -386,7 +429,10 @@
             "description": "Set your audio and video preferences to enter in meetings. You'll can always customize your preferences before entering in every meeting.",
             "enableCamera": "Enable camera",
             "enableMicrophone": "Enable microphone",
-            "meetings": "Meetings"
+            "meetings": "Meetings",
+            "personalRoomOptionsTitleModal": "Personal Room's link reset",
+            "personalRoomResetButton": "Reset Personal Room's link",
+            "personalRoomResetDescription": "By resetting Personal Room's link, all the previously given accesses will not work anymore."
         },
         "modal": {
             "description": "Here you can set all Team's dedicated preferences in order to enjoy a complete customized chatting experience!"
@@ -407,27 +453,72 @@
         },
         "profile": {
             "chooseAProfilePic": "Choose a profile pic to let other users see, the image will be centered automatically.",
+            "errorGenericResponse": "Something went wrong. Please retry",
             "maximumDimension": "Maximum dimension: 256kb.",
             "reset": "Reset",
             "restore": "Restore",
             "statusOptionalDescription": "Optional. Let others now what are you thinking about. Max lenght: 256 characters",
             "title": "Profile",
             "update": "Update"
+        },
+        "resetPersonalRoomLinkSuccess": "Personal Room's link was reset",
+        "team": {
+            "title": "Settings"
         }
     },
     "spaces": "Spaces",
     "status": {
-        "guest": "Guest",
+        "externalGuest": "External guest",
+        "internalGuest": "Internal guest",
         "last_seen": "",
         "offline": "Offline",
-        "online": "Online"
+        "online": "Online",
+        "waitingToEnter": "Waiting to enter"
     },
+    "teamNews": "Team's News",
     "title": "Title",
+    "tooltip": {
+        "acceptQueuedMember": "Let user in",
+        "addFile": "Add file",
+        "cancelFilter": "Cancel filter",
+        "chooseFile": "Choose file",
+        "close": "Close",
+        "closeSearch": "Close search",
+        "collapseChannel": "Collapse channels",
+        "downgradeModerator": "Downgrade Moderator",
+        "editDescription": "Edit description",
+        "editInfo": "Edit info",
+        "enterMeetingRoom": "Open Minichat",
+        "goToPrivateChat": "Go to private chat",
+        "inviteToPersonalRoom": "Invite to your Personal Room",
+        "messageComposer": "Message composer",
+        "openMinichat": "Open Minichat",
+        "promoteModerator": "Promote to Moderator",
+        "rejectQueuedMember": "Reject user",
+        "removeFile": "Remove file",
+        "removeMember": "Remove member",
+        "searchForParticipant": "Search for participant",
+        "selectEmoji": "Select emoji",
+        "sendFile": "Send file",
+        "sendMessage": "Send message",
+        "showChannels": "Show channels",
+        "switchToConversation": "Switch to conversation",
+        "switchToInfoPanel": "Switch to info panel"
+    },
     "topic": "Topic",
     "treeMenu": {
         "conversations": "Conversations"
     },
     "undo": "Undo",
+    "usernameRoom": "",
+    "waitingRoom": "Waiting Room",
+    "widget": {
+        "meetingUrl": {
+            "description": "Copy this link and share it to provide others with access to this Room.",
+            "title": ""
+        },
+        "speakersCorner": "Speaker's corner"
+    },
     "writing": {
         "generic": {
             "status": "is writing..."
@@ -439,5 +530,6 @@
             "plural": "are writing..."
         }
     },
-    "you": "You"
+    "you": "You",
+    "yourRoom": "Your Room"
 }
