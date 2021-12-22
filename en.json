@@ -47,7 +47,7 @@
     "appVersion": "App version",
     "appVersionCopied": "App version copied",
     "button": {
-        "clearHistory": "Clear History",
+        "clearHistory": "Clear history",
         "create": "Create",
         "delete": "Delete",
         "goToGuide": "Go to the guide",
@@ -488,7 +488,7 @@
         "downgradeModerator": "Downgrade Moderator",
         "editDescription": "Edit description",
         "editInfo": "Edit info",
-        "enterMeetingRoom": "Open Minichat",
+        "enterMeetingRoom": "Start meeting",
         "goToPrivateChat": "Go to private chat",
         "inviteToPersonalRoom": "Invite to your Personal Room",
         "messageComposer": "Message composer",
