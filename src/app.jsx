@@ -122,13 +122,13 @@ const contextWrapper = provideContexts(
 const NotificationPortalHandler = contextWrapper(<NotificationPortal />);
 const MiniVideoPortalHandler = contextWrapper(<MiniVideoPortal />);
 
-const ConversationList = contextWrapper(<ConversationListPage NotificationPortal={NotificationPortalHandler} MiniVideoPortal={MiniVideoPortalHandler} />);
-const SpaceList = contextWrapper(<SpaceListPage NotificationPortal={NotificationPortalHandler} MiniVideoPortal={MiniVideoPortalHandler} />);
-const InstantMeetingList = contextWrapper(<InstantMeetingListPage NotificationPortal={NotificationPortalHandler} MiniVideoPortal={MiniVideoPortalHandler} />);
-const ConversationPageView = contextWrapper(<ConversationPage NotificationPortal={NotificationPortalHandler} MiniVideoPortal={MiniVideoPortalHandler} />);
-const ChannelPageView = contextWrapper(<ChannelPage NotificationPortal={NotificationPortalHandler} MiniVideoPortal={MiniVideoPortalHandler} />);
-const MeetingPageView = contextWrapper(<MeetingPage NotificationPortal={NotificationPortalHandler} />);
-const ScheduledMeetingPageView = contextWrapper(<ScheduledMeetingPage NotificationPortal={NotificationPortalHandler} MiniVideoPortal={MiniVideoPortalHandler} />);
+const ConversationList = contextWrapper(<ConversationListPage MiniVideoPortal={MiniVideoPortalHandler} />);
+const SpaceList = contextWrapper(<SpaceListPage MiniVideoPortal={MiniVideoPortalHandler} />);
+const InstantMeetingList = contextWrapper(<InstantMeetingListPage MiniVideoPortal={MiniVideoPortalHandler} />);
+const ConversationPageView = contextWrapper(<ConversationPage MiniVideoPortal={MiniVideoPortalHandler} />);
+const ChannelPageView = contextWrapper(<ChannelPage MiniVideoPortal={MiniVideoPortalHandler} />);
+const MeetingPageView = contextWrapper(<MeetingPage />);
+const ScheduledMeetingPageView = contextWrapper(<ScheduledMeetingPage MiniVideoPortal={MiniVideoPortalHandler} />);
 const ExternalMeetingPageView = contextWrapper(<ExternalMeetingPage />);
 const ExternalInstantMeetingPageView = contextWrapper(<AccessToMeetingPage />);
 // const WaitingRoomPageView = contextWrapper(<WaitingRoomPage />);
@@ -174,5 +174,5 @@ export default function App() {
 		});
 	}, []);
 
-	return null;
+	return <NotificationPortalHandler />;
 }
