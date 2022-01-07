@@ -70,6 +70,17 @@
         "instantInfo": "Anlık Toplantı Bilgisi",
         "name": "Ad",
         "nameRoom": "{{conversationTitle}} Odası",
-        "fileUploadDescription": "Dosya Tanımı"
+        "fileUploadDescription": "Dosya Tanımı",
+        "newMessages": "Yeni Mesajlar",
+        "roomLinkDescription": "Başkalarının bu Oda'ya erişimini sağlamak için bağlantıyı kopyalayıp paylaşın.",
+        "roomName": "Oda adı",
+        "spaceInfo": "Konu Bilgisi",
+        "speakersCorner": "Konuşmacı köşesi",
+        "title": "Başlık",
+        "topic": "Konu tanımı"
+    },
+    "conversations": {
+        "activeMeetingRooms": "Aktif Toplantı Odaları",
+        "chats": "Sohbetler"
     }
 }
