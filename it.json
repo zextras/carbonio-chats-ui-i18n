@@ -1,1 +1,6 @@
-{}
+{
+    "action": {
+        "add": "Aggiungi",
+        "activateNotifications": "Abilita notifiche"
+    }
+}
