@@ -1,6 +1,9 @@
 {
     "action": {
         "add": "Aggiungi",
-        "activateNotifications": "Abilita notifiche"
+        "activateNotifications": "Abilita notifiche",
+        "addChannel": "Aggiungi Canale",
+        "addMembers": "Aggiungi partecipanti",
+        "reply": "Rispondi"
     }
 }
