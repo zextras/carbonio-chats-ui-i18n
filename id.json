@@ -1,1 +1,369 @@
-{}
+{
+    "action": {
+        "activateNotifications": "Aktifkan notifikasi",
+        "add": "Tambahkan",
+        "addChannel": "Tambahkan Channel",
+        "addMembers": "Tambahkan anggota",
+        "addModerator": "Tambahkan moderator",
+        "addModerators": "Tambahkan moderator",
+        "addNewMembers": "Tambahkan anggota baru",
+        "addNewMembersTo": "Tambahkan anggota baru ke",
+        "addOtherModerators": "Tambahkan moderator lain",
+        "clearHistory": "Bersihkan Riwayat",
+        "close": "Tutup",
+        "collapse": "Ciutkan",
+        "copy": "Salin",
+        "copyAppVersion": "Salin versi aplikasi",
+        "create": "Buat",
+        "createChannel": "Buat Saluran ditautkan ke {{spaceName}}",
+        "createChat": "Buat Obrolan",
+        "createGroup": "Buat Grup",
+        "createInstantMeeting": "Buat Rapat Instan",
+        "createSpace": "Buat Ruang",
+        "delete": "Hapus",
+        "deleteChannel": "Hapus Saluran",
+        "deleteRoom": "Hapus Ruang",
+        "deleteSpace": "Hapus Ruang",
+        "edit": "Edit",
+        "editYourMessage": "Edit pesan Anda",
+        "expand": "Perluas",
+        "forward": "Teruskan",
+        "join": "Bergabung",
+        "joinChannel": "Gabung ke Saluran untuk mengirim pesan dan menerima notifikasi",
+        "joinChannelAction": "Gabung ke Saluran",
+        "joinRoom": "Gabung ke Ruang",
+        "leave": "Keluar",
+        "leaveAndDelete": "Keluar dan hapus",
+        "leaveChannel": "Keluar dari Saluran",
+        "leaveSpace": "Keluar dari Space",
+        "muteNotifications": "Matikan notifikasi",
+        "openInTeam": "Buka di Team",
+        "plan": "Rencana",
+        "remove": "Hapus",
+        "reply": "Balas",
+        "replyToSomeone": "Balas ke",
+        "replyToYourself": "Balas ke diri sendiri",
+        "scrollToNewMessage": "Gulir ke pesan baru",
+        "scrollToTheBottom": "Gulir ke bawah",
+        "startMeeting": "Mulai Rapat"
+    },
+    "creation": {
+        "selectMoreParticipantsForInstantMeetings": "Pilih peserta dari daftar atau ketik alamat untuk menambahkan pengguna eksternal",
+        "attendeeAdded": "Peserta ditambahkan ke daftar",
+        "channel": {
+            "mainDescription": "Saluran adalah obrolan topik yang terdefinisi dengan baik yang dimasukkan ke dalam Ruang. Peserta Ruang dapat bergabung dengan Saluran untuk berdiskusi secara aktif tentang topiknya. Peserta juga dapat meninggalkan Saluran tanpa meninggalkan Ruang.",
+            "setImageAndTitleDescription": "Atur gambar agar lebih mengenal Saluran di dalam Ruang hosting. Gambar Saluran juga dapat ditetapkan atau diubah di panel info Saluran.",
+            "titleInputRequirements": "Maksimal 140 karakter. Judul harus unik di dalam Space hosting",
+            "topicInputExplanation": "Topik mendeskripsikan subjek Saluran"
+        },
+        "group": {
+            "addParticipantsDescription": "Undang peserta dengan mengetik nama atau alamat emailnya. Anda harus mengundang minimal dua peserta lainnya, atau Anda dapat membuat Obrolan.",
+            "groupWithoutNameAddParticipant": "Tambahkan peserta ke Grup Anda",
+            "inputTopicDescriptionLabel": "Nama tersebut mendeskripsikan subjek Grup",
+            "setImageAndTopicDescription": "Atur gambar yang akan membantu pengguna mengidentifikasi Grup dalam salah satu yang ada di daftar."
+        },
+        "instantMeeting": {
+            "addAttendees": "Tambahkan peserta ke Rapat Instan Anda",
+            "addAttendeesDescription": "Undang peserta dengan mengetik nama atau alamat emailnya di sini.",
+            "addAttendeesInputExplanation": "Anda dapat mengundang pengguna eksternal hanya dengan mengetik alamat emailnya.",
+            "attendee": {
+                "feedback": {
+                    "negative": "Email yang dimasukkan bukan email valid. Harap masukkan email yang valid",
+                    "neutral": "Pilih satu atau beberapa peserta"
+                }
+            }
+        },
+        "limitOfParticipantReached": "Anda telah mencapai batas peserta yang ditetapkan oleh administrator",
+        "nameMax140Characters": "Maksimal 140 karakter",
+        "nameNeeds2Letters": "Nama membutuhkan setidaknya dua huruf",
+        "nameRequired": "Nama wajib diisi",
+        "participants": {
+            "feedback": {
+                "neutral": "Pilih dua peserta atau lebih"
+            }
+        },
+        "requiresOneMoreParticipant": "Butuh setidaknya satu peserta lagi",
+        "requiresTwoOthers": "Butuh setidaknya 2 lainnya",
+        "selectOneOrMoreUsers": "Pilih satu atau beberapa pengguna",
+        "space": {
+            "spaceWithoutNameAddParticipant": "Tambahkan peserta ke Ruang Anda",
+            "topicDescription": "Karena Ruang berisi obrolan yang terkait dengan topik yang dibahas, topik yang lebih mendeskripsikan subjek direkomendasikan.",
+            "topicInputExplanation": "Topik mendeskripsikan subjek Ruang"
+        },
+        "startTypingToPick": "Mulai mengetik untuk memilih alamat",
+        "topicMax255Characters": "Maksimal 255 karakter",
+        "topicOptional": "Opsional. Ini mendeskripsikan pokok bahasan",
+        "typeToFilter": "Ketik untuk memfilter daftar",
+        "typeWithNameAddParticipant": "Tambahkan peserta ke",
+        "youCanInviteOther": "Anda dapat mengundang {{limit}} peserta lain"
+    },
+    "notification": {
+        "incomingCall": "Panggilan masuk dari:",
+        "answer": "Terima",
+        "dismiss": "Tolak"
+    },
+    "tooltip": {
+        "sendMessage": "Kirim pesan",
+        "close": "Tutup",
+        "copyRoomLink": "Salin tautan ini untuk berbagi Ruang",
+        "copyRoomLinkTooltip": "Salin tautan ini untuk berbagi Ruang",
+        "editDescription": "Edit deskripsi",
+        "enterYourRoom": "Masukkan Ruang Pribadi",
+        "enterYourRoomTooltip": "Masukkan Ruang Pribadi",
+        "errorUpdatingAvatarStatus": "Terjadi masalah saat menetapkan status. Harap coba lagi",
+        "errorUploadingAvatarPicture": "Terjadi masalah saat mengunggah avatar baru. Harap coba lagi",
+        "errorRemovingAvatarPicture": "Terjadi masalah saat menghapus avatar. Harap coba lagi"
+    },
+    "appVersion": "Versi aplikasi",
+    "button": {
+        "cancel": "Batal",
+        "no": "Tidak",
+        "ok": "Ok",
+        "save": "Simpan",
+        "undo": "Batalkan",
+        "yes": "Ya"
+    },
+    "conversation": {
+        "channelInfo": "Info Saluran",
+        "contactInfo": "Info Kontak",
+        "groupInfo": "Info Grup",
+        "info": "Info",
+        "instantInfo": "Info Rapat Instan",
+        "name": "Nama",
+        "nameRoom": "Ruang {{conversationTitle}}",
+        "newMessages": "Pesan Baru",
+        "roomLinkDescription": "Salin tautan ini dan bagikan untuk memberikan orang lain akses ke Ruang ini.",
+        "spaceInfo": "Info Ruang",
+        "speakersCorner": "Pojok pembicara",
+        "title": "Judul",
+        "topic": "Topik"
+    },
+    "conversations": {
+        "activeMeetingRooms": "Ruang Rapat Aktif",
+        "chats": "Obrolan",
+        "conversations": "Percakapan",
+        "instantMeetings": "Rapat Instan",
+        "meetingRooms": "Ruang Rapat",
+        "noActiveInstantMeetings": "Tidak ada Rapat Instan aktif untuk saat ini. Buat Rapat Instan baru atau beralih tab.",
+        "noActiveMeetings": "Tidak ada Ruang aktif untuk saat ini",
+        "noActiveSpaces": "Tidak ada Ruang aktif untuk saat ini. Buat Ruang baru atau beralih tab.",
+        "noFilteredInstantMeetings": "Tidak ada Rapat Instan yang sesuai filter ini.",
+        "noFilteredMeetings": "Tidak ada Ruang atau rapat terencana yang cocok dengan filter ini",
+        "noFilteredSpaces": "Tidak ada Ruang yang sesuai filter ini.",
+        "personalRoom": "Ruang Pribadi",
+        "scheduledMeetings": "Rapat Terjadwal",
+        "spaces": "Ruang",
+        "spaceGeneralChannel": "Umum",
+        "yourRoom": "Ruang Anda"
+    },
+    "feedback": {
+        "historyClearedSuccessfully": "Riwayat berhasil dihapus!",
+        "notificationsActivatedForThisChat": "Notifikasi diaktifkan untuk obrolan ini",
+        "notificationsMutedForThisChat": "Notifikasi dimatikan untuk obrolan ini",
+        "online": "Kembali online!",
+        "retryConnection": "Coba lagi koneksi",
+        "uploadConversationPicturesFailed": "Gagal mengunggah gambar percakapan"
+    },
+    "meeting": {
+        "attendeesComing": "Peserta mulai hadir",
+        "defaultViewModeDedicatedModeLabel": "Mode Khusus",
+        "defaultViewModeDefaultModeLabel": "Mode Default",
+        "defaultViewModeSecondaryDescriptionLabel": "Opsi ini akan disimpan di pengaturan Anda dan bisa diperbarui kapan saja.",
+        "interactions": {
+            "cinemaView": "Tampilan Sinema",
+            "closeCall": "Tutup panggilan ini",
+            "disableAudio": "Nonaktifkan Audio",
+            "disableFullScreen": "Keluar dari layar penuh",
+            "disableVideo": "Nonaktifkan Video",
+            "enableAudio": "Aktifkan Audio",
+            "enableVideo": "Aktifkan Video",
+            "gridView": "Tampilan Kisi",
+            "hideChat": "Sembunyikan Obrolan",
+            "hideParticipants": "Sembunyikan Peserta",
+            "muteUser": "Bisukan audio",
+            "muteUserForAllTitle": "Matikan untuk semua",
+            "mutedByModerators": "Suara Anda dimatikan oleh moderator. Nyalakan suara Anda sendiri untuk berbicara",
+            "mutedByOthers": "Suara Anda dimatikan",
+            "pinVideo": "Sematkan video",
+            "shortCutLabel": "(C)",
+            "showChat": "Tampilkan Obrolan",
+            "showParticipants": "Tampilkan Peserta",
+            "status": {
+                "cameraMicOff": "Kamera dan mikrofon Anda nonaktif",
+                "cameraOff": "Kamera Anda nonaktif"
+            },
+            "unpinVideo": "Lepas pin video"
+        },
+        "startModal": {
+            "description": "Bagaimana cara yang Anda inginkan untuk masuk ke rapat?",
+            "enter": "Masuk",
+            "noVideoAndAudio": "Kamera nonaktif, Mikrofon nonaktif",
+            "noVideoAndNoAudio": "Kamera nonaktif, Mikrofon nonaktif",
+            "videoAndAudio": "Kamera aktif, Mikrofon aktif",
+            "videoAndNoAudio": "Kamera aktif, Mikrofon nonaktif"
+        }
+    },
+    "message": {
+        "deletedMessage": "Pesan yang dihapus",
+        "edited": "diedit",
+        "forwarded": "diteruskan",
+        "now": "Sekarang",
+        "service": {
+            "meeting": {
+                "ended": "Rapat berakhir"
+            },
+            "member": {
+                "changed": {
+                    "name": {
+                        "channel": "{{member_name}} telah mengganti nama Saluran dalam {{name}}",
+                        "space": "{{member_name}} telah mengganti nama Ruang dalam {{name}}"
+                    },
+                    "picture": {
+                        "channel": "{{member_name}} telah mengganti gambar Saluran",
+                        "space": "{{member_name}} telah mengganti gambar Ruang"
+                    },
+                    "topic": {
+                        "channel": "{{member_name}} telah mengganti topik Saluran dalam {{topic}}",
+                        "space": "{{member_name}} telah mengganti topik Ruang dalam {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "{{member_name}} telah membuat Saluran",
+                    "space": "{{member_name}} telah membuat Ruang"
+                },
+                "deleted": {
+                    "channel": "{{member_name}} telah menghapus Saluran",
+                    "instantMeeting": "{{member_name}} telah menghapus Rapat Instan",
+                    "space": "{{member_name}} telah menghapus Ruang"
+                },
+                "invited": "{{member_name}} telah diundang oleh {{invited_by}}",
+                "join": {
+                    "channel": "{{member_name}} telah bergabung dengan Saluran"
+                },
+                "kicked": {
+                    "channel": "{{member_name}} telah dikeluarkan dari Saluran oleh {{kicked_by}}",
+                    "group": "{{member_name}} telah dihapus dari Grup oleh {{kicked_by}}",
+                    "space": "{{member_name}} telah dikeluarkan dari Ruang oleh {{kicked_by}}"
+                },
+                "left": {
+                    "channel": "{{member_name}} telah keluar Saluran",
+                    "space": "{{member_name}} telah keluar Ruang"
+                },
+                "you": {
+                    "invited": "Anda telah mengundang {{member_name}}"
+                }
+            },
+            "newMeeting": "Panggilan masuk dari:",
+            "notificationsActivatedForThisChat": "Notifikasi diaktifkan untuk obrolan ini",
+            "notificationsMutedForThisChat": "Notifikasi dimatikan untuk obrolan ini",
+            "you": {
+                "changed": {
+                    "name": {
+                        "channel": "Anda telah mengganti nama Channel dalam {{name}}",
+                        "space": "Anda telah mengganti nama Ruang dalam {{name}}"
+                    },
+                    "picture": {
+                        "channel": "Anda telah mengganti gambar Saluran",
+                        "space": "Anda telah mengganti nama Ruang"
+                    },
+                    "topic": {
+                        "channel": "Anda telah mengganti topik Saluran dalam {{topic}}",
+                        "space": "Anda telah mengganti topik Ruang dalam {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "Anda telah membuat Saluran",
+                    "space": "Anda telah membuat Ruang"
+                },
+                "deleted": {
+                    "channel": "Anda telah menghapus Saluran",
+                    "instantMeeting": "Anda telah menghapus Rapat Instan",
+                    "space": "Anda telah menghapus Ruang"
+                },
+                "invited": "Anda telah diundang oleh {{invited_by}}",
+                "join": {
+                    "channel": "Anda telah bergabung dengan Saluran",
+                    "instantMeeting": "Anda telah bergabung dengan Rapat Instan",
+                    "space": "Anda telah bergabung dengan Ruang",
+                    "userRoom": "Anda telah bergabung ke Ruang"
+                },
+                "kicked": {
+                    "channel": "Anda telah dikeluarkan dari Saluran oleh {{kicked_by}}",
+                    "group": "Anda telah dihapus dari Grup oleh {{kicked_by}}",
+                    "space": "Anda telah dikeluarkan dari Ruang oleh {{kicked_by}}"
+                },
+                "left": {
+                    "channel": "Anda keluar dari Channel",
+                    "space": "Anda telah keluar dari Ruang"
+                }
+            }
+        },
+        "readBy": "Dibaca oleh",
+        "yesterday": "Kemarin"
+    },
+    "modal": {
+        "addModeratorDescription": "Pilih satu atau beberapa pengguna untuk mempromosikan mereka menjadi moderator Ruang ini",
+        "clearHistoryDescription": "Percakapan ini kosong. Percakapan telah dipindahkan di bagian bawah daftar percakapan agar mengutamakan percakapan aktif.",
+        "confirm": {
+            "areYouSure": "Apakah Anda yakin?",
+            "clearHistory": "Anda akan menghapus riwayat obrolan secara permanen. Riwayat obrolan peserta lain tidak akan dihapus. Tindakan ini tidak dapat dibatalkan.",
+            "leaveAndDeleteConversation": "Anda yakin ingin keluar dan menghapus {{conversationName}}?"
+        },
+        "forwardModal": {
+            "forwardedMessageFrom": "Pesan terusan dari",
+            "selectOneOrMoreConversations": "Pilih satu atau beberapa percakapan",
+            "typeToFilterTheList": "Ketik untuk memfilter daftar"
+        },
+        "instantMeeting": {
+            "closedInstantMeeting": "Rapat Instan ditutup",
+            "continue": "Lanjutkan dengan Rapat Instan lama",
+            "create": "Buat Rapat Instan baru"
+        },
+        "moderatorCannotLeaveGroupDescription": "Anda satu-satunya moderator {{conversationName}}. Harap ajukan orang lain sebagai moderator sebelum keluar dari Grup.",
+        "moderatorCannotLeaveGroupTitle": "Tunggu, perlu moderator baru",
+        "showPreviousConversationHistory": "Tampilkan riwayat percakapan sebelumnya"
+    },
+    "people": {
+        "manyMembers": "{{membersCount}} anggota",
+        "me": "Saya",
+        "oneParticipant": "Satu peserta",
+        "otherParticipants": "{{numberParticipants}} peserta lain",
+        "participants": "Peserta",
+        "you": "Anda"
+    },
+    "settings": {
+        "meeting": {
+            "enableCamera": "Aktifkan kamera",
+            "enableMicrophone": "Aktifkan mikrofon",
+            "meetings": "Rapat",
+            "personalRoomOptionsTitleModal": "Reset tautan Ruang Pribadi",
+            "personalRoomResetButton": "Reset tautan Ruang Pribadi"
+        },
+        "notification": {
+            "desktop": "Notifikasi Desktop",
+            "openMinichatDescription": "Sesuaikan perilaku membuka chat mini Anda",
+            "title": {
+                "notifications": "Notifikasi",
+                "openMinichat": "Buka saat pesan baru masuk",
+                "openMinichatForGroup": "Buka saat satu pesan grup baru masuk",
+                "openMinichatForSingle": "Buka saat satu pesan baru masuk",
+                "openMinichatForSpace": "Buka saat satu pesan space baru masuk"
+            }
+        },
+        "profile": {
+            "errorGenericResponse": "Terjadi kesalahan. Harap coba lagi",
+            "reset": "Atur ulang",
+            "restore": "Pulihkan",
+            "statusOptionalDescription": "Opsional. Beri tahu orang lain apa yang Anda pikirkan. Panjang maks: 256 karakter",
+            "title": "Profil",
+            "update": "Perbarui"
+        },
+        "title": "Setelan"
+    },
+    "status": {
+        "lastSeen": "Terakhir dilihat {{lastSeen}}",
+        "offline": "Offline",
+        "online": "Online",
+        "userStatus": "Status"
+    }
+}
