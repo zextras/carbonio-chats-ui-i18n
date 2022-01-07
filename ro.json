@@ -1,1 +1,41 @@
-{}
+{
+    "action": {
+        "add": "Adauga",
+        "close": "Inchide",
+        "copy": "Copiaza",
+        "delete": "Sterge",
+        "edit": "Editeaza"
+    },
+    "button": {
+        "cancel": "Anulare",
+        "ok": "O.k",
+        "save": "Salvați",
+        "yes": "Da"
+    },
+    "conversation": {
+        "info": "Informatii",
+        "name": "Nume"
+    },
+    "people": {
+        "me": "Eu",
+        "you": "Tu"
+    },
+    "settings": {
+        "notification": {
+            "title": {
+                "notifications": "Notificări"
+            }
+        },
+        "profile": {
+            "restore": "Restaurare"
+        },
+        "title": "Configurari"
+    },
+    "status": {
+        "offline": "Deconectat",
+        "userStatus": "Status"
+    },
+    "tooltip": {
+        "close": "Inchide"
+    }
+}
