@@ -4,6 +4,10 @@
         "activateNotifications": "Abilita notifiche",
         "addChannel": "Aggiungi Canale",
         "addMembers": "Aggiungi partecipanti",
-        "reply": "Rispondi"
+        "reply": "Rispondi",
+        "addModerator": "Aggiungi moderatore",
+        "addModerators": "Aggiungi moderatori",
+        "addNewMembers": "Aggiungi nuovi partecipanti",
+        "addNewMembersTo": "Aggiungi nuovi partecipanti a"
     }
 }
