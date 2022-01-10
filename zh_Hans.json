@@ -364,6 +364,8 @@
         "lastSeen": "上次出现{{lastSeen}}",
         "offline": "离线",
         "online": "在线",
-        "userStatus": "状态"
+        "userStatus": "状态",
+        "areWriting": "输入中…",
+        "isWriting": "正在输入…"
     }
 }
