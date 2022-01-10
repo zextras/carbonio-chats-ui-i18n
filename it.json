@@ -404,6 +404,7 @@
         "offline": "Offline",
         "online": "Online",
         "userStatus": "Stato",
-        "waitingToEnter": "In attesa di entrare"
+        "waitingToEnter": "In attesa di entrare",
+        "areWriting": "stanno scrivendo …"
     }
 }
