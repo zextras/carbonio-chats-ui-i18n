@@ -63,7 +63,8 @@
         "space": {
             "spaceWithoutNameAddParticipant": "Deelnemers aan uw Ruimte toevoegen",
             "topicDescription": "Aangezien Ruimtes chats zijn die gedreven worden door het besproken thema, is een thema dat het onderwerp beter beschrijft aan te bevelen.",
-            "topicInputExplanation": "Het beschrijft het onderwerp van de Ruimte"
+            "topicInputExplanation": "Het beschrijft het onderwerp van de Ruimte",
+            "addMembersDescription": "Nodig mensen uit door hun naam of e-mailadres in te voeren. U moet minstens twee andere mensen uitnodigen, anders kunt u een Chat aanmaken."
         },
         "startTypingToPick": "Begin met typen om een adres te kiezen",
         "topicMax255Characters": "Max. 255 characters",
@@ -333,7 +334,9 @@
         "lastSeen": "Laatst bekeken {{lastSeen}}",
         "offline": "Offline",
         "online": "Online",
-        "userStatus": "Status"
+        "userStatus": "Status",
+        "areWriting": "worden geschreven…",
+        "isWriting": "is aan het schrijven…"
     },
     "tooltip": {
         "close": "Sluiten",
