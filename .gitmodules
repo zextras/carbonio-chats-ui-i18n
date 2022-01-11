@@ -1,3 +1,0 @@
-[submodule "src/commonComponents"]
-	path = src/commonComponents
-	url = git@bitbucket.org:zextras/common-team.git

@@ -1,0 +1,348 @@
+{
+    "conversations": {
+        "noFilteredInstantMeetings": "このフィルターに一致するインスタント会議はありません。",
+        "chats": "チャット",
+        "conversations": "会話",
+        "instantMeetings": "インスタント会議",
+        "noActiveInstantMeetings": "現在、アクティブなインスタント会議はありません。 新しいインスタント会議を作成またはタブを切り替えてください。",
+        "noActiveSpaces": "現在、アクティブなスペースはありません。 新しいスペースを作成またはタブを切り替えてください。",
+        "noFilteredSpaces": "このフィルターに一致するスペースはありません。",
+        "spaces": "スペース",
+        "spaceGeneralChannel": "一般設定"
+    },
+    "people": {
+        "me": "自分",
+        "manyMembers": "{{membersCount}}名のメンバー",
+        "oneParticipant": "参加者1名",
+        "otherParticipants": "その他の{{numberParticipants}}参加者",
+        "participants": "参加者",
+        "you": "あなた"
+    },
+    "tooltip": {
+        "errorUploadingAvatarPicture": "新しいアバターのアップロード中に問題が発生しました。再試行してください",
+        "errorRemovingAvatarPicture": "アバターの削除中に問題が発生しました。再試行してください",
+        "sendMessage": "メッセージを送信する",
+        "close": "閉じる",
+        "editDescription": "概要を編集する",
+        "errorUpdatingAvatarStatus": "ステータスの設定中に問題が発生しました。再試行してください"
+    },
+    "action": {
+        "activateNotifications": "通知を有効にする",
+        "add": "追加する",
+        "addChannel": "チャネルを追加する",
+        "addMembers": "メンバーを追加する",
+        "addModerator": "モデレーターを追加する",
+        "addNewMembers": "新しいメンバーを追加する",
+        "addNewMembersTo": "新しいメンバーの追加先",
+        "clearHistory": "履歴をクリアする",
+        "close": "閉じる",
+        "collapse": "崩壊する",
+        "copy": "コピー",
+        "copyAppVersion": "アプリのバージョンをコピーする",
+        "create": "作成する",
+        "createChannel": "{{spaceName}}にリンクされたチャネルを作成する",
+        "createChat": "チャットを作成する",
+        "createGroup": "グループを作成する",
+        "createInstantMeeting": "インスタント会議を作成する",
+        "createSpace": "スペースを作成する",
+        "delete": "削除する",
+        "deleteChannel": "チャンネルを削除する",
+        "deleteSpace": "スペースを削除する",
+        "edit": "編集する",
+        "editYourMessage": "メッセージを編集する",
+        "expand": "拡張する",
+        "forward": "転送する",
+        "join": "参加する",
+        "joinChannel": "チャンネルに参加してメッセージを送信し、通知を受信してください",
+        "joinChannelAction": "チャンネルに参加する",
+        "leave": "退会する",
+        "leaveAndDelete": "退出して削除する",
+        "leaveChannel": "チャンネルから退会する",
+        "leaveSpace": "スペースから退会する",
+        "muteNotifications": "通知をミュートする",
+        "openInTeam": "Teamで開く",
+        "remove": "削除する",
+        "reply": "返信する",
+        "replyToSomeone": "返信先",
+        "replyToYourself": "自分に返信する",
+        "scrollToNewMessage": "新しいメッセージまでスクロールする",
+        "scrollToTheBottom": "一番下までスクロールする",
+        "startMeeting": "会議を開始する"
+    },
+    "appVersion": "アプリのバージョン",
+    "button": {
+        "cancel": "キャンセル",
+        "no": "いいえ",
+        "ok": "Ok",
+        "save": "保存する",
+        "undo": "元に戻す",
+        "yes": "はい"
+    },
+    "conversation": {
+        "channelInfo": "チャンネル情報",
+        "contactInfo": "連絡先情報",
+        "groupInfo": "グループ情報",
+        "info": "情報",
+        "instantInfo": "インスタント会議の情報",
+        "name": "名前",
+        "newMessages": "新しいメッセージ",
+        "spaceInfo": "スペース情報",
+        "title": "タイトル",
+        "topic": "トピック"
+    },
+    "creation": {
+        "attendeeAdded": "参加者がリストに追加されました",
+        "channel": {
+            "mainDescription": "チャネルは、スペースに含まれる明確に定義されたトピックチャットです。 スペースの参加者は、チャンネルに参加して、そのトピックについて積極的に話し合うことができます。 参加者は、スペースを離れることなくチャンネルを放棄することもできます。",
+            "setImageAndTitleDescription": "ホスティングスペース内のチャンネルをよりよく認識するように画像を設定してください。 チャンネルの画像は、チャンネルの情報パネルで設定または変更することもできます。",
+            "titleInputRequirements": "タイトルは、140文字以内で、ホスティングスペース内でユニークである必要があります",
+            "topicInputExplanation": "スペースの主題を示します"
+        },
+        "group": {
+            "addParticipantsDescription": "名前またはメールアドレスを入力して、参加者を招待してください。 2人以上の参加者を招待する必要があります。または、チャットを作成することもできます。",
+            "groupWithoutNameAddParticipant": "グループに参加者を追加する",
+            "inputTopicDescriptionLabel": "グループの主題を示します",
+            "setImageAndTopicDescription": "ユーザーがリスト内のグループを識別するのに役立つ画像を設定してください。"
+        },
+        "instantMeeting": {
+            "addAttendees": "インスタント会議に参加者を追加する",
+            "addAttendeesDescription": "こちらに名前またはメールアドレスを入力して、参加者を招待してください。",
+            "addAttendeesInputExplanation": "メールアドレスを入力するだけで外部ユーザーを招待することもできます。",
+            "attendee": {
+                "feedback": {
+                    "negative": "入力したメールアドレスが無効です。有効なアドレスを入力してください",
+                    "neutral": "1人以上の参加者を選択してください"
+                }
+            }
+        },
+        "limitOfParticipantReached": "管理者が設定した参加者の上限に達しました",
+        "nameMax140Characters": "最大140文字",
+        "nameNeeds2Letters": "名前には2文字以上必要です",
+        "nameRequired": "名前は必須です",
+        "participants": {
+            "feedback": {
+                "neutral": "2人以上の参加者を選択してください"
+            }
+        },
+        "requiresOneMoreParticipant": "さらに1名以上の参加者が必要です",
+        "requiresTwoOthers": "他に2つ以上必要です",
+        "selectMoreParticipantsForInstantMeetings": "リストから参加者を選択するか、アドレスを入力して外部ユーザーを追加してください",
+        "selectOneOrMoreUsers": "一人または複数のユーザーを選択しています",
+        "space": {
+            "spaceWithoutNameAddParticipant": "スペースに参加者を追加する",
+            "topicDescription": "スペースは議論するトピックを持つチャットの場なので、主題をよりよく示すトピックが推奨されます。",
+            "topicInputExplanation": "スペースの主題を示します"
+        },
+        "startTypingToPick": "アドレスを入力し始め、選択してください",
+        "topicMax255Characters": "最大255文字",
+        "topicOptional": "オプション。題目を記述します",
+        "typeToFilter": "リストを入力してフィルタリングしてください",
+        "typeWithNameAddParticipant": "参加者を追加する",
+        "youCanInviteOther": "さらに{{limit}}名の参加者を招待できます"
+    },
+    "feedback": {
+        "historyClearedSuccessfully": "履歴が正常にクリアされました！",
+        "notificationsActivatedForThisChat": "このチャットに対して有効にされた通知",
+        "notificationsMutedForThisChat": "このチャットの通知はミュートされています",
+        "online": "オンラインに戻ってください！",
+        "retryConnection": "接続を再試行してください",
+        "uploadConversationPicturesFailed": "会話画像をアップロードできませんでした"
+    },
+    "meeting": {
+        "attendeesComing": "参加者が来ています",
+        "defaultViewModeDedicatedModeLabel": "専用モード",
+        "defaultViewModeDefaultModeLabel": "デフォルトモード",
+        "defaultViewModeSecondaryDescriptionLabel": "このオプションは設定に保存され、必要な際にいつでも更新できます。",
+        "interactions": {
+            "cinemaView": "シネマビュー",
+            "closeCall": "この通話を閉じる",
+            "disableAudio": "オーディオを無効にする",
+            "disableFullScreen": "全画面表示を終了する",
+            "disableScreensharing": "スクリーン共有を無効",
+            "disableVideo": "動画を無効にする",
+            "enableAudio": "オーディオを有効にする",
+            "enableScreenSharing": "スクリーン共有を有効",
+            "enableVideo": "動画を有効にする",
+            "gridView": "グリッドビュー",
+            "hideChat": "チャットを非表示にする",
+            "hideParticipants": "参加者を非表示にする",
+            "muteUser": "ミュートにする",
+            "muteUserForAllTitle": "全員ミュートにする",
+            "mutedByModerators": "モデレーターによってミュートされています。話すにはミュートを解除してください",
+            "mutedByOthers": "ミュートされました",
+            "pinVideo": "ビデオをピン留めする",
+            "shortCutLabel": "(C)",
+            "showChat": "チャットを表示する",
+            "showParticipants": "参加者を表示する",
+            "status": {
+                "cameraMicOff": "カメラとマイクがオフです",
+                "cameraOff": "カメラがオフです"
+            },
+            "unpinVideo": "動画のピン止めを解除する"
+        },
+        "startModal": {
+            "description": "どのように会議に参加しますか？",
+            "enter": "参加する",
+            "noVideoAndAudio": "カメラオフ、マイクオン",
+            "noVideoAndNoAudio": "カメラオフ、マイクオフ",
+            "videoAndAudio": "カメラオン、マイクオン",
+            "videoAndNoAudio": "カメラオン、マイクオフ"
+        }
+    },
+    "message": {
+        "deletedMessage": "削除されたメッセージ",
+        "edited": "編集しました",
+        "forwarded": "転送済み",
+        "now": "今",
+        "service": {
+            "meeting": {
+                "ended": "会議が終了しました"
+            },
+            "member": {
+                "changed": {
+                    "name": {
+                        "channel": "{{member_name}}がチャンネル名を{{name}}に変更しました",
+                        "space": "{{member_name}}がスペース名を{{name}}に変更しました"
+                    },
+                    "picture": {
+                        "channel": "{{member_name}} がチャンネルの写真を変更しました",
+                        "space": "{{member_name}} がスペースの写真を変更しました"
+                    },
+                    "topic": {
+                        "channel": "{{member_name}}がチャンネルのトピックを{{topic}}に変更しました",
+                        "space": "{{member_name}}がスペースのトピックを{{topic}}に変更しました"
+                    }
+                },
+                "created": {
+                    "channel": "{{member_name}}がチャンネルを作成しました",
+                    "space": "{{member_name}}がスペースを作成しました"
+                },
+                "deleted": {
+                    "channel": "{{member_name}}がチャンネルを削除しました",
+                    "instantMeeting": "{{member_name}}がインスタント会議を削除しました",
+                    "space": "{{member_name}}がスペースを削除しました"
+                },
+                "invited": "{{member_name}} が{{invited_by}}によって招待されました",
+                "join": {
+                    "channel": "{{member_name}}がチャンネルに参加しました"
+                },
+                "kicked": {
+                    "channel": "{{member_name}}が{{kicked_by}}によってチャンネルから削除されました",
+                    "group": "{{member_name}}は{{kicked_by}}によってグループから削除されました",
+                    "space": "{{member_name}}が{{kicked_by}}によってスペースから削除されました"
+                },
+                "left": {
+                    "channel": "{{member_name}}がチャンネルから退会しました",
+                    "space": "{{member_name}}がスペースから退会しました"
+                },
+                "you": {
+                    "invited": "{{member_name}}を招待しました"
+                }
+            },
+            "newMeeting": "以下からの着信：",
+            "notificationsActivatedForThisChat": "このチャットに対して有効にされた通知",
+            "notificationsMutedForThisChat": "このチャットの通知はミュートされています",
+            "you": {
+                "changed": {
+                    "name": {
+                        "channel": "チャンネル名を{{name}}に変更しました",
+                        "space": "スペース名を{{name}}に変更しました"
+                    },
+                    "picture": {
+                        "channel": "チャンネルの写真を変更しました",
+                        "space": "スペース名を変更しました"
+                    },
+                    "topic": {
+                        "channel": "チャンネルのトピックを{{topic}}に変更しました",
+                        "space": "スペースのトピックを{{topic}}に変更しました"
+                    }
+                },
+                "created": {
+                    "channel": "チャンネルを作成しました",
+                    "space": "スペースを作成しました"
+                },
+                "deleted": {
+                    "channel": "チャンネルを削除しました",
+                    "instantMeeting": "インスタント会議を削除しました",
+                    "space": "スペースを削除しました"
+                },
+                "invited": "{{invited_by}}によって招待されました",
+                "join": {
+                    "channel": "このチャンネルに参加しました",
+                    "instantMeeting": "このインスタント会議に参加しました",
+                    "space": "このスペースに参加しました"
+                },
+                "kicked": {
+                    "channel": "{{kicked_by}}によってチャンネルから削除されました",
+                    "group": "{kicked_by}}によってグループから削除されました",
+                    "space": "{{kicked_by}}によってスペースから削除されました"
+                },
+                "left": {
+                    "channel": "チャンネルから退会しました",
+                    "space": "スペースから退会しました"
+                }
+            }
+        },
+        "readBy": "閲覧者",
+        "yesterday": "昨日"
+    },
+    "modal": {
+        "clearHistoryDescription": "この会話履歴は空になり、アクティブな会話を強調するために会話リストの一番下に移動されました。",
+        "confirm": {
+            "areYouSure": "本当に実行しますか？",
+            "clearHistory": "チャット履歴が完全に消去されます。 このチャットの他の参加者の履歴は削除されません。 この操作は元に戻せません。",
+            "leaveAndDeleteConversation": "{{conversationName}}を退出して削除してもよろしいですか？"
+        },
+        "forwardModal": {
+            "forwardedMessageFrom": "メッセージの転送元",
+            "selectOneOrMoreConversations": "会話を一つ以上選択してください",
+            "typeToFilterTheList": "リストを入力してフィルタリングしてください"
+        },
+        "instantMeeting": {
+            "closedInstantMeeting": "インスタント会議が終了しました",
+            "continue": "古いインスタント会議で続行する",
+            "create": "新しいインスタント会議を作成する"
+        },
+        "moderatorCannotLeaveGroupDescription": "{{conversationName}}の唯一のモデレーターです。グループを離れる前に、他の誰かを推薦してください。",
+        "moderatorCannotLeaveGroupTitle": "お待ちください、新しいモデレーターが必要です",
+        "showPreviousConversationHistory": "以前の会話履歴を表示する"
+    },
+    "notification": {
+        "answer": "応答する",
+        "dismiss": "拒否する",
+        "incomingCall": "以下からの着信："
+    },
+    "settings": {
+        "meeting": {
+            "enableCamera": "カメラを有効にする",
+            "enableMicrophone": "マイクを有効にする",
+            "meetings": "会議"
+        },
+        "notification": {
+            "desktop": "デスクトップ通知",
+            "openMinichatDescription": "ミニチャットの開始動作をカスタマイズする",
+            "title": {
+                "notifications": "通知",
+                "openMinichat": "新しいメッセージが届いたら開く",
+                "openMinichatForGroup": "新しいグループメッセージが届いたら開く",
+                "openMinichatForSingle": "新しいシングルメッセージが届いたら開く",
+                "openMinichatForSpace": "新しいスペースメッセージが届いたら開く"
+            }
+        },
+        "profile": {
+            "errorGenericResponse": "エラーが発生しました。再度お試しください",
+            "reset": "リセットする",
+            "restore": "復元する",
+            "statusOptionalDescription": "オプションです。今、考えていることを他の人に知らせましょう。 最大文字数：256文字",
+            "title": "プロファイル",
+            "update": "更新する"
+        },
+        "title": "設定"
+    },
+    "status": {
+        "lastSeen": "最終閲覧 {{lastSeen}}",
+        "offline": "オフライン",
+        "online": "オンライン",
+        "userStatus": "ステータス"
+    }
+}
