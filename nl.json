@@ -1,0 +1,346 @@
+{
+    "conversation": {
+        "title": "Titel",
+        "channelInfo": "Kanaalinfo",
+        "contactInfo": "Contactinfo",
+        "groupInfo": "Groepsinfo",
+        "info": "Info",
+        "instantInfo": "Instant Meeting Info",
+        "name": "Naam",
+        "newMessages": "Nieuwe berichten",
+        "spaceInfo": "Space-info",
+        "topic": "Onderwerp"
+    },
+    "conversations": {
+        "spaces": "Ruimten",
+        "spaceGeneralChannel": "Algemeen",
+        "chats": "Chats",
+        "conversations": "Gesprekken",
+        "instantMeetings": "Instant Meetings",
+        "noActiveInstantMeetings": "Er zijn op dit moment geen actieve Instant Meetings. Maak een nieuwe Instant Meeting aan of wissel van tabblad.",
+        "noActiveSpaces": "Er zijn geen actieve Ruimten op dit moment. Maak een nieuwe ruimte of wissel van tabblad.",
+        "noFilteredInstantMeetings": "Er zijn geen Instant Meetings die overeenkomen met deze filter.",
+        "noFilteredSpaces": "Er zijn geen Ruimten die overeenkomen met deze filter."
+    },
+    "creation": {
+        "nameMax140Characters": "Max. 140 tekens",
+        "selectOneOrMoreUsers": "Selecteer een of meer gebruikers",
+        "attendeeAdded": "Aanwezige aan de lijst toegevoegd",
+        "channel": {
+            "mainDescription": "Kanalen zijn chats met een vastomlijnd thema, die in een Ruimte worden opgenomen. Deelnemers aan de Ruimte kunnen zich aansluiten bij het Kanaal om actief te discussiëren over het thema. Deelnemers kunnen het Kanaal verlaten zonder ook de Ruimte te verlaten.",
+            "setImageAndTitleDescription": "Stel een afbeelding in om het Kanaal beter te herkennen in de hosting Ruimte. De afbeelding van het Kanaal kan ook worden ingesteld of gewijzigd op het infopaneel van het Kanaal.",
+            "titleInputRequirements": "140 karakters toegestaan, titel moet uniek zijn binnen de hosting Ruimte",
+            "topicInputExplanation": "Het beschrijft het onderwerp van het Kanaal"
+        },
+        "group": {
+            "addParticipantsDescription": "Nodig de deelnemers uit door hun naam of e-mailadres in te voeren. U moet ten minste twee andere deelnemers uitnodigen, anders kunt u geen Chat aanmaken.",
+            "groupWithoutNameAddParticipant": "Deelnemers aan uw Groep toevoegen",
+            "inputTopicDescriptionLabel": "Het omschrijft het onderwerp van de Groep",
+            "setImageAndTopicDescription": "Stel een afbeelding in die gebruikers helpt om de Groep te identificeren binnen diegene in de lijst."
+        },
+        "instantMeeting": {
+            "addAttendees": "Aanwezigen aan uw Instant Meeting toevoegen",
+            "addAttendeesDescription": "Nodig de deelnemers uit door hier hun naam of e-mailadres in te vullen.",
+            "addAttendeesInputExplanation": "U kunt ook externe gebruikers uitnodigen door gewoon hun e-mailadres in te voeren.",
+            "attendee": {
+                "feedback": {
+                    "negative": "De ingevoerde e-mail is niet geldig, vul een geldig adres in",
+                    "neutral": "Een of meer aanwezigen selecteren"
+                }
+            }
+        },
+        "limitOfParticipantReached": "U hebt de limiet van de deelnemers bereikt die door de administrator is ingesteld",
+        "nameNeeds2Letters": "Naam heeft ten minste twee letters nodig",
+        "nameRequired": "Een naam is verplicht",
+        "participants": {
+            "feedback": {
+                "neutral": "Twee of meer deelnemers selecteren"
+            }
+        },
+        "requiresOneMoreParticipant": "Vereist minstens één extra deelnemer",
+        "requiresTwoOthers": "Vereist minstens 2 andere",
+        "selectMoreParticipantsForInstantMeetings": "Selecteer een deelnemer uit de lijst of typ het adres in om een externe gebruiker toe te voegen",
+        "space": {
+            "spaceWithoutNameAddParticipant": "Deelnemers aan uw Ruimte toevoegen",
+            "topicDescription": "Aangezien Ruimtes chats zijn die gedreven worden door het besproken thema, is een thema dat het onderwerp beter beschrijft aan te bevelen.",
+            "topicInputExplanation": "Het beschrijft het onderwerp van de Ruimte"
+        },
+        "startTypingToPick": "Begin met typen om een adres te kiezen",
+        "topicMax255Characters": "Max. 255 characters",
+        "topicOptional": "Optioneel. Het beschrijft het onderwerp",
+        "typeToFilter": "Type om de lijst te filteren",
+        "typeWithNameAddParticipant": "Deelnemers toevoegen aan",
+        "youCanInviteOther": "U kunt {{limit}} andere deelnemers uitnodigen"
+    },
+    "meeting": {
+        "interactions": {
+            "shortCutLabel": "(C)",
+            "cinemaView": "Cinemaweergave",
+            "closeCall": "Dit gesprek afsluiten",
+            "disableAudio": "Audio uitschakelen",
+            "disableFullScreen": "Volledig scherm verlaten",
+            "disableVideo": "Video uitschakelen",
+            "enableAudio": "Audio inschakelen",
+            "enableVideo": "Video Inschakelen",
+            "gridView": "Rasterweergave",
+            "hideChat": "Chat verbergen",
+            "hideParticipants": "Deelnemers verbergen",
+            "muteUser": "Dempen",
+            "muteUserForAllTitle": "Chatlijst filteren",
+            "mutedByModerators": "U bent gedempt door een moderator, zet het geluid zelf weer aan om te spreken",
+            "mutedByOthers": "U bent gedempt",
+            "pinVideo": "Video vastpinnen",
+            "showChat": "Chat tonen",
+            "showParticipants": "Deelnemers tonen",
+            "status": {
+                "cameraMicOff": "Uw camera en microfoon staan uit",
+                "cameraOff": "Uw camera staat uit"
+            },
+            "unpinVideo": "Video unpinnen"
+        },
+        "attendeesComing": "Deelnemers komen",
+        "defaultViewModeDedicatedModeLabel": "Toegewijde modus",
+        "defaultViewModeDefaultModeLabel": "Standaard modus",
+        "defaultViewModeSecondaryDescriptionLabel": "Deze optie wordt opgeslagen in uw instellingen en kan iedere keer dat u wilt, bijgewerkt worden.",
+        "startModal": {
+            "description": "Hoe wilt u de vergadering bevestigen?",
+            "enter": "Bevestigen",
+            "noVideoAndAudio": "Camera uit, Microfoon aan",
+            "noVideoAndNoAudio": "Camera uit, Microfoon uit",
+            "videoAndAudio": "Camera aan, Microfoon aan",
+            "videoAndNoAudio": "Camera aan, Microfoon uit"
+        }
+    },
+    "message": {
+        "now": "Nu",
+        "deletedMessage": "Verwijderd bericht",
+        "edited": "bewerkt",
+        "forwarded": "doorgestuurd",
+        "service": {
+            "meeting": {
+                "ended": "Meeting beëindigd"
+            },
+            "member": {
+                "changed": {
+                    "name": {
+                        "channel": "{{member_name}} heeft de naam van het Kanaal veranderd in {{name}}",
+                        "space": "{{member_name}} heeft de naam van de Space veranderd in {{name}}"
+                    },
+                    "picture": {
+                        "channel": "{{member_name}} heeft de afbeelding van het Kanaal veranderd",
+                        "space": "{{member_name}} heeft de afbeelding van de Space veranderd"
+                    },
+                    "topic": {
+                        "channel": "{{member_name}} heeft het onderwerp van het Canaal veranderd in {{topic}}",
+                        "space": "{{member_name}} heeft het onderwerp van de Space veranderd in {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "heeft het Kanaal gecreëerd",
+                    "space": "{{member_name}} heeft de Space gecreëerd"
+                },
+                "deleted": {
+                    "channel": "{{member_name}} heeft het Kanaal gewist",
+                    "instantMeeting": "{{member_name}} heeft de Instant Meeting gewist",
+                    "space": "{{member_name}} heeft de Space gewist"
+                },
+                "invited": "{{member_name}} is uitgenodigd door {{invited_by}}",
+                "join": {
+                    "channel": "{{member_name}} heeft zich aangesloten bij het Kanaal"
+                },
+                "kicked": {
+                    "channel": "{{member_name}} is uit het Kanaal verwijderd door {{kicked_by}}",
+                    "group": "{{member_name}} werd uit de Groep verwijderd door {{kicked_by}}",
+                    "space": "{{member_name}} is uit de Space verwijderd door {{kicked_by}}"
+                },
+                "left": {
+                    "channel": "{{member_name}} heeft het Kanaal verlaten",
+                    "space": "{{member_name}} heeft de Space verlaten"
+                },
+                "you": {
+                    "invited": "U heeft {{member_name}} uitgenodigd"
+                }
+            },
+            "newMeeting": "Inkomend gesprek van:",
+            "notificationsActivatedForThisChat": "Berichten ingeschakeld voor deze chat",
+            "notificationsMutedForThisChat": "Meldingen voor deze chat gedempt",
+            "you": {
+                "changed": {
+                    "name": {
+                        "channel": "U heeft de naam van het Kanaal veranderd in {{name}}",
+                        "space": "U heeft de naam van de Space veranderd in {{name}}"
+                    },
+                    "picture": {
+                        "channel": "U hebt de afbeelding van het Kanaal veranderd",
+                        "space": "U hebt de afbeelding van de Space veranderd"
+                    },
+                    "topic": {
+                        "channel": "U heeft het onderwerp van het Canaal veranderd in {{topic}}",
+                        "space": "U heeft het onderwerp van de Space veranderd in {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "U heeft het Kanaal gecreëerd",
+                    "space": "U heeft de Space gecreëerd"
+                },
+                "deleted": {
+                    "channel": "U hebt het Kanaal gewist",
+                    "instantMeeting": "U hebt de Instant Meeting gewist",
+                    "space": "U hebt de Space gewist"
+                },
+                "invited": "U bent uitgenodigd door {{invited_by}}",
+                "join": {
+                    "channel": "U hebt zich aangesloten bij het Kanaal",
+                    "instantMeeting": "U hebt zich aangesloten bij de Instant Meeting",
+                    "space": "U hebt zich aangesloten bij de Space"
+                },
+                "kicked": {
+                    "channel": "U bent van het Kanaal verwijderd door {{kicked_by}}",
+                    "group": "U werd uit de Groep verwijderd door {{kicked_by}}",
+                    "space": "U bent van de Space verwijderd door {{kicked_by}}"
+                },
+                "left": {
+                    "channel": "U heeft het Kanaal verlaten",
+                    "space": "U heeft de Space verlaten"
+                }
+            }
+        },
+        "readBy": "Gelezen door",
+        "yesterday": "Gisteren"
+    },
+    "action": {
+        "activateNotifications": "Berichten inschakelen",
+        "add": "Toevoegen",
+        "addChannel": "Kanaal toevoegen",
+        "addMembers": "Leden toevoegen",
+        "addModerator": "Moderator toevoegen",
+        "addNewMembers": "Nieuwe leden toevoegen",
+        "addNewMembersTo": "Nieuwe leden toevoegen aan",
+        "clearHistory": "Historiek Wissen",
+        "close": "Sluiten",
+        "collapse": "Uitklappen",
+        "copy": "Kopieren",
+        "copyAppVersion": "App versie kopiëren",
+        "create": "Creëren",
+        "createChannel": "Kanaal gelinkt aan {{spaceName}} creëren",
+        "createChat": "Chat creëren",
+        "createGroup": "Groep creëren",
+        "createInstantMeeting": "Instant Meeting creëren",
+        "createSpace": "Ruimte creëren",
+        "delete": "Verwijderen",
+        "deleteChannel": "Kanaal verwijderen",
+        "deleteSpace": "Ruimte wissen",
+        "edit": "Bewerken",
+        "editYourMessage": "Bewerk uw bericht",
+        "expand": "Uitklappen",
+        "forward": "Doorsturen",
+        "join": "Meedoen",
+        "joinChannel": "Sluit u aan bij het Kanaal om berichten te versturen en meldingen te ontvangen",
+        "joinChannelAction": "Bij het Kanaal aansluiten",
+        "leave": "Verlaten",
+        "leaveAndDelete": "Verlaten en verwijderen",
+        "leaveChannel": "Kanaal verlaten",
+        "leaveSpace": "Space verlaten",
+        "muteNotifications": "Meldingen dempen",
+        "openInTeam": "In Team openen",
+        "remove": "Verwijderen",
+        "reply": "Antwoorden",
+        "replyToSomeone": "Antwoord aan",
+        "replyToYourself": "Antwoord aan uzelf",
+        "scrollToNewMessage": "Scroll naar nieuw bericht",
+        "scrollToTheBottom": "Scroll naar beneden",
+        "startMeeting": "Meeting starten"
+    },
+    "appVersion": "App versie",
+    "button": {
+        "cancel": "Annuleren",
+        "no": "Nee",
+        "ok": "OK",
+        "save": "Opslaan",
+        "undo": "Ongedaan maken",
+        "yes": "Ja"
+    },
+    "feedback": {
+        "historyClearedSuccessfully": "Historiek met succes gewist!",
+        "notificationsActivatedForThisChat": "Berichten ingeschakeld voor deze chat",
+        "notificationsMutedForThisChat": "Meldingen voor deze chat gedempt",
+        "online": "Terug online!",
+        "retryConnection": "Probeer opnieuw te verbinden",
+        "uploadConversationPicturesFailed": "Uploaden gesprekafbeelding mislukt"
+    },
+    "modal": {
+        "clearHistoryDescription": "Dit gesprek is nu leeg, het is verplaatst naar de onderkant van de gesprekkenlijst om de actieve gesprekken te benadrukken.",
+        "confirm": {
+            "areYouSure": "Bent u zeker?",
+            "clearHistory": "U zult uw chathistoriek permanent wissen. De historiek van andere deelnemers aan deze chat zal niet worden gewist. Deze actie is onomkeerbaar.",
+            "leaveAndDeleteConversation": "Weet u zeker dat u {{conversationName}} wilt verlaten en verwijderen?"
+        },
+        "forwardModal": {
+            "forwardedMessageFrom": "Doorgestuurd bericht van",
+            "selectOneOrMoreConversations": "Een of meer gesprekken selecteren",
+            "typeToFilterTheList": "Type om de lijst te filteren"
+        },
+        "instantMeeting": {
+            "closedInstantMeeting": "Instant Meeting gesloten",
+            "continue": "Verdergaan met de oude Instant Meeting",
+            "create": "Een nieuwe Instant Meeting creëren"
+        },
+        "moderatorCannotLeaveGroupDescription": "U bent de enige moderator van {{conversationName}}, geef iemand anders promotie voordat u de Groep verlaat.",
+        "moderatorCannotLeaveGroupTitle": "Wacht, er is een nieuwe moderator nodig",
+        "showPreviousConversationHistory": "Toon historiek vorig gesprek"
+    },
+    "notification": {
+        "answer": "Antwoorden",
+        "dismiss": "Weigeren",
+        "incomingCall": "Inkomend gesprek van:"
+    },
+    "people": {
+        "manyMembers": "{{membersCount}} leden",
+        "me": "Me",
+        "oneParticipant": "Een deelnemer",
+        "otherParticipants": "Andere {{numberParticipants}} deelnemers",
+        "participants": "Deelnemers",
+        "you": "U"
+    },
+    "settings": {
+        "meeting": {
+            "enableCamera": "Camera inschakelen",
+            "enableMicrophone": "Microfoon inschakelen",
+            "meetings": "Meetings"
+        },
+        "notification": {
+            "desktop": "Desktopmeldingen",
+            "openMinichatDescription": "Pas het openingsgedrag van uw minichats aan",
+            "title": {
+                "notifications": "Notifications",
+                "openMinichat": "Openen als er een nieuw bericht binnenkomt",
+                "openMinichatForGroup": "Openen als er een nieuw Groepsbericht binnenkomt",
+                "openMinichatForSingle": "Openen als een nieuw bericht binnenkomt",
+                "openMinichatForSpace": "Openen als er een nieuw Spacebericht binnenkomt"
+            }
+        },
+        "profile": {
+            "errorGenericResponse": "Er is iets misgegaan. Probeer het opnieuw",
+            "reset": "Resetten",
+            "restore": "Herstellen",
+            "statusOptionalDescription": "Optioneel. Laat de anderen weten waar u aan denkt. Maximale lengte: 256 tekens",
+            "title": "Profiel",
+            "update": "Update"
+        },
+        "title": "Instellingen"
+    },
+    "status": {
+        "lastSeen": "Laatst bekeken {{lastSeen}}",
+        "offline": "Offline",
+        "online": "Online",
+        "userStatus": "Status"
+    },
+    "tooltip": {
+        "close": "Sluiten",
+        "editDescription": "Omschrijving bewerken",
+        "errorUpdatingAvatarStatus": "Er ging iets mis tijdens het instellen van de status. Probeer het opnieuw",
+        "errorUploadingAvatarPicture": "Er ging iets mis tijdens het uploaden van de nieuwe avatar. Probeer het opnieuw",
+        "errorRemovingAvatarPicture": "Er ging iets mis bij het verwijderen van de avatar. Probeer het opnieuw",
+        "sendMessage": "Bericht versturen"
+    }
+}

@@ -1,0 +1,370 @@
+{
+    "creation": {
+        "requiresTwoOthers": "ต้องการอย่างน้อยอีก 2 คน",
+        "attendeeAdded": "เพิ่มผู้เข้าร่วมในรายการแล้ว",
+        "channel": {
+            "mainDescription": "ช่อง คือ หัวข้อการสนทนาที่กำหนดไว้ ซึ่งรวมอยู่ในห้องประชุม ผู้เข้าร่วมในห้องประชุมสามารถเข้าร่วมในช่องเพื่อพูดคุยเกี่ยวกับหัวข้อนี้ได้ ผู้เข้าร่วมสามารถออกจากช่องได้โดยไม่ต้องออกจากห้องประชุม",
+            "setImageAndTitleDescription": "ตั้งค่ารูปภาพเพื่อให้ระบุช่องภายในพื้นที่ห้องประชุมได้ดีขึ้น ภาพของช่องสามารถตั้งค่าหรือเปลี่ยนแปลงได้ในแผงข้อมูลของช่อง",
+            "titleInputRequirements": "หัวข้อในห้องประชุมต้องไม่ซ้ำกัน โดยอนุญาตให้ใช้อักขระจำนวน 140 ตัว",
+            "topicInputExplanation": "อธิบายถึงหัวข้อของช่อง"
+        },
+        "group": {
+            "addParticipantsDescription": "เชิญผู้เข้าร่วมโดยพิมพ์ชื่อหรือที่อยู่อีเมล คุณต้องเชิญผู้เข้าร่วมอีกอย่างน้อยสองคน มิฉะนั้นคุณต้องสร้างแชท",
+            "groupWithoutNameAddParticipant": "เพิ่มผู้เข้าร่วมไปยังกลุ่มของคุณ",
+            "inputTopicDescriptionLabel": "อธิบายถึงหัวข้อของกลุ่ม",
+            "setImageAndTopicDescription": "ตั้งค่ารูปภาพที่จะช่วยให้ผู้ใช้สามารถระบุกลุ่มที่อยู่ในรายการได้"
+        },
+        "instantMeeting": {
+            "addAttendees": "เพิ่มผู้เข้าร่วมไปยังการประชุมแบบทันทีของคุณ",
+            "addAttendeesDescription": "เชิญผู้เข้าร่วมโดยพิมพ์ชื่อหรือที่อยู่อีเมลที่นี่",
+            "addAttendeesInputExplanation": "คุณสามารถเชิญผู้ใช้ภายนอกได้โดยการพิมพ์ที่อยู่อีเมลของพวกเขา",
+            "attendee": {
+                "feedback": {
+                    "negative": "อีเมลที่ป้อนไม่ถูกต้อง โปรดใส่ให้ถูกต้อง",
+                    "neutral": "เลือกผู้เข้าร่วมอย่างน้อยหนึ่งคน"
+                }
+            }
+        },
+        "limitOfParticipantReached": "คุณมีผู้เข้าร่วมเต็มจำนวนสูงสุดที่กำหนดเอาไว้โดยผู้ดูแลระบบแล้ว",
+        "nameMax140Characters": "ไม่เกิน 140 ตัวอักษร",
+        "nameNeeds2Letters": "ชื่อต้องมีตัวอักษรอย่างน้อยสองตัว",
+        "nameRequired": "ต้องระบุชื่อ",
+        "participants": {
+            "feedback": {
+                "neutral": "เลือกผู้เข้าร่วมสองคนขึ้นไป"
+            }
+        },
+        "requiresOneMoreParticipant": "ต้องการผู้เข้าร่วมอย่างน้อยหนึ่งคน",
+        "selectMoreParticipantsForInstantMeetings": "เลือกผู้เข้าร่วมจากรายการหรือพิมพ์ที่อยู่เพื่อเพิ่มผู้ใช้จากภายนอก",
+        "selectOneOrMoreUsers": "เลือกผู้ใช้หนึ่งรายขึ้นไป",
+        "space": {
+            "spaceWithoutNameAddParticipant": "เพิ่มผู้เข้าร่วมไปยังห้องประชุมของคุณ",
+            "topicDescription": "เนื่องจากห้องประชุมเป็นการสนทนาที่กล่าวถึงหัวข้อ จึงขอแนะนำให้ใช้หัวข้อที่อธิบายถึงเรื่องราวได้อย่างชัดเจน",
+            "topicInputExplanation": "อธิบายถึงหัวข้อของห้องประชุม"
+        },
+        "startTypingToPick": "เริ่มพิมพ์เพื่อเลือกที่อยู่",
+        "topicMax255Characters": "ไม่เกิน 255 ตัวอักษร",
+        "topicOptional": "ไม่จำเป็น มันอธิบายถึงสาระสำคัญ",
+        "typeToFilter": "พิมพ์เพื่อกรองรายการ",
+        "typeWithNameAddParticipant": "เพิ่มผู้เข้าร่วมไปยัง",
+        "youCanInviteOther": "คุณสามารถเชิญผู้เข้าร่วมคนอื่น {{limit}} คน"
+    },
+    "message": {
+        "now": "ตอนนี้",
+        "service": {
+            "you": {
+                "invited": "คุณได้รับเชิญจาก {{Invite_by}}",
+                "changed": {
+                    "name": {
+                        "channel": "คุณเปลี่ยนชื่อของช่องใน {{name}}",
+                        "space": "คุณเปลี่ยนชื่อของห้องประชุมใน {{name}}"
+                    },
+                    "picture": {
+                        "channel": "คุณได้เปลี่ยนรูปภาพของช่องแล้ว",
+                        "space": "คุณได้เปลี่ยนชื่อของห้องประชุมแล้ว"
+                    },
+                    "topic": {
+                        "channel": "คุณเปลี่ยนหัวข้อของช่องใน {{topic}}",
+                        "space": "คุณเปลี่ยนหัวข้อของห้องประชุมใน {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "คุณได้สร้างช่องแล้ว",
+                    "space": "คุณได้สร้างห้องประชุมแล้ว"
+                },
+                "deleted": {
+                    "channel": "คุณได้ลบช่องแล้ว",
+                    "instantMeeting": "คุณได้ลบการประชุมแบบทันทีแล้ว",
+                    "space": "คุณได้ลบห้องประชุมแล้ว"
+                },
+                "join": {
+                    "channel": "คุณได้เข้าร่วมช่องแล้ว",
+                    "instantMeeting": "คุณได้เข้าร่วมการประชุมแบบทันทีแล้ว",
+                    "space": "คุณได้เข้าร่วมห้องประชุมแล้ว",
+                    "userRoom": "คุณเข้าร่วมห้องแล้ว"
+                },
+                "kicked": {
+                    "channel": "คุณได้ถูกลบออกจากช่องโดย {{kicked_by}}",
+                    "group": "คุณถูกลบออกจากกลุ่มโดย {{kicked_by}}",
+                    "space": "คุณได้ถูกลบออกจากห้องประชุมโดย {{kicked_by}}"
+                },
+                "left": {
+                    "channel": "คุณออกจากช่องแล้ว",
+                    "space": "คุณได้ออกจากห้องประชุมแล้ว"
+                }
+            },
+            "meeting": {
+                "ended": "สิ้นสุดการประชุมแล้ว"
+            },
+            "member": {
+                "changed": {
+                    "name": {
+                        "channel": "{{member_name}} ได้เปลี่ยนชื่อของช่องใน {{name}}",
+                        "space": "{{member_name}} ได้เปลี่ยนชื่อของห้องประชุมใน {{name}}"
+                    },
+                    "picture": {
+                        "channel": "{{member_name}} ได้เปลี่ยนรูปภาพของช่องแล้ว",
+                        "space": "{{member_name}} ได้เปลี่ยนรูปภาพของห้องประชุมแล้ว"
+                    },
+                    "topic": {
+                        "channel": "{{member_name}} ได้เปลี่ยนหัวข้อของช่องใน {{topic}}",
+                        "space": "{{member_name}} ได้เปลี่ยนหัวข้อของห้องประชุมใน {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "{{member_name}} ได้สร้างช่องแล้ว",
+                    "space": "{{member_name}} ได้สร้างห้องประชุมแล้ว"
+                },
+                "deleted": {
+                    "channel": "{{member_name}} ได้ลบช่องแล้ว",
+                    "instantMeeting": "{{member_name}} ได้ลบการประชุมแบบทันทีแล้ว",
+                    "space": "{{member_name}} ได้ลบห้องประชุมแล้ว"
+                },
+                "invited": "{{member_name}} ได้รับเชิญจาก {{Invite_by}}",
+                "join": {
+                    "channel": "{{member_name}} ได้เข้าร่วมช่องแล้ว"
+                },
+                "kicked": {
+                    "channel": "{{member_name}} ได้ถูกลบออกจากช่องโดย {{kicked_by}}",
+                    "group": "{{member_name}} ถูกลบออกจากกลุ่มโดย {{kicked_by}}",
+                    "space": "{{member_name}} ได้ถูกลบออกจากห้องประชุมโดย {{kicked_by}}"
+                },
+                "left": {
+                    "channel": "{{member_name}} ได้ออกจากช่องแล้ว",
+                    "space": "{{member_name}} ได้ออกจากห้องประชุมแล้ว"
+                },
+                "you": {
+                    "invited": "คุณได้เชิญ {{member_name}}"
+                }
+            },
+            "newMeeting": "สายเรียกเข้าจาก:",
+            "notificationsActivatedForThisChat": "เปิดใช้งานการแจ้งเตือนสำหรับแชทนี้",
+            "notificationsMutedForThisChat": "ปิดเสียงการแจ้งเตือนสำหรับแชทนี้"
+        },
+        "deletedMessage": "ข้อความที่ถูกลบ",
+        "edited": "แก้ไขแล้ว",
+        "forwarded": "ส่งต่อแล้ว",
+        "readBy": "อ่านโดย",
+        "yesterday": "เมื่อวาน"
+    },
+    "people": {
+        "participants": "ผู้เข้าร่วม",
+        "manyMembers": "สมาชิก {{membersCount}}",
+        "me": "ฉันเอง",
+        "oneParticipant": "ผู้เข้าร่วมหนึ่งคน",
+        "otherParticipants": "ผู้เข้าร่วม {{numberParticipants}} คนอื่น ๆ",
+        "you": "คุณ"
+    },
+    "action": {
+        "activateNotifications": "เปิดใช้งานการแจ้งเตือน",
+        "add": "เพิ่ม",
+        "addChannel": "เพิ่มช่อง",
+        "addMembers": "เพิ่มสมาชิก",
+        "addModerator": "เพิ่มผู้ดูแล",
+        "addModerators": "เพิ่มผู้ดูแล",
+        "addNewMembers": "เพิ่มสมาชิกใหม่",
+        "addNewMembersTo": "เพิ่มสมาชิกใหม่ไปยัง",
+        "addOtherModerators": "เพิ่มผู้ดูแลคนอื่น",
+        "clearHistory": "ล้างประวัติ",
+        "close": "ปิด",
+        "collapse": "ย่อ",
+        "copy": "คัดลอก",
+        "copyAppVersion": "คัดลอกเวอร์ชันของแอป",
+        "create": "สร้าง",
+        "createChannel": "สร้างช่องที่เชื่อมโยงกับ {{spaceName}}",
+        "createChat": "สร้างแชท",
+        "createGroup": "สร้างกลุ่ม",
+        "createInstantMeeting": "สร้างการประชุมแบบทันที",
+        "createSpace": "สร้างห้องประชุม",
+        "delete": "ลบ",
+        "deleteChannel": "ลบช่อง",
+        "deleteRoom": "ลบห้อง",
+        "deleteSpace": "ลบห้องประชุม",
+        "edit": "แก้ไข",
+        "editYourMessage": "แก้ไขข้อความของคุณ",
+        "expand": "ขยาย",
+        "forward": "ส่งต่อ",
+        "join": "เข้าร่วม",
+        "joinChannel": "เข้าร่วมช่องเพื่อส่งข้อความและรับการแจ้งเตือน",
+        "joinChannelAction": "เข้าร่วมช่อง",
+        "joinRoom": "เข้าร่วมห้อง",
+        "leave": "ออก",
+        "leaveAndDelete": "ออกและลบ",
+        "leaveChannel": "ออกจากช่อง",
+        "leaveSpace": "ออกจากห้องประชุม",
+        "muteNotifications": "ปิดเสียงการแจ้งเตือน",
+        "openInTeam": "เปิดใน Team",
+        "plan": "วางแผน",
+        "remove": "ลบออก",
+        "reply": "ตอบกลับ",
+        "replyToSomeone": "ตอบกลับไปยัง",
+        "replyToYourself": "ตอบกลับไปยังตัวของคุณเอง",
+        "scrollToNewMessage": "เลื่อนไปที่ข้อความใหม่",
+        "scrollToTheBottom": "เลื่อนไปที่ด้านล่าง",
+        "startMeeting": "เริ่มการประชุม"
+    },
+    "appVersion": "เวอร์ชันของแอป",
+    "button": {
+        "cancel": "ยกเลิก",
+        "no": "ไม่",
+        "ok": "ตกลง",
+        "save": "บันทึก",
+        "undo": "ย้อนกลับ",
+        "yes": "ใช่"
+    },
+    "conversation": {
+        "channelInfo": "ข้อมูลช่อง",
+        "contactInfo": "ข้อมูลติดต่อ",
+        "groupInfo": "ข้อมูลกลุ่ม",
+        "info": "ข้อมูล",
+        "instantInfo": "ข้อมูลการประชุมแบบทันที",
+        "name": "ชื่อ",
+        "nameRoom": "ห้องของ {{conversationTitle}}",
+        "newMessages": "ข้อความใหม่",
+        "roomLinkDescription": "คัดลอกลิงค์นี้และแชร์เพื่อให้ผู้อื่นเข้าถึงห้องนี้ได้",
+        "spaceInfo": "ข้อมูลห้องประชุม",
+        "speakersCorner": "มุมพูดคุย",
+        "title": "หัวข้อ",
+        "topic": "หัวข้อ"
+    },
+    "conversations": {
+        "activeMeetingRooms": "ห้องประชุมที่ใช้งานอยู่",
+        "chats": "แชท",
+        "conversations": "การสนทนา",
+        "instantMeetings": "การประชุมแบบทันที",
+        "meetingRooms": "ห้องประชุม",
+        "noActiveInstantMeetings": "ไม่มีการประชุมแบบทันทีที่ใช้งานอยู่ในขณะนี้ สร้างการประชุมแบบทันทีใหม่หรือเปลี่ยนแท็บ",
+        "noActiveMeetings": "ไม่มีห้องที่ใช้งานอยู่ในขณะนี้",
+        "noActiveSpaces": "ไม่มีห้องประชุมที่ใช้งานอยู่ในขณะนี้ สร้างห้องประชุมใหม่หรือเปลี่ยนแท็บ",
+        "noFilteredInstantMeetings": "ไม่มีการประชุมแบบทันทีที่ตรงกับตัวกรองนี้",
+        "noFilteredMeetings": "ไม่มีห้องหรือการประชุมที่วางแผนไว้ที่ตรงกับตัวกรองนี้",
+        "noFilteredSpaces": "ไม่มีห้องประชุมที่ตรงกับตัวกรองนี้",
+        "personalRoom": "ห้องส่วนตัว",
+        "scheduledMeetings": "กำหนดการประชุม",
+        "spaces": "ห้องประชุม",
+        "spaceGeneralChannel": "ทั่วไป",
+        "yourRoom": "ห้องของคุณ"
+    },
+    "feedback": {
+        "historyClearedSuccessfully": "ล้างประวัติสำเร็จแล้ว!",
+        "notificationsActivatedForThisChat": "เปิดใช้งานการแจ้งเตือนสำหรับแชทนี้",
+        "notificationsMutedForThisChat": "ปิดเสียงการแจ้งเตือนสำหรับแชทนี้",
+        "online": "กลับมาออนไลน์!",
+        "retryConnection": "ลองเชื่อมต่ออีกครั้ง",
+        "uploadConversationPicturesFailed": "ไม่สามารถอัปโหลดรูปภาพการสนทนาได้"
+    },
+    "meeting": {
+        "attendeesComing": "ผู้เข้าร่วมงานกำลังมา",
+        "defaultViewModeDedicatedModeLabel": "โหมดเฉพาะ",
+        "defaultViewModeDefaultModeLabel": "โหมดเริ่มต้น",
+        "defaultViewModeSecondaryDescriptionLabel": "ตัวเลือกนี้จะถูกบันทึกไว้ในการตั้งค่าของคุณและสามารถอัปเดตได้เมื่อคุณต้องการ",
+        "interactions": {
+            "cinemaView": "มุมมองแบบภาพยนตร์",
+            "closeCall": "ปิดการโทรนี้",
+            "disableAudio": "ปิดเสียง",
+            "disableFullScreen": "ออกจากโหมดเต็มจอ",
+            "disableScreensharing": "ปิดการแชร์หน้าจอ",
+            "disableVideo": "ปิดวิดิโอ",
+            "enableAudio": "เปิดเสียง",
+            "enableScreenSharing": "เปิดแชร์จอภาพ",
+            "enableVideo": "เปิดการใช้งานวิดีโอ",
+            "gridView": "มุมมองแบบกริด",
+            "hideChat": "ซ่อนแชท",
+            "hideParticipants": "ซ่อนผู้เข้าร่วม",
+            "muteUser": "ปิดเสียง",
+            "muteUserForAllTitle": "ปิดเสียงทั้งหมด",
+            "mutedByModerators": "คุณถูกปิดเสียงโดยผู้ดูแล เปิดเสียงตัวเองเพื่อพูด",
+            "mutedByOthers": "คุณถูกปิดเสียง",
+            "pinVideo": "ปักหมุดวิดีโอ",
+            "shortCutLabel": "(C)",
+            "showChat": "แสดงแชท",
+            "showParticipants": "แสดงผู้เข้าร่วม",
+            "status": {
+                "cameraMicOff": "กล้องและไมโครโฟนของคุณปิดอยู่",
+                "cameraOff": "กล้องของคุณปิดอยู่"
+            },
+            "unpinVideo": "ยกเลิกการปักหมุดวิดีโอ"
+        },
+        "startModal": {
+            "description": "คุณต้องการเข้าร่วมการประชุมอย่างไร?",
+            "enter": "เข้าสู่การประชุม",
+            "noVideoAndAudio": "ปิดกล้อง, เปิดไมโครโฟน",
+            "noVideoAndNoAudio": "ปิดกล้อง, ปิดไมโครโฟน",
+            "videoAndAudio": "เปิดกล้อง, เปิดไมโครโฟน",
+            "videoAndNoAudio": "เปิดกล้อง, ปิดไมโครโฟน"
+        }
+    },
+    "modal": {
+        "clearHistoryDescription": "บทสนทนานี้ว่างเปล่าและได้ย้ายไปที่ด้านล่างของรายการการสนทนาเพื่อให้บทสนทนาอื่น ๆ ที่มีการใช้งานอยู่แสดงที่ด้านบน",
+        "confirm": {
+            "areYouSure": "คุณแน่ใจหรือไม่?",
+            "clearHistory": "คุณจะทำการล้างประวัติการแชทของคุณอย่างถาวร โดยประวัติของผู้เข้าร่วมคนอื่น ๆ ในการแชทนี้จะไม่ถูกลบ โปรดทราบว่าการดำเนินการนี้ไม่สามารถย้อนกลับได้",
+            "leaveAndDeleteConversation": "คุณแน่ใจหรือไม่ว่าต้องการออกและลบ {{conversationName}}?"
+        },
+        "forwardModal": {
+            "forwardedMessageFrom": "ส่งต่อข้อความจาก",
+            "selectOneOrMoreConversations": "เลือกการสนทนาอย่างน้อยหนึ่งรายการ",
+            "typeToFilterTheList": "พิมพ์เพื่อกรองรายการ"
+        },
+        "instantMeeting": {
+            "closedInstantMeeting": "ปิดการประชุมแบบทันทีแล้ว",
+            "continue": "ดำเนินการต่อด้วยการประชุมแบบทันทีอันเดิม",
+            "create": "สร้างการประชุมแบบทันทีใหม่"
+        },
+        "moderatorCannotLeaveGroupDescription": "คุณเป็นผู้ดูแลเพียงคนเดียวของ {{conversationName}} โปรดแต่งตั้งคนอื่นก่อนออกจากกลุ่ม",
+        "moderatorCannotLeaveGroupTitle": "จำเป็นต้องมีผู้ดูแลคนใหม่",
+        "showPreviousConversationHistory": "แสดงประวัติการสนทนาก่อนหน้า"
+    },
+    "notification": {
+        "answer": "รับสาย",
+        "dismiss": "ยกเลิก",
+        "incomingCall": "สายเรียกเข้าจาก:"
+    },
+    "settings": {
+        "meeting": {
+            "enableCamera": "เปิดกล้อง",
+            "enableMicrophone": "เปิดไมโครโฟน",
+            "meetings": "การประชุม",
+            "personalRoomOptionsTitleModal": "รีเซ็ตลิงค์ของห้องส่วนตัว",
+            "personalRoomResetButton": "รีเซ็ตลิงค์ของห้องส่วนตัว"
+        },
+        "notification": {
+            "desktop": "การแจ้งเตือนของเดสก์ท็อป",
+            "openMinichatDescription": "ปรับการเปิดมินิแชทของคุณ",
+            "title": {
+                "notifications": "การแจ้งเตือน",
+                "openMinichat": "เปิดเมื่อมีข้อความใหม่",
+                "openMinichatForGroup": "เปิดเมื่อได้รับข้อความกลุ่มใหม่",
+                "openMinichatForSingle": "เปิดเมื่อมีข้อความส่วนตัวใหม่",
+                "openMinichatForSpace": "เปิดเมื่อได้รับข้อความห้องประชุมใหม่"
+            }
+        },
+        "profile": {
+            "errorGenericResponse": "มีข้อผิดพลาด โปรดลองอีกครั้ง",
+            "reset": "รีเซ็ต",
+            "restore": "การกู้คืนข้อมูล (Restore)",
+            "statusOptionalDescription": "ไม่จำเป็น คุณสามารถบอกให้คนอื่นรู้ว่าคุณกำลังคิดอะไรอยู่ ความยาวสูงสุด: 256 ตัวอักษร",
+            "title": "โปรไฟล์",
+            "update": "อัพเดท"
+        },
+        "title": "การตั้งค่า"
+    },
+    "status": {
+        "lastSeen": "ดูครั้งล่าสุด {{lastSeen}}",
+        "offline": "ออฟไลน์",
+        "online": "ออนไลน์",
+        "userStatus": "สถานะ"
+    },
+    "tooltip": {
+        "close": "ปิด",
+        "copyRoomLink": "คัดลอกลิงค์นี้เพื่อแชร์ห้อง",
+        "copyRoomLinkTooltip": "คัดลอกลิงค์นี้เพื่อแชร์ห้อง",
+        "editDescription": "แก้ไขคำอธิบาย",
+        "enterYourRoom": "เข้าห้องส่วนตัวของคุณ",
+        "enterYourRoomTooltip": "เข้าห้องส่วนตัวของคุณ",
+        "errorUpdatingAvatarStatus": "เกิดข้อผิดพลาดขณะตั้งค่าสถานะ โปรดลองใหม่อีกครั้ง",
+        "errorUploadingAvatarPicture": "เกิดข้อผิดพลาดขณะการอัปโหลดรูปประจำตัวใหม่ โปรดลองอีกครั้ง",
+        "errorRemovingAvatarPicture": "เกิดข้อผิดพลาดขณะการลบรูปประจำตัว โปรดลองใหม่อีกครั้ง",
+        "sendMessage": "ส่งข้อความ"
+    }
+}

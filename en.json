@@ -1,111 +1,130 @@
 {
-    "ReplyToSomeone": "Reply to",
-    "ReplyToYourself": "Reply to yourself",
     "action": {
         "activateNotifications": "Activate notifications",
         "add": "Add",
         "addChannel": "Add Channel",
         "addMembers": "Add members",
         "addModerator": "Add moderator",
+        "addModerators": "Add moderators",
         "addNewMembers": "Add new members",
         "addNewMembersTo": "Add new members to",
-        "confirm": {
-            "clearHistory": "You will clear permanently your chat history. Other participants' history of this chat won't be deleted. This action is irreversible.",
-            "deleteChannel": "Are You sure to delete this channel?",
-            "deleteSpace": "Are You sure to delete this space?",
-            "leaveChannel": "Are You sure to leave the channel?",
-            "leaveGroup": "Are You sure to leave the group?",
-            "leaveSpace": "Are You sure to leave the space?",
-            "removeBuddy": "Are you sure you want to remove this buddy?"
-        },
-        "deleteChannel": "Delete channel",
-        "deleteRoom": "Delete Room",
-        "deleteSpace": "Delete space",
-        "instantMeetingAlreadyRunningText": "Creating a new one will overwrite the older one and your attendee will lost the connection, what would you do?",
-        "instantMeetingAlreadyRunningTitle": "An instant meeting is already running",
-        "joinChannel": "Join the channel to send messages and to receive notifications",
-        "joinChannelAction": "Join channel",
-        "joinRoom": "Join Room",
-        "leaveChannel": "Leave channel",
-        "leaveGroup": "Leave group",
-        "leaveSpace": "Leave space",
-        "muteNotifications": "Mute notifications",
-        "removeBuddy": "Remove buddy",
-        "resetLink": "Reset Link",
-        "roomLink": "Room's Link",
-        "scrollToNewMessage": "",
-        "scrollToTheBottom": "",
-        "selectMoreParticipantsForInstantMeetings": "Select a participant from the list or type the address to add an external user",
-        "selectOneOrMoreUsers": "Select one or more users"
-    },
-    "activeMeetingRooms": "Active Meeting Rooms",
-    "addModeratorModalDescription": "Select one or more users to promote them to moderators of this Room",
-    "addModeratorModalTitle": "Add moderators",
-    "addModerators": {
-        "placeholder": "Add other moderators"
-    },
-    "appVersion": "App version",
-    "appVersionCopied": "App version copied",
-    "button": {
-        "clearHistory": "Clear history",
+        "addOtherModerators": "Add other moderators",
+        "clearHistory": "Clear History",
+        "close": "Close",
+        "collapse": "Collapse",
+        "copy": "Copy",
+        "copyAppVersion": "Copy app version",
         "create": "Create",
+        "createChannel": "Create Channel linked to {{spaceName}}",
+        "createChat": "Create Chat",
+        "createGroup": "Create Group",
+        "createInstantMeeting": "Create Instant Meeting",
+        "createSpace": "Create Space",
         "delete": "Delete",
+        "deleteChannel": "Delete Channel",
+        "deleteRoom": "Delete Room",
+        "deleteSpace": "Delete Space",
+        "edit": "Edit",
+        "editYourMessage": "Edit your message",
+        "expand": "Expand",
+        "forward": "Forward",
         "goToGuide": "Go to the guide",
         "join": "Join",
+        "joinChannel": "Join the Channel to send messages and receive notifications",
+        "joinChannelAction": "Join Channel",
+        "joinRoom": "Join Room",
         "leave": "Leave",
-        "no": "No",
+        "leaveAndDelete": "Leave and delete",
+        "leaveChannel": "Leave Channel",
+        "leaveGroup": "Leave Group",
+        "leaveSpace": "Leave Space",
+        "muteNotifications": "Mute notifications",
+        "openInChats": "Open in Chats",
+        "openInTeam": "Open in Team",
         "plan": "Plan",
+        "planMeeting": "Plan a Meeting",
         "remove": "Remove",
+        "removeMember": "Remove member",
+        "reply": "Reply",
+        "replyToSomeone": "Reply to",
+        "replyToYourself": "Reply to yourself",
+        "resetLink": "Reset link",
+        "scrollToNewMessage": "Scroll to new message",
+        "scrollToTheBottom": "Scroll to the bottom",
+        "startMeeting": "Start Meeting"
+    },
+    "appVersion": "App version",
+    "button": {
+        "cancel": "Cancel",
+        "no": "No",
+        "ok": "Ok",
+        "save": "Save",
+        "undo": "Undo",
         "yes": "Yes"
     },
-    "buttons": {
-        "ok": "Ok"
+    "conversation": {
+        "channelInfo": "Channel Info",
+        "contactInfo": "Contact Info",
+        "groupInfo": "Group Info",
+        "fileUploadDescription": "File's description",
+        "info": "Info",
+        "instantInfo": "Instant Meeting Info",
+        "name": "Name",
+        "nameRoom": "{{conversationTitle}}'s Room",
+        "newMessages": "New Messages",
+        "roomInfo": "Room Info",
+        "roomLink": "Room's link",
+        "roomLinkDescription": "Copy this link and share it to provide others with access to this Room.",
+        "roomName": "Room's name",
+        "spaceInfo": "Space Info",
+        "speakersCorner": "Speaker's corner",
+        "title": "Title",
+        "topic": "Topic"
     },
-    "cancel": "Cancel",
-    "chats": "Chats",
-    "connection": {
-        "offline": "It seems to be a server connection issue",
-        "online": "Back online!",
-        "retryConnection": "Retry connection",
-        "tryAReconnectionIn": ""
-    },
-    "conversationsList": {
-        "noActiveChats": "There aren't active Chats at the moment. Create a new Chat or switch tab.",
+    "conversations": {
+        "activeMeetingRooms": "Active Meeting Rooms",
+        "chats": "Chats",
+        "conversations": "Conversations",
+        "filterChatList": "Filter chats list",
+        "instantMeetings": "Instant Meetings",
+        "meetingRooms": "Meeting Rooms",
+        "mockDisplayDescription": "Choose a conversation to start a chat",
+        "mockDisplayTitle": "Let's keep in touch!",
+        "noActiveChats": "There aren't active chats at the moment. Create a new chat or switch tab.",
         "noActiveInstantMeetings": "There aren't active Instant Meetings at the moment. Create a new Instant meeting or switch tab.",
         "noActiveMeetings": "There aren't active Rooms at the moment",
-        "noActiveSpaces": "There aren't active Spaces at the moment. Create a new space or switch tab.",
-        "noFilteredChats": "There aren't Chats that correspond to this filter.",
-        "noFilteredInstantMeetings": "There aren't Instant Meetings that correspond to this filter.",
+        "noActiveSpaces": "There aren't active Spaces at the moment. Create a new Space or switch tab.",
+        "noFilteredChats": "There aren't chats that match this filter.",
+        "noFilteredInstantMeetings": "There aren't Instant Meetings that match this filter.",
         "noFilteredMeetings": "There aren't Rooms or planned meetings that match this filter",
-        "noFilteredSpaces": "There aren't Spaces that correspond to this filter."
-    },
-    "copyAppVersion": "Copy app version",
-    "copyUserRoomTooltip": "Copy your Personal Room Link",
-    "create": {
-        "channel": "",
-        "chat": "Create Chat",
-        "group": "Create Group",
-        "instantMeeting": "Create Instant Meeting",
-        "space": "Create space"
+        "noFilteredSpaces": "There aren't Spaces that match this filter.",
+        "personalRoom": "Personal Room",
+        "scheduledMeetings": "Scheduled Meetings",
+        "spaces": "Spaces",
+        "spaceGeneralChannel": "General",
+        "waitingRoom": "Waiting Room",
+        "yourRoom": "Your Room"
     },
     "creation": {
+        "attendeeAdded": "Attendee added to the list",
         "channel": {
             "mainDescription": "Channels are a well-defined topic chats that are included into a Space. Space's participants can join the Channel to actively discuss about its topic. Participants can abandon the Channel without leaving the Space too.",
             "setImageAndTitleDescription": "Set an image to better recognize the Channel inside the hosting Space. Channel's image can also be set or changed on Channel's info panel.",
-            "titleInputRequirements": "140 characters allowed, Title must be unique inside hosting Space",
-            "topicDescription": "Since channels are chats driven by the topic discussed, a topic that better describe the subject is recommended.",
+            "titleInputRequirements": "140 characters allowed, title must be unique inside hosting Space",
+            "topicDescription": "Since Channels are chats driven by the topic discussed, a topic that better describe the subject is recommended.",
             "topicInputExplanation": "It describes the subject of the Channel"
         },
         "chat": {
-            "addParticipant": "Choose a participant to start a Chat with",
+            "addParticipant": "Choose a participant to start a chat with",
             "chatFilterDescription": "You can create a chat just by clicking on the participant you want to talk to",
-            "description": "Chats are one to one conversations that help you to keep in touch with contacts."
+            "description": "Chats are one-to-one conversations that help you to stay in touch with your contacts."
         },
+        "emailReplicated": "The e-mail entered has already been added",
         "group": {
             "addParticipantsDescription": "Invite participants by typing their name or e-mail addresses. You need to invite at least two other participants, otherwise you can create a Chat.",
             "groupWithoutNameAddParticipant": "Add participants to your Group",
             "inputTopicDescriptionLabel": "It describes the subject of the Group",
-            "mainDescription": "Groups need to include more than two participants. Name the Group as preferred in order to describe it's subject",
+            "mainDescription": "Groups need to include more than two participants. Name the Group as preferred in order to describe its subject",
             "setImageAndTopicDescription": "Set an image that will help users to identify the Group within the ones in the list."
         },
         "instantMeeting": {
@@ -114,92 +133,60 @@
             "addAttendeesInputExplanation": "You can invite also external users just by typing their e-mail address.",
             "attendee": {
                 "feedback": {
-                    "negative": "The email entered is not a valid one, please insert a valid address",
+                    "negative": "The e-mail entered is not a valid one, please insert a valid address",
                     "neutral": "Select one or more attendees"
                 }
             },
-            "description": "Instant meetings are video calls that are designed to be quick and momentary, no trace of the chat will be kept and once the call is over, it will cease to exist. Instant meetings can be created by Pro users can be also joined even from external users.",
-            "titleDescription": "You should give to the Instant Meeting a recognizable Title, so your attendees will know the purpose of this call."
+            "description": "Instant Meetings are video calls that are designed to be quick and momentary, no trace of the chat will be kept and once the call is over, it will cease to exist. Instant Meetings can be created by Pro users and they can be joined also by external users.",
+            "titleDescription": "Give a recognizable title to the Instant Meeting, so your attendees will know the purpose of this call."
         },
+        "limitOfParticipantReached": "You have reached the limit of participants set by the administrator",
+        "nameMax140Characters": "Max. 140 characters",
+        "nameNeeds2Letters": "Name needs at least two letters",
+        "nameRequired": "A name is required",
+        "nameRequired-max140Characters-avoidReusingNames": "Required. Max. 140 characters, avoid reusing names.",
         "participants": {
             "feedback": {
                 "neutral": "Select two or more participants"
             }
         },
+        "requiresOneMoreParticipant": "Requires at least one more participant",
+        "requiresTwoOthers": "Requires at least 2 others",
+        "selectMoreParticipantsForInstantMeetings": "Select a participant from the list or type the address to add an external user",
+        "selectOneOrMoreUsers": "Select one or more users",
         "space": {
             "addMembersDescription": "Invite people by typing their name or e-mail addresses. You need to invite at least two other people, otherwise you can create a Chat.",
             "mainDescription": "Spaces are generic communication environments that include specific chats called Channels, each one with its own topic. To create a Space you need to invite at least to participants. Channels can be added directly from the Space's info panel.",
             "spaceWithoutNameAddParticipant": "Add participants to your Space",
-            "titleDescription": "The title identifies the Space and thus is should describe in a couple of word it's topic.",
-            "topicDescription": "Since Spaces are chats driven by the topic discussed, a topic that better describe the subject is recommended.",
+            "titleDescription": "The title identifies the Space and thus it should describe its topic.",
+            "topicDescription": "Since Spaces are chats driven by the topic discussed, a topic that better describes the subject is recommended.",
             "topicInputExplanation": "It describes the subject of the Space"
         },
-        "titleInputRequirements": "140 characters allowed, Title must be unique",
-        "typeWithNameAddParticipant": "Add participants to"
+        "startTypingToPick": "Start typing to pick an address",
+        "titleInputRequirements": "140 characters allowed, title must be unique",
+        "topicMax255Characters": "Max. 255 characters",
+        "topicNeeds2Letters": "The topic is optional. Min. 2 characters",
+        "topicOptional": "Optional. It describes the subject matter",
+        "typeToFilter": "Type to filter the list",
+        "typeWithNameAddParticipant": "Add participants to",
+        "youCanInviteOther": "You can invite other {{limit}} participants"
     },
-    "deleteMessageModal": {
-        "description": "When deleting a message, it won't be visibile anymore to you and all other recipients"
-    },
-    "deleteRoomModalDescription": "Are you sure you want to delete the Room?",
-    "deletedMessage": "Deleted message",
-    "description": {
-        "members": {
-            "many": "",
-            "one": "One participant"
-        }
-    },
-    "descriptionHistoryClearedInfo": "This conversation is now empty, it has been moved on the bottom of the conversations list in order to emphasize the active ones.",
-    "editYourMessage": ">Edit your message",
-    "enterYourRoomTooltip": "Enter your Personal Room",
-    "error": {
+    "feedback": {
+        "appVersionCopied": "App version copied",
+        "historyClearedSuccessfully": "History cleared successfully!",
+        "notificationsActivatedForThisChat": "Notifications activated for this chat",
+        "notificationsMutedForThisChat": "Notifications muted for this chat",
+        "offline": "It seems to be a server connection issue",
+        "online": "Back online!",
+        "resetPersonalRoomLinkSuccess": "Personal Room's link was reset",
+        "retryConnection": "Retry connection",
+        "roomLinkCopied": "Room's link copied",
+        "tryAReconnectionIn": "Try a reconnection in {{seconds}}",
         "uploadConversationPicturesFailed": "Failed to upload conversation picture"
     },
-    "external": {
-        "waiting": {
-            "userJoinedWaitingRoom": "There seems to be someone in the waiting room"
-        }
-    },
-    "filterChatList": "Filter list chat",
-    "forward": "Forward",
-    "forwardModal": {
-        "chips": {
-            "selectOneOrMoreConversations": "Select one or more conversations"
-        },
-        "inputLabel": {
-            "typeToFilterTheList": "Type to filter the list"
-        },
-        "tabs": {
-            "spaceAndChannels": "Space and Channels"
-        },
-        "title": {
-            "forwardedMessageFrom": "Forwarded message from"
-        }
-    },
-    "header": {
-        "channelInfo": "Channel Info",
-        "contactInfo": "Contact Info",
-        "groupInfo": "Group Info",
-        "instantInfo": "Instant Meeting Info",
-        "roomInfo": "Room's info",
-        "spaceInfo": "Space Info"
-    },
-    "input": {
-        "topicOptional": "Optional. It describes the subject matter"
-    },
-    "inputRoomTitle": "Room's name*",
-    "instantMeeting": {
-        "continue": "Continue with the old instant meeting",
-        "create": "Create a new instant meeting"
-    },
-    "instantMeetings": "Instant Meetings",
-    "label": {
-        "historyClearedSuccessfully": "History cleared successfully!",
-        "info": "Info"
-    },
-    "leaveAndDeleteConversationModalDescription": "",
-    "leaveAndDeleteConversationModalTitle": "Leave and delete",
     "meeting": {
-        "defaultViewModeDedicatedLabel": "The \"Dedicated Mode” will redirect you to a separated tab of your browser to enjoy the Meeting experience at its best.",
+        "attendeesComing": "Participants are coming",
+        "defaultViewModeDedicatedLabel": "The \"Dedicated Mode\" will redirect you to a separated tab of your browser to enjoy the Meeting experience at its best.",
         "defaultViewModeDedicatedModeLabel": "Dedicated Mode",
         "defaultViewModeDefaultLabel": "Selecting the \"Default Mode\", the Meeting will start in the current internal environment.",
         "defaultViewModeDefaultModeLabel": "Default Mode",
@@ -211,11 +198,11 @@
             "closeCall": "Close this call",
             "disableAudio": "Disable Audio",
             "disableFullScreen": "Exit full screen",
-            "disableScreensharing": "Disable ScreenSharing",
+            "disableScreensharing": "Disable Screen Sharing",
             "disableVideo": "Disable Video",
             "enableAudio": "Enable Audio",
             "enableFullScreen": "Fullscreen",
-            "enableScreenSharing": "Enable ScreenSharing",
+            "enableScreenSharing": "Enable Screen Sharing",
             "enableVideo": "Enable Video",
             "gridView": "Grid View",
             "hideChat": "Hide Chat",
@@ -235,8 +222,7 @@
             },
             "unpinVideo": "Unpin video"
         },
-        "resetMeetingUrlModalDescription": "",
-        "roomLinkTooltip": "Copy this link to share the Room",
+        "resetMeetingUrlModalDescription": "Are you sure to reset the link for planned \"{{conversationName}}\"?",
         "startModal": {
             "description": "How do you want to enter the meeting?",
             "enter": "Enter",
@@ -246,187 +232,182 @@
             "videoAndNoAudio": "Camera on, Microphone off"
         }
     },
-    "meetingLinkCopied": "Room's link copied",
-    "meetingRooms": "Meeting Rooms",
     "message": {
+        "deletedMessage": "Deleted message",
+        "edited": "edited",
+        "forwarded": "forwarded",
         "now": "Now",
+        "service": {
+            "conversationCreated": "Chat created",
+            "meeting": {
+                "ended": "Meeting ended",
+                "endedAtTime": "Meeting ended at ",
+                "startedAtTime": "Meeting started at "
+            },
+            "member": {
+                "changed": {
+                    "name": {
+                        "channel": "{{member_name}} has changed the Channel's name in {{name}}",
+                        "space": "{{member_name}} has changed the Space's name in {{name}}"
+                    },
+                    "picture": {
+                        "channel": "{{member_name}} has changed the Channel's picture",
+                        "group": "{{member_name}} has changed the Group's picture",
+                        "space": "{{member_name}} has changed the Space's picture"
+                    },
+                    "topic": {
+                        "channel": "{{member_name}} has changed the Channel's topic in {{topic}}",
+                        "group": "{{member_name}} has changed the Group's topic in {{topic}}",
+                        "space": "{{member_name}} has changed the Space's topic in {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "{{member_name}} has created the Channel",
+                    "group": "{{member_name}} has created the Group",
+                    "single": "{{member_name}} has created the Chat",
+                    "space": "{{member_name}} has created the Space"
+                },
+                "deleted": {
+                    "channel": "{{member_name}} has deleted the Channel",
+                    "instantMeeting": "{{member_name}} has deleted the Instant Meeting",
+                    "space": "{{member_name}} has deleted the Space"
+                },
+                "invited": "{{member_name}} has been invited by {{invited_by}}",
+                "join": {
+                    "channel": "{{member_name}} has joined the Channel",
+                    "conversation": "{{member_name}} has joined the Chat"
+                },
+                "kicked": {
+                    "channel": "{{member_name}} has been removed from the Channel by {{kicked_by}}",
+                    "group": "{{member_name}} has been removed from the Group by {{kicked_by}}",
+                    "space": "{{member_name}} has been removed from the Space by {{kicked_by}}"
+                },
+                "left": {
+                    "channel": "{{member_name}} has left the Channel",
+                    "group": "{{member_name}} has left the Group",
+                    "space": "{{member_name}} has left the Space"
+                },
+                "you": {
+                    "invited": "You have invited {{member_name}}",
+                    "kicked": {
+                        "channel": "You have removed {{member_name}} from the Channel",
+                        "group": "You have removed {{member_name}} from the Group",
+                        "space": "You have removed {{member_name}} from the Space"
+                    }
+                }
+            },
+            "newMeeting": "Incoming call from:",
+            "notificationsActivatedForThisChat": "Notifications activated for this chat",
+            "notificationsMutedForThisChat": "Notifications muted for this chat",
+            "you": {
+                "changed": {
+                    "name": {
+                        "channel": "You have changed the Channel's name in {{name}}",
+                        "space": "You have changed the Space's name in {{name}}"
+                    },
+                    "picture": {
+                        "channel": "You have changed the Channel's picture",
+                        "group": "You have changed the Group's picture",
+                        "space": "You have changed the Space's name"
+                    },
+                    "topic": {
+                        "channel": "You have changed the Channel's topic in {{topic}}",
+                        "group": "You have changed the Group's topic in {{topic}}",
+                        "space": "You have changed the Space's topic in {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "You have created the Channel",
+                    "group": "You have created the Group",
+                    "single": "You have created the Chat",
+                    "space": "You have created the Space"
+                },
+                "deleted": {
+                    "channel": "You have deleted the Channel",
+                    "instantMeeting": "You have deleted the Instant Meeting",
+                    "space": "You have deleted the Space"
+                },
+                "invited": "You have been invited by {{invited_by}}",
+                "join": {
+                    "channel": "You have joined the Channel",
+                    "group": "You have joined the Group",
+                    "instantMeeting": "You have joined the Instant Meeting",
+                    "space": "You have joined the Space",
+                    "userRoom": "You have joined the Room"
+                },
+                "kicked": {
+                    "channel": "You have been removed from the Channel by {{kicked_by}}",
+                    "group": "You have been removed from the Group by {{kicked_by}}",
+                    "space": "You have been removed from the Space by {{kicked_by}}"
+                },
+                "left": {
+                    "channel": "You have left the Channel",
+                    "group": "You have left the Group",
+                    "space": "You have left the Space"
+                }
+            }
+        },
+        "readBy": "Read by",
         "yesterday": "Yesterday"
     },
-    "miniChat": {
-        "header": {
-            "close": "Close",
-            "collapse": "Collapse",
-            "expand": "Expand",
-            "meeting": "Start Meeting",
-            "openInTeam": "Open in Team"
-        }
-    },
-    "mockDisplayDescription": "Choose a conversation to start a chat",
-    "mockDisplayTitle": "Let's keep in touch!",
     "modal": {
-        "closedInstantMeeting": "Instant meeting closed",
-        "endCallByOwner": "The owner of the instant meeting has decided to end the call, we hope you enjoined the instant meeting experience"
-    },
-    "moderatorCannotLeaveGroupDescription": "",
-    "moderatorCannotLeaveGroupTitle": "Wait, a new moderator is needed",
-    "new": {
-        "attendee": {
-            "feedback": {
-                "emailReplicated": "The email entered has already been added",
-                "positive": "Attendee added to the list"
-            }
+        "addModeratorDescription": "Select one or more users to promote them to moderators of this Room",
+        "clearHistoryDescription": "This conversation is now empty, it has been moved to the bottom of the conversations list in order to emphasize the active ones.",
+        "confirm": {
+            "areYouSure": "Are you sure?",
+            "clearHistory": "You will clear permanently your chat history. Other participants' history of this chat won't be deleted. This action is irreversible.",
+            "deleteChannel": "Are you sure to delete this Channel?",
+            "deleteRoom": "Are you sure to delete the Room?",
+            "deleteSpace": "Are you sure to delete this Space?",
+            "leaveAndDeleteConversation": "Are you sure you want to leave and delete {{conversationName}}?",
+            "leaveChannel": "Are you sure to leave the Channel?",
+            "leaveGroup": "Are you sure to leave the Group?",
+            "leaveSpace": "Are you sure to leave the Space?",
+            "removeBuddy": "Are you sure you want to remove this member?"
         },
-        "participants": {
-            "requires": {
-                "one": "Requires at least one more participant",
-                "two": "Requires at least 2 others"
-            }
-        }
+        "deleteMessageDescription": "When deleting a message, it won't be visibile anymore for you and all other recipients",
+        "forwardModal": {
+            "forwardedMessageFrom": "Forwarded message from",
+            "selectOneOrMoreConversations": "Select one or more conversations",
+            "spaceAndChannels": "Space and Channels",
+            "typeToFilterTheList": "Type to filter the list"
+        },
+        "instantMeeting": {
+            "closedInstantMeeting": "Instant Meeting closed",
+            "continue": "Continue with the old Instant Meeting",
+            "create": "Create a new Instant Meeting",
+            "endCallByOwner": "The owner of the Instant Meeting has decided to end the call, we hope you enjoyed the Instant Meeting experience",
+            "instantMeetingAlreadyRunningText": "Creating a new one will overwrite the older one and your attendee will lost the connection, what do you want to do?",
+            "instantMeetingAlreadyRunningTitle": "An Instant Meeting is already running"
+        },
+        "moderatorCannotLeaveGroupDescription": "You're the only moderator of {{conversationName}}, please promote someone else before leaving the Group.",
+        "moderatorCannotLeaveGroupTitle": "Wait, a new moderator is needed",
+        "notShowAgain": "Do not show this again",
+        "planMeetingDescription": "Room's name helps the attendees to know the Room's matter of discussion.",
+        "roomsFunctionalitiesChangelogDescription": "We have made important changes to the meeting functionalities. Read the introduction to the Rooms to find out more!",
+        "showPreviousConversationHistory": "Show previous conversation history",
+        "chatsNews": "Chats' News",
+        "teamNews": "Team's News",
+        "userJoinedWaitingRoom": "There seems to be someone in the Waiting Room"
     },
-    "newMessages": "New Messages",
-    "notShowAgain": "Do not show this again",
     "notification": {
         "answer": "Answer",
-        "conversation": {
-            "created": ""
-        },
         "dismiss": "Dismiss",
-        "invitationToPersonalRoom": "Invitation to Personal Room from:",
-        "join": "Join",
-        "meeting": {
-            "ended": "Meeting ended",
-            "endedAtTime": "Meeting ended at ",
-            "startedAtTime": "Meeting started at "
-        },
-        "member": {
-            "changed": {
-                "name": {
-                    "channel": "",
-                    "space": ""
-                },
-                "picture": {
-                    "channel": "",
-                    "group": "",
-                    "space": ""
-                },
-                "topic": {
-                    "channel": "",
-                    "group": "",
-                    "space": ""
-                }
-            },
-            "channel": {
-                "join": ""
-            },
-            "created": {
-                "channel": "",
-                "group": "",
-                "single": "",
-                "space": ""
-            },
-            "deleted": {
-                "channel": "",
-                "instantMeeting": "",
-                "space": ""
-            },
-            "invited": "",
-            "join": "",
-            "kicked": {
-                "channel": "",
-                "group": "",
-                "space": ""
-            },
-            "left": {
-                "channel": "",
-                "group": "",
-                "space": ""
-            },
-            "you": {
-                "invited": "",
-                "kicked": {
-                    "channel": "",
-                    "group": "",
-                    "space": ""
-                }
-            }
-        },
-        "newMeeting": "Incoming call from:",
-        "notificationsActivatedForThisChat": "Notifications activated for this chat",
-        "notificationsMutedForThisChat": "Notifications muted for this chat",
-        "you": {
-            "changed": {
-                "name": {
-                    "channel": "",
-                    "space": ""
-                },
-                "picture": {
-                    "channel": "",
-                    "group": "",
-                    "space": ""
-                },
-                "topic": {
-                    "channel": "",
-                    "group": "",
-                    "space": ""
-                }
-            },
-            "created": {
-                "channel": "",
-                "group": "",
-                "single": "",
-                "space": ""
-            },
-            "deleted": {
-                "channel": "",
-                "instantMeeting": "",
-                "space": ""
-            },
-            "invited": "",
-            "join": {
-                "channel": "",
-                "group": "",
-                "instantMeeting": "",
-                "space": "",
-                "userRoom": ""
-            },
-            "kicked": {
-                "channel": "",
-                "group": "",
-                "space": ""
-            },
-            "left": {
-                "channel": "",
-                "group": "",
-                "space": ""
-            }
-        }
+        "incomingCall": "Incoming call from:",
+        "invitationToPersonalRoom": "Invitation to Personal Room from:"
     },
-    "otherParticipants": "",
-    "participants": "Participants",
-    "personalRoom": "Personal Room",
-    "placeholder": {
-        "attendeesComing": "Participants are coming",
-        "filter": "Type to filter the list",
-        "pickAddress": "Start typing to pick an address"
-    },
-    "planMeeting": {
-        "action": "Plan a meeting",
-        "description": "Room's name helps the attendees to know the Room's matter of discussion."
-    },
-    "planMeetingTooltip": "Plan a meeting",
-    "roomLinkCopied": "Room's link copied",
-    "roomsFunctionalitiesChangelog": "We have made important changes to the meeting functionalities. Read the introduction to the Rooms to find out more!",
-    "save": "Save",
-    "scheduledMeetings": "Scheduled Meetings",
-    "selection": {
-        "participants": {
-            "many": "",
-            "none": "You have reached the limit of participants set by the administrator"
-        }
+    "people": {
+        "manyMembers": "{{membersCount}} members",
+        "me": "Me",
+        "oneParticipant": "One participant",
+        "otherParticipants": "Other {{numberParticipants}} participants",
+        "participants": "Participants",
+        "whoYoureLookinkFor": "Who you're looking for?",
+        "you": "You"
     },
     "settings": {
         "meeting": {
-            "description": "Set your audio and video preferences to enter in meetings. You'll can always customize your preferences before entering in every meeting.",
+            "description": "Set your audio and video preferences to enter meetings. You can always customize your preferences before entering any meeting.",
             "enableCamera": "Enable camera",
             "enableMicrophone": "Enable microphone",
             "meetings": "Meetings",
@@ -435,7 +416,7 @@
             "personalRoomResetDescription": "By resetting Personal Room's link, all the previously given accesses will not work anymore."
         },
         "modal": {
-            "description": "Here you can set all Team's dedicated preferences in order to enjoy a complete customized chatting experience!"
+            "description": "Here you can set all Chats' dedicated preferences in order to enjoy a complete customized chatting experience!"
         },
         "notification": {
             "desktop": "Desktop notifications",
@@ -449,12 +430,12 @@
             }
         },
         "notifications": {
-            "description": "Set your preferences for every type of notification in Team."
+            "description": "Set your preferences for every type of notifications in Chats."
         },
         "profile": {
-            "chooseAProfilePic": "Choose a profile pic to let other users see, the image will be centered automatically.",
+            "chooseAProfilePic": "Choose a profile picture, the image will be centered automatically.",
             "errorGenericResponse": "Something went wrong. Please retry",
-            "maximumDimension": "Maximum dimension: 256kb.",
+            "maximumDimension": "Max. dimension: 256kb.",
             "reset": "Reset",
             "restore": "Restore",
             "statusOptionalDescription": "Optional. Let others now what are you thinking about. Max lenght: 256 characters",
@@ -462,21 +443,19 @@
             "update": "Update"
         },
         "resetPersonalRoomLinkSuccess": "Personal Room's link was reset",
-        "team": {
-            "title": "Settings"
-        }
+        "title": "Settings"
     },
-    "spaces": "Spaces",
     "status": {
+        "areWriting": "are writing…",
         "externalGuest": "External guest",
         "internalGuest": "Internal guest",
-        "last_seen": "",
+        "isWriting": "is writing…",
+        "lastSeen": "Last seen {{lastSeen}}",
         "offline": "Offline",
         "online": "Online",
+        "userStatus": "Status",
         "waitingToEnter": "Waiting to enter"
     },
-    "teamNews": "Team's News",
-    "title": "Title",
     "tooltip": {
         "acceptQueuedMember": "Let user in",
         "addFile": "Add file",
@@ -484,15 +463,24 @@
         "chooseFile": "Choose file",
         "close": "Close",
         "closeSearch": "Close search",
-        "collapseChannel": "Collapse channels",
+        "collapseChannel": "Collapse Channels",
+        "copyRoomLink": "Copy this link to share the Room",
+        "copyRoomLinkTooltip": "Copy this link to share the Room",
+        "copyUserRoom": "Copy your Personal Room's link",
         "downgradeModerator": "Downgrade Moderator",
         "editDescription": "Edit description",
         "editInfo": "Edit info",
-        "enterMeetingRoom": "Start meeting",
+        "enterMeetingRoom": "Open Minichat",
+        "enterYourRoom": "Enter your Personal Room",
+        "enterYourRoomTooltip": "Enter your Personal Room",
+        "errorUpdatingAvatarStatus": "Something went wrong while settings status. Please retry",
+        "errorUploadingAvatarPicture": "Something went wrong while uploading new avatar. Please retry",
+        "errorRemovingAvatarPicture": "Something went wrong while removing avatar. Please retry",
         "goToPrivateChat": "Go to private chat",
         "inviteToPersonalRoom": "Invite to your Personal Room",
         "messageComposer": "Message composer",
         "openMinichat": "Open Minichat",
+        "planMeeting": "Plan a Meeting",
         "promoteModerator": "Promote to Moderator",
         "rejectQueuedMember": "Reject user",
         "removeFile": "Remove file",
@@ -501,35 +489,8 @@
         "selectEmoji": "Select emoji",
         "sendFile": "Send file",
         "sendMessage": "Send message",
-        "showChannels": "Show channels",
+        "showChannels": "Show Channels",
         "switchToConversation": "Switch to conversation",
         "switchToInfoPanel": "Switch to info panel"
-    },
-    "topic": "Topic",
-    "treeMenu": {
-        "conversations": "Conversations"
-    },
-    "undo": "Undo",
-    "usernameRoom": "",
-    "waitingRoom": "Waiting Room",
-    "widget": {
-        "meetingUrl": {
-            "description": "Copy this link and share it to provide others with access to this Room.",
-            "title": ""
-        },
-        "speakersCorner": "Speaker's corner"
-    },
-    "writing": {
-        "generic": {
-            "status": "is writing..."
-        },
-        "messageSentBy": {
-            "Me": "Me"
-        },
-        "status": {
-            "plural": "are writing..."
-        }
-    },
-    "you": "You",
-    "yourRoom": "Your Room"
+    }
 }

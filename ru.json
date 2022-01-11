@@ -1,0 +1,404 @@
+{
+    "creation": {
+        "requiresOneMoreParticipant": "Требуется еще один участник",
+        "attendeeAdded": "Участник добавлен в список",
+        "channel": {
+            "mainDescription": "Каналы - это тематические Чаты, созданные в Переговорных. Участники Переговорной могут присоединиться к Каналу. Участники могут покинуть Канал, не выходя из Переговорной.",
+            "setImageAndTitleDescription": "Установите картинку Канала. Картинку можно поменять в информационном окне Канала.",
+            "titleInputRequirements": "Допускается 140 символов. Заголовок Переговорной должен быть уникальным",
+            "topicInputExplanation": "Описание темы Канала"
+        },
+        "group": {
+            "addParticipantsDescription": "Добавить участников можно с помощью электронной почты и/или имени. Вам необходимо добавить как минимум двоих участников. Или создайте Чат.",
+            "groupWithoutNameAddParticipant": "Добавить участников в вашу Группу",
+            "inputTopicDescriptionLabel": "Описание темы Группы",
+            "setImageAndTopicDescription": "Установите картинку для группы."
+        },
+        "instantMeeting": {
+            "addAttendees": "Добавить участников в Мгновенное Совещание",
+            "addAttendeesDescription": "Пригласите участников, напишите их имя или адрес электронной почты.",
+            "addAttendeesInputExplanation": "Вы можете пригласить внешних пользователей введя их адрес электронной почты.",
+            "attendee": {
+                "feedback": {
+                    "negative": "Введенный адрес электронной почты недействителен, введите действительный адрес",
+                    "neutral": "Выберите одного или несколько участников"
+                }
+            }
+        },
+        "limitOfParticipantReached": "Вы достигли лимита участников установленного администратором",
+        "nameMax140Characters": "Максимум 140 символов",
+        "nameNeeds2Letters": "Имя должно содержать как минимум две буквы",
+        "nameRequired": "Требуется название",
+        "participants": {
+            "feedback": {
+                "neutral": "Выбрать двух или несколько участников"
+            }
+        },
+        "requiresTwoOthers": "Требуется еще 2",
+        "selectMoreParticipantsForInstantMeetings": "Выберите участника из списка или введите адрес, чтобы добавить внешнего пользователя",
+        "selectOneOrMoreUsers": "Выбрать одного или несколько пользователей",
+        "space": {
+            "spaceWithoutNameAddParticipant": "Добавить участников в Переговорную",
+            "topicDescription": "Переговорные это тематические Чаты с Каналами.",
+            "topicInputExplanation": "Описание темы Переговорной"
+        },
+        "startTypingToPick": "Начните печатать для выбора адреса",
+        "topicMax255Characters": "Максимум 255 символов",
+        "topicOptional": "Опция. Описание темы",
+        "typeToFilter": "Фильтр списка",
+        "typeWithNameAddParticipant": "Добавить участников",
+        "youCanInviteOther": "Вы можете пригласить других {{limit}} участников"
+    },
+    "meeting": {
+        "interactions": {
+            "shortCutLabel": "(С)",
+            "cinemaView": "Режим Кинотеатра",
+            "closeCall": "Завершить этот звонок",
+            "disableAudio": "Отключить звук",
+            "disableFullScreen": "Выход из полноэкранного режима",
+            "disableScreensharing": "Отключить общий доступ к экрану",
+            "disableVideo": "Отключить видео",
+            "enableAudio": "Включить аудио",
+            "enableScreenSharing": "Включить общий доступ к экрану",
+            "enableVideo": "Включить видео",
+            "gridView": "Представление \"Сетка\"",
+            "hideChat": "Скрыть Чат",
+            "hideParticipants": "Скрыть участников",
+            "muteUser": "Приглушить",
+            "muteUserForAllTitle": "Отключить звук для всех",
+            "mutedByModerators": "Модератор отключил звук, включите звук чтобы говорить",
+            "mutedByOthers": "Вам отключен звук",
+            "pinVideo": "Закрепить видео",
+            "showChat": "Показать Чат",
+            "showParticipants": "Показать участников",
+            "status": {
+                "cameraMicOff": "Ваша камера и микрофон выключены",
+                "cameraOff": "Ваша камера выключена"
+            },
+            "unpinVideo": "Открепить видео"
+        },
+        "attendeesComing": "Участники присоединяются",
+        "defaultViewModeDedicatedModeLabel": "Выделенный режим",
+        "defaultViewModeDefaultModeLabel": "Режим по умолчанию",
+        "defaultViewModeSecondaryDescriptionLabel": "Эта опция будет сохранена в ваших настройках и может быть обновлена каждый раз, когда вы захотите.",
+        "startModal": {
+            "description": "Как вы хотите войти на Совещание?",
+            "enter": "Enter",
+            "noVideoAndAudio": "Камера выключена, микрофон включен",
+            "noVideoAndNoAudio": "Камера выключена, микрофон выключен",
+            "videoAndAudio": "Камера включена, Микрофон включен",
+            "videoAndNoAudio": "Камера включена, Микрофон выключен"
+        }
+    },
+    "tooltip": {
+        "switchToInfoPanel": "Перейти в панель информации",
+        "addFile": "Добавить файл",
+        "cancelFilter": "Отменить фильтр",
+        "chooseFile": "Выбрать файл",
+        "close": "Закрыть",
+        "closeSearch": "Закрыть поиск",
+        "collapseChannel": "Свернуть Каналы",
+        "copyRoomLink": "Скопировать ссылку и поделиться",
+        "copyRoomLinkTooltip": "Скопировать ссылку и поделиться",
+        "downgradeModerator": "Понижение прав Модератора",
+        "editDescription": "Редактировать описание",
+        "editInfo": "Редактировать информацию",
+        "enterMeetingRoom": "Открыть мини чат",
+        "enterYourRoom": "Войдите в Конференц-зал",
+        "enterYourRoomTooltip": "Войдите в Конференц-зал",
+        "errorUpdatingAvatarStatus": "Что-то пошло не так во время настройки статуса. Пожалуйста, попробуйте еще раз",
+        "errorUploadingAvatarPicture": "Что-то пошло не так при загрузке новой картинки. Пожалуйста, попробуйте еще раз",
+        "errorRemovingAvatarPicture": "Что-то пошло не так при удалении картинки. Пожалуйста, попробуйте еще раз",
+        "goToPrivateChat": "Перейти в личный чат",
+        "messageComposer": "Средство создания сообщения",
+        "openMinichat": "Открыть мини чат",
+        "promoteModerator": "Сделать модератором",
+        "removeFile": "Удалить файл",
+        "removeMember": "Удалить участника",
+        "selectEmoji": "Выбрать emoji",
+        "sendFile": "Отправить файл",
+        "sendMessage": "Отправить сообщение",
+        "showChannels": "Показать Каналы",
+        "switchToConversation": "Перейти в чат"
+    },
+    "action": {
+        "activateNotifications": "Включить уведомления",
+        "add": "Добавить",
+        "addChannel": "Добавить Канал",
+        "addMembers": "Добавить участников",
+        "addModerator": "Добавить модератора",
+        "addModerators": "Добавить модераторов",
+        "addNewMembers": "Добавить новых участников",
+        "addNewMembersTo": "Добавить новых участников в",
+        "addOtherModerators": "Добавить других модераторов",
+        "clearHistory": "Очистить журнал",
+        "close": "Закрыть",
+        "collapse": "Свернуть",
+        "copy": "Копия",
+        "copyAppVersion": "Копировать версию приложения",
+        "create": "Создать",
+        "createChannel": "Создать канал связанный с {{spaceName}}",
+        "createChat": "Создать Чат",
+        "createGroup": "Создать группу",
+        "createInstantMeeting": "Создать Мгновенное Совещание",
+        "createSpace": "Создать Переговорную",
+        "delete": "Удалить",
+        "deleteChannel": "Удалить канал",
+        "deleteRoom": "Удалить Конференц-Зал",
+        "deleteSpace": "Удалить Переговорную",
+        "edit": "Редактировать",
+        "editYourMessage": "Редактировать сообщение",
+        "expand": "Развернуть",
+        "forward": "Переслать",
+        "goToGuide": "Перейти к инструкции",
+        "join": "Присоединиться",
+        "joinChannel": "Присоединяйтесь к Каналу, для отправки сообщений и получения уведомлений",
+        "joinChannelAction": "Войти в Канал",
+        "joinRoom": "Войти в Конференц-зал",
+        "leave": "Покинуть",
+        "leaveAndDelete": "Выйти и удалить",
+        "leaveChannel": "Покинуть Канал",
+        "leaveSpace": "Покинуть Переговорную",
+        "muteNotifications": "Отключить уведомления",
+        "openInTeam": "Открыть в Team",
+        "plan": "План",
+        "remove": "Удалить",
+        "removeMember": "Удалить участника",
+        "reply": "Ответить",
+        "replyToSomeone": "Ответить",
+        "replyToYourself": "Ответить",
+        "resetLink": "Сбросить ссылку",
+        "scrollToNewMessage": "Прокрутите до нового сообщения",
+        "scrollToTheBottom": "Прокрутите вниз",
+        "startMeeting": "Начать Мгновенное Совещание"
+    },
+    "appVersion": "Версия приложения",
+    "button": {
+        "cancel": "Отменить",
+        "no": "Нет",
+        "ok": "Ок",
+        "save": "Сохранить",
+        "undo": "Отменить",
+        "yes": "Да"
+    },
+    "conversation": {
+        "channelInfo": "Информация о канале",
+        "contactInfo": "Контактная информация",
+        "groupInfo": "Информация о группе",
+        "info": "Информация",
+        "instantInfo": "Информация о Мгновенном Совещании",
+        "name": "Имя",
+        "nameRoom": "{{conversationTitle}}'s Зал",
+        "newMessages": "Новое сообщение",
+        "roomLinkDescription": "Скопируйте ссылку и поделитесь ей для доступа в этот Конференц-зал.",
+        "roomName": "Название зала",
+        "spaceInfo": "Информация о переговорной",
+        "speakersCorner": "Зона Спикера",
+        "title": "Название",
+        "topic": "Тема"
+    },
+    "conversations": {
+        "activeMeetingRooms": "Активные Конференц-залы",
+        "chats": "Чаты",
+        "conversations": "Чаты",
+        "instantMeetings": "Мгновенные Совещания",
+        "meetingRooms": "Конференц-залы",
+        "noActiveInstantMeetings": "В настоящее время нет активных Мгновенных Совещаний. Создайте новое Мгновенное Совещание или переключитесь на вкладку.",
+        "noActiveMeetings": "В настоящее время нет активных Конференц-залов",
+        "noActiveSpaces": "На данный момент нет активных переговорных. Создайте новую Переговорную.",
+        "noFilteredInstantMeetings": "Нет Мгновенных совещаний соответствующих этому фильтру.",
+        "noFilteredMeetings": "По этому фильтру Конференц-залов или запланированных Совещаний не найдено",
+        "noFilteredSpaces": "Нет Переговорных соответствующих этому фильтру.",
+        "personalRoom": "Персональная комната",
+        "scheduledMeetings": "Запланированные встречи",
+        "spaces": "Переговорная",
+        "spaceGeneralChannel": "Общий",
+        "waitingRoom": "Зал ожидания",
+        "yourRoom": "Ваш Конференц-зал"
+    },
+    "feedback": {
+        "historyClearedSuccessfully": "История очищена!",
+        "notificationsActivatedForThisChat": "Уведомления включены для этого Чата",
+        "notificationsMutedForThisChat": "Отключить уведомления для этого чата",
+        "online": "Снова в сети!",
+        "resetPersonalRoomLinkSuccess": "Ссылка на персональную комнату была сброшена",
+        "retryConnection": "Повторить подключение",
+        "roomLinkCopied": "Ссылка на комнату скопирована",
+        "uploadConversationPicturesFailed": "Не удалось загрузить фотографию чата"
+    },
+    "message": {
+        "deletedMessage": "Удаленное сообщение",
+        "edited": "отредактировано",
+        "forwarded": "пересланные",
+        "now": "Сейчас",
+        "service": {
+            "meeting": {
+                "ended": "Совещание закончилась"
+            },
+            "member": {
+                "changed": {
+                    "name": {
+                        "channel": "{{member_name}} изменил название канала на {{name}}",
+                        "space": "{{member_name}} изменил название Переговорной {{name}}"
+                    },
+                    "picture": {
+                        "channel": "{{member_name}} изменил картинку канала",
+                        "space": "{{member_name}} изменил картинку Переговорной"
+                    },
+                    "topic": {
+                        "channel": "{{member_name}} изменившего тему Канала на",
+                        "space": "{{member_name}} изменил тему Канала {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "{{Имя_участника}} создал Канал",
+                    "space": "{{member_name}} создал Переговорную"
+                },
+                "deleted": {
+                    "channel": "{{member_name}} удалил Канал",
+                    "instantMeeting": "{{member_name}} удалил Мгновенное Совещание",
+                    "space": "{{member_name}} удалила Переговорную"
+                },
+                "invited": "{{member_name}} был приглашен {{Invite_by}}",
+                "join": {
+                    "channel": "{{member_name}} присоединился к Каналу"
+                },
+                "kicked": {
+                    "channel": "{{Имя_участника}} был удален из Канала {{kicked_by}}",
+                    "group": "{{member_name}} был удален из группы пользователем {{kicked_by}}",
+                    "space": "{{member_name}} был удален из Переговорной {{kicked_by}}"
+                },
+                "left": {
+                    "channel": "{{Имя участника}} который покинул Канал",
+                    "space": "{{member_name}} который покинул Переговорную"
+                },
+                "you": {
+                    "invited": "Вы пригласили {{member_name}}"
+                }
+            },
+            "newMeeting": "Входящий звонок от:",
+            "notificationsActivatedForThisChat": "Уведомления включены для этого Чата",
+            "notificationsMutedForThisChat": "Отключить уведомления для этого чата",
+            "you": {
+                "changed": {
+                    "name": {
+                        "channel": "Вы изменили название Канала на {{name}}",
+                        "space": "Вы изменили название Переговорной на"
+                    },
+                    "picture": {
+                        "channel": "Вы изменили картинку Канала",
+                        "space": "Вы изменили название Переговорной"
+                    },
+                    "topic": {
+                        "channel": "Вы изменили тему Канала на",
+                        "space": "Вы изменили тему Переговорной"
+                    }
+                },
+                "created": {
+                    "channel": "Вы создали Канал",
+                    "space": "Вы создали Переговорную"
+                },
+                "deleted": {
+                    "channel": "Вы удалили Канал",
+                    "instantMeeting": "Вы удалили Мгновенное Совещание",
+                    "space": "Вы удалили Переговорную"
+                },
+                "invited": "Вы были приглашены {{invited_by}}",
+                "join": {
+                    "channel": "Вы присоединились к Каналу",
+                    "instantMeeting": "Вы присоединились к Мгновенному Совещанию",
+                    "space": "Вы присоединились к Переговорной",
+                    "userRoom": "Вы вошли в Конференц-зал"
+                },
+                "kicked": {
+                    "channel": "Вы были удалены из Канала {{kicked_by}}",
+                    "group": "Вы удалены из группы {{kicked_by}}",
+                    "space": "Вы были удалены из Переговорной {{kicked_by}}"
+                },
+                "left": {
+                    "channel": "Вы покинули Канал",
+                    "space": "Вы покинули Переговорную"
+                }
+            }
+        },
+        "readBy": "Прочитано",
+        "yesterday": "Вчера"
+    },
+    "modal": {
+        "addModeratorDescription": "Сделайте одного или нескольких пользователей модераторами этого Конференц-зала",
+        "clearHistoryDescription": "История этого чата была удалена, и теперь он перемещен в нижнюю часть списка чатов, чтобы облегчить доступ к активным чатам.",
+        "confirm": {
+            "areYouSure": "Вы уверены?",
+            "clearHistory": "Вы навсегда очистите историю чата. История этого чата других участников не будет удалена. Это действие необратимо.",
+            "leaveAndDeleteConversation": "Вы действительно хотите выйти и удалить {{talkName}}?"
+        },
+        "forwardModal": {
+            "forwardedMessageFrom": "Сообщение переслано",
+            "selectOneOrMoreConversations": "Выберите один или несколько чатов",
+            "typeToFilterTheList": "Фильтр списка"
+        },
+        "instantMeeting": {
+            "closedInstantMeeting": "Мгновенное Совещание завершилось",
+            "continue": "Продолжить Мгновенное Совещание",
+            "create": "Создать новое Мгновенное Совещание"
+        },
+        "moderatorCannotLeaveGroupDescription": "Вы единственный модератор группы {{talkName}}, передайте права другому пользователю, прежде чем покинуть группу.",
+        "moderatorCannotLeaveGroupTitle": "Подождите, требуется новый модератор",
+        "notShowAgain": "Не показывай это снова",
+        "roomsFunctionalitiesChangelogDescription": "Мы внесли важные изменения в функции Совещаний. Ознакомьтесь с информацией о Конференц-залах!",
+        "showPreviousConversationHistory": "Показать предыдущую историю чата",
+        "teamNews": "Новости Team"
+    },
+    "notification": {
+        "answer": "Ответ",
+        "dismiss": "Отклонить",
+        "incomingCall": "Входящий звонок от:"
+    },
+    "people": {
+        "manyMembers": "{{membersCount}} Участники",
+        "me": "Я",
+        "oneParticipant": "Один участник",
+        "otherParticipants": "Другие {{numberParticipants}} участники",
+        "participants": "Участники",
+        "you": "Вы"
+    },
+    "settings": {
+        "meeting": {
+            "enableCamera": "Включить камеру",
+            "enableMicrophone": "Включить микрофон",
+            "meetings": "Встречи",
+            "personalRoomOptionsTitleModal": "Сброс ссылки Конференц-зала",
+            "personalRoomResetButton": "Сбросить ссылку Конференц-зала"
+        },
+        "notification": {
+            "desktop": "Уведомления desktop",
+            "openMinichatDescription": "Настройте открытие мини чата",
+            "title": {
+                "notifications": "Оповещения",
+                "openMinichat": "Открыть при новом сообщении",
+                "openMinichatForGroup": "Открыть при новом сообщении в Группе",
+                "openMinichatForSingle": "Открыть при новом сообщении",
+                "openMinichatForSpace": "Открыть при новом сообщении в Переговорной"
+            }
+        },
+        "profile": {
+            "errorGenericResponse": "Что-то пошло не так. Пожалуйста повторите",
+            "reset": "Сброс",
+            "restore": "Восстановление",
+            "statusOptionalDescription": "Опция. Статус максимальное количество 256 знаков",
+            "title": "Профиль",
+            "update": "Обновить"
+        },
+        "resetPersonalRoomLinkSuccess": "Ссылка на персональную комнату была сброшена",
+        "title": "Настройки"
+    },
+    "status": {
+        "externalGuest": "Внешний гость",
+        "internalGuest": "Внутренний гость",
+        "lastSeen": "Последнее посещение {{lastSeen}}",
+        "offline": "Не в сети",
+        "online": "В сети",
+        "userStatus": "Статус",
+        "waitingToEnter": "В ожидании входа"
+    }
+}
