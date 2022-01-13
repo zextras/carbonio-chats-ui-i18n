@@ -48,7 +48,10 @@
         "resetLink": "Ripristina link",
         "scrollToNewMessage": "Scorri al nuovo messaggio",
         "scrollToTheBottom": "Scorri in fondo",
-        "startMeeting": "Avvia Meeting"
+        "startMeeting": "Avvia Meeting",
+        "openInChats": "Apri nella Chat",
+        "leaveGroup": "Abbandona il Gruppo",
+        "planMeeting": "Programma una Riunione"
     },
     "conversations": {
         "instantMeetings": "Instant Meeting",
@@ -67,7 +70,12 @@
         "spaces": "Spaces",
         "spaceGeneralChannel": "Generale",
         "waitingRoom": "Sala d'aspetto",
-        "yourRoom": "La tua Stanza"
+        "yourRoom": "La tua Stanza",
+        "mockDisplayTitle": "Restiamo in contatto!",
+        "noActiveChats": "Non ci sono chat attive attualmente. Crea una nuova conversazione o cambia scheda.",
+        "noFilteredChats": "Nessuna chat corrisponde a questo filtro.",
+        "filterChatList": "Filtra lista chat",
+        "mockDisplayDescription": "Scegli una conversazione per iniziare una Chat"
     },
     "creation": {
         "nameRequired": "Il nome è obbligatorio",
@@ -76,16 +84,20 @@
             "mainDescription": "I Canali inclusi negli Spazi sono chat il cui argomento è ben definito. I partecipanti di uno Spazio possono unirsi al Canale e quindi alla relativa conversazione. I partecipanti possono abbandonare il Canale senza dover però lasciare anche lo Spazio.",
             "setImageAndTitleDescription": "Seleziona un'immagine che renda identificabile il Canale all'interno dello Spazio ospitante. L'immagine del Canale può essere impostata o cambiata dal pannello informativo del Canale.",
             "titleInputRequirements": "Massimo 140 caratteri, il titolo deve essere diverso dagli altri usati nello stesso Spazio",
-            "topicInputExplanation": "Descrive l'argomento del Canale"
+            "topicInputExplanation": "Descrive l'argomento del Canale",
+            "topicDescription": "I Canali sono conversazioni con un argomento da trattare definito, quindi si consiglia un nome che ne rifletta la tematica."
         },
         "chat": {
-            "chatFilterDescription": "Puoi creare una Chat semplicemente selezionando l'utente con cui vuoi iniziare una conversazione"
+            "chatFilterDescription": "Puoi creare una Chat semplicemente selezionando l'utente con cui vuoi iniziare una conversazione",
+            "addParticipant": "Scegli un utente con cui iniziare una chat",
+            "description": "Le chat sono conversazioni tra due utenti utili per rimanere in contatto con i tuoi colleghi."
         },
         "group": {
             "addParticipantsDescription": "Invita partecipanti digitando il loro nome o indirizzo. Devi aggiungere minimo altri due partecipanti, altrimenti puoi creare una Chat.",
             "groupWithoutNameAddParticipant": "Aggiungi partecipanti al tuo Gruppo",
             "inputTopicDescriptionLabel": "Descrive l'argomento del Gruppo",
-            "setImageAndTopicDescription": "Scegli un'immagine per aiutare gli utenti a identificare il Gruppo."
+            "setImageAndTopicDescription": "Scegli un'immagine per aiutare gli utenti a identificare il Gruppo.",
+            "mainDescription": "I Gruppi devono includere più di due partecipanti. Scegli un nome che descriva l'argomento trattato nel Gruppo"
         },
         "instantMeeting": {
             "addAttendees": "Aggiungi partecipanti nel tuo Instant Meeting",
@@ -96,7 +108,9 @@
                     "negative": "L'indirizzo e-mail inserito non è valido, per favore inserisci una e-mail valida",
                     "neutral": "Seleziona uno o più partecipanti"
                 }
-            }
+            },
+            "titleDescription": "Scegli un nome riconoscibile per questo Instant Meeting in modo tale che i partecipanti sappiano subito il tema di questa riunione.",
+            "description": "Gli Instant Meeting sono pensati per fornire videochiamate momentanee e veloci di cui non verrà conservata alcuna traccia e, una volta terminata la chiamata, il meeting cesserà di esistere. Un Instant Meeting può essere creato solo da un utente Team Pro che può però invitare anche utenti esterni ad unirsi."
         },
         "limitOfParticipantReached": "Hai raggiunto il numero massimo di partecipanti deciso dall'amministratore",
         "nameMax140Characters": "Può contenere al massimo 140 caratteri",
@@ -114,14 +128,20 @@
             "addMembersDescription": "Invita partecipanti digitando il loro nome o indirizzo. Devi aggiungere minimo altri due partecipanti, altrimenti puoi creare una Chat.",
             "spaceWithoutNameAddParticipant": "Aggiungi partecipanti nel tuo Spazio",
             "topicDescription": "Gli Spazi sono conversazioni con un argomento da trattare definito quindi si consiglia un nome che ne rifletta la tematica.",
-            "topicInputExplanation": "Descrive l'argomento dello Spazio"
+            "topicInputExplanation": "Descrive l'argomento dello Spazio",
+            "titleDescription": "Il titolo identifica lo Spazio e quindi dovrebbe descrivere l'argomento trattato.",
+            "mainDescription": "Uno Spazio è un ambiente generico di comunicazione che include specifiche chat, ognuna con un argomento definito, chiamate Canali. Per creare uno Spazio devi invitare almeno due partecipanti. I Canali possono essere aggiunti direttamente dal pannello informativo dello Spazio."
         },
         "startTypingToPick": "Scrivi per scegliere un indirizzo",
         "topicMax255Characters": "Può contenere al massimo 255 caratteri",
         "topicOptional": "Opzionale. Descrive l'argomento trattato",
         "typeToFilter": "Digita per filtrare la lista",
         "typeWithNameAddParticipant": "Aggiungi partecipanti a",
-        "youCanInviteOther": "Puoi invitare altri {{limit}} partecipanti"
+        "youCanInviteOther": "Puoi invitare altri {{limit}} partecipanti",
+        "emailReplicated": "Questa e-mail è già stata aggiunta",
+        "nameRequired-max140Characters-avoidReusingNames": "Obbligatorio. Massimo 140 caratteri, evita nomi già utilizzati.",
+        "titleInputRequirements": "Massimo 140 caratteri, il titolo deve essere univoco",
+        "topicNeeds2Letters": "Il tema è opzionale. Min. 2 lettere"
     },
     "message": {
         "readBy": "Letto da",
@@ -131,7 +151,9 @@
         "now": "Adesso",
         "service": {
             "meeting": {
-                "ended": "Meeting concluso"
+                "ended": "Meeting concluso",
+                "endedAtTime": "Riunione terminata alle",
+                "startedAtTime": "Riunione iniziata alle"
             },
             "member": {
                 "changed": {
@@ -141,16 +163,20 @@
                     },
                     "picture": {
                         "channel": "{{member_name}} ha modificato l'immagine del Canale",
-                        "space": "{{member_name}} ha modificato l'immagine dello Spazio"
+                        "space": "{{member_name}} ha modificato l'immagine dello Spazio",
+                        "group": "{{member_name}} ha modificato l'immagine del Gruppo"
                     },
                     "topic": {
                         "channel": "{{member_name}} ha modificato l'argomento del Canale in {{topic}}",
-                        "space": "{{member_name}} ha modificato l'argomento dello Spazio in {{topic}}"
+                        "space": "{{member_name}} ha modificato l'argomento dello Spazio in {{topic}}",
+                        "group": "{{member_name}} ha modificato l'argomento del gruppo in {{topic}}"
                     }
                 },
                 "created": {
                     "channel": "{{member_name}} ha creato il Canale",
-                    "space": "{{member_name}} ha creato lo Spazio"
+                    "space": "{{member_name}} ha creato lo Spazio",
+                    "single": "{{member_name}} ha creato la Chat",
+                    "group": "{{member_name}} ha creato il Gruppo"
                 },
                 "deleted": {
                     "channel": "{{member_name}} ha eliminato il Canale",
@@ -159,7 +185,8 @@
                 },
                 "invited": "{{member_name}} è stato invitato da {{invited_by}}",
                 "join": {
-                    "channel": "{{member_name}} partecipa al Canale"
+                    "channel": "{{member_name}} partecipa al Canale",
+                    "conversation": "{{member_name}} partecipa alla Chat"
                 },
                 "kicked": {
                     "channel": "{{member_name}} è stato rimosso dal Canale da {{kicked_by}}",
@@ -168,10 +195,16 @@
                 },
                 "left": {
                     "channel": "{{member_name}} ha abbandonato il Canale",
-                    "space": "{{member_name}} ha abbandonato lo Spazio"
+                    "space": "{{member_name}} ha abbandonato lo Spazio",
+                    "group": "{{member_name}} ha abbandonato il Gruppo"
                 },
                 "you": {
-                    "invited": "Hai invitato {{member_name}}"
+                    "invited": "Hai invitato {{member_name}}",
+                    "kicked": {
+                        "channel": "Hai rimosso {{member_name}} dal Canale",
+                        "group": "Hai rimosso {{member_name}} dal Gruppo",
+                        "space": "Hai rimosso {{member_name}} dallo Spazio"
+                    }
                 }
             },
             "newMeeting": "Chiamata in arrivo da:",
@@ -185,16 +218,20 @@
                     },
                     "picture": {
                         "channel": "Hai modificato l'immagine del Canale",
-                        "space": "Hai modificato l'immagine dello Spazio"
+                        "space": "Hai modificato l'immagine dello Spazio",
+                        "group": "Hai modificato l'immagine del Gruppo"
                     },
                     "topic": {
                         "channel": "Hai modificato l'argomento del Canale in {{topic}}",
-                        "space": "Hai modificato l'argomento dello Spazio in {{topic}}"
+                        "space": "Hai modificato l'argomento dello Spazio in {{topic}}",
+                        "group": "Hai modificato l'argomento del Gruppo in {{topic}}"
                     }
                 },
                 "created": {
                     "channel": "Hai creato il Canale",
-                    "space": "Hai creato lo Spazio"
+                    "space": "Hai creato lo Spazio",
+                    "group": "Hai creato il Gruppo",
+                    "single": "Hai creato la Chat"
                 },
                 "deleted": {
                     "channel": "Hai eliminato il Canale",
@@ -206,7 +243,8 @@
                     "channel": "Ora fai parte del Canale",
                     "instantMeeting": "Stai partecipando all'Instant Meeting",
                     "space": "Ora fai parte dello Spazio",
-                    "userRoom": "Ora fai parte della Stanza"
+                    "userRoom": "Ora fai parte della Stanza",
+                    "group": "Ora fai parte del Gruppo"
                 },
                 "kicked": {
                     "channel": "Sei stato rimosso dal Canale da {{kicked_by}}",
@@ -215,9 +253,11 @@
                 },
                 "left": {
                     "channel": "Hai abbandonato il Canale",
-                    "space": "Hai abbandonato lo Spazio"
+                    "space": "Hai abbandonato lo Spazio",
+                    "group": "Hai abbandonato il Gruppo"
                 }
-            }
+            },
+            "conversationCreated": "Chat creata"
         },
         "yesterday": "Ieri"
     },
@@ -227,7 +267,8 @@
         "me": "Me stesso",
         "otherParticipants": "Altri {{numberParticipants}} partecipanti",
         "participants": "Partecipanti",
-        "you": "Tu"
+        "you": "Tu",
+        "whoYoureLookinkFor": "Chi stai cercando?"
     },
     "tooltip": {
         "promoteModerator": "Promuovi a Moderatore",
@@ -256,7 +297,15 @@
         "sendMessage": "Invia messaggio",
         "showChannels": "Mostra Canali",
         "switchToConversation": "Passa a conversazione",
-        "switchToInfoPanel": "Passa al pannello informazioni"
+        "switchToInfoPanel": "Passa al pannello informazioni",
+        "acceptQueuedMember": "Fai entrare l'utente",
+        "downgradeModerator": "Rimuovi Moderatore",
+        "inviteToPersonalRoom": "Invita nella tuo Stanza Personale",
+        "messageComposer": "Compositore messaggio",
+        "rejectQueuedMember": "Rifiuta utente",
+        "copyUserRoom": "Copia il link della tua Stanza Personale",
+        "planMeeting": "Programma una Riunione",
+        "searchForParticipant": "Cerca partecipante"
     },
     "appVersion": "Versione app",
     "button": {
@@ -280,7 +329,10 @@
         "roomName": "Nome Stanza",
         "spaceInfo": "Info spazio",
         "title": "Titolo",
-        "topic": "Nome"
+        "topic": "Nome",
+        "roomLink": "Link della Stanza",
+        "fileUploadDescription": "Descrizione file",
+        "roomInfo": "Informazioni Stanza"
     },
     "feedback": {
         "historyClearedSuccessfully": "Cronologia eliminata con successo!",
@@ -290,7 +342,10 @@
         "resetPersonalRoomLinkSuccess": "Il link della Stanza Personale è stato ripristinato",
         "retryConnection": "Riprova a connetterti",
         "roomLinkCopied": "Link della Stanza copiato",
-        "uploadConversationPicturesFailed": "Impossibile caricare l'immagine della conversazione"
+        "uploadConversationPicturesFailed": "Impossibile caricare l'immagine della conversazione",
+        "appVersionCopied": "Versione App copiata",
+        "offline": "Sembra esserci un errore di connessione al server",
+        "tryAReconnectionIn": "Prova a riconnetterti tra {{seconds}}"
     },
     "meeting": {
         "attendeesComing": "I partecipanti stanno arrivando",
@@ -333,7 +388,12 @@
             "noVideoAndNoAudio": "Webcam spenta, Microfono spento",
             "videoAndAudio": "Webcam attiva, Microfono attivo",
             "videoAndNoAudio": "Webcam attiva, Microfono spento"
-        }
+        },
+        "defaultViewModeDefaultLabel": "Scegliendo la \"Modalità Predefinita\", la Riunione inizierà all'interno della schermata attuale.",
+        "defaultViewModeSaveLabel": "Salva Opzioni",
+        "defaultViewModeTitleModal": "Opzioni ambiente Riunione",
+        "defaultViewModeDedicatedLabel": "La \"Modalità Dedicata\" ti reindirizzerà a una scheda separata del tuo browser per goderti al meglio l'esperienza della Riunione.",
+        "resetMeetingUrlModalDescription": "Vuoi ripristinare il link di \"{{conversationName}}\"?"
     },
     "modal": {
         "addModeratorDescription": "Seleziona uno o più utenti per promuoverli a moderatori di questa Stanza",
@@ -341,7 +401,14 @@
         "confirm": {
             "areYouSure": "Sei sicuro?",
             "clearHistory": "Eliminerai in modo definitivo la cronologia di chat. La cronologia di questa chat non verrà eliminata per gli altri partecipanti. Questa azione è irreversibile.",
-            "leaveAndDeleteConversation": "Vuoi abbandonare ed eliminare {{conversationName}}?"
+            "leaveAndDeleteConversation": "Vuoi abbandonare ed eliminare {{conversationName}}?",
+            "deleteRoom": "Vuoi eliminare questa Stanza?",
+            "deleteSpace": "Vuoi eliminare questo Spazio?",
+            "leaveChannel": "Vuoi abbandonare questo Canale?",
+            "leaveGroup": "Vuoi abbandonare questo Gruppo?",
+            "leaveSpace": "Vuoi abbandonare questo Spazio?",
+            "deleteChannel": "Vuoi eliminare questo Canale?",
+            "removeBuddy": "Vuoi rimuovere questo partecipante?"
         },
         "forwardModal": {
             "forwardedMessageFrom": "Messaggio inoltrato da",
@@ -352,19 +419,27 @@
         "instantMeeting": {
             "closedInstantMeeting": "Instant Meeting terminato",
             "continue": "Continua col precedente Instant Meeting",
-            "create": "Crea un nuovo Instant Meeting"
+            "create": "Crea un nuovo Instant Meeting",
+            "instantMeetingAlreadyRunningTitle": "Un Instant Meeting è già in corso",
+            "endCallByOwner": "Il proprietario dell'Instant Meeting ha deciso di terminare la chiamata, speriamo tu abbia gradito l'esperienza dell'Instant Meeting",
+            "instantMeetingAlreadyRunningText": "Crearne uno nuovo sovrascriverà il precedente e i partecipanti perderanno la connessione, come vuoi procedere?"
         },
         "moderatorCannotLeaveGroupDescription": "Sei l'unico moderatore di {{conversationName}}, promuovi un altro utente prima di abbandonare il Gruppo.",
         "moderatorCannotLeaveGroupTitle": "Aspetta, è necessario un nuovo moderatore",
         "notShowAgain": "Non mostrare più",
         "roomsFunctionalitiesChangelogDescription": "Ci sono importanti novità sulle funzionalità delle riunioni. Leggi l'introduzione alle Stanze per saperne di più!",
         "showPreviousConversationHistory": "Mostra cronologia della conversazione precedente",
-        "teamNews": "Novità di Team"
+        "teamNews": "Novità di Team",
+        "deleteMessageDescription": "Cancellando un messaggio, questo non sarà più visibile né a te né agli altri partecipanti",
+        "planMeetingDescription": "Il nome della Stanza suggerisce ai partecipanti l'argomento trattato all'interno della Stanza.",
+        "chatsNews": "Novità Chat",
+        "userJoinedWaitingRoom": "Sembra esserci qualcuno nella Stanza d'Attesa"
     },
     "notification": {
         "answer": "Rispondi",
         "dismiss": "Annulla",
-        "incomingCall": "Chiamata in arrivo da:"
+        "incomingCall": "Chiamata in arrivo da:",
+        "invitationToPersonalRoom": "Invito nella Stanza Personale da:"
     },
     "settings": {
         "meeting": {
@@ -372,7 +447,9 @@
             "enableMicrophone": "Abilita microfono",
             "meetings": "Riunioni",
             "personalRoomOptionsTitleModal": "Ripristina link della Stanza personale",
-            "personalRoomResetButton": "Ripristina il link della Stanza Personale"
+            "personalRoomResetButton": "Ripristina il link della Stanza Personale",
+            "personalRoomResetDescription": "Ripristinando il link dells tua Stanza Personale, tutti gli accessi condivisi precedentemente non funzioneranno più.",
+            "description": "Imposta le tue preferenze audio e video per partecipare alle riunioni. Potrai sempre personalizzarle prima di accedere a qualsiasi riunione."
         },
         "notification": {
             "desktop": "Notifiche desktop",
@@ -391,10 +468,18 @@
             "restore": "Annulla modifiche",
             "statusOptionalDescription": "Opzionale. Fai sapere agli altri a cosa stai pensando. Lunghezza massima: 256 caratteri",
             "title": "Profilo",
-            "update": "Aggiorna"
+            "update": "Aggiorna",
+            "maximumDimension": "Dimensione massima: 256kb.",
+            "chooseAProfilePic": "Scegli una foto del profilo, l'immagine verrà centrata automaticamente."
         },
         "resetPersonalRoomLinkSuccess": "Il link della Stanza Personale è stato ripristinato",
-        "title": "Impostazioni"
+        "title": "Impostazioni",
+        "modal": {
+            "description": "Qui puoi impostare tutte le preferenze della Chat per vivere un'esperienza di chat completamente personalizzata!"
+        },
+        "notifications": {
+            "description": "Imposta le tue preferenze per ogni tipo di notifica delle Chat."
+        }
     },
     "status": {
         "externalGuest": "Ospite esterno",
