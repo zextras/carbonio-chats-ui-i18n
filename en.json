@@ -137,7 +137,7 @@
                     "neutral": "Select one or more attendees"
                 }
             },
-            "description": "Instant Meetings are video calls that are designed to be quick and momentary, no trace of the chat will be kept and once the call is over, it will cease to exist. Instant Meetings can be created by Pro users and they can be joined also by external users.",
+            "description": "Instant Meetings are video calls that are designed to be quick and momentary, no trace of the chat will be kept and once the call is over, it will cease to exist. Instant Meetings can be created by Team Pro users and they can be joined also by external users.",
             "titleDescription": "Give a recognizable title to the Instant Meeting, so your attendees will know the purpose of this call."
         },
         "limitOfParticipantReached": "You have reached the limit of participants set by the administrator",
@@ -241,8 +241,8 @@
             "conversationCreated": "Chat created",
             "meeting": {
                 "ended": "Meeting ended",
-                "endedAtTime": "Meeting ended at ",
-                "startedAtTime": "Meeting started at "
+                "endedAtTime": "Meeting ended at",
+                "startedAtTime": "Meeting started at"
             },
             "member": {
                 "changed": {
@@ -377,7 +377,7 @@
             "continue": "Continue with the old Instant Meeting",
             "create": "Create a new Instant Meeting",
             "endCallByOwner": "The owner of the Instant Meeting has decided to end the call, we hope you enjoyed the Instant Meeting experience",
-            "instantMeetingAlreadyRunningText": "Creating a new one will overwrite the older one and your attendee will lost the connection, what do you want to do?",
+            "instantMeetingAlreadyRunningText": "Creating a new one will overwrite the older one and your attendee will lose the connection, what do you want to do?",
             "instantMeetingAlreadyRunningTitle": "An Instant Meeting is already running"
         },
         "moderatorCannotLeaveGroupDescription": "You're the only moderator of {{conversationName}}, please promote someone else before leaving the Group.",
