@@ -133,7 +133,7 @@
                 }
             },
             "titleDescription": "Anlık Toplantı için tanımlayıcı bir başlık belirlemeniz önerilir, böylece katılımcılar bu görüşmenin amacını bilir.",
-            "description": "Anlık Toplantılar hızlı ve o anda yapılmak üzere tasarlanmış görüntülü aramalardır, sohbet ile ilgili kayıt tutulmaz ve arama bittiğinde silinir. Anlık Toplantılar Pro lisanslı kullanıcılar tarafından oluşturulabilir ve dışarıdan kullanıcılar bile toplantıya katılabilir."
+            "description": "Anlık Toplantılar hızlı ve o anda yapılmak üzere tasarlanmış görüntülü aramalardır, sohbet ile ilgili kayıt tutulmaz ve arama bittiğinde silinir. Anlık Toplantılar Team Pro lisanslı kullanıcılar tarafından oluşturulabilir ve dışarıdan kullanıcılar da toplantıya katılabilir."
         },
         "limitOfParticipantReached": "Yönetici tarafından belirlenmiş katılımcı limitini doldurdunuz",
         "nameNeeds2Letters": "Ad en az iki harfden oluşmalı",
@@ -240,8 +240,8 @@
         "service": {
             "meeting": {
                 "ended": "Toplantı bitti",
-                "startedAtTime": "Toplantı başladı ",
-                "endedAtTime": "Toplantı bitti "
+                "startedAtTime": "Toplantı başladı",
+                "endedAtTime": "Toplantı bitti"
             },
             "member": {
                 "changed": {
