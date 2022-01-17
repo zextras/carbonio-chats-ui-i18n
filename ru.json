@@ -277,8 +277,8 @@
         "service": {
             "meeting": {
                 "ended": "Совещание закончилось",
-                "startedAtTime": "Совещание началось в ",
-                "endedAtTime": "Совещание закончилось в "
+                "startedAtTime": "Совещание началось в",
+                "endedAtTime": "Совещание закончилось в"
             },
             "member": {
                 "changed": {
