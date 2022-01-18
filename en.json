@@ -418,7 +418,7 @@
         "incomingCall": "Incoming call from:",
         "invitationToPersonalRoom": "Invitation to Personal Room from:",
         "waiting": {
-            "descriptionAcceptedLabel":  "You have been accepted by the moderator of {{conversationName}}",
+            "descriptionAcceptedLabel": "You have been accepted by the moderator of {{conversationName}}",
             "descriptionWaitingLabel": "You’re waiting to be accepted by {{conversationName}}’s Moderator",
             "notificationAcceptedByModerator": "You have been accepted by the moderator",
             "notificationJoinTheRoom": "Join the room to take part in the meeting",
