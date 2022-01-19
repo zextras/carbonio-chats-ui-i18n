@@ -8,7 +8,10 @@
         "noActiveSpaces": "現在、アクティブなスペースはありません。 新しいスペースを作成またはタブを切り替えてください。",
         "noFilteredSpaces": "このフィルターに一致するスペースはありません。",
         "spaces": "スペース",
-        "spaceGeneralChannel": "一般設定"
+        "spaceGeneralChannel": "一般設定",
+        "filterChatList": "チャット一覧にフィルタをかける",
+        "noActiveChats": "現在、アクティブなチャットはありません。 新しいチャットを作成またはタブを切り替えてください。",
+        "noFilteredChats": "このフィルターに一致するチャットはありません。"
     },
     "people": {
         "me": "自分",
@@ -24,7 +27,8 @@
         "sendMessage": "メッセージを送信する",
         "close": "閉じる",
         "editDescription": "概要を編集する",
-        "errorUpdatingAvatarStatus": "ステータスの設定中に問題が発生しました。再試行してください"
+        "errorUpdatingAvatarStatus": "ステータスの設定中に問題が発生しました。再試行してください",
+        "sendFile": "ファイルを送信する"
     },
     "action": {
         "activateNotifications": "通知を有効にする",
@@ -67,7 +71,9 @@
         "replyToYourself": "自分に返信する",
         "scrollToNewMessage": "新しいメッセージまでスクロールする",
         "scrollToTheBottom": "一番下までスクロールする",
-        "startMeeting": "会議を開始する"
+        "startMeeting": "会議を開始する",
+        "addModerators": "モデレーターを追加する",
+        "leaveGroup": "グループから退会する"
     },
     "appVersion": "アプリのバージョン",
     "button": {
@@ -88,7 +94,8 @@
         "newMessages": "新しいメッセージ",
         "spaceInfo": "スペース情報",
         "title": "タイトル",
-        "topic": "トピック"
+        "topic": "トピック",
+        "fileUploadDescription": "ファイルの説明"
     },
     "creation": {
         "attendeeAdded": "参加者がリストに追加されました",
@@ -96,13 +103,15 @@
             "mainDescription": "チャネルは、スペースに含まれる明確に定義されたトピックチャットです。 スペースの参加者は、チャンネルに参加して、そのトピックについて積極的に話し合うことができます。 参加者は、スペースを離れることなくチャンネルを放棄することもできます。",
             "setImageAndTitleDescription": "ホスティングスペース内のチャンネルをよりよく認識するように画像を設定してください。 チャンネルの画像は、チャンネルの情報パネルで設定または変更することもできます。",
             "titleInputRequirements": "タイトルは、140文字以内で、ホスティングスペース内でユニークである必要があります",
-            "topicInputExplanation": "スペースの主題を示します"
+            "topicInputExplanation": "スペースの主題を示します",
+            "topicDescription": "チャンネルは議論するトピックを持つチャットの場なので、主題をよりよく示すトピックが推奨されます。"
         },
         "group": {
             "addParticipantsDescription": "名前またはメールアドレスを入力して、参加者を招待してください。 2人以上の参加者を招待する必要があります。または、チャットを作成することもできます。",
             "groupWithoutNameAddParticipant": "グループに参加者を追加する",
             "inputTopicDescriptionLabel": "グループの主題を示します",
-            "setImageAndTopicDescription": "ユーザーがリスト内のグループを識別するのに役立つ画像を設定してください。"
+            "setImageAndTopicDescription": "ユーザーがリスト内のグループを識別するのに役立つ画像を設定してください。",
+            "mainDescription": "グループには3人以上の参加者が必要です。グループに名前を付けて主題を示してください。"
         },
         "instantMeeting": {
             "addAttendees": "インスタント会議に参加者を追加する",
@@ -113,7 +122,8 @@
                     "negative": "入力したメールアドレスが無効です。有効なアドレスを入力してください",
                     "neutral": "1人以上の参加者を選択してください"
                 }
-            }
+            },
+            "description": "インスタント会議は、迅速かなビデオ通話で、チャットの痕跡は保持されず、通話が終了すると、チャットは存在しなくなります。 インスタント会議は、Team Proユーザーのみが作成できますが、外部ユーザーも含め、あらゆるユーザーが参加できます。"
         },
         "limitOfParticipantReached": "管理者が設定した参加者の上限に達しました",
         "nameMax140Characters": "最大140文字",
@@ -131,14 +141,24 @@
         "space": {
             "spaceWithoutNameAddParticipant": "スペースに参加者を追加する",
             "topicDescription": "スペースは議論するトピックを持つチャットの場なので、主題をよりよく示すトピックが推奨されます。",
-            "topicInputExplanation": "スペースの主題を示します"
+            "topicInputExplanation": "スペースの主題を示します",
+            "addMembersDescription": "名前またはメールアドレスを入力して、人々を招待してください。 2人以上招待する必要があります。または、チャットを作成することもできます。",
+            "mainDescription": "スペース は、チャネルと呼ばれる特定のチャットを含む一般的なコミュニケーション環境で、それぞれに独自のトピックがあります。 スペースを作成するには、2人以上の参加者を招待する必要があります。"
         },
         "startTypingToPick": "アドレスを入力し始め、選択してください",
         "topicMax255Characters": "最大255文字",
         "topicOptional": "オプション。題目を記述します",
         "typeToFilter": "リストを入力してフィルタリングしてください",
         "typeWithNameAddParticipant": "参加者を追加する",
-        "youCanInviteOther": "さらに{{limit}}名の参加者を招待できます"
+        "youCanInviteOther": "さらに{{limit}}名の参加者を招待できます",
+        "chat": {
+            "description": "チャットは、連絡を取り合うのに役立つ1対1の会話です。",
+            "addParticipant": "チャットを開始する参加者を選択します",
+            "chatFilterDescription": "話したい参加者をクリックするだけでチャットできます"
+        },
+        "emailReplicated": "入力したメールアドレスは既に追加されています",
+        "nameRequired-max140Characters-avoidReusingNames": "必須。 最大140文字で、同じ名前は使わないでください",
+        "titleInputRequirements": "タイトルは、140文字以内でユニークでなければなりません"
     },
     "feedback": {
         "historyClearedSuccessfully": "履歴が正常にクリアされました！",
@@ -146,7 +166,8 @@
         "notificationsMutedForThisChat": "このチャットの通知はミュートされています",
         "online": "オンラインに戻ってください！",
         "retryConnection": "接続を再試行してください",
-        "uploadConversationPicturesFailed": "会話画像をアップロードできませんでした"
+        "uploadConversationPicturesFailed": "会話画像をアップロードできませんでした",
+        "offline": "サーバー接続の問題があるようです"
     },
     "meeting": {
         "attendeesComing": "参加者が来ています",
@@ -178,7 +199,9 @@
                 "cameraMicOff": "カメラとマイクがオフです",
                 "cameraOff": "カメラがオフです"
             },
-            "unpinVideo": "動画のピン止めを解除する"
+            "unpinVideo": "動画のピン止めを解除する",
+            "enableFullScreen": "全画面",
+            "muteUserForAllDescription": "ユーザーをミュートすると、参加者全員にユーザーの声が聞こえなくなります。 ミュートされたユーザーは自身のミュートを解除できます。 続行しますか？"
         },
         "startModal": {
             "description": "どのように会議に参加しますか？",
@@ -187,7 +210,10 @@
             "noVideoAndNoAudio": "カメラオフ、マイクオフ",
             "videoAndAudio": "カメラオン、マイクオン",
             "videoAndNoAudio": "カメラオン、マイクオフ"
-        }
+        },
+        "defaultViewModeDedicatedLabel": "「専用モード」では、ブラウザの別のタブにリダイレクトされ、最高のミーティング体験を楽しめます。",
+        "defaultViewModeDefaultLabel": "「デフォルトモード」を選ぶと、現在の内部環境でミーティングが開始されます。",
+        "defaultViewModeTitleModal": "ミーティングの環境設定"
     },
     "message": {
         "deletedMessage": "削除されたメッセージ",
@@ -196,7 +222,9 @@
         "now": "今",
         "service": {
             "meeting": {
-                "ended": "会議が終了しました"
+                "ended": "会議が終了しました",
+                "startedAtTime": "会議は %@ に開始されました",
+                "endedAtTime": "会議は %@ に終了しました"
             },
             "member": {
                 "changed": {
@@ -206,16 +234,20 @@
                     },
                     "picture": {
                         "channel": "{{member_name}} がチャンネルの写真を変更しました",
-                        "space": "{{member_name}} がスペースの写真を変更しました"
+                        "space": "{{member_name}} がスペースの写真を変更しました",
+                        "group": "{{member_name}} がグループの写真を変更しました"
                     },
                     "topic": {
                         "channel": "{{member_name}}がチャンネルのトピックを{{topic}}に変更しました",
-                        "space": "{{member_name}}がスペースのトピックを{{topic}}に変更しました"
+                        "space": "{{member_name}}がスペースのトピックを{{topic}}に変更しました",
+                        "group": "{{member_name}}がグループのトピックを{{topic}}に変更しました"
                     }
                 },
                 "created": {
                     "channel": "{{member_name}}がチャンネルを作成しました",
-                    "space": "{{member_name}}がスペースを作成しました"
+                    "space": "{{member_name}}がスペースを作成しました",
+                    "group": "{{member_name}}がグループを作成しました",
+                    "single": "{{member_name}}がスペースを作成しました"
                 },
                 "deleted": {
                     "channel": "{{member_name}}がチャンネルを削除しました",
@@ -224,7 +256,8 @@
                 },
                 "invited": "{{member_name}} が{{invited_by}}によって招待されました",
                 "join": {
-                    "channel": "{{member_name}}がチャンネルに参加しました"
+                    "channel": "{{member_name}}がチャンネルに参加しました",
+                    "conversation": "{{member_name}}がチャンネルに参加しました"
                 },
                 "kicked": {
                     "channel": "{{member_name}}が{{kicked_by}}によってチャンネルから削除されました",
@@ -233,7 +266,8 @@
                 },
                 "left": {
                     "channel": "{{member_name}}がチャンネルから退会しました",
-                    "space": "{{member_name}}がスペースから退会しました"
+                    "space": "{{member_name}}がスペースから退会しました",
+                    "group": "{{member_name}}がグループから退会しました"
                 },
                 "you": {
                     "invited": "{{member_name}}を招待しました"
@@ -250,16 +284,20 @@
                     },
                     "picture": {
                         "channel": "チャンネルの写真を変更しました",
-                        "space": "スペース名を変更しました"
+                        "space": "スペース名を変更しました",
+                        "group": "グループの写真を変更しました"
                     },
                     "topic": {
                         "channel": "チャンネルのトピックを{{topic}}に変更しました",
-                        "space": "スペースのトピックを{{topic}}に変更しました"
+                        "space": "スペースのトピックを{{topic}}に変更しました",
+                        "group": "グループのトピックを{{topic}}に変更しました"
                     }
                 },
                 "created": {
                     "channel": "チャンネルを作成しました",
-                    "space": "スペースを作成しました"
+                    "space": "スペースを作成しました",
+                    "group": "グループを作成しました",
+                    "single": "チャンネルを作成しました"
                 },
                 "deleted": {
                     "channel": "チャンネルを削除しました",
@@ -270,7 +308,9 @@
                 "join": {
                     "channel": "このチャンネルに参加しました",
                     "instantMeeting": "このインスタント会議に参加しました",
-                    "space": "このスペースに参加しました"
+                    "space": "このスペースに参加しました",
+                    "group": "このグループに参加しました",
+                    "userRoom": "このグループに参加しました"
                 },
                 "kicked": {
                     "channel": "{{kicked_by}}によってチャンネルから削除されました",
@@ -279,7 +319,8 @@
                 },
                 "left": {
                     "channel": "チャンネルから退会しました",
-                    "space": "スペースから退会しました"
+                    "space": "スペースから退会しました",
+                    "group": "グループから退会しました"
                 }
             }
         },
@@ -291,21 +332,27 @@
         "confirm": {
             "areYouSure": "本当に実行しますか？",
             "clearHistory": "チャット履歴が完全に消去されます。 このチャットの他の参加者の履歴は削除されません。 この操作は元に戻せません。",
-            "leaveAndDeleteConversation": "{{conversationName}}を退出して削除してもよろしいですか？"
+            "leaveAndDeleteConversation": "{{conversationName}}を退出して削除してもよろしいですか？",
+            "removeBuddy": "本当にこのシェアを削除しますか？"
         },
         "forwardModal": {
             "forwardedMessageFrom": "メッセージの転送元",
             "selectOneOrMoreConversations": "会話を一つ以上選択してください",
-            "typeToFilterTheList": "リストを入力してフィルタリングしてください"
+            "typeToFilterTheList": "リストを入力してフィルタリングしてください",
+            "spaceAndChannels": "スペースとチャンネル"
         },
         "instantMeeting": {
             "closedInstantMeeting": "インスタント会議が終了しました",
             "continue": "古いインスタント会議で続行する",
-            "create": "新しいインスタント会議を作成する"
+            "create": "新しいインスタント会議を作成する",
+            "endCallByOwner": "インスタントミーティングの所有者が通話を終了することにしました。インスタントミーティングをお楽しみいただけたことを願います。",
+            "instantMeetingAlreadyRunningTitle": "既にインスタント会議が行われています。",
+            "instantMeetingAlreadyRunningText": "新しい内容を作成すると古い内容が上書きされて、参加者は接続を失います。続行しますか？"
         },
         "moderatorCannotLeaveGroupDescription": "{{conversationName}}の唯一のモデレーターです。グループを離れる前に、他の誰かを推薦してください。",
         "moderatorCannotLeaveGroupTitle": "お待ちください、新しいモデレーターが必要です",
-        "showPreviousConversationHistory": "以前の会話履歴を表示する"
+        "showPreviousConversationHistory": "以前の会話履歴を表示する",
+        "deleteMessageDescription": "メッセージを削除すると、あなたと他のあらゆる受信者に表示されなくなります"
     },
     "notification": {
         "answer": "応答する",
@@ -316,7 +363,8 @@
         "meeting": {
             "enableCamera": "カメラを有効にする",
             "enableMicrophone": "マイクを有効にする",
-            "meetings": "会議"
+            "meetings": "会議",
+            "description": "オーディオとビデオを設定して、会議に参加しましょう。あらゆる会議に参加する前に、いつでも設定をカスタマイズできます。"
         },
         "notification": {
             "desktop": "デスクトップ通知",
@@ -335,14 +383,23 @@
             "restore": "復元する",
             "statusOptionalDescription": "オプションです。今、考えていることを他の人に知らせましょう。 最大文字数：256文字",
             "title": "プロファイル",
-            "update": "更新する"
+            "update": "更新する",
+            "maximumDimension": "最大サイズ: 256kb."
         },
-        "title": "設定"
+        "title": "設定",
+        "modal": {
+            "description": "ここでは、完全にカスタマイズされたチャット体験を楽しむために、あらゆるTeam専用の環境設定を設定できます！"
+        },
+        "notifications": {
+            "description": "チーム内のあらゆる種類の通知を設定します。"
+        }
     },
     "status": {
         "lastSeen": "最終閲覧 {{lastSeen}}",
         "offline": "オフライン",
         "online": "オンライン",
-        "userStatus": "ステータス"
+        "userStatus": "ステータス",
+        "areWriting": "が入力しています…",
+        "isWriting": "が入力しています…"
     }
 }
