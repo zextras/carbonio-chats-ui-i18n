@@ -100,7 +100,7 @@
             "topicDescription": "Les espaces étant des chats axés sur le sujet discuté, il est recommandé de choisir un sujet qui décrit mieux l'objet de l'espace.",
             "topicInputExplanation": "Il décrit le sujet de l'Espace",
             "titleDescription": "Le titre identifie l'espace et doit donc décrire son thème.",
-            "addMembersDescription": "Invitez des personnes en tapant leur nom ou leur adresse e-mail. Vous devez inviter au moins deux autres personnes, sinon vous pouvez créer un Chat.",
+            "addMembersDescription": "Invitez des personnes en tapant leur nom ou leur adresse e-mail. Vous devez inviter au moins deux autres personnes, sinon vous pouvez créer une discussion.",
             "mainDescription": "Les Espaces sont des environnements de communication génériques qui comprennent des discussions spécifiques appelées Canaux, chacune ayant son propre sujet. Pour créer un espace, vous devez inviter au moins deux participants. Les canaux peuvent être ajoutés directement à partir du panneau d'information de l'espace."
         },
         "startTypingToPick": "Commencez à taper pour choisir une adresse",
@@ -284,7 +284,7 @@
         "waitingRoom": "Salle d'attente",
         "yourRoom": "Votre salle",
         "filterChatList": "Filtrer la liste des conversations",
-        "mockDisplayDescription": "Choisissez une conversation pour démarrer un chat",
+        "mockDisplayDescription": "Choisissez une conversation pour démarrer une discussion",
         "mockDisplayTitle": "Restons en contact !",
         "noActiveChats": "Il n'y a pas de discussions actives en ce moment. Créez un nouveau chat ou changez d'onglet.",
         "noFilteredChats": "Aucune discussion ne correspond à ce filtre."
@@ -362,29 +362,39 @@
             "deleteSpace": "Êtes-vous sûr de vouloir supprimer cet Espace ?",
             "leaveChannel": "Êtes-vous sûr de vouloir quitter ce Canal ?",
             "leaveGroup": "Êtes-vous sûr de vouloir quitter ce Groupe ?",
-            "leaveSpace": "Êtes-vous sûr de vouloir quitter cet Espace ?"
+            "leaveSpace": "Êtes-vous sûr de vouloir quitter cet Espace ?",
+            "removeBuddy": "Êtes-vous sur de vouloir enlever ce membre ?"
         },
         "forwardModal": {
             "forwardedMessageFrom": "Message transféré par",
             "selectOneOrMoreConversations": "Sélectionnez une ou plusieurs conversations",
-            "typeToFilterTheList": "Tapez pour filtrer la liste"
+            "typeToFilterTheList": "Tapez pour filtrer la liste",
+            "spaceAndChannels": "Espace et Channels"
         },
         "instantMeeting": {
             "closedInstantMeeting": "Conversation fermée",
             "continue": "Continuer avec l’ancienne Conversation",
-            "create": "Créer une nouvelle Conversation"
+            "create": "Créer une nouvelle Conversation",
+            "endCallByOwner": "Le propriétaire de la Réunion Instantanée a décidé de mettre fin à l'appel, nous espérons que vous avez apprécié cette Réunion Instantanée",
+            "instantMeetingAlreadyRunningTitle": "Une Réunion Instantanée est actuellement en cours",
+            "instantMeetingAlreadyRunningText": "En créer une nouvelle écrasera la précédente et vous invités perdront la connexion, que souhaitez-vous faire ?"
         },
         "moderatorCannotLeaveGroupDescription": "Vous êtes le seul modérateur de {{conversationName}}, veuillez promouvoir quelqu'un d'autre avant de quitter le groupe.",
         "moderatorCannotLeaveGroupTitle": "Attendez, un nouveau modérateur est requis",
         "notShowAgain": "Ne plus jamais montrer cela",
         "roomsFunctionalitiesChangelogDescription": "Nous avons apporté des changements importants aux fonctionnalités de réunion. Lisez l'introduction aux salles pour en savoir plus !",
         "showPreviousConversationHistory": "Afficher l'historique des conversations précédentes",
-        "teamNews": "Nouvelles de Team"
+        "teamNews": "Nouvelles de Team",
+        "deleteMessageDescription": "Lorsqu'un message est supprimé, il n'est plus visible pour vous ni pour les autres destinataires",
+        "planMeetingDescription": "Le nom de la Réunion aide les invités à connaître le sujet en cours de discussion.",
+        "chatsNews": "Nouveautés de Chat",
+        "userJoinedWaitingRoom": "Il semble que quelqu'un soit dans la salle d'attente"
     },
     "notification": {
         "answer": "réponse",
         "dismiss": "Rejeter",
-        "incomingCall": "Appel entrant de :"
+        "incomingCall": "Appel entrant de :",
+        "invitationToPersonalRoom": "Invitation dans la salle de réunion personnelle de :"
     },
     "people": {
         "manyMembers": "{{membersCount}} membres",
@@ -392,7 +402,8 @@
         "oneParticipant": "un participant",
         "otherParticipants": "{{numberParticipants}} autres participants",
         "participants": "Participants",
-        "you": "Vous"
+        "you": "Vous",
+        "whoYoureLookinkFor": "Qui recherchez-vous ?"
     },
     "settings": {
         "meeting": {
@@ -400,7 +411,9 @@
             "enableMicrophone": "Activer le microphone",
             "meetings": "Réunions",
             "personalRoomOptionsTitleModal": "Réinitialisation du lien de la salle personnelle",
-            "personalRoomResetButton": "Réinitialisation du lien de la salle personnelle"
+            "personalRoomResetButton": "Réinitialisation du lien de la salle personnelle",
+            "description": "Configurez vos préférence audio et vidéo pour entrer dans la réunion. Vous pourrez toujours modifier vos préférences en entrant dans une réunion.",
+            "personalRoomResetDescription": "En réinitialisant votre lien de réunion personnelle, tous les accès précédemment envoyés ne fonctionneront plus."
         },
         "notification": {
             "desktop": "Notifications desktop",
@@ -419,10 +432,18 @@
             "restore": "Restaurer",
             "statusOptionalDescription": "Facultatif. Faites savoir aux autres ce que vous pensez. Longueur max : 256 caractères",
             "title": "Profil",
-            "update": "Mettre à jour"
+            "update": "Mettre à jour",
+            "chooseAProfilePic": "Choisissez une image de profil, l'image sera centrée automatiquement.",
+            "maximumDimension": "Max. dimension : 256ko."
         },
         "resetPersonalRoomLinkSuccess": "Le lien de la Salle Personnelle a été réinitialisé",
-        "title": "Paramètres"
+        "title": "Paramètres",
+        "notifications": {
+            "description": "Définissez vos préférence pour chaque type de notification dans les discussions."
+        },
+        "modal": {
+            "description": "Vous pouvez ici configurer toutes les préférences dédiées au Chat pour bénéficier d'une configuration personnalisée pour les discussions !"
+        }
     },
     "status": {
         "externalGuest": "Invité externe",
@@ -431,7 +452,9 @@
         "offline": "Déconnecté",
         "online": "En ligne",
         "userStatus": "Status",
-        "waitingToEnter": "En attente d'entrée"
+        "waitingToEnter": "En attente d'entrée",
+        "areWriting": "est en train d'écrire…",
+        "isWriting": "est en train d'écrire…"
     },
     "tooltip": {
         "addFile": "Ajouter un fichier",
@@ -461,6 +484,13 @@
         "sendMessage": "Envoyer un message",
         "showChannels": "Montrer les canaux",
         "switchToConversation": "Passer à la conversation",
-        "switchToInfoPanel": "Passer au panneau d'information"
+        "switchToInfoPanel": "Passer au panneau d'information",
+        "acceptQueuedMember": "Laisser l'utilisateur entrer",
+        "copyUserRoom": "Copier le lien vers votre réunion personnelle",
+        "messageComposer": "Éditeur de message",
+        "planMeeting": "Planifier une réunion",
+        "rejectQueuedMember": "Refuser l'utilisateur",
+        "searchForParticipant": "Recherche de participants",
+        "inviteToPersonalRoom": "Inviter dans votre réunion personnelle"
     }
 }
