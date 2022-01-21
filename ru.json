@@ -57,7 +57,7 @@
         "youCanInviteOther": "Вы можете пригласить других {{limit}} участников",
         "chat": {
             "addParticipant": "Выберите участника, с которым хотите начать чат",
-            "description": "Чаты — это разговоры один на один, которые помогают вам оставаться на связи с вашими коллегами.",
+            "description": "Чаты — это беседы один на один, которые помогают вам оставаться на связи с вашими коллегами.",
             "chatFilterDescription": "Вы можете создать чат, просто нажав на участника, с которым хотите поговорить"
         },
         "emailReplicated": "Введенный адрес электронной почты уже добавлен",
@@ -80,7 +80,7 @@
             "gridView": "Представление \"Сетка\"",
             "hideChat": "Скрыть Чат",
             "hideParticipants": "Скрыть участников",
-            "muteUser": "Приглушить",
+            "muteUser": "Выключить звук",
             "muteUserForAllTitle": "Отключить звук для всех",
             "mutedByModerators": "Модератор отключил звук, включите звук чтобы говорить",
             "mutedByOthers": "Вам отключен звук",
@@ -100,8 +100,8 @@
         "defaultViewModeDefaultModeLabel": "Режим по умолчанию",
         "defaultViewModeSecondaryDescriptionLabel": "Эта опция будет сохранена в ваших настройках и может быть обновлена каждый раз, когда вы захотите.",
         "startModal": {
-            "description": "Как вы хотите войти на Совещание?",
-            "enter": "Enter",
+            "description": "Как вы хотите войти?",
+            "enter": "Войти",
             "noVideoAndAudio": "Камера выключена, микрофон включен",
             "noVideoAndNoAudio": "Камера выключена, микрофон выключен",
             "videoAndAudio": "Камера включена, Микрофон включен",
@@ -147,7 +147,7 @@
         "planMeeting": "Запланировать встречу",
         "searchForParticipant": "Поиск участника",
         "acceptQueuedMember": "Разрешить вход",
-        "inviteToPersonalRoom": "Пригласить в персональную комнату",
+        "inviteToPersonalRoom": "Пригласить в Персональную комнату",
         "rejectQueuedMember": "Отклонить вход пользователя"
     },
     "action": {
@@ -160,7 +160,7 @@
         "addNewMembers": "Добавить новых участников",
         "addNewMembersTo": "Добавить новых участников в",
         "addOtherModerators": "Добавить других модераторов",
-        "clearHistory": "Очистить журнал",
+        "clearHistory": "Очистить историю",
         "close": "Закрыть",
         "collapse": "Свернуть",
         "copy": "Копия",
@@ -187,7 +187,7 @@
         "leave": "Покинуть",
         "leaveAndDelete": "Выйти и удалить",
         "leaveChannel": "Покинуть Канал",
-        "leaveSpace": "Покинуть Переговорную",
+        "leaveSpace": "Выйти из Переговорную",
         "muteNotifications": "Отключить уведомления",
         "openInTeam": "Открыть в Team",
         "plan": "План",
@@ -199,7 +199,7 @@
         "resetLink": "Сбросить ссылку",
         "scrollToNewMessage": "Прокрутите до нового сообщения",
         "scrollToTheBottom": "Прокрутите вниз",
-        "startMeeting": "Начать Мгновенное Совещание",
+        "startMeeting": "Начать Встречу",
         "openInChats": "Открыть в Чатах",
         "leaveGroup": "Выйти из Группы",
         "planMeeting": "Запланировать встречу"
@@ -218,17 +218,17 @@
         "contactInfo": "Контактная информация",
         "groupInfo": "Информация о группе",
         "info": "Информация",
-        "instantInfo": "Информация о Мгновенном Совещании",
+        "instantInfo": "Информация о Встрече",
         "name": "Имя",
-        "nameRoom": "{{conversationTitle}}'s Зал",
-        "newMessages": "Новое сообщение",
+        "nameRoom": "Зал {{conversationTitle}}'s",
+        "newMessages": "Новые сообщения",
         "roomLinkDescription": "Скопируйте ссылку и поделитесь ей для доступа в этот Конференц-зал.",
         "roomName": "Название зала",
         "spaceInfo": "Информация о переговорной",
         "speakersCorner": "Зона Спикера",
         "title": "Название",
         "topic": "Тема",
-        "roomLink": "Ссылка на зал",
+        "roomLink": "Ссылка на Зал",
         "fileUploadDescription": "Описание файла",
         "roomInfo": "Информация о Зале"
     },
@@ -320,7 +320,7 @@
                 },
                 "left": {
                     "channel": "{{member_name}} покинул Канал",
-                    "space": "{{member_name}} который покинул Переговорную",
+                    "space": "{{member_name}} покинул Переговорную",
                     "group": "{{member_name}} вышел из Группы"
                 },
                 "you": {
@@ -332,7 +332,7 @@
                     }
                 }
             },
-            "newMeeting": "Входящий звонок от:",
+            "newMeeting": "Входящий звонок:",
             "notificationsActivatedForThisChat": "Уведомления включены для этого Чата",
             "notificationsMutedForThisChat": "Отключить уведомления для этого чата",
             "you": {
@@ -419,7 +419,7 @@
         "moderatorCannotLeaveGroupDescription": "Вы единственный модератор группы {{conversationName}}, передайте права другому пользователю, прежде чем покинуть группу.",
         "moderatorCannotLeaveGroupTitle": "Подождите, требуется новый модератор",
         "notShowAgain": "Не показывай это снова",
-        "roomsFunctionalitiesChangelogDescription": "Мы внесли важные изменения в функции Совещаний. Ознакомьтесь с информацией о Конференц-залах!",
+        "roomsFunctionalitiesChangelogDescription": "Мы внесли важные изменения. Ознакомьтесь с информацией о Конференц-залах!",
         "showPreviousConversationHistory": "Показать предыдущую историю чата",
         "teamNews": "Новости Team",
         "chatsNews": "Новости Чатов",
@@ -430,8 +430,8 @@
     "notification": {
         "answer": "Ответ",
         "dismiss": "Отклонить",
-        "incomingCall": "Входящий звонок от:",
-        "invitationToPersonalRoom": "Приглашение в персональную комнату от:"
+        "incomingCall": "Входящий звонок:",
+        "invitationToPersonalRoom": "Приглашение в персональную комнату:"
     },
     "people": {
         "manyMembers": "{{membersCount}} Участники",
@@ -453,10 +453,10 @@
             "description": "Настройте параметры звука и видео. Вы всегда можете изменить настройки перед входом на любую встречу."
         },
         "notification": {
-            "desktop": "Уведомления desktop",
+            "desktop": "Уведомления",
             "openMinichatDescription": "Настройте открытие мини чата",
             "title": {
-                "notifications": "Оповещения",
+                "notifications": "Уведомления",
                 "openMinichat": "Открыть при новом сообщении",
                 "openMinichatForGroup": "Открыть при новом сообщении в Группе",
                 "openMinichatForSingle": "Открыть при новом сообщении",
@@ -467,7 +467,7 @@
             "errorGenericResponse": "Что-то пошло не так. Пожалуйста повторите",
             "reset": "Сброс",
             "restore": "Восстановление",
-            "statusOptionalDescription": "Опция. Статус максимальное количество 256 знаков",
+            "statusOptionalDescription": "Опция. Максимальное количество 256 знаков",
             "title": "Профиль",
             "update": "Обновить",
             "chooseAProfilePic": "Выберите изображение профиля, изображение будет автоматически центрировано.",
