@@ -67,7 +67,7 @@
             "addMembersDescription": "Nodig mensen uit door hun naam of e-mailadres in te voeren. U moet minstens twee andere mensen uitnodigen, anders kunt u een Chat aanmaken."
         },
         "startTypingToPick": "Begin met typen om een adres te kiezen",
-        "topicMax255Characters": "Max. 255 characters",
+        "topicMax255Characters": "Max. 255 tekens",
         "topicOptional": "Optioneel. Het beschrijft het onderwerp",
         "typeToFilter": "Type om de lijst te filteren",
         "typeWithNameAddParticipant": "Deelnemers toevoegen aan",
@@ -137,7 +137,7 @@
                     }
                 },
                 "created": {
-                    "channel": "heeft het Kanaal gecreëerd",
+                    "channel": "{{member_name}} heeft het Kanaal gecreëerd",
                     "space": "{{member_name}} heeft de Space gecreëerd"
                 },
                 "deleted": {
