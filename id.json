@@ -88,7 +88,8 @@
         "space": {
             "spaceWithoutNameAddParticipant": "Tambahkan peserta ke Ruang Anda",
             "topicDescription": "Karena Ruang berisi obrolan yang terkait dengan topik yang dibahas, topik yang lebih mendeskripsikan subjek direkomendasikan.",
-            "topicInputExplanation": "Topik mendeskripsikan subjek Ruang"
+            "topicInputExplanation": "Topik mendeskripsikan subjek Ruang",
+            "addMembersDescription": "Undang orang dengan mengetik nama atau alamat emailnya. Anda harus mengundang minimal dua orang lainnya, atau Anda dapat membuat Obrolan."
         },
         "startTypingToPick": "Mulai mengetik untuk memilih alamat",
         "topicMax255Characters": "Maksimal 255 karakter",
@@ -312,7 +313,8 @@
         "forwardModal": {
             "forwardedMessageFrom": "Pesan terusan dari",
             "selectOneOrMoreConversations": "Pilih satu atau beberapa percakapan",
-            "typeToFilterTheList": "Ketik untuk memfilter daftar"
+            "typeToFilterTheList": "Ketik untuk memfilter daftar",
+            "spaceAndChannels": "Ruang dan Saluran"
         },
         "instantMeeting": {
             "closedInstantMeeting": "Rapat Instan ditutup",
@@ -364,6 +366,8 @@
         "lastSeen": "Terakhir dilihat {{lastSeen}}",
         "offline": "Offline",
         "online": "Online",
-        "userStatus": "Status"
+        "userStatus": "Status",
+        "areWriting": "sedang menulis…",
+        "isWriting": "sedang menulis…"
     }
 }
