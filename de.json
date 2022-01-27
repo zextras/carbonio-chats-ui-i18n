@@ -88,7 +88,8 @@
         "space": {
             "spaceWithoutNameAddParticipant": "Teilnehmer zu Ihrem Space hinzufügen",
             "topicDescription": "Da Spaces aus Chats zu einem bestimmten Diskussionsthema bestehen, wird ein Thema empfohlen, welches den Inhalt am besten beschreibt.",
-            "topicInputExplanation": "Beschreibt das Thema des Space"
+            "topicInputExplanation": "Beschreibt das Thema des Space",
+            "addMembersDescription": "Laden Sie Leute ein, indem Sie ihre Namen oder E-Mail Adressen schreiben. Sie müssen mindestens zwei weitere Teilnehmer einladen, anderenfalls können Sie einen Chat erstellen."
         },
         "startTypingToPick": "Beginnen Sie zu schreiben, um einen Kontakt auszuwählen",
         "topicMax255Characters": "Max. 255 Zeichen",
@@ -157,8 +158,8 @@
             "you": {
                 "changed": {
                     "name": {
-                        "channel": "Sie haben den Kanalnamen zu {{topic}} geändert",
-                        "space": "Sie haben den Space- Namen zu {{topic}} geändert"
+                        "channel": "Sie haben den Kanalnamen zu {{name}} geändert",
+                        "space": "Sie haben den Space- Namen zu {{name}} geändert"
                     },
                     "picture": {
                         "channel": "Sie haben das Kanalbild geändert",
@@ -303,7 +304,8 @@
         "forwardModal": {
             "forwardedMessageFrom": "Nachricht weitergeleitet von",
             "selectOneOrMoreConversations": "Wählen Sie eine oder mehrere Unterhaltungen",
-            "typeToFilterTheList": "Schreiben, um die Liste zu filtern"
+            "typeToFilterTheList": "Schreiben, um die Liste zu filtern",
+            "spaceAndChannels": "Space und Kanäle"
         },
         "instantMeeting": {
             "closedInstantMeeting": "Instant Meeting geschlossen",
@@ -352,7 +354,9 @@
         "lastSeen": "Zuletzt gesehen {{lastSeen}}",
         "offline": "Offline",
         "online": "Online",
-        "userStatus": "Status"
+        "userStatus": "Status",
+        "isWriting": "schreibt…",
+        "areWriting": "schreiben…"
     },
     "tooltip": {
         "close": "Schließen",
