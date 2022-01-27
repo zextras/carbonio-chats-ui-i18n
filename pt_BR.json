@@ -138,14 +138,18 @@
         "space": {
             "spaceWithoutNameAddParticipant": "Adicionar participantes ao seu Espaço",
             "topicDescription": "Já que os Espaços são chats conduzidos pelo tópico discutido, recomenda-se uma descrição o mais precisa possível.",
-            "topicInputExplanation": "Descreve o tema do Espaço"
+            "topicInputExplanation": "Descreve o tema do Espaço",
+            "addMembersDescription": "Convide as pessoas digitando seu nome ou endereço de e-mail. Você precisa convidar pelo menos duas pessoas, caso contrário, você pode criar um Chat individual."
         },
         "startTypingToPick": "Comece a digitar para ver os endereços",
         "topicMax255Characters": "Máx. 255 caracteres",
         "topicOptional": "Opcional. Descreve o assunto",
         "typeToFilter": "Digite para filtrar a lista",
         "typeWithNameAddParticipant": "Adicionar participantes ao",
-        "youCanInviteOther": "Você pode convidar mais {{limit}} participante(s)"
+        "youCanInviteOther": "Você pode convidar mais {{limit}} participante(s)",
+        "chat": {
+            "chatFilterDescription": "Você pode criar um Chat apenas clicando no participante com quem você quer falar"
+        }
     },
     "feedback": {
         "historyClearedSuccessfully": "Histórico apagado com sucesso!",
@@ -185,7 +189,9 @@
                 "cameraMicOff": "Sua câmera e microfone estão desligados",
                 "cameraOff": "Sua câmera está desligada"
             },
-            "unpinVideo": "Desenganchar video"
+            "unpinVideo": "Desenganchar video",
+            "enableFullScreen": "Tela cheia",
+            "muteUserForAllDescription": "Ao silenciar o usuário, todos os participantes não ouvirão mais ele. Somente o usuário silenciado pode ser reativado. Proceder?"
         },
         "startModal": {
             "description": "Como você quer entrar na reunião?",
@@ -305,7 +311,8 @@
         "forwardModal": {
             "forwardedMessageFrom": "Mensagem encaminhada por",
             "selectOneOrMoreConversations": "Selecione uma ou mais conversas",
-            "typeToFilterTheList": "Digite para filtrar a lista"
+            "typeToFilterTheList": "Digite para filtrar a lista",
+            "spaceAndChannels": "Espaços e Canais"
         },
         "instantMeeting": {
             "closedInstantMeeting": "Reunião Instantânea encerrada",
@@ -354,7 +361,9 @@
         "lastSeen": "Visto pela última vez {{lastSeen}}",
         "offline": "Desconectado",
         "online": "Online",
-        "userStatus": "Status"
+        "userStatus": "Status",
+        "areWriting": "está escrevendo…",
+        "isWriting": "está escrevendo…"
     },
     "tooltip": {
         "close": "Fechar",
