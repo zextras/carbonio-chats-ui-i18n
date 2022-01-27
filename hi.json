@@ -165,7 +165,8 @@
         "space": {
             "spaceWithoutNameAddParticipant": "अपने Space में पार्टिसिपेंट जोड़ें",
             "topicDescription": "चूंकि Spaces ऐसी चैट हैं जो चर्चा हो रहे विषय से चलती हैं, ऐसे टॉपिक की सलाह दी जाती है जो विषय के बारे में अच्छे से बताता हो।",
-            "topicInputExplanation": "यह Space के विषय के बारे में बताता है"
+            "topicInputExplanation": "यह Space के विषय के बारे में बताता है",
+            "addMembersDescription": "लोगों का नाम या ई-मेल टाइप करके उन्हें बुलाएँ। आपको कम से कम दो दूसरे लोग बुलाने होंगे नहीं तो आप एक चैट बना सकते हैं।"
         },
         "startTypingToPick": "कोई एड्रेस चुनने के लिए टाइप करना शुरू करें",
         "topicMax255Characters": "अधिकतम 255 कैरक्टर",
@@ -359,7 +360,9 @@
         "lastSeen": "पिछली बार देखा गया / गई {{lastSeen}}",
         "offline": "ऑफ़लाइन",
         "online": "ऑनलाइन",
-        "userStatus": "स्टेटस"
+        "userStatus": "स्टेटस",
+        "areWriting": "लिख रहे/रहीं हैं…",
+        "isWriting": "लिख रहे/रहीं हैं…"
     },
     "tooltip": {
         "addFile": "फाइल जोड़ें",
