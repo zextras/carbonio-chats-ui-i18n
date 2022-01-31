@@ -407,7 +407,7 @@
             "descriptionAcceptedLabel": "You have been accepted by the moderator of {{conversationName}}",
             "descriptionWaitingLabel": "You’re waiting to be accepted by {{conversationName}}’s Moderator",
             "notificationAcceptedByModerator": "You have been accepted by the moderator",
-            "notificationJoinTheRoom": "Join the room to take part in the meeting",
+            "notificationJoinTheRoom": "Join the Room to take part in the meeting",
             "userIsWaiting": "New user is waiting to enter",
             "userJoinedWaitingRoom": "There seems to be someone in the Waiting Room"
         }
