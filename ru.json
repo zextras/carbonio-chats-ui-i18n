@@ -31,7 +31,7 @@
         },
         "limitOfParticipantReached": "Вы достигли лимита участников установленного администратором",
         "nameMax140Characters": "Максимум 140 символов",
-        "nameNeeds2Letters": "Имя должно содержать как минимум две буквы",
+        "nameNeeds2Letters": "Название должно содержать как минимум две буквы",
         "nameRequired": "Требуется название",
         "participants": {
             "feedback": {
@@ -63,7 +63,7 @@
         "emailReplicated": "Введенный адрес электронной почты уже добавлен",
         "nameRequired-max140Characters-avoidReusingNames": "Необходимый максимум 140 символов.",
         "titleInputRequirements": "Допускается 140 символов, заголовок должен быть уникальным",
-        "topicNeeds2Letters": "Тема необязательна. Мин. 2 слова"
+        "topicNeeds2Letters": "Название необязательно. Мин. 2 слова"
     },
     "meeting": {
         "interactions": {
@@ -108,7 +108,7 @@
             "videoAndNoAudio": "Камера включена, Микрофон выключен"
         },
         "defaultViewModeSaveLabel": "Параметр сохранения",
-        "defaultViewModeTitleModal": "Параметры Совещания",
+        "defaultViewModeTitleModal": "Параметры",
         "defaultViewModeDedicatedLabel": "«Выделенный режим» перенаправит вас на отдельную вкладку вашего браузера.",
         "defaultViewModeDefaultLabel": "При выборе «Режим по умолчанию» собрание начнется в текущем браузере.",
         "resetMeetingUrlModalDescription": "Вы уверены, что хотите сбросить ссылку для запланированной встречи\"{{conversationName}}\"?"
@@ -126,9 +126,9 @@
         "downgradeModerator": "Понижение прав Модератора",
         "editDescription": "Редактировать описание",
         "editInfo": "Редактировать информацию",
-        "enterMeetingRoom": "Открыть мини чат",
-        "enterYourRoom": "Войдите в Конференц-зал",
-        "enterYourRoomTooltip": "Войдите в Конференц-зал",
+        "enterMeetingRoom": "Войти в Конференц-зал",
+        "enterYourRoom": "Войти в Конференц-зал",
+        "enterYourRoomTooltip": "Войти в Конференц-зал",
         "errorUpdatingAvatarStatus": "Что-то пошло не так во время настройки статуса. Пожалуйста, попробуйте еще раз",
         "errorUploadingAvatarPicture": "Что-то пошло не так при загрузке новой картинки. Пожалуйста, попробуйте еще раз",
         "errorRemovingAvatarPicture": "Что-то пошло не так при удалении картинки. Пожалуйста, попробуйте еще раз",
@@ -143,11 +143,11 @@
         "sendMessage": "Отправить сообщение",
         "showChannels": "Показать Каналы",
         "switchToConversation": "Перейти в чат",
-        "copyUserRoom": "Скопировать ссылку на персональную комнату",
+        "copyUserRoom": "Скопировать ссылку на Персональный зал",
         "planMeeting": "Запланировать встречу",
         "searchForParticipant": "Поиск участника",
         "acceptQueuedMember": "Разрешить вход",
-        "inviteToPersonalRoom": "Пригласить в Персональную комнату",
+        "inviteToPersonalRoom": "Пригласить в Персональный зал",
         "rejectQueuedMember": "Отклонить вход пользователя"
     },
     "action": {
@@ -224,7 +224,7 @@
         "newMessages": "Новые сообщения",
         "roomLinkDescription": "Скопируйте ссылку и поделитесь ей для доступа в этот Конференц-зал.",
         "roomName": "Название Зала",
-        "spaceInfo": "Информация о переговорной",
+        "spaceInfo": "Информация о Переговорной",
         "speakersCorner": "Зона Спикера",
         "title": "Название",
         "topic": "Тема",
@@ -240,11 +240,11 @@
         "meetingRooms": "Конференц-залы",
         "noActiveInstantMeetings": "В настоящее время нет активных Мгновенных Совещаний. Создайте новое Мгновенное Совещание или переключитесь на вкладку.",
         "noActiveMeetings": "В настоящее время нет активных Конференц-залов",
-        "noActiveSpaces": "На данный момент нет активных переговорных. Создайте новую Переговорную.",
+        "noActiveSpaces": "На данный момент нет активных Переговорных. Создайте новую Переговорную.",
         "noFilteredInstantMeetings": "Нет Мгновенных совещаний соответствующих этому фильтру.",
         "noFilteredMeetings": "По этому фильтру Конференц-залов или запланированных встреч не найдено",
         "noFilteredSpaces": "Нет Переговорных соответствующих этому фильтру.",
-        "personalRoom": "Персональная комната",
+        "personalRoom": "Персональный зал",
         "scheduledMeetings": "Запланированные встречи",
         "spaces": "Переговорные",
         "spaceGeneralChannel": "Общий",
@@ -261,9 +261,9 @@
         "notificationsActivatedForThisChat": "Уведомления включены для этого Чата",
         "notificationsMutedForThisChat": "Отключить уведомления для этого чата",
         "online": "Снова в сети!",
-        "resetPersonalRoomLinkSuccess": "Ссылка на персональную комнату была сброшена",
+        "resetPersonalRoomLinkSuccess": "Ссылка на персональный зал была сброшена",
         "retryConnection": "Повторить подключение",
-        "roomLinkCopied": "Ссылка на комнату скопирована",
+        "roomLinkCopied": "Ссылка скопирована",
         "uploadConversationPicturesFailed": "Не удалось загрузить фотографию чата",
         "appVersionCopied": "Версия приложения скопирована",
         "offline": "Похоже проблема с подключением к серверу",
@@ -377,8 +377,8 @@
                     "space": "Вы были удалены из Переговорной {{kicked_by}}"
                 },
                 "left": {
-                    "channel": "Вы покинули Канал",
-                    "space": "Вы покинули Переговорную",
+                    "channel": "Вы вышли из Канал",
+                    "space": "Вы вышли из Переговорной",
                     "group": "Вы вышли из Группы"
                 }
             },
@@ -428,10 +428,10 @@
         "planMeetingDescription": "Укажите название Конференц-зала."
     },
     "notification": {
-        "answer": "Ответ",
+        "answer": "Ответить",
         "dismiss": "Отклонить",
         "incomingCall": "Входящий звонок:",
-        "invitationToPersonalRoom": "Приглашение в персональную комнату:"
+        "invitationToPersonalRoom": "Приглашение в персональный зал:"
     },
     "people": {
         "manyMembers": "{{membersCount}} Участники",
@@ -449,7 +449,7 @@
             "meetings": "Встречи",
             "personalRoomOptionsTitleModal": "Сброс ссылки Конференц-зала",
             "personalRoomResetButton": "Сбросить ссылку Конференц-зала",
-            "personalRoomResetDescription": "При сбросе ссылки на персональную комнату все ранее предоставленные доступы будут отменены.",
+            "personalRoomResetDescription": "При сбросе ссылки на персональный зал все ранее предоставленные доступы будут отменены.",
             "description": "Настройте параметры звука и видео. Вы всегда можете изменить настройки перед входом на любую встречу."
         },
         "notification": {
