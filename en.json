@@ -14,6 +14,8 @@
         "collapse": "Collapse",
         "copy": "Copy",
         "copyAppVersion": "Copy app version",
+        "copyLinkRoom": "Copy Room's Link",
+        "copyUserRoomLink": "Copy Link",
         "create": "Create",
         "createChannel": "Create Channel linked to {{spaceName}}",
         "createChat": "Create Chat",
@@ -51,7 +53,8 @@
         "resetLink": "Reset link",
         "scrollToNewMessage": "Scroll to new message",
         "scrollToTheBottom": "Scroll to the bottom",
-        "startMeeting": "Start Meeting"
+        "startMeeting": "Start Meeting",
+        "waitingModeratorToJoin": "You’re waiting to be accepted by a moderator"
     },
     "appVersion": "App version",
     "button": {
@@ -65,8 +68,8 @@
     "conversation": {
         "channelInfo": "Channel Info",
         "contactInfo": "Contact Info",
-        "groupInfo": "Group Info",
         "fileUploadDescription": "File's description",
+        "groupInfo": "Group Info",
         "info": "Info",
         "instantInfo": "Instant Meeting Info",
         "name": "Name",
@@ -100,8 +103,8 @@
         "noFilteredSpaces": "There aren't Spaces that match this filter.",
         "personalRoom": "Personal Room",
         "scheduledMeetings": "Scheduled Meetings",
-        "spaces": "Spaces",
         "spaceGeneralChannel": "General",
+        "spaces": "Spaces",
         "waitingRoom": "Waiting Room",
         "yourRoom": "Your Room"
     },
@@ -184,6 +187,11 @@
         "tryAReconnectionIn": "Try a reconnection in {{seconds}}",
         "uploadConversationPicturesFailed": "Failed to upload conversation picture"
     },
+    "general": {
+        "browserNotSupported": "The version of your browser is not supported. It's highly recommended to update the browser to benefit from all the features!",
+        "goToTeam": "Go to Team",
+        "teamProductName": "Team"
+    },
     "meeting": {
         "attendeesComing": "Participants are coming",
         "defaultViewModeDedicatedLabel": "The \"Dedicated Mode\" will redirect you to a separated tab of your browser to enjoy the Meeting experience at its best.",
@@ -237,6 +245,7 @@
         "edited": "edited",
         "forwarded": "forwarded",
         "now": "Now",
+        "readBy": "Read by",
         "service": {
             "conversationCreated": "Chat created",
             "meeting": {
@@ -347,11 +356,11 @@
                 }
             }
         },
-        "readBy": "Read by",
         "yesterday": "Yesterday"
     },
     "modal": {
         "addModeratorDescription": "Select one or more users to promote them to moderators of this Room",
+        "news": "News",
         "clearHistoryDescription": "This conversation is now empty, it has been moved to the bottom of the conversations list in order to emphasize the active ones.",
         "confirm": {
             "areYouSure": "Are you sure?",
@@ -363,7 +372,7 @@
             "leaveChannel": "Are you sure to leave the Channel?",
             "leaveGroup": "Are you sure to leave the Group?",
             "leaveSpace": "Are you sure to leave the Space?",
-            "removeBuddy": "Are you sure you want to remove this member?"
+            "removeMember": "Are you sure you want to remove this member?"
         },
         "deleteMessageDescription": "When deleting a message, it won't be visibile anymore for you and all other recipients",
         "forwardModal": {
@@ -386,7 +395,6 @@
         "planMeetingDescription": "Room's name helps the attendees to know the Room's matter of discussion.",
         "roomsFunctionalitiesChangelogDescription": "We have made important changes to the meeting functionalities. Read the introduction to the Rooms to find out more!",
         "showPreviousConversationHistory": "Show previous conversation history",
-        "chatsNews": "Chats' News",
         "teamNews": "Team's News",
         "userJoinedWaitingRoom": "There seems to be someone in the Waiting Room"
     },
@@ -394,7 +402,15 @@
         "answer": "Answer",
         "dismiss": "Dismiss",
         "incomingCall": "Incoming call from:",
-        "invitationToPersonalRoom": "Invitation to Personal Room from:"
+        "invitationToPersonalRoom": "Invitation to Personal Room from:",
+        "waiting": {
+            "descriptionAcceptedLabel": "You have been accepted by the moderator of {{conversationName}}",
+            "descriptionWaitingLabel": "You’re waiting to be accepted by {{conversationName}}’s Moderator",
+            "notificationAcceptedByModerator": "You have been accepted by the moderator",
+            "notificationJoinTheRoom": "Join the Room to take part in the meeting",
+            "userIsWaiting": "New user is waiting to enter",
+            "userJoinedWaitingRoom": "There seems to be someone in the Waiting Room"
+        }
     },
     "people": {
         "manyMembers": "{{membersCount}} members",
@@ -416,7 +432,8 @@
             "personalRoomResetDescription": "By resetting Personal Room's link, all the previously given accesses will not work anymore."
         },
         "modal": {
-            "description": "Here you can set all Chats' dedicated preferences in order to enjoy a complete customized chatting experience!"
+            "description": "Here you can set all Chats' dedicated preferences in order to enjoy a complete customized chatting experience!",
+            "title": "Chats settings"
         },
         "notification": {
             "desktop": "Desktop notifications",
@@ -467,15 +484,16 @@
         "copyRoomLink": "Copy this link to share the Room",
         "copyRoomLinkTooltip": "Copy this link to share the Room",
         "copyUserRoom": "Copy your Personal Room's link",
+        "copyUserRoomTooltip": "Copy this link and share it to provide others with access to your Personal Room",
         "downgradeModerator": "Downgrade Moderator",
         "editDescription": "Edit description",
         "editInfo": "Edit info",
         "enterMeetingRoom": "Enter Meeting Room",
         "enterYourRoom": "Enter your Personal Room",
         "enterYourRoomTooltip": "Enter your Personal Room",
+        "errorRemovingAvatarPicture": "Something went wrong while removing avatar. Please retry",
         "errorUpdatingAvatarStatus": "Something went wrong while settings status. Please retry",
         "errorUploadingAvatarPicture": "Something went wrong while uploading new avatar. Please retry",
-        "errorRemovingAvatarPicture": "Something went wrong while removing avatar. Please retry",
         "goToPrivateChat": "Go to private chat",
         "inviteToPersonalRoom": "Invite to your Personal Room",
         "messageComposer": "Message composer",
