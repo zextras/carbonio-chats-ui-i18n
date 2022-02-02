@@ -51,7 +51,10 @@
         "startMeeting": "Démarrer la réunion",
         "openInChats": "Ouvrir dans Chat",
         "leaveGroup": "Quitter le groupe",
-        "planMeeting": "Organiser une réunion"
+        "planMeeting": "Organiser une réunion",
+        "copyLinkRoom": "Copier le lien de la Salle",
+        "waitingModeratorToJoin": "Vous êtes en cours d'acceptation par le modérateur",
+        "copyUserRoomLink": "Copier le lien"
     },
     "creation": {
         "attendeeAdded": "Participant ajouté à la liste",
@@ -363,7 +366,8 @@
             "leaveChannel": "Êtes-vous sûr de vouloir quitter ce Canal ?",
             "leaveGroup": "Êtes-vous sûr de vouloir quitter ce Groupe ?",
             "leaveSpace": "Êtes-vous sûr de vouloir quitter cet Espace ?",
-            "removeBuddy": "Êtes-vous sur de vouloir enlever ce membre ?"
+            "removeBuddy": "Êtes-vous sur de vouloir enlever ce membre ?",
+            "removeMember": "Êtes-vous sûr de vouloir supprimer ce membre ?"
         },
         "forwardModal": {
             "forwardedMessageFrom": "Message transféré par",
@@ -388,13 +392,22 @@
         "deleteMessageDescription": "Lorsqu'un message est supprimé, il n'est plus visible pour vous ni pour les autres destinataires",
         "planMeetingDescription": "Le nom de la Réunion aide les invités à connaître le sujet en cours de discussion.",
         "chatsNews": "Nouveautés de Chat",
-        "userJoinedWaitingRoom": "Il semble que quelqu'un soit dans la salle d'attente"
+        "userJoinedWaitingRoom": "Il semble que quelqu'un soit dans la salle d'attente",
+        "news": "Nouvelles"
     },
     "notification": {
         "answer": "réponse",
         "dismiss": "Rejeter",
         "incomingCall": "Appel entrant de :",
-        "invitationToPersonalRoom": "Invitation dans la salle de réunion personnelle de :"
+        "invitationToPersonalRoom": "Invitation dans la salle de réunion personnelle de :",
+        "waiting": {
+            "descriptionWaitingLabel": "Vous êtes en attente d'acceptation par le modérateur de {{conversationName}}",
+            "notificationJoinTheRoom": "Rejoignez la Salle pour prendre part à la réunion",
+            "descriptionAcceptedLabel": "Vous avez été accepté par le modérateur de {{conversationName}}",
+            "notificationAcceptedByModerator": "Vous avez été accepté par le modérateur",
+            "userIsWaiting": "Un nouvel utilisateur attend pour entrer dans la salle",
+            "userJoinedWaitingRoom": "Il semblerai qu'il y ai quelqu'un dans la Salle d'Attente"
+        }
     },
     "people": {
         "manyMembers": "{{membersCount}} membres",
@@ -442,7 +455,8 @@
             "description": "Définissez vos préférence pour chaque type de notification dans les discussions."
         },
         "modal": {
-            "description": "Vous pouvez ici configurer toutes les préférences dédiées au Chat pour bénéficier d'une configuration personnalisée pour les discussions !"
+            "description": "Vous pouvez ici configurer toutes les préférences dédiées au Chat pour bénéficier d'une configuration personnalisée pour les discussions !",
+            "title": "Paramétrage de Chats"
         }
     },
     "status": {
@@ -468,7 +482,7 @@
         "downgradeModerator": "Rétrograder un modérateur",
         "editDescription": "Editer la description",
         "editInfo": "Editer les informations",
-        "enterMeetingRoom": "Ouvrir le Minichat",
+        "enterMeetingRoom": "Entrer dans la Salle de Réunion",
         "enterYourRoom": "Entrer dans votre salle personnelle",
         "enterYourRoomTooltip": "Entrer dans votre salle personnelle",
         "errorUpdatingAvatarStatus": "Quelque chose s'est mal passé lors des réglages. Veuillez réessayer",
@@ -491,6 +505,12 @@
         "planMeeting": "Planifier une réunion",
         "rejectQueuedMember": "Refuser l'utilisateur",
         "searchForParticipant": "Recherche de participants",
-        "inviteToPersonalRoom": "Inviter dans votre réunion personnelle"
+        "inviteToPersonalRoom": "Inviter dans votre réunion personnelle",
+        "copyUserRoomTooltip": "Copier ce lien et le partager permet aux autres d'avoir accès à votre Salle Personnelle"
+    },
+    "general": {
+        "browserNotSupported": "La version de votre navigateur n'est pas supportée. Il est fortement recommander de mettre à jour votre navigateur pour bénéficier de l'ensemble des fonctionnalités !",
+        "goToTeam": "Aller à Team",
+        "teamProductName": "Team"
     }
 }
