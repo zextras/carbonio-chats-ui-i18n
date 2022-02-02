@@ -14,6 +14,8 @@
         "collapse": "Collapse",
         "copy": "Copy",
         "copyAppVersion": "Copy app version",
+        "copyLinkRoom": "Copy Room's Link",
+        "copyUserRoomLink": "Copy Link",
         "create": "Create",
         "createChannel": "Create Channel linked to {{spaceName}}",
         "createChat": "Create Chat",
@@ -172,9 +174,35 @@
         "typeWithNameAddParticipant": "Add participants to",
         "youCanInviteOther": "You can invite other {{limit}} participants"
     },
+    "enterTheRoom": "Enter The Room",
+    "errorPage": {
+        "description": "Check your link, it might be a wrong one",
+        "errorCode": "error code 404",
+        "title": "Sorry, we couldn’t find that Room"
+    },
+    "external": {
+        "login": {
+            "externalLoginDescription": "If you already belong to this domain, you will be redirected to your usual workspace. If you're an external user you will be redirected to a dedicated interface."
+        },
+        "nobodyInTheRoom": "It seems nobody is in this Room",
+        "roomIsEmpty": "This Room is empty",
+        "unsupported": {
+            "browser": "Unsupported browser",
+            "device": "Unsupported device"
+        },
+        "waitingRoom": {
+            "accessDenied": "Access denied",
+            "moderatorRefusedAccessToRoom": "A moderator has refused your access to this Room",
+            "userLeftLookForwardToSee": "We look forward to seeing you again",
+            "userLeftReturnToWaitingRoom": "You can return to the waiting room at any time from the Room's link",
+            "userLeftWaitingRoom": "You left the waiting room"
+        },
+        "youAreEnteringMeeting": "You're about to enter the Room"
+    },
     "feedback": {
         "appVersionCopied": "App version copied",
         "historyClearedSuccessfully": "History cleared successfully!",
+        "linkCopied": "Link copied",
         "notificationsActivatedForThisChat": "Notifications activated for this chat",
         "notificationsMutedForThisChat": "Notifications muted for this chat",
         "offline": "It seems to be a server connection issue",
@@ -417,6 +445,9 @@
         "dismiss": "Dismiss",
         "incomingCall": "Incoming call from:",
         "invitationToPersonalRoom": "Invitation to Personal Room from:",
+        "meeting": {
+            "ended": "Meeting Ended"
+        },
         "waiting": {
             "descriptionAcceptedLabel": "You have been accepted by the moderator of {{conversationName}}",
             "descriptionWaitingLabel": "You’re waiting to be accepted by {{conversationName}}’s Moderator",
@@ -426,6 +457,7 @@
             "userJoinedWaitingRoom": "There seems to be someone in the waiting room"
         }
     },
+    "organizeYourMeeting": "Organize your own meetings or join your colleagues' Rooms",
     "people": {
         "manyMembers": "{{membersCount}} members",
         "me": "Me",
@@ -487,6 +519,7 @@
         "userStatus": "Status",
         "waitingToEnter": "Waiting to enter"
     },
+    "thanksForParticipating": "Thanks for participating",
     "tooltip": {
         "acceptQueuedMember": "Let user in",
         "addFile": "Add file",
@@ -498,6 +531,7 @@
         "copyRoomLink": "Copy this link to share the Room",
         "copyRoomLinkTooltip": "Copy this link to share the Room",
         "copyUserRoom": "Copy your Personal Room's link",
+        "copyUserRoomTooltip": "Copy this link and share it to provide others with access to your Personal Room",
         "downgradeModerator": "Downgrade Moderator",
         "editDescription": "Edit description",
         "editInfo": "Edit info",
@@ -523,5 +557,7 @@
         "showChannels": "Show Channels",
         "switchToConversation": "Switch to conversation",
         "switchToInfoPanel": "Switch to info panel"
-    }
+    },
+    "tryLater": "Try later",
+    "typeYourEmail": "Type your e-mail"
 }
