@@ -123,7 +123,7 @@
         "collapseChannel": "Свернуть Каналы",
         "copyRoomLink": "Скопировать ссылку и поделиться",
         "copyRoomLinkTooltip": "Скопировать ссылку и поделиться",
-        "downgradeModerator": "Понижение прав Модератора",
+        "downgradeModerator": "Понижение прав модератора",
         "editDescription": "Редактировать описание",
         "editInfo": "Редактировать информацию",
         "enterMeetingRoom": "Войти в Конференц-зал",
@@ -148,7 +148,8 @@
         "searchForParticipant": "Поиск участника",
         "acceptQueuedMember": "Разрешить вход",
         "inviteToPersonalRoom": "Пригласить в Персональный зал",
-        "rejectQueuedMember": "Отклонить вход пользователя"
+        "rejectQueuedMember": "Отклонить вход пользователя",
+        "copyUserRoomTooltip": "Скопируйте эту ссылку и поделитесь ею, чтобы предоставить другим доступ к вашей Персональной комнате"
     },
     "action": {
         "activateNotifications": "Включить уведомления",
@@ -202,7 +203,10 @@
         "startMeeting": "Начать Встречу",
         "openInChats": "Открыть в Чатах",
         "leaveGroup": "Выйти из Группы",
-        "planMeeting": "Запланировать встречу"
+        "planMeeting": "Запланировать встречу",
+        "copyLinkRoom": "Скопировать ссылку",
+        "copyUserRoomLink": "Копировать ссылку",
+        "waitingModeratorToJoin": "Вы ожидаете одобрения модератора"
     },
     "appVersion": "Версия приложения",
     "button": {
@@ -400,7 +404,8 @@
             "removeBuddy": "Вы уверены, что хотите удалить этого участника?",
             "deleteChannel": "Вы уверены, что хотите удалить этот Канал?",
             "deleteRoom": "Вы уверены, что хотите удалить Конференц-зал?",
-            "leaveGroup": "Вы уверены, что хотите выйти из Группы?"
+            "leaveGroup": "Вы уверены, что хотите выйти из Группы?",
+            "removeMember": "Вы уверены, что хотите удалить этого пользователя?"
         },
         "forwardModal": {
             "forwardedMessageFrom": "Сообщение переслано",
@@ -425,13 +430,22 @@
         "chatsNews": "Новости Чатов",
         "userJoinedWaitingRoom": "Кажется, в зале ожидания кто-то есть",
         "deleteMessageDescription": "При удалении сообщения оно больше не будет видно вам и всем остальным получателям",
-        "planMeetingDescription": "Укажите название Конференц-зала."
+        "planMeetingDescription": "Укажите название Конференц-зала.",
+        "news": "Новости"
     },
     "notification": {
         "answer": "Ответить",
         "dismiss": "Отклонить",
         "incomingCall": "Входящий звонок:",
-        "invitationToPersonalRoom": "Приглашение в персональный зал:"
+        "invitationToPersonalRoom": "Приглашение в персональный зал:",
+        "waiting": {
+            "notificationAcceptedByModerator": "Вы одобрены модератором",
+            "descriptionAcceptedLabel": "Вы одобрены модератором {{conversationName}}",
+            "descriptionWaitingLabel": "Вы ожидаете одобрения модератором {{conversationName}}",
+            "notificationJoinTheRoom": "Войти в Конференц-зал",
+            "userIsWaiting": "Новый пользователь ожидает входа",
+            "userJoinedWaitingRoom": "В Зале ожидания кто-то есть"
+        }
     },
     "people": {
         "manyMembers": "{{membersCount}} Участники",
@@ -476,7 +490,8 @@
         "resetPersonalRoomLinkSuccess": "Ссылка на персональную комнату была сброшена",
         "title": "Настройки",
         "modal": {
-            "description": "Здесь вы можете установить специальные настройки для всех чатов!"
+            "description": "Здесь вы можете установить специальные настройки для всех чатов!",
+            "title": "Настройки Чатов"
         },
         "notifications": {
             "description": "Установите настройки для каждого типа уведомлений в Чатах."
@@ -492,5 +507,10 @@
         "waitingToEnter": "В ожидании входа",
         "isWriting": "пишет…",
         "areWriting": "пишет…"
+    },
+    "general": {
+        "browserNotSupported": "Версия вашего браузера не поддерживается. Настоятельно рекомендуется обновить браузер, чтобы воспользоваться всеми функциями!",
+        "goToTeam": "Перейти в Team",
+        "teamProductName": "Team"
     }
 }
