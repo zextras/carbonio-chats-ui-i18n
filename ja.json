@@ -11,7 +11,17 @@
         "spaceGeneralChannel": "一般設定",
         "filterChatList": "チャット一覧にフィルタをかける",
         "noActiveChats": "現在、アクティブなチャットはありません。 新しいチャットを作成またはタブを切り替えてください。",
-        "noFilteredChats": "このフィルターに一致するチャットはありません。"
+        "noFilteredChats": "このフィルターに一致するチャットはありません。",
+        "yourRoom": "あなたのルーム",
+        "meetingRooms": "ミーティングルーム",
+        "mockDisplayDescription": "会話を選択してチャットを開始します",
+        "mockDisplayTitle": "連絡を取り合いましょう！",
+        "noActiveMeetings": "現在、アクティブなルームはありません",
+        "personalRoom": "パーソナルルーム",
+        "activeMeetingRooms": "アクティブなミーティングルーム",
+        "noFilteredMeetings": "このフィルターに一致するミーティングルームまたは予定されている会議はありません",
+        "scheduledMeetings": "スケジュールされた会議",
+        "waitingRoom": "待機室"
     },
     "people": {
         "me": "自分",
@@ -19,7 +29,8 @@
         "oneParticipant": "参加者1名",
         "otherParticipants": "その他の{{numberParticipants}}参加者",
         "participants": "参加者",
-        "you": "あなた"
+        "you": "あなた",
+        "whoYoureLookinkFor": "誰を探していますか？"
     },
     "tooltip": {
         "errorUploadingAvatarPicture": "新しいアバターのアップロード中に問題が発生しました。再試行してください",
@@ -28,7 +39,36 @@
         "close": "閉じる",
         "editDescription": "概要を編集する",
         "errorUpdatingAvatarStatus": "ステータスの設定中に問題が発生しました。再試行してください",
-        "sendFile": "ファイルを送信する"
+        "sendFile": "ファイルを送信する",
+        "copyRoomLink": "このリンクをコピーして、ルームを共有します",
+        "copyUserRoomTooltip": "このリンクをコピーして共有し、他人にーソナルルームへのアクセス権を与えます",
+        "goToPrivateChat": "プライベートチャットに進む",
+        "promoteModerator": "モデレーターに昇格させる",
+        "showChannels": "チャンネルを表示する",
+        "editInfo": "情報を編集する",
+        "acceptQueuedMember": "ユーザーをさせる",
+        "addFile": "ファイルを追加する",
+        "cancelFilter": "フィルターをキャンセルする",
+        "chooseFile": "ファイルを選択する",
+        "closeSearch": "検索結果を閉じる",
+        "collapseChannel": "チャネルを折りたたむ",
+        "copyRoomLinkTooltip": "このリンクをコピーして、ルームを共有します",
+        "copyUserRoom": "パーソナルルームのリンクをコピーする",
+        "downgradeModerator": "モデレーターを降格させる",
+        "enterMeetingRoom": "ミーティングルーム入室する",
+        "enterYourRoom": "パーソナルルームに入る",
+        "enterYourRoomTooltip": "パーソナルルームに入る",
+        "inviteToPersonalRoom": "パーソナルルームに招待する",
+        "messageComposer": "メッセージコンポーザー",
+        "openMinichat": "Minichatを開く",
+        "planMeeting": "会議を計画する",
+        "rejectQueuedMember": "ユーザーを拒否する",
+        "removeFile": "ファイルを削除する",
+        "removeMember": "メンバーを削除する",
+        "searchForParticipant": "参加者を検索する",
+        "selectEmoji": "絵文字を選択してください",
+        "switchToConversation": "会話に切り替える",
+        "switchToInfoPanel": "情報パネルに切り替える"
     },
     "action": {
         "activateNotifications": "通知を有効にする",
@@ -73,7 +113,19 @@
         "scrollToTheBottom": "一番下までスクロールする",
         "startMeeting": "会議を開始する",
         "addModerators": "モデレーターを追加する",
-        "leaveGroup": "グループから退会する"
+        "leaveGroup": "グループから退会する",
+        "copyLinkRoom": "ルームのリンクをコピーする",
+        "planMeeting": "会議を計画する",
+        "waitingModeratorToJoin": "モデレーターに承認されるのを待っています",
+        "addOtherModerators": "他のモデレーターを追加する",
+        "deleteRoom": "ルームを削除する",
+        "copyUserRoomLink": "リンクをコピーする",
+        "goToGuide": "ガイドに進む",
+        "joinRoom": "ルームに参加する",
+        "openInChats": "チャットで開く",
+        "plan": "計画する",
+        "removeMember": "メンバーを削除する",
+        "resetLink": "リンクをリセットする"
     },
     "appVersion": "アプリのバージョン",
     "button": {
@@ -95,7 +147,13 @@
         "spaceInfo": "スペース情報",
         "title": "タイトル",
         "topic": "トピック",
-        "fileUploadDescription": "ファイルの説明"
+        "fileUploadDescription": "ファイルの説明",
+        "roomLinkDescription": "このリンクをコピーして共有し、他人にこのルームへのアクセス権を与えます。",
+        "nameRoom": "{{conversationTitle}}のルーム",
+        "roomInfo": "ルームの情報",
+        "roomLink": "ルームのリンク",
+        "roomName": "ルームの名前",
+        "speakersCorner": "スピーカーズコーナー"
     },
     "creation": {
         "attendeeAdded": "参加者がリストに追加されました",
@@ -123,7 +181,8 @@
                     "neutral": "1人以上の参加者を選択してください"
                 }
             },
-            "description": "インスタント会議は、迅速かなビデオ通話で、チャットの痕跡は保持されず、通話が終了すると、チャットは存在しなくなります。 インスタント会議は、Team Proユーザーのみが作成できますが、外部ユーザーも含め、あらゆるユーザーが参加できます。"
+            "description": "インスタント会議は、迅速かなビデオ通話で、チャットの痕跡は保持されず、通話が終了すると、チャットは存在しなくなります。 インスタント会議は、Team Proユーザーのみが作成できますが、外部ユーザーも含め、あらゆるユーザーが参加できます。",
+            "titleDescription": "インスタント会議にわかりやすいタイトルを付けて、出席者がこの通話の目的を理解できるようにします。"
         },
         "limitOfParticipantReached": "管理者が設定した参加者の上限に達しました",
         "nameMax140Characters": "最大140文字",
@@ -143,7 +202,8 @@
             "topicDescription": "スペースは議論するトピックを持つチャットの場なので、主題をよりよく示すトピックが推奨されます。",
             "topicInputExplanation": "スペースの主題を示します",
             "addMembersDescription": "名前またはメールアドレスを入力して、人々を招待してください。 2人以上招待する必要があります。または、チャットを作成することもできます。",
-            "mainDescription": "スペース は、チャネルと呼ばれる特定のチャットを含む一般的なコミュニケーション環境で、それぞれに独自のトピックがあります。 スペースを作成するには、2人以上の参加者を招待する必要があります。"
+            "mainDescription": "スペース は、チャネルと呼ばれる特定のチャットを含む一般的なコミュニケーション環境で、それぞれに独自のトピックがあります。 スペースを作成するには、2人以上の参加者を招待する必要があります。",
+            "titleDescription": "タイトルはスペースを識別するため、そのトピックを説明する必要があります。"
         },
         "startTypingToPick": "アドレスを入力し始め、選択してください",
         "topicMax255Characters": "最大255文字",
@@ -158,7 +218,8 @@
         },
         "emailReplicated": "入力したメールアドレスは既に追加されています",
         "nameRequired-max140Characters-avoidReusingNames": "必須。 最大140文字で、同じ名前は使わないでください",
-        "titleInputRequirements": "タイトルは、140文字以内でユニークでなければなりません"
+        "titleInputRequirements": "タイトルは、140文字以内でユニークでなければなりません",
+        "topicNeeds2Letters": "トピックはオプションで、最小 2文字です"
     },
     "feedback": {
         "historyClearedSuccessfully": "履歴が正常にクリアされました！",
@@ -167,7 +228,11 @@
         "online": "オンラインに戻ってください！",
         "retryConnection": "接続を再試行してください",
         "uploadConversationPicturesFailed": "会話画像をアップロードできませんでした",
-        "offline": "サーバー接続の問題があるようです"
+        "offline": "サーバー接続の問題があるようです",
+        "tryAReconnectionIn": "{{seconds}}に再び接続してみてください",
+        "appVersionCopied": "アプリのバージョンがコピーされました",
+        "resetPersonalRoomLinkSuccess": "パーソナルルームのリンクがリセットされました",
+        "roomLinkCopied": "ルームのリンクがコピーされました"
     },
     "meeting": {
         "attendeesComing": "参加者が来ています",
@@ -213,7 +278,9 @@
         },
         "defaultViewModeDedicatedLabel": "「専用モード」では、ブラウザの別のタブにリダイレクトされ、最高のミーティング体験を楽しめます。",
         "defaultViewModeDefaultLabel": "「デフォルトモード」を選ぶと、現在の内部環境でミーティングが開始されます。",
-        "defaultViewModeTitleModal": "ミーティングの環境設定"
+        "defaultViewModeTitleModal": "ミーティングの環境設定",
+        "defaultViewModeSaveLabel": "オプションを保存する",
+        "resetMeetingUrlModalDescription": "本当に計画中の「{{conversationName}}」のリンクをリセットしますか？"
     },
     "message": {
         "deletedMessage": "削除されたメッセージ",
@@ -270,7 +337,12 @@
                     "group": "{{member_name}}がグループから退会しました"
                 },
                 "you": {
-                    "invited": "{{member_name}}を招待しました"
+                    "invited": "{{member_name}}を招待しました",
+                    "kicked": {
+                        "channel": "チャンネルから{{member_name}}を削除しました",
+                        "group": "グループから{{member_name}}を削除しました",
+                        "space": "スペースから{{member_name}}を削除しました"
+                    }
                 }
             },
             "newMeeting": "以下からの着信：",
@@ -322,7 +394,8 @@
                     "space": "スペースから退会しました",
                     "group": "グループから退会しました"
                 }
-            }
+            },
+            "conversationCreated": "チャットが作成されました"
         },
         "readBy": "閲覧者",
         "yesterday": "昨日"
@@ -333,7 +406,14 @@
             "areYouSure": "本当に実行しますか？",
             "clearHistory": "チャット履歴が完全に消去されます。 このチャットの他の参加者の履歴は削除されません。 この操作は元に戻せません。",
             "leaveAndDeleteConversation": "{{conversationName}}を退出して削除してもよろしいですか？",
-            "removeBuddy": "本当にこのシェアを削除しますか？"
+            "removeBuddy": "本当にこのシェアを削除しますか？",
+            "deleteChannel": "本当にこのチャンネルを削除しますか？",
+            "leaveGroup": "本当にグループから退会しますか？",
+            "removeMember": "本当にこのメンバーを削除しますか？",
+            "deleteRoom": "本当にルームを削除しますか？",
+            "deleteSpace": "本当にスペースを削除しますか？",
+            "leaveChannel": "本当にチャンネルから退出しますか？",
+            "leaveSpace": "本当にスペースから退会しますか？"
         },
         "forwardModal": {
             "forwardedMessageFrom": "メッセージの転送元",
@@ -352,19 +432,38 @@
         "moderatorCannotLeaveGroupDescription": "{{conversationName}}の唯一のモデレーターです。グループを離れる前に、他の誰かを推薦してください。",
         "moderatorCannotLeaveGroupTitle": "お待ちください、新しいモデレーターが必要です",
         "showPreviousConversationHistory": "以前の会話履歴を表示する",
-        "deleteMessageDescription": "メッセージを削除すると、あなたと他のあらゆる受信者に表示されなくなります"
+        "deleteMessageDescription": "メッセージを削除すると、あなたと他のあらゆる受信者に表示されなくなります",
+        "news": "新規",
+        "addModeratorDescription": "1人以上のユーザーを選択して、このルームのモデレーターに昇格させます",
+        "planMeetingDescription": "ルームの名前は、出席者が部屋の話し合いの題材を知るのに役立ちます。",
+        "roomsFunctionalitiesChangelogDescription": "会議の機能に重要な変更を加えました。 詳細については、ルームの紹介をお読みください！",
+        "notShowAgain": "今後表示しない",
+        "teamNews": "チームのニュース",
+        "userJoinedWaitingRoom": "待合室に誰かいるようです"
     },
     "notification": {
         "answer": "応答する",
         "dismiss": "拒否する",
-        "incomingCall": "以下からの着信："
+        "incomingCall": "以下からの着信：",
+        "waiting": {
+            "descriptionAcceptedLabel": "{{conversationName}}のモデレーターに承認されました",
+            "descriptionWaitingLabel": "{{conversationName}}のモデレーターに承認されるのを待っています",
+            "notificationAcceptedByModerator": "モデレーターに承認されました",
+            "notificationJoinTheRoom": "ルームに入室して会議に参加する",
+            "userIsWaiting": "新しいユーザーが入室を待っています",
+            "userJoinedWaitingRoom": "待合室に誰かいるようです"
+        },
+        "invitationToPersonalRoom": "パーソナルルームへの招待:"
     },
     "settings": {
         "meeting": {
             "enableCamera": "カメラを有効にする",
             "enableMicrophone": "マイクを有効にする",
             "meetings": "会議",
-            "description": "オーディオとビデオを設定して、会議に参加しましょう。あらゆる会議に参加する前に、いつでも設定をカスタマイズできます。"
+            "description": "オーディオとビデオを設定して、会議に参加しましょう。あらゆる会議に参加する前に、いつでも設定をカスタマイズできます。",
+            "personalRoomResetButton": "パーソナルルームのリンクをリセットする",
+            "personalRoomResetDescription": "パーソナルルームのリンクをリセットすると、以前に指定されたあらゆるアクセス権が機能しなくなります。",
+            "personalRoomOptionsTitleModal": "パーソナルルームのリンクがリセットされました"
         },
         "notification": {
             "desktop": "デスクトップ通知",
@@ -384,15 +483,18 @@
             "statusOptionalDescription": "オプションです。今、考えていることを他の人に知らせましょう。 最大文字数：256文字",
             "title": "プロファイル",
             "update": "更新する",
-            "maximumDimension": "最大サイズ: 256kb."
+            "maximumDimension": "最大サイズ: 256kb.",
+            "chooseAProfilePic": "プロファイル写真を選択すると、画像が自動的に中央に配置されます。"
         },
         "title": "設定",
         "modal": {
-            "description": "ここでは、完全にカスタマイズされたチャット体験を楽しむために、あらゆるTeam専用の環境設定を設定できます！"
+            "description": "ここでは、完全にカスタマイズされたチャット体験を楽しむために、あらゆるTeam専用の環境設定を設定できます！",
+            "title": "チャットの設定"
         },
         "notifications": {
             "description": "チーム内のあらゆる種類の通知を設定します。"
-        }
+        },
+        "resetPersonalRoomLinkSuccess": "パーソナルルームのリンクがリセットされました"
     },
     "status": {
         "lastSeen": "最終閲覧 {{lastSeen}}",
@@ -400,6 +502,14 @@
         "online": "オンライン",
         "userStatus": "ステータス",
         "areWriting": "が入力しています…",
-        "isWriting": "が入力しています…"
+        "isWriting": "が入力しています…",
+        "externalGuest": "外部ゲスト",
+        "internalGuest": "内部ゲスト",
+        "waitingToEnter": "入室するのを待っています"
+    },
+    "general": {
+        "browserNotSupported": "お使いのブラウザのバージョンはサポートされていません。あらゆる機能を利用できるようにブラウザを更新することを強くお勧めします！",
+        "goToTeam": "チームに進む",
+        "teamProductName": "チーム"
     }
 }
