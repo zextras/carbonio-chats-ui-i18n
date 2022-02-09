@@ -159,7 +159,7 @@
         "selectOneOrMoreUsers": "Select one or more users",
         "space": {
             "addMembersDescription": "Invite people by typing their name or e-mail addresses. You need to invite at least two other people, otherwise you can create a Chat.",
-            "mainDescription": "Spaces are generic communication environments that include specific chats called Channels, each one with its own topic. To create a Space you need to invite at least to participants. Channels can be added directly from the Space's info panel.",
+            "mainDescription": "Spaces are generic communication environments that include specific chats called Channels, each one with its own topic. To create a Space you need to invite at least two participants. Channels can be added directly from the Space's info panel.",
             "spaceWithoutNameAddParticipant": "Add participants to your Space",
             "titleDescription": "The title identifies the Space and thus it should describe its topic.",
             "topicDescription": "Since Spaces are chats driven by the topic discussed, a topic that better describes the subject is recommended.",
