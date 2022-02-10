@@ -104,7 +104,7 @@
             "topicInputExplanation": "Il décrit le sujet de l'Espace",
             "titleDescription": "Le titre identifie l'espace et doit donc décrire son thème.",
             "addMembersDescription": "Invitez des personnes en tapant leur nom ou leur adresse e-mail. Vous devez inviter au moins deux autres personnes, sinon vous pouvez créer une discussion.",
-            "mainDescription": "Les Espaces sont des environnements de communication génériques qui comprennent des discussions spécifiques appelées Canaux, chacune ayant son propre sujet. Pour créer un espace, vous devez inviter au moins deux participants. Les canaux peuvent être ajoutés directement à partir du panneau d'information de l'espace."
+            "mainDescription": "Les Espaces sont des environnements de communication génériques qui comprennent des discussions spécifiques appelées Canaux, chacune ayant son propre sujet. Pour créer un Espace, vous devez inviter au moins deux participants. Les Canaux peuvent être ajoutés directement à partir du panneau d'information de l'espace."
         },
         "startTypingToPick": "Commencez à taper pour choisir une adresse",
         "topicMax255Characters": "Max. 255 caractères",
