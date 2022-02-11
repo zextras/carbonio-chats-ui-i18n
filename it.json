@@ -308,7 +308,8 @@
         "rejectQueuedMember": "Rifiuta utente",
         "copyUserRoom": "Copia il link della tua Stanza Personale",
         "planMeeting": "Programma una Riunione",
-        "searchForParticipant": "Cerca partecipante"
+        "searchForParticipant": "Cerca partecipante",
+        "copyUserRoomTooltip": "Copia e condividi questo link per dare accesso alla tua Stanza Personale"
     },
     "appVersion": "Versione app",
     "button": {
@@ -335,7 +336,8 @@
         "topic": "Nome",
         "roomLink": "Link della Stanza",
         "fileUploadDescription": "Descrizione file",
-        "roomInfo": "Informazioni Stanza"
+        "roomInfo": "Informazioni Stanza",
+        "speakersCorner": "Relatore"
     },
     "feedback": {
         "historyClearedSuccessfully": "Cronologia eliminata con successo!",
@@ -488,7 +490,8 @@
         "resetPersonalRoomLinkSuccess": "Il link della Stanza Personale è stato ripristinato",
         "title": "Impostazioni",
         "modal": {
-            "description": "Qui puoi impostare tutte le preferenze della Chat per vivere un'esperienza di chat completamente personalizzata!"
+            "description": "Qui puoi impostare tutte le preferenze della Chat per vivere un'esperienza di chat completamente personalizzata!",
+            "title": "Impostazioni chat"
         },
         "notifications": {
             "description": "Imposta le tue preferenze per ogni tipo di notifica delle Chat."
