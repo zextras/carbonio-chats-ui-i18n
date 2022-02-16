@@ -479,7 +479,7 @@
         },
         "profile": {
             "errorGenericResponse": "Что-то пошло не так. Пожалуйста повторите",
-            "reset": "Сброс",
+            "reset": "Сбросить",
             "restore": "Восстановление",
             "statusOptionalDescription": "Опция. Максимальное количество 256 знаков",
             "title": "Профиль",
