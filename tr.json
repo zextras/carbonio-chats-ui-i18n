@@ -51,7 +51,10 @@
         "expand": "Genişlet",
         "goToGuide": "Tanıtıma git",
         "leaveChannel": "Kanaldan ayrıl",
-        "removeMember": "Üyeyi kaldır"
+        "removeMember": "Üyeyi kaldır",
+        "copyUserRoomLink": "Bağlantıyı kopyala",
+        "copyLinkRoom": "Oda Bağlantısını kopyala",
+        "waitingModeratorToJoin": "Moderatörün kabul etmesi için bekliyorsunuz"
     },
     "appVersion": "App sürümü",
     "button": {
@@ -363,7 +366,8 @@
             "leaveGroup": "Grup'tan ayrılmak istediğinize emin misiniz?",
             "leaveSpace": "Konu'dan ayrılmak istediğinize emin misiniz?",
             "removeBuddy": "Bu üyeyi çıkartmak istediğinize emin misiniz?",
-            "deleteSpace": "Bu Konu'yu silmek istediğinizden emin misiniz?"
+            "deleteSpace": "Bu Konu'yu silmek istediğinizden emin misiniz?",
+            "removeMember": "Bu üyeyi çıkartmak istediğinize emin misiniz?"
         },
         "forwardModal": {
             "forwardedMessageFrom": "İletilen mesaj",
@@ -379,7 +383,7 @@
             "endCallByOwner": "Anlık Toplantı sahibi görüşmeyi sonlandırmaya karar verdi, Anlık Toplantı deneyiminden memnun kaldığınızı umarız",
             "instantMeetingAlreadyRunningText": "Yeni bir tane oluşturmak öncekini sonlandıracak ve katılımcıların bağlantısı kesilecek. Ne yapmak istersiniz?"
         },
-        "moderatorCannotLeaveGroupDescription": "Görüşme {{conversationName}} için tek moderatör sizsiniz, Gruptan ayrılmadan önce yetkiyi başkasına devredin.",
+        "moderatorCannotLeaveGroupDescription": "{{conversationName}} için tek moderatör sizsiniz, Gruptan ayrılmadan önce yetkiyi başkasına devredin.",
         "moderatorCannotLeaveGroupTitle": "Bekleyin, yeni bir moderatör gerekiyor",
         "notShowAgain": "Tekrar gösterme",
         "roomsFunctionalitiesChangelogDescription": "Toplantı özelliklerinde önemli değişiklikler yapıldı. Daha fazla bilgi için lütfen Odalar tanıtımı başlığını okuyun!",
@@ -388,13 +392,22 @@
         "planMeetingDescription": "Oda adı katılımcılara Oda'nın tartışma konusu hakkında bilgi verir.",
         "deleteMessageDescription": "Mesajı sildiğinizde, artık size ve diğer alıcılara görünmeyecek",
         "chatsNews": "Sohbet Haberleri",
-        "userJoinedWaitingRoom": "Bekleme Odasında bekleyen kişi var"
+        "userJoinedWaitingRoom": "Bekleme Odasında bekleyen kişi var",
+        "news": "Haberler"
     },
     "notification": {
         "answer": "Yanıtla",
         "dismiss": "Kapat",
         "incomingCall": "Gelen çağrı:",
-        "invitationToPersonalRoom": "Kişisel Oda için davet gönderen:"
+        "invitationToPersonalRoom": "Kişisel Oda için davet gönderen:",
+        "waiting": {
+            "descriptionAcceptedLabel": "{{conversationName}} moderatörü tarafından kabul edildiniz",
+            "descriptionWaitingLabel": "{{conversationName}} moderatörü tarafından kabul edilmek için bekliyorsunuz",
+            "notificationAcceptedByModerator": "Moderatör tarafından kabul edildiniz",
+            "userIsWaiting": "Yeni kullanıcı girmek için bekliyor",
+            "userJoinedWaitingRoom": "Bekleme Odasında bekleyen kişi var",
+            "notificationJoinTheRoom": "Toplantıya katılmak için Oda'ya girin"
+        }
     },
     "people": {
         "manyMembers": "{{membersCount}} üye",
@@ -442,7 +455,8 @@
             "description": "Sohbet ile ilgili her türlü bildirim için tercihlerinizi ayarlayın."
         },
         "modal": {
-            "description": "Tamamen özelleştirilmiş bir sohbet deneyimi için Sohbet tercihlerinizi buradan değiştirebilirsiniz!"
+            "description": "Tamamen özelleştirilmiş bir sohbet deneyimi için Sohbet tercihlerinizi buradan değiştirebilirsiniz!",
+            "title": "Sohbet ayarları"
         }
     },
     "status": {
@@ -468,7 +482,7 @@
         "downgradeModerator": "Moderatör yetkilerini azalt",
         "editDescription": "Tanımı düzenle",
         "editInfo": "Bilgiyi düzenle",
-        "enterMeetingRoom": "Minisohbet aç",
+        "enterMeetingRoom": "Toplantı Odasına Gir",
         "enterYourRoom": "Kişisel Oda'nıza giriş yapın",
         "enterYourRoomTooltip": "Kişisel Oda'nıza giriş yapın",
         "errorUpdatingAvatarStatus": "Durumu belirlerken bir hata oluştu. Lütfen tekrar deneyin",
@@ -491,6 +505,12 @@
         "searchForParticipant": "Katılımcıları ara",
         "acceptQueuedMember": "Kullanıcı girişine izin ver",
         "copyUserRoom": "Kişisel Oda'nızın bağlantısını kopyalayın",
-        "rejectQueuedMember": "Kullanıcıyı reddet"
+        "rejectQueuedMember": "Kullanıcıyı reddet",
+        "copyUserRoomTooltip": "Başkalarının Kişisel Odanıza erişimini sağlamak için bağlantıyı kopyalayıp paylaşın"
+    },
+    "general": {
+        "goToTeam": "Team'e git",
+        "teamProductName": "Team",
+        "browserNotSupported": "Tarayıcı sürümünüz desteklenmiyor. Tüm özelliklerden yararlanmak için tarayıcınızı güncellemeniz önerilir!"
     }
 }

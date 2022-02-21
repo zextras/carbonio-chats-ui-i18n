@@ -51,7 +51,10 @@
         "startMeeting": "Avvia Meeting",
         "openInChats": "Apri nella Chat",
         "leaveGroup": "Abbandona il Gruppo",
-        "planMeeting": "Programma una Riunione"
+        "planMeeting": "Programma una Riunione",
+        "copyUserRoomLink": "Copia Link",
+        "waitingModeratorToJoin": "In attesa che il moderatore ti accetti",
+        "copyLinkRoom": "Copia link della Stanza"
     },
     "conversations": {
         "instantMeetings": "Instant Meeting",
@@ -67,7 +70,7 @@
         "noFilteredMeetings": "Nessuna Stanza o riunione programmata trovata per questo filtro",
         "noFilteredSpaces": "Nessuno Spazio corrisponde a questo filtro.",
         "scheduledMeetings": "Riunioni Programmate",
-        "spaces": "Spaces",
+        "spaces": "Spazi",
         "spaceGeneralChannel": "Generale",
         "waitingRoom": "Sala d'aspetto",
         "yourRoom": "La tua Stanza",
@@ -264,7 +267,7 @@
     "people": {
         "oneParticipant": "Unico partecipante",
         "manyMembers": "{{membersCount}} membri",
-        "me": "Me stesso",
+        "me": "Io",
         "otherParticipants": "Altri {{numberParticipants}} partecipanti",
         "participants": "Partecipanti",
         "you": "Tu",
@@ -285,7 +288,7 @@
         "copyRoomLinkTooltip": "Copia questo link per condividere la Stanza",
         "editDescription": "Modifica descrizione",
         "editInfo": "Modifica informazioni",
-        "enterMeetingRoom": "Apri Minichat",
+        "enterMeetingRoom": "Accedi alla Stanza dei Meeting",
         "enterYourRoom": "Entra nella tua Stanza Personale",
         "enterYourRoomTooltip": "Entra nella tua Stanza Personale",
         "errorUpdatingAvatarStatus": "Errore durante l'impostazione dello stato. Riprova",
@@ -305,7 +308,8 @@
         "rejectQueuedMember": "Rifiuta utente",
         "copyUserRoom": "Copia il link della tua Stanza Personale",
         "planMeeting": "Programma una Riunione",
-        "searchForParticipant": "Cerca partecipante"
+        "searchForParticipant": "Cerca partecipante",
+        "copyUserRoomTooltip": "Copia e condividi questo link per dare accesso alla tua Stanza Personale"
     },
     "appVersion": "Versione app",
     "button": {
@@ -332,7 +336,8 @@
         "topic": "Nome",
         "roomLink": "Link della Stanza",
         "fileUploadDescription": "Descrizione file",
-        "roomInfo": "Informazioni Stanza"
+        "roomInfo": "Informazioni Stanza",
+        "speakersCorner": "Relatore"
     },
     "feedback": {
         "historyClearedSuccessfully": "Cronologia eliminata con successo!",
@@ -408,7 +413,8 @@
             "leaveGroup": "Vuoi abbandonare questo Gruppo?",
             "leaveSpace": "Vuoi abbandonare questo Spazio?",
             "deleteChannel": "Vuoi eliminare questo Canale?",
-            "removeBuddy": "Vuoi rimuovere questo partecipante?"
+            "removeBuddy": "Vuoi rimuovere questo partecipante?",
+            "removeMember": "Vuoi rimuovere questo partecipante?"
         },
         "forwardModal": {
             "forwardedMessageFrom": "Messaggio inoltrato da",
@@ -433,13 +439,22 @@
         "deleteMessageDescription": "Cancellando un messaggio, questo non sarà più visibile né a te né agli altri partecipanti",
         "planMeetingDescription": "Il nome della Stanza suggerisce ai partecipanti l'argomento trattato all'interno della Stanza.",
         "chatsNews": "Novità Chat",
-        "userJoinedWaitingRoom": "Sembra esserci qualcuno nella Stanza d'Attesa"
+        "userJoinedWaitingRoom": "Sembra esserci qualcuno nella Stanza d'Attesa",
+        "news": "Novità"
     },
     "notification": {
         "answer": "Rispondi",
         "dismiss": "Annulla",
         "incomingCall": "Chiamata in arrivo da:",
-        "invitationToPersonalRoom": "Invito nella Stanza Personale da:"
+        "invitationToPersonalRoom": "Invito nella Stanza Personale da:",
+        "waiting": {
+            "descriptionAcceptedLabel": "Sei stato accettato dal moderatore di {{conversationName}}",
+            "descriptionWaitingLabel": "In attesa di essere accettato dal moderatore di {{conversationName}}",
+            "notificationAcceptedByModerator": "Sei stato accettato dal moderatore",
+            "notificationJoinTheRoom": "Unisciti alla Stanza per partecipare alla riunione",
+            "userIsWaiting": "Un nuovo utente è in attesa di entrare",
+            "userJoinedWaitingRoom": "Sembra esserci qualcuno nella Stanza d'Attesa"
+        }
     },
     "settings": {
         "meeting": {
@@ -475,7 +490,8 @@
         "resetPersonalRoomLinkSuccess": "Il link della Stanza Personale è stato ripristinato",
         "title": "Impostazioni",
         "modal": {
-            "description": "Qui puoi impostare tutte le preferenze della Chat per vivere un'esperienza di chat completamente personalizzata!"
+            "description": "Qui puoi impostare tutte le preferenze della Chat per vivere un'esperienza di chat completamente personalizzata!",
+            "title": "Impostazioni chat"
         },
         "notifications": {
             "description": "Imposta le tue preferenze per ogni tipo di notifica delle Chat."
@@ -491,5 +507,10 @@
         "userStatus": "Stato",
         "waitingToEnter": "In attesa di entrare",
         "areWriting": "stanno scrivendo …"
+    },
+    "general": {
+        "browserNotSupported": "La versione del tuo browser non è supportata. Si consiglia di aggiornarlo per poter usare tutte le features di Team!",
+        "goToTeam": "Vai a Team",
+        "teamProductName": "Team"
     }
 }

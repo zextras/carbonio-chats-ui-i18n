@@ -45,7 +45,16 @@
         "replyToYourself": "回复自己",
         "scrollToNewMessage": "滑至新消息",
         "scrollToTheBottom": "滑至底部",
-        "startMeeting": "开始会议"
+        "startMeeting": "开始会议",
+        "copyLinkRoom": "复制房间链接",
+        "copyUserRoomLink": "复制链接",
+        "goToGuide": "转到指南",
+        "openInChats": "在聊天中打开",
+        "leaveGroup": "离开群组",
+        "planMeeting": "规划会议",
+        "removeMember": "移除成员",
+        "resetLink": "重置链接",
+        "waitingModeratorToJoin": "您正在等待成为主持人"
     },
     "conversations": {
         "instantMeetings": "即时会议",
@@ -63,7 +72,13 @@
         "scheduledMeetings": "已计划会议",
         "spaces": "空间",
         "spaceGeneralChannel": "通用",
-        "yourRoom": "您的房间"
+        "yourRoom": "您的房间",
+        "filterChatList": "过滤聊天列表",
+        "mockDisplayDescription": "选择要进行聊天的会话",
+        "mockDisplayTitle": "让我们保持联系！",
+        "noActiveChats": "当前没有活动的聊天。创建新聊天或切换标签页。",
+        "noFilteredChats": "没有符合此过滤条件的聊天。",
+        "waitingRoom": "等待房间"
     },
     "message": {
         "service": {
@@ -80,23 +95,28 @@
                     },
                     "picture": {
                         "channel": "您已更改频道图片",
-                        "space": "您已更改空间图片"
+                        "space": "您已更改空间图片",
+                        "group": "您已更改群组图片"
                     },
                     "topic": {
                         "channel": "您已更改频道主题：{{topic}}",
-                        "space": "您已更改空间主题：{{topic}}"
+                        "space": "您已更改空间主题：{{topic}}",
+                        "group": "您已更改群组主题：{{topic}}"
                     }
                 },
                 "created": {
                     "channel": "您已创建频道",
-                    "space": "您已创建空间"
+                    "space": "您已创建空间",
+                    "group": "您已创建群组",
+                    "single": "您已创建聊天"
                 },
                 "invited": "{{invited_by}}邀请了您",
                 "join": {
                     "channel": "您已加入频道",
                     "instantMeeting": "您已加入即时会议",
                     "space": "您已加入空间",
-                    "userRoom": "您已加入房间"
+                    "userRoom": "您已加入房间",
+                    "group": "您已加入群组"
                 },
                 "kicked": {
                     "channel": "您已被{{kicked_by}}从频道中移除",
@@ -105,11 +125,14 @@
                 },
                 "left": {
                     "channel": "您已离开频道",
-                    "space": "您已离开空间"
+                    "space": "您已离开空间",
+                    "group": "您已离开群组"
                 }
             },
             "meeting": {
-                "ended": "会议已结束"
+                "ended": "会议已结束",
+                "endedAtTime": "会议结束于",
+                "startedAtTime": "会议开始于"
             },
             "member": {
                 "changed": {
@@ -119,16 +142,20 @@
                     },
                     "picture": {
                         "channel": "{{member_name}}已更改频道图片",
-                        "space": "{{member_name}}已更改空间图片"
+                        "space": "{{member_name}}已更改空间图片",
+                        "group": "{{member_name}}已更改群组图片"
                     },
                     "topic": {
                         "channel": "{{member_name}}已更改频道主题：{{topic}}",
-                        "space": "{{member_name}}已更改空间主题：{{topic}}"
+                        "space": "{{member_name}}已更改空间主题：{{topic}}",
+                        "group": "{{member_name}}已更改群组主题：{{topic}}"
                     }
                 },
                 "created": {
                     "channel": "{{member_name}}已创建频道",
-                    "space": "{{member_name}}已创建空间"
+                    "space": "{{member_name}}已创建空间",
+                    "group": "{{member_name}}已创建群组",
+                    "single": "{{member_name}}已创建聊天"
                 },
                 "deleted": {
                     "channel": "{{member_name}}已删除频道",
@@ -137,7 +164,8 @@
                 },
                 "invited": "{{invited_by}}邀请了{{member_name}}",
                 "join": {
-                    "channel": "{{member_name}}已加入频道"
+                    "channel": "{{member_name}}已加入频道",
+                    "conversation": "{{member_name}}已加入聊天"
                 },
                 "kicked": {
                     "channel": "{{member_name}}已被{{kicked_by}}从频道中移除",
@@ -146,21 +174,28 @@
                 },
                 "left": {
                     "channel": "{{member_name}}已离开频道",
-                    "space": "{{member_name}}已离开空间"
+                    "space": "{{member_name}}已离开空间",
+                    "group": "{{member_name}}已离开群组"
                 },
                 "you": {
-                    "invited": "您已邀请{{member_name}}"
+                    "invited": "您已邀请{{member_name}}",
+                    "kicked": {
+                        "channel": "您已将{{member_name}}从频道中移除",
+                        "group": "您已将{{member_name}}从群组中移除",
+                        "space": "您已将{{member_name}}从空间中移除"
+                    }
                 }
             },
             "newMeeting": "呼入电话，来自：",
             "notificationsActivatedForThisChat": "已为此聊天激活消息通知",
-            "notificationsMutedForThisChat": "已为此聊天静音消息通知"
+            "notificationsMutedForThisChat": "已为此聊天静音消息通知",
+            "conversationCreated": "聊天已创建"
         },
         "deletedMessage": "已删除消息",
         "edited": "已编辑",
         "forwarded": "已转发",
         "now": "现在",
-        "readBy": "已读：",
+        "readBy": "已读",
         "yesterday": "昨天"
     },
     "tooltip": {
@@ -173,7 +208,33 @@
         "close": "关闭",
         "copyRoomLink": "复制链接以共享房间",
         "copyRoomLinkTooltip": "复制链接以共享房间",
-        "editDescription": "编辑描述"
+        "editDescription": "编辑描述",
+        "acceptQueuedMember": "允许用户进入",
+        "addFile": "添加文件",
+        "cancelFilter": "取消过滤",
+        "chooseFile": "选择文件",
+        "closeSearch": "关闭搜索",
+        "collapseChannel": "收起频道",
+        "copyUserRoom": "复制您的个人房间链接",
+        "downgradeModerator": "降级主持人",
+        "enterMeetingRoom": "进入会议室",
+        "goToPrivateChat": "转到私密聊天",
+        "inviteToPersonalRoom": "邀请至您的个人房间",
+        "messageComposer": "消息编辑器",
+        "openMinichat": "打开 Minichat",
+        "planMeeting": "规划会议",
+        "promoteModerator": "晋升主持人",
+        "rejectQueuedMember": "拒绝用户",
+        "removeFile": "移除文件",
+        "removeMember": "移除成员",
+        "searchForParticipant": "搜索参与者",
+        "copyUserRoomTooltip": "复制此链接并将其共享，以便他人进入您的个人房间",
+        "editInfo": "编辑信息",
+        "selectEmoji": "选择表情符号",
+        "sendFile": "发送文件",
+        "showChannels": "显示频道",
+        "switchToConversation": "切换至会话",
+        "switchToInfoPanel": "切换至信息面板"
     },
     "appVersion": "应用版本",
     "button": {
@@ -197,7 +258,11 @@
         "spaceInfo": "空间信息",
         "speakersCorner": "讲者角",
         "title": "标题",
-        "topic": "主题"
+        "topic": "主题",
+        "fileUploadDescription": "文件描述",
+        "roomInfo": "房间信息",
+        "roomLink": "房间链接",
+        "roomName": "房间名称"
     },
     "creation": {
         "attendeeAdded": "已在列表中添加与会者",
@@ -205,13 +270,15 @@
             "mainDescription": "频道是空间中围绕单一话题展开的聊天。空间参与者可加入到频道中并就话题开展主动探讨。参与者无需离开空间也可退出频道。",
             "setImageAndTitleDescription": "设置图片以更好地识别空间内的频道。频道图像也可在频道信息面板中进行设置或更改。",
             "titleInputRequirements": "标题中最高允许140个字符，且必须在空间内唯一",
-            "topicInputExplanation": "描述频道主题"
+            "topicInputExplanation": "描述频道主题",
+            "topicDescription": "由于频道是围绕讨论主题展开的聊天，因此建议使用可更好描述主题的话题。"
         },
         "group": {
             "addParticipantsDescription": "输入参与者的名称或邮件地址以对其进行邀请。您需要邀请至少两名其他参与者，少于两人时也可创建聊天。",
             "groupWithoutNameAddParticipant": "为您的群组添加参与者",
             "inputTopicDescriptionLabel": "描述群组主题",
-            "setImageAndTopicDescription": "设置图片以帮助用户在列表中识别群组。"
+            "setImageAndTopicDescription": "设置图片以帮助用户在列表中识别群组。",
+            "mainDescription": "群组中需要包含两位以上的参与者。根据需要命名群组以对其主题进行描述"
         },
         "instantMeeting": {
             "addAttendees": "向您的即时会议添加参与者",
@@ -222,7 +289,9 @@
                     "negative": "输入的邮箱地址无效，请输入有效的地址",
                     "neutral": "选择一名或多名参与者"
                 }
-            }
+            },
+            "description": "即时会议是短时快速的视频呼叫。聊天过程在结束后不会被保留。即时会议可由团队专业版用户创建，且允许外部用户参与。",
+            "titleDescription": "给这个即时会议取一个有辨识度的名字，以便让与会者知道通话的主题是什么。"
         },
         "limitOfParticipantReached": "您已达到管理员设置的参与者限制",
         "nameMax140Characters": "最多140个字符",
@@ -240,14 +309,26 @@
         "space": {
             "spaceWithoutNameAddParticipant": "向您的空间添加参与者",
             "topicDescription": "由于空间是围绕讨论主题展开的聊天，因此建议使用可更好描述主题的话题。",
-            "topicInputExplanation": "描述空间主题"
+            "topicInputExplanation": "描述空间主题",
+            "addMembersDescription": "输入名称或邮件地址以邀请他人。您需要邀请至少两名其他人，少于两人时也可创建聊天。",
+            "mainDescription": "空间是通用的沟通环境，其中包含名为频道的特定聊天渠道，每个频道都有自己的主题。如需创建空间，您需要邀请至少两名参与者。频道则可在空间的信息面板中直接添加。",
+            "titleDescription": "标题是空间的标识，所以其中应提及空间的话题。"
         },
         "startTypingToPick": "开始输入以选择地址",
         "topicMax255Characters": "最多255个字符",
         "topicOptional": "可选。描述主题",
         "typeToFilter": "输入以筛选列表",
         "typeWithNameAddParticipant": "添加参与者至",
-        "youCanInviteOther": "您还可以邀请{{limit}}名参与者"
+        "youCanInviteOther": "您还可以邀请{{limit}}名参与者",
+        "chat": {
+            "addParticipant": "选择要进行聊天的参与者",
+            "chatFilterDescription": "您可通过点击想要进行沟通的参与者来创建聊天",
+            "description": "聊天是一对一的会话，可帮助您与联系人保持联系。"
+        },
+        "emailReplicated": "输入的邮箱已添加",
+        "titleInputRequirements": "标题中最多允许140个字符，且必须唯一",
+        "topicNeeds2Letters": "话题可选。最少2个字符",
+        "nameRequired-max140Characters-avoidReusingNames": "必要。最多140个字符，请避免重复使用名称。"
     },
     "feedback": {
         "historyClearedSuccessfully": "历史记录清除成功！",
@@ -255,7 +336,12 @@
         "notificationsMutedForThisChat": "已为此聊天静音消息通知",
         "online": "重新上线！",
         "retryConnection": "重试连接",
-        "uploadConversationPicturesFailed": "上传会话图片失败"
+        "uploadConversationPicturesFailed": "上传会话图片失败",
+        "appVersionCopied": "应用版本已复制",
+        "offline": "似乎有一个服务器连接问题",
+        "resetPersonalRoomLinkSuccess": "个人房间链接已重置",
+        "tryAReconnectionIn": "重试连接：{{seconds}}",
+        "roomLinkCopied": "房间链接已复制"
     },
     "meeting": {
         "attendeesComing": "参与者正在前来",
@@ -285,7 +371,11 @@
                 "cameraMicOff": "您的相机和麦克风已关闭",
                 "cameraOff": "您的相机已关闭"
             },
-            "unpinVideo": "取消固定视频"
+            "unpinVideo": "取消固定视频",
+            "disableScreensharing": "禁用屏幕共享",
+            "enableFullScreen": "全屏",
+            "enableScreenSharing": "启用屏幕共享",
+            "muteUserForAllDescription": "静音用户后，所有参与者将无法再听到用户的声音。仅被静音用户可自行取消静音。是否继续？"
         },
         "startModal": {
             "description": "您想如何进入该会议？",
@@ -294,7 +384,12 @@
             "noVideoAndNoAudio": "摄像头已关闭，麦克风已关闭",
             "videoAndAudio": "摄像头已打开，麦克风已打开",
             "videoAndNoAudio": "摄像头已打开，麦克风已关闭"
-        }
+        },
+        "defaultViewModeDedicatedLabel": "“专用模式”会将您重定向至浏览器的单独标签页中，便于您享受最佳会议体验。",
+        "defaultViewModeDefaultLabel": "选择“默认模式”后，会议将在当前内部环境中开始。",
+        "defaultViewModeSaveLabel": "保存选项",
+        "defaultViewModeTitleModal": "会议环境选项",
+        "resetMeetingUrlModalDescription": "确定要重置已规划“{{conversationName}}”的链接吗？"
     },
     "modal": {
         "addModeratorDescription": "选择一个或多个用户以将其提权为房间主持人",
@@ -302,26 +397,53 @@
         "confirm": {
             "areYouSure": "确定吗？",
             "clearHistory": "您将永久清除聊天记录。其他参与者处有关此聊天的记录不会被删除。此操作不可逆。",
-            "leaveAndDeleteConversation": "确定要离开并删除{{conversationName}}？"
+            "leaveAndDeleteConversation": "确定要离开并删除{{conversationName}}？",
+            "deleteChannel": "确定要删除此频道吗？",
+            "deleteRoom": "确定要删除房间吗？",
+            "deleteSpace": "确定要删除此空间吗？",
+            "leaveChannel": "确定要离开频道吗？",
+            "leaveGroup": "确定要离开群组吗？",
+            "leaveSpace": "确定要离开空间吗？",
+            "removeMember": "确定要移除该成员吗？"
         },
         "forwardModal": {
             "forwardedMessageFrom": "消息已转发自",
             "selectOneOrMoreConversations": "选择一个或多个会话",
-            "typeToFilterTheList": "输入以筛选列表"
+            "typeToFilterTheList": "输入以筛选列表",
+            "spaceAndChannels": "空间和频道"
         },
         "instantMeeting": {
             "closedInstantMeeting": "即时会议已关闭",
             "continue": "继续旧的即时会议",
-            "create": "创建新的即时会议"
+            "create": "创建新的即时会议",
+            "instantMeetingAlreadyRunningText": "创建新的将覆盖旧的，您的与会者将失去连接。确定吗？",
+            "instantMeetingAlreadyRunningTitle": "即时会议已在进行",
+            "endCallByOwner": "即时会议的所有者已决定结束通话，希望您的即时会议体验令人愉快"
         },
         "moderatorCannotLeaveGroupDescription": "您是 {{conversationName}} 的唯一主持人，请在离开此群组前将权限授予他人。",
         "moderatorCannotLeaveGroupTitle": "稍等，需要新的主持人",
-        "showPreviousConversationHistory": "显示之前的对话历史记录"
+        "showPreviousConversationHistory": "显示之前的对话历史记录",
+        "news": "新闻",
+        "deleteMessageDescription": "删除消息后，您和所有其他收件人都无法再看到消息",
+        "notShowAgain": "不要再次显示",
+        "planMeetingDescription": "房间名称有助于参与者了解会议的讨论事项。",
+        "roomsFunctionalitiesChangelogDescription": "我们对会议功能进行了重大更改。请阅读房间说明以了解更多信息！",
+        "userJoinedWaitingRoom": "等待房间中似乎有用户",
+        "teamNews": "团队新闻"
     },
     "notification": {
         "answer": "答复",
         "dismiss": "收起",
-        "incomingCall": "呼入电话，来自："
+        "incomingCall": "呼入电话，来自：",
+        "invitationToPersonalRoom": "个人房间邀请，来自：",
+        "waiting": {
+            "descriptionAcceptedLabel": "{{conversationName}}的主持人已同意您加入",
+            "descriptionWaitingLabel": "您正在等待成为{{conversationName}}的主持人",
+            "notificationAcceptedByModerator": "主持人已同意您加入",
+            "notificationJoinTheRoom": "加入房间，参与会议",
+            "userIsWaiting": "新用户正在等待进入",
+            "userJoinedWaitingRoom": "等待房间中似乎有用户"
+        }
     },
     "people": {
         "manyMembers": "{{membersCount}}名成员",
@@ -329,7 +451,8 @@
         "oneParticipant": "1名参与者",
         "otherParticipants": "另外{{numberParticipants}}名参与者",
         "participants": "参与者",
-        "you": "您"
+        "you": "您",
+        "whoYoureLookinkFor": "您在找谁？"
     },
     "settings": {
         "meeting": {
@@ -337,7 +460,9 @@
             "enableMicrophone": "启用麦克风",
             "meetings": "会议",
             "personalRoomOptionsTitleModal": "个人房间链接重置",
-            "personalRoomResetButton": "重置个人房间链接"
+            "personalRoomResetButton": "重置个人房间链接",
+            "description": "设置音频和视频首选项以进入会议。在进入任意会议之前您都可以随时自定义首选项。",
+            "personalRoomResetDescription": "重置个人房间链接后所有之前提供的访问权限将不再有效。"
         },
         "notification": {
             "desktop": "桌面通知",
@@ -356,9 +481,19 @@
             "restore": "恢复",
             "statusOptionalDescription": "可选。让他人了解您的想法。最大长度：256字符",
             "title": "档案",
-            "update": "更新"
+            "update": "更新",
+            "chooseAProfilePic": "选择档案图片，图像将自动居中。",
+            "maximumDimension": "最大大小：256KB。"
         },
-        "title": "设置"
+        "title": "设置",
+        "modal": {
+            "description": "在这里，您可以设置一切专属于聊天的偏好，以享受完整的自定义聊天体验！",
+            "title": "聊天设置"
+        },
+        "notifications": {
+            "description": "为聊天中的各种类型通知设置您的首选项。"
+        },
+        "resetPersonalRoomLinkSuccess": "个人房间链接已重置"
     },
     "status": {
         "lastSeen": "上次出现{{lastSeen}}",
@@ -366,6 +501,14 @@
         "online": "在线",
         "userStatus": "状态",
         "areWriting": "输入中…",
-        "isWriting": "正在输入…"
+        "isWriting": "正在输入…",
+        "externalGuest": "外部访客",
+        "internalGuest": "内部访客",
+        "waitingToEnter": "等待进入"
+    },
+    "general": {
+        "browserNotSupported": "不支持该版本的浏览器。我们强烈建议您更新浏览器以充分享受全部功能！",
+        "goToTeam": "前往团队",
+        "teamProductName": "团队"
     }
 }

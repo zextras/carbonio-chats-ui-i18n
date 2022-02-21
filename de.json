@@ -45,14 +45,24 @@
         "replyToYourself": "Sich selbst antworten",
         "scrollToNewMessage": "Zur neuen Nachricht scrollen",
         "scrollToTheBottom": "Nach unten scrollen",
-        "startMeeting": "Meeting starten"
+        "startMeeting": "Meeting starten",
+        "copyLinkRoom": "Link von dem Raum kopieren",
+        "leaveGroup": "Gruppe verlassen",
+        "waitingModeratorToJoin": "Sie warten darauf, von einem Moderator akzeptiert zu werden",
+        "goToGuide": "Zum Leitfaden",
+        "copyUserRoomLink": "Link kopieren",
+        "openInChats": "In Chats öffnen",
+        "planMeeting": "Ein Meeting planen",
+        "removeMember": "Mitglied entfernen",
+        "resetLink": "Link zurücksetzen"
     },
     "creation": {
         "group": {
             "groupWithoutNameAddParticipant": "Teilnehmer zu Ihrer Gruppe hinzufügen",
             "addParticipantsDescription": "Laden Sie Teilnehmer ein, indem Sie ihren Namen oder E-Mail Adressen schreiben. Sie müssen mindestens zwei weitere Teilnehmer einladen, anderenfalls können Sie einen Chat erstellen.",
             "inputTopicDescriptionLabel": "Beschreibt das Thema der Gruppe",
-            "setImageAndTopicDescription": "Stellen Sie ein Bild ein, das helfen wird, dass Benutzer die Gruppe innerhalb der Liste zuordnen können."
+            "setImageAndTopicDescription": "Stellen Sie ein Bild ein, das helfen wird, dass Benutzer die Gruppe innerhalb der Liste zuordnen können.",
+            "mainDescription": "Gruppen müssen mehr als zwei Teilnehmer beinhalten. Benennen Sie die Gruppe beliebig, um das Thema zu beschreiben"
         },
         "instantMeeting": {
             "attendee": {
@@ -63,7 +73,9 @@
             },
             "addAttendees": "Teilnehmer zu Ihrem Instant Meeting hinzufügen",
             "addAttendeesDescription": "Laden Sie Teilnehmer ein, indem Sie ihre Namen oder E-Mail Adressen hier eingeben.",
-            "addAttendeesInputExplanation": "Sie können ebenfalls externe Benutzer einladen, indem Sie Ihre E-Mail Adresse eingeben."
+            "addAttendeesInputExplanation": "Sie können ebenfalls externe Benutzer einladen, indem Sie Ihre E-Mail Adresse eingeben.",
+            "description": "Sofortige Besprechungen sind Videoanrufe, die so konzipiert sind, dass sie schnell und kurz sind, keine Spuren des Chats bleiben und nach dem Ende des Anrufs nicht mehr existieren. Instant Meetings können von Team Pro-Benutzern erstellt werden und es können auch externe Benutzer daran teilnehmen.",
+            "titleDescription": "Geben Sie dem Instant Meeting einen erkennbaren Titel, damit die Teilnehmer den Zweck der Telefonkonferenz kennen."
         },
         "selectOneOrMoreUsers": "Wählen Sie einen oder mehrere Benutzer aus",
         "attendeeAdded": "Teilnehmer zur Liste hinzugefügt",
@@ -71,7 +83,8 @@
             "mainDescription": "Kanäle sind klar definierte, themenbezogene Chats, welche in einem Space beinhaltet sind. Die Teilnehmer des Spaces können einem Kanal beitreten, um aktiv an der Diskussion zu dem Thema teilzunehmen. Teilnehmer können einen Kanal verlassen, ohne den Space zu verlassen.",
             "setImageAndTitleDescription": "Stellen Sie ein Bild ein, um den Kanal im zugehörigen Space besser erkennbar zu machen. Die Bilder der Kanäle können ebenfalls auf dem Infofeld des Kanals gesetzt oder geändert werden.",
             "titleInputRequirements": "140 Zeichen erlaubt, der titel muss im zugehörigen Space einmalig sein",
-            "topicInputExplanation": "Beschreibt das Thema des Kanals"
+            "topicInputExplanation": "Beschreibt das Thema des Kanals",
+            "topicDescription": "Da Kanäle aus Chats zu einem bestimmten Diskussionsthema bestehen, wird ein Thema empfohlen, welches den Inhalt am besten beschreibt."
         },
         "limitOfParticipantReached": "Sie haben die vom Administrator festgelegte Höchstzahl an Teilnehmern erreicht",
         "nameMax140Characters": "Max. 140 Zeichen",
@@ -88,14 +101,26 @@
         "space": {
             "spaceWithoutNameAddParticipant": "Teilnehmer zu Ihrem Space hinzufügen",
             "topicDescription": "Da Spaces aus Chats zu einem bestimmten Diskussionsthema bestehen, wird ein Thema empfohlen, welches den Inhalt am besten beschreibt.",
-            "topicInputExplanation": "Beschreibt das Thema des Space"
+            "topicInputExplanation": "Beschreibt das Thema des Space",
+            "addMembersDescription": "Laden Sie Leute ein, indem Sie ihre Namen oder E-Mail Adressen schreiben. Sie müssen mindestens zwei weitere Teilnehmer einladen, anderenfalls können Sie einen Chat erstellen.",
+            "mainDescription": "Spaces sind allgemeine Kommunikationsumgebungen, welche bestimmte Chats (Kanäle) enthalten, jeder Kanal hat sein eigenes Thema. Um einen Space zu erstellen, müssen Sie mindestens zwei Teilnehmer einladen. Kanäle können direkt im Infofeld von Space erstellt werden.",
+            "titleDescription": "Der Titel identifiziert den Raum und sollte daher sein Thema beschreiben."
         },
         "startTypingToPick": "Beginnen Sie zu schreiben, um einen Kontakt auszuwählen",
         "topicMax255Characters": "Max. 255 Zeichen",
         "topicOptional": "Optional. Beschreibt den Inhalt",
         "typeToFilter": "Schreiben, um die Liste zu filtern",
         "typeWithNameAddParticipant": "Teilnehmer hinzufügen zu",
-        "youCanInviteOther": "Sie können noch weitere {{limit}} Teilnehmer einladen"
+        "youCanInviteOther": "Sie können noch weitere {{limit}} Teilnehmer einladen",
+        "nameRequired-max140Characters-avoidReusingNames": "Erforderlich. Max. 140 Zeichen, bereits genutzte Namen vermeiden.",
+        "chat": {
+            "addParticipant": "Wählen Sie einen Teilnehmer aus, um einen Chat zu starten",
+            "chatFilterDescription": "Sie können einen Chat erstellen, indem Sie einfach auf den Teilnehmer klicken, mit dem Sie sprechen möchten",
+            "description": "Chats sind Einzelgespräche, die Ihnen helfen, mit Ihren Kontakten in Kontakt zu bleiben."
+        },
+        "emailReplicated": "Die eingegebene E-Mail wurde bereits hinzugefügt",
+        "titleInputRequirements": "140 Zeichen erlaubt, der Titel muss einmalig sein",
+        "topicNeeds2Letters": "Das Thema ist optional. Min. 2 Zeichen"
     },
     "feedback": {
         "online": "Wieder online!",
@@ -103,32 +128,43 @@
         "notificationsActivatedForThisChat": "Für diesen Chat sind Benachrichtigungen aktiviert",
         "notificationsMutedForThisChat": "Benachrichtigungen für diesen Chat stummgeschaltet",
         "retryConnection": "Verbindung wiederherstellen",
-        "uploadConversationPicturesFailed": "Upload des Unterhaltungsbildes fehlgeschlagen"
+        "uploadConversationPicturesFailed": "Upload des Unterhaltungsbildes fehlgeschlagen",
+        "tryAReconnectionIn": "Versuchen Sie eine Wiederverbindung in {{seconds}}",
+        "offline": "Es scheint ein Problem mit der Serververbindung zu sein",
+        "appVersionCopied": "App Version kopiert",
+        "resetPersonalRoomLinkSuccess": "Der Link des persönlichen Raums wurde zurückgesetzt",
+        "roomLinkCopied": "Raum- Link kopiert"
     },
     "message": {
         "service": {
             "newMeeting": "Eingehender Anruf von:",
             "meeting": {
-                "ended": "Meeting beendet"
+                "ended": "Meeting beendet",
+                "startedAtTime": "Das Treffen begann um",
+                "endedAtTime": "Die Sitzung endete um"
             },
             "member": {
                 "changed": {
                     "name": {
-                        "channel": "{{member_name}} hat den Kanalnamen zu {{topic}} geändert",
-                        "space": "{{member_name}} hat den Space - Namen zu {{topic}} geändert"
+                        "channel": "{{member_name}} hat den Kanalnamen zu {{name}} geändert",
+                        "space": "{{member_name}} hat den Space - Namen zu {{name}} geändert"
                     },
                     "picture": {
                         "channel": "{{member_name}} hat das Kanalbild geändert",
-                        "space": "{{member_name}} hat das Space-Bild geändert"
+                        "space": "{{member_name}} hat das Space-Bild geändert",
+                        "group": "{{member_name}} hat das Gruppenbild geändert"
                     },
                     "topic": {
                         "channel": "{{member_name}} hat das Kanalthema zu {{topic}} geändert",
-                        "space": "{{member_name}} hat das Kanal- Thema zu {{topic}} geändert"
+                        "space": "{{member_name}} hat das Kanal- Thema zu {{topic}} geändert",
+                        "group": "{{member_name}} hat das Gruppenthema zu {{topic}} geändert"
                     }
                 },
                 "created": {
                     "channel": "{{member_name}} hat den Kanal erstellt",
-                    "space": "{{member_name}} hat den Space erstellt"
+                    "space": "{{member_name}} hat den Space erstellt",
+                    "group": "{{member_name}} hat die Gruppe erstellt",
+                    "single": "{{member_name}} hat den Chat erstellt"
                 },
                 "deleted": {
                     "channel": "{{member_name}} hat den Kanal gelöscht",
@@ -137,7 +173,8 @@
                 },
                 "invited": "{{member_name}} wurde von {{invited_by}} eingeladen",
                 "join": {
-                    "channel": "{{member_name}} ist dem Kanal beigetreten"
+                    "channel": "{{member_name}} ist dem Kanal beigetreten",
+                    "conversation": "{{member_name}} ist dem Chat beigetreten"
                 },
                 "kicked": {
                     "channel": "{{member_name}} wurde von {{kicked_by}} aus dem Kanal entfernt",
@@ -146,10 +183,16 @@
                 },
                 "left": {
                     "channel": "{{member_name}} hat den Kanal verlassen",
-                    "space": "{{member_name}} hat den Space verlassen"
+                    "space": "{{member_name}} hat den Space verlassen",
+                    "group": "{{member_name}} hat die Gruppe verlassen"
                 },
                 "you": {
-                    "invited": "Sie haben {{member_name}} eingeladen"
+                    "invited": "Sie haben {{member_name}} eingeladen",
+                    "kicked": {
+                        "channel": "Du hast {{member_name}} aus dem Channel entfernt",
+                        "group": "Sie haben {{member_name}} aus der Gruppe entfernt",
+                        "space": "Du hast {{member_name}} aus Space entfernt"
+                    }
                 }
             },
             "notificationsActivatedForThisChat": "Für diesen Chat sind Benachrichtigungen aktiviert",
@@ -157,21 +200,25 @@
             "you": {
                 "changed": {
                     "name": {
-                        "channel": "Sie haben den Kanalnamen zu {{topic}} geändert",
-                        "space": "Sie haben den Space- Namen zu {{topic}} geändert"
+                        "channel": "Sie haben den Kanalnamen zu {{name}} geändert",
+                        "space": "Sie haben den Space- Namen zu {{name}} geändert"
                     },
                     "picture": {
                         "channel": "Sie haben das Kanalbild geändert",
-                        "space": "Sie haben den Space-Namen geändert"
+                        "space": "Sie haben den Space-Namen geändert",
+                        "group": "Sie haben das Gruppenbild geändert"
                     },
                     "topic": {
                         "channel": "Sie haben das Kanalthema zu {{topic}} geändert",
-                        "space": "Sie haben das Space - Thema zu {{topic}} geändert"
+                        "space": "Sie haben das Space - Thema zu {{topic}} geändert",
+                        "group": "Sie haben das Gruppenthema zu {{topic}} geändert"
                     }
                 },
                 "created": {
                     "channel": "Sie haben den Kanal erstellt",
-                    "space": "Sie haben den Space erstellt"
+                    "space": "Sie haben den Space erstellt",
+                    "group": "Sie haben die Gruppe erstellt",
+                    "single": "Sie haben den Chat erstellt"
                 },
                 "deleted": {
                     "channel": "Sie haben den Kanal gelöscht",
@@ -183,7 +230,8 @@
                     "channel": "Sie sind dem Kanal beigetreten",
                     "instantMeeting": "Sie sind dem Instant Meeting beigetreten",
                     "space": "Sie sind dem Space beigetreten",
-                    "userRoom": "Sie sind dem Raum beigetreten"
+                    "userRoom": "Sie sind dem Raum beigetreten",
+                    "group": "Sie sind der Gruppe beigetreten"
                 },
                 "kicked": {
                     "channel": "Sie wurden von {{kicked_by}} aus dem Kanal entfernt",
@@ -192,9 +240,11 @@
                 },
                 "left": {
                     "channel": "Sie haben den Kanal verlassen",
-                    "space": "Sie haben den Space verlassen"
+                    "space": "Sie haben den Space verlassen",
+                    "group": "Sie haben die Gruppe verlassen"
                 }
-            }
+            },
+            "conversationCreated": "Chat erstellt"
         },
         "readBy": "Gelesen von",
         "deletedMessage": "Gelöschte Nachricht",
@@ -209,7 +259,8 @@
         "me": "Ich",
         "oneParticipant": "Ein Teilnehmer",
         "otherParticipants": "Weitere {{numberParticipants}} Teilnehmer",
-        "participants": "Teilnehmer"
+        "participants": "Teilnehmer",
+        "whoYoureLookinkFor": "Nach wem suchen Sie?"
     },
     "appVersion": "App Version",
     "button": {
@@ -225,7 +276,7 @@
         "contactInfo": "Kontaktdaten",
         "groupInfo": "Gruppeninformationen",
         "info": "Info",
-        "instantInfo": "Instant Meeting Info",
+        "instantInfo": "Sofortige Besprechungsinformationen",
         "name": "Name",
         "nameRoom": "{{conversationTitle}}s Raum",
         "newMessages": "Neue Nachrichten",
@@ -233,13 +284,17 @@
         "spaceInfo": "Space- Informationen",
         "speakersCorner": "Sprecherecke",
         "title": "Titel",
-        "topic": "Thema"
+        "topic": "Thema",
+        "roomInfo": "Raum Info",
+        "fileUploadDescription": "File Beschreibung",
+        "roomLink": "Raum Link",
+        "roomName": "Raum Name"
     },
     "conversations": {
         "activeMeetingRooms": "Aktive Meeting Räume",
         "chats": "Chats",
         "conversations": "Unterhaltungen",
-        "instantMeetings": "Instant Meetings",
+        "instantMeetings": "Sofortige Meetings",
         "meetingRooms": "Meeting Räume",
         "noActiveInstantMeetings": "Es gibt zur Zeit keine aktiven Instant Meetings. Erstellen Sie ein neues Instant Meeting oder wechseln Sie den Reiter.",
         "noActiveMeetings": "Es gibt derzeit keine aktiven Räume",
@@ -251,7 +306,13 @@
         "scheduledMeetings": "Geplante Meetings",
         "spaces": "Spaces",
         "spaceGeneralChannel": "Allgemein",
-        "yourRoom": "Ihr Raum"
+        "yourRoom": "Ihr Raum",
+        "filterChatList": "Liste der Chats filtern",
+        "mockDisplayDescription": "Wählen Sie ein Gespräch, um einen Chat zu beginnen",
+        "mockDisplayTitle": "Lassen Sie uns in Kontakt bleiben!",
+        "noActiveChats": "Es gibt zur Zeit keine aktiven Chats. Erstellen Sie neue Chats oder wechseln Sie den Reiter.",
+        "noFilteredChats": "Es gibt keine Chats, die diesem Filter entsprechen.",
+        "waitingRoom": "Warteraum"
     },
     "meeting": {
         "attendeesComing": "Teilnehmer kommen gerade an",
@@ -281,7 +342,11 @@
                 "cameraMicOff": "Ihre Kamera und Ihr Mikrofon sind ausgeschaltet",
                 "cameraOff": "Ihre Kamera ist ausgeschaltet"
             },
-            "unpinVideo": "Video losheften"
+            "unpinVideo": "Video losheften",
+            "disableScreensharing": "Bildschirmfreigabe deaktivieren",
+            "muteUserForAllDescription": "Wenn der Benutzer stummgeschaltet wird, können alle Teilnehmer den Benutzer nicht mehr hören. Nur der stummgeschaltete Benutzer kann die Stummschaltung selbst wieder aufheben. Wie geht es weiter?",
+            "enableFullScreen": "Vollbild",
+            "enableScreenSharing": "Bildschirmfreigabe aktivieren"
         },
         "startModal": {
             "description": "Wie möchten Sie dem Meeting beitreten?",
@@ -290,7 +355,12 @@
             "noVideoAndNoAudio": "Kamera aus, Mikrofon aus",
             "videoAndAudio": "Kamera an, Mikrofon an",
             "videoAndNoAudio": "Kamera an, Mikrofon aus"
-        }
+        },
+        "defaultViewModeDefaultLabel": "Bei der Auswahl des \"Standardmodus\", wird das Meeting in der aktuellen internen Umgebung starten.",
+        "defaultViewModeSaveLabel": "Option speichern",
+        "defaultViewModeTitleModal": "Optionen für die Sitzungsumgebung",
+        "defaultViewModeDedicatedLabel": "Der \"dedizierte Modus\" wird Sie in einen separaten Reiter in Ihrem Browser weiterleiten, um das Meetings besser darzustellen.",
+        "resetMeetingUrlModalDescription": "Sind Sie sicher, dass Sie den Link für das geplante \"{{conversationName}}\" zurücksetzen möchten?"
     },
     "modal": {
         "addModeratorDescription": "Einen oder mehrere Nutzer auswählen, um diese zu Moderatoren des Raums zu ernennen",
@@ -298,26 +368,53 @@
         "confirm": {
             "areYouSure": "Sind Sie sicher?",
             "clearHistory": "Sie löschen Ihren Chat- Verlauf unwiderruflich. Die Verläufe anderer Teilnehmer dieses Chats werden nicht gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.",
-            "leaveAndDeleteConversation": "Sind Sie sicher, dass Sie {{conversationName}} verlassen und löschen möchten?"
+            "leaveAndDeleteConversation": "Sind Sie sicher, dass Sie {{conversationName}} verlassen und löschen möchten?",
+            "deleteRoom": "Sind Sie sicher, dass Sie diesen Raum löschen möchten?",
+            "leaveSpace": "Sind Sie sicher, dass Sie den Raum verlassen wollen?",
+            "deleteSpace": "Sind Sie sicher, dass Sie diesen Space löschen wollen?",
+            "leaveChannel": "Sind Sie sicher, dass Sie den Kanal verlassen wollen?",
+            "leaveGroup": "Sind Sie sicher, dass Sie die Gruppe verlassen wollen?",
+            "removeMember": "Sind Sie sicher, dass Sie dieses Mitglied entfernen möchten?",
+            "deleteChannel": "Sind Sie sicher, dass Sie diesen Kanal löschen wollen?"
         },
         "forwardModal": {
             "forwardedMessageFrom": "Nachricht weitergeleitet von",
             "selectOneOrMoreConversations": "Wählen Sie eine oder mehrere Unterhaltungen",
-            "typeToFilterTheList": "Schreiben, um die Liste zu filtern"
+            "typeToFilterTheList": "Schreiben, um die Liste zu filtern",
+            "spaceAndChannels": "Space und Kanäle"
         },
         "instantMeeting": {
             "closedInstantMeeting": "Instant Meeting geschlossen",
             "continue": "Mit dem alten Instant Meeting fortfahren",
-            "create": "Ein neues Instant Meeting erstellen"
+            "create": "Ein neues Instant Meeting erstellen",
+            "endCallByOwner": "Der Besitzer dieses Instant Meetings hat entschieden, den Anruf zu beenden. Wir hoffen, dass Ihnen das Instant Meeting Erlebnis gefallen hat",
+            "instantMeetingAlreadyRunningText": "Wenn Sie eine neue Datei erstellen, wird die ältere überschrieben und Ihr Teilnehmer verliert die Verbindung. Was wollen Sie tun?",
+            "instantMeetingAlreadyRunningTitle": "Es läuft bereits ein Instant Meeting"
         },
         "moderatorCannotLeaveGroupDescription": "Sie sind der einzige Moderator von {{conversationName}}, bitte ernennen Sie jemanden zum Moderator, bevor Sie die Gruppe verlassen.",
         "moderatorCannotLeaveGroupTitle": "Bitte warten, ein neuer Moderator wird benötigt",
-        "showPreviousConversationHistory": "Vorherigen Unterhaltungsverlauf anzeigen"
+        "showPreviousConversationHistory": "Vorherigen Unterhaltungsverlauf anzeigen",
+        "planMeetingDescription": "Raumnamen helfen den Teilnehmern, das Diskussionsthema des Raums zu kennen.",
+        "roomsFunctionalitiesChangelogDescription": "Wir haben wichtige Änderungen an den Meeting-Funktionen vorgenommen. Lesen Sie die Einführung zu den Räumen, um mehr zu erfahren!",
+        "deleteMessageDescription": "Wenn Sie eine Nachricht löschen, wird sie für Sie und alle anderen Empfänger nicht mehr sichtbar sein",
+        "teamNews": "Team's Nachrichten",
+        "userJoinedWaitingRoom": "Es scheint jemand im Warteraum zu sein",
+        "news": "News",
+        "notShowAgain": "Zeigen Sie dies nicht mehr"
     },
     "notification": {
         "answer": "Annehmen",
         "dismiss": "Abweisen",
-        "incomingCall": "Eingehender Anruf von:"
+        "incomingCall": "Eingehender Anruf von:",
+        "invitationToPersonalRoom": "Einladung zum persönlichen Raum von:",
+        "waiting": {
+            "descriptionAcceptedLabel": "Du wurdest vom Moderator von {{conversationName}} akzeptiert",
+            "descriptionWaitingLabel": "Sie warten darauf, vom Moderator von {{conversationName}} akzeptiert zu werden",
+            "notificationAcceptedByModerator": "Sie sind vom Moderator akzeptiert worden",
+            "notificationJoinTheRoom": "Schließen Sie sich dem Raum an, um an der Sitzung teilzunehmen",
+            "userIsWaiting": "Neuer Benutzer wartet auf Eintritt",
+            "userJoinedWaitingRoom": "Es scheint jemand im Warteraum zu sein"
+        }
     },
     "settings": {
         "meeting": {
@@ -325,7 +422,9 @@
             "enableMicrophone": "Mikrofon einschalten",
             "meetings": "Meetings",
             "personalRoomOptionsTitleModal": "Zurücksetzen des Links für den persönlichen Raum",
-            "personalRoomResetButton": "Link des persönlichen Raums zurücksetzen"
+            "personalRoomResetButton": "Link des persönlichen Raums zurücksetzen",
+            "description": "Legen Sie Ihre Audio- und Videoeinstellungen für die Teilnahme an Meetings fest. Sie können Ihre Einstellungen jederzeit anpassen, bevor Sie an einem Meeting teilnehmen.",
+            "personalRoomResetDescription": "Durch das Zurücksetzen der Verknüpfung des Persönlichen Raums werden alle zuvor vergebenen Zugänge nicht mehr funktionieren."
         },
         "notification": {
             "desktop": "Desktop Benachrichtigungen",
@@ -344,15 +443,30 @@
             "restore": "Wiederherstellen",
             "statusOptionalDescription": "Optional. Teile deine Meinung mit anderen. Max. Länge: 256 Zeichen",
             "title": "Profil",
-            "update": "Aktualisierung"
+            "update": "Aktualisierung",
+            "maximumDimension": "Maximale Größe: 256kb.",
+            "chooseAProfilePic": "Wählen Sie ein Profilbild aus. Das Bild wird automatisch zentriert."
         },
-        "title": "Einstellungen"
+        "title": "Einstellungen",
+        "modal": {
+            "description": "Hier können Sie die Einstellungen für alle Chats festlegen, um ein komplett individuelles Chatterlebnis zu genießen!",
+            "title": "Chat Einstellungen"
+        },
+        "notifications": {
+            "description": "Legen Sie Ihre Präferenzen für alle Arten von Benachrichtigungen in Chats fest."
+        },
+        "resetPersonalRoomLinkSuccess": "Der Link des persönlichen Raums wurde zurückgesetzt"
     },
     "status": {
         "lastSeen": "Zuletzt gesehen {{lastSeen}}",
         "offline": "Offline",
         "online": "Online",
-        "userStatus": "Status"
+        "userStatus": "Status",
+        "isWriting": "schreibt…",
+        "areWriting": "schreiben…",
+        "externalGuest": "Externer Gast",
+        "internalGuest": "Interner Gast",
+        "waitingToEnter": "Warten auf Eintritt"
     },
     "tooltip": {
         "close": "Schließen",
@@ -364,6 +478,37 @@
         "errorUpdatingAvatarStatus": "Beim Einstellen des Status ist etwas schiefgelaufen. Bitte versuchen Sie es erneut",
         "errorUploadingAvatarPicture": "Beim Upload des neuen Avatars ist etwas schiefgelaufen. Bitte versuchen Sie es erneut",
         "errorRemovingAvatarPicture": "Beim Entfernen des Avatars ist etwas schiefgelaufen. Bitte versuchen Sie es erneut",
-        "sendMessage": "Nachricht senden"
+        "sendMessage": "Nachricht senden",
+        "collapseChannel": "Kanäle einklappen",
+        "copyUserRoomTooltip": "Kopieren Sie diesen Link und geben Sie ihn weiter, um anderen den Zugang zu Ihrem persönlichen Raum zu ermöglichen",
+        "removeFile": "Datei entfernen",
+        "showChannels": "Kanäle anzeigen",
+        "enterMeetingRoom": "Besprechungsraum betreten",
+        "acceptQueuedMember": "Benutzer hereinlassen",
+        "addFile": "Datei hinzufügen",
+        "cancelFilter": "Filter löschen",
+        "chooseFile": "Datei auswählen",
+        "closeSearch": "Suche beenden",
+        "copyUserRoom": "Kopieren Sie den Link zu Ihrem persönlichen Raum",
+        "downgradeModerator": "Herunterstufung Moderator",
+        "editInfo": "Info bearbeiten",
+        "goToPrivateChat": "Zum privaten Chat gehen",
+        "inviteToPersonalRoom": "In Ihren persönlichen Raum einladen",
+        "messageComposer": "Nachricht entwerfen",
+        "openMinichat": "Minichat öffnen",
+        "planMeeting": "Ein Meeting planen",
+        "promoteModerator": "Zum Moderator befördern",
+        "rejectQueuedMember": "Benutzer ablehnen",
+        "removeMember": "Mitglied entfernen",
+        "searchForParticipant": "Suche nach Teilnehmer",
+        "selectEmoji": "Emoji auswählen",
+        "sendFile": "Dateien senden",
+        "switchToConversation": "Zum Gespräch wechseln",
+        "switchToInfoPanel": "Zum Info-Panel wechseln"
+    },
+    "general": {
+        "browserNotSupported": "Wir unterstützen diese Version Ihres Browsers nicht. Wir empfehlen Ihnen dringend, Ihren Browser zu aktualisieren, um alle Team Funktionen zu nutzen!",
+        "goToTeam": "Zu Team gehen",
+        "teamProductName": "Team"
     }
 }
