@@ -202,6 +202,7 @@
     },
     "feedback": {
         "appVersionCopied": "App version copied",
+        "connecting": "Connecting...",
         "historyClearedSuccessfully": "History cleared successfully!",
         "linkCopied": "Link copied",
         "notificationsActivatedForThisChat": "Notifications activated for this chat",
@@ -387,7 +388,6 @@
     },
     "modal": {
         "addModeratorDescription": "Select one or more users to promote them to moderators of this Room",
-        "news": "News",
         "clearHistoryDescription": "This conversation is now empty, it has been moved to the bottom of the conversations list in order to emphasize the active ones.",
         "confirm": {
             "areYouSure": "Are you sure?",
@@ -418,6 +418,7 @@
         },
         "moderatorCannotLeaveGroupDescription": "You're the only moderator of {{conversationName}}, please promote someone else before leaving the Group.",
         "moderatorCannotLeaveGroupTitle": "Wait, a new moderator is needed",
+        "news": "News",
         "notShowAgain": "Do not show this again",
         "planMeetingDescription": "Room's name helps the attendees to know the Room's matter of discussion.",
         "roomsFunctionalitiesChangelogDescription": "We have made important changes to the meeting functionalities. Read the introduction to the Rooms to find out more!",
