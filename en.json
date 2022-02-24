@@ -220,6 +220,9 @@
         "goToTeam": "Go to Team",
         "teamProductName": "Team"
     },
+    "label": {
+        "app_name": "Chats"
+    },
     "meeting": {
         "attendeesComing": "Participants are coming",
         "defaultViewModeDedicatedLabel": "The \"Dedicated Mode\" will redirect you to a separated tab of your browser to enjoy the Meeting experience at its best.",
