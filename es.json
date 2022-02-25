@@ -199,11 +199,11 @@
             "areYouSure": "¿Está seguro?",
             "clearHistory": "Se borrará permanentemente su historial de chat. El historial de otros participantes de este chat no se borrará. Esta acción es irreversible.",
             "leaveAndDeleteConversation": "¿Estás seguro que quieres abandonar y eliminar {{conversationName}}?",
-            "deleteSpace": "¿Seguro que quieres borrar este espacio?",
+            "deleteSpace": "¿Seguro que quieres borrar este Espacio?",
             "leaveChannel": "¿Seguro que quieres dejar el canal?",
             "leaveGroup": "¿Seguro que quieres dejar el grupo?",
             "deleteChannel": "¿Seguro que quieres borrar este canal?",
-            "deleteRoom": "¿Seguro que quieres borrar la sala?",
+            "deleteRoom": "¿Seguro que quieres borrar la Sala?",
             "leaveSpace": "¿Seguro que quieres dejar el espacio?",
             "removeMember": "¿Seguro que quieres quitar a este miembro?"
         },
