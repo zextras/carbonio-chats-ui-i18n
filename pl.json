@@ -1,1 +1,6 @@
-{}
+{
+    "action": {
+        "reply": "Odpowiedz",
+        "forward": "Przekaż dalej"
+    }
+}
