@@ -54,7 +54,9 @@
         "resetLink": "Reset link",
         "scrollToNewMessage": "Scroll to new message",
         "scrollToTheBottom": "Scroll to the bottom",
+        "start": "Start",
         "startMeeting": "Start Meeting",
+        "stop": "Stop",
         "waitingModeratorToJoin": "You’re waiting to be accepted by a moderator"
     },
     "appVersion": "App version",
@@ -232,6 +234,8 @@
         "defaultViewModeSaveLabel": "Save Option",
         "defaultViewModeSecondaryDescriptionLabel": "This option will be saved in your settings and can be updated every time you want.",
         "defaultViewModeTitleModal": "Meetings environment options",
+        "errorMeetingRecording": "It is not possible to start the registration, please contact your system administrator.",
+        "genericErrorMeeting": "There seems to be a problem with this meeting, contact your system administrator.",
         "interactions": {
             "cinemaView": "Cinema View",
             "closeCall": "Close this call",
@@ -261,6 +265,9 @@
             },
             "unpinVideo": "Unpin video"
         },
+        "recordedByMe": "You have started recording",
+        "recordedByOther": "{{username}} has started recording",
+        "recording": "Recording",
         "resetMeetingUrlModalDescription": "Are you sure to reset the link for planned \"{{conversationName}}\"?",
         "startModal": {
             "description": "How do you want to enter the meeting?",
@@ -269,7 +276,9 @@
             "noVideoAndNoAudio": "Camera off, Microphone off",
             "videoAndAudio": "Camera on, Microphone on",
             "videoAndNoAudio": "Camera on, Microphone off"
-        }
+        },
+        "thisMeetingIsBeingRecorded": "This meeting is being recorded",
+        "wereToFindRecording": "The recording will be saved in the video server home, contact your system administrator for further details."
     },
     "message": {
         "deletedMessage": "Deleted message",
@@ -426,6 +435,10 @@
         "planMeetingDescription": "Room's name helps the attendees to know the Room's matter of discussion.",
         "roomsFunctionalitiesChangelogDescription": "We have made important changes to the meeting functionalities. Read the introduction to the Rooms to find out more!",
         "showPreviousConversationHistory": "Show previous conversation history",
+        "stopMeetingRec": {
+            "stopMeetingTitle": "Stop meeting's recording",
+            "stopRecording": "The recording will be stopped. You can start a new recording anytime during this meeting."
+        },
         "teamNews": "Team's News",
         "userJoinedWaitingRoom": "There seems to be someone in the Waiting Room"
     },
@@ -437,6 +450,7 @@
         "meeting": {
             "ended": "Meeting Ended"
         },
+        "startMeetingRecording": "The recording of the {{conversationName}}'s meeting has started",
         "waiting": {
             "descriptionAcceptedLabel": "You have been accepted by the moderator of {{conversationName}}",
             "descriptionWaitingLabel": "You’re waiting to be accepted by {{conversationName}}’s Moderator",
