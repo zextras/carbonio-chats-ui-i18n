@@ -1,6 +1,514 @@
 {
     "action": {
         "reply": "Odpowiedz",
-        "forward": "Przekaż dalej"
+        "forward": "Przekaż dalej",
+        "add": "Dodaj",
+        "addChannel": "Dodaj Kanał",
+        "addMembers": "Dodaj członków",
+        "addModerator": "Dodaj moderatora",
+        "addModerators": "Dodaj moderatorów",
+        "addNewMembers": "Dodaj nowych członków",
+        "addNewMembersTo": "Dodaj nowych członków do",
+        "addOtherModerators": "Dodaj innych moderatorów",
+        "clearHistory": "Wyczyść Historię",
+        "close": "Zamknij",
+        "copy": "Skopiuj",
+        "collapse": "Zwiń",
+        "copyAppVersion": "Skopiuj wersję aplikacji",
+        "copyLinkRoom": "Skopiuj link do Pokoju",
+        "copyUserRoomLink": "Skopiuj link",
+        "create": "Stwórz",
+        "createChannel": "Stwórz kanał powiązany z {{spaceName}}",
+        "createChat": "Stwórz Czat",
+        "createGroup": "Stwórz Grupę",
+        "createInstantMeeting": "Stwórz Natychmiastowe Spotkanie",
+        "createSpace": "Stwórz Przestrzeń",
+        "delete": "Usuń",
+        "deleteChannel": "Usuń Kanał",
+        "deleteRoom": "Usuń Pokój",
+        "deleteSpace": "Usuń Przestrzeń",
+        "edit": "Edytuj",
+        "editYourMessage": "Edytuj własną wiadomość",
+        "expand": "Rozwiń",
+        "goToGuide": "Idź do instrukcji",
+        "join": "Dołącz",
+        "joinChannelAction": "Dołącz do Kanału",
+        "joinRoom": "Dołącz do Pokoju",
+        "leave": "Opuść",
+        "leaveChannel": "Opuść Kanał",
+        "leaveGroup": "Opuść Grupę",
+        "leaveSpace": "Opuść Przestrzeń",
+        "muteNotifications": "Wycisz powiadomienia",
+        "openInChats": "Otwórz w Czatach",
+        "openInTeam": "Otwórz w Zespole",
+        "plan": "Zaplanuj",
+        "planMeeting": "Zaplanuj Spotkanie",
+        "remove": "Usuń",
+        "removeMember": "Usuń członka",
+        "replyToSomeone": "Odpowiedz",
+        "replyToYourself": "Odpowiedz sobie",
+        "resetLink": "Zresetuj link",
+        "scrollToNewMessage": "Przewiń do następnej wiadomości",
+        "scrollToTheBottom": "Przewiń do samego dołu",
+        "startMeeting": "Rozpocznij Spotkanie",
+        "waitingModeratorToJoin": "Czekasz na zaakceptowanie przez moderatora",
+        "activateNotifications": "Włącz powiadomienia",
+        "joinChannel": "Dołącz do Kanału, aby wysyłać wiadomości i otrzymywać powiadomienia",
+        "leaveAndDelete": "Opuść i usuń"
+    },
+    "appVersion": "Wersja aplikacji",
+    "button": {
+        "cancel": "Anuluj",
+        "no": "Nie",
+        "ok": "Ok",
+        "save": "Zapisz",
+        "undo": "Cofnij",
+        "yes": "Tak"
+    },
+    "conversation": {
+        "channelInfo": "Informacje o kanale",
+        "contactInfo": "Informacje o kontakcie",
+        "fileUploadDescription": "Opis pliku",
+        "groupInfo": "Informacje o grupie",
+        "info": "Informacje",
+        "name": "Nazwa",
+        "instantInfo": "Informacje o natychmiastowym spotkaniu",
+        "nameRoom": "Pokój {{conversationTitle}}",
+        "newMessages": "Nowe Wiadomości",
+        "roomInfo": "Informacje o pokoju",
+        "roomLink": "Link do pokoju",
+        "roomLinkDescription": "Skopiuj ten link i udostępnij go, aby umożliwić użytkownikom dostęp do tego Pokoju.",
+        "roomName": "Nazwa pokoju",
+        "spaceInfo": "Informacje o przestrzeni",
+        "speakersCorner": "Kącik mówcy",
+        "title": "Tytuł",
+        "topic": "Temat"
+    },
+    "conversations": {
+        "activeMeetingRooms": "Aktywne Pokoje Spotkań",
+        "chats": "Czaty",
+        "conversations": "Konwersacje",
+        "filterChatList": "Filtruj listę czatów",
+        "instantMeetings": "Natychmiastowe Spotkania",
+        "meetingRooms": "Pokoje Spotkań",
+        "mockDisplayDescription": "Wybierz konwersację, aby rozpocząć czat",
+        "mockDisplayTitle": "Będziemy w kontakcie!",
+        "noActiveChats": "Nie ma żadnych aktywnych czatów na ten moment. Stwórz nowy czat lub zmień kartę.",
+        "noActiveInstantMeetings": "Nie ma żadnych aktywnych Natychmiastowych Spotkań w tym momencie. Stwórz nowe Natychmiastowe Spotkanie lub zmień kartę.",
+        "noActiveMeetings": "Nie ma żadnych aktywnych Pokoi w tym momencie",
+        "noActiveSpaces": "Nie ma żadnych aktywnych Przestrzeni w tym momencie. Stwórz nową Przestrzeń lub zmień kartę.",
+        "noFilteredChats": "Nie ma żadnych czatów, które pasują do tego filtra.",
+        "noFilteredInstantMeetings": "Nie ma żadnych Natychmiastowych Spotkań pasujących do tego filtra.",
+        "noFilteredMeetings": "Nie ma żadnych Pokoi ani zaplanowanych spotkań pasujących do tego filtra",
+        "personalRoom": "Prywatny Pokój",
+        "noFilteredSpaces": "Nie ma żadnych Przestrzeni pasujących do tego filtra.",
+        "scheduledMeetings": "Zaplanowane Spotkania",
+        "spaceGeneralChannel": "Ogólny",
+        "spaces": "Przestrzenie",
+        "waitingRoom": "Poczekalnia",
+        "yourRoom": "Twój Pokój"
+    },
+    "creation": {
+        "attendeeAdded": "Uczestnik został dodany do listy",
+        "channel": {
+            "mainDescription": "Kanały są dobrze zdefiniowanymi czatami tematycznymi, które znajdują się w Przestrzeni. Uczestnicy Przestrzeni mogą dołączyć do Kanału, aby aktywnie dyskutować o jego tematyce. Uczestnicy mogą opuścić Kanał bez równoczesnego opuszczania Przestrzeni.",
+            "setImageAndTitleDescription": "Ustaw obraz, aby Kanał był łatwo rozpoznawalny w Przestrzeni. Obraz Kanału może być również ustawiony lub zmieniony w panelu informacyjnym Kanału.",
+            "titleInputRequirements": "Max. 140 znaków, tytuł nie może występować w Przestrzeni",
+            "topicDescription": "Z racji tego, że Kanały to czaty opierające się na omawianym temacie, zalecamy ustawienie dobrze dopasowanego tematu.",
+            "topicInputExplanation": "Opisuje tematykę Kanału"
+        },
+        "chat": {
+            "addParticipant": "Wybierz uczestnika, z którym chcesz rozpocząć czat",
+            "chatFilterDescription": "Możesz stworzyć czat po prostu klikając na uczestnika, z którym chcesz rozmawiać",
+            "description": "Czaty to dwuosobowe konwersacje, które pomagają pozostawać na bieżąco z twoimi kontaktami."
+        },
+        "emailReplicated": "Wprowadzony adres e-mail został już wcześniej dodany",
+        "group": {
+            "addParticipantsDescription": "Zaproś uczestników wpisując ich imiona lub adresy e-mail. Musisz zaprosić co najmniej dwóch innych uczestników. Jeśli to zbyt dużo - po prostu stwórz Czat z danym użytkownikiem.",
+            "groupWithoutNameAddParticipant": "Dodaj uczestników do swojej Grupy",
+            "inputTopicDescriptionLabel": "Opisuje tematykę Grupy",
+            "mainDescription": "Grupy muszą zawierać co najmniej trzech uczestników. Nazwij Grupę tak, aby jej nazwa odzwierciedlała jej tematykę",
+            "setImageAndTopicDescription": "Ustaw obraz, który pomoże użytkownikom rozpoznać tą Grupę spośród innych na liście."
+        },
+        "instantMeeting": {
+            "addAttendees": "Dodaj uczestników do swojego Natychmiastowego Spotkania",
+            "addAttendeesDescription": "Zaprość uczestników wpisując ich imiona lub adresy e-mail tutaj.",
+            "addAttendeesInputExplanation": "Możesz również zaprosić użytkowników spoza swojej domeny wpisując ich adres e-mail.",
+            "attendee": {
+                "feedback": {
+                    "negative": "Wpisany adres e-mail jest nieprawidłowy, prosimy o wpisanie prawidłowego",
+                    "neutral": "Wybierz jednego lub więcej uczestników"
+                }
+            },
+            "titleDescription": "Nadaj Natyczmiastowemu Spotkaniu wyróżniający się tytuł, aby uczestnicy znali cel spotkania.",
+            "description": "Natychmiastowe Spotkania to rozmowy wideo, które są stworzone by być szybkie i krótkie. Po zakończeniu rozmowy, jej czat przestanie istnieć, jego zawartość zostanie trwale wymazana. Natychmiastowe Spotkania mogą być tworzone przez użytkowników Zespołu Pro. Do rozmów mogą również dołączać użytkownicy spoza domeny."
+        },
+        "limitOfParticipantReached": "Osiągnięto limit uczestników ustawiony przez administratora",
+        "nameMax140Characters": "Max. 140 znaków",
+        "nameNeeds2Letters": "Nazwa wymaga co najmniej dwóch liter",
+        "nameRequired": "Nazwa jest wymagana",
+        "participants": {
+            "feedback": {
+                "neutral": "Wybierz co najmniej dwóch uczestników"
+            }
+        },
+        "requiresOneMoreParticipant": "Wymagany co najmniej jeden uczestnik",
+        "requiresTwoOthers": "Wymaganych co najmniej 2 innych",
+        "selectOneOrMoreUsers": "Wybierz jednego lub więcej użytkowników",
+        "space": {
+            "addMembersDescription": "Zaproś uczestników wpisując ich imiona lub adresy e-mail. Musisz zaprosić co najmniej dwóch innych uczestników. Jeśli to zbyt dużo - po prostu stwórz Czat z danym użytkownikiem.",
+            "spaceWithoutNameAddParticipant": "Dodaj uczestników do swojej Przestrzeni",
+            "mainDescription": "Przestrzenie to podstawowe środowiska do komunikacji, które zawierają czaty nazwane Kanałami - każdy z nich ma swoją własną tematykę. Aby stworzyć Przestrzeń potrzebujesz zaprosić do niej co najmniej dwóch uczestinków. Kanały można dodać bezpośrednio z panelu informacyjnego Przestrzeni.",
+            "titleDescription": "Tytuł jest wizytówką Przestrzeni, dlatego powinien opisywać jej tematykę.",
+            "topicDescription": "Z racji tego, że Przestrzenie to czaty opierające się na omawianym temacie, zalecamy ustawienie dobrze dopasowanego tematu.",
+            "topicInputExplanation": "Opisuje tematykę Przestrzeni"
+        },
+        "startTypingToPick": "Zacznij wpisywać, aby wybrać adres",
+        "topicMax255Characters": "Max. 255 znaków",
+        "titleInputRequirements": "Max. 140 znaków, tytuł musi być unikalny",
+        "topicNeeds2Letters": "Temat nie jest wymagany. Min. 2 znaki",
+        "topicOptional": "Niewymagane. Opisuje tematykę",
+        "typeToFilter": "Wpisz coś, aby filtrować listę",
+        "typeWithNameAddParticipant": "Dodaj uczestników do",
+        "youCanInviteOther": "Możesz zaprosić jeszcze {{limit}} uczestników",
+        "nameRequired-max140Characters-avoidReusingNames": "Wymagane. Max. 140 znaków, unikaj powtarzania poprzednich nazw.",
+        "selectMoreParticipantsForInstantMeetings": "Wybierz uczestnika z listy lub wpisz adres e-mail aby dodać, aby dodać użytkowinka spoza twojej domeny"
+    },
+    "feedback": {
+        "appVersionCopied": "Wersja aplikacji została skopiowana",
+        "historyClearedSuccessfully": "Historia została wyczyszczona pomyślnie!",
+        "notificationsActivatedForThisChat": "Powiadomienia zostały włączone dla tego czatu",
+        "notificationsMutedForThisChat": "Powiadomienia zostały wyciszone dla tego czatu",
+        "online": "Wszystko już działa!",
+        "resetPersonalRoomLinkSuccess": "Link do Prywatnego Pokoju został zresetowany",
+        "offline": "Wygląda na to, że nastąpił problem przy łączeniu z serwerem",
+        "roomLinkCopied": "Link do Pokoju został skopiowany",
+        "tryAReconnectionIn": "Spróbuj połączyć się ponownie za {{seconds}}",
+        "retryConnection": "Połącz się ponownie",
+        "uploadConversationPicturesFailed": "Nie udało się dodać obrazu konwersacji"
+    },
+    "general": {
+        "goToTeam": "Idź do Zespołu",
+        "teamProductName": "Zespół",
+        "browserNotSupported": "Ta wersja twojej przeglądarki nie est przez nas wspierana. Wysoce zalecamy, aby zaktualizować przeglądarkę, aby móc korzystać ze wszystkich funkcji!"
+    },
+    "meeting": {
+        "defaultViewModeDedicatedLabel": "\"Tryb Dedykowany\" przekieruje cię do oddzielnej karty przeglądarki, aby umożliwić najlepsze doświadczenie Spotkania.",
+        "defaultViewModeDedicatedModeLabel": "Tryb Dedykowany",
+        "defaultViewModeDefaultModeLabel": "Tryb Domyślny",
+        "defaultViewModeSaveLabel": "Zapisz Opcję",
+        "defaultViewModeSecondaryDescriptionLabel": "Ta opcja zostanie zapisana w ustawieniach. Będzie można ją zmienić w każdym momencie.",
+        "defaultViewModeTitleModal": "Ustawienia środowiska Spotkania",
+        "interactions": {
+            "cinemaView": "Widok kinowy",
+            "closeCall": "Skończ tą rozmowę",
+            "disableAudio": "Wyłącz dźwięk",
+            "disableFullScreen": "Wyjdź z trybu pełnoekranowego",
+            "disableScreensharing": "Zakończ udostępnianie ekranu",
+            "disableVideo": "Wyłącz wideo",
+            "enableAudio": "Włącz dźwięk",
+            "enableFullScreen": "Tryb pełnoekranowy",
+            "enableScreenSharing": "Włącz udostępnianie ekranu",
+            "enableVideo": "Włącz wideo",
+            "gridView": "Widok siatki",
+            "hideChat": "Ukryj czat",
+            "hideParticipants": "Ukryj uczestników",
+            "muteUser": "Wycisz",
+            "muteUserForAllDescription": "Wyciszając tego użytkownika, żaden z uczestników go nie usłyszy. Tylko wyciszony użytkownik jest w stanie się odciszyć. Kontynuować?",
+            "muteUserForAllTitle": "Wycisz dla wszystkich",
+            "mutedByModerators": "Zostałeś wyciszony przez moderatora. Odcisz się, aby inni cię słyszeli",
+            "mutedByOthers": "Zostałeś wyciszony",
+            "pinVideo": "Przypnij wideo",
+            "shortCutLabel": "(C)",
+            "showChat": "Pokaż czat",
+            "showParticipants": "Pokaż uczestników",
+            "status": {
+                "cameraMicOff": "Twoje wideo i mikrofon są wyłączone",
+                "cameraOff": "Twoje wideo jest wyłączone"
+            },
+            "unpinVideo": "Odepnij wideo"
+        },
+        "resetMeetingUrlModalDescription": "Czy na pewno chcesz zresetować link dla \"{{conversationName}}\"?",
+        "startModal": {
+            "noVideoAndAudio": "Wiedo wyłączone, Mikrofon włączony",
+            "videoAndAudio": "Wideo włączone, Mikrofon włączony",
+            "videoAndNoAudio": "Wideo włączone, Mikrofon wyłączony",
+            "description": "W jaki sposób chcesz dołączyć do spotkania?",
+            "enter": "Dołącz",
+            "noVideoAndNoAudio": "Wideo wyłączone, Mikrofon wyłączony"
+        },
+        "attendeesComing": "Uczestnicy dołączają",
+        "defaultViewModeDefaultLabel": "Przy wyborze \"Trybu Domyślnego\", Spotkanie rozpocznie się w obecnym, wewnętrznym środowisku."
+    },
+    "message": {
+        "deletedMessage": "Wiadomość usunięta",
+        "edited": "edytowano",
+        "forwarded": "przekazano dalej",
+        "now": "Teraz",
+        "readBy": "Przeczytane przez",
+        "service": {
+            "conversationCreated": "Czat został stworzony",
+            "meeting": {
+                "ended": "Spotkanie zostało zakończone",
+                "startedAtTime": "Spotkanie rozpoczęło się o",
+                "endedAtTime": "Spotkanie zostało zakończone o"
+            },
+            "member": {
+                "changed": {
+                    "name": {
+                        "channel": "{{member_name}} zmienił(a) nazwę Kanału na {{name}}",
+                        "space": "{{member_name}} zmienił(a) nazwę Przestrzeni na {{name}}"
+                    },
+                    "picture": {
+                        "channel": "{{member_name}} zmienił(a) obraz Kanału",
+                        "group": "{{member_name}} zmienił(a) obraz Grupy",
+                        "space": "{{member_name}} zmienił(a) obraz Przestrzeni"
+                    },
+                    "topic": {
+                        "group": "{{member_name}} zmienił(a) temat Grupy na {{topic}}",
+                        "space": "{{member_name}} zmienił(a) temat Przestrzeni na {{topic}}",
+                        "channel": "{{member_name}} zmienił(a) temat Kanału na {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "{{member_name}} stworzył(a) kanał",
+                    "group": "{{member_name}} stworzył(a) Grupę",
+                    "single": "{{member_name}} stworzył(a) Czat",
+                    "space": "{{member_name}} stworzył(a) Przestrzeń"
+                },
+                "deleted": {
+                    "channel": "{{member_name}} usunął/ęła Kanał",
+                    "instantMeeting": "{{member_name}} usunął/ęła Natychmiastowe Spotkanie",
+                    "space": "{{member_name}} usunął/ęła Przestrzeń"
+                },
+                "invited": "{{member_name}} dostał(a) zaproszenie od {{invited_by}}",
+                "join": {
+                    "channel": "{{member_name}} dołączył(a) do Kanału",
+                    "conversation": "{{member_name}} dołączył(a) do Czatu"
+                },
+                "kicked": {
+                    "channel": "{{member_name}} został(a) usunięty/ta z Kanału przez {{kicked_by}}",
+                    "group": "{{member_name}} został(a) usunięty/ta z Grupy przez {{kicked_by}}",
+                    "space": "{{member_name}} został(a) usunięty/ta z Przestrzeni przez {{kicked_by}}"
+                },
+                "left": {
+                    "channel": "{{member_name}} opuścił(a) Kanał",
+                    "group": "{{member_name}} opuścił(a) Grupę",
+                    "space": "{{member_name}} opuścił(a) Przestrzeń"
+                },
+                "you": {
+                    "kicked": {
+                        "channel": "Usunąłeś/łaś {{member_name}} z Kanału",
+                        "group": "Usunąłęś/łaś {{member_name}} z Grupy",
+                        "space": "Usunąłeś/łaś {{member_name}} z Przestrzeni"
+                    },
+                    "invited": "Zaprosiłeś/aś {{member_name}}"
+                }
+            },
+            "newMeeting": "Nadchodząca rozmowa od:",
+            "notificationsActivatedForThisChat": "Powiadomienia zostały włączone dla tego czatu",
+            "notificationsMutedForThisChat": "Powiadomienia zostały wyciszone dla tego czatu",
+            "you": {
+                "changed": {
+                    "name": {
+                        "channel": "Zmieniłeś/łaś nazwę Kanału na {{name}}",
+                        "space": "Zmieniłeś/łaś nazwę Przestrzeni na {{name}}"
+                    },
+                    "picture": {
+                        "channel": "Zmieniłeś/łaś obraz Kanału",
+                        "group": "Zmieniłeś/łaś obraz Grupy",
+                        "space": "Zmieniłeś/łaś nazwę Przestrzeni"
+                    },
+                    "topic": {
+                        "channel": "Zmieniłeś/łaś temat Kanału na {{topic}}",
+                        "group": "Zmieniłeś/łaś temat Grupy na {{topic}}",
+                        "space": "Zmieniłeś/łaś temat Przestrzeni na {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "Stworzyłeś/łaś Kanał",
+                    "group": "Stworzyłeś/łaś Grupę",
+                    "single": "Stworzyłeś/łaś Czat",
+                    "space": "Stworzyłeś/łaś Przestrzeń"
+                },
+                "deleted": {
+                    "channel": "Usunąłeś/łaś Kanał",
+                    "instantMeeting": "Usunąłeś/łaś Natychmiastowe Spotkanie",
+                    "space": "Usunąłeś/łaś Przestrzeń"
+                },
+                "join": {
+                    "channel": "Dołączyłeś/łaś do Kanału",
+                    "group": "Dołączyłeś/łaś do Grupy",
+                    "instantMeeting": "Dołączyłeś/łaś do Natychmiastowego Spotkania",
+                    "space": "Dołączyłeś/łaś do Przestrzeni",
+                    "userRoom": "Dołączyłeś/łaś do Pokoju"
+                },
+                "invited": "Zostałeś/łaś zaproszony/a przez {{invited_by}}",
+                "left": {
+                    "channel": "Opuściłeś/łaś Kanał",
+                    "group": "Opuściłeś/łaś Grupę",
+                    "space": "Opuściłeś/łaś Przestrzeń"
+                },
+                "kicked": {
+                    "channel": "Zostałeś/łaś usunięty/a z Kanału przez {{kicked_by}}",
+                    "group": "Zostałeś/łaś usunięty/a z Grupy przez {{kicked_by}}",
+                    "space": "Zostałeś/łaś usunięty/a z Przestrzeni przez {{kicked_by}}"
+                }
+            }
+        },
+        "yesterday": "Wczoraj"
+    },
+    "modal": {
+        "addModeratorDescription": "Wybierz jednego lub więcej użytkoników, aby awansować ich na moderatorów tego Pokoju",
+        "news": "Nowości",
+        "clearHistoryDescription": "Ta konwersacja jest pusta, więc została przeniesiona na dół listy, aby wyeksponować aktywne konwersacje.",
+        "confirm": {
+            "areYouSure": "Na pewno?",
+            "deleteSpace": "Czy na pewno chcesz usunąć tą Przestrzeń?",
+            "leaveAndDeleteConversation": "Czy na pewno chcesz wyjść i usunąć {{conversationName}}?",
+            "leaveChannel": "Czy na pewno chcesz wyjść z Kanału?",
+            "clearHistory": "Historia twojego czatu zostanie trwale usunięta. Historie innych uczestników nie zostaną usunięte. Tej akcji nie da się cofnąć.",
+            "deleteChannel": "Czy na pewno chcesz usunąć ten Kanał?",
+            "deleteRoom": "Czy na pewno chcesz usunąć ten Pokój?",
+            "leaveGroup": "Czy na pewno chcesz wyjść z Grupy?",
+            "leaveSpace": "Czy na pewno chcesz wyjść z Przestrzeni?",
+            "removeMember": "Czy na pewno chcesz usunąć tego użytkownika?"
+        },
+        "deleteMessageDescription": "Kiedy usuwasz wiadomość, staje się ona niewidoczna dla ciebie i innych odbiorców",
+        "forwardModal": {
+            "spaceAndChannels": "Przestrzeń i Kanały",
+            "typeToFilterTheList": "Wpisz coś, aby filtrować listę",
+            "forwardedMessageFrom": "Wiadomość przekazana od",
+            "selectOneOrMoreConversations": "Wybierz jedną lub więcej konwersacji"
+        },
+        "instantMeeting": {
+            "closedInstantMeeting": "Natychmiastowe Spotkanie zostało zamknięte",
+            "continue": "Kontynuuj używając starego Natychmiastowego Spotkania",
+            "create": "Stwórz nowe Natychmiastowe Spotkanie",
+            "instantMeetingAlreadyRunningText": "Stworzenie nowego nadpisze starsze spotkanie, uczestnicy się wtedy rozłączą, co chcesz zrobić?",
+            "endCallByOwner": "Organizator tego Natychmiastowego Spotkania zdecydował zakończyć tą rozmowę. Mamy nadzieję, że ta rozmowa była dla ciebie pozytywnym doświadczeniem",
+            "instantMeetingAlreadyRunningTitle": "Natychmiastowe Spotkanie już się rozpoczęło"
+        },
+        "showPreviousConversationHistory": "Pokaż poprzednią historię konwersacji",
+        "moderatorCannotLeaveGroupDescription": "Jesteś jedynym moderatorem {{conversationName}}, musisz awansować kogoś nowego na moderatora, aby móc opuścić Grupę.",
+        "moderatorCannotLeaveGroupTitle": "Poczekaj chwilkę, potrzebny jest nowy moderator",
+        "notShowAgain": "Nie pokazuj tego ponownie",
+        "planMeetingDescription": "Nazwa Pokoju pomaga uczestnikom poznać tematykę dyskusji w Pokoju.",
+        "roomsFunctionalitiesChangelogDescription": "Dokonaliśmy ważnych zmian dot. funkcjonalności spotkań. Przeczytaj \"wprowadzenie do Pokojów\", aby dowiedzieć się więcej!",
+        "teamNews": "Nowości w Zespole",
+        "userJoinedWaitingRoom": "Wygląda na to, że ktoś znajduje się w Poczekalni"
+    },
+    "notification": {
+        "answer": "Odpowiedz",
+        "incomingCall": "Nadchodząca rozmowa od:",
+        "dismiss": "Ignoruj",
+        "invitationToPersonalRoom": "Zaproszenie do Prywatnego Pokoju od:",
+        "waiting": {
+            "descriptionAcceptedLabel": "Zostałeś/łaś zaakceptowany/a przez moderatora konwersacji {{conversationName}}",
+            "notificationAcceptedByModerator": "Zostałeś/łaś zaakceptowany/a przez moderatora",
+            "descriptionWaitingLabel": "Czekasz na bycie zaakceptowanym przez moderatora konwersacji {{conversationName}}",
+            "notificationJoinTheRoom": "Dołącz do Pokoju, aby wziąć udział w spotkaniu",
+            "userIsWaiting": "Nowy użytkownik czeka na wpuszczenie",
+            "userJoinedWaitingRoom": "Wygląda na to, że ktoś znajduje się w Poczekalni"
+        }
+    },
+    "people": {
+        "manyMembers": "{{membersCount}} członków",
+        "me": "Ja",
+        "oneParticipant": "Jeden uczestnik",
+        "otherParticipants": "{{numberParticipants}} innych uczestników",
+        "participants": "Uczestnicy",
+        "whoYoureLookinkFor": "Kogo szukasz?",
+        "you": "Ty"
+    },
+    "settings": {
+        "meeting": {
+            "enableCamera": "Włącz wideo",
+            "personalRoomOptionsTitleModal": "Resetowanie linku do Prywatnego Pokoju",
+            "personalRoomResetButton": "Zresetuj link do Prywatnego Pokoju",
+            "personalRoomResetDescription": "Resetując link do Prywatnego Pokoju, wszystkie uprzednio udzielone dostępy przestaną działać.",
+            "meetings": "Spotkania",
+            "description": "Ustaw swoje preferencje dźwięku oraz wideo, aby dołączyć do spotkania. Zawsze możesz zmienić swoje preferencje przed dołączeniem do każdego spotkania.",
+            "enableMicrophone": "Włącz mikrofon"
+        },
+        "modal": {
+            "title": "Ustawienia Czatów",
+            "description": "Tutaj możesz dostosować wszystkie preferencje dot. Czatów, aby cieszyć się jak najlepszym doświadczeniem w pełni dostosowanego czatu!"
+        },
+        "notification": {
+            "desktop": "Powiadomienia na pulpicie",
+            "openMinichatDescription": "Dostosuj otwieranie miniczatów",
+            "title": {
+                "notifications": "Powiadomienia",
+                "openMinichat": "Otwórz kiedy przyjdzie nowa wiadomość",
+                "openMinichatForSingle": "Otwórz kiedy przyjdzie nowa pojedyncza wiadomość",
+                "openMinichatForSpace": "Otwórz kiedy przyjdzie nowa wiadomość w Przestrzeni",
+                "openMinichatForGroup": "Otwórz kiedy przyjdzie nowa wiadomość w Grupie"
+            }
+        },
+        "notifications": {
+            "description": "Dostosuj swoje preferencje dla każdego rodzaju powiadomień w Czatach."
+        },
+        "profile": {
+            "chooseAProfilePic": "Wybierz zdjęcie profilowe. Zdjęcie zostanie automatycznie wycentrowane.",
+            "errorGenericResponse": "Coś poszło nie tak, spróbuj ponownie",
+            "maximumDimension": "Max. rozmiar: 256kb.",
+            "reset": "Zresetuj",
+            "restore": "Odzyskaj",
+            "statusOptionalDescription": "Opcjonalny. Powiedz innym o czym teraz myślisz. Max. 256 znaków",
+            "title": "Profil",
+            "update": "Zaktualizuj"
+        },
+        "resetPersonalRoomLinkSuccess": "Link do Prywatnego Pokoju został zresetowany",
+        "title": "Ustawienia"
+    },
+    "status": {
+        "areWriting": "piszą…",
+        "externalGuest": "Gość spoza mojej domeny",
+        "internalGuest": "Gość z mojej domeny",
+        "isWriting": "pisze…",
+        "lastSeen": "Ostatnio widziany {{lastSeen}}",
+        "offline": "Offline",
+        "online": "Online",
+        "userStatus": "Status",
+        "waitingToEnter": "Czeka na wpuszczenie"
+    },
+    "tooltip": {
+        "acceptQueuedMember": "Wpuść użytkownika",
+        "addFile": "Dodaj plik",
+        "cancelFilter": "Usuń filtr",
+        "chooseFile": "Wybierz plik",
+        "close": "Zamknij",
+        "closeSearch": "Zamknij wyszukiwanie",
+        "collapseChannel": "Zwiń Kanały",
+        "copyRoomLink": "Skopiuj ten link, aby udostępnić Pokój",
+        "copyUserRoom": "Skopiuj link do Prywatnego Pokoju",
+        "copyRoomLinkTooltip": "Skopiuj ten link, aby udostępnić Pokój",
+        "copyUserRoomTooltip": "Skopiuj ten link i udostępnij go, aby dać innym dostęp do swojego Prywatnego Pokoju",
+        "downgradeModerator": "Zdegraduj Moderatora",
+        "editDescription": "Edytuj opis",
+        "editInfo": "Edytuj informacje",
+        "inviteToPersonalRoom": "Zaproś do swojego Prywatnego Pokoju",
+        "enterMeetingRoom": "Dołącz do Pokoju",
+        "errorRemovingAvatarPicture": "Coś poszło nie tak przy usuwaniu awatara. Spróbuj ponownie",
+        "errorUpdatingAvatarStatus": "Coś poszło nie tak przy ustawianiu statusu. Spróbuj ponownie",
+        "errorUploadingAvatarPicture": "Coś poszło nie tak podczas dodawania nowego awatara. Spróbuj ponownie",
+        "enterYourRoom": "Dołącz do swojego Prywatnego Pokoju",
+        "enterYourRoomTooltip": "Dołącz do swojego Prywatnego Pokoju",
+        "goToPrivateChat": "Idź do prywatnego czatu",
+        "messageComposer": "Wprowadzanie tekstu wiadomości",
+        "openMinichat": "Otwórz Miniczat",
+        "planMeeting": "Zaplanuj Spotkanie",
+        "promoteModerator": "Awansuj na Moderatora",
+        "rejectQueuedMember": "Odrzuć użytkownika",
+        "removeFile": "Usuń plik",
+        "searchForParticipant": "Szukaj uczestnika",
+        "selectEmoji": "Wybierz emoji",
+        "sendFile": "Wyślij plik",
+        "sendMessage": "Wyślij wiadomość",
+        "showChannels": "Pokaż Kanały",
+        "switchToConversation": "Przełącz na konwersację",
+        "switchToInfoPanel": "Przełącz na panel informacyjny",
+        "removeMember": "Usuń członka"
     }
 }
