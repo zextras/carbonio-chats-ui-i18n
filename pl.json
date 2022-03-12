@@ -454,7 +454,7 @@
             "errorGenericResponse": "Coś poszło nie tak, spróbuj ponownie",
             "maximumDimension": "Max. rozmiar: 256kb.",
             "reset": "Zresetuj",
-            "restore": "Odzyskaj",
+            "restore": "Przywróć",
             "statusOptionalDescription": "Opcjonalny. Powiedz innym o czym teraz myślisz. Max. 256 znaków",
             "title": "Profil",
             "update": "Zaktualizuj"
