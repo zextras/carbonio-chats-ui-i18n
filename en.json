@@ -237,6 +237,10 @@
         "errorMeetingRecording": "It is not possible to start the registration, please contact your system administrator.",
         "genericErrorMeeting": "There seems to be a problem with this meeting, contact your system administrator.",
         "interactions": {
+            "audioDisabled": "Audio disabled",
+            "audioEnabled": "Audio enabled",
+            "cameraDisabled": "Camera disabled",
+            "cameraEnabled": "Camera enabled",
             "cinemaView": "Cinema View",
             "closeCall": "Close this call",
             "disableAudio": "Disable Audio",
@@ -256,6 +260,7 @@
             "mutedByModerators": "You've been muted by a moderator, unmute yourself to speak",
             "mutedByOthers": "You have been muted",
             "pinVideo": "Pin video",
+            "playMyVoice": "Play my voice",
             "shortCutLabel": "(C)",
             "showChat": "Show Chat",
             "showParticipants": "Show Participants",
@@ -263,6 +268,7 @@
                 "cameraMicOff": "Your camera and microphone are off",
                 "cameraOff": "Your camera is off"
             },
+            "stopMyVoice": "Stop my voice",
             "unpinVideo": "Unpin video"
         },
         "recordedByMe": "You have started recording",
