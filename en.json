@@ -436,6 +436,7 @@
         },
         "moderatorCannotLeaveGroupDescription": "You're the only moderator of {{conversationName}}, please promote someone else before leaving the Group.",
         "moderatorCannotLeaveGroupTitle": "Wait, a new moderator is needed",
+        "moderatorMeetingDescription": "You will moderate this room. The additional moderator will be added as collaborators with the same privileges.",
         "news": "News",
         "notShowAgain": "Do not show this again",
         "planMeetingDescription": "Room's name helps the attendees to know the Room's matter of discussion.",
