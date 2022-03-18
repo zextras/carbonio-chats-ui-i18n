@@ -40,7 +40,7 @@
         "leaveSpace": "Opuść Przestrzeń",
         "muteNotifications": "Wycisz powiadomienia",
         "openInChats": "Otwórz w Czatach",
-        "openInTeam": "Otwórz w Zespole",
+        "openInTeam": "Otwórz w Team",
         "plan": "Zaplanuj",
         "planMeeting": "Zaplanuj Spotkanie",
         "remove": "Usuń",
@@ -141,7 +141,7 @@
                 }
             },
             "titleDescription": "Nadaj Natyczmiastowemu Spotkaniu wyróżniający się tytuł, aby uczestnicy znali cel spotkania.",
-            "description": "Natychmiastowe Spotkania to rozmowy wideo, które są stworzone by być szybkie i krótkie. Po zakończeniu rozmowy, jej czat przestanie istnieć, jego zawartość zostanie trwale wymazana. Natychmiastowe Spotkania mogą być tworzone przez użytkowników Zespołu Pro. Do rozmów mogą również dołączać użytkownicy spoza domeny."
+            "description": "Natychmiastowe Spotkania to rozmowy wideo, które są stworzone by być szybkie i krótkie. Po zakończeniu rozmowy, jej czat przestanie istnieć, jego zawartość zostanie trwale wymazana. Natychmiastowe Spotkania mogą być tworzone przez użytkowników Team Pro. Do rozmów mogą również dołączać użytkownicy spoza domeny."
         },
         "limitOfParticipantReached": "Osiągnięto limit uczestników ustawiony przez administratora",
         "nameMax140Characters": "Max. 140 znaków",
@@ -188,8 +188,8 @@
         "uploadConversationPicturesFailed": "Nie udało się dodać obrazu konwersacji"
     },
     "general": {
-        "goToTeam": "Idź do Zespołu",
-        "teamProductName": "Zespół",
+        "goToTeam": "Idź do Team",
+        "teamProductName": "Team",
         "browserNotSupported": "Ta wersja twojej przeglądarki nie est przez nas wspierana. Wysoce zalecamy, aby zaktualizować przeglądarkę, aby móc korzystać ze wszystkich funkcji!"
     },
     "meeting": {
@@ -395,7 +395,7 @@
         "notShowAgain": "Nie pokazuj tego ponownie",
         "planMeetingDescription": "Nazwa Pokoju pomaga uczestnikom poznać tematykę dyskusji w Pokoju.",
         "roomsFunctionalitiesChangelogDescription": "Dokonaliśmy ważnych zmian dot. funkcjonalności spotkań. Przeczytaj \"wprowadzenie do Pokojów\", aby dowiedzieć się więcej!",
-        "teamNews": "Nowości w Zespole",
+        "teamNews": "Nowości w Team",
         "userJoinedWaitingRoom": "Wygląda na to, że ktoś znajduje się w Poczekalni"
     },
     "notification": {
