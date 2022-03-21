@@ -133,7 +133,7 @@
         "instantMeeting": {
             "addAttendees": "Dodaj uczestników do swojego Natychmiastowego Spotkania",
             "addAttendeesDescription": "Zaprość uczestników wpisując ich imiona lub adresy e-mail tutaj.",
-            "addAttendeesInputExplanation": "Możesz również zaprosić użytkowników spoza swojej domeny wpisując ich adres e-mail.",
+            "addAttendeesInputExplanation": "Możesz również zaprosić użytkowników spoza swojej organizacji wpisując ich adres e-mail.",
             "attendee": {
                 "feedback": {
                     "negative": "Wpisany adres e-mail jest nieprawidłowy, prosimy o wpisanie prawidłowego",
@@ -141,7 +141,7 @@
                 }
             },
             "titleDescription": "Nadaj Natyczmiastowemu Spotkaniu wyróżniający się tytuł, aby uczestnicy znali cel spotkania.",
-            "description": "Natychmiastowe Spotkania to rozmowy wideo, które są stworzone by być szybkie i krótkie. Po zakończeniu rozmowy, jej czat przestanie istnieć, jego zawartość zostanie trwale wymazana. Natychmiastowe Spotkania mogą być tworzone przez użytkowników Team Pro. Do rozmów mogą również dołączać użytkownicy spoza domeny."
+            "description": "Natychmiastowe Spotkania to rozmowy wideo, które są stworzone by być szybkie i krótkie. Po zakończeniu rozmowy, jej czat przestanie istnieć, jego zawartość zostanie trwale wymazana. Natychmiastowe Spotkania mogą być tworzone przez użytkowników Team Pro. Do rozmów mogą również dołączać użytkownicy spoza twojej organizacji."
         },
         "limitOfParticipantReached": "Osiągnięto limit uczestników ustawiony przez administratora",
         "nameMax140Characters": "Max. 140 znaków",
@@ -172,7 +172,7 @@
         "typeWithNameAddParticipant": "Dodaj uczestników do",
         "youCanInviteOther": "Możesz zaprosić jeszcze {{limit}} uczestników",
         "nameRequired-max140Characters-avoidReusingNames": "Wymagane. Max. 140 znaków, unikaj powtarzania poprzednich nazw.",
-        "selectMoreParticipantsForInstantMeetings": "Wybierz uczestnika z listy lub wpisz adres e-mail aby dodać, aby dodać użytkowinka spoza twojej domeny"
+        "selectMoreParticipantsForInstantMeetings": "Wybierz uczestnika z listy lub wpisz adres e-mail aby dodać, użytkowinka spoza swojej organizacji (domeny)"
     },
     "feedback": {
         "appVersionCopied": "Wersja aplikacji została skopiowana",
@@ -464,8 +464,8 @@
     },
     "status": {
         "areWriting": "piszą…",
-        "externalGuest": "Gość spoza mojej domeny",
-        "internalGuest": "Gość z mojej domeny",
+        "externalGuest": "Gość spoza mojej organizacji",
+        "internalGuest": "Gość z mojej organizacji",
         "isWriting": "pisze…",
         "lastSeen": "Ostatnio widziany {{lastSeen}}",
         "offline": "Offline",
