@@ -111,7 +111,7 @@
         "defaultViewModeTitleModal": "Параметры",
         "defaultViewModeDedicatedLabel": "«Выделенный режим» перенаправит вас на отдельную вкладку вашего браузера.",
         "defaultViewModeDefaultLabel": "При выборе «Режим по умолчанию» собрание начнется в текущем браузере.",
-        "resetMeetingUrlModalDescription": "Вы уверены, что хотите сбросить ссылку для запланированной встречи\"{{conversationName}}\"?"
+        "resetMeetingUrlModalDescription": "Вы уверены, что хотите удалить ссылку для запланированной встречи\"{{conversationName}}\"?"
     },
     "tooltip": {
         "switchToInfoPanel": "Перейти в панель информации",
@@ -197,7 +197,7 @@
         "reply": "Ответить",
         "replyToSomeone": "Ответить",
         "replyToYourself": "Ответить",
-        "resetLink": "Сбросить ссылку",
+        "resetLink": "Удалить ссылку",
         "scrollToNewMessage": "Прокрутите до нового сообщения",
         "scrollToTheBottom": "Прокрутите вниз",
         "startMeeting": "Начать Встречу",
@@ -462,7 +462,7 @@
             "enableMicrophone": "Включить микрофон",
             "meetings": "Встречи",
             "personalRoomOptionsTitleModal": "Сброс ссылки Конференц-зала",
-            "personalRoomResetButton": "Сбросить ссылку Конференц-зала",
+            "personalRoomResetButton": "Удалить ссылку Конференц-зала",
             "personalRoomResetDescription": "При сбросе ссылки на персональный зал все ранее предоставленные доступы будут отменены.",
             "description": "Настройте параметры звука и видео. Вы всегда можете изменить настройки перед входом на любую встречу."
         },
@@ -479,7 +479,7 @@
         },
         "profile": {
             "errorGenericResponse": "Что-то пошло не так. Пожалуйста повторите",
-            "reset": "Сбросить",
+            "reset": "Удалить",
             "restore": "Восстановление",
             "statusOptionalDescription": "Опция. Максимальное количество 256 знаков",
             "title": "Профиль",
