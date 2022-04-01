@@ -337,7 +337,7 @@
         "roomLink": "Link della Stanza",
         "fileUploadDescription": "Descrizione file",
         "roomInfo": "Informazioni Stanza",
-        "speakersCorner": "Relatore"
+        "speakersCorner": "Utenti nella Stanza Riunione"
     },
     "feedback": {
         "historyClearedSuccessfully": "Cronologia eliminata con successo!",
