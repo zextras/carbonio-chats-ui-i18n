@@ -277,9 +277,9 @@
                     "space": "{{member_name}} stworzył(a) Przestrzeń"
                 },
                 "deleted": {
-                    "channel": "{{member_name}} usunął/ęła Kanał",
-                    "instantMeeting": "{{member_name}} usunął/ęła Natychmiastowe Spotkanie",
-                    "space": "{{member_name}} usunął/ęła Przestrzeń"
+                    "channel": "{{member_name}} usunął Kanał",
+                    "instantMeeting": "{{member_name}} usunął Natychmiastowe Spotkanie",
+                    "space": "{{member_name}} usunął Przestrzeń"
                 },
                 "invited": "{{member_name}} dostał(a) zaproszenie od {{invited_by}}",
                 "join": {
@@ -287,9 +287,9 @@
                     "conversation": "{{member_name}} dołączył(a) do Czatu"
                 },
                 "kicked": {
-                    "channel": "{{member_name}} został(a) usunięty/ta z Kanału przez {{kicked_by}}",
-                    "group": "{{member_name}} został(a) usunięty/ta z Grupy przez {{kicked_by}}",
-                    "space": "{{member_name}} został(a) usunięty/ta z Przestrzeni przez {{kicked_by}}"
+                    "channel": "{{member_name}} został usunięty z Kanału przez {{kicked_by}}",
+                    "group": "{{member_name}} został usunięty z Grupy przez {{kicked_by}}",
+                    "space": "{{member_name}} został usunięty z Przestrzeni przez {{kicked_by}}"
                 },
                 "left": {
                     "channel": "{{member_name}} opuścił(a) Kanał",
@@ -298,11 +298,11 @@
                 },
                 "you": {
                     "kicked": {
-                        "channel": "Usunąłeś/łaś {{member_name}} z Kanału",
-                        "group": "Usunąłęś/łaś {{member_name}} z Grupy",
-                        "space": "Usunąłeś/łaś {{member_name}} z Przestrzeni"
+                        "channel": "Usunąłeś {{member_name}} z Kanału",
+                        "group": "Usunąłęś {{member_name}} z Grupy",
+                        "space": "Usunąłeś {{member_name}} z Przestrzeni"
                     },
-                    "invited": "Zaprosiłeś/aś {{member_name}}"
+                    "invited": "Zaprosiłeś {{member_name}}"
                 }
             },
             "newMeeting": "Nadchodząca rozmowa od:",
@@ -311,48 +311,48 @@
             "you": {
                 "changed": {
                     "name": {
-                        "channel": "Zmieniłeś/łaś nazwę Kanału na {{name}}",
-                        "space": "Zmieniłeś/łaś nazwę Przestrzeni na {{name}}"
+                        "channel": "Zmieniłeś nazwę Kanału na {{name}}",
+                        "space": "Zmieniłeś nazwę Przestrzeni na {{name}}"
                     },
                     "picture": {
-                        "channel": "Zmieniłeś/łaś obraz Kanału",
-                        "group": "Zmieniłeś/łaś obraz Grupy",
-                        "space": "Zmieniłeś/łaś nazwę Przestrzeni"
+                        "channel": "Zmieniłeś obraz Kanału",
+                        "group": "Zmieniłeś obraz Grupy",
+                        "space": "Zmieniłeś nazwę Przestrzeni"
                     },
                     "topic": {
-                        "channel": "Zmieniłeś/łaś temat Kanału na {{topic}}",
-                        "group": "Zmieniłeś/łaś temat Grupy na {{topic}}",
-                        "space": "Zmieniłeś/łaś temat Przestrzeni na {{topic}}"
+                        "channel": "Zmieniłeś temat Kanału na {{topic}}",
+                        "group": "Zmieniłeś temat Grupy na {{topic}}",
+                        "space": "Zmieniłeś temat Przestrzeni na {{topic}}"
                     }
                 },
                 "created": {
-                    "channel": "Stworzyłeś/łaś Kanał",
-                    "group": "Stworzyłeś/łaś Grupę",
-                    "single": "Stworzyłeś/łaś Czat",
-                    "space": "Stworzyłeś/łaś Przestrzeń"
+                    "channel": "Stworzyłeś Kanał",
+                    "group": "Stworzyłeś Grupę",
+                    "single": "Stworzyłeś Czat",
+                    "space": "Stworzyłeś Przestrzeń"
                 },
                 "deleted": {
-                    "channel": "Usunąłeś/łaś Kanał",
-                    "instantMeeting": "Usunąłeś/łaś Natychmiastowe Spotkanie",
-                    "space": "Usunąłeś/łaś Przestrzeń"
+                    "channel": "Usunąłeś Kanał",
+                    "instantMeeting": "Usunąłeś Natychmiastowe Spotkanie",
+                    "space": "Usunąłeś Przestrzeń"
                 },
                 "join": {
-                    "channel": "Dołączyłeś/łaś do Kanału",
-                    "group": "Dołączyłeś/łaś do Grupy",
-                    "instantMeeting": "Dołączyłeś/łaś do Natychmiastowego Spotkania",
-                    "space": "Dołączyłeś/łaś do Przestrzeni",
-                    "userRoom": "Dołączyłeś/łaś do Pokoju"
+                    "channel": "Dołączyłeś do Kanału",
+                    "group": "Dołączyłeś do Grupy",
+                    "instantMeeting": "Dołączyłeś do Natychmiastowego Spotkania",
+                    "space": "Dołączyłeś do Przestrzeni",
+                    "userRoom": "Dołączyłeś do Pokoju"
                 },
-                "invited": "Zostałeś/łaś zaproszony/a przez {{invited_by}}",
+                "invited": "Zostałeś zaproszony przez {{invited_by}}",
                 "left": {
-                    "channel": "Opuściłeś/łaś Kanał",
-                    "group": "Opuściłeś/łaś Grupę",
-                    "space": "Opuściłeś/łaś Przestrzeń"
+                    "channel": "Opuściłeś Kanał",
+                    "group": "Opuściłeś Grupę",
+                    "space": "Opuściłeś Przestrzeń"
                 },
                 "kicked": {
-                    "channel": "Zostałeś/łaś usunięty/a z Kanału przez {{kicked_by}}",
-                    "group": "Zostałeś/łaś usunięty/a z Grupy przez {{kicked_by}}",
-                    "space": "Zostałeś/łaś usunięty/a z Przestrzeni przez {{kicked_by}}"
+                    "channel": "Zostałeś usunięty z Kanału przez {{kicked_by}}",
+                    "group": "Zostałeś usunięty z Grupy przez {{kicked_by}}",
+                    "space": "Zostałeś usunięty z Przestrzeni przez {{kicked_by}}"
                 }
             }
         },
@@ -404,8 +404,8 @@
         "dismiss": "Ignoruj",
         "invitationToPersonalRoom": "Zaproszenie do Prywatnego Pokoju od:",
         "waiting": {
-            "descriptionAcceptedLabel": "Zostałeś/łaś zaakceptowany/a przez moderatora konwersacji {{conversationName}}",
-            "notificationAcceptedByModerator": "Zostałeś/łaś zaakceptowany/a przez moderatora",
+            "descriptionAcceptedLabel": "Zostałeś zaakceptowany przez moderatora konwersacji {{conversationName}}",
+            "notificationAcceptedByModerator": "Zostałeś zaakceptowany przez moderatora",
             "descriptionWaitingLabel": "Czekasz na bycie zaakceptowanym przez moderatora konwersacji {{conversationName}}",
             "notificationJoinTheRoom": "Dołącz do Pokoju, aby wziąć udział w spotkaniu",
             "userIsWaiting": "Nowy użytkownik czeka na wpuszczenie",
