@@ -190,7 +190,7 @@
         "oneParticipant": "ผู้เข้าร่วมหนึ่งคน",
         "otherParticipants": "ผู้เข้าร่วม {{numberParticipants}} คนอื่น ๆ",
         "you": "คุณ",
-        "whoYoureLookinkFor": "คุณกำลังมองหาใคร?"
+        "whoYoureLookinkFor": "คุณกำลังมองหาใครอยู่?"
     },
     "action": {
         "activateNotifications": "เปิดใช้งานการแจ้งเตือน",
@@ -269,7 +269,7 @@
         "newMessages": "ข้อความใหม่",
         "roomLinkDescription": "คัดลอกลิงก์นี้และแชร์เพื่อให้ผู้อื่นเข้าถึงห้องนี้ได้",
         "spaceInfo": "ข้อมูลห้องประชุม",
-        "speakersCorner": "มุมพูดคุย",
+        "speakersCorner": "ผู้ใช้ในห้องประชุม",
         "title": "หัวข้อ",
         "topic": "หัวข้อ",
         "roomLink": "ลิงก์ของห้อง",
