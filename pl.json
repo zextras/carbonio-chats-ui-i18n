@@ -103,7 +103,7 @@
         "personalRoom": "Prywatny Pokój",
         "noFilteredSpaces": "Nie ma żadnych Przestrzeni pasujących do tego filtra.",
         "scheduledMeetings": "Zaplanowane Spotkania",
-        "spaceGeneralChannel": "Ogólny",
+        "spaceGeneralChannel": "Ogólne",
         "spaces": "Przestrzenie",
         "waitingRoom": "Poczekalnia",
         "yourRoom": "Twój Pokój"
@@ -467,7 +467,7 @@
         "externalGuest": "Gość spoza mojej organizacji",
         "internalGuest": "Gość z mojej organizacji",
         "isWriting": "pisze…",
-        "lastSeen": "Ostatnio widziany {{lastSeen}}",
+        "lastSeen": "Ostatnio widziano {{lastSeen}}",
         "offline": "Offline",
         "online": "Online",
         "userStatus": "Status",
