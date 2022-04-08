@@ -153,7 +153,7 @@
         "roomInfo": "ルームの情報",
         "roomLink": "ルームのリンク",
         "roomName": "ルームの名前",
-        "speakersCorner": "スピーカーズコーナー"
+        "speakersCorner": "会議室のユーザー"
     },
     "creation": {
         "attendeeAdded": "参加者がリストに追加されました",
@@ -426,7 +426,7 @@
             "continue": "古いインスタント会議で続行する",
             "create": "新しいインスタント会議を作成する",
             "endCallByOwner": "インスタントミーティングの所有者が通話を終了することにしました。インスタントミーティングをお楽しみいただけたことを願います。",
-            "instantMeetingAlreadyRunningTitle": "既にインスタント会議が行われています。",
+            "instantMeetingAlreadyRunningTitle": "既にインスタント会議が行われています",
             "instantMeetingAlreadyRunningText": "新しい内容を作成すると古い内容が上書きされて、参加者は接続を失います。続行しますか？"
         },
         "moderatorCannotLeaveGroupDescription": "{{conversationName}}の唯一のモデレーターです。グループを離れる前に、他の誰かを推薦してください。",
