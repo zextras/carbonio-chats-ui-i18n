@@ -21,6 +21,7 @@
         "createChat": "Create Chat",
         "createGroup": "Create Group",
         "createInstantMeeting": "Create Instant Meeting",
+        "createRoom": "Create Room",
         "createSpace": "Create Space",
         "delete": "Delete",
         "deleteChannel": "Delete Channel",
@@ -53,7 +54,9 @@
         "resetLink": "Reset link",
         "scrollToNewMessage": "Scroll to new message",
         "scrollToTheBottom": "Scroll to the bottom",
+        "start": "Start",
         "startMeeting": "Start Meeting",
+        "stop": "Stop",
         "waitingModeratorToJoin": "You’re waiting to be accepted by a moderator"
     },
     "appVersion": "App version",
@@ -174,9 +177,36 @@
         "typeWithNameAddParticipant": "Add participants to",
         "youCanInviteOther": "You can invite other {{limit}} participants"
     },
+    "enterTheRoom": "Enter The Room",
+    "errorPage": {
+        "description": "Check your link, it might be a wrong one",
+        "errorCode": "error code 404",
+        "title": "Sorry, we couldn’t find that Room"
+    },
+    "external": {
+        "login": {
+            "externalLoginDescription": "If you already belong to this domain, you will be redirected to your usual workspace. If you're an external user you will be redirected to a dedicated interface."
+        },
+        "nobodyInTheRoom": "It seems nobody is in this Room",
+        "roomIsEmpty": "This Room is empty",
+        "unsupported": {
+            "browser": "Unsupported browser",
+            "device": "Unsupported device"
+        },
+        "waitingRoom": {
+            "accessDenied": "Access denied",
+            "moderatorRefusedAccessToRoom": "A moderator has refused your access to this Room",
+            "userLeftLookForwardToSee": "We look forward to seeing you again",
+            "userLeftReturnToWaitingRoom": "You can return to the waiting room at any time from the Room's link",
+            "userLeftWaitingRoom": "You left the waiting room"
+        },
+        "youAreEnteringMeeting": "You're about to enter the Room"
+    },
     "feedback": {
         "appVersionCopied": "App version copied",
+        "connecting": "Connecting...",
         "historyClearedSuccessfully": "History cleared successfully!",
+        "linkCopied": "Link copied",
         "notificationsActivatedForThisChat": "Notifications activated for this chat",
         "notificationsMutedForThisChat": "Notifications muted for this chat",
         "offline": "It seems to be a server connection issue",
@@ -192,6 +222,9 @@
         "goToTeam": "Go to Team",
         "teamProductName": "Team"
     },
+    "label": {
+        "app_name": "Chats"
+    },
     "meeting": {
         "attendeesComing": "Participants are coming",
         "defaultViewModeDedicatedLabel": "The \"Dedicated Mode\" will redirect you to a separated tab of your browser to enjoy the Meeting experience at its best.",
@@ -201,7 +234,13 @@
         "defaultViewModeSaveLabel": "Save Option",
         "defaultViewModeSecondaryDescriptionLabel": "This option will be saved in your settings and can be updated every time you want.",
         "defaultViewModeTitleModal": "Meetings environment options",
+        "errorMeetingRecording": "It is not possible to start the registration, please contact your system administrator.",
+        "genericErrorMeeting": "There seems to be a problem with this meeting, contact your system administrator.",
         "interactions": {
+            "audioDisabled": "Audio disabled",
+            "audioEnabled": "Audio enabled",
+            "cameraDisabled": "Camera disabled",
+            "cameraEnabled": "Camera enabled",
             "cinemaView": "Cinema View",
             "closeCall": "Close this call",
             "disableAudio": "Disable Audio",
@@ -221,6 +260,7 @@
             "mutedByModerators": "You've been muted by a moderator, unmute yourself to speak",
             "mutedByOthers": "You have been muted",
             "pinVideo": "Pin video",
+            "playMyVoice": "Play my voice",
             "shortCutLabel": "(C)",
             "showChat": "Show Chat",
             "showParticipants": "Show Participants",
@@ -228,8 +268,12 @@
                 "cameraMicOff": "Your camera and microphone are off",
                 "cameraOff": "Your camera is off"
             },
+            "stopMyVoice": "Stop my voice",
             "unpinVideo": "Unpin video"
         },
+        "recordedByMe": "You have started recording",
+        "recordedByOther": "{{username}} has started recording",
+        "recording": "Recording",
         "resetMeetingUrlModalDescription": "Are you sure to reset the link for planned \"{{conversationName}}\"?",
         "startModal": {
             "description": "How do you want to enter the meeting?",
@@ -238,7 +282,9 @@
             "noVideoAndNoAudio": "Camera off, Microphone off",
             "videoAndAudio": "Camera on, Microphone on",
             "videoAndNoAudio": "Camera on, Microphone off"
-        }
+        },
+        "thisMeetingIsBeingRecorded": "This meeting is being recorded",
+        "wereToFindRecording": "The recording will be saved in the video server home, contact your system administrator for further details."
     },
     "message": {
         "deletedMessage": "Deleted message",
@@ -360,7 +406,6 @@
     },
     "modal": {
         "addModeratorDescription": "Select one or more users to promote them to moderators of this Room",
-        "news": "News",
         "clearHistoryDescription": "This conversation is now empty, it has been moved to the bottom of the conversations list in order to emphasize the active ones.",
         "confirm": {
             "areYouSure": "Are you sure?",
@@ -391,10 +436,16 @@
         },
         "moderatorCannotLeaveGroupDescription": "You're the only moderator of {{conversationName}}, please promote someone else before leaving the Group.",
         "moderatorCannotLeaveGroupTitle": "Wait, a new moderator is needed",
+        "moderatorMeetingDescription": "You will moderate this Room. You can add additional moderators and they'll have the same permissions as you.",
+        "news": "News",
         "notShowAgain": "Do not show this again",
         "planMeetingDescription": "Room's name helps the attendees to know the Room's matter of discussion.",
         "roomsFunctionalitiesChangelogDescription": "We have made important changes to the meeting functionalities. Read the introduction to the Rooms to find out more!",
         "showPreviousConversationHistory": "Show previous conversation history",
+        "stopMeetingRec": {
+            "stopMeetingTitle": "Stop meeting's recording",
+            "stopRecording": "The recording will be stopped. You can start a new recording anytime during this meeting."
+        },
         "teamNews": "Team's News",
         "userJoinedWaitingRoom": "There seems to be someone in the Waiting Room"
     },
@@ -403,15 +454,20 @@
         "dismiss": "Dismiss",
         "incomingCall": "Incoming call from:",
         "invitationToPersonalRoom": "Invitation to Personal Room from:",
+        "meeting": {
+            "ended": "Meeting Ended"
+        },
+        "startMeetingRecording": "The recording of the {{conversationName}}'s meeting has started",
         "waiting": {
             "descriptionAcceptedLabel": "You have been accepted by the moderator of {{conversationName}}",
             "descriptionWaitingLabel": "You’re waiting to be accepted by {{conversationName}}’s Moderator",
             "notificationAcceptedByModerator": "You have been accepted by the moderator",
-            "notificationJoinTheRoom": "Join the Room to take part in the meeting",
+            "notificationJoinTheRoom": "Join the room to take part in the meeting",
             "userIsWaiting": "New user is waiting to enter",
-            "userJoinedWaitingRoom": "There seems to be someone in the Waiting Room"
+            "userJoinedWaitingRoom": "There seems to be someone in the waiting room"
         }
     },
+    "organizeYourMeeting": "Organize your own meetings or join your colleagues' Rooms",
     "people": {
         "manyMembers": "{{membersCount}} members",
         "me": "Me",
@@ -473,6 +529,7 @@
         "userStatus": "Status",
         "waitingToEnter": "Waiting to enter"
     },
+    "thanksForParticipating": "Thanks for participating",
     "tooltip": {
         "acceptQueuedMember": "Let user in",
         "addFile": "Add file",
@@ -510,5 +567,8 @@
         "showChannels": "Show Channels",
         "switchToConversation": "Switch to conversation",
         "switchToInfoPanel": "Switch to info panel"
-    }
+    },
+    "tryLater": "Try later",
+    "typeYourEmail": "Type your e-mail",
+    "virtualRoom": "Virtual Room"
 }
