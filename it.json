@@ -54,7 +54,10 @@
         "planMeeting": "Programma una Riunione",
         "copyUserRoomLink": "Copia Link",
         "waitingModeratorToJoin": "In attesa che il moderatore ti accetti",
-        "copyLinkRoom": "Copia link della Stanza"
+        "copyLinkRoom": "Copia link della Stanza",
+        "start": "Avvia",
+        "createRoom": "Crea Stanza",
+        "stop": "Ferma"
     },
     "conversations": {
         "instantMeetings": "Instant Meeting",
@@ -350,7 +353,9 @@
         "uploadConversationPicturesFailed": "Impossibile caricare l'immagine della conversazione",
         "appVersionCopied": "Versione App copiata",
         "offline": "Sembra esserci un errore di connessione al server",
-        "tryAReconnectionIn": "Prova a riconnetterti tra {{seconds}}"
+        "tryAReconnectionIn": "Prova a riconnetterti tra {{seconds}}",
+        "connecting": "Connessione in corso…",
+        "linkCopied": "Link copiato"
     },
     "meeting": {
         "attendeesComing": "I partecipanti stanno arrivando",
@@ -384,7 +389,12 @@
                 "cameraMicOff": "La tua webcam e il microfono sono spenti",
                 "cameraOff": "La tua webcam è disattiva"
             },
-            "unpinVideo": "Rimuovi video"
+            "unpinVideo": "Rimuovi video",
+            "audioDisabled": "Audio disabilitato",
+            "audioEnabled": "Audio abilitato",
+            "cameraDisabled": "Fotocamera disabilitata",
+            "playMyVoice": "Riproduci la mia voce",
+            "cameraEnabled": "Fotocamera attivata"
         },
         "startModal": {
             "description": "Come vuoi accedere al meeting?",
@@ -398,7 +408,13 @@
         "defaultViewModeSaveLabel": "Salva Opzioni",
         "defaultViewModeTitleModal": "Opzioni ambiente Riunione",
         "defaultViewModeDedicatedLabel": "La \"Modalità Dedicata\" ti reindirizzerà a una scheda separata del tuo browser per goderti al meglio l'esperienza della Riunione.",
-        "resetMeetingUrlModalDescription": "Vuoi ripristinare il link di \"{{conversationName}}\"?"
+        "resetMeetingUrlModalDescription": "Vuoi ripristinare il link di \"{{conversationName}}\"?",
+        "genericErrorMeeting": "Sembra esserci un problema con questa riunione, contatta il tuo amministratore di sistema.",
+        "recordedByMe": "Hai iniziato la registrazione",
+        "recordedByOther": "{{username}} ha iniziato la registrazione",
+        "recording": "Registrazione",
+        "thisMeetingIsBeingRecorded": "Questa riunione viene registrata",
+        "errorMeetingRecording": "Non è possibile iniziare la registrazione, contatta il tuo amministratore di sistema."
     },
     "modal": {
         "addModeratorDescription": "Seleziona uno o più utenti per promuoverli a moderatori di questa Stanza",
@@ -440,7 +456,11 @@
         "planMeetingDescription": "Il nome della Stanza suggerisce ai partecipanti l'argomento trattato all'interno della Stanza.",
         "chatsNews": "Novità Chat",
         "userJoinedWaitingRoom": "Sembra esserci qualcuno nella Stanza d'Attesa",
-        "news": "Novità"
+        "news": "Novità",
+        "stopMeetingRec": {
+            "stopMeetingTitle": "Interrompi la registrazione della riunione",
+            "stopRecording": "La registrazione verrà interrotta. Potrai avviare una nuova registrazione in qualsiasi momenti durante questa riunione"
+        }
     },
     "notification": {
         "answer": "Rispondi",
@@ -454,7 +474,11 @@
             "notificationJoinTheRoom": "Unisciti alla Stanza per partecipare alla riunione",
             "userIsWaiting": "Un nuovo utente è in attesa di entrare",
             "userJoinedWaitingRoom": "Sembra esserci qualcuno nella Stanza d'Attesa"
-        }
+        },
+        "meeting": {
+            "ended": "Riunione Terminata"
+        },
+        "startMeetingRecording": "La registrazione di {{conversationName}} è iniziata"
     },
     "settings": {
         "meeting": {
@@ -512,5 +536,36 @@
         "browserNotSupported": "La versione del tuo browser non è supportata. Si consiglia di aggiornarlo per poter usare tutte le features di Team!",
         "goToTeam": "Vai a Team",
         "teamProductName": "Team"
-    }
+    },
+    "errorPage": {
+        "description": "Controlla il link, potrebbe non essere corretto",
+        "errorCode": "errore codice 404",
+        "title": "Ci dispiace, questa Stanza non è stata trovata"
+    },
+    "external": {
+        "nobodyInTheRoom": "Sembra non esserci nessuno in questa Stanza",
+        "roomIsEmpty": "Questa Stanza è vuota",
+        "waitingRoom": {
+            "accessDenied": "Accesso negato",
+            "userLeftLookForwardToSee": "Non vediamo l'ora di rivederti",
+            "moderatorRefusedAccessToRoom": "Il moderatore ha rifiutato la tua richiesta di accesso a questa Stanza"
+        },
+        "login": {
+            "externalLoginDescription": "Se appartieni a questo dominio, verrai reindirizzato alla tua schermata di lavoro. Se sei un utente esterno, verrai reindirizzato ad una interfaccia dedicata."
+        },
+        "unsupported": {
+            "browser": "Browser non supportato",
+            "device": "Dispositivo non supportato"
+        },
+        "youAreEnteringMeeting": "Stai entrando nella Stanza"
+    },
+    "label": {
+        "app_name": "Chat"
+    },
+    "organizeYourMeeting": "Organizza riunioni personali oppure unisciti alle Stanze dei tuoi colleghi",
+    "tryLater": "Riprova più tardi",
+    "typeYourEmail": "Digita il tuo indirizzo e-mail",
+    "virtualRoom": "Stanza Virtuale",
+    "enterTheRoom": "Entra nella Stanza",
+    "thanksForParticipating": "Grazie per aver partecipato"
 }
