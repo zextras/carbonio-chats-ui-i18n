@@ -93,7 +93,13 @@
             },
             "unpinVideo": "Открепить видео",
             "enableFullScreen": "Полноэкранный режим",
-            "muteUserForAllDescription": "При отключении звука пользователя все участники больше не будут его слышать. Только отключенный пользователь может сам включить звук. Продолжить?"
+            "muteUserForAllDescription": "При отключении звука пользователя все участники больше не будут его слышать. Только отключенный пользователь может сам включить звук. Продолжить?",
+            "audioDisabled": "Звук отключен",
+            "audioEnabled": "Звук включен",
+            "cameraDisabled": "Камера отключена",
+            "cameraEnabled": "Камера включена",
+            "playMyVoice": "Воспроизвести голос",
+            "stopMyVoice": "Остановить воспроизведение"
         },
         "attendeesComing": "Участники присоединяются",
         "defaultViewModeDedicatedModeLabel": "Выделенный режим",
@@ -111,7 +117,14 @@
         "defaultViewModeTitleModal": "Параметры",
         "defaultViewModeDedicatedLabel": "«Выделенный режим» перенаправит вас на отдельную вкладку вашего браузера.",
         "defaultViewModeDefaultLabel": "При выборе «Режим по умолчанию» собрание начнется в текущем браузере.",
-        "resetMeetingUrlModalDescription": "Вы уверены, что хотите удалить ссылку для запланированной встречи\"{{conversationName}}\"?"
+        "resetMeetingUrlModalDescription": "Вы уверены, что хотите удалить ссылку для запланированной встречи\"{{conversationName}}\"?",
+        "errorMeetingRecording": "Невозможно начать запись, обратитесь к системному администратору.",
+        "recordedByMe": "Вы начали запись",
+        "recordedByOther": "{{username}} включил запись",
+        "recording": "Запись",
+        "thisMeetingIsBeingRecorded": "Эта встреча была записана",
+        "genericErrorMeeting": "С этой встречей возникла проблема. Обратитесь к системному администратору.",
+        "wereToFindRecording": "Запись будет сохранена на локальном видеосервере. Для получения дополнительной информации обратитесь к системному администратору."
     },
     "tooltip": {
         "switchToInfoPanel": "Перейти в панель информации",
@@ -206,7 +219,10 @@
         "planMeeting": "Запланировать встречу",
         "copyLinkRoom": "Скопировать ссылку",
         "copyUserRoomLink": "Копировать ссылку",
-        "waitingModeratorToJoin": "Вы ожидаете одобрения модератора"
+        "waitingModeratorToJoin": "Вы ожидаете одобрения модератора",
+        "start": "Запись",
+        "stop": "Стоп",
+        "createRoom": "Создать Зал"
     },
     "appVersion": "Версия приложения",
     "button": {
@@ -271,7 +287,9 @@
         "uploadConversationPicturesFailed": "Не удалось загрузить фотографию чата",
         "appVersionCopied": "Версия приложения скопирована",
         "offline": "Похоже проблема с подключением к серверу",
-        "tryAReconnectionIn": "Попробуйте переподключиться через {{seconds}}"
+        "tryAReconnectionIn": "Попробуйте переподключиться через {{seconds}}",
+        "connecting": "Подключение...",
+        "linkCopied": "Ссылка скопирована"
     },
     "message": {
         "deletedMessage": "Удаленное сообщение",
@@ -431,7 +449,12 @@
         "userJoinedWaitingRoom": "Кажется, в зале ожидания кто-то есть",
         "deleteMessageDescription": "При удалении сообщения оно больше не будет видно вам и всем остальным получателям",
         "planMeetingDescription": "Укажите название Конференц-зала.",
-        "news": "Новости"
+        "news": "Новости",
+        "stopMeetingRec": {
+            "stopMeetingTitle": "Остановить запись встречи",
+            "stopRecording": "Запись будет остановлена. Вы можете начать запись в любое время во время этой встречи."
+        },
+        "moderatorMeetingDescription": "Вы будете модератором этого Зала. Вы можете добавить дополнительных модераторов, и они будут иметь те же права, что и вы."
     },
     "notification": {
         "answer": "Ответить",
@@ -445,7 +468,11 @@
             "notificationJoinTheRoom": "Войти в Конференц-зал",
             "userIsWaiting": "Новый пользователь ожидает входа",
             "userJoinedWaitingRoom": "В Зале ожидания кто-то есть"
-        }
+        },
+        "meeting": {
+            "ended": "Встреча завершена"
+        },
+        "startMeetingRecording": "Началась запись встречи {{conversationName}}"
     },
     "people": {
         "manyMembers": "{{membersCount}} Участники",
@@ -512,5 +539,38 @@
         "browserNotSupported": "Версия вашего браузера не поддерживается. Настоятельно рекомендуется обновить браузер, чтобы воспользоваться всеми функциями!",
         "goToTeam": "Перейти в Team",
         "teamProductName": "Team"
-    }
+    },
+    "errorPage": {
+        "errorCode": "Код ошибки 404",
+        "title": "Извините, мы не смогли найти этот Зал",
+        "description": "Проверьте свою ссылку, она может быть неправильной"
+    },
+    "external": {
+        "nobodyInTheRoom": "В этом Зале никого нет",
+        "roomIsEmpty": "Этот Зал пустой",
+        "unsupported": {
+            "browser": "Неподдерживаемый браузер",
+            "device": "Неподдерживаемое устройство"
+        },
+        "waitingRoom": {
+            "accessDenied": "В доступе отказано",
+            "moderatorRefusedAccessToRoom": "Модератор отказал вам в доступе в этот Зал",
+            "userLeftLookForwardToSee": "До встречи",
+            "userLeftWaitingRoom": "Вы покинули зал ожидания",
+            "userLeftReturnToWaitingRoom": "Вы можете вернуться в зал ожидания в любое время по ссылке Зала"
+        },
+        "youAreEnteringMeeting": "Вы собираетесь войти в Зал",
+        "login": {
+            "externalLoginDescription": "Если вы уже принадлежите этому домену, вы будете перенаправлены в свой обычный рабочий интерфейс. Если вы внешний пользователь, вы будете перенаправлены на выделенный интерфейс."
+        }
+    },
+    "label": {
+        "app_name": "Chats"
+    },
+    "organizeYourMeeting": "Создавайте личные встречи или присоединяйтесь к конференц-залам своих коллег",
+    "virtualRoom": "Конференц Зал",
+    "enterTheRoom": "Войти в Зал",
+    "thanksForParticipating": "До встречи",
+    "tryLater": "Попробуй позже",
+    "typeYourEmail": "Введите адрес электронной почты"
 }
