@@ -190,7 +190,7 @@
     "general": {
         "goToTeam": "Idź do Team",
         "teamProductName": "Team",
-        "browserNotSupported": "Ta wersja twojej przeglądarki nie est przez nas wspierana. Wysoce zalecamy, aby zaktualizować przeglądarkę, aby móc korzystać ze wszystkich funkcji!"
+        "browserNotSupported": "Ta wersja przeglądarki jest niewspierana. Wysoce zalecamy, aby zaktualizować przeglądarkę, aby móc korzystać ze wszystkich funkcji!"
     },
     "meeting": {
         "defaultViewModeDedicatedLabel": "\"Tryb Dedykowany\" przekieruje cię do oddzielnej karty przeglądarki, aby umożliwić najlepsze doświadczenie Spotkania.",
@@ -256,8 +256,8 @@
             "member": {
                 "changed": {
                     "name": {
-                        "channel": "{{member_name}} zmienił(a) nazwę Kanału na {{name}}",
-                        "space": "{{member_name}} zmienił(a) nazwę Przestrzeni na {{name}}"
+                        "channel": "{{member_name}} zmienił(a) nazwę Kanału w {{name}}",
+                        "space": "{{member_name}} zmienił(a) nazwę Przestrzeni w {{name}}"
                     },
                     "picture": {
                         "channel": "{{member_name}} zmienił(a) obraz Kanału",
@@ -265,9 +265,9 @@
                         "space": "{{member_name}} zmienił(a) obraz Przestrzeni"
                     },
                     "topic": {
-                        "group": "{{member_name}} zmienił(a) temat Grupy na {{topic}}",
-                        "space": "{{member_name}} zmienił(a) temat Przestrzeni na {{topic}}",
-                        "channel": "{{member_name}} zmienił(a) temat Kanału na {{topic}}"
+                        "group": "{{member_name}} zmienił(a) temat Grupy w {{topic}}",
+                        "space": "{{member_name}} zmienił(a) temat Przestrzeni w {{topic}}",
+                        "channel": "{{member_name}} zmienił(a) temat Kanału w {{topic}}"
                     }
                 },
                 "created": {
@@ -399,7 +399,7 @@
         "userJoinedWaitingRoom": "Wygląda na to, że ktoś znajduje się w Poczekalni"
     },
     "notification": {
-        "answer": "Odpowiedz",
+        "answer": "Odbierz",
         "incomingCall": "Nadchodząca rozmowa od:",
         "dismiss": "Ignoruj",
         "invitationToPersonalRoom": "Zaproszenie do Prywatnego Pokoju od:",
@@ -436,14 +436,14 @@
             "description": "Tutaj możesz dostosować wszystkie preferencje dot. Czatów, aby cieszyć się jak najlepszym doświadczeniem w pełni dostosowanego czatu!"
         },
         "notification": {
-            "desktop": "Powiadomienia na pulpicie",
+            "desktop": "Powiadomienia Pulpitu",
             "openMinichatDescription": "Dostosuj otwieranie miniczatów",
             "title": {
                 "notifications": "Powiadomienia",
-                "openMinichat": "Otwórz kiedy przyjdzie nowa wiadomość",
-                "openMinichatForSingle": "Otwórz kiedy przyjdzie nowa pojedyncza wiadomość",
-                "openMinichatForSpace": "Otwórz kiedy przyjdzie nowa wiadomość w Przestrzeni",
-                "openMinichatForGroup": "Otwórz kiedy przyjdzie nowa wiadomość w Grupie"
+                "openMinichat": "Otwieraj kiedy przychodzi nowa pojedyncza wiadomość",
+                "openMinichatForSingle": "Otwieraj kiedy przychodzi pojedyncza nowa wiadomość",
+                "openMinichatForSpace": "Otwieraj kiedy przychodzi nowa wiadomość w Przestrzeni",
+                "openMinichatForGroup": "Otwieraj kiedy przychodzi nowa wiadomość w Grupie"
             }
         },
         "notifications": {
