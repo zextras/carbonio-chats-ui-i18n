@@ -30,7 +30,7 @@
         "edit": "Edytuj",
         "editYourMessage": "Edytuj własną wiadomość",
         "expand": "Rozwiń",
-        "goToGuide": "Idź do instrukcji",
+        "goToGuide": "Idź do przewodnika",
         "join": "Dołącz",
         "joinChannelAction": "Dołącz do Kanału",
         "joinRoom": "Dołącz do Pokoju",
@@ -98,10 +98,10 @@
         "noActiveMeetings": "Nie ma żadnych aktywnych Pokoi w tym momencie",
         "noActiveSpaces": "Nie ma żadnych aktywnych Przestrzeni w tym momencie. Stwórz nową Przestrzeń lub zmień kartę.",
         "noFilteredChats": "Nie ma żadnych czatów, które pasują do tego filtra.",
-        "noFilteredInstantMeetings": "Nie ma żadnych Natychmiastowych Spotkań pasujących do tego filtra.",
-        "noFilteredMeetings": "Nie ma żadnych Pokoi ani zaplanowanych spotkań pasujących do tego filtra",
+        "noFilteredInstantMeetings": "Nie ma żadnych Natychmiastowych Spotkań, które pasują do tego filtra.",
+        "noFilteredMeetings": "Nie ma żadnych Pokoi ani zaplanowanych spotkań, które pasują do tego filtra",
         "personalRoom": "Prywatny Pokój",
-        "noFilteredSpaces": "Nie ma żadnych Przestrzeni pasujących do tego filtra.",
+        "noFilteredSpaces": "Nie ma żadnych Przestrzeni, które pasują do tego filtra.",
         "scheduledMeetings": "Zaplanowane Spotkania",
         "spaceGeneralChannel": "Ogólne",
         "spaces": "Przestrzenie",
@@ -111,10 +111,10 @@
     "creation": {
         "attendeeAdded": "Uczestnik został dodany do listy",
         "channel": {
-            "mainDescription": "Kanały są dobrze zdefiniowanymi czatami tematycznymi, które znajdują się w Przestrzeni. Uczestnicy Przestrzeni mogą dołączyć do Kanału, aby aktywnie dyskutować o jego tematyce. Uczestnicy mogą opuścić Kanał bez równoczesnego opuszczania Przestrzeni.",
+            "mainDescription": "Kanały są konkretnie zdefiniowanymi czatami tematycznymi, które znajdują się w Przestrzeni. Uczestnicy Przestrzeni mogą dołączyć do Kanału, aby aktywnie dyskutować o jego tematyce. Uczestnicy mogą opuścić Kanał bez równoczesnego opuszczania Przestrzeni.",
             "setImageAndTitleDescription": "Ustaw obraz, aby Kanał był łatwo rozpoznawalny w Przestrzeni. Obraz Kanału może być również ustawiony lub zmieniony w panelu informacyjnym Kanału.",
             "titleInputRequirements": "Max. 140 znaków, tytuł nie może występować w Przestrzeni",
-            "topicDescription": "Z racji tego, że Kanały to czaty opierające się na omawianym temacie, zalecamy ustawienie dobrze dopasowanego tematu.",
+            "topicDescription": "Ponieważ Kanały to czaty opierające się na omawianym temacie, zalecamy ustawienie dobrze dopasowanego tematu.",
             "topicInputExplanation": "Opisuje tematykę Kanału"
         },
         "chat": {
@@ -141,7 +141,7 @@
                 }
             },
             "titleDescription": "Nadaj Natyczmiastowemu Spotkaniu wyróżniający się tytuł, aby uczestnicy znali cel spotkania.",
-            "description": "Natychmiastowe Spotkania to rozmowy wideo, które są stworzone by być szybkie i krótkie. Po zakończeniu rozmowy, jej czat przestanie istnieć, jego zawartość zostanie trwale wymazana. Natychmiastowe Spotkania mogą być tworzone przez użytkowników Team Pro. Do rozmów mogą również dołączać użytkownicy spoza twojej organizacji."
+            "description": "Natychmiastowe Spotkania to rozmowy wideo, które są zaprojektowane by być szybkie i krótkie. Po zakończeniu rozmowy, jej czat przestanie istnieć, jego zawartość zostanie trwale wymazana. Natychmiastowe Spotkania mogą być tworzone tylko przez użytkowników Team Pro, ale mogą do nich dołączać wszyscy użytkownicy, nawet ci spoza twojej organizacji."
         },
         "limitOfParticipantReached": "Osiągnięto limit uczestników ustawiony przez administratora",
         "nameMax140Characters": "Max. 140 znaków",
@@ -158,9 +158,9 @@
         "space": {
             "addMembersDescription": "Zaproś uczestników wpisując ich imiona lub adresy e-mail. Musisz zaprosić co najmniej dwóch innych uczestników. Jeśli to zbyt dużo - po prostu stwórz Czat z danym użytkownikiem.",
             "spaceWithoutNameAddParticipant": "Dodaj uczestników do swojej Przestrzeni",
-            "mainDescription": "Przestrzenie to podstawowe środowiska do komunikacji, które zawierają czaty nazwane Kanałami - każdy z nich ma swoją własną tematykę. Aby stworzyć Przestrzeń potrzebujesz zaprosić do niej co najmniej dwóch uczestinków. Kanały można dodać bezpośrednio z panelu informacyjnego Przestrzeni.",
+            "mainDescription": "Przestrzenie to podstawowe środowiska do komunikacji, które zawierają czaty nazwane Kanałami - każdy z nich ma swoją własną tematykę. Aby stworzyć Przestrzeń potrzebujesz zaprosić do niej co najmniej dwóch uczestinków. Kanały można dodawać bezpośrednio z panelu informacyjnego Przestrzeni.",
             "titleDescription": "Tytuł jest wizytówką Przestrzeni, dlatego powinien opisywać jej tematykę.",
-            "topicDescription": "Z racji tego, że Przestrzenie to czaty opierające się na omawianym temacie, zalecamy ustawienie dobrze dopasowanego tematu.",
+            "topicDescription": "Ponieważ Przestrzenie to czaty opierające się na omawianym temacie, zalecamy ustawienie dobrze dopasowanego tematu.",
             "topicInputExplanation": "Opisuje tematykę Przestrzeni"
         },
         "startTypingToPick": "Zacznij wpisywać, aby wybrać adres",
@@ -394,7 +394,7 @@
         "moderatorCannotLeaveGroupTitle": "Poczekaj chwilkę, potrzebny jest nowy moderator",
         "notShowAgain": "Nie pokazuj tego ponownie",
         "planMeetingDescription": "Nazwa Pokoju pomaga uczestnikom poznać tematykę dyskusji w Pokoju.",
-        "roomsFunctionalitiesChangelogDescription": "Dokonaliśmy ważnych zmian dot. funkcjonalności spotkań. Przeczytaj \"wprowadzenie do Pokojów\", aby dowiedzieć się więcej!",
+        "roomsFunctionalitiesChangelogDescription": "Dokonaliśmy ważnych zmian w funkcjonalności spotkań. Przeczytaj wprowadzenie do Pokojów, aby dowiedzieć się więcej!",
         "teamNews": "Nowości w Team",
         "userJoinedWaitingRoom": "Wygląda na to, że ktoś znajduje się w Poczekalni"
     },
@@ -455,7 +455,7 @@
             "maximumDimension": "Max. rozmiar: 256kb.",
             "reset": "Zresetuj",
             "restore": "Przywróć",
-            "statusOptionalDescription": "Opcjonalny. Powiedz innym o czym teraz myślisz. Max. 256 znaków",
+            "statusOptionalDescription": "Opcjonalne. Powiedz innym o czym teraz myślisz. Max. 256 znaków",
             "title": "Profil",
             "update": "Zaktualizuj"
         },
@@ -492,7 +492,7 @@
         "enterMeetingRoom": "Dołącz do Pokoju",
         "errorRemovingAvatarPicture": "Coś poszło nie tak przy usuwaniu awatara. Spróbuj ponownie",
         "errorUpdatingAvatarStatus": "Coś poszło nie tak przy ustawianiu statusu. Spróbuj ponownie",
-        "errorUploadingAvatarPicture": "Coś poszło nie tak podczas dodawania nowego awatara. Spróbuj ponownie",
+        "errorUploadingAvatarPicture": "Coś poszło nie tak przy przesyłaniu nowego awatara. Spróbuj ponownie",
         "enterYourRoom": "Dołącz do swojego Prywatnego Pokoju",
         "enterYourRoomTooltip": "Dołącz do swojego Prywatnego Pokoju",
         "goToPrivateChat": "Idź do prywatnego czatu",
