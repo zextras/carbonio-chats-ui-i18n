@@ -140,7 +140,7 @@
                     "neutral": "Wybierz jednego lub więcej uczestników"
                 }
             },
-            "titleDescription": "Nadaj Natyczmiastowemu Spotkaniu wyróżniający się tytuł, aby uczestnicy znali cel spotkania.",
+            "titleDescription": "Nadaj Natyczmiastowemu Spotkaniu wymowny tytuł, aby uczestnicy znali cel spotkania.",
             "description": "Natychmiastowe Spotkania to rozmowy wideo, które są zaprojektowane by być szybkie i krótkie. Po zakończeniu rozmowy, jej czat przestanie istnieć, jego zawartość zostanie trwale wymazana. Natychmiastowe Spotkania mogą być tworzone tylko przez użytkowników Team Pro, ale mogą do nich dołączać wszyscy użytkownicy, nawet ci spoza twojej organizacji."
         },
         "limitOfParticipantReached": "Osiągnięto limit uczestników ustawiony przez administratora",
@@ -201,7 +201,7 @@
         "defaultViewModeTitleModal": "Ustawienia środowiska Spotkania",
         "interactions": {
             "cinemaView": "Widok kinowy",
-            "closeCall": "Skończ tą rozmowę",
+            "closeCall": "Zakończ tą rozmowę",
             "disableAudio": "Wyłącz dźwięk",
             "disableFullScreen": "Wyjdź z trybu pełnoekranowego",
             "disableScreensharing": "Zakończ udostępnianie ekranu",
@@ -426,7 +426,7 @@
             "enableCamera": "Włącz wideo",
             "personalRoomOptionsTitleModal": "Resetowanie linku do Prywatnego Pokoju",
             "personalRoomResetButton": "Zresetuj link do Prywatnego Pokoju",
-            "personalRoomResetDescription": "Resetując link do Prywatnego Pokoju, wszystkie uprzednio udzielone dostępy przestaną działać.",
+            "personalRoomResetDescription": "Po zresetowaniu linku do Prywatnego Pokoju, wszystkie uprzednio udzielone dostępy przestaną działać.",
             "meetings": "Spotkania",
             "description": "Ustaw swoje preferencje dźwięku oraz wideo, aby dołączyć do spotkania. Zawsze możesz zmienić swoje preferencje przed dołączeniem do każdego spotkania.",
             "enableMicrophone": "Włącz mikrofon"
