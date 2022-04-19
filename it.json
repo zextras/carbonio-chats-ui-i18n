@@ -394,7 +394,8 @@
             "audioEnabled": "Audio abilitato",
             "cameraDisabled": "Fotocamera disabilitata",
             "playMyVoice": "Riproduci la mia voce",
-            "cameraEnabled": "Fotocamera attivata"
+            "cameraEnabled": "Fotocamera attivata",
+            "stopMyVoice": "Ferma la mia voce"
         },
         "startModal": {
             "description": "Come vuoi accedere al meeting?",
@@ -414,7 +415,8 @@
         "recordedByOther": "{{username}} ha iniziato la registrazione",
         "recording": "Registrazione",
         "thisMeetingIsBeingRecorded": "Questa riunione viene registrata",
-        "errorMeetingRecording": "Non è possibile iniziare la registrazione, contatta il tuo amministratore di sistema."
+        "errorMeetingRecording": "Non è possibile iniziare la registrazione, contatta il tuo amministratore di sistema.",
+        "wereToFindRecording": "La registrazione verrà salvata nella home del video server, contatta il tuo amministratore di sistema per maggiori informazioni."
     },
     "modal": {
         "addModeratorDescription": "Seleziona uno o più utenti per promuoverli a moderatori di questa Stanza",
@@ -548,7 +550,9 @@
         "waitingRoom": {
             "accessDenied": "Accesso negato",
             "userLeftLookForwardToSee": "Non vediamo l'ora di rivederti",
-            "moderatorRefusedAccessToRoom": "Il moderatore ha rifiutato la tua richiesta di accesso a questa Stanza"
+            "moderatorRefusedAccessToRoom": "Il moderatore ha rifiutato la tua richiesta di accesso a questa Stanza",
+            "userLeftReturnToWaitingRoom": "Puoi tornare nella Stanza d'attesa in qualsiasi momento direttamente dal link della Stanza",
+            "userLeftWaitingRoom": "Hai abbandonato la Stanza d'attesa"
         },
         "login": {
             "externalLoginDescription": "Se appartieni a questo dominio, verrai reindirizzato alla tua schermata di lavoro. Se sei un utente esterno, verrai reindirizzato ad una interfaccia dedicata."
