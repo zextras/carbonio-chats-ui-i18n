@@ -54,7 +54,10 @@
         "planMeeting": "Organiser une réunion",
         "copyLinkRoom": "Copier le lien de la Salle",
         "waitingModeratorToJoin": "Vous êtes en cours d'acceptation par le modérateur",
-        "copyUserRoomLink": "Copier le lien"
+        "copyUserRoomLink": "Copier le lien",
+        "createRoom": "Créer une salle",
+        "start": "Démarrer",
+        "stop": "Arrêter"
     },
     "creation": {
         "attendeeAdded": "Participant ajouté à la liste",
@@ -303,7 +306,9 @@
         "appVersionCopied": "Version de l'application copiée",
         "offline": "Il semble que ce soit un problème de connexion au serveur",
         "roomLinkCopied": "Le lien de la salle a été copié",
-        "tryAReconnectionIn": "Essayez de vous reconnecter dans {{seconds}}"
+        "tryAReconnectionIn": "Essayez de vous reconnecter dans {{seconds}}",
+        "connecting": "Connexion...",
+        "linkCopied": "Lien copié"
     },
     "meeting": {
         "attendeesComing": "Les participants arrivent",
@@ -337,7 +342,13 @@
             },
             "unpinVideo": "Désépingler la vidéo",
             "enableFullScreen": "Plein écran",
-            "muteUserForAllDescription": "En mettant l'utilisateur en sourdine, tous les participants n'entendront plus l'utilisateur. Seul l'utilisateur en sourdine peut lui-même rétablir le son. Procéder ?"
+            "muteUserForAllDescription": "En mettant l'utilisateur en sourdine, tous les participants n'entendront plus l'utilisateur. Seul l'utilisateur en sourdine peut lui-même rétablir le son. Procéder ?",
+            "audioDisabled": "Audio désactivé",
+            "audioEnabled": "Audio activé",
+            "cameraDisabled": "Caméra désactivée",
+            "cameraEnabled": "Caméra activée",
+            "playMyVoice": "Jouer ma voix",
+            "stopMyVoice": "Arrêter ma voix"
         },
         "startModal": {
             "description": "Comment souhaitez-vous entrer dans cette réunion ?",
@@ -351,7 +362,14 @@
         "defaultViewModeSaveLabel": "Option de sauvegarde",
         "defaultViewModeTitleModal": "Options de l'environnement des réunions",
         "resetMeetingUrlModalDescription": "Êtes-vous sûr de vouloir réinitialiser le lien pour la conversation prévue \"{{conversationName}}\" ?",
-        "defaultViewModeDedicatedLabel": "Le \"mode dédié\" vous redirige vers un onglet séparé de votre navigateur pour profiter au mieux de la réunion."
+        "defaultViewModeDedicatedLabel": "Le \"mode dédié\" vous redirige vers un onglet séparé de votre navigateur pour profiter au mieux de la réunion.",
+        "errorMeetingRecording": "Il n'est pas possible de lancer l'enregistrement, merci de contacter votre administrateur système.",
+        "genericErrorMeeting": "Il semble y avoir un problème avec cette réunion, contactez votre administrateur système.",
+        "recordedByOther": "{{username}} a lancé l'enregistrement",
+        "wereToFindRecording": "L'enregistrement sera sauvegardé dans l'accueil du serveur vidéo, contactez votre administrateur système pour plus de détails.",
+        "recordedByMe": "Vous avez lancer l'enregistrement",
+        "recording": "Enregistrement",
+        "thisMeetingIsBeingRecorded": "Cette réunion est enregistrée"
     },
     "modal": {
         "addModeratorDescription": "Sélectionner un ou plusieurs utilisateurs pour les promouvoir modérateurs de cette salle",
@@ -393,7 +411,12 @@
         "planMeetingDescription": "Le nom de la Réunion aide les invités à connaître le sujet en cours de discussion.",
         "chatsNews": "Nouveautés de Chat",
         "userJoinedWaitingRoom": "Il semble que quelqu'un soit dans la salle d'attente",
-        "news": "Nouvelles"
+        "news": "Nouvelles",
+        "moderatorMeetingDescription": "Vous modérerez cette salle. Vous pouvez ajouter des modérateurs supplémentaires et ils auront les mêmes permissions que les vôtres.",
+        "stopMeetingRec": {
+            "stopRecording": "L'enregistrement va être arrêté. Vous pouvez lancer un nouvel enregistrement à tout moment durant cette réunion.",
+            "stopMeetingTitle": "Arrêter l'enregistrement de cette réunion"
+        }
     },
     "notification": {
         "answer": "réponse",
@@ -402,12 +425,16 @@
         "invitationToPersonalRoom": "Invitation dans la salle de réunion personnelle de :",
         "waiting": {
             "descriptionWaitingLabel": "Vous êtes en attente d'acceptation par le modérateur de {{conversationName}}",
-            "notificationJoinTheRoom": "Rejoignez la Salle pour prendre part à la réunion",
+            "notificationJoinTheRoom": "Rejoignez la salle pour prendre part à la réunion",
             "descriptionAcceptedLabel": "Vous avez été accepté par le modérateur de {{conversationName}}",
             "notificationAcceptedByModerator": "Vous avez été accepté par le modérateur",
             "userIsWaiting": "Un nouvel utilisateur attend pour entrer dans la salle",
-            "userJoinedWaitingRoom": "Il semblerai qu'il y ai quelqu'un dans la Salle d'Attente"
-        }
+            "userJoinedWaitingRoom": "Il semblerai qu'il y ai quelqu'un dans la salle d'attente"
+        },
+        "meeting": {
+            "ended": "La réunion à pris fin"
+        },
+        "startMeetingRecording": "L'enregistrement de la réunion {{conversationName}} a débuté"
     },
     "people": {
         "manyMembers": "{{membersCount}} membres",
@@ -512,5 +539,38 @@
         "browserNotSupported": "La version de votre navigateur n'est pas supportée. Il est fortement recommander de mettre à jour votre navigateur pour bénéficier de l'ensemble des fonctionnalités !",
         "goToTeam": "Aller à Team",
         "teamProductName": "Team"
-    }
+    },
+    "enterTheRoom": "Entrer dans la salle",
+    "errorPage": {
+        "title": "Désolé, la salle n'a pas été trouvée",
+        "description": "Vérifiez votre lien, il semblerai qu'il ne soit pas valide",
+        "errorCode": "code d'erreur 404"
+    },
+    "external": {
+        "login": {
+            "externalLoginDescription": "Si vous appartenez déjà à ce domaine, vous allez être redirigé dans votre espace de travail habituel. Si vous êtes un utilisateur extérieur, vous allez être redirigé vers l'interface dédiée."
+        },
+        "nobodyInTheRoom": "Il semble qu'il n'y ai personne dans cette salle",
+        "roomIsEmpty": "Cette salle est vide",
+        "unsupported": {
+            "browser": "Ce navigateur web n'est pas supporté",
+            "device": "L'appareil n'est pas supporté"
+        },
+        "waitingRoom": {
+            "accessDenied": "Accès refusé",
+            "moderatorRefusedAccessToRoom": "Un modérateur vous a refusé l'accès à cette salle",
+            "userLeftLookForwardToSee": "Nous espérons vous revoir bientôt",
+            "userLeftReturnToWaitingRoom": "Vous pouvez retourner en salle d'attente à n'importe quel moment avec le lien de cette salle",
+            "userLeftWaitingRoom": "Vous avez quitté la salle d'attente"
+        },
+        "youAreEnteringMeeting": "Vous êtes sur le point de rejoindre la salle"
+    },
+    "thanksForParticipating": "Merci pour votre participation",
+    "label": {
+        "app_name": "Chats"
+    },
+    "organizeYourMeeting": "Organisez votre propre réunion ou rejoignez les salles de vos collègues",
+    "tryLater": "Essayez plus tard",
+    "typeYourEmail": "Tapez votre email",
+    "virtualRoom": "Salle virtuelle"
 }
