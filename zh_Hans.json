@@ -54,7 +54,9 @@
         "planMeeting": "规划会议",
         "removeMember": "移除成员",
         "resetLink": "重置链接",
-        "waitingModeratorToJoin": "您正在等待成为主持人"
+        "waitingModeratorToJoin": "您正在等待成为主持人",
+        "start": "开始",
+        "stop": "停止"
     },
     "conversations": {
         "instantMeetings": "即时会议",
@@ -341,7 +343,9 @@
         "offline": "似乎有一个服务器连接问题",
         "resetPersonalRoomLinkSuccess": "个人房间链接已重置",
         "tryAReconnectionIn": "重试连接：{{seconds}}",
-        "roomLinkCopied": "房间链接已复制"
+        "roomLinkCopied": "房间链接已复制",
+        "connecting": "正在连接…",
+        "linkCopied": "链接已复制"
     },
     "meeting": {
         "attendeesComing": "参与者正在前来",
@@ -375,7 +379,8 @@
             "disableScreensharing": "禁用屏幕共享",
             "enableFullScreen": "全屏",
             "enableScreenSharing": "启用屏幕共享",
-            "muteUserForAllDescription": "静音用户后，所有参与者将无法再听到用户的声音。仅被静音用户可自行取消静音。是否继续？"
+            "muteUserForAllDescription": "静音用户后，所有参与者将无法再听到用户的声音。仅被静音用户可自行取消静音。是否继续？",
+            "cameraEnabled": "摄像头已启用"
         },
         "startModal": {
             "description": "您想如何进入该会议？",
@@ -510,5 +515,19 @@
         "browserNotSupported": "不支持该版本的浏览器。我们强烈建议您更新浏览器以充分享受全部功能！",
         "goToTeam": "前往团队",
         "teamProductName": "团队"
-    }
+    },
+    "external": {
+        "login": {
+            "externalLoginDescription": "如果您已经属于此域，则将被重定向至您通常的工作区。 如果您是外部用户，则将被重定向至专属界面。"
+        },
+        "unsupported": {
+            "browser": "不支持的浏览器",
+            "device": "不支持的设备"
+        },
+        "youAreEnteringMeeting": "您即将进入房间"
+    },
+    "label": {
+        "app_name": "聊天"
+    },
+    "enterTheRoom": "进入房间"
 }
