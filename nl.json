@@ -136,7 +136,8 @@
             "enableScreenSharing": "Scherm delen inschakelen",
             "muteUserForAllDescription": "Door de gebruiker te muten, zullen alle deelnemers de gebruiker niet meer horen. Alleen de gedempte gebruiker kan zelf het geluid weer aanzetten. Verdergaan?",
             "enableFullScreen": "Volledig scherm",
-            "disableScreensharing": "Scherm delen uitschakelen"
+            "disableScreensharing": "Scherm delen uitschakelen",
+            "cameraEnabled": "Camera geactiveerd"
         },
         "attendeesComing": "Deelnemers komen",
         "defaultViewModeDedicatedModeLabel": "Toegewijde modus",
@@ -329,7 +330,9 @@
         "deleteRoom": "Kamer verwijderen",
         "plan": "Plan",
         "resetLink": "Link resetten",
-        "waitingModeratorToJoin": "U wacht om geaccepteerd te worden door een moderator"
+        "waitingModeratorToJoin": "U wacht om geaccepteerd te worden door een moderator",
+        "start": "Starten",
+        "stop": "Stoppen"
     },
     "appVersion": "App versie",
     "button": {
@@ -351,7 +354,9 @@
         "appVersionCopied": "App-versie gekopieerd",
         "offline": "Het lijkt een probleem te zijn met de serververbinding",
         "tryAReconnectionIn": "Probeer een herverbinding in {{seconds}}",
-        "roomLinkCopied": "Kamerlink gekopieerd"
+        "roomLinkCopied": "Kamerlink gekopieerd",
+        "connecting": "Wordt verbonden...",
+        "linkCopied": "Link gekopieerd"
     },
     "modal": {
         "clearHistoryDescription": "Dit gesprek is nu leeg, het is verplaatst naar de onderkant van de gesprekkenlijst om de actieve gesprekken te benadrukken.",
@@ -510,5 +515,19 @@
         "browserNotSupported": "De versie van uw browser wordt niet ondersteund. Het is sterk aanbevolen om de browser te updaten om te profiteren van alle functies!",
         "teamProductName": "Team",
         "goToTeam": "Naar Team gaan"
+    },
+    "external": {
+        "login": {
+            "externalLoginDescription": "Als u al tot dit domein behoort, wordt u doorgestuurd naar uw gebruikelijke werkruimte. Als u een externe gebruiker bent, wordt u doorgestuurd naar een speciale interface."
+        },
+        "unsupported": {
+            "browser": "Niet-ondersteunde browser",
+            "device": "Niet-ondersteund apparaat"
+        },
+        "youAreEnteringMeeting": "U staat op het punt de Kamer binnen te gaan"
+    },
+    "enterTheRoom": "De Kamer betreden",
+    "label": {
+        "app_name": "Chats"
     }
 }
