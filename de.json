@@ -54,7 +54,9 @@
         "openInChats": "In Chats öffnen",
         "planMeeting": "Ein Meeting planen",
         "removeMember": "Mitglied entfernen",
-        "resetLink": "Link zurücksetzen"
+        "resetLink": "Link zurücksetzen",
+        "start": "Start",
+        "stop": "Stop"
     },
     "creation": {
         "group": {
@@ -133,7 +135,9 @@
         "offline": "Es scheint ein Problem mit der Serververbindung zu sein",
         "appVersionCopied": "App Version kopiert",
         "resetPersonalRoomLinkSuccess": "Der Link des persönlichen Raums wurde zurückgesetzt",
-        "roomLinkCopied": "Raum- Link kopiert"
+        "roomLinkCopied": "Raum- Link kopiert",
+        "connecting": "Verbinden …",
+        "linkCopied": "Link kopiert"
     },
     "message": {
         "service": {
@@ -346,7 +350,8 @@
             "disableScreensharing": "Bildschirmfreigabe deaktivieren",
             "muteUserForAllDescription": "Wenn der Benutzer stummgeschaltet wird, können alle Teilnehmer den Benutzer nicht mehr hören. Nur der stummgeschaltete Benutzer kann die Stummschaltung selbst wieder aufheben. Wie geht es weiter?",
             "enableFullScreen": "Vollbild",
-            "enableScreenSharing": "Bildschirmfreigabe aktivieren"
+            "enableScreenSharing": "Bildschirmfreigabe aktivieren",
+            "cameraEnabled": "Kamera aktiviert"
         },
         "startModal": {
             "description": "Wie möchten Sie dem Meeting beitreten?",
@@ -510,5 +515,19 @@
         "browserNotSupported": "Wir unterstützen diese Version Ihres Browsers nicht. Wir empfehlen Ihnen dringend, Ihren Browser zu aktualisieren, um alle Team Funktionen zu nutzen!",
         "goToTeam": "Zu Team gehen",
         "teamProductName": "Team"
-    }
+    },
+    "external": {
+        "login": {
+            "externalLoginDescription": "Wenn Sie bereits dieser Domain angehören, werden Sie zu Ihrem gewöhnlichen Arbeitsbereich weitergeleitet. Wenn Sie ein externer Nutzer sind, werden Sie zu einer dafür vorgesehenen Benutzeroberfläche weitergeleitet."
+        },
+        "unsupported": {
+            "browser": "Nicht unterstützter Browser",
+            "device": "Nicht unterstütztes Gerät"
+        },
+        "youAreEnteringMeeting": "Sie sind kurz davor, den Raum zu betreten"
+    },
+    "label": {
+        "app_name": "Chats"
+    },
+    "enterTheRoom": "Den Raum betreten"
 }
