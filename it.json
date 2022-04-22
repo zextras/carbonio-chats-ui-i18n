@@ -461,8 +461,9 @@
         "news": "Novità",
         "stopMeetingRec": {
             "stopMeetingTitle": "Interrompi la registrazione della riunione",
-            "stopRecording": "La registrazione verrà interrotta. Potrai avviare una nuova registrazione in qualsiasi momenti durante questa riunione"
-        }
+            "stopRecording": "La registrazione verrà interrotta. Potrai avviare una nuova registrazione in qualsiasi momenti durante questa riunione."
+        },
+        "moderatorMeetingDescription": "Sarai il moderatore di questa Stanza. Puoi aggiungere altri moderatori e questi avranno i tuoi stessi permessi."
     },
     "notification": {
         "answer": "Rispondi",
