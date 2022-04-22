@@ -54,7 +54,9 @@
         "waitingModeratorToJoin": "आप मॉडरेटर द्वारा स्वीकार करने का इंतज़ार कर रहे हैं",
         "copyUserRoomLink": "लिंक कॉपी करें",
         "leaveGroup": "ग्रुप छोड़ें",
-        "planMeeting": "कोई Meeting प्लान करें"
+        "planMeeting": "कोई Meeting प्लान करें",
+        "stop": "रोकें",
+        "start": "शुरू करें"
     },
     "button": {
         "yes": "हाँ",
@@ -75,7 +77,8 @@
         "roomLinkCopied": "Room की लिंक कॉपी हुई",
         "appVersionCopied": "एप वर्शन कॉपी हुआ",
         "resetPersonalRoomLinkSuccess": "पर्सनल Room की लिंक रीसेट की गई",
-        "tryAReconnectionIn": "{{seconds}} में दोबारा कनेक्शन की कोशिश करें"
+        "tryAReconnectionIn": "{{seconds}} में दोबारा कनेक्शन की कोशिश करें",
+        "linkCopied": "लिंक कॉपी हो गई"
     },
     "modal": {
         "teamNews": "Team की खबरें",
@@ -259,7 +262,8 @@
             "enableScreenSharing": "स्क्रीन शेयरिंग चालू करें",
             "muteUserForAllDescription": "यूज़र की आवाज़ बंद करने पर सभी पार्टिसिपेंट यूज़र की आवाज़ नहीं सुन सकेंगे। सिर्फ आवाज़ बंद किए यूज़र खुद की आवाज़ चालू कर सकते हैं। आगे बढ़ें?",
             "disableScreensharing": "स्क्रीन शेयरिंग बंद करें",
-            "enableFullScreen": "फुलस्क्रीन"
+            "enableFullScreen": "फुलस्क्रीन",
+            "cameraEnabled": "कैमरा चालू"
         },
         "startModal": {
             "description": "आप मीटिंग में कैसे एंटर करना चाहते हैं?",
@@ -510,5 +514,19 @@
         "browserNotSupported": "आपके ब्राउज़र का यह वर्शन सपोर्टेड नहीं है। आप ब्राउज़र को अपडेट कर लें जिससे सभी फीचर्स का पूरा लाभ उठा सकें!",
         "goToTeam": "Team में जाएँ",
         "teamProductName": "Team"
+    },
+    "enterTheRoom": "Room में प्रवेश करें",
+    "external": {
+        "login": {
+            "externalLoginDescription": "यदि आप पहले से इस डोमेन में हैं तो आपको अपने आम वर्कस्पेस में रीडायरेक्ट कर दिया जाएगा। यदि आप कोई बाहरी यूज़र हैं तो आपको एक डेडिकेटेड इंटरफेस पर रीडायरेक्ट किया जाएगा।"
+        },
+        "unsupported": {
+            "browser": "ब्राउज़र सपोर्टेड नहीं है",
+            "device": "डिवाइस सपोर्ट नहीं है"
+        },
+        "youAreEnteringMeeting": "आप Room में प्रवेश करने वाले हैं"
+    },
+    "label": {
+        "app_name": "चैट"
     }
 }
