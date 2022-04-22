@@ -54,7 +54,10 @@
         "removeMember": "Üyeyi kaldır",
         "copyUserRoomLink": "Bağlantıyı kopyala",
         "copyLinkRoom": "Oda Bağlantısını kopyala",
-        "waitingModeratorToJoin": "Moderatörün kabul etmesi için bekliyorsunuz"
+        "waitingModeratorToJoin": "Moderatörün kabul etmesi için bekliyorsunuz",
+        "createRoom": "Oda Oluştur",
+        "start": "Başlat",
+        "stop": "Durdur"
     },
     "appVersion": "App sürümü",
     "button": {
@@ -185,7 +188,9 @@
         "uploadConversationPicturesFailed": "Görüşme fotoğrafı yüklenirken hata oluştu",
         "appVersionCopied": "App sürümü kopyalandı",
         "offline": "Sunucu ile bağlantıda bir sorun var",
-        "tryAReconnectionIn": "{{seconds}} saniye sonra yeniden bağlanmayı dene"
+        "tryAReconnectionIn": "{{seconds}} saniye sonra yeniden bağlanmayı dene",
+        "connecting": "Bağlanıyor…",
+        "linkCopied": "Bağlantı kopyalandı"
     },
     "meeting": {
         "attendeesComing": "Katılımcılar geliyor",
@@ -219,7 +224,13 @@
             "disableScreensharing": "Ekran Paylaşımı Devre Dışı",
             "enableFullScreen": "Tam ekran",
             "enableScreenSharing": "Ekran Paylaşımını Etkinleştir",
-            "muteUserForAllDescription": "Kullanıcı sesini kapattığınızda bütün katılımcılar artık onu duyamaz. Sadece sesi kapatılan kullanıcı kendi sesini açabilir. Devam edilsin mi?"
+            "muteUserForAllDescription": "Kullanıcı sesini kapattığınızda bütün katılımcılar artık onu duyamaz. Sadece sesi kapatılan kullanıcı kendi sesini açabilir. Devam edilsin mi?",
+            "audioDisabled": "Ses kapalı",
+            "audioEnabled": "Ses açık",
+            "cameraDisabled": "Kamera kapalı",
+            "cameraEnabled": "Kamera açık",
+            "playMyVoice": "Sesimi dinlet",
+            "stopMyVoice": "Sesimi durdur"
         },
         "startModal": {
             "description": "Toplantıya nasıl giriş yapmak istersiniz?",
@@ -233,7 +244,14 @@
         "defaultViewModeSaveLabel": "Seçeneği Kaydet",
         "defaultViewModeTitleModal": "Toplantı Ortamı Seçenekleri",
         "defaultViewModeDedicatedLabel": "\"Ayrılmış Mod\" seçerseniz, Toplantı deneyiminizin en iyi şekilde olması için tarayıcınızda ayrı bir sekmeye yönlendirileceksiniz.",
-        "resetMeetingUrlModalDescription": "Planlanmış \"{{conversationName}}\" için bağlantıyı yenilemek istediğinizden emin misiniz?"
+        "resetMeetingUrlModalDescription": "Planlanmış \"{{conversationName}}\" için bağlantıyı yenilemek istediğinizden emin misiniz?",
+        "errorMeetingRecording": "Kayıt işlemi başlatılamadı, lütfen sistem yöneticinizle görüşün.",
+        "recordedByOther": "{{username}} kayıt işlemi başlattı",
+        "wereToFindRecording": "Kayıt video sunucu giriş bölümüne kayıt edilecek, daha fazla bilgi için sistem yöneticinizle görüşün.",
+        "genericErrorMeeting": "Bu toplantı ile ilgili bir sorun var, sistem yöneticinizle görüşün.",
+        "recordedByMe": "Kayıt işlemi başlattınız",
+        "recording": "Kayıt yapılıyor",
+        "thisMeetingIsBeingRecorded": "Bu toplantı kayıt ediliyor"
     },
     "message": {
         "deletedMessage": "Silinmiş mesaj",
@@ -393,7 +411,12 @@
         "deleteMessageDescription": "Mesajı sildiğinizde, artık size ve diğer alıcılara görünmeyecek",
         "chatsNews": "Sohbet Haberleri",
         "userJoinedWaitingRoom": "Bekleme Odasında bekleyen kişi var",
-        "news": "Haberler"
+        "news": "Haberler",
+        "moderatorMeetingDescription": "Bu Oda için moderatör olacaksınız. Başka moderatörler ekleyebilirsiniz, onlar da sizinle aynı izinlere sahip olacak.",
+        "stopMeetingRec": {
+            "stopRecording": "Kayıt durdurulacak. Toplantı sırasında istediğiniz zaman yeni kayıt başlatabilirsiniz.",
+            "stopMeetingTitle": "Toplantı kayıt işlemini durdur"
+        }
     },
     "notification": {
         "answer": "Yanıtla",
@@ -405,9 +428,13 @@
             "descriptionWaitingLabel": "{{conversationName}} moderatörü tarafından kabul edilmek için bekliyorsunuz",
             "notificationAcceptedByModerator": "Moderatör tarafından kabul edildiniz",
             "userIsWaiting": "Yeni kullanıcı girmek için bekliyor",
-            "userJoinedWaitingRoom": "Bekleme Odasında bekleyen kişi var",
-            "notificationJoinTheRoom": "Toplantıya katılmak için Oda'ya girin"
-        }
+            "userJoinedWaitingRoom": "Bekleme odasında bekleyen kişi var",
+            "notificationJoinTheRoom": "Toplantıya katılmak için odaya girin"
+        },
+        "meeting": {
+            "ended": "Toplantı Bitti"
+        },
+        "startMeetingRecording": "{{conversationName}} toplantı kayıt işlemi başladı"
     },
     "people": {
         "manyMembers": "{{membersCount}} üye",
@@ -512,5 +539,38 @@
         "goToTeam": "Team'e git",
         "teamProductName": "Team",
         "browserNotSupported": "Tarayıcı sürümünüz desteklenmiyor. Tüm özelliklerden yararlanmak için tarayıcınızı güncellemeniz önerilir!"
-    }
+    },
+    "enterTheRoom": "Oda'ya Gir",
+    "external": {
+        "login": {
+            "externalLoginDescription": "Bu etki alanının üyesiyseniz her zaman kullandığınız çalışma alanına yönlendirileceksiniz. Eğer dışarıdan bir kullanıcıysanız özel bir arayüze yönlendirileceksiniz."
+        },
+        "nobodyInTheRoom": "Bu Oda'da kimse yok",
+        "roomIsEmpty": "Bu Oda boş",
+        "unsupported": {
+            "browser": "Desteklenmeyen tarayıcı",
+            "device": "Desteklenmeyen cihaz"
+        },
+        "waitingRoom": {
+            "accessDenied": "Erişim reddedildi",
+            "moderatorRefusedAccessToRoom": "Moderatör bu Oda'ya erişiminize izin vermedi",
+            "userLeftLookForwardToSee": "Tekrar görüşmek üzere",
+            "userLeftReturnToWaitingRoom": "Oda bağlantısından bekleme odasına istediğiniz zaman geri gidebilirsiniz",
+            "userLeftWaitingRoom": "Bekleme odasından ayrıldınız"
+        },
+        "youAreEnteringMeeting": "Oda'ya girmek üzeresiniz"
+    },
+    "label": {
+        "app_name": "Sohbetler"
+    },
+    "tryLater": "Sonra deneyin",
+    "virtualRoom": "Sanal Oda",
+    "errorPage": {
+        "description": "Bağlantıyı kontrol edin, yanlış olabilir",
+        "errorCode": "hata kodu 404",
+        "title": "Üzgünüz, bu Oda bulunamadı"
+    },
+    "organizeYourMeeting": "Kendi toplantınızı oluşturun veya çalışma arkadaşlarınızın odalarına katılın",
+    "thanksForParticipating": "Katıldığınız için teşekkürler",
+    "typeYourEmail": "E-posta adresinizi yazın"
 }
