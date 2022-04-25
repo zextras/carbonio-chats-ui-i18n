@@ -54,7 +54,10 @@
         "waitingModeratorToJoin": "Czekasz na zaakceptowanie przez moderatora",
         "activateNotifications": "Włącz powiadomienia",
         "joinChannel": "Dołącz do Kanału, aby wysyłać wiadomości i otrzymywać powiadomienia",
-        "leaveAndDelete": "Opuść i usuń"
+        "leaveAndDelete": "Opuść i usuń",
+        "createRoom": "Stwórz Pokój",
+        "start": "Rozpocznij",
+        "stop": "Zatrzymaj"
     },
     "appVersion": "Wersja aplikacji",
     "button": {
@@ -80,7 +83,7 @@
         "roomLinkDescription": "Skopiuj ten link i udostępnij go, aby umożliwić użytkownikom dostęp do tego Pokoju.",
         "roomName": "Nazwa pokoju",
         "spaceInfo": "Informacje o przestrzeni",
-        "speakersCorner": "Kącik mówcy",
+        "speakersCorner": "Użytkownicy w Pokoju Spotkań",
         "title": "Tytuł",
         "topic": "Temat"
     },
@@ -133,7 +136,7 @@
         "instantMeeting": {
             "addAttendees": "Dodaj uczestników do swojego Natychmiastowego Spotkania",
             "addAttendeesDescription": "Zaprość uczestników wpisując ich imiona lub adresy e-mail tutaj.",
-            "addAttendeesInputExplanation": "Możesz również zaprosić użytkowników spoza swojej organizacji wpisując ich adres e-mail.",
+            "addAttendeesInputExplanation": "Możesz również zaprosić użytkowników spoza swojej domeny wpisując ich adres e-mail.",
             "attendee": {
                 "feedback": {
                     "negative": "Wpisany adres e-mail jest nieprawidłowy, prosimy o wpisanie prawidłowego",
@@ -141,7 +144,7 @@
                 }
             },
             "titleDescription": "Nadaj Natyczmiastowemu Spotkaniu wymowny tytuł, aby uczestnicy znali cel spotkania.",
-            "description": "Natychmiastowe Spotkania to rozmowy wideo, które są zaprojektowane by być szybkie i krótkie. Po zakończeniu rozmowy, jej czat przestanie istnieć, jego zawartość zostanie trwale wymazana. Natychmiastowe Spotkania mogą być tworzone tylko przez użytkowników Team Pro, ale mogą do nich dołączać wszyscy użytkownicy, nawet ci spoza twojej organizacji."
+            "description": "Natychmiastowe Spotkania to rozmowy wideo, które są zaprojektowane by być szybkie i krótkie. Po zakończeniu rozmowy, jej czat przestanie istnieć, jego zawartość zostanie trwale wymazana. Natychmiastowe Spotkania mogą być tworzone tylko przez użytkowników Team Pro, ale mogą do nich dołączać wszyscy użytkownicy, nawet ci spoza twojej domeny."
         },
         "limitOfParticipantReached": "Osiągnięto limit uczestników ustawiony przez administratora",
         "nameMax140Characters": "Max. 140 znaków",
@@ -172,7 +175,7 @@
         "typeWithNameAddParticipant": "Dodaj uczestników do",
         "youCanInviteOther": "Możesz zaprosić jeszcze {{limit}} uczestników",
         "nameRequired-max140Characters-avoidReusingNames": "Wymagane. Max. 140 znaków, unikaj powtarzania poprzednich nazw.",
-        "selectMoreParticipantsForInstantMeetings": "Wybierz uczestnika z listy lub wpisz adres e-mail aby dodać, użytkowinka spoza swojej organizacji (domeny)"
+        "selectMoreParticipantsForInstantMeetings": "Wybierz uczestnika z listy lub wpisz adres e-mail aby dodać, użytkowinka spoza swojej domeny"
     },
     "feedback": {
         "appVersionCopied": "Wersja aplikacji została skopiowana",
@@ -185,7 +188,9 @@
         "roomLinkCopied": "Link do Pokoju został skopiowany",
         "tryAReconnectionIn": "Spróbuj połączyć się ponownie za {{seconds}}",
         "retryConnection": "Połącz się ponownie",
-        "uploadConversationPicturesFailed": "Nie udało się dodać obrazu konwersacji"
+        "uploadConversationPicturesFailed": "Nie udało się dodać obrazu konwersacji",
+        "connecting": "Łączenie...",
+        "linkCopied": "Link został skopiowany"
     },
     "general": {
         "goToTeam": "Idź do Team",
@@ -226,7 +231,13 @@
                 "cameraMicOff": "Twoje wideo i mikrofon są wyłączone",
                 "cameraOff": "Twoje wideo jest wyłączone"
             },
-            "unpinVideo": "Odepnij wideo"
+            "unpinVideo": "Odepnij wideo",
+            "stopMyVoice": "Zatrzymaj mój głos",
+            "audioDisabled": "Dźwięk wyłączony",
+            "audioEnabled": "Dźwięk włączony",
+            "cameraDisabled": "Wideo wyłączone",
+            "cameraEnabled": "Wideo włączone",
+            "playMyVoice": "Odtwórz mój głos"
         },
         "resetMeetingUrlModalDescription": "Czy na pewno chcesz zresetować link dla \"{{conversationName}}\"?",
         "startModal": {
@@ -238,7 +249,14 @@
             "noVideoAndNoAudio": "Wideo wyłączone, Mikrofon wyłączony"
         },
         "attendeesComing": "Uczestnicy dołączają",
-        "defaultViewModeDefaultLabel": "Przy wyborze \"Trybu Domyślnego\", Spotkanie rozpocznie się w obecnym, wewnętrznym środowisku."
+        "defaultViewModeDefaultLabel": "Przy wyborze \"Trybu Domyślnego\", Spotkanie rozpocznie się w obecnym, wewnętrznym środowisku.",
+        "errorMeetingRecording": "Nie można rozpocząć rejestracji, skontaktuj się z administratorem systemu.",
+        "genericErrorMeeting": "Wygląda na to, że wystąpił problem z tym spotkaniem, skontaktuj się z administratorem systemu.",
+        "recordedByMe": "Rozpocząłeś nagrywanie",
+        "recordedByOther": "{{username}} rozpoczął nagrywanie",
+        "recording": "Nagrywanie",
+        "thisMeetingIsBeingRecorded": "To spotkanie jest nagrywane",
+        "wereToFindRecording": "Nagranie zostanie zapisane w starcie serwera wideo, skontaktuj się z administratorem systemu aby poznać więcej szczegółów."
     },
     "message": {
         "deletedMessage": "Wiadomość usunięta",
@@ -396,7 +414,12 @@
         "planMeetingDescription": "Nazwa Pokoju pomaga uczestnikom poznać tematykę dyskusji w Pokoju.",
         "roomsFunctionalitiesChangelogDescription": "Dokonaliśmy ważnych zmian w funkcjonalności spotkań. Przeczytaj wprowadzenie do Pokojów, aby dowiedzieć się więcej!",
         "teamNews": "Nowości w Team",
-        "userJoinedWaitingRoom": "Wygląda na to, że ktoś znajduje się w Poczekalni"
+        "userJoinedWaitingRoom": "Wygląda na to, że ktoś znajduje się w Poczekalni",
+        "moderatorMeetingDescription": "Będziesz moderował Pokojem. Możesz dodać innych moderatorów, będa oni mieli takie same uprawnienia jak ty.",
+        "stopMeetingRec": {
+            "stopMeetingTitle": "Zatrzymaj nagrywanie spotkania",
+            "stopRecording": "Nagrywanie zostanie zatrzymane. Możesz rozpocząć nowe nagrywanie kiedykolwiek podczas tego spotkania."
+        }
     },
     "notification": {
         "answer": "Odbierz",
@@ -407,10 +430,14 @@
             "descriptionAcceptedLabel": "Zostałeś zaakceptowany przez moderatora konwersacji {{conversationName}}",
             "notificationAcceptedByModerator": "Zostałeś zaakceptowany przez moderatora",
             "descriptionWaitingLabel": "Czekasz na bycie zaakceptowanym przez moderatora konwersacji {{conversationName}}",
-            "notificationJoinTheRoom": "Dołącz do Pokoju, aby wziąć udział w spotkaniu",
+            "notificationJoinTheRoom": "Dołącz do pokoju, aby wziąć udział w spotkaniu",
             "userIsWaiting": "Nowy użytkownik czeka na wpuszczenie",
-            "userJoinedWaitingRoom": "Wygląda na to, że ktoś znajduje się w Poczekalni"
-        }
+            "userJoinedWaitingRoom": "Wygląda na to, że ktoś znajduje się w poczekalni"
+        },
+        "meeting": {
+            "ended": "Spotkanie zostało Zakończone"
+        },
+        "startMeetingRecording": "Nagrywanie spotkania {{conversationName}} zostało rozpoczęte"
     },
     "people": {
         "manyMembers": "{{membersCount}} członków",
@@ -464,8 +491,8 @@
     },
     "status": {
         "areWriting": "piszą…",
-        "externalGuest": "Gość spoza mojej organizacji",
-        "internalGuest": "Gość z mojej organizacji",
+        "externalGuest": "Gość spoza mojej domeny",
+        "internalGuest": "Gość z mojej domeny",
         "isWriting": "pisze…",
         "lastSeen": "Ostatnio widziano {{lastSeen}}",
         "offline": "Offline",
@@ -510,5 +537,38 @@
         "switchToConversation": "Przełącz na konwersację",
         "switchToInfoPanel": "Przełącz na panel informacyjny",
         "removeMember": "Usuń członka"
-    }
+    },
+    "external": {
+        "login": {
+            "externalLoginDescription": "Jeżeli już należysz do tej domeny, zostaniesz przekierowany do swojego standardowego miejsca pracy. Jeżeli nie należysz do niej, zostaniesz przeniesiony do dedykowanego interfejsu."
+        },
+        "waitingRoom": {
+            "userLeftReturnToWaitingRoom": "Możesz powrócić do poczekalni kiedykolwiek używając linku do Pokoju",
+            "accessDenied": "Brak dostępu",
+            "moderatorRefusedAccessToRoom": "Moderator odmówił ci wstępu do Pokoju",
+            "userLeftWaitingRoom": "Opuściłeś poczekalnię",
+            "userLeftLookForwardToSee": "Z niecierpliwością czekamy aby zobaczyć cię ponownie"
+        },
+        "nobodyInTheRoom": "Wygląda na to, że nikogo nie ma w tym Pokoju",
+        "roomIsEmpty": "Ten Pokój jest pusty",
+        "unsupported": {
+            "browser": "Niewspierana przeglądarka",
+            "device": "Niewspierane urządzenie"
+        },
+        "youAreEnteringMeeting": "Za chwilę dołączysz do Pokoju"
+    },
+    "enterTheRoom": "Dołącz do Pokoju",
+    "errorPage": {
+        "description": "Sprawdź link, być może jest błędny",
+        "errorCode": "błąd kod 404",
+        "title": "Nie udało się znaleźć tego Pokoju"
+    },
+    "label": {
+        "app_name": "Czaty"
+    },
+    "organizeYourMeeting": "Zorganizuj własne spotkania lub dołącz do Pokoi swoich współpracowników",
+    "thanksForParticipating": "Dziękujemy za uczestniczenie",
+    "tryLater": "Spróbuj później",
+    "typeYourEmail": "Wpisz swój e-mail",
+    "virtualRoom": "Wirtualny Pokój"
 }
