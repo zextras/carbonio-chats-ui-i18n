@@ -52,6 +52,7 @@
         "replyToSomeone": "Reply to",
         "replyToYourself": "Reply to yourself",
         "resetLink": "Reset link",
+        "saveToFiles": "Save to Files",
         "scrollToNewMessage": "Scroll to new message",
         "scrollToTheBottom": "Scroll to the bottom",
         "start": "Start",
@@ -441,6 +442,7 @@
         "notShowAgain": "Do not show this again",
         "planMeetingDescription": "Room's name helps the attendees to know the Room's matter of discussion.",
         "roomsFunctionalitiesChangelogDescription": "We have made important changes to the meeting functionalities. Read the introduction to the Rooms to find out more!",
+        "selectFolder": "Select folder",
         "showPreviousConversationHistory": "Show previous conversation history",
         "stopMeetingRec": {
             "stopMeetingTitle": "Stop meeting's recording",
@@ -477,6 +479,7 @@
         "whoYoureLookinkFor": "Who are you looking for?",
         "you": "You"
     },
+    "personalRoomLabel": "{{userName}}'s Personal Room",
     "settings": {
         "meeting": {
             "description": "Set your audio and video preferences to enter meetings. You can always customize your preferences before entering any meeting.",
@@ -542,6 +545,7 @@
         "copyRoomLinkTooltip": "Copy this link to share the Room",
         "copyUserRoom": "Copy your Personal Room's link",
         "copyUserRoomTooltip": "Copy this link and share it to provide others with access to your Personal Room",
+        "disabledCreateButton": "Check your inputs to make sure there are no errors",
         "downgradeModerator": "Downgrade Moderator",
         "editDescription": "Edit description",
         "editInfo": "Edit info",
