@@ -385,7 +385,7 @@
             "deleteSpace": "Czy na pewno chcesz usunąć tą Przestrzeń?",
             "leaveAndDeleteConversation": "Czy na pewno chcesz wyjść i usunąć {{conversationName}}?",
             "leaveChannel": "Czy na pewno chcesz wyjść z Kanału?",
-            "clearHistory": "Historia twojego czatu zostanie trwale usunięta. Historie innych uczestników nie zostaną usunięte. Tej akcji nie da się cofnąć.",
+            "clearHistory": "Twoja historia czatu zostanie trwale usunięta. Historie innych uczestników nie zostaną usunięte. Tej akcji nie da się cofnąć.",
             "deleteChannel": "Czy na pewno chcesz usunąć ten Kanał?",
             "deleteRoom": "Czy na pewno chcesz usunąć ten Pokój?",
             "leaveGroup": "Czy na pewno chcesz wyjść z Grupy?",
@@ -407,9 +407,9 @@
             "endCallByOwner": "Organizator tego Natychmiastowego Spotkania zdecydował zakończyć tą rozmowę. Mamy nadzieję, że ta rozmowa była dla ciebie pozytywnym doświadczeniem",
             "instantMeetingAlreadyRunningTitle": "Natychmiastowe Spotkanie już się rozpoczęło"
         },
-        "showPreviousConversationHistory": "Pokaż poprzednią historię konwersacji",
+        "showPreviousConversationHistory": "Pokaż historię poprzednich konwersacji",
         "moderatorCannotLeaveGroupDescription": "Jesteś jedynym moderatorem {{conversationName}}, musisz awansować kogoś nowego na moderatora, aby móc opuścić Grupę.",
-        "moderatorCannotLeaveGroupTitle": "Poczekaj chwilkę, potrzebny jest nowy moderator",
+        "moderatorCannotLeaveGroupTitle": "Poczekaj, potrzebny jest nowy moderator",
         "notShowAgain": "Nie pokazuj tego ponownie",
         "planMeetingDescription": "Nazwa Pokoju pomaga uczestnikom poznać tematykę dyskusji w Pokoju.",
         "roomsFunctionalitiesChangelogDescription": "Dokonaliśmy ważnych zmian w funkcjonalności spotkań. Przeczytaj wprowadzenie do Pokojów, aby dowiedzieć się więcej!",
@@ -566,7 +566,7 @@
     "label": {
         "app_name": "Czaty"
     },
-    "organizeYourMeeting": "Zorganizuj własne spotkania lub dołącz do Pokoi swoich współpracowników",
+    "organizeYourMeeting": "Zorganizuj własne spotkania lub dołącz do Pokoi swoich kolegów",
     "thanksForParticipating": "Dziękujemy za uczestniczenie",
     "tryLater": "Spróbuj później",
     "typeYourEmail": "Wpisz swój e-mail",
