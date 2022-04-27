@@ -87,7 +87,9 @@
         "removeMember": "Remover membro",
         "resetLink": "Redefinir link",
         "goToGuide": "Ir ao guia",
-        "waitingModeratorToJoin": "Você está aguardando o aceite de um moderador"
+        "waitingModeratorToJoin": "Você está aguardando o aceite de um moderador",
+        "stop": "Parar",
+        "start": "Iniciar"
     },
     "appVersion": "Versão do aplicativo",
     "button": {
@@ -194,7 +196,9 @@
         "offline": "Parece ser um problema de conexão com o servidor",
         "resetPersonalRoomLinkSuccess": "O link da Sala Pessoal foi redefinido",
         "roomLinkCopied": "Link da Sala copiado",
-        "tryAReconnectionIn": "Tente reconectar em {{seconds}}"
+        "tryAReconnectionIn": "Tente reconectar em {{seconds}}",
+        "connecting": "Conectando...",
+        "linkCopied": "Link copiado"
     },
     "meeting": {
         "attendeesComing": "Os participantes estão chegando",
@@ -228,7 +232,8 @@
             },
             "unpinVideo": "Desenganchar video",
             "enableFullScreen": "Tela cheia",
-            "muteUserForAllDescription": "Ao silenciar o usuário, todos os participantes não ouvirão mais ele. Somente o usuário silenciado pode ser reativado. Proceder?"
+            "muteUserForAllDescription": "Ao silenciar o usuário, todos os participantes não ouvirão mais ele. Somente o usuário silenciado pode ser reativado. Proceder?",
+            "cameraEnabled": "Câmera habilitada"
         },
         "startModal": {
             "description": "Como você quer entrar na reunião?",
@@ -400,7 +405,8 @@
         "teamNews": "Notícias do Team",
         "userJoinedWaitingRoom": "Parece que tem alguém na Sala de Espera",
         "deleteMessageDescription": "Ao excluir uma mensagem, ela não será mais visível para você e para todos os outros destinatários",
-        "planMeetingDescription": "O nome da sala ajuda os participantes a saber o assunto da Sala."
+        "planMeetingDescription": "O nome da sala ajuda os participantes a saber o assunto da Sala.",
+        "selectFolder": "Selecionar pasta"
     },
     "notification": {
         "answer": "Responder",
@@ -510,5 +516,19 @@
         "goToTeam": "Ir para Team",
         "teamProductName": "Team",
         "browserNotSupported": "A versão do seu navegador não é suportada. Recomendamos que você atualize seu navegador para se beneficiar de todos os recursos!"
+    },
+    "enterTheRoom": "Entrar na Sala",
+    "label": {
+        "app_name": "Chats"
+    },
+    "external": {
+        "login": {
+            "externalLoginDescription": "Se você já pertence a este domínio, será redirecionado para sua área de trabalho normal. Caso seja um usuário externo, você será redirecionado para uma interface dedicada."
+        },
+        "unsupported": {
+            "browser": "Navegador não suportado",
+            "device": "Dispositivo não suportado"
+        },
+        "youAreEnteringMeeting": "Você está prestes a entrar na Sala"
     }
 }
