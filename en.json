@@ -215,6 +215,8 @@
         "resetPersonalRoomLinkSuccess": "Personal Room's link was reset",
         "retryConnection": "Retry connection",
         "roomLinkCopied": "Room's link copied",
+        "saveAttachmentError": "There seem to be problems saving, please try again",
+        "saveAttachmentSuccessfull": "Attachment saved in selected folder",
         "tryAReconnectionIn": "Try a reconnection in {{seconds}}",
         "uploadConversationPicturesFailed": "Failed to upload conversation picture"
     },
