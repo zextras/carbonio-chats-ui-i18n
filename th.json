@@ -247,7 +247,9 @@
         "leaveGroup": "ออกจากกลุ่ม",
         "openInChats": "เปิดใน Chats",
         "removeMember": "ลบสมาชิก",
-        "resetLink": "รีเซ็ตลิงก์"
+        "resetLink": "รีเซ็ตลิงก์",
+        "start": "เริ่ม",
+        "stop": "หยุด"
     },
     "appVersion": "เวอร์ชันของแอป",
     "button": {
@@ -312,7 +314,8 @@
         "roomLinkCopied": "คัดลอกลิงก์ของห้องแล้ว",
         "resetPersonalRoomLinkSuccess": "ลิงก์ของห้องส่วนตัวถูกรีเซ็ตแล้ว",
         "appVersionCopied": "คัดลอกเวอร์ชันแอปแล้ว",
-        "tryAReconnectionIn": "ลองเชื่อมต่อใหม่ใน {{seconds}}"
+        "tryAReconnectionIn": "ลองเชื่อมต่อใหม่ใน {{seconds}}",
+        "linkCopied": "คัดลอกลิงก์แล้ว"
     },
     "meeting": {
         "attendeesComing": "ผู้เข้าร่วมงานกำลังมา",
@@ -346,7 +349,8 @@
             },
             "unpinVideo": "ยกเลิกการปักหมุดวิดีโอ",
             "muteUserForAllDescription": "เมื่อปิดเสียงผู้ใช้ ผู้เข้าร่วมทั้งหมดจะไม่ได้ยินเสียงผู้ใช้อีกต่อไป ผู้ใช้ที่ปิดเสียงเท่านั้นที่สามารถเปิดเสียงตัวเองได้ ต้องการดำเนินการต่อหรือไม่?",
-            "enableFullScreen": "เต็มจอ"
+            "enableFullScreen": "เต็มจอ",
+            "cameraEnabled": "เปิดใช้งานกล้องถ่ายรูป"
         },
         "startModal": {
             "description": "คุณต้องการเข้าร่วมการประชุมอย่างไร?",
@@ -400,7 +404,8 @@
         "notShowAgain": "ไม่ต้องแสดงอีก",
         "planMeetingDescription": "ชื่อห้องช่วยให้ผู้เข้าร่วมประชุมทราบถึงประเด็นการสนทนาของห้องนั้นๆ",
         "teamNews": "ข่าว Team",
-        "userJoinedWaitingRoom": "ดูเหมือนว่าจะมีใครบางคนรออยู่ในห้องคัดกรอง"
+        "userJoinedWaitingRoom": "ดูเหมือนว่าจะมีใครบางคนรออยู่ในห้องคัดกรอง",
+        "selectFolder": "เลือกโฟลเดอร์"
     },
     "notification": {
         "answer": "รับสาย",
@@ -510,5 +515,19 @@
         "browserNotSupported": "ไม่สามารถรองรับเวอร์ชันของเบราว์เซอร์ของคุณได้ ขอแนะนำให้อัปเดตเบราว์เซอร์เพื่อการใช้งานคุณสมบัติจากฟีเจอร์ทั้งหมด!",
         "goToTeam": "ไปยัง Team",
         "teamProductName": "Team"
+    },
+    "enterTheRoom": "เข้าห้อง",
+    "external": {
+        "login": {
+            "externalLoginDescription": "หากคุณอยู่ในโดเมนนี้แล้ว คุณจะถูกเปลี่ยนเส้นทางไปยังพื้นที่ทำงานปกติของคุณ หากคุณเป็นผู้ใช้ภายนอก คุณจะถูกเปลี่ยนเส้นทางไปยังอินเทอร์เฟซเฉพาะ"
+        },
+        "unsupported": {
+            "browser": "เบราว์เซอร์ที่ไม่ได้รับการรองรับ",
+            "device": "อุปกรณ์ที่ไม่รองรับ"
+        },
+        "youAreEnteringMeeting": "คุณกำลังจะเข้าสู่ห้อง"
+    },
+    "label": {
+        "app_name": "Chats"
     }
 }
