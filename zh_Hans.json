@@ -434,7 +434,8 @@
         "planMeetingDescription": "房间名称有助于参与者了解会议的讨论事项。",
         "roomsFunctionalitiesChangelogDescription": "我们对会议功能进行了重大更改。请阅读房间说明以了解更多信息！",
         "userJoinedWaitingRoom": "等待房间中似乎有用户",
-        "teamNews": "团队新闻"
+        "teamNews": "团队新闻",
+        "selectFolder": "选择文件夹"
     },
     "notification": {
         "answer": "答复",
