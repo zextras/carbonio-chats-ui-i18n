@@ -57,7 +57,8 @@
         "copyLinkRoom": "Copia link della Stanza",
         "start": "Avvia",
         "createRoom": "Crea Stanza",
-        "stop": "Ferma"
+        "stop": "Ferma",
+        "saveToFiles": "Salva su Files"
     },
     "conversations": {
         "instantMeetings": "Instant Meeting",
@@ -312,7 +313,8 @@
         "copyUserRoom": "Copia il link della tua Stanza Personale",
         "planMeeting": "Programma una Riunione",
         "searchForParticipant": "Cerca partecipante",
-        "copyUserRoomTooltip": "Copia e condividi questo link per dare accesso alla tua Stanza Personale"
+        "copyUserRoomTooltip": "Copia e condividi questo link per dare accesso alla tua Stanza Personale",
+        "disabledCreateButton": "Controlla i dati inseriti e assicurati che non ci siano errori"
     },
     "appVersion": "Versione app",
     "button": {
@@ -463,7 +465,8 @@
             "stopMeetingTitle": "Interrompi la registrazione della riunione",
             "stopRecording": "La registrazione verrà interrotta. Potrai avviare una nuova registrazione in qualsiasi momenti durante questa riunione."
         },
-        "moderatorMeetingDescription": "Sarai il moderatore di questa Stanza. Puoi aggiungere altri moderatori e questi avranno i tuoi stessi permessi."
+        "moderatorMeetingDescription": "Sarai il moderatore di questa Stanza. Puoi aggiungere altri moderatori e questi avranno i tuoi stessi permessi.",
+        "selectFolder": "Seleziona cartella"
     },
     "notification": {
         "answer": "Rispondi",
@@ -572,5 +575,6 @@
     "typeYourEmail": "Digita il tuo indirizzo e-mail",
     "virtualRoom": "Stanza Virtuale",
     "enterTheRoom": "Entra nella Stanza",
-    "thanksForParticipating": "Grazie per aver partecipato"
+    "thanksForParticipating": "Grazie per aver partecipato",
+    "personalRoomLabel": "Stanza Personale di {{userName}}"
 }
