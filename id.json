@@ -54,7 +54,9 @@
         "copyUserRoomLink": "Salin Tautan",
         "openInChats": "Buka di Chats",
         "planMeeting": "Rencanakan Rapat",
-        "resetLink": "Atur ulang tautan"
+        "resetLink": "Atur ulang tautan",
+        "start": "Mulai",
+        "stop": "Hentikan"
     },
     "creation": {
         "selectMoreParticipantsForInstantMeetings": "Pilih peserta dari daftar atau ketik alamat untuk menambahkan pengguna eksternal",
@@ -237,7 +239,9 @@
         "offline": "Tampaknya ada masalah koneksi server",
         "resetPersonalRoomLinkSuccess": "Tautan Ruang Pribadi diatur ulang",
         "roomLinkCopied": "Tautan ruang disalin",
-        "tryAReconnectionIn": "Coba sambungkan ulang dalam {{seconds}}"
+        "tryAReconnectionIn": "Coba sambungkan ulang dalam {{seconds}}",
+        "connecting": "Menghubungkan...",
+        "linkCopied": "Tautan disalin"
     },
     "meeting": {
         "attendeesComing": "Peserta mulai hadir",
@@ -271,7 +275,8 @@
             "muteUserForAllDescription": "Dengan membisukan pengguna, semua peserta tidak akan mendengar pengguna lagi. Hanya pengguna yang dibisukan yang bisa menyalakan suaranya sendiri. Lanjutkan?",
             "disableScreensharing": "Nonaktifkan Berbagi Layar",
             "enableFullScreen": "Layar penuh",
-            "enableScreenSharing": "Aktifkan Berbagi Layar"
+            "enableScreenSharing": "Aktifkan Berbagi Layar",
+            "cameraEnabled": "Kamera diaktifkan"
         },
         "startModal": {
             "description": "Bagaimana cara yang Anda inginkan untuk masuk ke rapat?",
@@ -443,7 +448,8 @@
         "notShowAgain": "Jangan tampilkan ini lagi",
         "roomsFunctionalitiesChangelogDescription": "Kami telah membuat perubahan penting pada fungsi rapat. Baca pengantar Ruang untuk menemukan lebih banyak!",
         "teamNews": "Berita Team",
-        "userJoinedWaitingRoom": "Tampaknya ada seseorang di Ruang Tunggu"
+        "userJoinedWaitingRoom": "Tampaknya ada seseorang di Ruang Tunggu",
+        "selectFolder": "Pilih folder"
     },
     "people": {
         "manyMembers": "{{membersCount}} anggota",
@@ -510,5 +516,19 @@
         "browserNotSupported": "Versi browser Anda tidak didukung. Sangat disarankan untuk memperbarui browser guna mendapatkan manfaat dari semua fitur!",
         "goToTeam": "Buka Team",
         "teamProductName": "Team"
+    },
+    "enterTheRoom": "Masuk ke Ruang",
+    "external": {
+        "unsupported": {
+            "browser": "Browser tidak didukung",
+            "device": "Perangkat tidak didukung"
+        },
+        "youAreEnteringMeeting": "Anda akan memasuki Ruang",
+        "login": {
+            "externalLoginDescription": "Jika sudah menjadi bagian dari domain ini, Anda akan diarahkan ke ruang kerja biasanya. Jika Anda pengguna eksternal, Anda akan diarahkan ke antarmuka khusus."
+        }
+    },
+    "label": {
+        "app_name": "Chats"
     }
 }
