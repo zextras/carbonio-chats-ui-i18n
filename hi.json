@@ -118,7 +118,8 @@
         "planMeetingDescription": "Room के नाम से मीटिंग में आने वालों को Room में किस विषय पर बात हो रही है जानने में मदद मिलती है।",
         "deleteMessageDescription": "कोई मैसेज डिलीट करने पर यह आपके लिए या दूसरे सभी पाने वालों को दिखाई नहीं देगा",
         "news": "न्यूज़",
-        "userJoinedWaitingRoom": "ऐसा लग रहा है कि Waiting Room में कोई है"
+        "userJoinedWaitingRoom": "ऐसा लग रहा है कि Waiting Room में कोई है",
+        "selectFolder": "फोल्डर सिलेक्ट करें"
     },
     "appVersion": "एप वर्शन",
     "conversation": {
