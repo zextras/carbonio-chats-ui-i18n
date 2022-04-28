@@ -57,7 +57,8 @@
         "copyUserRoomLink": "Copier le lien",
         "createRoom": "Créer une salle",
         "start": "Démarrer",
-        "stop": "Arrêter"
+        "stop": "Arrêter",
+        "saveToFiles": "Enregistrer dans Files"
     },
     "creation": {
         "attendeeAdded": "Participant ajouté à la liste",
@@ -308,7 +309,9 @@
         "roomLinkCopied": "Le lien de la salle a été copié",
         "tryAReconnectionIn": "Essayez de vous reconnecter dans {{seconds}}",
         "connecting": "Connexion...",
-        "linkCopied": "Lien copié"
+        "linkCopied": "Lien copié",
+        "saveAttachmentError": "Il semble y avoir un problème lors de l'enregistrement, merci de réessayer",
+        "saveAttachmentSuccessfull": "La pièce jointe a été enregistré dans le dossier sélectionné"
     },
     "meeting": {
         "attendeesComing": "Les participants arrivent",
@@ -416,7 +419,8 @@
         "stopMeetingRec": {
             "stopRecording": "L'enregistrement va être arrêté. Vous pouvez lancer un nouvel enregistrement à tout moment durant cette réunion.",
             "stopMeetingTitle": "Arrêter l'enregistrement de cette réunion"
-        }
+        },
+        "selectFolder": "Sélectionner un dossier"
     },
     "notification": {
         "answer": "réponse",
@@ -533,7 +537,8 @@
         "rejectQueuedMember": "Refuser l'utilisateur",
         "searchForParticipant": "Recherche de participants",
         "inviteToPersonalRoom": "Inviter dans votre réunion personnelle",
-        "copyUserRoomTooltip": "Copier ce lien et le partager permet aux autres d'avoir accès à votre Salle Personnelle"
+        "copyUserRoomTooltip": "Copier ce lien et le partager permet aux autres d'avoir accès à votre Salle Personnelle",
+        "disabledCreateButton": "Vérifier votre saisie afin de vous assurer qu'il n'y a pas d'erreurs"
     },
     "general": {
         "browserNotSupported": "La version de votre navigateur n'est pas supportée. Il est fortement recommander de mettre à jour votre navigateur pour bénéficier de l'ensemble des fonctionnalités !",
@@ -572,5 +577,6 @@
     "organizeYourMeeting": "Organisez votre propre réunion ou rejoignez les salles de vos collègues",
     "tryLater": "Essayez plus tard",
     "typeYourEmail": "Tapez votre email",
-    "virtualRoom": "Salle virtuelle"
+    "virtualRoom": "Salle virtuelle",
+    "personalRoomLabel": "Salle personnelle de {{userName}}"
 }
