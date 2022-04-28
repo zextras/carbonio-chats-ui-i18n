@@ -357,7 +357,9 @@
         "offline": "Sembra esserci un errore di connessione al server",
         "tryAReconnectionIn": "Prova a riconnetterti tra {{seconds}}",
         "connecting": "Connessione in corso…",
-        "linkCopied": "Link copiato"
+        "linkCopied": "Link copiato",
+        "saveAttachmentSuccessfull": "Allegato salvato nella cartella selezionata",
+        "saveAttachmentError": "Sembra esserci stato un problema durante il salvataggio, riprova"
     },
     "meeting": {
         "attendeesComing": "I partecipanti stanno arrivando",
