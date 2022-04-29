@@ -128,7 +128,9 @@
         "removeMember": "メンバーを削除する",
         "resetLink": "リンクをリセットする",
         "saveToFiles": "ファイルに保存する",
-        "createRoom": "ルームを作成する"
+        "createRoom": "ルームを作成する",
+        "start": "開始",
+        "stop": "ストップ"
     },
     "appVersion": "アプリのバージョン",
     "button": {
@@ -237,7 +239,9 @@
         "resetPersonalRoomLinkSuccess": "パーソナルルームのリンクがリセットされました",
         "roomLinkCopied": "ルームのリンクがコピーされました",
         "saveAttachmentError": "保存の際に問題が生じたようです。再度お試しください",
-        "saveAttachmentSuccessfull": "選択したフォルダに保存された添付ファイル"
+        "saveAttachmentSuccessfull": "選択したフォルダに保存された添付ファイル",
+        "linkCopied": "リンクをコピーしました",
+        "connecting": "接続しています…"
     },
     "meeting": {
         "attendeesComing": "参加者が来ています",
@@ -276,7 +280,8 @@
             "stopMyVoice": "自分の声を停止する",
             "audioDisabled": "オーディオが無効です",
             "audioEnabled": "オーディオが有効です",
-            "cameraDisabled": "カメラが無効です"
+            "cameraDisabled": "カメラが無効です",
+            "cameraEnabled": "カメラが有効になりました"
         },
         "startModal": {
             "description": "どのように会議に参加しますか？",
@@ -461,7 +466,8 @@
             "stopRecording": "録画を停止します。 この会議中はいつでも新しい録画を開始できます。",
             "stopMeetingTitle": "会議の録画を停止します"
         },
-        "moderatorMeetingDescription": "このルームをモデレートします。 モデレーターを追加すると、モデレーターにはあなたと同じ権限が与えられます。"
+        "moderatorMeetingDescription": "このルームをモデレートします。 モデレーターを追加すると、モデレーターにはあなたと同じ権限が与えられます。",
+        "selectFolder": "フォルダを選択してください"
     },
     "notification": {
         "answer": "応答する",
@@ -556,8 +562,20 @@
             "userLeftLookForwardToSee": "またお会いできることを楽しみにしています",
             "userLeftReturnToWaitingRoom": "ルームのリンクからいつでも待合室に戻ることができます",
             "userLeftWaitingRoom": "待合室を出ました"
-        }
+        },
+        "unsupported": {
+            "browser": "サポートされていないブラウザです",
+            "device": "サポートされていないデバイス"
+        },
+        "login": {
+            "externalLoginDescription": "すでにこのドメインに属している場合は、通常のワークスペースにリダイレクトされます。外部ユーザーの場合は、専用のインターフェイスにリダイレクトされます。"
+        },
+        "youAreEnteringMeeting": "ルームに入ろうとしています"
     },
     "thanksForParticipating": "参加していただきありがとうございます",
-    "organizeYourMeeting": "自分の会議を開催したり、同僚のルームに入室したりできます"
+    "organizeYourMeeting": "自分の会議を開催したり、同僚のルームに入室したりできます",
+    "enterTheRoom": "ルームに入室する",
+    "label": {
+        "app_name": "チャット"
+    }
 }
