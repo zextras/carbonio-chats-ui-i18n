@@ -68,7 +68,8 @@
         "searchForParticipant": "参加者を検索する",
         "selectEmoji": "絵文字を選択してください",
         "switchToConversation": "会話に切り替える",
-        "switchToInfoPanel": "情報パネルに切り替える"
+        "switchToInfoPanel": "情報パネルに切り替える",
+        "disabledCreateButton": "入力内容をチェックして、エラーがないことを確認してください"
     },
     "action": {
         "activateNotifications": "通知を有効にする",
@@ -125,7 +126,9 @@
         "openInChats": "チャットで開く",
         "plan": "計画する",
         "removeMember": "メンバーを削除する",
-        "resetLink": "リンクをリセットする"
+        "resetLink": "リンクをリセットする",
+        "saveToFiles": "ファイルに保存する",
+        "createRoom": "ルームを作成する"
     },
     "appVersion": "アプリのバージョン",
     "button": {
@@ -232,7 +235,9 @@
         "tryAReconnectionIn": "{{seconds}}に再び接続してみてください",
         "appVersionCopied": "アプリのバージョンがコピーされました",
         "resetPersonalRoomLinkSuccess": "パーソナルルームのリンクがリセットされました",
-        "roomLinkCopied": "ルームのリンクがコピーされました"
+        "roomLinkCopied": "ルームのリンクがコピーされました",
+        "saveAttachmentError": "保存の際に問題が生じたようです。再度お試しください",
+        "saveAttachmentSuccessfull": "選択したフォルダに保存された添付ファイル"
     },
     "meeting": {
         "attendeesComing": "参加者が来ています",
@@ -266,7 +271,12 @@
             },
             "unpinVideo": "動画のピン止めを解除する",
             "enableFullScreen": "全画面",
-            "muteUserForAllDescription": "ユーザーをミュートすると、参加者全員にユーザーの声が聞こえなくなります。 ミュートされたユーザーは自身のミュートを解除できます。 続行しますか？"
+            "muteUserForAllDescription": "ユーザーをミュートすると、参加者全員にユーザーの声が聞こえなくなります。 ミュートされたユーザーは自身のミュートを解除できます。 続行しますか？",
+            "playMyVoice": "自分の声を再生します",
+            "stopMyVoice": "自分の声を停止する",
+            "audioDisabled": "オーディオが無効です",
+            "audioEnabled": "オーディオが有効です",
+            "cameraDisabled": "カメラが無効です"
         },
         "startModal": {
             "description": "どのように会議に参加しますか？",
@@ -280,7 +290,14 @@
         "defaultViewModeDefaultLabel": "「デフォルトモード」を選ぶと、現在の内部環境でミーティングが開始されます。",
         "defaultViewModeTitleModal": "ミーティングの環境設定",
         "defaultViewModeSaveLabel": "オプションを保存する",
-        "resetMeetingUrlModalDescription": "本当に計画中の「{{conversationName}}」のリンクをリセットしますか？"
+        "resetMeetingUrlModalDescription": "本当に計画中の「{{conversationName}}」のリンクをリセットしますか？",
+        "thisMeetingIsBeingRecorded": "この会議は記録されています",
+        "wereToFindRecording": "録画は動画サーバーのホームに保存されます。詳細については、システム管理者にお問い合わせください。",
+        "recordedByOther": "{{username}}が録音を開始しました",
+        "genericErrorMeeting": "この会議に問題があるようです。システム管理者に連絡してください。",
+        "recordedByMe": "録音を開始しました",
+        "recording": "録音中",
+        "errorMeetingRecording": "登録を開始することはできません。システム管理者に連絡してください。"
     },
     "message": {
         "deletedMessage": "削除されたメッセージ",
@@ -439,7 +456,12 @@
         "roomsFunctionalitiesChangelogDescription": "会議の機能に重要な変更を加えました。 詳細については、ルームの紹介をお読みください！",
         "notShowAgain": "今後表示しない",
         "teamNews": "チームのニュース",
-        "userJoinedWaitingRoom": "待合室に誰かいるようです"
+        "userJoinedWaitingRoom": "待合室に誰かいるようです",
+        "stopMeetingRec": {
+            "stopRecording": "録画を停止します。 この会議中はいつでも新しい録画を開始できます。",
+            "stopMeetingTitle": "会議の録画を停止します"
+        },
+        "moderatorMeetingDescription": "このルームをモデレートします。 モデレーターを追加すると、モデレーターにはあなたと同じ権限が与えられます。"
     },
     "notification": {
         "answer": "応答する",
@@ -453,7 +475,11 @@
             "userIsWaiting": "新しいユーザーが入室を待っています",
             "userJoinedWaitingRoom": "待合室に誰かいるようです"
         },
-        "invitationToPersonalRoom": "パーソナルルームへの招待:"
+        "invitationToPersonalRoom": "パーソナルルームへの招待:",
+        "meeting": {
+            "ended": "会議が終了しました"
+        },
+        "startMeetingRecording": "{{conversationName}}の会議の録画が開始されました"
     },
     "settings": {
         "meeting": {
@@ -511,5 +537,27 @@
         "browserNotSupported": "お使いのブラウザのバージョンはサポートされていません。あらゆる機能を利用できるようにブラウザを更新することを強くお勧めします！",
         "goToTeam": "チームに進む",
         "teamProductName": "チーム"
-    }
+    },
+    "personalRoomLabel": "{{userName}}のパーソナルルーム",
+    "tryLater": "後で試す",
+    "typeYourEmail": "メールアドレスを入力してください",
+    "virtualRoom": "バーチャルルーム",
+    "errorPage": {
+        "description": "リンクを確認してください。誤りがあるかもしれません",
+        "errorCode": "エラーコード404",
+        "title": "申し訳ありませんが、ルームが見つかりませんでした"
+    },
+    "external": {
+        "nobodyInTheRoom": "このルームには誰もいないようです",
+        "roomIsEmpty": "このルームは空です",
+        "waitingRoom": {
+            "accessDenied": "アクセスが拒否されました",
+            "moderatorRefusedAccessToRoom": "モデレーターがこのルームへのアクセスを拒否しました",
+            "userLeftLookForwardToSee": "またお会いできることを楽しみにしています",
+            "userLeftReturnToWaitingRoom": "ルームのリンクからいつでも待合室に戻ることができます",
+            "userLeftWaitingRoom": "待合室を出ました"
+        }
+    },
+    "thanksForParticipating": "参加していただきありがとうございます",
+    "organizeYourMeeting": "自分の会議を開催したり、同僚のルームに入室したりできます"
 }
