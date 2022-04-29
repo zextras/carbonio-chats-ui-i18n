@@ -405,7 +405,8 @@
         "teamNews": "Team's Nachrichten",
         "userJoinedWaitingRoom": "Es scheint jemand im Warteraum zu sein",
         "news": "News",
-        "notShowAgain": "Zeigen Sie dies nicht mehr"
+        "notShowAgain": "Zeigen Sie dies nicht mehr",
+        "selectFolder": "Ordner auswählen"
     },
     "notification": {
         "answer": "Annehmen",
