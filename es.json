@@ -54,7 +54,9 @@
         "copyUserRoomLink": "Copiar enlace",
         "leaveGroup": "Dejar grupo",
         "openInChats": "Abrir en los chats",
-        "resetLink": "Reiniciar enlace"
+        "resetLink": "Reiniciar enlace",
+        "start": "Inicio",
+        "stop": "Detener"
     },
     "conversations": {
         "yourRoom": "Tu sala",
@@ -174,7 +176,8 @@
             },
             "unpinVideo": "Desenganchar video",
             "enableFullScreen": "Pantalla completa",
-            "muteUserForAllDescription": "Al silenciar al usuario, ningún participantes podrá escucharlo. Sólo el usuario silenciado puede ser reactivado. ¿Proceder?"
+            "muteUserForAllDescription": "Al silenciar al usuario, ningún participantes podrá escucharlo. Sólo el usuario silenciado puede ser reactivado. ¿Proceder?",
+            "cameraEnabled": "Cámara activada"
         },
         "attendeesComing": "Los participantes están llegando",
         "defaultViewModeDedicatedModeLabel": "Modo dedicado",
@@ -232,7 +235,8 @@
         "planMeetingDescription": "El nombre de la sala ayuda a los asistentes a saber cuál es el tema de discusión de la sala.",
         "deleteMessageDescription": "Cuando borras un mensaje, ya no será visible para ti ni para los otros destinatarios",
         "news": "Noticias",
-        "userJoinedWaitingRoom": "Parece que hay alguien en la sala de espera"
+        "userJoinedWaitingRoom": "Parece que hay alguien en la sala de espera",
+        "selectFolder": "Elige una carpeta"
     },
     "tooltip": {
         "removeFile": "Quitar archivo",
@@ -311,7 +315,9 @@
         "appVersionCopied": "Versión de la aplicación copiada",
         "offline": "Parece ser un problema de conexión con el servidor",
         "roomLinkCopied": "Enlace de la sala copiado",
-        "tryAReconnectionIn": "Intentando reconectar en {{seconds}}"
+        "tryAReconnectionIn": "Intentando reconectar en {{seconds}}",
+        "connecting": "Conectando...",
+        "linkCopied": "Enlace copiado"
     },
     "message": {
         "deletedMessage": "Borrar mensaje",
@@ -510,5 +516,19 @@
         "browserNotSupported": "La versión de tu navegador no está soportada. ¡Es muy recomendable actualizar el navegador para beneficiarse de todas las características!",
         "goToTeam": "Ir a Team",
         "teamProductName": "Team"
+    },
+    "external": {
+        "youAreEnteringMeeting": "Está a punto de entrar a esta sala",
+        "login": {
+            "externalLoginDescription": "Si ya pertenece a este dominio, se le redirigirá a su espacio de trabajo habitual. Si Usted es un usuario externo, se le redirigirá a una interfaz separada."
+        },
+        "unsupported": {
+            "browser": "Navegador no soportado",
+            "device": "Dispositivo no soportado"
+        }
+    },
+    "enterTheRoom": "Entrar a la sala",
+    "label": {
+        "app_name": "Chats"
     }
 }
