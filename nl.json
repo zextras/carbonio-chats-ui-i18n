@@ -396,7 +396,8 @@
         "teamNews": "Team nieuws",
         "notShowAgain": "Dit niet opnieuw tonen",
         "userJoinedWaitingRoom": "Er schijnt iemand in de Wachtkamer te zijn",
-        "roomsFunctionalitiesChangelogDescription": "We hebben belangrijke wijzigingen aangebracht in de vergaderfunctionaliteiten. Lees de introductie van de Kamers voor meer informatie!"
+        "roomsFunctionalitiesChangelogDescription": "We hebben belangrijke wijzigingen aangebracht in de vergaderfunctionaliteiten. Lees de introductie van de Kamers voor meer informatie!",
+        "selectFolder": "Map selecteren"
     },
     "notification": {
         "answer": "Antwoorden",
