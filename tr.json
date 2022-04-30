@@ -57,7 +57,8 @@
         "waitingModeratorToJoin": "Moderatörün kabul etmesi için bekliyorsunuz",
         "createRoom": "Oda Oluştur",
         "start": "Başlat",
-        "stop": "Durdur"
+        "stop": "Durdur",
+        "saveToFiles": "Dosyalara Kaydet"
     },
     "appVersion": "App sürümü",
     "button": {
@@ -190,7 +191,9 @@
         "offline": "Sunucu ile bağlantıda bir sorun var",
         "tryAReconnectionIn": "{{seconds}} saniye sonra yeniden bağlanmayı dene",
         "connecting": "Bağlanıyor…",
-        "linkCopied": "Bağlantı kopyalandı"
+        "linkCopied": "Bağlantı kopyalandı",
+        "saveAttachmentError": "Kayıt sırasında bir sorun oluştu, lütfen tekrar deneyin",
+        "saveAttachmentSuccessfull": "Ek seçilen klasöre kaydedildi"
     },
     "meeting": {
         "attendeesComing": "Katılımcılar geliyor",
@@ -416,7 +419,8 @@
         "stopMeetingRec": {
             "stopRecording": "Kayıt durdurulacak. Toplantı sırasında istediğiniz zaman yeni kayıt başlatabilirsiniz.",
             "stopMeetingTitle": "Toplantı kayıt işlemini durdur"
-        }
+        },
+        "selectFolder": "Klasör seçin"
     },
     "notification": {
         "answer": "Yanıtla",
@@ -533,7 +537,8 @@
         "acceptQueuedMember": "Kullanıcı girişine izin ver",
         "copyUserRoom": "Kişisel Oda'nızın bağlantısını kopyalayın",
         "rejectQueuedMember": "Kullanıcıyı reddet",
-        "copyUserRoomTooltip": "Başkalarının Kişisel Odanıza erişimini sağlamak için bağlantıyı kopyalayıp paylaşın"
+        "copyUserRoomTooltip": "Başkalarının Kişisel Odanıza erişimini sağlamak için bağlantıyı kopyalayıp paylaşın",
+        "disabledCreateButton": "Giriş bilgilerinde hata olup olmadığını kontrol edin"
     },
     "general": {
         "goToTeam": "Team'e git",
@@ -572,5 +577,6 @@
     },
     "organizeYourMeeting": "Kendi toplantınızı oluşturun veya çalışma arkadaşlarınızın odalarına katılın",
     "thanksForParticipating": "Katıldığınız için teşekkürler",
-    "typeYourEmail": "E-posta adresinizi yazın"
+    "typeYourEmail": "E-posta adresinizi yazın",
+    "personalRoomLabel": "{{userName}} Kişisel Oda"
 }
