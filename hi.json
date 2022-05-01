@@ -56,7 +56,9 @@
         "leaveGroup": "ग्रुप छोड़ें",
         "planMeeting": "कोई Meeting प्लान करें",
         "stop": "रोकें",
-        "start": "शुरू करें"
+        "start": "शुरू करें",
+        "saveToFiles": "Files में सेव करें",
+        "createRoom": "Room बनाएँ"
     },
     "button": {
         "yes": "हाँ",
@@ -525,9 +527,20 @@
             "browser": "ब्राउज़र सपोर्टेड नहीं है",
             "device": "डिवाइस सपोर्ट नहीं है"
         },
-        "youAreEnteringMeeting": "आप Room में प्रवेश करने वाले हैं"
+        "youAreEnteringMeeting": "आप Room में प्रवेश करने वाले हैं",
+        "nobodyInTheRoom": "ऐसा लगता है इस Room में कोई नहीं है",
+        "roomIsEmpty": "यह Room खाली है",
+        "waitingRoom": {
+            "accessDenied": "एक्सेस मना की गई",
+            "moderatorRefusedAccessToRoom": "एक मॉडरेटर ने आपको इस Room में एक्सेस मना कर दी है"
+        }
     },
     "label": {
         "app_name": "चैट"
+    },
+    "errorPage": {
+        "description": "अपनी लिंक चेक करें, ये शायद गलत है",
+        "errorCode": "एरर कोड 404",
+        "title": "क्षमा करें, हमें वह Room नहीं मिला"
     }
 }
