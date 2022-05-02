@@ -89,7 +89,9 @@
         "goToGuide": "Ir ao guia",
         "waitingModeratorToJoin": "Você está aguardando o aceite de um moderador",
         "stop": "Parar",
-        "start": "Iniciar"
+        "start": "Iniciar",
+        "saveToFiles": "Salvar no Files",
+        "createRoom": "Criar Sala"
     },
     "appVersion": "Versão do aplicativo",
     "button": {
@@ -198,7 +200,9 @@
         "roomLinkCopied": "Link da Sala copiado",
         "tryAReconnectionIn": "Tente reconectar em {{seconds}}",
         "connecting": "Conectando...",
-        "linkCopied": "Link copiado"
+        "linkCopied": "Link copiado",
+        "saveAttachmentSuccessfull": "Anexo salvo na pasta selecionada",
+        "saveAttachmentError": "Parece que houve um problema ao salvar. Tente novamente"
     },
     "meeting": {
         "attendeesComing": "Os participantes estão chegando",
@@ -233,7 +237,12 @@
             "unpinVideo": "Desenganchar video",
             "enableFullScreen": "Tela cheia",
             "muteUserForAllDescription": "Ao silenciar o usuário, todos os participantes não ouvirão mais ele. Somente o usuário silenciado pode ser reativado. Proceder?",
-            "cameraEnabled": "Câmera habilitada"
+            "cameraEnabled": "Câmera habilitada",
+            "audioDisabled": "Áudio desabilitado",
+            "audioEnabled": "Áudio habilitado",
+            "cameraDisabled": "Câmera desabilitada",
+            "playMyVoice": "Reproduzir minha voz",
+            "stopMyVoice": "Parar minha voz"
         },
         "startModal": {
             "description": "Como você quer entrar na reunião?",
@@ -247,7 +256,14 @@
         "defaultViewModeDedicatedLabel": "O \"Modo Dedicado\" irá redirecioná-lo para uma aba separada de seu navegador para desfrutar da experiência da Reunião no seu melhor.",
         "defaultViewModeDefaultLabel": "Selecionando o \"Modo Padrão\", a Reunião começará no ambiente interno atual.",
         "defaultViewModeSaveLabel": "Salvar Opção",
-        "resetMeetingUrlModalDescription": "Tem certeza que deseja redefinir o link planejado para \"{{conversationName}}\"?"
+        "resetMeetingUrlModalDescription": "Tem certeza que deseja redefinir o link planejado para \"{{conversationName}}\"?",
+        "recordedByMe": "Você iniciou a gravação",
+        "recordedByOther": "{{username}} iniciou a gravação",
+        "recording": "Gravando",
+        "genericErrorMeeting": "Parece que houve um problema com esta reunião, entre em contato com seu administrador do sistema.",
+        "errorMeetingRecording": "Não é possível iniciar o registro, entre em contato com seu administrador do sistema.",
+        "thisMeetingIsBeingRecorded": "Esta reunião está sendo gravada",
+        "wereToFindRecording": "A gravação será salva no servidor de vídeo. Entre em contato com seu administrador do sistema para mais informações."
     },
     "message": {
         "deletedMessage": "Mensagem deletada",
@@ -406,7 +422,12 @@
         "userJoinedWaitingRoom": "Parece que tem alguém na Sala de Espera",
         "deleteMessageDescription": "Ao excluir uma mensagem, ela não será mais visível para você e para todos os outros destinatários",
         "planMeetingDescription": "O nome da sala ajuda os participantes a saber o assunto da Sala.",
-        "selectFolder": "Selecionar pasta"
+        "selectFolder": "Selecionar pasta",
+        "moderatorMeetingDescription": "Você irá moderar essa Sala. Você pode adicionar outros moderadores e eles terão as mesmas permissões que você.",
+        "stopMeetingRec": {
+            "stopMeetingTitle": "Parar gravação da reunião",
+            "stopRecording": "A gravação será parada. Você pode iniciar uma nova gravação a qualquer momento durante esta reunião."
+        }
     },
     "notification": {
         "answer": "Responder",
@@ -416,11 +437,15 @@
         "waiting": {
             "descriptionWaitingLabel": "Você está aguardando o aceite do Moderador de {{conversationName}}",
             "notificationAcceptedByModerator": "Você foi aceito pelo moderador",
-            "notificationJoinTheRoom": "Entre na Sala para participar da reunião",
+            "notificationJoinTheRoom": "Entre na sala para participar da reunião",
             "userIsWaiting": "Um novo usuário está esperando para entrar",
-            "userJoinedWaitingRoom": "Parece que tem alguém na Sala de Espera",
+            "userJoinedWaitingRoom": "Parece que tem alguém na sala de espera",
             "descriptionAcceptedLabel": "Você foi aceito pelo moderador de {{conversationName}}"
-        }
+        },
+        "meeting": {
+            "ended": "Reunião Encerrada"
+        },
+        "startMeetingRecording": "A gravação da reunião {{conversationName}} foi iniciada"
     },
     "settings": {
         "meeting": {
@@ -510,7 +535,8 @@
         "copyUserRoomTooltip": "Copie este link e compartilhe-o para conceder acesso a sua Sala Pessoal para outras pessoas",
         "enterMeetingRoom": "Entrar na Sala de Reunião",
         "messageComposer": "Autor da mensagem",
-        "showChannels": "Mostrar Canais"
+        "showChannels": "Mostrar Canais",
+        "disabledCreateButton": "Verifique os dados inseridos para garantir que não existem erros"
     },
     "general": {
         "goToTeam": "Ir para Team",
@@ -529,6 +555,26 @@
             "browser": "Navegador não suportado",
             "device": "Dispositivo não suportado"
         },
-        "youAreEnteringMeeting": "Você está prestes a entrar na Sala"
-    }
+        "youAreEnteringMeeting": "Você está prestes a entrar na Sala",
+        "nobodyInTheRoom": "Parece que não há ninguém na Sala",
+        "roomIsEmpty": "A Sala está vazia",
+        "waitingRoom": {
+            "accessDenied": "Acesso negado",
+            "moderatorRefusedAccessToRoom": "Um moderador recusou seu acesso a esta Sala",
+            "userLeftLookForwardToSee": "Esperamos te ver novamente",
+            "userLeftReturnToWaitingRoom": "Você pode retornar à sala de espera a qualquer momento a partir do link da Sala",
+            "userLeftWaitingRoom": "Você saiu da sala de espera"
+        }
+    },
+    "thanksForParticipating": "Obrigado por participar",
+    "organizeYourMeeting": "Organize suas próprias reuniões ou entre nas Salas dos seus colegas",
+    "personalRoomLabel": "Sala Pessoal de {{userName}}",
+    "errorPage": {
+        "description": "Verifique seu link, ele pode estar errado",
+        "errorCode": "erro código 404",
+        "title": "Desculpa, mas não encontramos a Sala"
+    },
+    "tryLater": "Tente mais tarde",
+    "typeYourEmail": "Digite seu e-mail",
+    "virtualRoom": "Sala Virtual"
 }
