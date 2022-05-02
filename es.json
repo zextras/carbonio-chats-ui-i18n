@@ -56,7 +56,9 @@
         "openInChats": "Abrir en los chats",
         "resetLink": "Reiniciar enlace",
         "start": "Inicio",
-        "stop": "Detener"
+        "stop": "Detener",
+        "saveToFiles": "Guardar a Files",
+        "createRoom": "Crear sala"
     },
     "conversations": {
         "yourRoom": "Tu sala",
@@ -177,7 +179,12 @@
             "unpinVideo": "Desenganchar video",
             "enableFullScreen": "Pantalla completa",
             "muteUserForAllDescription": "Al silenciar al usuario, ningún participantes podrá escucharlo. Sólo el usuario silenciado puede ser reactivado. ¿Proceder?",
-            "cameraEnabled": "Cámara activada"
+            "cameraEnabled": "Cámara activada",
+            "stopMyVoice": "Silenciar mi voz",
+            "audioDisabled": "Audio desconectado",
+            "audioEnabled": "Audio conectado",
+            "cameraDisabled": "Cámara desactivada",
+            "playMyVoice": "Reproducir mi voz"
         },
         "attendeesComing": "Los participantes están llegando",
         "defaultViewModeDedicatedModeLabel": "Modo dedicado",
@@ -195,7 +202,14 @@
         "resetMeetingUrlModalDescription": "¿Seguro que quieres reiniciar el enlace para la conversación {{conversationName}} planeada?",
         "defaultViewModeDefaultLabel": "Al elegir el \"Modo por defecto\", la reunión se iniciará en el entorno interno actual.",
         "defaultViewModeSaveLabel": "Guardar opción",
-        "defaultViewModeTitleModal": "Opciones del entorno de reuniones"
+        "defaultViewModeTitleModal": "Opciones del entorno de reuniones",
+        "recordedByMe": "Has iniciado la grabación",
+        "recordedByOther": "{{username}} ha empezado a grabar",
+        "recording": "Grabando",
+        "thisMeetingIsBeingRecorded": "Esta reunión está siendo grabada",
+        "errorMeetingRecording": "No es posible iniciar el registro, por favor, contacta con el administrador de tu sistema.",
+        "genericErrorMeeting": "Parece que hay un problema con esta reunión, por favor, contacta con tu administrador del sistema.",
+        "wereToFindRecording": "La grabación será guardada en la ubicación del servidor del vídeo, contacta con tu administrador del sistema para más detalles."
     },
     "modal": {
         "confirm": {
@@ -236,7 +250,12 @@
         "deleteMessageDescription": "Cuando borras un mensaje, ya no será visible para ti ni para los otros destinatarios",
         "news": "Noticias",
         "userJoinedWaitingRoom": "Parece que hay alguien en la sala de espera",
-        "selectFolder": "Elige una carpeta"
+        "selectFolder": "Elige una carpeta",
+        "moderatorMeetingDescription": "Vas a moderar esta Sala. Puedes añadir moderadores adicionales que tendrán los mismos permisos que tú.",
+        "stopMeetingRec": {
+            "stopMeetingTitle": "Detener la grabación de la reunicón",
+            "stopRecording": "La grabación se detendrá. Puedes empezar a grabar de nuevo en cualquier momento durante esta reunión."
+        }
     },
     "tooltip": {
         "removeFile": "Quitar archivo",
@@ -274,7 +293,8 @@
         "acceptQueuedMember": "Permitir entrar al usuario",
         "inviteToPersonalRoom": "Invitar a tu sala personal",
         "rejectQueuedMember": "Rechazar usuario",
-        "searchForParticipant": "Buscar participante"
+        "searchForParticipant": "Buscar participante",
+        "disabledCreateButton": "Comprueba los datos introducidos para asegurarte de que no haya ningún error"
     },
     "appVersion": "Versión de la aplicación",
     "button": {
@@ -317,7 +337,9 @@
         "roomLinkCopied": "Enlace de la sala copiado",
         "tryAReconnectionIn": "Intentando reconectar en {{seconds}}",
         "connecting": "Conectando...",
-        "linkCopied": "Enlace copiado"
+        "linkCopied": "Enlace copiado",
+        "saveAttachmentError": "Parece que hay un problema al guardar, por favor, inténtalo de nuevo",
+        "saveAttachmentSuccessfull": "Anexo guardado en la carpeta seleccionada"
     },
     "message": {
         "deletedMessage": "Borrar mensaje",
@@ -449,7 +471,11 @@
             "userIsWaiting": "Hay un nuevo usuario esperando para entrar",
             "userJoinedWaitingRoom": "Parece que hay alguien en la sala de espera"
         },
-        "invitationToPersonalRoom": "Invitación a una sala personal de:"
+        "invitationToPersonalRoom": "Invitación a una sala personal de:",
+        "meeting": {
+            "ended": "Reunión finalizada"
+        },
+        "startMeetingRecording": "La grabación de la reunión {{conversationName}} se ha iniciado"
     },
     "people": {
         "manyMembers": "{{membersCount}} miembros",
@@ -525,10 +551,30 @@
         "unsupported": {
             "browser": "Navegador no soportado",
             "device": "Dispositivo no soportado"
+        },
+        "nobodyInTheRoom": "Parece que no hay nadie en esta Sala",
+        "roomIsEmpty": "La Sala está vacía",
+        "waitingRoom": {
+            "accessDenied": "Acceso denegado",
+            "moderatorRefusedAccessToRoom": "Un moderador ha rechazado tu acceso a esta Sala",
+            "userLeftLookForwardToSee": "Esperamos verte de nuevo",
+            "userLeftReturnToWaitingRoom": "Puedes volver a la sala de espera en cualquier momento desde el enlace de la Sala",
+            "userLeftWaitingRoom": "Has dejado la sala de espera"
         }
     },
     "enterTheRoom": "Entrar a la sala",
     "label": {
         "app_name": "Chats"
-    }
+    },
+    "errorPage": {
+        "description": "Comprueba tu enlace, puede estar equivocado",
+        "errorCode": "error código 404",
+        "title": "Lo sentimos, no podemos encontrar esa sala"
+    },
+    "personalRoomLabel": "Sala personal de {{userName}}",
+    "organizeYourMeeting": "Organiza tus propias reuniones o únete a las salas de tus compañeros",
+    "thanksForParticipating": "Gracias por participar",
+    "tryLater": "Inténtalo más tarde",
+    "typeYourEmail": "Introduce tu e-mail",
+    "virtualRoom": "Sala virtual"
 }
