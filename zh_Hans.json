@@ -56,7 +56,9 @@
         "resetLink": "重置链接",
         "waitingModeratorToJoin": "您正在等待成为主持人",
         "start": "开始",
-        "stop": "停止"
+        "stop": "停止",
+        "saveToFiles": "保存至文件",
+        "createRoom": "创建房间"
     },
     "conversations": {
         "instantMeetings": "即时会议",
@@ -236,7 +238,8 @@
         "sendFile": "发送文件",
         "showChannels": "显示频道",
         "switchToConversation": "切换至会话",
-        "switchToInfoPanel": "切换至信息面板"
+        "switchToInfoPanel": "切换至信息面板",
+        "disabledCreateButton": "检查您的输入以确保其准确无误"
     },
     "appVersion": "应用版本",
     "button": {
@@ -345,7 +348,9 @@
         "tryAReconnectionIn": "重试连接：{{seconds}}",
         "roomLinkCopied": "房间链接已复制",
         "connecting": "正在连接…",
-        "linkCopied": "链接已复制"
+        "linkCopied": "链接已复制",
+        "saveAttachmentSuccessfull": "附件已保存在所选文件夹中",
+        "saveAttachmentError": "保存时似乎出现错误，请重试"
     },
     "meeting": {
         "attendeesComing": "参与者正在前来",
@@ -380,7 +385,12 @@
             "enableFullScreen": "全屏",
             "enableScreenSharing": "启用屏幕共享",
             "muteUserForAllDescription": "静音用户后，所有参与者将无法再听到用户的声音。仅被静音用户可自行取消静音。是否继续？",
-            "cameraEnabled": "摄像头已启用"
+            "cameraEnabled": "摄像头已启用",
+            "stopMyVoice": "停止我的声音",
+            "audioDisabled": "音频已禁用",
+            "audioEnabled": "音频已启用",
+            "cameraDisabled": "摄像头已禁用",
+            "playMyVoice": "播放我的声音"
         },
         "startModal": {
             "description": "您想如何进入该会议？",
@@ -394,7 +404,14 @@
         "defaultViewModeDefaultLabel": "选择“默认模式”后，会议将在当前内部环境中开始。",
         "defaultViewModeSaveLabel": "保存选项",
         "defaultViewModeTitleModal": "会议环境选项",
-        "resetMeetingUrlModalDescription": "确定要重置已规划“{{conversationName}}”的链接吗？"
+        "resetMeetingUrlModalDescription": "确定要重置已规划“{{conversationName}}”的链接吗？",
+        "recordedByMe": "您已开始录制",
+        "recordedByOther": "{{username}} 已开始录制",
+        "recording": "录制",
+        "genericErrorMeeting": "会议似乎存在问题，请联系您的系统管理员。",
+        "thisMeetingIsBeingRecorded": "正在录制此会议",
+        "wereToFindRecording": "录制文件将保存在视频服务器主页，请与系统管理员联系以了解更多详情。",
+        "errorMeetingRecording": "无法开始注册，请联系您的系统管理员。"
     },
     "modal": {
         "addModeratorDescription": "选择一个或多个用户以将其提权为房间主持人",
@@ -435,7 +452,12 @@
         "roomsFunctionalitiesChangelogDescription": "我们对会议功能进行了重大更改。请阅读房间说明以了解更多信息！",
         "userJoinedWaitingRoom": "等待房间中似乎有用户",
         "teamNews": "团队新闻",
-        "selectFolder": "选择文件夹"
+        "selectFolder": "选择文件夹",
+        "stopMeetingRec": {
+            "stopMeetingTitle": "停止会议录制",
+            "stopRecording": "录制将被停止。您可在会议期间随时开始新录制。"
+        },
+        "moderatorMeetingDescription": "您将主持本房间。您可添加额外主持人，其将有与您相同的权限。"
     },
     "notification": {
         "answer": "答复",
@@ -449,7 +471,11 @@
             "notificationJoinTheRoom": "加入房间，参与会议",
             "userIsWaiting": "新用户正在等待进入",
             "userJoinedWaitingRoom": "等待房间中似乎有用户"
-        }
+        },
+        "meeting": {
+            "ended": "会议已结束"
+        },
+        "startMeetingRecording": "{{conversationName}} 会议的录制已开始"
     },
     "people": {
         "manyMembers": "{{membersCount}}名成员",
@@ -525,10 +551,30 @@
             "browser": "不支持的浏览器",
             "device": "不支持的设备"
         },
-        "youAreEnteringMeeting": "您即将进入房间"
+        "youAreEnteringMeeting": "您即将进入房间",
+        "nobodyInTheRoom": "似乎房间中没有人",
+        "roomIsEmpty": "此房间为空",
+        "waitingRoom": {
+            "accessDenied": "访问拒绝",
+            "moderatorRefusedAccessToRoom": "主持人拒绝了您对于此房间的访问请求",
+            "userLeftLookForwardToSee": "我们期待着再次与您见面",
+            "userLeftReturnToWaitingRoom": "您可以随时使用房间链接返回等待房间",
+            "userLeftWaitingRoom": "您已离开等待房间"
+        }
     },
     "label": {
         "app_name": "聊天"
     },
-    "enterTheRoom": "进入房间"
+    "enterTheRoom": "进入房间",
+    "tryLater": "稍后再试",
+    "errorPage": {
+        "description": "请检查您的链接，其可能有误",
+        "errorCode": "错误代码 404",
+        "title": "抱歉，我们无法找到房间"
+    },
+    "organizeYourMeeting": "组织您自己的会议或加入同事的房间",
+    "personalRoomLabel": "{{userName}} 的个人房间",
+    "thanksForParticipating": "感谢参与",
+    "typeYourEmail": "输入您的邮件",
+    "virtualRoom": "虚拟房间"
 }
