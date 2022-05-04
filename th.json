@@ -69,7 +69,7 @@
         "now": "ตอนนี้",
         "service": {
             "you": {
-                "invited": "คุณได้รับเชิญจาก {{Invite_by}}",
+                "invited": "คุณได้รับเชิญจาก {{invited_by}}",
                 "changed": {
                     "name": {
                         "channel": "คุณเปลี่ยนชื่อของช่องใน {{name}}",
@@ -148,7 +148,7 @@
                     "instantMeeting": "{{member_name}} ได้ลบการประชุมแบบทันทีแล้ว",
                     "space": "{{member_name}} ได้ลบห้องประชุมแล้ว"
                 },
-                "invited": "{{member_name}} ได้รับเชิญจาก {{Invite_by}}",
+                "invited": "{{member_name}} ได้รับเชิญจาก {{invited_by}}",
                 "join": {
                     "channel": "{{member_name}} ได้เข้าร่วมช่องแล้ว",
                     "conversation": "{{member_name}} ได้เข้าร่วมแชทแล้ว"
@@ -249,7 +249,9 @@
         "removeMember": "ลบสมาชิก",
         "resetLink": "รีเซ็ตลิงก์",
         "start": "เริ่ม",
-        "stop": "หยุด"
+        "stop": "หยุด",
+        "saveToFiles": "บันทึกลงในไฟล์",
+        "createRoom": "สร้างห้อง"
     },
     "appVersion": "เวอร์ชันของแอป",
     "button": {
@@ -315,7 +317,10 @@
         "resetPersonalRoomLinkSuccess": "ลิงก์ของห้องส่วนตัวถูกรีเซ็ตแล้ว",
         "appVersionCopied": "คัดลอกเวอร์ชันแอปแล้ว",
         "tryAReconnectionIn": "ลองเชื่อมต่อใหม่ใน {{seconds}}",
-        "linkCopied": "คัดลอกลิงก์แล้ว"
+        "linkCopied": "คัดลอกลิงก์แล้ว",
+        "saveAttachmentSuccessfull": "บันทึกไฟล์แนบในโฟลเดอร์ที่เลือก",
+        "connecting": "กำลังเชื่อมต่อ…",
+        "saveAttachmentError": "ดูเหมือนว่าเกิดปัญหาขึ้นในระหว่างการบันทึก โปรดลองใหม่อีกครั้ง"
     },
     "meeting": {
         "attendeesComing": "ผู้เข้าร่วมงานกำลังมา",
@@ -350,7 +355,12 @@
             "unpinVideo": "ยกเลิกการปักหมุดวิดีโอ",
             "muteUserForAllDescription": "เมื่อปิดเสียงผู้ใช้ ผู้เข้าร่วมทั้งหมดจะไม่ได้ยินเสียงผู้ใช้อีกต่อไป ผู้ใช้ที่ปิดเสียงเท่านั้นที่สามารถเปิดเสียงตัวเองได้ ต้องการดำเนินการต่อหรือไม่?",
             "enableFullScreen": "เต็มจอ",
-            "cameraEnabled": "เปิดใช้งานกล้องถ่ายรูป"
+            "cameraEnabled": "เปิดใช้งานกล้องถ่ายรูป",
+            "audioDisabled": "ปิดการใช้งานเสียง",
+            "stopMyVoice": "หยุดเสียงฉัน",
+            "playMyVoice": "เล่นเสียงของฉัน",
+            "audioEnabled": "เปิดการใช้งานเสียง",
+            "cameraDisabled": "ปิดใช้งานกล้องถ่ายรูป"
         },
         "startModal": {
             "description": "คุณต้องการเข้าร่วมการประชุมอย่างไร?",
@@ -364,7 +374,14 @@
         "defaultViewModeDefaultLabel": "เมื่อเลือก \"โหมดเริ่มต้น\" การประชุมจะเริ่มในสภาพแวดล้อมภายในที่เป็นปัจจุบัน",
         "defaultViewModeSaveLabel": "บันทึกตัวเลือก",
         "defaultViewModeTitleModal": "ตัวเลือกสภาพแวดล้อมของการประชุม",
-        "resetMeetingUrlModalDescription": "คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตลิงก์สำหรับ \"{{conversationName}}\" ที่วางแผนไว้?"
+        "resetMeetingUrlModalDescription": "คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตลิงก์สำหรับ \"{{conversationName}}\" ที่วางแผนไว้?",
+        "errorMeetingRecording": "ไม่สามารถเริ่มการลงทะเบียนได้ โปรดติดต่อผู้ดูแลระบบของคุณ",
+        "genericErrorMeeting": "ดูเหมือนว่าจะเกิดปัญหากับการประชุมนี้ โปรดติดต่อผู้ดูแลระบบของคุณ",
+        "recordedByMe": "คุณได้เริ่มการบันทึกแล้ว",
+        "recordedByOther": "{{username}} ได้เริ่มการบันทึกแล้ว",
+        "recording": "กำลังบันทึก",
+        "thisMeetingIsBeingRecorded": "กำลังบันทึกการประชุมนี้อยู่",
+        "wereToFindRecording": "การบันทึกจะถูกบันทึกไว้ในหน้าแรกของเซิร์ฟเวอร์วิดีโอ สำหรับรายละเอียดเพิ่มเติมโปรดติดต่อผู้ดูแลระบบของคุณ"
     },
     "modal": {
         "clearHistoryDescription": "บทสนทนานี้ว่างเปล่าและได้ย้ายไปที่ด้านล่างของรายการการสนทนาเพื่อให้บทสนทนาอื่น ๆ ที่มีการใช้งานอยู่แสดงที่ด้านบน",
@@ -405,7 +422,12 @@
         "planMeetingDescription": "ชื่อห้องช่วยให้ผู้เข้าร่วมประชุมทราบถึงประเด็นการสนทนาของห้องนั้นๆ",
         "teamNews": "ข่าว Team",
         "userJoinedWaitingRoom": "ดูเหมือนว่าจะมีใครบางคนรออยู่ในห้องคัดกรอง",
-        "selectFolder": "เลือกโฟลเดอร์"
+        "selectFolder": "เลือกโฟลเดอร์",
+        "stopMeetingRec": {
+            "stopMeetingTitle": "หยุดบันทึกการประชุม",
+            "stopRecording": "การบันทึกจะหยุดลง ในระหว่างการประชุมนี้คุณสามารถเริ่มบันทึกใหม่ได้ทุกเมื่อ"
+        },
+        "moderatorMeetingDescription": "คุณจะดูแลห้องนี้ คุณสามารถเพิ่มผู้ดูแลเพิ่มเติมได้ จากนั้นพวกเขาจะมีสิทธิ์เช่นเดียวกับคุณ"
     },
     "notification": {
         "answer": "รับสาย",
@@ -419,7 +441,11 @@
             "notificationJoinTheRoom": "เข้าร่วมห้องเพื่อร่วมการประชุม",
             "userJoinedWaitingRoom": "ดูเหมือนว่าจะมีใครบางคนรออยู่ในห้องคัดกรอง"
         },
-        "invitationToPersonalRoom": "คำเชิญเข้าห้องส่วนตัวจาก:"
+        "invitationToPersonalRoom": "คำเชิญเข้าห้องส่วนตัวจาก:",
+        "meeting": {
+            "ended": "สิ้นสุดการประชุมแล้ว"
+        },
+        "startMeetingRecording": "เริ่มบันทึกการประชุมของ {{conversationName}} แล้ว"
     },
     "settings": {
         "meeting": {
@@ -509,7 +535,8 @@
         "downgradeModerator": "ลดระดับผู้ดูแล",
         "editInfo": "แก้ไขข้อมูล",
         "enterMeetingRoom": "เข้าห้องประชุม",
-        "switchToConversation": "เปลี่ยนเป็นการสนทนา"
+        "switchToConversation": "เปลี่ยนเป็นการสนทนา",
+        "disabledCreateButton": "ตรวจสอบอินพุตของคุณเพื่อให้แน่ใจว่าไม่มีข้อผิดพลาดใดๆ"
     },
     "general": {
         "browserNotSupported": "ไม่สามารถรองรับเวอร์ชันของเบราว์เซอร์ของคุณได้ ขอแนะนำให้อัปเดตเบราว์เซอร์เพื่อการใช้งานคุณสมบัติจากฟีเจอร์ทั้งหมด!",
@@ -525,9 +552,29 @@
             "browser": "เบราว์เซอร์ที่ไม่ได้รับการรองรับ",
             "device": "อุปกรณ์ที่ไม่รองรับ"
         },
-        "youAreEnteringMeeting": "คุณกำลังจะเข้าสู่ห้อง"
+        "youAreEnteringMeeting": "คุณกำลังจะเข้าสู่ห้อง",
+        "nobodyInTheRoom": "ดูเหมือนว่าไม่มีใครอยู่ในห้องนี้",
+        "roomIsEmpty": "ห้องนี้ว่าง",
+        "waitingRoom": {
+            "accessDenied": "ปฏิเสธการเข้าใช้",
+            "moderatorRefusedAccessToRoom": "ผู้ดูแลปฏิเสธการเข้าถึงห้องนี้ของคุณ",
+            "userLeftLookForwardToSee": "เราหวังว่าจะได้พบคุณอีกครั้ง",
+            "userLeftReturnToWaitingRoom": "คุณสามารถกลับมาที่ห้องคัดกรองได้ตลอดเวลาจากลิงก์ของห้อง",
+            "userLeftWaitingRoom": "คุณออกจากห้องคัดกรอง"
+        }
     },
     "label": {
         "app_name": "Chats"
-    }
+    },
+    "errorPage": {
+        "description": "โปรดตรวจสอบลิงก์ ลิงก์ของคุณอาจไม่ถูกต้อง",
+        "errorCode": "รหัสข้อผิดพลาด 404",
+        "title": "ขออภัย เราไม่พบห้องดังกล่าว"
+    },
+    "thanksForParticipating": "ขอขอบคุณที่เข้าร่วม",
+    "tryLater": "ลองในภายหลัง",
+    "typeYourEmail": "พิมพ์ที่อยู่อีเมลของคุณ",
+    "virtualRoom": "ห้องเสมือนจริง",
+    "organizeYourMeeting": "จัดการประชุมของคุณเองหรือเข้าร่วมห้องของเพื่อนร่วมงานของคุณ",
+    "personalRoomLabel": "ห้องส่วนตัวของ {{userName}}"
 }
