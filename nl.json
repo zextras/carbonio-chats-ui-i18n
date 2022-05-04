@@ -137,7 +137,12 @@
             "muteUserForAllDescription": "Door de gebruiker te muten, zullen alle deelnemers de gebruiker niet meer horen. Alleen de gedempte gebruiker kan zelf het geluid weer aanzetten. Verdergaan?",
             "enableFullScreen": "Volledig scherm",
             "disableScreensharing": "Scherm delen uitschakelen",
-            "cameraEnabled": "Camera geactiveerd"
+            "cameraEnabled": "Camera geactiveerd",
+            "playMyVoice": "Laat mijn stem horen",
+            "audioDisabled": "Audio uitgeschakeld",
+            "audioEnabled": "Audio ingeschakeld",
+            "cameraDisabled": "Camera uitgeschakeld",
+            "stopMyVoice": "Stop mijn stem"
         },
         "attendeesComing": "Deelnemers komen",
         "defaultViewModeDedicatedModeLabel": "Toegewijde modus",
@@ -155,7 +160,14 @@
         "defaultViewModeDedicatedLabel": "De \" Toegewijde Modus \" leidt u naar een apart tabblad van uw browser om optimaal van de vergader-ervaring te kunnen genieten.",
         "defaultViewModeDefaultLabel": "Als u de \"standaard modus\" selecteert, start de Vergadering in de huidige interne omgeving.",
         "defaultViewModeTitleModal": "Vergaderomgevingsinstellingen",
-        "resetMeetingUrlModalDescription": "Weet u zeker dat u de link voor de geplande \"{{conversationName}}\" wilt resetten?"
+        "resetMeetingUrlModalDescription": "Weet u zeker dat u de link voor de geplande \"{{conversationName}}\" wilt resetten?",
+        "recordedByOther": "{{username}} is begonnen met opnemen",
+        "genericErrorMeeting": "Er lijkt een probleem te zijn met deze vergadering, neem contact op met uw systeemadministrator.",
+        "recordedByMe": "U bent begonnen met opnemen",
+        "recording": "Opname",
+        "errorMeetingRecording": "Het is niet mogelijk om de registratie te starten, neem contact op met uw systeemadministrator.",
+        "thisMeetingIsBeingRecorded": "Deze vergadering wordt opgenomen",
+        "wereToFindRecording": "De opname zal worden opgeslagen in de videoserver thuis, neem contact op met uw systeemadministrator voor verdere details."
     },
     "message": {
         "now": "Nu",
@@ -332,7 +344,9 @@
         "resetLink": "Link resetten",
         "waitingModeratorToJoin": "U wacht om geaccepteerd te worden door een moderator",
         "start": "Starten",
-        "stop": "Stoppen"
+        "stop": "Stoppen",
+        "saveToFiles": "Opslaan in Bestanden",
+        "createRoom": "Kamer Creëren"
     },
     "appVersion": "App versie",
     "button": {
@@ -356,7 +370,9 @@
         "tryAReconnectionIn": "Probeer een herverbinding in {{seconds}}",
         "roomLinkCopied": "Kamerlink gekopieerd",
         "connecting": "Wordt verbonden...",
-        "linkCopied": "Link gekopieerd"
+        "linkCopied": "Link gekopieerd",
+        "saveAttachmentSuccessfull": "Bijlage opgeslagen in de geselecteerde map",
+        "saveAttachmentError": "Er lijkt een probleem te zijn bij het opslaan, probeer het opnieuw"
     },
     "modal": {
         "clearHistoryDescription": "Dit gesprek is nu leeg, het is verplaatst naar de onderkant van de gesprekkenlijst om de actieve gesprekken te benadrukken.",
@@ -397,7 +413,12 @@
         "notShowAgain": "Dit niet opnieuw tonen",
         "userJoinedWaitingRoom": "Er schijnt iemand in de Wachtkamer te zijn",
         "roomsFunctionalitiesChangelogDescription": "We hebben belangrijke wijzigingen aangebracht in de vergaderfunctionaliteiten. Lees de introductie van de Kamers voor meer informatie!",
-        "selectFolder": "Map selecteren"
+        "selectFolder": "Map selecteren",
+        "moderatorMeetingDescription": "U zal deze kamer modereren. U kunt extra moderators toevoegen en zij zullen dezelfde permissies hebben als u.",
+        "stopMeetingRec": {
+            "stopRecording": "De opname wordt gestopt. U kunt op elk moment tijdens deze vergadering een nieuwe opname starten.",
+            "stopMeetingTitle": "Stop de opname van de vergadering"
+        }
     },
     "notification": {
         "answer": "Antwoorden",
@@ -405,13 +426,17 @@
         "incomingCall": "Inkomend gesprek van:",
         "invitationToPersonalRoom": "Uitnodiging voor de Persoonlijke Kamer van:",
         "waiting": {
-            "notificationJoinTheRoom": "Ga naar de Kamer om deel te nemen aan de vergadering",
+            "notificationJoinTheRoom": "Ga naar de kamer om deel te nemen aan de vergadering",
             "descriptionAcceptedLabel": "U bent geaccepteerd door de moderator van {{conversationName}}",
             "descriptionWaitingLabel": "U wacht om geaccepteerd te worden door de Moderator van {{conversationName}}",
             "notificationAcceptedByModerator": "U bent geaccepteerd door de moderator van",
             "userIsWaiting": "Nieuwe gebruiker wacht om binnen te gaan",
-            "userJoinedWaitingRoom": "Er schijnt iemand in de Wachtkamer te zijn"
-        }
+            "userJoinedWaitingRoom": "Er schijnt iemand in de wachtkamer te zijn"
+        },
+        "meeting": {
+            "ended": "Meeting beëindigd"
+        },
+        "startMeetingRecording": "De opname van de vergadering van {{conversationName}} is begonnen"
     },
     "people": {
         "manyMembers": "{{membersCount}} leden",
@@ -510,7 +535,8 @@
         "planMeeting": "Een Vergadering plannen",
         "promoteModerator": "Tot moderator bevorderen",
         "searchForParticipant": "Naar een deelnemer zoeken",
-        "switchToConversation": "Naar gesprek overschakelen"
+        "switchToConversation": "Naar gesprek overschakelen",
+        "disabledCreateButton": "Controleer uw invoer om er zeker van te zijn dat er geen fouten zijn"
     },
     "general": {
         "browserNotSupported": "De versie van uw browser wordt niet ondersteund. Het is sterk aanbevolen om de browser te updaten om te profiteren van alle functies!",
@@ -525,10 +551,30 @@
             "browser": "Niet-ondersteunde browser",
             "device": "Niet-ondersteund apparaat"
         },
-        "youAreEnteringMeeting": "U staat op het punt de Kamer binnen te gaan"
+        "youAreEnteringMeeting": "U staat op het punt de Kamer binnen te gaan",
+        "nobodyInTheRoom": "Het lijkt erop dat niemand in deze Kamer is",
+        "roomIsEmpty": "de Kamer is leeg",
+        "waitingRoom": {
+            "accessDenied": "Toegang geweigerd",
+            "moderatorRefusedAccessToRoom": "Een moderator heeft uw toegang tot deze Kamer geweigerd",
+            "userLeftLookForwardToSee": "We kijken er naar uit om u weer te zien",
+            "userLeftWaitingRoom": "U heeft de wachtkamer verlaten",
+            "userLeftReturnToWaitingRoom": "U kunt op elk moment terugkeren naar de wachtkamer via de link van de Kamer"
+        }
     },
     "enterTheRoom": "De Kamer betreden",
     "label": {
         "app_name": "Chats"
-    }
+    },
+    "errorPage": {
+        "errorCode": "foutcode 404",
+        "description": "Controleer uw link, het kan een verkeerde zijn",
+        "title": "Sorry, we konden die Kamer niet vinden"
+    },
+    "organizeYourMeeting": "Organiseer uw eigen vergaderingen of sluit u aan bij de Kamers van uw collega's",
+    "tryLater": "Probeer later",
+    "typeYourEmail": "Type uw e-mail",
+    "virtualRoom": "Virtuele Kamer",
+    "personalRoomLabel": "Persoonlşjke Kamer van {{userName}}",
+    "thanksForParticipating": "Bedankt voor uw deelname"
 }
