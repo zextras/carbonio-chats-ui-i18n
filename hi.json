@@ -80,7 +80,10 @@
         "appVersionCopied": "एप वर्शन कॉपी हुआ",
         "resetPersonalRoomLinkSuccess": "पर्सनल Room की लिंक रीसेट की गई",
         "tryAReconnectionIn": "{{seconds}} में दोबारा कनेक्शन की कोशिश करें",
-        "linkCopied": "लिंक कॉपी हो गई"
+        "linkCopied": "लिंक कॉपी हो गई",
+        "saveAttachmentSuccessfull": "अटैचमेंट चुने गए फोल्डर में सेव हो गया",
+        "connecting": "कनेक्ट कर रहा है…",
+        "saveAttachmentError": "सेव करने में कुछ समस्या आ रही है, कृपया दोबारा कोशिश करें"
     },
     "modal": {
         "teamNews": "Team की खबरें",
@@ -121,7 +124,12 @@
         "deleteMessageDescription": "कोई मैसेज डिलीट करने पर यह आपके लिए या दूसरे सभी पाने वालों को दिखाई नहीं देगा",
         "news": "न्यूज़",
         "userJoinedWaitingRoom": "ऐसा लग रहा है कि Waiting Room में कोई है",
-        "selectFolder": "फोल्डर सिलेक्ट करें"
+        "selectFolder": "फोल्डर सिलेक्ट करें",
+        "stopMeetingRec": {
+            "stopMeetingTitle": "मीटिंग की रिकॉर्डिंग बंद करें",
+            "stopRecording": "रिकॉर्डिंग बंद हो जाएगी। आप इस मीटिंग के दौरान कभी भी नई रिकॉर्डिंग शुरू कर सकते हैं।"
+        },
+        "moderatorMeetingDescription": "इस Room को आप मॉडरेट करेंगे। आप और मॉडरेटर जोड़ सकते हैं और इन्हें आपके जैसी ही परमीशन उपलब्ध होंगी।"
     },
     "appVersion": "एप वर्शन",
     "conversation": {
@@ -266,7 +274,12 @@
             "muteUserForAllDescription": "यूज़र की आवाज़ बंद करने पर सभी पार्टिसिपेंट यूज़र की आवाज़ नहीं सुन सकेंगे। सिर्फ आवाज़ बंद किए यूज़र खुद की आवाज़ चालू कर सकते हैं। आगे बढ़ें?",
             "disableScreensharing": "स्क्रीन शेयरिंग बंद करें",
             "enableFullScreen": "फुलस्क्रीन",
-            "cameraEnabled": "कैमरा चालू"
+            "cameraEnabled": "कैमरा चालू",
+            "audioEnabled": "ऑटो चालू है",
+            "cameraDisabled": "कैमरा बंद",
+            "audioDisabled": "ऑटो बंद है",
+            "stopMyVoice": "मेरी आवाज़ रोकें",
+            "playMyVoice": "मेरी आवाज़ प्ले करें"
         },
         "startModal": {
             "description": "आप मीटिंग में कैसे एंटर करना चाहते हैं?",
@@ -280,7 +293,14 @@
         "defaultViewModeTitleModal": "Meeting एनवायरनमेंट ऑप्शन",
         "defaultViewModeDefaultLabel": "\"डिफ़ाल्ट मोड\" चुनने से Meeting वर्तमान इंटरनल एनवायरनमेंट में चालू होगी।",
         "defaultViewModeSaveLabel": "सेव का ऑप्शन",
-        "resetMeetingUrlModalDescription": "क्या आप वाकई में प्लान की गई \"{{conversationName}}\" की लिंक रीसेट करना चाहते हैं?"
+        "resetMeetingUrlModalDescription": "क्या आप वाकई में प्लान की गई \"{{conversationName}}\" की लिंक रीसेट करना चाहते हैं?",
+        "genericErrorMeeting": "इस मीटिंग में कुछ समस्या आ रही है, अपने सिस्टम एडमिनिस्ट्रेटर से संपर्क करें।",
+        "thisMeetingIsBeingRecorded": "मीटिंग रिकॉर्ड हो रही है",
+        "recordedByMe": "आपने रिकॉर्ड करना शुरू कर दिया है",
+        "recording": "रिकॉर्डिंग",
+        "errorMeetingRecording": "रजिस्ट्रेशन फिर से शुरू करना संभव नहीं है, कृपया अपने सिस्टम एडमिनिस्ट्रेटर से संपर्क करें।",
+        "recordedByOther": "{{username}} ने रिकॉर्ड करना शुरू कर दिया है",
+        "wereToFindRecording": "रिकॉर्डिंग विडियो सर्वर होम में सेव की जाएगी, और जानकारी के लिए अपने सिस्टम एडमिनिस्ट्रेटर से संपर्क करें।"
     },
     "message": {
         "deletedMessage": "डिलीट किया मैसेज",
@@ -406,13 +426,17 @@
         "incomingCall": "इनकमिंग कॉल आ रहा है इनका:",
         "waiting": {
             "descriptionAcceptedLabel": "आपको {{conversationName}} के मॉडरेटर ने स्वीकार कर लिया है",
-            "notificationJoinTheRoom": "मीटिंग में हिस्सा लेने के लिए Room से जुड़ें",
+            "notificationJoinTheRoom": "मीटिंग में हिस्सा लेने के लिए रूम से जुड़ें",
             "descriptionWaitingLabel": "आप {{conversationName}} के मॉडरेटर द्वारा एक्सेप्ट होने का इंतज़ार कर रहे हैं",
             "notificationAcceptedByModerator": "आपको मॉडरेटर ने एक्सेप्ट कर लिया है",
             "userIsWaiting": "नया यूज़र अंदर आने का इंतज़ार कर रहा है",
-            "userJoinedWaitingRoom": "ऐसा लग रहा है कि Waiting Room में कोई है"
+            "userJoinedWaitingRoom": "ऐसा लग रहा है कि वेटिंग रूम में कोई है"
         },
-        "invitationToPersonalRoom": "Personal Room में इनका इन्विटेशन:"
+        "invitationToPersonalRoom": "Personal Room में इनका इन्विटेशन:",
+        "meeting": {
+            "ended": "मीटिंग खत्म हो गई"
+        },
+        "startMeetingRecording": "{{conversationName}} की मीटिंग की रिकॉर्डिंग शुरू हो गई है"
     },
     "people": {
         "manyMembers": "{{membersCount}} मेम्बर",
@@ -511,7 +535,8 @@
         "acceptQueuedMember": "यूज़र को अंदर आने दें",
         "planMeeting": "कोई Meeting प्लान करें",
         "rejectQueuedMember": "यूज़र को रिजेक्ट करें",
-        "searchForParticipant": "पर्टिसिपेंट खोजें"
+        "searchForParticipant": "पर्टिसिपेंट खोजें",
+        "disabledCreateButton": "अपने इनपुट जाँच लें और जानें कि इनमें कोई त्रुटि नहीं हैं"
     },
     "general": {
         "browserNotSupported": "आपके ब्राउज़र का यह वर्शन सपोर्टेड नहीं है। आप ब्राउज़र को अपडेट कर लें जिससे सभी फीचर्स का पूरा लाभ उठा सकें!",
@@ -532,7 +557,10 @@
         "roomIsEmpty": "यह Room खाली है",
         "waitingRoom": {
             "accessDenied": "एक्सेस मना की गई",
-            "moderatorRefusedAccessToRoom": "एक मॉडरेटर ने आपको इस Room में एक्सेस मना कर दी है"
+            "moderatorRefusedAccessToRoom": "एक मॉडरेटर ने आपको इस Room में एक्सेस मना कर दी है",
+            "userLeftWaitingRoom": "आपने वेटिंग रूम छोड़ दिया",
+            "userLeftLookForwardToSee": "चलिए आपसे फिर मिलेंगे",
+            "userLeftReturnToWaitingRoom": "आप वेटिंग रूम में Room की लिंक से कभी भी वापस आ सकते हैं"
         }
     },
     "label": {
@@ -542,5 +570,11 @@
         "description": "अपनी लिंक चेक करें, ये शायद गलत है",
         "errorCode": "एरर कोड 404",
         "title": "क्षमा करें, हमें वह Room नहीं मिला"
-    }
+    },
+    "personalRoomLabel": "{{userName}} का पर्सनल रूम",
+    "thanksForParticipating": "भाग लेने के लिए थैंक्स",
+    "tryLater": "बाद में कोशिश करें",
+    "virtualRoom": "वर्चुअल रूम",
+    "organizeYourMeeting": "अपनी खुद की मीटिंग्स ऑर्गनाइज़ करें या अपने साथ काम करने वालों के रूम में जॉइन करें",
+    "typeYourEmail": "अपनी ई-मेल टाइप करें"
 }
