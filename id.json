@@ -56,7 +56,9 @@
         "planMeeting": "Rencanakan Rapat",
         "resetLink": "Atur ulang tautan",
         "start": "Mulai",
-        "stop": "Hentikan"
+        "stop": "Hentikan",
+        "saveToFiles": "Simpan ke File",
+        "createRoom": "Buat Ruang"
     },
     "creation": {
         "selectMoreParticipantsForInstantMeetings": "Pilih peserta dari daftar atau ketik alamat untuk menambahkan pengguna eksternal",
@@ -132,11 +134,15 @@
             "descriptionAcceptedLabel": "Anda telah diterima oleh moderator {{conversationName}}",
             "descriptionWaitingLabel": "Anda menunggu diterima oleh Moderator {{conversationName}}",
             "notificationAcceptedByModerator": "Anda telah diterima oleh moderator",
-            "notificationJoinTheRoom": "Gabung ke Ruang untuk berpartisipasi dalam rapat",
+            "notificationJoinTheRoom": "Gabung ke ruang untuk berpartisipasi dalam rapat",
             "userIsWaiting": "Pengguna baru menunggu masuk",
-            "userJoinedWaitingRoom": "Tampaknya ada seseorang di Ruang Tunggu"
+            "userJoinedWaitingRoom": "Tampaknya ada seseorang di ruang tunggu"
         },
-        "invitationToPersonalRoom": "Undangan ke Ruang Pribadi dari:"
+        "invitationToPersonalRoom": "Undangan ke Ruang Pribadi dari:",
+        "meeting": {
+            "ended": "Rapat Berakhir"
+        },
+        "startMeetingRecording": "Rekaman rapat {{conversationName}} telah dimulai"
     },
     "tooltip": {
         "sendMessage": "Kirim pesan",
@@ -174,7 +180,8 @@
         "sendFile": "Kirim file",
         "showChannels": "Tampilkan Channels",
         "switchToConversation": "Beralih ke percakapan",
-        "switchToInfoPanel": "Beralih ke panel info"
+        "switchToInfoPanel": "Beralih ke panel info",
+        "disabledCreateButton": "Periksa input untuk memastikan tidak ada kesalahan"
     },
     "appVersion": "Versi aplikasi",
     "button": {
@@ -241,7 +248,9 @@
         "roomLinkCopied": "Tautan ruang disalin",
         "tryAReconnectionIn": "Coba sambungkan ulang dalam {{seconds}}",
         "connecting": "Menghubungkan...",
-        "linkCopied": "Tautan disalin"
+        "linkCopied": "Tautan disalin",
+        "saveAttachmentSuccessfull": "Lampiran disimpan di folder yang dipilih",
+        "saveAttachmentError": "Tampaknya ada masalah saat menyimpan. Harap coba lagi."
     },
     "meeting": {
         "attendeesComing": "Peserta mulai hadir",
@@ -276,7 +285,12 @@
             "disableScreensharing": "Nonaktifkan Berbagi Layar",
             "enableFullScreen": "Layar penuh",
             "enableScreenSharing": "Aktifkan Berbagi Layar",
-            "cameraEnabled": "Kamera diaktifkan"
+            "cameraEnabled": "Kamera diaktifkan",
+            "playMyVoice": "Putar suara saya",
+            "audioDisabled": "Audio dinonaktifkan",
+            "audioEnabled": "Audio diaktifkan",
+            "cameraDisabled": "Kamera dinonaktifkan",
+            "stopMyVoice": "Hentikan suara saya"
         },
         "startModal": {
             "description": "Bagaimana cara yang Anda inginkan untuk masuk ke rapat?",
@@ -290,7 +304,14 @@
         "resetMeetingUrlModalDescription": "Anda yakin ingin mengatur ulang tautan untuk \"{{conversationName}}\" terencana?",
         "defaultViewModeDedicatedLabel": "\"Mode Khusus\" akan mengarahkan Anda ke tab terpisah di browser Anda untuk menikmati pengalaman Rapat yang terbaik.",
         "defaultViewModeSaveLabel": "Simpan Opsi",
-        "defaultViewModeTitleModal": "Opsi lingkungan rapat"
+        "defaultViewModeTitleModal": "Opsi lingkungan rapat",
+        "errorMeetingRecording": "Registrasi tak bisa dimulai. Harap hubungi administrator sistem.",
+        "genericErrorMeeting": "Tampaknya ada masalah dengan rapat ini. Hubungi administrator sistem.",
+        "recordedByMe": "Anda telah memulai perekaman",
+        "thisMeetingIsBeingRecorded": "Rapat ini direkam",
+        "recording": "Rekaman",
+        "recordedByOther": "{{username}} telah memulai perekaman",
+        "wereToFindRecording": "Rekaman akan disimpan di pusat server video. Hubungi administrator sistem untuk detail lebih lanjut."
     },
     "message": {
         "deletedMessage": "Pesan yang dihapus",
@@ -449,7 +470,12 @@
         "roomsFunctionalitiesChangelogDescription": "Kami telah membuat perubahan penting pada fungsi rapat. Baca pengantar Ruang untuk menemukan lebih banyak!",
         "teamNews": "Berita Team",
         "userJoinedWaitingRoom": "Tampaknya ada seseorang di Ruang Tunggu",
-        "selectFolder": "Pilih folder"
+        "selectFolder": "Pilih folder",
+        "stopMeetingRec": {
+            "stopRecording": "Rekaman akan dihentikan. Anda bisa memulai rekaman baru kapan saja selama rapat ini.",
+            "stopMeetingTitle": "Hentikan rekaman rapat"
+        },
+        "moderatorMeetingDescription": "Anda akan memoderasi Ruang ini. Anda bisa menambahkan moderator tambahan, dan mereka akan memiliki izin yang sama."
     },
     "people": {
         "manyMembers": "{{membersCount}} anggota",
@@ -526,9 +552,29 @@
         "youAreEnteringMeeting": "Anda akan memasuki Ruang",
         "login": {
             "externalLoginDescription": "Jika sudah menjadi bagian dari domain ini, Anda akan diarahkan ke ruang kerja biasanya. Jika Anda pengguna eksternal, Anda akan diarahkan ke antarmuka khusus."
+        },
+        "nobodyInTheRoom": "Tampaknya tak ada seorangpun di Ruang ini",
+        "roomIsEmpty": "Ruang ini kosong",
+        "waitingRoom": {
+            "accessDenied": "Akses ditolak",
+            "moderatorRefusedAccessToRoom": "Moderator menolak akses Anda ke Ruang ini",
+            "userLeftLookForwardToSee": "Kami menantikan Anda kembali",
+            "userLeftReturnToWaitingRoom": "Anda bisa kembali ke ruang tunggu kapan saja dari tautan Ruang",
+            "userLeftWaitingRoom": "Anda keluar dari ruang tunggu"
         }
     },
     "label": {
         "app_name": "Chats"
-    }
+    },
+    "errorPage": {
+        "description": "Cek tautan anda, mungkin salah",
+        "errorCode": "kode kesalahan 404",
+        "title": "Maaf, kami tidak bisa menemukan Ruang itu"
+    },
+    "organizeYourMeeting": "Selenggarakan rapat sendiri atau gabung ke Ruang rekan kerja",
+    "personalRoomLabel": "Ruang Pribadi {{userName}}",
+    "thanksForParticipating": "Terima kasih telah berpartisipasi",
+    "tryLater": "Coba nanti",
+    "typeYourEmail": "Ketik email Anda",
+    "virtualRoom": "Ruang Virtual"
 }
