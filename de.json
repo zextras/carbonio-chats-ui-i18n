@@ -56,7 +56,9 @@
         "removeMember": "Mitglied entfernen",
         "resetLink": "Link zurücksetzen",
         "start": "Start",
-        "stop": "Stop"
+        "stop": "Stop",
+        "saveToFiles": "Speichern unter Dateien",
+        "createRoom": "Raum erstellen"
     },
     "creation": {
         "group": {
@@ -137,7 +139,9 @@
         "resetPersonalRoomLinkSuccess": "Der Link des persönlichen Raums wurde zurückgesetzt",
         "roomLinkCopied": "Raum- Link kopiert",
         "connecting": "Verbinden …",
-        "linkCopied": "Link kopiert"
+        "linkCopied": "Link kopiert",
+        "saveAttachmentError": "Es scheint ein Problem beim Speichern zu geben, bitte versuchen Sie es erneut",
+        "saveAttachmentSuccessfull": "Im ausgewählten Ordner gespeicherte Anhänge"
     },
     "message": {
         "service": {
@@ -351,7 +355,12 @@
             "muteUserForAllDescription": "Wenn der Benutzer stummgeschaltet wird, können alle Teilnehmer den Benutzer nicht mehr hören. Nur der stummgeschaltete Benutzer kann die Stummschaltung selbst wieder aufheben. Wie geht es weiter?",
             "enableFullScreen": "Vollbild",
             "enableScreenSharing": "Bildschirmfreigabe aktivieren",
-            "cameraEnabled": "Kamera aktiviert"
+            "cameraEnabled": "Kamera aktiviert",
+            "cameraDisabled": "Kamera deaktiviert",
+            "audioDisabled": "Audio deaktiviert",
+            "audioEnabled": "Audio aktiviert",
+            "playMyVoice": "Meine Stimme abspielen",
+            "stopMyVoice": "Meine Stimme stoppen"
         },
         "startModal": {
             "description": "Wie möchten Sie dem Meeting beitreten?",
@@ -365,7 +374,14 @@
         "defaultViewModeSaveLabel": "Option speichern",
         "defaultViewModeTitleModal": "Optionen für die Sitzungsumgebung",
         "defaultViewModeDedicatedLabel": "Der \"dedizierte Modus\" wird Sie in einen separaten Reiter in Ihrem Browser weiterleiten, um das Meetings besser darzustellen.",
-        "resetMeetingUrlModalDescription": "Sind Sie sicher, dass Sie den Link für das geplante \"{{conversationName}}\" zurücksetzen möchten?"
+        "resetMeetingUrlModalDescription": "Sind Sie sicher, dass Sie den Link für das geplante \"{{conversationName}}\" zurücksetzen möchten?",
+        "genericErrorMeeting": "Es scheint ein Problem mit dieser Besprechung zu geben, wenden Sie sich an Ihren Systemadministrator.",
+        "errorMeetingRecording": "Es ist nicht möglich, die Registrierung zu starten, wenden Sie sich bitte an Ihren Systemadministrator.",
+        "recordedByMe": "Sie haben mit der Aufnahme begonnen",
+        "recordedByOther": "{{username}} hat mit der Aufnahme begonnen",
+        "recording": "Aufnahme",
+        "wereToFindRecording": "Die Aufzeichnung wird im Heim des Videoservers gespeichert. Wenden Sie sich an Ihren Systemadministrator, um weitere Einzelheiten zu erfahren.",
+        "thisMeetingIsBeingRecorded": "Diese Sitzung wird aufgezeichnet"
     },
     "modal": {
         "addModeratorDescription": "Einen oder mehrere Nutzer auswählen, um diese zu Moderatoren des Raums zu ernennen",
@@ -406,7 +422,12 @@
         "userJoinedWaitingRoom": "Es scheint jemand im Warteraum zu sein",
         "news": "News",
         "notShowAgain": "Zeigen Sie dies nicht mehr",
-        "selectFolder": "Ordner auswählen"
+        "selectFolder": "Ordner auswählen",
+        "moderatorMeetingDescription": "Sie werden diesen Raum moderieren. Sie können weitere Moderatoren hinzufügen, die die gleichen Rechte haben wie Sie.",
+        "stopMeetingRec": {
+            "stopMeetingTitle": "Aufzeichnung der Besprechung stoppen",
+            "stopRecording": "Die Aufzeichnung wird gestoppt. Sie können während dieser Besprechung jederzeit eine neue Aufzeichnung starten."
+        }
     },
     "notification": {
         "answer": "Annehmen",
@@ -417,10 +438,14 @@
             "descriptionAcceptedLabel": "Du wurdest vom Moderator von {{conversationName}} akzeptiert",
             "descriptionWaitingLabel": "Sie warten darauf, vom Moderator von {{conversationName}} akzeptiert zu werden",
             "notificationAcceptedByModerator": "Sie sind vom Moderator akzeptiert worden",
-            "notificationJoinTheRoom": "Schließen Sie sich dem Raum an, um an der Sitzung teilzunehmen",
+            "notificationJoinTheRoom": "Betreten Sie den Raum, um an der Sitzung teilzunehmen",
             "userIsWaiting": "Neuer Benutzer wartet auf Eintritt",
-            "userJoinedWaitingRoom": "Es scheint jemand im Warteraum zu sein"
-        }
+            "userJoinedWaitingRoom": "Es scheint jemand im Wartezimmer zu sein"
+        },
+        "meeting": {
+            "ended": "Sitzung beendet"
+        },
+        "startMeetingRecording": "Die Aufzeichnung der Besprechung von {{conversationName}} hat begonnen"
     },
     "settings": {
         "meeting": {
@@ -510,7 +535,8 @@
         "selectEmoji": "Emoji auswählen",
         "sendFile": "Dateien senden",
         "switchToConversation": "Zum Gespräch wechseln",
-        "switchToInfoPanel": "Zum Info-Panel wechseln"
+        "switchToInfoPanel": "Zum Info-Panel wechseln",
+        "disabledCreateButton": "Überprüfen Sie Ihre Eingaben, um sicherzustellen, dass keine Fehler vorhanden sind."
     },
     "general": {
         "browserNotSupported": "Wir unterstützen diese Version Ihres Browsers nicht. Wir empfehlen Ihnen dringend, Ihren Browser zu aktualisieren, um alle Team Funktionen zu nutzen!",
@@ -525,10 +551,30 @@
             "browser": "Nicht unterstützter Browser",
             "device": "Nicht unterstütztes Gerät"
         },
-        "youAreEnteringMeeting": "Sie sind kurz davor, den Raum zu betreten"
+        "youAreEnteringMeeting": "Sie sind kurz davor, den Raum zu betreten",
+        "nobodyInTheRoom": "Es scheint niemand in diesem Raum zu sein",
+        "roomIsEmpty": "Dieser Raum ist leer",
+        "waitingRoom": {
+            "accessDenied": "Zugang verweigert",
+            "moderatorRefusedAccessToRoom": "Ein Moderator hat Ihnen den Zugang zu diesem Raum verweigert",
+            "userLeftReturnToWaitingRoom": "Über den Link Room's können Sie jederzeit in den Warteraum zurückkehren",
+            "userLeftWaitingRoom": "Sie haben das Wartezimmer verlassen",
+            "userLeftLookForwardToSee": "Wir freuen uns auf ein Wiedersehen mit Ihnen"
+        }
     },
     "label": {
         "app_name": "Chats"
     },
-    "enterTheRoom": "Den Raum betreten"
+    "enterTheRoom": "Den Raum betreten",
+    "errorPage": {
+        "errorCode": "Fehlercode 404",
+        "description": "Überprüfen Sie Ihren Link, er könnte falsch sein",
+        "title": "Tut uns leid, wir konnten den Raum nicht finden"
+    },
+    "organizeYourMeeting": "Organisieren Sie Ihre eigenen Besprechungen oder nehmen Sie an den Besprechungen Ihrer Kollegen teil.",
+    "personalRoomLabel": "Persönlicher Raum von {{userName}}",
+    "thanksForParticipating": "Danke für die Teilnahme",
+    "tryLater": "Versuchen Sie es später",
+    "typeYourEmail": "Geben Sie Ihre E-Mail ein",
+    "virtualRoom": "Virtueller Raum"
 }
