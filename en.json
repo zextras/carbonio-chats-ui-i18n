@@ -9,12 +9,14 @@
         "addNewMembers": "Add new members",
         "addNewMembersTo": "Add new members to",
         "addOtherModerators": "Add other moderators",
+        "browse": "Browse",
         "clearHistory": "Clear History",
         "close": "Close",
         "collapse": "Collapse",
         "copy": "Copy",
         "copyAppVersion": "Copy app version",
         "copyLinkRoom": "Copy Room's Link",
+        "copyLinkVirtualRoom": "Copy Virtual Room's Link",
         "copyUserRoomLink": "Copy Link",
         "create": "Create",
         "createChannel": "Create Channel linked to {{spaceName}}",
@@ -23,10 +25,12 @@
         "createInstantMeeting": "Create Instant Meeting",
         "createRoom": "Create Room",
         "createSpace": "Create Space",
+        "createVirtualRoom": "Create Virtual Room",
         "delete": "Delete",
         "deleteChannel": "Delete Channel",
         "deleteRoom": "Delete Room",
         "deleteSpace": "Delete Space",
+        "deleteVirtualRoom": "Delete Virtual Room",
         "edit": "Edit",
         "editYourMessage": "Edit your message",
         "expand": "Expand",
@@ -36,6 +40,7 @@
         "joinChannel": "Join the Channel to send messages and receive notifications",
         "joinChannelAction": "Join Channel",
         "joinRoom": "Join Room",
+        "joinVirtualRoom": "Join Virtual Room",
         "leave": "Leave",
         "leaveAndDelete": "Leave and delete",
         "leaveChannel": "Leave Channel",
@@ -78,6 +83,7 @@
         "instantInfo": "Instant Meeting Info",
         "name": "Name",
         "nameRoom": "{{conversationTitle}}'s Room",
+        "nameVirtualRoom": "{{conversationTitle}}'s Virtual Room",
         "newMessages": "New Messages",
         "roomInfo": "Room Info",
         "roomLink": "Room's link",
@@ -86,10 +92,15 @@
         "spaceInfo": "Space Info",
         "speakersCorner": "Users in Meeting Room",
         "title": "Title",
-        "topic": "Topic"
+        "topic": "Topic",
+        "virtualRoomInfo": "Virtual Room Info",
+        "virtualRoomLink": "Virtual Room's link",
+        "virtualRoomLinkDescription": "Copy this link and share it to provide others with access to this Virtual Room.",
+        "virtualRoomName": "Virtual Room's name"
     },
     "conversations": {
         "activeMeetingRooms": "Active Meeting Rooms",
+        "activeVirtualRooms": "Active Virtual Rooms",
         "chats": "Chats",
         "conversations": "Conversations",
         "filterChatList": "Filter chats list",
@@ -101,14 +112,18 @@
         "noActiveInstantMeetings": "There aren't active Instant Meetings at the moment. Create a new Instant meeting or switch tab.",
         "noActiveMeetings": "There aren't active Rooms at the moment",
         "noActiveSpaces": "There aren't active Spaces at the moment. Create a new Space or switch tab.",
+        "noActiveVirtualRooms": "There aren't active Virtual Rooms at the moment",
         "noFilteredChats": "There aren't chats that match this filter.",
         "noFilteredInstantMeetings": "There aren't Instant Meetings that match this filter.",
         "noFilteredMeetings": "There aren't Rooms or planned meetings that match this filter",
         "noFilteredSpaces": "There aren't Spaces that match this filter.",
+        "noFilteredVirtualRooms": "There aren't Virtual Rooms or planned meetings that match this filter",
         "personalRoom": "Personal Room",
+        "personalVirtualRoom": "Personal Virtual Room",
         "scheduledMeetings": "Scheduled Meetings",
         "spaceGeneralChannel": "General",
         "spaces": "Spaces",
+        "virtualRooms": "Virtual Rooms",
         "waitingRoom": "Waiting Room",
         "yourRoom": "Your Room"
     },
@@ -179,6 +194,7 @@
         "youCanInviteOther": "You can invite other {{limit}} participants"
     },
     "enterTheRoom": "Enter The Room",
+    "enterTheVirtualRoom": "Enter The Virtual Room",
     "errorPage": {
         "description": "Check your link, it might be a wrong one",
         "errorCode": "error code 404",
@@ -189,11 +205,13 @@
             "externalLoginDescription": "If you already belong to this domain, you will be redirected to your usual workspace. If you're an external user you will be redirected to a dedicated interface."
         },
         "nobodyInTheRoom": "It seems nobody is in this Room",
+        "nobodyInTheVirtualRoom": "It seems nobody is in this Virtual Room",
         "roomIsEmpty": "This Room is empty",
         "unsupported": {
             "browser": "Unsupported browser",
             "device": "Unsupported device"
         },
+        "virtualRoomIsEmpty": "This Virtual Room is empty",
         "waitingRoom": {
             "accessDenied": "Access denied",
             "moderatorRefusedAccessToRoom": "A moderator has refused your access to this Room",
@@ -201,7 +219,8 @@
             "userLeftReturnToWaitingRoom": "You can return to the waiting room at any time from the Room's link",
             "userLeftWaitingRoom": "You left the waiting room"
         },
-        "youAreEnteringMeeting": "You're about to enter the Room"
+        "youAreEnteringMeeting": "You're about to enter the Room",
+        "youAreEnteringVirtualRoom": "You're about to enter the Virtual Room"
     },
     "feedback": {
         "appVersionCopied": "App version copied",
@@ -213,12 +232,14 @@
         "offline": "It seems to be a server connection issue",
         "online": "Back online!",
         "resetPersonalRoomLinkSuccess": "Personal Room's link was reset",
+        "resetPersonalVirtualRoomLinkSuccess": "Personal Virtual Room's link was reset",
         "retryConnection": "Retry connection",
         "roomLinkCopied": "Room's link copied",
         "saveAttachmentError": "There seems to be a problem when saving, please try again",
         "saveAttachmentSuccessfull": "Attachment saved in the selected folder",
         "tryAReconnectionIn": "Try a reconnection in {{seconds}}",
-        "uploadConversationPicturesFailed": "Failed to upload conversation picture"
+        "uploadConversationPicturesFailed": "Failed to upload conversation picture",
+        "virtualRoomLinkCopied": "Virtual Room's link copied"
     },
     "general": {
         "browserNotSupported": "The version of your browser is not supported. It's highly recommended to update the browser to benefit from all the features!",
@@ -231,13 +252,19 @@
     "meeting": {
         "attendeesComing": "Participants are coming",
         "defaultViewModeDedicatedLabel": "The \"Dedicated Mode\" will redirect you to a separated tab of your browser to enjoy the Meeting experience at its best.",
+        "defaultViewModeDedicatedLabelVirtualRoom": "The \"Dedicated Mode” will redirect you to a separated tab of your browser to enjoy the Virtual ROom experience at its best.",
         "defaultViewModeDedicatedModeLabel": "Dedicated Mode",
+        "defaultViewModeDedicatedModeLabelVRoom": "Dedicated Mode",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Dedicated Mode",
         "defaultViewModeDefaultLabel": "Selecting the \"Default Mode\", the Meeting will start in the current internal environment.",
+        "defaultViewModeDefaultLabelVirtualRoom": "Selecting the \"Default Mode\", the Virtual Room will start in the current internal environment.",
         "defaultViewModeDefaultModeLabel": "Default Mode",
         "defaultViewModeSaveLabel": "Save Option",
         "defaultViewModeSecondaryDescriptionLabel": "This option will be saved in your settings and can be updated every time you want.",
         "defaultViewModeTitleModal": "Meetings environment options",
+        "defaultViewModeTitleModalVirtualRoom": "Virtual Rooms environment options",
         "errorMeetingRecording": "It is not possible to start the registration, please contact your system administrator.",
+        "errorMeetingSavingRecording": "It is not possible to stop the recording, please try again",
         "genericErrorMeeting": "There seems to be a problem with this meeting, contact your system administrator.",
         "interactions": {
             "audioDisabled": "Audio disabled",
@@ -257,12 +284,14 @@
             "gridView": "Grid View",
             "hideChat": "Hide Chat",
             "hideParticipants": "Hide Participants",
+            "micTesting": "You will hear your voice on the default output, allowing yourself to test the quality of your input as well as the output selected for the meeting",
             "muteUser": "Mute",
             "muteUserForAllDescription": "By muting the user, all the participants won't hear the user anymore. Only muted user can be unmute himself. Proceed?",
             "muteUserForAllTitle": "Mute for all",
             "mutedByModerators": "You've been muted by a moderator, unmute yourself to speak",
             "mutedByOthers": "You have been muted",
             "pinVideo": "Pin video",
+            "playMic": "Start microphone test",
             "playMyVoice": "Play my voice",
             "shortCutLabel": "(C)",
             "showChat": "Show Chat",
@@ -271,6 +300,7 @@
                 "cameraMicOff": "Your camera and microphone are off",
                 "cameraOff": "Your camera is off"
             },
+            "stopMic": "Stop microphone test",
             "stopMyVoice": "Stop my voice",
             "unpinVideo": "Unpin video"
         },
@@ -280,13 +310,18 @@
         "resetMeetingUrlModalDescription": "Are you sure to reset the link for planned \"{{conversationName}}\"?",
         "startModal": {
             "description": "How do you want to enter the meeting?",
+            "descriptionMyPersonalVirtualRoom": "How do you want to enter your Personal Virtual Room?",
+            "descriptionPersonalVirtualRoom": "How do you want to enter {{meetingTitle}}'s Personal Virtual Room?",
+            "descriptionVirtualRoom": "How do you want to enter {{meetingTitle}}?",
             "enter": "Enter",
             "noVideoAndAudio": "Camera off, Microphone on",
             "noVideoAndNoAudio": "Camera off, Microphone off",
             "videoAndAudio": "Camera on, Microphone on",
             "videoAndNoAudio": "Camera on, Microphone off"
         },
+        "successSaveMeetingRecording": "You will find {{registrationName}} in /{{folderName}} as soon as it is available",
         "thisMeetingIsBeingRecorded": "This meeting is being recorded",
+        "wereToFindRec": "The recording will be saved in the Files space of the moderator who stopped it.",
         "wereToFindRecording": "The recording will be saved in the video server home, contact your system administrator for further details."
     },
     "message": {
@@ -337,11 +372,13 @@
                 },
                 "kicked": {
                     "channel": "{{member_name}} has been removed from the Channel by {{kicked_by}}",
+                    "chat": "{{member_name}} has been removed from the Chat by {{kicked_by}}",
                     "group": "{{member_name}} has been removed from the Group by {{kicked_by}}",
                     "space": "{{member_name}} has been removed from the Space by {{kicked_by}}"
                 },
                 "left": {
                     "channel": "{{member_name}} has left the Channel",
+                    "chat": "{{member_name}} has left the Chat",
                     "group": "{{member_name}} has left the Group",
                     "space": "{{member_name}} has left the Space"
                 },
@@ -416,6 +453,7 @@
             "deleteChannel": "Are you sure to delete this Channel?",
             "deleteRoom": "Are you sure to delete the Room?",
             "deleteSpace": "Are you sure to delete this Space?",
+            "deleteVirtualRoom": "Are you sure you want to delete the Virtual Room?",
             "leaveAndDeleteConversation": "Are you sure you want to leave and delete {{conversationName}}?",
             "leaveChannel": "Are you sure to leave the Channel?",
             "leaveGroup": "Are you sure to leave the Group?",
@@ -440,15 +478,21 @@
         "moderatorCannotLeaveGroupDescription": "You're the only moderator of {{conversationName}}, please promote someone else before leaving the Group.",
         "moderatorCannotLeaveGroupTitle": "Wait, a new moderator is needed",
         "moderatorMeetingDescription": "You will moderate this Room. You can add additional moderators and they'll have the same permissions as you.",
+        "moderatorVirtualRoomDescription": "You will moderate this Virtual Room. You can add additional moderators and they'll have the same permissions as you.",
         "news": "News",
         "notShowAgain": "Do not show this again",
         "planMeetingDescription": "Room's name helps the attendees to know the Room's matter of discussion.",
+        "planVirtualRoomDescription": "Give to this Virtual Room a recognizable name in order to let your attendees know what they are expecting to meet about.",
         "roomsFunctionalitiesChangelogDescription": "We have made important changes to the meeting functionalities. Read the introduction to the Rooms to find out more!",
         "selectFolder": "Select folder",
         "showPreviousConversationHistory": "Show previous conversation history",
         "stopMeetingRec": {
+            "locationWhereToSaveRecording": "The recording will be saved in \"/{{folderName}}\".",
+            "recordingName": "Recording Name",
             "stopMeetingTitle": "Stop meeting's recording",
-            "stopRecording": "The recording will be stopped. You can start a new recording anytime during this meeting."
+            "stopRecording": "The recording will be stopped. You can start a new recording anytime during this meeting.",
+            "stopRecordingDescription": "You are going to stop the recording. You can start a new one at any time.",
+            "stopRecordingTitle": "Stop recording"
         },
         "teamNews": "Team's News",
         "userJoinedWaitingRoom": "There seems to be someone in the Waiting Room"
@@ -458,6 +502,7 @@
         "dismiss": "Dismiss",
         "incomingCall": "Incoming call from:",
         "invitationToPersonalRoom": "Invitation to Personal Room from:",
+        "invitationToPersonalVirtualRoom": "Invitation to Personal Virtual Room from:",
         "meeting": {
             "ended": "Meeting Ended"
         },
@@ -467,11 +512,14 @@
             "descriptionWaitingLabel": "You’re waiting to be accepted by {{conversationName}}’s Moderator",
             "notificationAcceptedByModerator": "You have been accepted by the moderator",
             "notificationJoinTheRoom": "Join the room to take part in the meeting",
+            "notificationJoinTheVirtualRoom": "Join the Virtual Room to take part in the meeting",
             "userIsWaiting": "New user is waiting to enter",
             "userJoinedWaitingRoom": "There seems to be someone in the waiting room"
         }
     },
     "organizeYourMeeting": "Organize your own meetings or join your colleagues' Rooms",
+    "organizeYourVMeeting": "Organize your own meetings or join your colleagues' Virtual Rooms",
+    "organizeYourVirtualMeeting": "Organize your own meetings or join your colleagues' Virtual Rooms",
     "people": {
         "manyMembers": "{{membersCount}} members",
         "me": "Me",
@@ -482,15 +530,31 @@
         "you": "You"
     },
     "personalRoomLabel": "{{userName}}'s Personal Room",
+    "personalVirtualRoomLabel": "{{userName}}'s Personal Virtual Room",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "Download"
+            }
+        },
+        "close": {
+            "tooltip": "Close"
+        }
+    },
     "settings": {
         "meeting": {
             "description": "Set your audio and video preferences to enter meetings. You can always customize your preferences before entering any meeting.",
+            "descriptionVirtualRoom": "Set your audio and video preferences to enter in Virtual Room. You'll can always customize your preferences before entering in every Virtual Room.",
             "enableCamera": "Enable camera",
             "enableMicrophone": "Enable microphone",
             "meetings": "Meetings",
             "personalRoomOptionsTitleModal": "Personal Room's link reset",
             "personalRoomResetButton": "Reset Personal Room's link",
-            "personalRoomResetDescription": "By resetting Personal Room's link, all the previously given accesses will not work anymore."
+            "personalRoomResetDescription": "By resetting Personal Room's link, all the previously given accesses will not work anymore.",
+            "personalVirtualRoomOptionsTitleModal": "Personal Virtual Room's link reset",
+            "personalVirtualRoomResetButton": "Reset Personal Virtual Room's link",
+            "personalVirtualRoomResetDescription": "By resetting Personal Virtual Room's link, all the previously given accesses will not work anymore.",
+            "virtualRooms": "Virtual Rooms"
         },
         "modal": {
             "description": "Here you can set all Chats' dedicated preferences in order to enjoy a complete customized chatting experience!",
@@ -520,6 +584,11 @@
             "title": "Profile",
             "update": "Update"
         },
+        "recordingMeeting": {
+            "descriptionWhereToSaveRegistration": "Set a destination folder to save meeting recordings.",
+            "destinationFolder": "Destination folder",
+            "recording": "Recordings"
+        },
         "resetPersonalRoomLinkSuccess": "Personal Room's link was reset",
         "title": "Settings"
     },
@@ -547,6 +616,8 @@
         "copyRoomLinkTooltip": "Copy this link to share the Room",
         "copyUserRoom": "Copy your Personal Room's link",
         "copyUserRoomTooltip": "Copy this link and share it to provide others with access to your Personal Room",
+        "copyUserVirtualRoomTooltip": "Copy this link and share it to provide others with access to your Personal Virtual Room",
+        "copyVirtualRoomLinkTooltip": "Copy this link to share the Virtual Room",
         "disabledCreateButton": "Check your inputs to make sure there are no errors",
         "downgradeModerator": "Downgrade Moderator",
         "editDescription": "Edit description",
@@ -554,6 +625,7 @@
         "enterMeetingRoom": "Enter Meeting Room",
         "enterYourRoom": "Enter your Personal Room",
         "enterYourRoomTooltip": "Enter your Personal Room",
+        "enterYourVirtualRoomTooltip": "Enter your Personal Virtual Room",
         "errorRemovingAvatarPicture": "Something went wrong while removing avatar. Please retry",
         "errorUpdatingAvatarStatus": "Something went wrong while settings status. Please retry",
         "errorUploadingAvatarPicture": "Something went wrong while uploading new avatar. Please retry",
