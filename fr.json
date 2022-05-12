@@ -221,12 +221,14 @@
                 "kicked": {
                     "channel": "{{member_name}} a été supprimé du Canal par {{kicked_by}}",
                     "group": "{{member_name}} a été retiré du groupe par {{kicked_by}}",
-                    "space": "{{member_name}} a été supprimé de l’Espace par {{kicked_by}}"
+                    "space": "{{member_name}} a été supprimé de l’Espace par {{kicked_by}}",
+                    "chat": "{{member_name}} a été supprimé du Chat par {{kicked_by}}"
                 },
                 "left": {
                     "channel": "{{member_name}} a quitté le Canal",
                     "space": "{{member_name}} a quitté l’Espace",
-                    "group": "{{member_name}} a quitté le Groupe"
+                    "group": "{{member_name}} a quitté le Groupe",
+                    "chat": "{{member_name}} a quitté le Chat"
                 },
                 "you": {
                     "invited": "Vous avez invité {{member_name}}",
@@ -326,7 +328,9 @@
         "connecting": "Connexion...",
         "linkCopied": "Lien copié",
         "saveAttachmentError": "Il semble y avoir un problème lors de l'enregistrement, merci de réessayer",
-        "saveAttachmentSuccessfull": "La pièce jointe a été enregistré dans le dossier sélectionné"
+        "saveAttachmentSuccessfull": "La pièce jointe a été enregistré dans le dossier sélectionné",
+        "resetPersonalVirtualRoomLinkSuccess": "Le lien de la Salle Virtuelle personnel a été réinitialisé",
+        "virtualRoomLinkCopied": "Le lien de la Salle Virtuelle a été copié"
     },
     "meeting": {
         "attendeesComing": "Les participants arrivent",
@@ -366,7 +370,10 @@
             "cameraDisabled": "Caméra désactivée",
             "cameraEnabled": "Caméra activée",
             "playMyVoice": "Jouer ma voix",
-            "stopMyVoice": "Arrêter ma voix"
+            "stopMyVoice": "Arrêter ma voix",
+            "micTesting": "Vous allez entendre votre voix dans la sortie par défaut, vous permettant de vérifier la qualité de votre micro en même temps que le bon fonctionnement de la sortie audio sélectionnée pour la réunion",
+            "playMic": "Démarrer le test du micro",
+            "stopMic": "Arrêter le test du micro"
         },
         "startModal": {
             "description": "Comment souhaitez-vous entrer dans cette réunion ?",
@@ -374,7 +381,10 @@
             "noVideoAndAudio": "Caméra désactivée, microphone actif",
             "noVideoAndNoAudio": "Caméra désactivée, microphone désactivé",
             "videoAndAudio": "Caméra active, microphone actif",
-            "videoAndNoAudio": "Caméra active, microphone désactivé"
+            "videoAndNoAudio": "Caméra active, microphone désactivé",
+            "descriptionMyPersonalVirtualRoom": "Comment souhaitez-vous rejoindre votre Salle Virtuelle Personnelle ?",
+            "descriptionPersonalVirtualRoom": "Comment souhaitez-vous entrer dans la Salle Virtuelle Personnelle de {{meetingTitle}} ?",
+            "descriptionVirtualRoom": "Comment souhaitez-vous entrer dans {{meetingTitle}} ?"
         },
         "defaultViewModeDefaultLabel": "En sélectionnant le \"Mode par défaut\", la réunion démarrera dans l'environnement interne actuel.",
         "defaultViewModeSaveLabel": "Option de sauvegarde",
@@ -387,7 +397,15 @@
         "wereToFindRecording": "L'enregistrement sera sauvegardé dans l'accueil du serveur vidéo, contactez votre administrateur système pour plus de détails.",
         "recordedByMe": "Vous avez lancer l'enregistrement",
         "recording": "Enregistrement",
-        "thisMeetingIsBeingRecorded": "Cette réunion est enregistrée"
+        "thisMeetingIsBeingRecorded": "Cette réunion est enregistrée",
+        "defaultViewModeDefaultLabelVirtualRoom": "En sélectionnant le \"Mode par défaut\", la Salle Virtuelle démarrera dans l'environnement en cours.",
+        "defaultViewModeDedicatedLabelVirtualRoom": "Le \"mode dédiée\" vous redirigera dans un onglet séparé de votre navigateur pour profiter pleinement de la Salle Virtuelle.",
+        "defaultViewModeDedicatedModeLabelVRoom": "Mode dédié",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Mode dédié",
+        "defaultViewModeTitleModalVirtualRoom": "Options d'environnement de la Salle Virtuelle",
+        "errorMeetingSavingRecording": "Il n'est pas possible d'arrêter l'enregistrement, veuillez réessayer",
+        "successSaveMeetingRecording": "Vous trouverez {{registrationName}} dans /{{folderName}} dès qu'il sera disponible",
+        "wereToFindRec": "L'enregistrement sera enregistré dans l'espace Files du modérateur qui l'arrêtera."
     },
     "modal": {
         "addModeratorDescription": "Sélectionner un ou plusieurs utilisateurs pour les promouvoir modérateurs de cette salle",
@@ -403,7 +421,8 @@
             "leaveGroup": "Êtes-vous sûr de vouloir quitter ce Groupe ?",
             "leaveSpace": "Êtes-vous sûr de vouloir quitter cet Espace ?",
             "removeBuddy": "Êtes-vous sur de vouloir enlever ce membre ?",
-            "removeMember": "Êtes-vous sûr de vouloir supprimer ce membre ?"
+            "removeMember": "Êtes-vous sûr de vouloir supprimer ce membre ?",
+            "deleteVirtualRoom": "Êtes-vous sûr de vouloir supprimer la Salle Virtuelle ?"
         },
         "forwardModal": {
             "forwardedMessageFrom": "Message transféré par",
@@ -433,9 +452,15 @@
         "moderatorMeetingDescription": "Vous modérerez cette salle. Vous pouvez ajouter des modérateurs supplémentaires et ils auront les mêmes permissions que les vôtres.",
         "stopMeetingRec": {
             "stopRecording": "L'enregistrement va être arrêté. Vous pouvez lancer un nouvel enregistrement à tout moment durant cette réunion.",
-            "stopMeetingTitle": "Arrêter l'enregistrement de cette réunion"
+            "stopMeetingTitle": "Arrêter l'enregistrement de cette réunion",
+            "locationWhereToSaveRecording": "L'enregistrement sera déposé dans \"/{{folderName}}\".",
+            "recordingName": "Nom de l'enregistrement",
+            "stopRecordingDescription": "Vous êtes sur le point d'arrêter l'enregistrement. Vous pouvez en démarrer un nouveau à tout moment.",
+            "stopRecordingTitle": "Arrêter l'enregistrement"
         },
-        "selectFolder": "Sélectionner un dossier"
+        "selectFolder": "Sélectionner un dossier",
+        "moderatorVirtualRoomDescription": "Vous allez modérer cette Salle Virtuelle. Vous pouvez ajouter d'autre modérateur et ils auront les permissions que vous.",
+        "planVirtualRoomDescription": "Donnez un nom reconnaissable à cette Salle Virtuelle pour permettre aux participants de connaître facilement l'objet de la réunion."
     },
     "notification": {
         "answer": "réponse",
@@ -448,12 +473,14 @@
             "descriptionAcceptedLabel": "Vous avez été accepté par le modérateur de {{conversationName}}",
             "notificationAcceptedByModerator": "Vous avez été accepté par le modérateur",
             "userIsWaiting": "Un nouvel utilisateur attend pour entrer dans la salle",
-            "userJoinedWaitingRoom": "Il semblerai qu'il y ai quelqu'un dans la salle d'attente"
+            "userJoinedWaitingRoom": "Il semblerai qu'il y ai quelqu'un dans la salle d'attente",
+            "notificationJoinTheVirtualRoom": "Rejoindre la Salle Virtuelle pour prendre part à la réunion"
         },
         "meeting": {
             "ended": "La réunion à pris fin"
         },
-        "startMeetingRecording": "L'enregistrement de la réunion {{conversationName}} a débuté"
+        "startMeetingRecording": "L'enregistrement de la réunion {{conversationName}} a débuté",
+        "invitationToPersonalVirtualRoom": "Invitation dans la Salle Virtuelle Personnelle de :"
     },
     "people": {
         "manyMembers": "{{membersCount}} membres",
@@ -472,7 +499,12 @@
             "personalRoomOptionsTitleModal": "Réinitialisation du lien de la salle personnelle",
             "personalRoomResetButton": "Réinitialisation du lien de la salle personnelle",
             "description": "Configurez vos préférence audio et vidéo pour entrer dans la réunion. Vous pourrez toujours modifier vos préférences en entrant dans une réunion.",
-            "personalRoomResetDescription": "En réinitialisant votre lien de réunion personnelle, tous les accès précédemment envoyés ne fonctionneront plus."
+            "personalRoomResetDescription": "En réinitialisant votre lien de réunion personnelle, tous les accès précédemment envoyés ne fonctionneront plus.",
+            "descriptionVirtualRoom": "Définissez vos préférence audio et vidéo afin d'entrer dans la Salle Virtuelle. Vous pourrez toujours changer vos préférences avant d'entrer dans les Salles Virtuelles.",
+            "personalVirtualRoomOptionsTitleModal": "Le lien de la Salle Virtuelle Personnelle a été réinitialisé",
+            "personalVirtualRoomResetButton": "Réinitialiser le lien de la Salle Virtuelle Personnelle",
+            "personalVirtualRoomResetDescription": "En réinitialisant le lien de la Salle Virtuelle Personnelle, tous les accès fournis précédemment seront révoqués.",
+            "virtualRooms": "Salles Virtuelles"
         },
         "notification": {
             "desktop": "Notifications desktop",
@@ -503,6 +535,11 @@
         "modal": {
             "description": "Vous pouvez ici configurer toutes les préférences dédiées au Chat pour bénéficier d'une configuration personnalisée pour les discussions !",
             "title": "Paramétrage de Chats"
+        },
+        "recordingMeeting": {
+            "descriptionWhereToSaveRegistration": "Définir un dossier de destination pour le stockage des enregistrements de réunion.",
+            "destinationFolder": "Dossier de destination",
+            "recording": "Enregistrements"
         }
     },
     "status": {
@@ -553,7 +590,10 @@
         "searchForParticipant": "Recherche de participants",
         "inviteToPersonalRoom": "Inviter dans votre réunion personnelle",
         "copyUserRoomTooltip": "Copier ce lien et le partager permet aux autres d'avoir accès à votre Salle Personnelle",
-        "disabledCreateButton": "Vérifier votre saisie afin de vous assurer qu'il n'y a pas d'erreurs"
+        "disabledCreateButton": "Vérifier votre saisie afin de vous assurer qu'il n'y a pas d'erreurs",
+        "copyUserVirtualRoomTooltip": "Copiez ce lien et partagez le pour permettre aux autres d'avoir accès à votre Salle Virtuelle Personnelle",
+        "copyVirtualRoomLinkTooltip": "Copiez ce lien pour partager la Salle Virtuelle",
+        "enterYourVirtualRoomTooltip": "Entrer dans votre Salle Virtuelle Personnelle"
     },
     "general": {
         "browserNotSupported": "La version de votre navigateur n'est pas supportée. Il est fortement recommander de mettre à jour votre navigateur pour bénéficier de l'ensemble des fonctionnalités !",
@@ -585,7 +625,8 @@
         },
         "youAreEnteringMeeting": "Vous êtes sur le point de rejoindre la salle",
         "nobodyInTheVirtualRoom": "Il semblerai qu'il n'y ai personne dans cette Salle Virtuelle",
-        "virtualRoomIsEmpty": "Cette Salle Virtuelle est vide"
+        "virtualRoomIsEmpty": "Cette Salle Virtuelle est vide",
+        "youAreEnteringVirtualRoom": "Vous êtes sur le point d'entrer dans la Salle Virtuelle"
     },
     "thanksForParticipating": "Merci pour votre participation",
     "label": {
@@ -596,5 +637,18 @@
     "typeYourEmail": "Tapez votre email",
     "virtualRoom": "Salle virtuelle",
     "personalRoomLabel": "Salle personnelle de {{userName}}",
-    "enterTheVirtualRoom": "Entrer dans la Salle Virtuelle"
+    "enterTheVirtualRoom": "Entrer dans la Salle Virtuelle",
+    "organizeYourVMeeting": "Organisez vos propres réunions ou rejoignez les Salles Virtuelles de vos collègues",
+    "organizeYourVirtualMeeting": "Organisez vos propres réunions ou rejoignez les Salles Virtuelles de vos collègues",
+    "personalVirtualRoomLabel": "Salle Virtuelle Personnelle de {{userName}}",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "Téléchargement"
+            }
+        },
+        "close": {
+            "tooltip": "Fermer"
+        }
+    }
 }
