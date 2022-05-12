@@ -136,7 +136,7 @@
         "defaultViewModeDefaultLabelVirtualRoom": "При выборе «Режима по умолчанию» Конференц-зал запустится в текущем браузере.",
         "defaultViewModeDedicatedModeLabelVRoom": "Выделенный режим",
         "errorMeetingSavingRecording": "Невозможно остановить запись, попробуйте еще раз",
-        "wereToFindRec": "Запись будет сохранена в Files файлов модератора, который остановил ее."
+        "wereToFindRec": "Запись будет сохранена в Files в папке модератора, который остановил ее."
     },
     "tooltip": {
         "switchToInfoPanel": "Перейти в панель информации",
@@ -177,7 +177,8 @@
         "copyUserRoomTooltip": "Скопируйте эту ссылку и поделитесь ею, чтобы предоставить другим доступ к вашей Персональной комнате",
         "disabledCreateButton": "Проверьте введенные данные, чтобы убедиться в отсутствии ошибок",
         "copyUserVirtualRoomTooltip": "Скопируйте эту ссылку и поделитесь ею, чтобы предоставить другим доступ к вашей Персональной виртуальной комнате",
-        "copyVirtualRoomLinkTooltip": "Скопируйте ссылку"
+        "copyVirtualRoomLinkTooltip": "Скопируйте ссылку",
+        "enterYourVirtualRoomTooltip": "Войти в Персональную комнату"
     },
     "action": {
         "activateNotifications": "Включить уведомления",
@@ -498,7 +499,8 @@
         },
         "moderatorMeetingDescription": "Вы будете модератором этого Зала. Вы можете добавить дополнительных модераторов, и они будут иметь те же права, что и вы.",
         "selectFolder": "Выберите папку",
-        "planVirtualRoomDescription": "Укажите название Конференц-зала."
+        "planVirtualRoomDescription": "Укажите название Конференц-зала.",
+        "moderatorVirtualRoomDescription": "Вы будете модератором этой виртуальной комнаты. Вы можете добавить дополнительных модераторов, и они будут иметь те же права, что и вы."
     },
     "notification": {
         "answer": "Ответить",
