@@ -58,7 +58,12 @@
         "createRoom": "Créer une salle",
         "start": "Démarrer",
         "stop": "Arrêter",
-        "saveToFiles": "Enregistrer dans Files"
+        "saveToFiles": "Enregistrer dans Files",
+        "copyLinkVirtualRoom": "Copier le lien de la Salle Virtuelle",
+        "joinVirtualRoom": "Rejoindre la Salle Virtuelle",
+        "browse": "Naviguer",
+        "createVirtualRoom": "Créer une Salle Virtuelle",
+        "deleteVirtualRoom": "Supprimer la Salle Virtuelle"
     },
     "creation": {
         "attendeeAdded": "Participant ajouté à la liste",
@@ -270,7 +275,12 @@
         "speakersCorner": "Utilisateurs dans la salle de réunion",
         "fileUploadDescription": "Description du fichier",
         "roomInfo": "Informations sur le salon",
-        "roomLink": "Lien du salon"
+        "roomLink": "Lien du salon",
+        "nameVirtualRoom": "Salle Virtuelle {{conversationTitle}}",
+        "virtualRoomLink": "Lien de la Salle Virtuelle",
+        "virtualRoomLinkDescription": "Copier ce lien et le partager pour permettre aux autres d'avoir accès à cette Salle Virtuelle.",
+        "virtualRoomInfo": "Information de la Salle Virtuelle",
+        "virtualRoomName": "Nom de la Salle Virtuelle"
     },
     "conversations": {
         "activeMeetingRooms": "Activer les salles de réunion",
@@ -294,7 +304,12 @@
         "mockDisplayDescription": "Choisissez une conversation pour démarrer une discussion",
         "mockDisplayTitle": "Restons en contact !",
         "noActiveChats": "Il n'y a pas de discussions actives en ce moment. Créez un nouveau chat ou changez d'onglet.",
-        "noFilteredChats": "Aucune discussion ne correspond à ce filtre."
+        "noFilteredChats": "Aucune discussion ne correspond à ce filtre.",
+        "noFilteredVirtualRooms": "Il n'y a pas de Salles Virtuelles ou de rendez-vous planifié qui correspondent à ces filtres",
+        "activeVirtualRooms": "Salle Virtuelle active",
+        "noActiveVirtualRooms": "Il n'y a pas de Salle Virtuelle active pour le moment",
+        "personalVirtualRoom": "Salle Virtuelle personnelle",
+        "virtualRooms": "Salles Virtuelles"
     },
     "feedback": {
         "historyClearedSuccessfully": "Historique effacé avec succès !",
@@ -568,7 +583,9 @@
             "userLeftReturnToWaitingRoom": "Vous pouvez retourner en salle d'attente à n'importe quel moment avec le lien de cette salle",
             "userLeftWaitingRoom": "Vous avez quitté la salle d'attente"
         },
-        "youAreEnteringMeeting": "Vous êtes sur le point de rejoindre la salle"
+        "youAreEnteringMeeting": "Vous êtes sur le point de rejoindre la salle",
+        "nobodyInTheVirtualRoom": "Il semblerai qu'il n'y ai personne dans cette Salle Virtuelle",
+        "virtualRoomIsEmpty": "Cette Salle Virtuelle est vide"
     },
     "thanksForParticipating": "Merci pour votre participation",
     "label": {
@@ -578,5 +595,6 @@
     "tryLater": "Essayez plus tard",
     "typeYourEmail": "Tapez votre email",
     "virtualRoom": "Salle virtuelle",
-    "personalRoomLabel": "Salle personnelle de {{userName}}"
+    "personalRoomLabel": "Salle personnelle de {{userName}}",
+    "enterTheVirtualRoom": "Entrer dans la Salle Virtuelle"
 }
