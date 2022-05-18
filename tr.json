@@ -58,7 +58,12 @@
         "createRoom": "Oda Oluştur",
         "start": "Başlat",
         "stop": "Durdur",
-        "saveToFiles": "Dosyalara Kaydet"
+        "saveToFiles": "Dosyalara Kaydet",
+        "copyLinkVirtualRoom": "Sanal Oda Bağlantısını Kopyala",
+        "browse": "Gözat",
+        "createVirtualRoom": "Sanal Oda oluştur",
+        "deleteVirtualRoom": "Sanal Odayı sil",
+        "joinVirtualRoom": "Sanal Odaya Giriş"
     },
     "appVersion": "App sürümü",
     "button": {
@@ -86,7 +91,12 @@
         "title": "Başlık",
         "topic": "Konu tanımı",
         "roomLink": "Oda Bağlantısı",
-        "roomInfo": "Oda Bilgisi"
+        "roomInfo": "Oda Bilgisi",
+        "virtualRoomLink": "Sanal Oda bağlantısı",
+        "nameVirtualRoom": "{{conversationTitle}} için Sanal Oda",
+        "virtualRoomInfo": "Sanal Oda Bilgisi",
+        "virtualRoomLinkDescription": "Başkalarının bu Sanal Oda'ya erişimini sağlamak için bağlantıyı kopyalayıp paylaşın.",
+        "virtualRoomName": "Sanal Oda adı"
     },
     "conversations": {
         "activeMeetingRooms": "Aktif Toplantı Odaları",
@@ -110,7 +120,12 @@
         "mockDisplayTitle": "Haberleşelim!",
         "noFilteredChats": "Bu filtrelemeye uygun Sohbet bulunamadı.",
         "filterChatList": "Sohbet listesini filtrele",
-        "noActiveChats": "Şu anda aktif Sohbet yok. Yeni bir Sohbet oluşturun veya sekmeyi değiştirin."
+        "noActiveChats": "Şu anda aktif Sohbet yok. Yeni bir Sohbet oluşturun veya sekmeyi değiştirin.",
+        "noActiveVirtualRooms": "Şu anda aktif Sanal Odalar bulunmuyor",
+        "activeVirtualRooms": "Aktif Sanal Odalar",
+        "noFilteredVirtualRooms": "Bu arama kriterine uygun Sanal Odalar veya planlanmış toplantılar yok",
+        "personalVirtualRoom": "Kişisel Sanal Oda",
+        "virtualRooms": "Sanal Odalar"
     },
     "creation": {
         "nameMax140Characters": "Maks. 140 karakter",
@@ -193,7 +208,9 @@
         "connecting": "Bağlanıyor…",
         "linkCopied": "Bağlantı kopyalandı",
         "saveAttachmentError": "Kayıt sırasında bir sorun oluştu, lütfen tekrar deneyin",
-        "saveAttachmentSuccessfull": "Ek seçilen klasöre kaydedildi"
+        "saveAttachmentSuccessfull": "Ek seçilen klasöre kaydedildi",
+        "resetPersonalVirtualRoomLinkSuccess": "Kişisel Sanal Oda bağlantısı yenilendi",
+        "virtualRoomLinkCopied": "Sanal Oda bağlantısı kopyalandı"
     },
     "meeting": {
         "attendeesComing": "Katılımcılar geliyor",
@@ -233,7 +250,10 @@
             "cameraDisabled": "Kamera kapalı",
             "cameraEnabled": "Kamera açık",
             "playMyVoice": "Sesimi dinlet",
-            "stopMyVoice": "Sesimi durdur"
+            "stopMyVoice": "Sesimi durdur",
+            "micTesting": "Sesinizi varsayılan ses çıkışından duyacaksınız, böylece toplantı için seçtiğiniz ses giriş ve ses çıkış kalitesini test edebilirsiniz",
+            "playMic": "Mikrofon testini başlat",
+            "stopMic": "Mikrofon testini durdur"
         },
         "startModal": {
             "description": "Toplantıya nasıl giriş yapmak istersiniz?",
@@ -241,7 +261,10 @@
             "noVideoAndAudio": "Kamera kapalı, Mikrofon açık",
             "noVideoAndNoAudio": "Kamera kapalı, Mikrofon kapalı",
             "videoAndAudio": "Kamera açık, mikrofon açık",
-            "videoAndNoAudio": "Kamera açık, Mikrofon kapalı"
+            "videoAndNoAudio": "Kamera açık, Mikrofon kapalı",
+            "descriptionVirtualRoom": "{{meetingTitle}} Sanal Odasına nasıl girmek istersiniz?",
+            "descriptionMyPersonalVirtualRoom": "Kişisel Sanal Odanıza nasıl girmek istersiniz?",
+            "descriptionPersonalVirtualRoom": "{{meetingTitle}} Kişisel Sanal Odasına nasıl girmek istersiniz?"
         },
         "defaultViewModeDefaultLabel": "\"Varsayılan Mod\" seçerseniz, Toplantı şu andaki iç ortamda başlayacak.",
         "defaultViewModeSaveLabel": "Seçeneği Kaydet",
@@ -254,7 +277,15 @@
         "genericErrorMeeting": "Bu toplantı ile ilgili bir sorun var, sistem yöneticinizle görüşün.",
         "recordedByMe": "Kayıt işlemi başlattınız",
         "recording": "Kayıt yapılıyor",
-        "thisMeetingIsBeingRecorded": "Bu toplantı kayıt ediliyor"
+        "thisMeetingIsBeingRecorded": "Bu toplantı kayıt ediliyor",
+        "defaultViewModeDedicatedLabelVirtualRoom": "\"Ayrılmış Mod\" seçerseniz, Sanal Oda deneyiminizin en iyi şekilde olması için tarayıcınızda ayrı bir sekmeye yönlendirileceksiniz.",
+        "wereToFindRec": "Ses Kayıt dosyası kayıt işlemini durduran moderatörün Dosyalar alanına kaydedilecek.",
+        "defaultViewModeDedicatedModeLabelVRoom": "Ayrılmış Mod",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Ayrılmış Mod",
+        "defaultViewModeDefaultLabelVirtualRoom": "\"Varsayılan Mod\" seçerseniz, Sanal Oda şu andaki iç ortamda başlayacak.",
+        "defaultViewModeTitleModalVirtualRoom": "Sanal Oda ortam seçenekleri",
+        "errorMeetingSavingRecording": "Kayıt durdurulamıyor, lütfen tekrar deneyin",
+        "successSaveMeetingRecording": "Hazır olduğunda {{registrationName}} kayıdını /{{folderName}} klasöründe bulabilirsiniz"
     },
     "message": {
         "deletedMessage": "Silinmiş mesaj",
@@ -303,12 +334,14 @@
                 "kicked": {
                     "channel": "{{member_name}}, {{kicked_by}} tarafından Kanal'dan çıkarıldı",
                     "group": "{{member_name}} kullanıcısı {{kicked_by}} tarafından Grup'tan çıkarıldı",
-                    "space": "{{member_name}}, {{kicked_by}} tarafından Konu'dan çıkarıldı"
+                    "space": "{{member_name}}, {{kicked_by}} tarafından Konu'dan çıkarıldı",
+                    "chat": "{{member_name}}, {{kicked_by}} tarafından Sohbet'ten çıkarıldı"
                 },
                 "left": {
                     "channel": "{{member_name}} Kanal'dan ayrıldı",
                     "space": "{{member_name}} Konu başlığından ayrıldı",
-                    "group": "{{member_name}} Grup'tan ayrıldı"
+                    "group": "{{member_name}} Grup'tan ayrıldı",
+                    "chat": "{{member_name}} Sohbet'ten ayrıldı"
                 },
                 "you": {
                     "invited": "{{member_name}} davet edildi",
@@ -388,7 +421,8 @@
             "leaveSpace": "Konu'dan ayrılmak istediğinize emin misiniz?",
             "removeBuddy": "Bu üyeyi çıkartmak istediğinize emin misiniz?",
             "deleteSpace": "Bu Konu'yu silmek istediğinizden emin misiniz?",
-            "removeMember": "Bu üyeyi çıkartmak istediğinize emin misiniz?"
+            "removeMember": "Bu üyeyi çıkartmak istediğinize emin misiniz?",
+            "deleteVirtualRoom": "Sanal Oda'yı silmek istediğinizden emin misiniz?"
         },
         "forwardModal": {
             "forwardedMessageFrom": "İletilen mesaj",
@@ -418,9 +452,15 @@
         "moderatorMeetingDescription": "Bu Oda için moderatör olacaksınız. Başka moderatörler ekleyebilirsiniz, onlar da sizinle aynı izinlere sahip olacak.",
         "stopMeetingRec": {
             "stopRecording": "Kayıt durdurulacak. Toplantı sırasında istediğiniz zaman yeni kayıt başlatabilirsiniz.",
-            "stopMeetingTitle": "Toplantı kayıt işlemini durdur"
+            "stopMeetingTitle": "Toplantı kayıt işlemini durdur",
+            "locationWhereToSaveRecording": "Ses kayıdı \"/{{folderName}}\" klasörüne kaydedilecek.",
+            "stopRecordingDescription": "Ses kayıt işlemini durduruyorsunuz. İstediğiniz zaman yeni kayıt başlatabilirsiniz.",
+            "recordingName": "Ses Kayıt Adı",
+            "stopRecordingTitle": "Ses kaydını durdur"
         },
-        "selectFolder": "Klasör seçin"
+        "selectFolder": "Klasör seçin",
+        "moderatorVirtualRoomDescription": "Bu Sanal Oda için moderatör olacaksınız. Başka moderatörler ekleyebilirsiniz, onlar da sizinle aynı izinlere sahip olacak.",
+        "planVirtualRoomDescription": "Bu Sanal Oda'ya toplantı konusuyla ilgili bir isim vererek katılımcıların toplantının ne hakkında olduğunu bilmelerini sağlayabilirsiniz."
     },
     "notification": {
         "answer": "Yanıtla",
@@ -433,12 +473,14 @@
             "notificationAcceptedByModerator": "Moderatör tarafından kabul edildiniz",
             "userIsWaiting": "Yeni kullanıcı girmek için bekliyor",
             "userJoinedWaitingRoom": "Bekleme odasında bekleyen kişi var",
-            "notificationJoinTheRoom": "Toplantıya katılmak için odaya girin"
+            "notificationJoinTheRoom": "Toplantıya katılmak için odaya girin",
+            "notificationJoinTheVirtualRoom": "Toplantıya katılmak için Sanal Oda'ya girin"
         },
         "meeting": {
             "ended": "Toplantı Bitti"
         },
-        "startMeetingRecording": "{{conversationName}} toplantı kayıt işlemi başladı"
+        "startMeetingRecording": "{{conversationName}} toplantı kayıt işlemi başladı",
+        "invitationToPersonalVirtualRoom": "Kişisel Sanal Oda için davet gönderen:"
     },
     "people": {
         "manyMembers": "{{membersCount}} üye",
@@ -457,7 +499,12 @@
             "personalRoomOptionsTitleModal": "Kişisel Oda bağlantısını yenile",
             "personalRoomResetButton": "Kişisel Oda bağlantısını yenile",
             "personalRoomResetDescription": "Kişisel Oda bağlantısını yenilediğinizde daha önceden verilen erişimler artık kullanılamayacak.",
-            "description": "Toplantılara katılırken kullanacağınız ses ve görüntü tercihlerinizi ayarlayın. Her toplantıya katılmadan önce tercihlerinizi değiştirebilirsiniz."
+            "description": "Toplantılara katılırken kullanacağınız ses ve görüntü tercihlerinizi ayarlayın. Her toplantıya katılmadan önce tercihlerinizi değiştirebilirsiniz.",
+            "descriptionVirtualRoom": "Sanal Odaya girmek için kullanacağınız ses ve görüntü tercihlerinizi ayarlayın. Her Sanal Odaya katılmadan önce tercihlerinizi değiştirebilirsiniz.",
+            "personalVirtualRoomOptionsTitleModal": "Kişisel Sanal Oda bağlantısı yenilendi",
+            "personalVirtualRoomResetButton": "Kişisel Sanal Oda bağlantısını yenile",
+            "personalVirtualRoomResetDescription": "Kişisel Sanal Oda bağlantısını yenilediğinizde daha önceden verilen erişimler artık kullanılamayacak.",
+            "virtualRooms": "Sanal Odalar"
         },
         "notification": {
             "desktop": "Masaüstü bildirimleri",
@@ -488,6 +535,11 @@
         "modal": {
             "description": "Tamamen özelleştirilmiş bir sohbet deneyimi için Sohbet tercihlerinizi buradan değiştirebilirsiniz!",
             "title": "Sohbet ayarları"
+        },
+        "recordingMeeting": {
+            "descriptionWhereToSaveRegistration": "Toplantı kayıtlarını saklamak için hedef klasör belirleyin.",
+            "destinationFolder": "Hedef klasör",
+            "recording": "Kayıtlar"
         }
     },
     "status": {
@@ -538,7 +590,10 @@
         "copyUserRoom": "Kişisel Oda'nızın bağlantısını kopyalayın",
         "rejectQueuedMember": "Kullanıcıyı reddet",
         "copyUserRoomTooltip": "Başkalarının Kişisel Odanıza erişimini sağlamak için bağlantıyı kopyalayıp paylaşın",
-        "disabledCreateButton": "Giriş bilgilerinde hata olup olmadığını kontrol edin"
+        "disabledCreateButton": "Giriş bilgilerinde hata olup olmadığını kontrol edin",
+        "copyUserVirtualRoomTooltip": "Başkalarının Kişisel Sanal Odanıza erişimini sağlamak için bu bağlantıyı kopyalayıp paylaşın",
+        "copyVirtualRoomLinkTooltip": "Sanal Oda'yı paylaşmak için bu bağlantıyı kopyalayın",
+        "enterYourVirtualRoomTooltip": "Kişisel Sanal Oda'nıza giriş yapın"
     },
     "general": {
         "goToTeam": "Team'e git",
@@ -563,7 +618,10 @@
             "userLeftReturnToWaitingRoom": "Oda bağlantısından bekleme odasına istediğiniz zaman geri gidebilirsiniz",
             "userLeftWaitingRoom": "Bekleme odasından ayrıldınız"
         },
-        "youAreEnteringMeeting": "Oda'ya girmek üzeresiniz"
+        "youAreEnteringMeeting": "Oda'ya girmek üzeresiniz",
+        "nobodyInTheVirtualRoom": "Bu Sanal Oda'da kimse yok",
+        "virtualRoomIsEmpty": "Bu Sanal Oda boş",
+        "youAreEnteringVirtualRoom": "Sanal Oda'ya girmek üzeresiniz"
     },
     "label": {
         "app_name": "Sohbetler"
@@ -578,5 +636,19 @@
     "organizeYourMeeting": "Kendi toplantınızı oluşturun veya çalışma arkadaşlarınızın odalarına katılın",
     "thanksForParticipating": "Katıldığınız için teşekkürler",
     "typeYourEmail": "E-posta adresinizi yazın",
-    "personalRoomLabel": "{{userName}} Kişisel Oda"
+    "personalRoomLabel": "{{userName}} Kişisel Oda",
+    "enterTheVirtualRoom": "Sanal Odaya Gir",
+    "organizeYourVirtualMeeting": "Kendi toplantınızı oluşturun veya çalışma arkadaşlarınızın Sanal Odalarına katılın",
+    "organizeYourVMeeting": "Kendi toplantınızı oluşturun veya çalışma arkadaşlarınızın Sanal Odalarına katılın",
+    "personalVirtualRoomLabel": "{{userName}} Kişisel Sanal Oda",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "İndir"
+            }
+        },
+        "close": {
+            "tooltip": "Kapat"
+        }
+    }
 }
