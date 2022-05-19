@@ -546,7 +546,9 @@
             "description": "Set your audio and video preferences to enter meetings. You can always customize your preferences before entering any meeting.",
             "descriptionVirtualRoom": "Set your audio and video preferences to enter in Virtual Room. You'll can always customize your preferences before entering in every Virtual Room.",
             "enableCamera": "Enable camera",
+            "enableEchoCancellation": "Echo cancellation",
             "enableMicrophone": "Enable microphone",
+            "enableNoiseSuppression": "Noise suppression",
             "meetings": "Meetings",
             "personalRoomOptionsTitleModal": "Personal Room's link reset",
             "personalRoomResetButton": "Reset Personal Room's link",
@@ -554,7 +556,9 @@
             "personalVirtualRoomOptionsTitleModal": "Personal Virtual Room's link reset",
             "personalVirtualRoomResetButton": "Reset Personal Virtual Room's link",
             "personalVirtualRoomResetDescription": "By resetting Personal Virtual Room's link, all the previously given accesses will not work anymore.",
-            "virtualRooms": "Virtual Rooms"
+            "virtualRooms": "Virtual Rooms",
+            "voiceProcessing": "Voice Processing",
+            "voiceProcessingDescription": "You will hear your voice on the default output, allowing yourself to test the quality of your input as well as the output selected for the meeting"
         },
         "modal": {
             "description": "Here you can set all Chats' dedicated preferences in order to enjoy a complete customized chatting experience!",
