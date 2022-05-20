@@ -251,7 +251,8 @@
         "start": "เริ่ม",
         "stop": "หยุด",
         "saveToFiles": "บันทึกลงในไฟล์",
-        "createRoom": "สร้างห้อง"
+        "createRoom": "สร้างห้อง",
+        "browse": "ดูข้อมูล"
     },
     "appVersion": "เวอร์ชันของแอป",
     "button": {
@@ -381,7 +382,9 @@
         "recordedByOther": "{{username}} ได้เริ่มการบันทึกแล้ว",
         "recording": "กำลังบันทึก",
         "thisMeetingIsBeingRecorded": "กำลังบันทึกการประชุมนี้อยู่",
-        "wereToFindRecording": "การบันทึกจะถูกบันทึกไว้ในหน้าแรกของเซิร์ฟเวอร์วิดีโอ สำหรับรายละเอียดเพิ่มเติมโปรดติดต่อผู้ดูแลระบบของคุณ"
+        "wereToFindRecording": "การบันทึกจะถูกบันทึกไว้ในหน้าแรกของเซิร์ฟเวอร์วิดีโอ สำหรับรายละเอียดเพิ่มเติมโปรดติดต่อผู้ดูแลระบบของคุณ",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "โหมดเฉพาะ",
+        "defaultViewModeDedicatedModeLabelVRoom": "โหมดเฉพาะ"
     },
     "modal": {
         "clearHistoryDescription": "บทสนทนานี้ว่างเปล่าและได้ย้ายไปที่ด้านล่างของรายการการสนทนาเพื่อให้บทสนทนาอื่น ๆ ที่มีการใช้งานอยู่แสดงที่ด้านบน",
@@ -486,7 +489,10 @@
             "description": "ที่นี่คุณสามารถกำหนดการตั้งค่าเฉพาะของ Chats ได้ทั้งหมด เพื่อที่จะสามารถเพลิดเพลินไปกับการแชทในแบบที่คุณสามารถกำหนดเองได้อย่างสมบูรณ์แบบ!",
             "title": "การตั้งค่า Chats"
         },
-        "resetPersonalRoomLinkSuccess": "ลิงก์ของห้องส่วนตัวถูกรีเซ็ตแล้ว"
+        "resetPersonalRoomLinkSuccess": "ลิงก์ของห้องส่วนตัวถูกรีเซ็ตแล้ว",
+        "recordingMeeting": {
+            "destinationFolder": "โฟลเดอร์ปลายทาง"
+        }
     },
     "status": {
         "lastSeen": "ดูครั้งล่าสุด {{lastSeen}}",
@@ -576,5 +582,15 @@
     "typeYourEmail": "พิมพ์ที่อยู่อีเมลของคุณ",
     "virtualRoom": "ห้องเสมือนจริง",
     "organizeYourMeeting": "จัดการประชุมของคุณเองหรือเข้าร่วมห้องของเพื่อนร่วมงานของคุณ",
-    "personalRoomLabel": "ห้องส่วนตัวของ {{userName}}"
+    "personalRoomLabel": "ห้องส่วนตัวของ {{userName}}",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "ดาวน์โหลด"
+            }
+        },
+        "close": {
+            "tooltip": "ปิด"
+        }
+    }
 }
