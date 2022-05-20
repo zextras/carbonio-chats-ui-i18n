@@ -228,7 +228,7 @@
                     "channel": "{{member_name}} a quitté le Canal",
                     "space": "{{member_name}} a quitté l’Espace",
                     "group": "{{member_name}} a quitté le Groupe",
-                    "chat": "{{member_name}} a quitté le Chat"
+                    "chat": "{{member_name}} a quitté le chat"
                 },
                 "you": {
                     "invited": "Vous avez invité {{member_name}}",
