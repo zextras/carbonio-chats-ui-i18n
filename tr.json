@@ -504,7 +504,11 @@
             "personalVirtualRoomOptionsTitleModal": "Kişisel Sanal Oda bağlantısı yenilendi",
             "personalVirtualRoomResetButton": "Kişisel Sanal Oda bağlantısını yenile",
             "personalVirtualRoomResetDescription": "Kişisel Sanal Oda bağlantısını yenilediğinizde daha önceden verilen erişimler artık kullanılamayacak.",
-            "virtualRooms": "Sanal Odalar"
+            "virtualRooms": "Sanal Odalar",
+            "enableEchoCancellation": "Yankılanmayı düzelt",
+            "enableNoiseSuppression": "Gürültüyü azalt",
+            "voiceProcessing": "Ses İşleme",
+            "voiceProcessingDescription": "Sesinizi varsayılan ses çıkışından duyacaksınız, böylece toplantı için seçtiğiniz ses giriş ve ses çıkış kalitesini test edebilirsiniz"
         },
         "notification": {
             "desktop": "Masaüstü bildirimleri",
