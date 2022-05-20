@@ -58,7 +58,8 @@
         "start": "Start",
         "stop": "Stop",
         "saveToFiles": "Speichern unter Dateien",
-        "createRoom": "Raum erstellen"
+        "createRoom": "Raum erstellen",
+        "browse": "Durchsuchen"
     },
     "creation": {
         "group": {
@@ -381,7 +382,9 @@
         "recordedByOther": "{{username}} hat mit der Aufnahme begonnen",
         "recording": "Aufnahme",
         "wereToFindRecording": "Die Aufzeichnung wird im Heim des Videoservers gespeichert. Wenden Sie sich an Ihren Systemadministrator, um weitere Einzelheiten zu erfahren.",
-        "thisMeetingIsBeingRecorded": "Diese Sitzung wird aufgezeichnet"
+        "thisMeetingIsBeingRecorded": "Diese Sitzung wird aufgezeichnet",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Dedizierter Modus",
+        "defaultViewModeDedicatedModeLabelVRoom": "Dedizierter Modus"
     },
     "modal": {
         "addModeratorDescription": "Einen oder mehrere Nutzer auswählen, um diese zu Moderatoren des Raums zu ernennen",
@@ -486,7 +489,10 @@
         "notifications": {
             "description": "Legen Sie Ihre Präferenzen für alle Arten von Benachrichtigungen in Chats fest."
         },
-        "resetPersonalRoomLinkSuccess": "Der Link des persönlichen Raums wurde zurückgesetzt"
+        "resetPersonalRoomLinkSuccess": "Der Link des persönlichen Raums wurde zurückgesetzt",
+        "recordingMeeting": {
+            "destinationFolder": "Zielordner"
+        }
     },
     "status": {
         "lastSeen": "Zuletzt gesehen {{lastSeen}}",
@@ -576,5 +582,15 @@
     "thanksForParticipating": "Danke für die Teilnahme",
     "tryLater": "Versuchen Sie es später",
     "typeYourEmail": "Geben Sie Ihre E-Mail ein",
-    "virtualRoom": "Virtueller Raum"
+    "virtualRoom": "Virtueller Raum",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "Download"
+            }
+        },
+        "close": {
+            "tooltip": "Schließen"
+        }
+    }
 }
