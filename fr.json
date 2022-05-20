@@ -504,7 +504,11 @@
             "personalVirtualRoomOptionsTitleModal": "Le lien de la Salle Virtuelle Personnelle a été réinitialisé",
             "personalVirtualRoomResetButton": "Réinitialiser le lien de la Salle Virtuelle Personnelle",
             "personalVirtualRoomResetDescription": "En réinitialisant le lien de la Salle Virtuelle Personnelle, tous les accès fournis précédemment seront révoqués.",
-            "virtualRooms": "Salles Virtuelles"
+            "virtualRooms": "Salles Virtuelles",
+            "enableNoiseSuppression": "Suppression du bruit",
+            "enableEchoCancellation": "Annulation de l'écho",
+            "voiceProcessing": "Traitement de la voix",
+            "voiceProcessingDescription": "Vous allez entendre votre voix dans la sortie audio par défaut, vous permettant de tester la qualité autant de votre entrée audio que de la sortie sélectionnée pour la réunion"
         },
         "notification": {
             "desktop": "Notifications desktop",
