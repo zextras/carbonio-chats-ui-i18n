@@ -252,7 +252,7 @@
     "meeting": {
         "attendeesComing": "Participants are coming",
         "defaultViewModeDedicatedLabel": "The \"Dedicated Mode\" will redirect you to a separated tab of your browser to enjoy the Meeting experience at its best.",
-        "defaultViewModeDedicatedLabelVirtualRoom": "The \"Dedicated Mode” will redirect you to a separated tab of your browser to enjoy the Virtual ROom experience at its best.",
+        "defaultViewModeDedicatedLabelVirtualRoom": "The \"Dedicated Mode” will redirect you to a separated tab of your browser to enjoy the Virtual Room experience at its best.",
         "defaultViewModeDedicatedModeLabel": "Dedicated Mode",
         "defaultViewModeDedicatedModeLabelVRoom": "Dedicated Mode",
         "defaultViewModeDedicatedModeLabelVirtualRoom": "Dedicated Mode",
@@ -378,7 +378,7 @@
                 },
                 "left": {
                     "channel": "{{member_name}} has left the Channel",
-                    "chat": "{{member_name}} has left the Chat",
+                    "chat": "{{member_name}} has left the chat",
                     "group": "{{member_name}} has left the Group",
                     "space": "{{member_name}} has left the Space"
                 },
