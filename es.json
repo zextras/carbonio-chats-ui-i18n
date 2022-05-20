@@ -62,7 +62,8 @@
         "createVirtualRoom": "Crear Sala Virtual",
         "copyLinkVirtualRoom": "Copiar enlace de la Sala Virtual",
         "deleteVirtualRoom": "Borrar Sala Virtual",
-        "joinVirtualRoom": "Unirse a Sala Virtual"
+        "joinVirtualRoom": "Unirse a Sala Virtual",
+        "browse": "Navegar"
     },
     "conversations": {
         "yourRoom": "Tu sala",
@@ -230,7 +231,9 @@
         "wereToFindRec": "La grabación se guardará en el espacio de Files del moderador que la detuvo.",
         "defaultViewModeTitleModalVirtualRoom": "Opciones del entorno de las Salas Virtuales",
         "errorMeetingSavingRecording": "No es posible detener la grabación, por favor, inténtalo de nuevo",
-        "successSaveMeetingRecording": "Encontrarás {{registrationName}} en /{{folderName}} tan pronto como se encuentre disponible"
+        "successSaveMeetingRecording": "Encontrarás {{registrationName}} en /{{folderName}} tan pronto como se encuentre disponible",
+        "defaultViewModeDedicatedModeLabelVRoom": "Modo dedicado",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Modo dedicado"
     },
     "modal": {
         "confirm": {
@@ -557,6 +560,9 @@
         },
         "notifications": {
             "description": "Configura tus preferencias para cada tipo de notificación en los chats."
+        },
+        "recordingMeeting": {
+            "destinationFolder": "Carpeta de destino"
         }
     },
     "status": {
@@ -612,5 +618,15 @@
     "tryLater": "Inténtalo más tarde",
     "typeYourEmail": "Introduce tu e-mail",
     "virtualRoom": "Sala virtual",
-    "enterTheVirtualRoom": "Entrar en la Sala Virtual"
+    "enterTheVirtualRoom": "Entrar en la Sala Virtual",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "Download"
+            }
+        },
+        "close": {
+            "tooltip": "Cerrar"
+        }
+    }
 }
