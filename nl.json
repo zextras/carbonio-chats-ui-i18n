@@ -167,7 +167,9 @@
         "recording": "Opname",
         "errorMeetingRecording": "Het is niet mogelijk om de registratie te starten, neem contact op met uw systeemadministrator.",
         "thisMeetingIsBeingRecorded": "Deze vergadering wordt opgenomen",
-        "wereToFindRecording": "De opname zal worden opgeslagen in de videoserver thuis, neem contact op met uw systeemadministrator voor verdere details."
+        "wereToFindRecording": "De opname zal worden opgeslagen in de videoserver thuis, neem contact op met uw systeemadministrator voor verdere details.",
+        "defaultViewModeDedicatedModeLabelVRoom": "Toegewijde modus",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Toegewijde modus"
     },
     "message": {
         "now": "Nu",
@@ -346,7 +348,8 @@
         "start": "Starten",
         "stop": "Stoppen",
         "saveToFiles": "Opslaan in Bestanden",
-        "createRoom": "Kamer Creëren"
+        "createRoom": "Kamer Creëren",
+        "browse": "Doorbladeren"
     },
     "appVersion": "App versie",
     "button": {
@@ -486,6 +489,9 @@
         },
         "notifications": {
             "description": "Stel uw voorkeuren in voor elk type melding in Chats."
+        },
+        "recordingMeeting": {
+            "destinationFolder": "Bestemmingsmap"
         }
     },
     "status": {
@@ -576,5 +582,15 @@
     "typeYourEmail": "Type uw e-mail",
     "virtualRoom": "Virtuele Kamer",
     "personalRoomLabel": "Persoonlşjke Kamer van {{userName}}",
-    "thanksForParticipating": "Bedankt voor uw deelname"
+    "thanksForParticipating": "Bedankt voor uw deelname",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "Downloaden"
+            }
+        },
+        "close": {
+            "tooltip": "Sluiten"
+        }
+    }
 }
