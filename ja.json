@@ -21,7 +21,12 @@
         "activeMeetingRooms": "アクティブなミーティングルーム",
         "noFilteredMeetings": "このフィルターに一致するミーティングルームまたは予定されている会議はありません",
         "scheduledMeetings": "スケジュールされた会議",
-        "waitingRoom": "待機室"
+        "waitingRoom": "待機室",
+        "activeVirtualRooms": "アクティブなバーチャルルーム",
+        "noActiveVirtualRooms": "現在、アクティブなバーチャルルームはありません",
+        "noFilteredVirtualRooms": "このフィルターに一致するバーチャルルームまたは予定されている会議はありません",
+        "personalVirtualRoom": "個人のバーチャルルーム",
+        "virtualRooms": "バーチャルルーム"
     },
     "people": {
         "me": "自分",
@@ -69,7 +74,10 @@
         "selectEmoji": "絵文字を選択してください",
         "switchToConversation": "会話に切り替える",
         "switchToInfoPanel": "情報パネルに切り替える",
-        "disabledCreateButton": "入力内容をチェックして、エラーがないことを確認してください"
+        "disabledCreateButton": "入力内容をチェックして、エラーがないことを確認してください",
+        "copyVirtualRoomLinkTooltip": "このリンクをコピーして、バーチャルルームを共有する",
+        "enterYourVirtualRoomTooltip": "パーソナルバーチャルルームに入室する",
+        "copyUserVirtualRoomTooltip": "このリンクをコピーして共有し、他の人にあなたのパーソナルバーチャルルームへのアクセスを許可してください"
     },
     "action": {
         "activateNotifications": "通知を有効にする",
@@ -130,7 +138,12 @@
         "saveToFiles": "ファイルに保存する",
         "createRoom": "ルームを作成する",
         "start": "開始",
-        "stop": "ストップ"
+        "stop": "ストップ",
+        "browse": "閲覧",
+        "copyLinkVirtualRoom": "バーチャルルームのリンクをコピーする",
+        "createVirtualRoom": "バーチャルルームを作成する",
+        "deleteVirtualRoom": "バーチャルルームバーチャル",
+        "joinVirtualRoom": "バーチャルルームに参加する"
     },
     "appVersion": "アプリのバージョン",
     "button": {
@@ -158,7 +171,12 @@
         "roomInfo": "ルームの情報",
         "roomLink": "ルームのリンク",
         "roomName": "ルームの名前",
-        "speakersCorner": "会議室のユーザー"
+        "speakersCorner": "会議室のユーザー",
+        "nameVirtualRoom": "{{conversationTitle}}のバーチャルルーム",
+        "virtualRoomInfo": "バーチャルルーム情報",
+        "virtualRoomLink": "バーチャルルームのリンク",
+        "virtualRoomLinkDescription": "このリンクをコピーして共有し、他人にこのバーチャルルームへのアクセスを許可します。",
+        "virtualRoomName": "バーチャルルームの名前"
     },
     "creation": {
         "attendeeAdded": "参加者がリストに追加されました",
@@ -241,7 +259,9 @@
         "saveAttachmentError": "保存の際に問題が生じたようです。再度お試しください",
         "saveAttachmentSuccessfull": "選択したフォルダに保存された添付ファイル",
         "linkCopied": "リンクをコピーしました",
-        "connecting": "接続しています…"
+        "connecting": "接続しています…",
+        "resetPersonalVirtualRoomLinkSuccess": "パーソナルバーチャルルームのリンクがリセットされました",
+        "virtualRoomLinkCopied": "バーチャルルームのリンクがコピーされました"
     },
     "meeting": {
         "attendeesComing": "参加者が来ています",
@@ -281,7 +301,10 @@
             "audioDisabled": "オーディオが無効です",
             "audioEnabled": "オーディオが有効です",
             "cameraDisabled": "カメラが無効です",
-            "cameraEnabled": "カメラが有効になりました"
+            "cameraEnabled": "カメラが有効になりました",
+            "micTesting": "デフォルトの出力で自分の声が聞こえ、会議用に選択された出力だけでなく、入力の品質もテストできます",
+            "playMic": "マイクテストを開始する",
+            "stopMic": "マイクテストを中止する"
         },
         "startModal": {
             "description": "どのように会議に参加しますか？",
@@ -289,7 +312,10 @@
             "noVideoAndAudio": "カメラオフ、マイクオン",
             "noVideoAndNoAudio": "カメラオフ、マイクオフ",
             "videoAndAudio": "カメラオン、マイクオン",
-            "videoAndNoAudio": "カメラオン、マイクオフ"
+            "videoAndNoAudio": "カメラオン、マイクオフ",
+            "descriptionPersonalVirtualRoom": "{{meetingTitle}}のパーソナルバーチャルルームにどのように参加しますか？",
+            "descriptionMyPersonalVirtualRoom": "パーソナルバーチャルルームにどのように入室しますか？",
+            "descriptionVirtualRoom": "{{meetingTitle}}にどのように参加しますか？"
         },
         "defaultViewModeDedicatedLabel": "「専用モード」では、ブラウザの別のタブにリダイレクトされ、最高のミーティング体験を楽しめます。",
         "defaultViewModeDefaultLabel": "「デフォルトモード」を選ぶと、現在の内部環境でミーティングが開始されます。",
@@ -302,7 +328,15 @@
         "genericErrorMeeting": "この会議に問題があるようです。システム管理者に連絡してください。",
         "recordedByMe": "録音を開始しました",
         "recording": "録音中",
-        "errorMeetingRecording": "登録を開始することはできません。システム管理者に連絡してください。"
+        "errorMeetingRecording": "登録を開始することはできません。システム管理者に連絡してください。",
+        "defaultViewModeDedicatedLabelVirtualRoom": "「専用モード」では、ブラウザの別のタブにリダイレクトされ、バーチャルルームを最高の状態で楽しめます。",
+        "defaultViewModeDefaultLabelVirtualRoom": "「デフォルトモード」を選択すると、バーチャルルームが現在の内部環境で起動します。",
+        "successSaveMeetingRecording": "{{registrationName}}は、利用可能になるとすぐに/{{folderName}}に表示されます",
+        "defaultViewModeDedicatedModeLabelVRoom": "専用モード",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "専用モード",
+        "defaultViewModeTitleModalVirtualRoom": "バーチャルルーム環境オプション",
+        "errorMeetingSavingRecording": "録音を停止することはできません。再度お試しください",
+        "wereToFindRec": "録音は、停止したモデレーターのファイルスペースに保存されます。"
     },
     "message": {
         "deletedMessage": "削除されたメッセージ",
@@ -351,12 +385,14 @@
                 "kicked": {
                     "channel": "{{member_name}}が{{kicked_by}}によってチャンネルから削除されました",
                     "group": "{{member_name}}は{{kicked_by}}によってグループから削除されました",
-                    "space": "{{member_name}}が{{kicked_by}}によってスペースから削除されました"
+                    "space": "{{member_name}}が{{kicked_by}}によってスペースから削除されました",
+                    "chat": "{{member_name}}は{{kicked_by}}によってチャットから削除されました"
                 },
                 "left": {
                     "channel": "{{member_name}}がチャンネルから退会しました",
                     "space": "{{member_name}}がスペースから退会しました",
-                    "group": "{{member_name}}がグループから退会しました"
+                    "group": "{{member_name}}がグループから退会しました",
+                    "chat": "{{member_name}}がチャットから退出しました"
                 },
                 "you": {
                     "invited": "{{member_name}}を招待しました",
@@ -435,7 +471,8 @@
             "deleteRoom": "本当にルームを削除しますか？",
             "deleteSpace": "本当にスペースを削除しますか？",
             "leaveChannel": "本当にチャンネルから退出しますか？",
-            "leaveSpace": "本当にスペースから退会しますか？"
+            "leaveSpace": "本当にスペースから退会しますか？",
+            "deleteVirtualRoom": "本当にバーチャルルームを削除しますか？"
         },
         "forwardModal": {
             "forwardedMessageFrom": "メッセージの転送元",
@@ -464,10 +501,16 @@
         "userJoinedWaitingRoom": "待合室に誰かいるようです",
         "stopMeetingRec": {
             "stopRecording": "録画を停止します。 この会議中はいつでも新しい録画を開始できます。",
-            "stopMeetingTitle": "会議の録画を停止します"
+            "stopMeetingTitle": "会議の録画を停止します",
+            "stopRecordingTitle": "録音を停止する",
+            "locationWhereToSaveRecording": "録音は「/{{folderName}}」に保存されます。",
+            "recordingName": "録音名",
+            "stopRecordingDescription": "録音を停止します。 いつでも新らたに録音開始できます。"
         },
         "moderatorMeetingDescription": "このルームをモデレートします。 モデレーターを追加すると、モデレーターにはあなたと同じ権限が与えられます。",
-        "selectFolder": "フォルダを選択してください"
+        "selectFolder": "フォルダを選択してください",
+        "moderatorVirtualRoomDescription": "このバーチャルルームをモデレートします。モデレーターを追加すると、モデレーターにはあなたと同じ権限が与えられます。",
+        "planVirtualRoomDescription": "このバーチャルルームにわかりやすい名前を付けて、出席者に会議の話題を知らせてください。"
     },
     "notification": {
         "answer": "応答する",
@@ -479,13 +522,15 @@
             "notificationAcceptedByModerator": "モデレーターに承認されました",
             "notificationJoinTheRoom": "ルームに入室して会議に参加する",
             "userIsWaiting": "新しいユーザーが入室を待っています",
-            "userJoinedWaitingRoom": "待合室に誰かいるようです"
+            "userJoinedWaitingRoom": "待合室に誰かいるようです",
+            "notificationJoinTheVirtualRoom": "バーチャルルームに入室して会議に参加する"
         },
         "invitationToPersonalRoom": "パーソナルルームへの招待:",
         "meeting": {
             "ended": "会議が終了しました"
         },
-        "startMeetingRecording": "{{conversationName}}の会議の録画が開始されました"
+        "startMeetingRecording": "{{conversationName}}の会議の録画が開始されました",
+        "invitationToPersonalVirtualRoom": "パーソナルバーチャルルームへの招待:"
     },
     "settings": {
         "meeting": {
@@ -495,7 +540,16 @@
             "description": "オーディオとビデオを設定して、会議に参加しましょう。あらゆる会議に参加する前に、いつでも設定をカスタマイズできます。",
             "personalRoomResetButton": "パーソナルルームのリンクをリセットする",
             "personalRoomResetDescription": "パーソナルルームのリンクをリセットすると、以前に指定されたあらゆるアクセス権が機能しなくなります。",
-            "personalRoomOptionsTitleModal": "パーソナルルームのリンクがリセットされました"
+            "personalRoomOptionsTitleModal": "パーソナルルームのリンクがリセットされました",
+            "enableEchoCancellation": "エコーのキャンセル",
+            "enableNoiseSuppression": "騒音抑制",
+            "personalVirtualRoomResetButton": "パーソナルバーチャルルームのリンクをリセットする",
+            "virtualRooms": "バーチャルルーム",
+            "voiceProcessing": "音声処理",
+            "personalVirtualRoomOptionsTitleModal": "パーソナルバーチャルルームのリンクのリセット",
+            "personalVirtualRoomResetDescription": "パーソナルバーチャルルームのリンクをリセットすると、以前に指定されたすべてのアクセス権が機能しなくなります。",
+            "voiceProcessingDescription": "デフォルトの出力で自分の声が聞こえ、会議用に選択された出力だけでなく、入力の質もテストできます",
+            "descriptionVirtualRoom": "オーディオと動画のプリファレンスを設定して、バーチャルルームに入室します。 すべてのバーチャルルームに入室する前に、いつでも設定をカスタマイズできます。"
         },
         "notification": {
             "desktop": "デスクトップ通知",
@@ -526,7 +580,12 @@
         "notifications": {
             "description": "チーム内のあらゆる種類の通知を設定します。"
         },
-        "resetPersonalRoomLinkSuccess": "パーソナルルームのリンクがリセットされました"
+        "resetPersonalRoomLinkSuccess": "パーソナルルームのリンクがリセットされました",
+        "recordingMeeting": {
+            "destinationFolder": "宛先フォルダ",
+            "recording": "録音",
+            "descriptionWhereToSaveRegistration": "会議の記録を保存する宛先フォルダを設定します。"
+        }
     },
     "status": {
         "lastSeen": "最終閲覧 {{lastSeen}}",
@@ -570,12 +629,29 @@
         "login": {
             "externalLoginDescription": "すでにこのドメインに属している場合は、通常のワークスペースにリダイレクトされます。外部ユーザーの場合は、専用のインターフェイスにリダイレクトされます。"
         },
-        "youAreEnteringMeeting": "ルームに入ろうとしています"
+        "youAreEnteringMeeting": "ルームに入ろうとしています",
+        "youAreEnteringVirtualRoom": "バーチャルルームに入室しようとしています",
+        "nobodyInTheVirtualRoom": "このバーチャルルームには誰もいないようです",
+        "virtualRoomIsEmpty": "このバーチャルルームは空です"
     },
     "thanksForParticipating": "参加していただきありがとうございます",
     "organizeYourMeeting": "自分の会議を開催したり、同僚のルームに入室したりできます",
     "enterTheRoom": "ルームに入室する",
     "label": {
         "app_name": "チャット"
+    },
+    "enterTheVirtualRoom": "バーチャルルームに入室する",
+    "organizeYourVMeeting": "会議を開催したり、同僚のバーチャルルームに入室したりできます",
+    "organizeYourVirtualMeeting": "会議を開催したり、同僚のバーチャルルームに入室したりできます",
+    "personalVirtualRoomLabel": "{{userName}}のパーソナルバーチャルルーム",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "ダウンロード"
+            }
+        },
+        "close": {
+            "tooltip": "閉じる"
+        }
     }
 }
