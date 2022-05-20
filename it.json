@@ -58,7 +58,12 @@
         "start": "Avvia",
         "createRoom": "Crea Stanza",
         "stop": "Ferma",
-        "saveToFiles": "Salva su Files"
+        "saveToFiles": "Salva su Files",
+        "browse": "Sfoglia",
+        "copyLinkVirtualRoom": "Copia link della Stanza Virtuale",
+        "createVirtualRoom": "Crea Stanza Virtuale",
+        "deleteVirtualRoom": "Elimina Stanza Virtuale",
+        "joinVirtualRoom": "Unisciti alla Stanza Virtuale"
     },
     "conversations": {
         "instantMeetings": "Instant Meeting",
@@ -82,7 +87,12 @@
         "noActiveChats": "Non ci sono chat attive attualmente. Crea una nuova conversazione o cambia scheda.",
         "noFilteredChats": "Nessuna chat corrisponde a questo filtro.",
         "filterChatList": "Filtra lista chat",
-        "mockDisplayDescription": "Scegli una conversazione per iniziare una Chat"
+        "mockDisplayDescription": "Scegli una conversazione per iniziare una Chat",
+        "activeVirtualRooms": "Stanza Virtuali attive",
+        "noActiveVirtualRooms": "Non ci sono Stanze Virtuali attive al momento",
+        "noFilteredVirtualRooms": "Nessuna Stanza Virtuale o riunione programmata trovata per questo filtro",
+        "personalVirtualRoom": "Stanza Virtuale Personale",
+        "virtualRooms": "Stanze Virtuali"
     },
     "creation": {
         "nameRequired": "Il nome è obbligatorio",
@@ -198,12 +208,14 @@
                 "kicked": {
                     "channel": "{{member_name}} è stato rimosso dal Canale da {{kicked_by}}",
                     "group": "{{member_name}} è stato rimosso dal Gruppo da {{kicked_by}}",
-                    "space": "{{member_name}} è stato rimosso dallo Spazio da {{kicked_by}}"
+                    "space": "{{member_name}} è stato rimosso dallo Spazio da {{kicked_by}}",
+                    "chat": "{{member_name}} è stato rimosso dalla chat da {{kicked_by}}"
                 },
                 "left": {
                     "channel": "{{member_name}} ha abbandonato il Canale",
                     "space": "{{member_name}} ha abbandonato lo Spazio",
-                    "group": "{{member_name}} ha abbandonato il Gruppo"
+                    "group": "{{member_name}} ha abbandonato il Gruppo",
+                    "chat": "{{member_name}} ha abbandonato la chat"
                 },
                 "you": {
                     "invited": "Hai invitato {{member_name}}",
@@ -314,7 +326,10 @@
         "planMeeting": "Programma una Riunione",
         "searchForParticipant": "Cerca partecipante",
         "copyUserRoomTooltip": "Copia e condividi questo link per dare accesso alla tua Stanza Personale",
-        "disabledCreateButton": "Controlla i dati inseriti e assicurati che non ci siano errori"
+        "disabledCreateButton": "Controlla i dati inseriti e assicurati che non ci siano errori",
+        "copyVirtualRoomLinkTooltip": "Copia questo link per condividere la Stanza Virtuale",
+        "enterYourVirtualRoomTooltip": "Entra nella tua Stanza Virtuale Personale",
+        "copyUserVirtualRoomTooltip": "Copia e condividi questo link per dare accesso alla tua Stanza Virtuale Personale"
     },
     "appVersion": "Versione app",
     "button": {
@@ -342,7 +357,12 @@
         "roomLink": "Link della Stanza",
         "fileUploadDescription": "Descrizione file",
         "roomInfo": "Informazioni Stanza",
-        "speakersCorner": "Utenti nella Stanza Riunione"
+        "speakersCorner": "Utenti nella Stanza Riunione",
+        "nameVirtualRoom": "{{conversationTitle}} della Stanza Virtuale",
+        "virtualRoomInfo": "Informazioni Stanza Virtuale",
+        "virtualRoomLink": "Link della Stanza Virtuale",
+        "virtualRoomLinkDescription": "Copia e condividi questo link per dare accesso a questa Stanza Virtuale.",
+        "virtualRoomName": "Nome Stanza Virtuale"
     },
     "feedback": {
         "historyClearedSuccessfully": "Cronologia eliminata con successo!",
@@ -359,7 +379,9 @@
         "connecting": "Connessione in corso…",
         "linkCopied": "Link copiato",
         "saveAttachmentSuccessfull": "Allegato salvato nella cartella selezionata",
-        "saveAttachmentError": "Sembra esserci stato un problema durante il salvataggio, riprova"
+        "saveAttachmentError": "Sembra esserci stato un problema durante il salvataggio, riprova",
+        "resetPersonalVirtualRoomLinkSuccess": "Il link della Stanza Virtuale Personale è stato ripristinato",
+        "virtualRoomLinkCopied": "Link della Stanza Virtuale copiato"
     },
     "meeting": {
         "attendeesComing": "I partecipanti stanno arrivando",
@@ -399,7 +421,9 @@
             "cameraDisabled": "Fotocamera disabilitata",
             "playMyVoice": "Riproduci la mia voce",
             "cameraEnabled": "Fotocamera attivata",
-            "stopMyVoice": "Ferma la mia voce"
+            "stopMyVoice": "Ferma la mia voce",
+            "stopMic": "Ferma il test del microfono",
+            "playMic": "Inizia il test del microfono"
         },
         "startModal": {
             "description": "Come vuoi accedere al meeting?",
@@ -407,7 +431,10 @@
             "noVideoAndAudio": "Webcam spenta, Microfono attivo",
             "noVideoAndNoAudio": "Webcam spenta, Microfono spento",
             "videoAndAudio": "Webcam attiva, Microfono attivo",
-            "videoAndNoAudio": "Webcam attiva, Microfono spento"
+            "videoAndNoAudio": "Webcam attiva, Microfono spento",
+            "descriptionPersonalVirtualRoom": "Come vuoi accedere a {{meetingTitle}} della tua Stanza Virtuale Personale?",
+            "descriptionMyPersonalVirtualRoom": "Come vuoi accedere alla tua Stanza Virtuale Personale?",
+            "descriptionVirtualRoom": "Come vuoi accedere a {{meetingTitle}}?"
         },
         "defaultViewModeDefaultLabel": "Scegliendo la \"Modalità Predefinita\", la Riunione inizierà all'interno della schermata attuale.",
         "defaultViewModeSaveLabel": "Salva Opzioni",
@@ -420,7 +447,15 @@
         "recording": "Registrazione",
         "thisMeetingIsBeingRecorded": "Questa riunione viene registrata",
         "errorMeetingRecording": "Non è possibile iniziare la registrazione, contatta il tuo amministratore di sistema.",
-        "wereToFindRecording": "La registrazione verrà salvata nella home del video server, contatta il tuo amministratore di sistema per maggiori informazioni."
+        "wereToFindRecording": "La registrazione verrà salvata nella home del video server, contatta il tuo amministratore di sistema per maggiori informazioni.",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Modalità Dedicata",
+        "defaultViewModeDedicatedLabelVirtualRoom": "La \"Modalità Dedicata\" ti reindirizzerà a una scheda separata del tuo browser per goderti al meglio l'esperienza della Stanza Virtuale.",
+        "defaultViewModeDefaultLabelVirtualRoom": "Scegliendo la \"Modalità Predefinita\", la Stanza Virtuale verrà aperta all'interno della schermata attuale.",
+        "wereToFindRec": "La registrazione verrà salvata all'interno di Files del moderatore che l'ha terminata.",
+        "defaultViewModeDedicatedModeLabelVRoom": "Modalità Dedicata",
+        "defaultViewModeTitleModalVirtualRoom": "Opzioni Stanza Virtuale",
+        "errorMeetingSavingRecording": "Non è stato possibile fermare la registrazione, riprova",
+        "successSaveMeetingRecording": "Troverai {{registrationName}} all'interno di /{{folderName}} appena il file sarà disponibile"
     },
     "modal": {
         "addModeratorDescription": "Seleziona uno o più utenti per promuoverli a moderatori di questa Stanza",
@@ -436,7 +471,8 @@
             "leaveSpace": "Vuoi abbandonare questo Spazio?",
             "deleteChannel": "Vuoi eliminare questo Canale?",
             "removeBuddy": "Vuoi rimuovere questo partecipante?",
-            "removeMember": "Vuoi rimuovere questo partecipante?"
+            "removeMember": "Vuoi rimuovere questo partecipante?",
+            "deleteVirtualRoom": "Vuoi davvero eliminare questa Stanza Virtuale?"
         },
         "forwardModal": {
             "forwardedMessageFrom": "Messaggio inoltrato da",
@@ -465,10 +501,16 @@
         "news": "Novità",
         "stopMeetingRec": {
             "stopMeetingTitle": "Interrompi la registrazione della riunione",
-            "stopRecording": "La registrazione verrà interrotta. Potrai avviare una nuova registrazione in qualsiasi momenti durante questa riunione."
+            "stopRecording": "La registrazione verrà interrotta. Potrai avviare una nuova registrazione in qualsiasi momenti durante questa riunione.",
+            "locationWhereToSaveRecording": "La registrazione verrà salvata in \"/{{folderName}}\".",
+            "recordingName": "Nome Registrazione",
+            "stopRecordingDescription": "Stai per terminare la registrazione. Potrai iniziarne una nuova in qualsiasi momento.",
+            "stopRecordingTitle": "Termina la registrazione"
         },
         "moderatorMeetingDescription": "Sarai il moderatore di questa Stanza. Puoi aggiungere altri moderatori e questi avranno i tuoi stessi permessi.",
-        "selectFolder": "Seleziona cartella"
+        "selectFolder": "Seleziona cartella",
+        "moderatorVirtualRoomDescription": "Sarai il moderatore di questa Stanza Virtuale. Puoi aggiungere altri moderatori e questi avranno i tuoi stessi permessi.",
+        "planVirtualRoomDescription": "Dai un nome riconoscibile a questa Stanza Virtuale per far capire ai partecipanti il tema della riunione."
     },
     "notification": {
         "answer": "Rispondi",
@@ -481,12 +523,14 @@
             "notificationAcceptedByModerator": "Sei stato accettato dal moderatore",
             "notificationJoinTheRoom": "Unisciti alla Stanza per partecipare alla riunione",
             "userIsWaiting": "Un nuovo utente è in attesa di entrare",
-            "userJoinedWaitingRoom": "Sembra esserci qualcuno nella Stanza d'Attesa"
+            "userJoinedWaitingRoom": "Sembra esserci qualcuno nella Stanza d'Attesa",
+            "notificationJoinTheVirtualRoom": "Unisciti alla Stanza Virtuale per partecipare alla riunione"
         },
         "meeting": {
             "ended": "Riunione Terminata"
         },
-        "startMeetingRecording": "La registrazione di {{conversationName}} è iniziata"
+        "startMeetingRecording": "La registrazione di {{conversationName}} è iniziata",
+        "invitationToPersonalVirtualRoom": "Invito nella Stanza Virtuale Personale da parte di:"
     },
     "settings": {
         "meeting": {
@@ -496,7 +540,14 @@
             "personalRoomOptionsTitleModal": "Ripristina link della Stanza personale",
             "personalRoomResetButton": "Ripristina il link della Stanza Personale",
             "personalRoomResetDescription": "Ripristinando il link della tua Stanza Personale, tutti gli accessi condivisi precedentemente non funzioneranno più.",
-            "description": "Imposta le tue preferenze audio e video per partecipare alle riunioni. Potrai sempre personalizzarle prima di accedere a qualsiasi riunione."
+            "description": "Imposta le tue preferenze audio e video per partecipare alle riunioni. Potrai sempre personalizzarle prima di accedere a qualsiasi riunione.",
+            "enableNoiseSuppression": "Soppressione del rumore",
+            "personalVirtualRoomOptionsTitleModal": "Il link della Stanza Virtuale Personale è stato ripristinato",
+            "personalVirtualRoomResetButton": "Ripristina link della Stanza Virtuale Personale",
+            "virtualRooms": "Stanze Virtuali",
+            "enableEchoCancellation": "Eliminazione eco",
+            "personalVirtualRoomResetDescription": "Ripristinando il link della tua Stanza Virtuale Personale, tutti gli accessi condivisi precedentemente non funzioneranno più.",
+            "descriptionVirtualRoom": "Imposta le tue preferenze audio e video per partecipare alle Stanze Virtuali. Potrai sempre personalizzarle prima di accedere a qualsiasi Stanza Virtuale."
         },
         "notification": {
             "desktop": "Notifiche desktop",
@@ -527,6 +578,11 @@
         },
         "notifications": {
             "description": "Imposta le tue preferenze per ogni tipo di notifica delle Chat."
+        },
+        "recordingMeeting": {
+            "destinationFolder": "Cartella di destinazione",
+            "descriptionWhereToSaveRegistration": "Seleziona una cartella di destinazione in cui salvare le registrazioni delle tue riunioni.",
+            "recording": "Registrazioni"
         }
     },
     "status": {
@@ -567,7 +623,10 @@
             "browser": "Browser non supportato",
             "device": "Dispositivo non supportato"
         },
-        "youAreEnteringMeeting": "Stai entrando nella Stanza"
+        "youAreEnteringMeeting": "Stai entrando nella Stanza",
+        "nobodyInTheVirtualRoom": "Sembra che non ci sia nessuno nella Stanza Virtuale",
+        "virtualRoomIsEmpty": "La Stanza Virtuale è vuota",
+        "youAreEnteringVirtualRoom": "Stai entrando nella Stanza Virtuale"
     },
     "label": {
         "app_name": "Chat"
@@ -578,5 +637,19 @@
     "virtualRoom": "Stanza Virtuale",
     "enterTheRoom": "Entra nella Stanza",
     "thanksForParticipating": "Grazie per aver partecipato",
-    "personalRoomLabel": "Stanza Personale di {{userName}}"
+    "personalRoomLabel": "Stanza Personale di {{userName}}",
+    "organizeYourVMeeting": "Organizza riunioni personali oppure unisciti alle Stanze Virtuali dei tuoi colleghi",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "Scarica"
+            }
+        },
+        "close": {
+            "tooltip": "Chiudi"
+        }
+    },
+    "enterTheVirtualRoom": "Accedi alla Stanza Virtuale",
+    "organizeYourVirtualMeeting": "Organizza riunioni personali oppure unisciti alle Stanze Virtuali dei tuoi colleghi",
+    "personalVirtualRoomLabel": "Stanza Virtuale Personale di {{userName}}"
 }
