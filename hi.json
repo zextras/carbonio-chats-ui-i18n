@@ -58,7 +58,8 @@
         "stop": "रोकें",
         "start": "शुरू करें",
         "saveToFiles": "Files में सेव करें",
-        "createRoom": "Room बनाएँ"
+        "createRoom": "Room बनाएँ",
+        "browse": "ब्राउज़ करें"
     },
     "button": {
         "yes": "हाँ",
@@ -300,7 +301,9 @@
         "recording": "रिकॉर्डिंग",
         "errorMeetingRecording": "रजिस्ट्रेशन फिर से शुरू करना संभव नहीं है, कृपया अपने सिस्टम एडमिनिस्ट्रेटर से संपर्क करें।",
         "recordedByOther": "{{username}} ने रिकॉर्ड करना शुरू कर दिया है",
-        "wereToFindRecording": "रिकॉर्डिंग विडियो सर्वर होम में सेव की जाएगी, और जानकारी के लिए अपने सिस्टम एडमिनिस्ट्रेटर से संपर्क करें।"
+        "wereToFindRecording": "रिकॉर्डिंग विडियो सर्वर होम में सेव की जाएगी, और जानकारी के लिए अपने सिस्टम एडमिनिस्ट्रेटर से संपर्क करें।",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "डेडिकेटेड मोड",
+        "defaultViewModeDedicatedModeLabelVRoom": "डेडिकेटेड मोड"
     },
     "message": {
         "deletedMessage": "डिलीट किया मैसेज",
@@ -486,7 +489,10 @@
             "description": "यहाँ आप Chats के लिए खास सभी प्रेफेरेंस सेट करके अपने लिए पूरा कस्टमाइज़ किया हुआ चैटिंग एक्सपीरियंस पा सकते हैं!",
             "title": "Chats सेटिंग्स"
         },
-        "resetPersonalRoomLinkSuccess": "पर्सनल Room की लिंक रीसेट की गई"
+        "resetPersonalRoomLinkSuccess": "पर्सनल Room की लिंक रीसेट की गई",
+        "recordingMeeting": {
+            "destinationFolder": "गंतव्य फोल्डर"
+        }
     },
     "status": {
         "externalGuest": "एक्सटर्नल गेस्ट",
@@ -576,5 +582,15 @@
     "tryLater": "बाद में कोशिश करें",
     "virtualRoom": "वर्चुअल रूम",
     "organizeYourMeeting": "अपनी खुद की मीटिंग्स ऑर्गनाइज़ करें या अपने साथ काम करने वालों के रूम में जॉइन करें",
-    "typeYourEmail": "अपनी ई-मेल टाइप करें"
+    "typeYourEmail": "अपनी ई-मेल टाइप करें",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "डाऊनलोड करें"
+            }
+        },
+        "close": {
+            "tooltip": "बंद करें"
+        }
+    }
 }
