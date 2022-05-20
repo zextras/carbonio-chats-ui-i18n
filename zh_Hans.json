@@ -58,7 +58,8 @@
         "start": "开始",
         "stop": "停止",
         "saveToFiles": "保存至文件",
-        "createRoom": "创建房间"
+        "createRoom": "创建房间",
+        "browse": "浏览"
     },
     "conversations": {
         "instantMeetings": "即时会议",
@@ -411,7 +412,9 @@
         "genericErrorMeeting": "会议似乎存在问题，请联系您的系统管理员。",
         "thisMeetingIsBeingRecorded": "正在录制此会议",
         "wereToFindRecording": "录制文件将保存在视频服务器主页，请与系统管理员联系以了解更多详情。",
-        "errorMeetingRecording": "无法开始注册，请联系您的系统管理员。"
+        "errorMeetingRecording": "无法开始注册，请联系您的系统管理员。",
+        "defaultViewModeDedicatedModeLabelVRoom": "专用模式",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "专用模式"
     },
     "modal": {
         "addModeratorDescription": "选择一个或多个用户以将其提权为房间主持人",
@@ -525,7 +528,10 @@
         "notifications": {
             "description": "为聊天中的各种类型通知设置您的首选项。"
         },
-        "resetPersonalRoomLinkSuccess": "个人房间链接已重置"
+        "resetPersonalRoomLinkSuccess": "个人房间链接已重置",
+        "recordingMeeting": {
+            "destinationFolder": "目标文件夹"
+        }
     },
     "status": {
         "lastSeen": "上次出现{{lastSeen}}",
@@ -576,5 +582,15 @@
     "personalRoomLabel": "{{userName}} 的个人房间",
     "thanksForParticipating": "感谢参与",
     "typeYourEmail": "输入您的邮件",
-    "virtualRoom": "虚拟房间"
+    "virtualRoom": "虚拟房间",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "下载"
+            }
+        },
+        "close": {
+            "tooltip": "关闭"
+        }
+    }
 }
