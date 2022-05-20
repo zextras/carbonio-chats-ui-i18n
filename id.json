@@ -58,7 +58,8 @@
         "start": "Mulai",
         "stop": "Hentikan",
         "saveToFiles": "Simpan ke File",
-        "createRoom": "Buat Ruang"
+        "createRoom": "Buat Ruang",
+        "browse": "Telusuri"
     },
     "creation": {
         "selectMoreParticipantsForInstantMeetings": "Pilih peserta dari daftar atau ketik alamat untuk menambahkan pengguna eksternal",
@@ -311,7 +312,9 @@
         "thisMeetingIsBeingRecorded": "Rapat ini direkam",
         "recording": "Rekaman",
         "recordedByOther": "{{username}} telah memulai perekaman",
-        "wereToFindRecording": "Rekaman akan disimpan di pusat server video. Hubungi administrator sistem untuk detail lebih lanjut."
+        "wereToFindRecording": "Rekaman akan disimpan di pusat server video. Hubungi administrator sistem untuk detail lebih lanjut.",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Mode Khusus",
+        "defaultViewModeDedicatedModeLabelVRoom": "Mode Khusus"
     },
     "message": {
         "deletedMessage": "Pesan yang dihapus",
@@ -525,7 +528,10 @@
         "notifications": {
             "description": "Atur preferensi Anda untuk tiap jenis notifikasi di Chats."
         },
-        "resetPersonalRoomLinkSuccess": "Tautan Ruang Pribadi diatur ulang"
+        "resetPersonalRoomLinkSuccess": "Tautan Ruang Pribadi diatur ulang",
+        "recordingMeeting": {
+            "destinationFolder": "Folder tujuan"
+        }
     },
     "status": {
         "lastSeen": "Terakhir dilihat {{lastSeen}}",
@@ -576,5 +582,15 @@
     "thanksForParticipating": "Terima kasih telah berpartisipasi",
     "tryLater": "Coba nanti",
     "typeYourEmail": "Ketik email Anda",
-    "virtualRoom": "Ruang Virtual"
+    "virtualRoom": "Ruang Virtual",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "Unduh"
+            }
+        },
+        "close": {
+            "tooltip": "Tutup"
+        }
+    }
 }
