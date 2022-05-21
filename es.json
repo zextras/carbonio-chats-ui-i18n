@@ -58,7 +58,11 @@
         "start": "Inicio",
         "stop": "Detener",
         "saveToFiles": "Guardar a Files",
-        "createRoom": "Crear sala"
+        "createRoom": "Crear sala",
+        "createVirtualRoom": "Crear Sala Virtual",
+        "copyLinkVirtualRoom": "Copiar enlace de la Sala Virtual",
+        "deleteVirtualRoom": "Borrar Sala Virtual",
+        "joinVirtualRoom": "Unirse a Sala Virtual"
     },
     "conversations": {
         "yourRoom": "Tu sala",
@@ -82,7 +86,12 @@
         "filterChatList": "Filtrar lista de chats",
         "mockDisplayDescription": "Elegir una conversación para iniciar un chat",
         "mockDisplayTitle": "¡Vamos a seguir en contacto!",
-        "waitingRoom": "Sala de espera"
+        "waitingRoom": "Sala de espera",
+        "noActiveVirtualRooms": "No hay Salas Virtuales activas en este momento",
+        "noFilteredVirtualRooms": "No hay Salas Virtuales o reuniones planeadas que coincidan con este filtro",
+        "activeVirtualRooms": "Salas Virtuales activas",
+        "personalVirtualRoom": "Sala Virtual personal",
+        "virtualRooms": "Salas Virtuales"
     },
     "creation": {
         "participants": {
@@ -184,7 +193,10 @@
             "audioDisabled": "Audio desconectado",
             "audioEnabled": "Audio conectado",
             "cameraDisabled": "Cámara desactivada",
-            "playMyVoice": "Reproducir mi voz"
+            "playMyVoice": "Reproducir mi voz",
+            "micTesting": "Escucharás tu voz en la salida predeterminada, permitiéndote probar la calidad de tu entrada así como de la salida elegida para la reunión",
+            "playMic": "Iniciar prueba del micrófono",
+            "stopMic": "Detener prueba del micrófono"
         },
         "attendeesComing": "Los participantes están llegando",
         "defaultViewModeDedicatedModeLabel": "Modo dedicado",
@@ -196,7 +208,10 @@
             "noVideoAndAudio": "Cámara apagada, micrófono encendido",
             "noVideoAndNoAudio": "Cámara encendida, micrófono apagado",
             "videoAndAudio": "Cámara encendida, micrófono encendido",
-            "videoAndNoAudio": "Cámara encendida, micrófono apagado"
+            "videoAndNoAudio": "Cámara encendida, micrófono apagado",
+            "descriptionMyPersonalVirtualRoom": "¿Quieres entrar en tu Sala Virtual personal?",
+            "descriptionPersonalVirtualRoom": "¿Quieres entrar en la Sala Virtual personal {{meetingTitle}}?",
+            "descriptionVirtualRoom": "¿Cómo quieres entrar en {{meetingTitle}}?"
         },
         "defaultViewModeDedicatedLabel": "El \"Modo dedicado\" te redireccionará a una pestaña separada de tu navegador para disfrutar de la mejor experiencia de reunión posible.",
         "resetMeetingUrlModalDescription": "¿Seguro que quieres reiniciar el enlace para la conversación {{conversationName}} planeada?",
@@ -209,7 +224,13 @@
         "thisMeetingIsBeingRecorded": "Esta reunión está siendo grabada",
         "errorMeetingRecording": "No es posible iniciar el registro, por favor, contacta con el administrador de tu sistema.",
         "genericErrorMeeting": "Parece que hay un problema con esta reunión, por favor, contacta con tu administrador del sistema.",
-        "wereToFindRecording": "La grabación será guardada en la ubicación del servidor del vídeo, contacta con tu administrador del sistema para más detalles."
+        "wereToFindRecording": "La grabación será guardada en la ubicación del servidor del vídeo, contacta con tu administrador del sistema para más detalles.",
+        "defaultViewModeDedicatedLabelVirtualRoom": "El \"Modo Dedicado\" te redirigirá a una pestaña separada de tu navegador para que disfrutes lo mejor posible de la experiencia de la Sala Virtual.",
+        "defaultViewModeDefaultLabelVirtualRoom": "Eligiendo el \"Modo por defecto\", la Sala Virtual se iniciará en el entorno interno actual.",
+        "wereToFindRec": "La grabación se guardará en el espacio de Files del moderador que la detuvo.",
+        "defaultViewModeTitleModalVirtualRoom": "Opciones del entorno de las Salas Virtuales",
+        "errorMeetingSavingRecording": "No es posible detener la grabación, por favor, inténtalo de nuevo",
+        "successSaveMeetingRecording": "Encontrarás {{registrationName}} en /{{folderName}} tan pronto como se encuentre disponible"
     },
     "modal": {
         "confirm": {
@@ -222,7 +243,8 @@
             "deleteChannel": "¿Seguro que quieres borrar este canal?",
             "deleteRoom": "¿Seguro que quieres borrar la Sala?",
             "leaveSpace": "¿Seguro que quieres dejar el espacio?",
-            "removeMember": "¿Seguro que quieres quitar a este miembro?"
+            "removeMember": "¿Seguro que quieres quitar a este miembro?",
+            "deleteVirtualRoom": "¿Seguro que quieres borrar la Sala Virtual?"
         },
         "addModeratorDescription": "Elija uno o varios usuarios para proponerlos como moderadores de esta Sala",
         "clearHistoryDescription": "Esta conversación está vacía, se ha movido al final de la lista de conversaciones para destacar aquellas activas.",
@@ -255,7 +277,8 @@
         "stopMeetingRec": {
             "stopMeetingTitle": "Detener la grabación de la reunicón",
             "stopRecording": "La grabación se detendrá. Puedes empezar a grabar de nuevo en cualquier momento durante esta reunión."
-        }
+        },
+        "moderatorVirtualRoomDescription": "Vas a moderar esta Sala Virtual. Puedes añadir moderadores adicionales que tendrán los mismos permisos que tú."
     },
     "tooltip": {
         "removeFile": "Quitar archivo",
@@ -322,7 +345,12 @@
         "fileUploadDescription": "Descripción del archivo",
         "roomInfo": "Información de la sala",
         "roomLink": "Enlace de la sala",
-        "roomName": "Nombre de la sala"
+        "roomName": "Nombre de la sala",
+        "virtualRoomInfo": "Información de la Sala Virtual",
+        "virtualRoomLinkDescription": "Copia este enlace y compártelo para proporcionar acceso a otros a esta Sala Virtual.",
+        "nameVirtualRoom": "Sala Virtual de {{conversationTitle}}",
+        "virtualRoomLink": "Enlace de la Sala Virtual",
+        "virtualRoomName": "Nombre de la Sala Virtual"
     },
     "feedback": {
         "historyClearedSuccessfully": "¡El historial se ha borrado!",
@@ -339,7 +367,9 @@
         "connecting": "Conectando...",
         "linkCopied": "Enlace copiado",
         "saveAttachmentError": "Parece que hay un problema al guardar, por favor, inténtalo de nuevo",
-        "saveAttachmentSuccessfull": "Anexo guardado en la carpeta seleccionada"
+        "saveAttachmentSuccessfull": "Anexo guardado en la carpeta seleccionada",
+        "resetPersonalVirtualRoomLinkSuccess": "El enlace de la Sala Virtual personal fue reiniciado",
+        "virtualRoomLinkCopied": "Enlace de la Sala Virtual copiado"
     },
     "message": {
         "deletedMessage": "Borrar mensaje",
@@ -388,12 +418,14 @@
                 "kicked": {
                     "channel": "{{member_name}} ha sido removido del Canal por {{kicked_by}}",
                     "group": "{{member_name}} ha sido removido del grupo por {{kicked_by}}",
-                    "space": "{{member_name}} ha sido removido del Espacio por {{kicked_by}}"
+                    "space": "{{member_name}} ha sido removido del Espacio por {{kicked_by}}",
+                    "chat": "{{member_name}} ha sido eliminado del Chat por {{kicked_by}}"
                 },
                 "left": {
                     "channel": "{{member_name}} abandonó el Canal",
                     "space": "{{member_name}} abandonó el Espacio",
-                    "group": "{{member_name}} ha dejado el grupo"
+                    "group": "{{member_name}} ha dejado el grupo",
+                    "chat": "{{member_name}} ha dejado el chat"
                 },
                 "you": {
                     "invited": "Has invitado a {{member_name}}",
@@ -560,7 +592,10 @@
             "userLeftLookForwardToSee": "Esperamos verte de nuevo",
             "userLeftReturnToWaitingRoom": "Puedes volver a la sala de espera en cualquier momento desde el enlace de la Sala",
             "userLeftWaitingRoom": "Has dejado la sala de espera"
-        }
+        },
+        "nobodyInTheVirtualRoom": "Parece que no hay nadie en esta Sala Virtual",
+        "virtualRoomIsEmpty": "Esta Sala Virtual está vacía",
+        "youAreEnteringVirtualRoom": "Estás a punto de entrar en la Sala Virtual"
     },
     "enterTheRoom": "Entrar a la sala",
     "label": {
@@ -576,5 +611,6 @@
     "thanksForParticipating": "Gracias por participar",
     "tryLater": "Inténtalo más tarde",
     "typeYourEmail": "Introduce tu e-mail",
-    "virtualRoom": "Sala virtual"
+    "virtualRoom": "Sala virtual",
+    "enterTheVirtualRoom": "Entrar en la Sala Virtual"
 }
