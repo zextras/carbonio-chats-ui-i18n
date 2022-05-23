@@ -10,13 +10,18 @@
         "newMessages": "Nieuwe berichten",
         "spaceInfo": "Space-info",
         "topic": "Onderwerp",
-        "nameRoom": "{{conversationTitle}}'s Kamer",
-        "speakersCorner": "Gebruikers in Meetingroom",
-        "roomLinkDescription": "Kopieer deze link en deel hem om anderen toegang te geven tot deze Kamer.",
+        "nameRoom": "{{conversationTitle}}'s Ruimte",
+        "speakersCorner": "Gebruikers in Vergaderruimte",
+        "roomLinkDescription": "Kopieer deze link en deel hem om anderen toegang te geven tot deze Ruimte.",
         "fileUploadDescription": "Bestandsomschrijving",
-        "roomInfo": "Kamerinfo",
-        "roomLink": "Link van de Kamer",
-        "roomName": "Naam Kamer"
+        "roomInfo": "Ruimte-info",
+        "roomLink": "Link van de Ruimte",
+        "roomName": "Naam Ruimte",
+        "nameVirtualRoom": "{{conversationTitle}}'s Virtuele Ruimte",
+        "virtualRoomInfo": "Virtuele Ruimte Info",
+        "virtualRoomLink": "Link naar virtuele ruimte",
+        "virtualRoomLinkDescription": "Kopieer deze link en deel hem om anderen toegang te geven tot deze Virtuele Ruimte.",
+        "virtualRoomName": "Naam Virtuele Ruimte"
     },
     "conversations": {
         "spaces": "Ruimten",
@@ -29,18 +34,23 @@
         "noFilteredInstantMeetings": "Er zijn geen Instant Meetings die overeenkomen met deze filter.",
         "noFilteredSpaces": "Er zijn geen Ruimten die overeenkomen met deze filter.",
         "noFilteredChats": "Er zijn geen chats die overeenkomen met deze filter.",
-        "meetingRooms": "Vergaderzalen",
-        "activeMeetingRooms": "Actieve vergaderzalen",
+        "meetingRooms": "Vergaderruimten",
+        "activeMeetingRooms": "Actieve Vergaderruimten",
         "filterChatList": "Chatlijst filteren",
         "mockDisplayDescription": "Kies een gesprek om een chat te beginnen",
         "mockDisplayTitle": "Laten we contact houden!",
         "noActiveChats": "Er zijn op dit moment geen actieve chats. Creëer een nieuwe chat of wissel van tabblad.",
-        "noActiveMeetings": "Er zijn geen actieve Kamers op dit moment",
+        "noActiveMeetings": "Er zijn geen actieve Ruimten op dit moment",
         "scheduledMeetings": "Geplande vergaderingen",
-        "waitingRoom": "Wachtkamer",
-        "noFilteredMeetings": "Er zijn geen Kamers of geplande vergaderingen die bij dit filter passen",
-        "personalRoom": "Persoonlijke Kamer",
-        "yourRoom": "Uw Kamer"
+        "waitingRoom": "Wachtruimte",
+        "noFilteredMeetings": "Er zijn geen Ruimten of geplande vergaderingen die bij dit filter passen",
+        "personalRoom": "Persoonlijke Ruimte",
+        "yourRoom": "Uw Ruimte",
+        "activeVirtualRooms": "Actieve Virtuele Ruimten",
+        "noActiveVirtualRooms": "Er zijn geen actieve Virtuele Ruimten op dit moment",
+        "noFilteredVirtualRooms": "Er zijn geen Virtuele Ruimten of geplande vergaderingen die bij dit filter passen",
+        "personalVirtualRoom": "Persoonlijke Virtuele Ruimte",
+        "virtualRooms": "Virtuele Ruimten"
     },
     "creation": {
         "nameMax140Characters": "Max. 140 tekens",
@@ -142,7 +152,10 @@
             "audioDisabled": "Audio uitgeschakeld",
             "audioEnabled": "Audio ingeschakeld",
             "cameraDisabled": "Camera uitgeschakeld",
-            "stopMyVoice": "Stop mijn stem"
+            "stopMyVoice": "Stop mijn stem",
+            "micTesting": "U hoort uw stem op de standaard output, zodat u de kwaliteit van uw input kunt testen, evenals de output die voor de vergadering is geselecteerd",
+            "playMic": "Microfoontest starten",
+            "stopMic": "Microfoontest stoppen"
         },
         "attendeesComing": "Deelnemers komen",
         "defaultViewModeDedicatedModeLabel": "Toegewijde modus",
@@ -154,7 +167,10 @@
             "noVideoAndAudio": "Camera uit, Microfoon aan",
             "noVideoAndNoAudio": "Camera uit, Microfoon uit",
             "videoAndAudio": "Camera aan, Microfoon aan",
-            "videoAndNoAudio": "Camera aan, Microfoon uit"
+            "videoAndNoAudio": "Camera aan, Microfoon uit",
+            "descriptionVirtualRoom": "Hoe wilt u in de {{meetingTitle}} binnengaan?",
+            "descriptionMyPersonalVirtualRoom": "Hoe wilt u uw Persoonlijke Virtuele Ruimte binnengaan?",
+            "descriptionPersonalVirtualRoom": "Hoe wilt u in de Persoonlijke Virtuele Kamer van {{meetingTitle}} binnengaan?"
         },
         "defaultViewModeSaveLabel": "Optie opslaan",
         "defaultViewModeDedicatedLabel": "De \" Toegewijde Modus \" leidt u naar een apart tabblad van uw browser om optimaal van de vergader-ervaring te kunnen genieten.",
@@ -169,7 +185,13 @@
         "thisMeetingIsBeingRecorded": "Deze vergadering wordt opgenomen",
         "wereToFindRecording": "De opname zal worden opgeslagen in de videoserver thuis, neem contact op met uw systeemadministrator voor verdere details.",
         "defaultViewModeDedicatedModeLabelVRoom": "Toegewijde modus",
-        "defaultViewModeDedicatedModeLabelVirtualRoom": "Toegewijde modus"
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Toegewijde modus",
+        "defaultViewModeDedicatedLabelVirtualRoom": "De \" Toegewijde Modus \" leidt u naar een apart tabblad van uw browser om optimaal van de ervaring van de Virtuele Ruimte te kunnen genieten.",
+        "defaultViewModeDefaultLabelVirtualRoom": "Als u de \"standaard modus\" selecteert, start de Virtuele Ruimte in de huidige interne omgeving.",
+        "wereToFindRec": "De opname wordt opgeslagen in de Bestandsruimte van de moderator die de opname heeft gestopt.",
+        "defaultViewModeTitleModalVirtualRoom": "Virtuele Ruimtes omgevingsopties",
+        "errorMeetingSavingRecording": "Het is niet mogelijk om de opname te stoppen, probeer het opnieuw",
+        "successSaveMeetingRecording": "U zult {{registrationName}} in /{{folderName}} vinden zodra het beschikbaar is"
     },
     "message": {
         "now": "Nu",
@@ -218,12 +240,14 @@
                 "kicked": {
                     "channel": "{{member_name}} is uit het Kanaal verwijderd door {{kicked_by}}",
                     "group": "{{member_name}} werd uit de Groep verwijderd door {{kicked_by}}",
-                    "space": "{{member_name}} is uit de Space verwijderd door {{kicked_by}}"
+                    "space": "{{member_name}} is uit de Space verwijderd door {{kicked_by}}",
+                    "chat": "{{member_name}} is uit de chat verwijderd door {{kicked_by}}"
                 },
                 "left": {
                     "channel": "{{member_name}} heeft het Kanaal verlaten",
                     "space": "{{member_name}} heeft de Space verlaten",
-                    "group": "{{member_name}} heeft de Groep verlaten"
+                    "group": "{{member_name}} heeft de Groep verlaten",
+                    "chat": "{{member_name}} heeft de Chat verlaten"
                 },
                 "you": {
                     "invited": "U heeft {{member_name}} uitgenodigd",
@@ -270,7 +294,7 @@
                     "channel": "U hebt zich aangesloten bij het Kanaal",
                     "instantMeeting": "U hebt zich aangesloten bij de Instant Meeting",
                     "space": "U hebt zich aangesloten bij de Space",
-                    "userRoom": "U heeft zich aangesloten bij de Kamer",
+                    "userRoom": "U heeft zich aangesloten bij de Ruimte",
                     "group": "U hebt zich aangesloten bij de Groep"
                 },
                 "kicked": {
@@ -331,7 +355,7 @@
         "scrollToNewMessage": "Scroll naar nieuw bericht",
         "scrollToTheBottom": "Scroll naar beneden",
         "startMeeting": "Meeting starten",
-        "joinRoom": "Bij deKamer aansluiten",
+        "joinRoom": "Bij de Ruimte aansluiten",
         "addModerators": "Moderators toevoegen",
         "addOtherModerators": "Andere moderators toevoegen",
         "removeMember": "Lid verwijderen",
@@ -341,15 +365,19 @@
         "leaveGroup": "Groep verlaten",
         "openInChats": "Openen in Chats",
         "copyLinkRoom": "Link Kamer kopiëren",
-        "deleteRoom": "Kamer verwijderen",
+        "deleteRoom": "Ruimte verwijderen",
         "plan": "Plan",
         "resetLink": "Link resetten",
         "waitingModeratorToJoin": "U wacht om geaccepteerd te worden door een moderator",
         "start": "Starten",
         "stop": "Stoppen",
         "saveToFiles": "Opslaan in Bestanden",
-        "createRoom": "Kamer Creëren",
-        "browse": "Doorbladeren"
+        "createRoom": "Ruimte Creëren",
+        "browse": "Doorbladeren",
+        "copyLinkVirtualRoom": "Link naar virtuele kamer kopiëren",
+        "createVirtualRoom": "Virtuele ruimte creëren",
+        "deleteVirtualRoom": "Virtuele ruimte verwijderen",
+        "joinVirtualRoom": "Aanmelden voor virtuele ruimte"
     },
     "appVersion": "App versie",
     "button": {
@@ -367,15 +395,17 @@
         "online": "Terug online!",
         "retryConnection": "Probeer opnieuw te verbinden",
         "uploadConversationPicturesFailed": "Uploaden gesprekafbeelding mislukt",
-        "resetPersonalRoomLinkSuccess": "De link naar de Persoonlijke Kamer werd gereset",
+        "resetPersonalRoomLinkSuccess": "De link naar de Persoonlijke Ruimte werd gereset",
         "appVersionCopied": "App-versie gekopieerd",
         "offline": "Het lijkt een probleem te zijn met de serververbinding",
         "tryAReconnectionIn": "Probeer een herverbinding in {{seconds}}",
-        "roomLinkCopied": "Kamerlink gekopieerd",
+        "roomLinkCopied": "Link naar Ruimte gekopieerd",
         "connecting": "Wordt verbonden...",
         "linkCopied": "Link gekopieerd",
         "saveAttachmentSuccessfull": "Bijlage opgeslagen in de geselecteerde map",
-        "saveAttachmentError": "Er lijkt een probleem te zijn bij het opslaan, probeer het opnieuw"
+        "saveAttachmentError": "Er lijkt een probleem te zijn bij het opslaan, probeer het opnieuw",
+        "resetPersonalVirtualRoomLinkSuccess": "De link naar de persoonlijke Virtuele Ruimte werd gereset",
+        "virtualRoomLinkCopied": "Link naar virtuele Ruimte is gekopiëerd"
     },
     "modal": {
         "clearHistoryDescription": "Dit gesprek is nu leeg, het is verplaatst naar de onderkant van de gesprekkenlijst om de actieve gesprekken te benadrukken.",
@@ -389,7 +419,8 @@
             "deleteSpace": "Weet u zeker dat u de Ruimte wilt verwijderen?",
             "leaveChannel": "Weet u zeker dat u dit Kanaal wilt verlaten?",
             "removeMember": "Weet u zeker dat u dit lid wilt verwijderen?",
-            "deleteRoom": "Weet u zeker dat u de Kamer wilt verwijderen?"
+            "deleteRoom": "Weet u zeker dat u de Ruimte wilt verwijderen?",
+            "deleteVirtualRoom": "Weet u zeker dat u de Virtuele Ruimte wilt verwijderen?"
         },
         "forwardModal": {
             "forwardedMessageFrom": "Doorgestuurd bericht van",
@@ -408,38 +439,46 @@
         "moderatorCannotLeaveGroupDescription": "U bent de enige moderator van {{conversationName}}, geef iemand anders promotie voordat u de Groep verlaat.",
         "moderatorCannotLeaveGroupTitle": "Wacht, er is een nieuwe moderator nodig",
         "showPreviousConversationHistory": "Toon historiek vorig gesprek",
-        "addModeratorDescription": "Selecteer een of meer gebruikers om ze te promoveren tot moderatoren van deze Kamer",
-        "planMeetingDescription": "De naam van de Kamer helpt de aanwezigen om te weten wat er in de Kamer wordt besproken.",
+        "addModeratorDescription": "Selecteer een of meer gebruikers om ze te promoveren tot moderatoren van deze Ruimte",
+        "planMeetingDescription": "De naam van de Ruimte helpt de aanwezigen om te weten wat er in de Ruimte wordt besproken.",
         "news": "Nieuws",
         "deleteMessageDescription": "Bij het verwijderen van een bericht zal het niet meer zichtbaar zijn voor u en alle andere ontvangers",
         "teamNews": "Team nieuws",
         "notShowAgain": "Dit niet opnieuw tonen",
-        "userJoinedWaitingRoom": "Er schijnt iemand in de Wachtkamer te zijn",
-        "roomsFunctionalitiesChangelogDescription": "We hebben belangrijke wijzigingen aangebracht in de vergaderfunctionaliteiten. Lees de introductie van de Kamers voor meer informatie!",
+        "userJoinedWaitingRoom": "Er schijnt iemand in de Wachtruimte te zijn",
+        "roomsFunctionalitiesChangelogDescription": "We hebben belangrijke wijzigingen aangebracht in de vergaderfunctionaliteiten. Lees de introductie van de Ruimten voor meer informatie!",
         "selectFolder": "Map selecteren",
-        "moderatorMeetingDescription": "U zal deze kamer modereren. U kunt extra moderators toevoegen en zij zullen dezelfde permissies hebben als u.",
+        "moderatorMeetingDescription": "U zal deze Ruimte modereren. U kunt extra moderators toevoegen en zij zullen dezelfde permissies hebben als u.",
         "stopMeetingRec": {
             "stopRecording": "De opname wordt gestopt. U kunt op elk moment tijdens deze vergadering een nieuwe opname starten.",
-            "stopMeetingTitle": "Stop de opname van de vergadering"
-        }
+            "stopMeetingTitle": "Stop de opname van de vergadering",
+            "locationWhereToSaveRecording": "De opname wordt opgeslagen in \"/{{folderName}}\".",
+            "recordingName": "Naam opname",
+            "stopRecordingDescription": "U gaat de opname stoppen. U kunt op elk moment een nieuwe beginnen.",
+            "stopRecordingTitle": "Opname stoppen"
+        },
+        "moderatorVirtualRoomDescription": "U zal deze Virtuele Ruimte modereren. U kunt extra moderators toevoegen en zij zullen dezelfde permissies hebben als u.",
+        "planVirtualRoomDescription": "Geef deze Virtuele Ruimte een herkenbare naam, zodat uw aanwezigen weten waarover ze vergaderen."
     },
     "notification": {
         "answer": "Antwoorden",
         "dismiss": "Weigeren",
         "incomingCall": "Inkomend gesprek van:",
-        "invitationToPersonalRoom": "Uitnodiging voor de Persoonlijke Kamer van:",
+        "invitationToPersonalRoom": "Uitnodiging voor de Persoonlijke Ruimte van:",
         "waiting": {
-            "notificationJoinTheRoom": "Ga naar de kamer om deel te nemen aan de vergadering",
+            "notificationJoinTheRoom": "Ga naar de ruimte om deel te nemen aan de vergadering",
             "descriptionAcceptedLabel": "U bent geaccepteerd door de moderator van {{conversationName}}",
             "descriptionWaitingLabel": "U wacht om geaccepteerd te worden door de Moderator van {{conversationName}}",
             "notificationAcceptedByModerator": "U bent geaccepteerd door de moderator van",
             "userIsWaiting": "Nieuwe gebruiker wacht om binnen te gaan",
-            "userJoinedWaitingRoom": "Er schijnt iemand in de wachtkamer te zijn"
+            "userJoinedWaitingRoom": "Er schijnt iemand in de wachtruimte te zijn",
+            "notificationJoinTheVirtualRoom": "Ga naar de Virtuele Ruimte om deel te nemen aan de vergadering"
         },
         "meeting": {
             "ended": "Meeting beëindigd"
         },
-        "startMeetingRecording": "De opname van de vergadering van {{conversationName}} is begonnen"
+        "startMeetingRecording": "De opname van de vergadering van {{conversationName}} is begonnen",
+        "invitationToPersonalVirtualRoom": "Uitnodiging voor een Persoonlijke Virtuele Ruimte van:"
     },
     "people": {
         "manyMembers": "{{membersCount}} leden",
@@ -456,9 +495,18 @@
             "enableMicrophone": "Microfoon inschakelen",
             "meetings": "Meetings",
             "description": "Stel uw audio- en video-voorkeuren in om de vergaderingen binnen te gaan. U kunt uw voorkeuren altijd aanpassen voordat u aan een meeting deelneemt.",
-            "personalRoomOptionsTitleModal": "Link naar Persoonlijke Kamer gereset",
-            "personalRoomResetButton": "Link Persoonlijke Kamer resetten",
-            "personalRoomResetDescription": "Door het resetten van de link naar de Persoonlijke Kamer, zullen alle eerder gegeven toegangen niet meer werken."
+            "personalRoomOptionsTitleModal": "Link naar Persoonlijke Ruimte gereset",
+            "personalRoomResetButton": "Link Persoonlijke Ruimte resetten",
+            "personalRoomResetDescription": "Door het resetten van de link naar de Persoonlijke Ruimte, zullen alle eerder gegeven toegangen niet meer werken.",
+            "enableEchoCancellation": "Echo-annulering",
+            "enableNoiseSuppression": "Geluidsonderdrukking",
+            "personalVirtualRoomOptionsTitleModal": "Link naar Persoonlijke Ruimte gereset",
+            "personalVirtualRoomResetButton": "Link naar Persoonlijke Ruimte resetten",
+            "personalVirtualRoomResetDescription": "Door het resetten van de link naar de Persoonlijke Virtuele Ruimte, zullen alle eerder gegeven toegangen niet meer werken.",
+            "virtualRooms": "Virtuele Ruimten",
+            "voiceProcessing": "Spraakverwerking",
+            "voiceProcessingDescription": "U hoort uw stem op de standaard output, zodat u de kwaliteit van uw input kunt testen, evenals de output die voor de vergadering is geselecteerd",
+            "descriptionVirtualRoom": "Stel uw audio- en video-voorkeuren in om de Virtuele Ruimte binnen te gaan. U kunt uw voorkeuren altijd aanpassen voordat u een Virtuele Ruimte binnengaat."
         },
         "notification": {
             "desktop": "Desktopmeldingen",
@@ -482,7 +530,7 @@
             "maximumDimension": "Max. afmeting: 256kb."
         },
         "title": "Instellingen",
-        "resetPersonalRoomLinkSuccess": "De link naar de Persoonlijke Kamer werd gereset",
+        "resetPersonalRoomLinkSuccess": "De link naar de Persoonlijke Ruimte werd gereset",
         "modal": {
             "title": "Chats instellingen",
             "description": "Hier kunt u alle specifieke voorkeuren van Chat instellen, zodat u kunt genieten van een complete, op maat gemaakte chatervaring!"
@@ -491,7 +539,9 @@
             "description": "Stel uw voorkeuren in voor elk type melding in Chats."
         },
         "recordingMeeting": {
-            "destinationFolder": "Bestemmingsmap"
+            "destinationFolder": "Bestemmingsmap",
+            "descriptionWhereToSaveRegistration": "Stel een bestemmingsmap in om de opnamen van de vergadering op te slaan.",
+            "recording": "Opnamen"
         }
     },
     "status": {
@@ -512,10 +562,10 @@
         "errorUploadingAvatarPicture": "Er ging iets mis tijdens het uploaden van de nieuwe avatar. Probeer het opnieuw",
         "errorRemovingAvatarPicture": "Er ging iets mis bij het verwijderen van de avatar. Probeer het opnieuw",
         "sendMessage": "Bericht versturen",
-        "copyUserRoomTooltip": "Kopieer deze link en deel hem om anderen toegang te geven tot uw Persoonlijke Kamer",
-        "enterMeetingRoom": "Vergaderzaal betreden",
+        "copyUserRoomTooltip": "Kopieer deze link en deel hem om anderen toegang te geven tot uw Persoonlijke Ruimte",
+        "enterMeetingRoom": "Vergaderruimte betreden",
         "switchToInfoPanel": "Naar infopaneel overschakelen",
-        "enterYourRoom": "Ga naar uw Persoonlijke Kamer",
+        "enterYourRoom": "Ga naar uw Persoonlijke Ruimte",
         "rejectQueuedMember": "Gebruiker afwijzen",
         "addFile": "Bestand toevoegen",
         "cancelFilter": "Filter annuleren",
@@ -532,17 +582,20 @@
         "sendFile": "Bestand versturen",
         "showChannels": "Kanalen tonen",
         "acceptQueuedMember": "Laat gebruiker binnen",
-        "copyRoomLink": "Kopieer deze link om de Kamer te delen",
-        "copyRoomLinkTooltip": "Kopieer deze link om de Kamer te delen",
-        "copyUserRoom": "Kopieer de link naar uw Persoonlijke Kamer",
-        "enterYourRoomTooltip": "Ga naar uw Persoonlijke Kamer",
+        "copyRoomLink": "Kopieer deze link om de Ruimte te delen",
+        "copyRoomLinkTooltip": "Kopieer deze link om de Ruimte te delen",
+        "copyUserRoom": "Kopieer de link naar uw Persoonlijke Ruimte",
+        "enterYourRoomTooltip": "Ga naar uw Persoonlijke Ruimte",
         "goToPrivateChat": "Naar private chat gaan",
-        "inviteToPersonalRoom": "Uitnodigen naar uw Persoonlijke Kamer",
+        "inviteToPersonalRoom": "Uitnodigen naar uw Persoonlijke Ruimte",
         "planMeeting": "Een Vergadering plannen",
         "promoteModerator": "Tot moderator bevorderen",
         "searchForParticipant": "Naar een deelnemer zoeken",
         "switchToConversation": "Naar gesprek overschakelen",
-        "disabledCreateButton": "Controleer uw invoer om er zeker van te zijn dat er geen fouten zijn"
+        "disabledCreateButton": "Controleer uw invoer om er zeker van te zijn dat er geen fouten zijn",
+        "copyUserVirtualRoomTooltip": "Kopieer deze link en deel hem om anderen toegang te geven tot uw Persoonlijke Virtuele Ruimte",
+        "copyVirtualRoomLinkTooltip": "Kopieer deze link om de Virtuele Ruimte te delen",
+        "enterYourVirtualRoomTooltip": "Ga naar uw Persoonlijke Virtuele Ruimte"
     },
     "general": {
         "browserNotSupported": "De versie van uw browser wordt niet ondersteund. Het is sterk aanbevolen om de browser te updaten om te profiteren van alle functies!",
@@ -557,31 +610,34 @@
             "browser": "Niet-ondersteunde browser",
             "device": "Niet-ondersteund apparaat"
         },
-        "youAreEnteringMeeting": "U staat op het punt de Kamer binnen te gaan",
-        "nobodyInTheRoom": "Het lijkt erop dat niemand in deze Kamer is",
-        "roomIsEmpty": "de Kamer is leeg",
+        "youAreEnteringMeeting": "U staat op het punt de Ruimte binnen te gaan",
+        "nobodyInTheRoom": "Het lijkt erop dat er niemand in deze Ruimte is",
+        "roomIsEmpty": "Deze Ruimte is leeg",
         "waitingRoom": {
             "accessDenied": "Toegang geweigerd",
-            "moderatorRefusedAccessToRoom": "Een moderator heeft uw toegang tot deze Kamer geweigerd",
+            "moderatorRefusedAccessToRoom": "Een moderator heeft uw toegang tot deze Ruimte geweigerd",
             "userLeftLookForwardToSee": "We kijken er naar uit om u weer te zien",
-            "userLeftWaitingRoom": "U heeft de wachtkamer verlaten",
-            "userLeftReturnToWaitingRoom": "U kunt op elk moment terugkeren naar de wachtkamer via de link van de Kamer"
-        }
+            "userLeftWaitingRoom": "U heeft de wachtruimte verlaten",
+            "userLeftReturnToWaitingRoom": "U kunt op elk moment terugkeren naar de wachtruimte via de link van de Ruimte"
+        },
+        "nobodyInTheVirtualRoom": "Het lijkt erop dat er niemand in deze Virtuele Ruimte is",
+        "virtualRoomIsEmpty": "Deze Virtuele Ruimte is leeg",
+        "youAreEnteringVirtualRoom": "U staat op het punt de Virtuele Ruimte binnen te gaan"
     },
-    "enterTheRoom": "De Kamer betreden",
+    "enterTheRoom": "De Ruimte betreden",
     "label": {
         "app_name": "Chats"
     },
     "errorPage": {
         "errorCode": "foutcode 404",
         "description": "Controleer uw link, het kan een verkeerde zijn",
-        "title": "Sorry, we konden die Kamer niet vinden"
+        "title": "Sorry, we konden die Ruimte niet vinden"
     },
-    "organizeYourMeeting": "Organiseer uw eigen vergaderingen of sluit u aan bij de Kamers van uw collega's",
+    "organizeYourMeeting": "Organiseer uw eigen vergaderingen of sluit u aan bij de Ruimten van uw collega's",
     "tryLater": "Probeer later",
     "typeYourEmail": "Type uw e-mail",
-    "virtualRoom": "Virtuele Kamer",
-    "personalRoomLabel": "Persoonlşjke Kamer van {{userName}}",
+    "virtualRoom": "Virtuele Ruimte",
+    "personalRoomLabel": "Persoonlijke Ruimte van {{userName}}",
     "thanksForParticipating": "Bedankt voor uw deelname",
     "preview": {
         "actions": {
@@ -592,5 +648,9 @@
         "close": {
             "tooltip": "Sluiten"
         }
-    }
+    },
+    "enterTheVirtualRoom": "De Virtuele Ruimte betreden",
+    "organizeYourVMeeting": "Organiseer uw eigen vergaderingen of sluit u aan bij de Virtuele Ruimten van uw collega's",
+    "organizeYourVirtualMeeting": "Organiseer uw eigen vergaderingen of sluit u aan bij de Virtuele Ruimten van uw collega's",
+    "personalVirtualRoomLabel": "Persoonlijke Virtuele Ruimte van {{userName}}"
 }
