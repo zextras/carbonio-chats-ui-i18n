@@ -387,7 +387,7 @@
             "descriptionVirtualRoom": "Comment souhaitez-vous entrer dans {{meetingTitle}} ?"
         },
         "defaultViewModeDefaultLabel": "En sélectionnant le \"Mode par défaut\", la réunion démarrera dans l'environnement interne actuel.",
-        "defaultViewModeSaveLabel": "Option de sauvegarde",
+        "defaultViewModeSaveLabel": "Enregistrer les options",
         "defaultViewModeTitleModal": "Options de l'environnement des réunions",
         "resetMeetingUrlModalDescription": "Êtes-vous sûr de vouloir réinitialiser le lien pour la conversation prévue \"{{conversationName}}\" ?",
         "defaultViewModeDedicatedLabel": "Le \"mode dédié\" vous redirige vers un onglet séparé de votre navigateur pour profiter au mieux de la réunion.",
