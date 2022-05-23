@@ -279,9 +279,14 @@
         "moderatorMeetingDescription": "Vas a moderar esta Sala. Puedes añadir moderadores adicionales que tendrán los mismos permisos que tú.",
         "stopMeetingRec": {
             "stopMeetingTitle": "Detener la grabación de la reunicón",
-            "stopRecording": "La grabación se detendrá. Puedes empezar a grabar de nuevo en cualquier momento durante esta reunión."
+            "stopRecording": "La grabación se detendrá. Puedes empezar a grabar de nuevo en cualquier momento durante esta reunión.",
+            "locationWhereToSaveRecording": "La grabación se guardará en \"/{{folderName}}\".",
+            "recordingName": "Nombre de la grabación",
+            "stopRecordingDescription": "Vas a detener la grabación. Puedes iniciar una nueva cuando quieras.",
+            "stopRecordingTitle": "Detener grabación"
         },
-        "moderatorVirtualRoomDescription": "Vas a moderar esta Sala Virtual. Puedes añadir moderadores adicionales que tendrán los mismos permisos que tú."
+        "moderatorVirtualRoomDescription": "Vas a moderar esta Sala Virtual. Puedes añadir moderadores adicionales que tendrán los mismos permisos que tú.",
+        "planVirtualRoomDescription": "Ponle un nombre reconocible a esta Sala Virtual para que tus asistentes sepan el tema de la reunión a la que van a asistir."
     },
     "tooltip": {
         "removeFile": "Quitar archivo",
@@ -320,7 +325,10 @@
         "inviteToPersonalRoom": "Invitar a tu sala personal",
         "rejectQueuedMember": "Rechazar usuario",
         "searchForParticipant": "Buscar participante",
-        "disabledCreateButton": "Comprueba los datos introducidos para asegurarte de que no haya ningún error"
+        "disabledCreateButton": "Comprueba los datos introducidos para asegurarte de que no haya ningún error",
+        "enterYourVirtualRoomTooltip": "Entra en tu Sala Virtual Personal",
+        "copyVirtualRoomLinkTooltip": "Copia este enlace para compartir la Sala Virtual",
+        "copyUserVirtualRoomTooltip": "Copia este enlace y compártelo para proporcionar acceso a otros a tu Sala Virtual Personal"
     },
     "appVersion": "Versión de la aplicación",
     "button": {
@@ -504,13 +512,15 @@
             "descriptionAcceptedLabel": "Has sido aceptado por el moderador de {{conversationName}}",
             "notificationAcceptedByModerator": "Has sido aceptado por el moderador",
             "userIsWaiting": "Hay un nuevo usuario esperando para entrar",
-            "userJoinedWaitingRoom": "Parece que hay alguien en la sala de espera"
+            "userJoinedWaitingRoom": "Parece que hay alguien en la sala de espera",
+            "notificationJoinTheVirtualRoom": "Únete a la Sala Virtual para participar en la reunión"
         },
         "invitationToPersonalRoom": "Invitación a una sala personal de:",
         "meeting": {
             "ended": "Reunión finalizada"
         },
-        "startMeetingRecording": "La grabación de la reunión {{conversationName}} se ha iniciado"
+        "startMeetingRecording": "La grabación de la reunión {{conversationName}} se ha iniciado",
+        "invitationToPersonalVirtualRoom": "Invitación a una Sala Virtual Personal de:"
     },
     "people": {
         "manyMembers": "{{membersCount}} miembros",
@@ -529,7 +539,16 @@
             "personalRoomOptionsTitleModal": "Enlace de reinicio de sala personal",
             "personalRoomResetButton": "Reiniciar enlace de sala personal",
             "description": "Configura tus preferencias de audio y vídeo para entrar en las reuniones. Siempre puedes configurar tus preferencias antes de entrar en cualquier reunión.",
-            "personalRoomResetDescription": "Al reiniciar el enlace de la sala personal, los accesos concedidos anteriormente no funcionarán más."
+            "personalRoomResetDescription": "Al reiniciar el enlace de la sala personal, los accesos concedidos anteriormente no funcionarán más.",
+            "enableNoiseSuppression": "Reducción de ruido",
+            "personalVirtualRoomOptionsTitleModal": "Reiniciar el enlace de la Sala Virtual Personal",
+            "personalVirtualRoomResetButton": "Reiniciar enlace de la Sala Personal Virtual",
+            "personalVirtualRoomResetDescription": "Si reinicias el enlace de la Sala Virtual Personal, los accesos otorgados anteriormente ya no funcionarán.",
+            "virtualRooms": "Salas Virtuales",
+            "enableEchoCancellation": "Cancelación de eco",
+            "voiceProcessing": "Procesamiento de voz",
+            "voiceProcessingDescription": "Escucharás tu voz en la salida predeterminada, permitiéndote probar la calidad de tu entrada de audio, así como de la salida de audio elegida para la reunión",
+            "descriptionVirtualRoom": "Configura las preferencias de audio y vídeo para entrar en la Sala Virtual. Siempre puedes personalizar tus preferencias antes de entrar en cada Sala Virtual."
         },
         "notification": {
             "desktop": "Notificaciones de escritorio",
@@ -562,7 +581,9 @@
             "description": "Configura tus preferencias para cada tipo de notificación en los chats."
         },
         "recordingMeeting": {
-            "destinationFolder": "Carpeta de destino"
+            "destinationFolder": "Carpeta de destino",
+            "recording": "Grabaciones",
+            "descriptionWhereToSaveRegistration": "Configura una carpeta de destino para guardar las grabaciones."
         }
     },
     "status": {
@@ -628,5 +649,8 @@
         "close": {
             "tooltip": "Cerrar"
         }
-    }
+    },
+    "organizeYourVMeeting": "Organiza tus propias reuniones o únete a las Salas Virtuales de tus compañeros",
+    "organizeYourVirtualMeeting": "Organiza tus propias reuniones o únete a las Salas Virtuales de tus compañeros",
+    "personalVirtualRoomLabel": "Sala Virtual Personal de {{userName}}"
 }
