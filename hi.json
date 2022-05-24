@@ -498,7 +498,15 @@
             "personalRoomResetButton": "पर्सनल Room की लिंक रीसेट करें",
             "description": "मीटिंग्स में आने के लिए अपने ऑडियो और विडियो प्रेफेरेंस सेट करें। आप किसी भी मीटिंग में आने से पहले अपने प्रेफेरेंस कस्टमाइज़ कर सकते हैं।",
             "personalRoomResetDescription": "पर्सनल Room की लिंक रीसेट करने से पहले दी गई सभी एक्सेस काम करना बंद कर देंगी।",
-            "descriptionVirtualRoom": "Virtual Room में आने के लिए अपने ऑडियो और विडियो प्रेफेरेंस सेट करें। आप किसी भी Virtual Room में आने से पहले अपने प्रेफेरेंस कस्टमाइज़ कर सकते हैं।"
+            "descriptionVirtualRoom": "Virtual Room में आने के लिए अपने ऑडियो और विडियो प्रेफेरेंस सेट करें। आप किसी भी Virtual Room में आने से पहले अपने प्रेफेरेंस कस्टमाइज़ कर सकते हैं।",
+            "enableNoiseSuppression": "आवाज़ दबाएँ",
+            "virtualRooms": "Virtual Rooms",
+            "voiceProcessing": "आवाज़ प्रोसेसिंग",
+            "enableEchoCancellation": "आवाज़ गूंजना बंद करें",
+            "personalVirtualRoomOptionsTitleModal": "पर्सनल Virtual Room की लिंक रीसेट की गई",
+            "personalVirtualRoomResetButton": "Virtual Room की लिंक रीसेट करें",
+            "personalVirtualRoomResetDescription": "पर्सनल Virtual Room की लिंक रीसेट करने से पहले दी गई सभी एक्सेस काम करना बंद कर देंगी।",
+            "voiceProcessingDescription": "आपको डिफ़ाल्ट आउटपुट में आपकी आवाज़ सुनाई देगी जिसे आप अपने मीटिंग के चुने गए इनपुट और आउटपुट की भी की क्वालिटी की जांच कर सकेंगे"
         },
         "notification": {
             "desktop": "डेस्कटॉप अधिसूचनाएं",
@@ -531,7 +539,9 @@
         },
         "resetPersonalRoomLinkSuccess": "पर्सनल Room की लिंक रीसेट की गई",
         "recordingMeeting": {
-            "destinationFolder": "गंतव्य फोल्डर"
+            "destinationFolder": "गंतव्य फोल्डर",
+            "descriptionWhereToSaveRegistration": "मीटिंग रिकॉर्डिंग सेव करने के लिए कोई डेस्टिनेशन फोल्डर सेट करें।",
+            "recording": "रिकॉर्डिंग"
         }
     },
     "status": {
@@ -582,7 +592,10 @@
         "planMeeting": "कोई Meeting प्लान करें",
         "rejectQueuedMember": "यूज़र को रिजेक्ट करें",
         "searchForParticipant": "पर्टिसिपेंट खोजें",
-        "disabledCreateButton": "अपने इनपुट जाँच लें और जानें कि इनमें कोई त्रुटि नहीं हैं"
+        "disabledCreateButton": "अपने इनपुट जाँच लें और जानें कि इनमें कोई त्रुटि नहीं हैं",
+        "copyVirtualRoomLinkTooltip": "Virtual Room शेयर करने के लिए इस लिंक को कॉपी करें",
+        "enterYourVirtualRoomTooltip": "अपने पर्सनल Virtual Room में जाएँ",
+        "copyUserVirtualRoomTooltip": "दूसरों को अपने पर्सनल Virtual Room में एक्सेस देने के लिए इस लिंक को कॉपी करके शेयर करें"
     },
     "general": {
         "browserNotSupported": "आपके ब्राउज़र का यह वर्शन सपोर्टेड नहीं है। आप ब्राउज़र को अपडेट कर लें जिससे सभी फीचर्स का पूरा लाभ उठा सकें!",
