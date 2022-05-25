@@ -40,7 +40,7 @@
     "action": {
         "activateNotifications": "Ativar notificações",
         "add": "Adicionar",
-        "addChannel": "Agregar Canal",
+        "addChannel": "Adicionar Canal",
         "addMembers": "Adicionar contatos",
         "addModerator": "Adicionar moderador",
         "addModerators": "Adicionar moderadores",
@@ -84,7 +84,7 @@
         "scrollToNewMessage": "Rolar para nova mensagem",
         "scrollToTheBottom": "Rolar para baixo",
         "startMeeting": "Iniciar reunião",
-        "copyLinkRoom": "Copiar Link da Sala",
+        "copyLinkRoom": "Copiar link da sala",
         "copyUserRoomLink": "Copiar Link",
         "leaveGroup": "Sair do Grupo",
         "openInChats": "Abrir nos Chats",
