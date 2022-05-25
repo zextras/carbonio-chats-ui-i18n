@@ -384,7 +384,11 @@
         "deleteRoom": "Xoá Room",
         "deleteSpace": "Xoá Space",
         "createSpace": "Tạo không gian lưu trữ",
-        "createVirtualRoom": "Tạo phòng ảo (Virtual Room)"
+        "createVirtualRoom": "Tạo phòng ảo (Virtual Room)",
+        "add": "Thêm mới",
+        "addChannel": "Thêm kênh",
+        "activateNotifications": "Thông báo hoạt động",
+        "addMembers": "Thêm thành viên"
     },
     "button": {
         "ok": "OK",
