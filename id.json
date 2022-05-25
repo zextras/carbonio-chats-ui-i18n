@@ -59,7 +59,11 @@
         "stop": "Hentikan",
         "saveToFiles": "Simpan ke File",
         "createRoom": "Buat Ruang",
-        "browse": "Telusuri"
+        "browse": "Telusuri",
+        "copyLinkVirtualRoom": "Salin Tautan Ruang Virtual",
+        "createVirtualRoom": "Buat Ruang Virtual",
+        "deleteVirtualRoom": "Hapus Ruang Virtual",
+        "joinVirtualRoom": "Gabung ke Ruang Virtual"
     },
     "creation": {
         "selectMoreParticipantsForInstantMeetings": "Pilih peserta dari daftar atau ketik alamat untuk menambahkan pengguna eksternal",
@@ -137,13 +141,15 @@
             "notificationAcceptedByModerator": "Anda telah diterima oleh moderator",
             "notificationJoinTheRoom": "Gabung ke ruang untuk berpartisipasi dalam rapat",
             "userIsWaiting": "Pengguna baru menunggu masuk",
-            "userJoinedWaitingRoom": "Tampaknya ada seseorang di ruang tunggu"
+            "userJoinedWaitingRoom": "Tampaknya ada seseorang di ruang tunggu",
+            "notificationJoinTheVirtualRoom": "Gabung ke Ruang Virtual untuk mengikuti rapat"
         },
         "invitationToPersonalRoom": "Undangan ke Ruang Pribadi dari:",
         "meeting": {
             "ended": "Rapat Berakhir"
         },
-        "startMeetingRecording": "Rekaman rapat {{conversationName}} telah dimulai"
+        "startMeetingRecording": "Rekaman rapat {{conversationName}} telah dimulai",
+        "invitationToPersonalVirtualRoom": "Undangan ke Ruang Virtual Pribadi dari:"
     },
     "tooltip": {
         "sendMessage": "Kirim pesan",
@@ -182,7 +188,10 @@
         "showChannels": "Tampilkan Channels",
         "switchToConversation": "Beralih ke percakapan",
         "switchToInfoPanel": "Beralih ke panel info",
-        "disabledCreateButton": "Periksa input untuk memastikan tidak ada kesalahan"
+        "disabledCreateButton": "Periksa input untuk memastikan tidak ada kesalahan",
+        "copyUserVirtualRoomTooltip": "Salin tautan ini dan bagikan agar orang lain mendapat akses ke Ruang Virtual Pribadi Anda",
+        "copyVirtualRoomLinkTooltip": "Salin tautan ini untuk berbagi Ruang Virtual",
+        "enterYourVirtualRoomTooltip": "Masuk ke Ruang Virtual Pribadi"
     },
     "appVersion": "Versi aplikasi",
     "button": {
@@ -210,7 +219,12 @@
         "fileUploadDescription": "Deskripsi file",
         "roomInfo": "Info Ruang",
         "roomLink": "Tautan ruang",
-        "roomName": "Nama ruang"
+        "roomName": "Nama ruang",
+        "virtualRoomName": "Nama Ruang Virtual",
+        "nameVirtualRoom": "Ruang Virtual {{conversationTitle}}",
+        "virtualRoomInfo": "Info Ruang Virtual",
+        "virtualRoomLink": "Tautan Ruang Virtual",
+        "virtualRoomLinkDescription": "Salin tautan ini dan bagikan untuk memberi orang lain akses ke Ruang Virtual ini."
     },
     "conversations": {
         "activeMeetingRooms": "Ruang Rapat Aktif",
@@ -234,7 +248,12 @@
         "mockDisplayDescription": "Pilih percakapan untuk memulai obrolan",
         "mockDisplayTitle": "Tetap terhubung!",
         "noFilteredChats": "Tidak ada obrolan yang cocok dengan filter ini.",
-        "waitingRoom": "Ruang Tunggu"
+        "waitingRoom": "Ruang Tunggu",
+        "activeVirtualRooms": "Ruang Virtual Aktif",
+        "noActiveVirtualRooms": "Tidak ada Ruang Virtual aktif untuk saat ini",
+        "noFilteredVirtualRooms": "Tidak ada Ruang Virtual atau rapat terjadwal yang cocok dengan filter ini",
+        "personalVirtualRoom": "Ruang Virtual Pribadi",
+        "virtualRooms": "Ruang Virtual"
     },
     "feedback": {
         "historyClearedSuccessfully": "Riwayat berhasil dihapus!",
@@ -251,7 +270,9 @@
         "connecting": "Menghubungkan...",
         "linkCopied": "Tautan disalin",
         "saveAttachmentSuccessfull": "Lampiran disimpan di folder yang dipilih",
-        "saveAttachmentError": "Tampaknya ada masalah saat menyimpan. Harap coba lagi."
+        "saveAttachmentError": "Tampaknya ada masalah saat menyimpan. Harap coba lagi.",
+        "resetPersonalVirtualRoomLinkSuccess": "Tautan Ruang Virtual Pribadi diatur ulang",
+        "virtualRoomLinkCopied": "Tautan Ruang Virtual disalin"
     },
     "meeting": {
         "attendeesComing": "Peserta mulai hadir",
@@ -291,7 +312,10 @@
             "audioDisabled": "Audio dinonaktifkan",
             "audioEnabled": "Audio diaktifkan",
             "cameraDisabled": "Kamera dinonaktifkan",
-            "stopMyVoice": "Hentikan suara saya"
+            "stopMyVoice": "Hentikan suara saya",
+            "micTesting": "Anda akan mendengar suara di output default, sehingga bisa menguji kualitas input dan output yang dipilih untuk rapat",
+            "playMic": "Mulai uji mikrofon",
+            "stopMic": "Hentikan uji mikrofon"
         },
         "startModal": {
             "description": "Bagaimana cara yang Anda inginkan untuk masuk ke rapat?",
@@ -299,7 +323,10 @@
             "noVideoAndAudio": "Kamera nonaktif, Mikrofon nonaktif",
             "noVideoAndNoAudio": "Kamera nonaktif, Mikrofon nonaktif",
             "videoAndAudio": "Kamera aktif, Mikrofon aktif",
-            "videoAndNoAudio": "Kamera aktif, Mikrofon nonaktif"
+            "videoAndNoAudio": "Kamera aktif, Mikrofon nonaktif",
+            "descriptionMyPersonalVirtualRoom": "Bagaimana Anda ingin masuk ke Ruang Virtual Pribadi?",
+            "descriptionPersonalVirtualRoom": "Bagaimana Anda ingin masuk ke Ruang Virtual Pribadi {{meetingTitle}}?",
+            "descriptionVirtualRoom": "Bagaimana Anda ingin masuk ke {{meetingTitle}}?"
         },
         "defaultViewModeDefaultLabel": "Dengan memilih \"Mode Default\", Rapat akan dimulai di lingkungan internal saat ini.",
         "resetMeetingUrlModalDescription": "Anda yakin ingin mengatur ulang tautan untuk \"{{conversationName}}\" terencana?",
@@ -314,7 +341,13 @@
         "recordedByOther": "{{username}} telah memulai perekaman",
         "wereToFindRecording": "Rekaman akan disimpan di pusat server video. Hubungi administrator sistem untuk detail lebih lanjut.",
         "defaultViewModeDedicatedModeLabelVirtualRoom": "Mode Khusus",
-        "defaultViewModeDedicatedModeLabelVRoom": "Mode Khusus"
+        "defaultViewModeDedicatedModeLabelVRoom": "Mode Khusus",
+        "defaultViewModeDedicatedLabelVirtualRoom": "\"Mode Khusus\" akan mengarahkan Anda ke tab terpisah di browser untuk menikmati pengalaman terbaik Ruang Virtual.",
+        "defaultViewModeDefaultLabelVirtualRoom": "Dengan memilih \"Mode Default\", Ruang Virtual akan dimulai di lingkungan internal saat ini.",
+        "successSaveMeetingRecording": "Anda akan menemukan {{registrationName}} di /{{folderName}} segera setelah tersedia",
+        "defaultViewModeTitleModalVirtualRoom": "Opsi lingkungan Ruang Virtual",
+        "errorMeetingSavingRecording": "Perekaman tidak bisa dihentikan, coba lagi",
+        "wereToFindRec": "Rekaman akan disimpan di ruang Files moderator yang menghentikannya."
     },
     "message": {
         "deletedMessage": "Pesan yang dihapus",
@@ -363,12 +396,14 @@
                 "kicked": {
                     "channel": "{{member_name}} telah dikeluarkan dari Saluran oleh {{kicked_by}}",
                     "group": "{{member_name}} telah dihapus dari Grup oleh {{kicked_by}}",
-                    "space": "{{member_name}} telah dikeluarkan dari Ruang oleh {{kicked_by}}"
+                    "space": "{{member_name}} telah dikeluarkan dari Ruang oleh {{kicked_by}}",
+                    "chat": "{{member_name}} telah dihapus dari Chat oleh {{kicked_by}}"
                 },
                 "left": {
                     "channel": "{{member_name}} telah keluar Saluran",
                     "space": "{{member_name}} telah keluar Ruang",
-                    "group": "{{member_name}} keluar dari Grup"
+                    "group": "{{member_name}} keluar dari Grup",
+                    "chat": "{{member_name}} keluar dari chat"
                 },
                 "you": {
                     "invited": "Anda telah mengundang {{member_name}}",
@@ -447,7 +482,8 @@
             "leaveChannel": "Anda yakin ingin keluar dari Channel?",
             "leaveGroup": "Anda yakin ingin keluar dari Grup?",
             "leaveSpace": "Anda yakin ingin keluar dari Space?",
-            "removeMember": "Anda yakin ingin menghapus anggota ini?"
+            "removeMember": "Anda yakin ingin menghapus anggota ini?",
+            "deleteVirtualRoom": "Anda yakin ingin menghapus Ruang Virtual?"
         },
         "forwardModal": {
             "forwardedMessageFrom": "Pesan terusan dari",
@@ -476,9 +512,15 @@
         "selectFolder": "Pilih folder",
         "stopMeetingRec": {
             "stopRecording": "Rekaman akan dihentikan. Anda bisa memulai rekaman baru kapan saja selama rapat ini.",
-            "stopMeetingTitle": "Hentikan rekaman rapat"
+            "stopMeetingTitle": "Hentikan rekaman rapat",
+            "locationWhereToSaveRecording": "Rekaman akan disimpan di \"/{{folderName}}\".",
+            "recordingName": "Nama Rekaman",
+            "stopRecordingDescription": "Anda akan menghentikan rekaman. Anda bisa memulai yang baru kapan saja.",
+            "stopRecordingTitle": "Hentikan rekaman"
         },
-        "moderatorMeetingDescription": "Anda akan memoderasi Ruang ini. Anda bisa menambahkan moderator tambahan, dan mereka akan memiliki izin yang sama."
+        "moderatorMeetingDescription": "Anda akan memoderasi Ruang ini. Anda bisa menambahkan moderator tambahan, dan mereka akan memiliki izin yang sama.",
+        "moderatorVirtualRoomDescription": "Anda akan memoderasi Ruang Virtual ini. Anda bisa menambahkan moderator tambahan dan mereka akan memiliki izin yang sama dengan Anda.",
+        "planVirtualRoomDescription": "Beri nama yang dikenal untuk Ruang Virtual ini agar peserta tahu materi diskusi rapat."
     },
     "people": {
         "manyMembers": "{{membersCount}} anggota",
@@ -497,7 +539,16 @@
             "personalRoomOptionsTitleModal": "Reset tautan Ruang Pribadi",
             "personalRoomResetButton": "Reset tautan Ruang Pribadi",
             "description": "Atur preferensi audio dan video untuk masuk ke rapat. Anda selalu dapat menyesuaikan preferensi sebelum masuk ke rapat apa pun.",
-            "personalRoomResetDescription": "Dengan mengatur ulang tautan Ruang Pribadi, semua akses yang diberikan tidak akan berfungsi lagi."
+            "personalRoomResetDescription": "Dengan mengatur ulang tautan Ruang Pribadi, semua akses yang diberikan tidak akan berfungsi lagi.",
+            "enableEchoCancellation": "Pengurang gema",
+            "enableNoiseSuppression": "Peredam bising",
+            "personalVirtualRoomOptionsTitleModal": "Tautan Ruang Virtual Pribadi diatur ulang",
+            "personalVirtualRoomResetButton": "Atur ulang tautan Ruang Virtual Pribadi",
+            "virtualRooms": "Ruang Virtual",
+            "voiceProcessing": "Pemrosesan Suara",
+            "personalVirtualRoomResetDescription": "Dengan mengatur ulang tautan Ruang Virtual Pribadi, semua akses yang telah diberikan tidak akan berfungsi lagi.",
+            "voiceProcessingDescription": "Anda akan mendengar suara di output default, sehingga bisa menguji kualitas input dan output yang dipilih untuk rapat",
+            "descriptionVirtualRoom": "Atur preferensi audio dan video untuk masuk ke Ruang Virtual. Anda selalu dapat menyesuaikan preferensi sebelum masuk ke Ruang Virtual apa pun."
         },
         "notification": {
             "desktop": "Notifikasi Desktop",
@@ -530,7 +581,9 @@
         },
         "resetPersonalRoomLinkSuccess": "Tautan Ruang Pribadi diatur ulang",
         "recordingMeeting": {
-            "destinationFolder": "Folder tujuan"
+            "destinationFolder": "Folder tujuan",
+            "recording": "Rekaman",
+            "descriptionWhereToSaveRegistration": "Atur folder tujuan untuk menyimpan rekaman rapat."
         }
     },
     "status": {
@@ -567,7 +620,10 @@
             "userLeftLookForwardToSee": "Kami menantikan Anda kembali",
             "userLeftReturnToWaitingRoom": "Anda bisa kembali ke ruang tunggu kapan saja dari tautan Ruang",
             "userLeftWaitingRoom": "Anda keluar dari ruang tunggu"
-        }
+        },
+        "nobodyInTheVirtualRoom": "Tampaknya tak ada seorang pun di Ruang Virtual ini",
+        "virtualRoomIsEmpty": "Ruang Virtual ini kosong",
+        "youAreEnteringVirtualRoom": "Anda akan masuk ke Ruang Virtual"
     },
     "label": {
         "app_name": "Chats"
@@ -592,5 +648,9 @@
         "close": {
             "tooltip": "Tutup"
         }
-    }
+    },
+    "enterTheVirtualRoom": "Masuk ke Ruang Virtual",
+    "organizeYourVirtualMeeting": "Selenggarakan rapat sendiri atau gabung ke Ruang Virtual rekan kerja",
+    "organizeYourVMeeting": "Selenggarakan rapat sendiri atau gabung ke Ruang Virtual rekan kerja",
+    "personalVirtualRoomLabel": "Ruang Virtual Pribadi {{userName}}"
 }
