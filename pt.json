@@ -213,11 +213,11 @@
             "cinemaView": "Vista ampliada",
             "closeCall": "Encerrar esta chamada",
             "disableAudio": "Desabilitar audio",
-            "disableFullScreen": "Sair da tela cheia",
-            "disableScreensharing": "Desabilitar compartilhamento de tela",
+            "disableFullScreen": "Sair do ecrã cheio",
+            "disableScreensharing": "Desabilitar partilha de ecrã",
             "disableVideo": "Desabilitar video",
             "enableAudio": "Habilitar Audio",
-            "enableScreenSharing": "Habilitar compartilhamento de tela",
+            "enableScreenSharing": "Habilitar partilha de ecrã",
             "enableVideo": "Habilitar Video",
             "gridView": "Vista de grade",
             "hideChat": "Ocultar conversa",
@@ -235,7 +235,7 @@
                 "cameraOff": "Sua câmera está desligada"
             },
             "unpinVideo": "Desenganchar video",
-            "enableFullScreen": "Tela cheia",
+            "enableFullScreen": "Ecrã cheio",
             "muteUserForAllDescription": "Ao silenciar o usuário, todos os participantes não ouvirão mais ele. Somente o usuário silenciado pode ser reativado. Proceder?",
             "cameraEnabled": "Câmera habilitada",
             "audioDisabled": "Áudio desabilitado",
@@ -266,7 +266,7 @@
         "wereToFindRecording": "A gravação será salva no servidor de vídeo. Entre em contato com seu administrador do sistema para mais informações."
     },
     "message": {
-        "deletedMessage": "Mensagem deletada",
+        "deletedMessage": "Mensagem apagada",
         "edited": "editada",
         "forwarded": "encaminhada",
         "now": "Agora",
@@ -493,7 +493,7 @@
         "offline": "Desconectado",
         "online": "Online",
         "userStatus": "Status",
-        "areWriting": "está escrevendo…",
+        "areWriting": "estão a escrever…",
         "isWriting": "está escrevendo…",
         "waitingToEnter": "Aguardando para entrar",
         "externalGuest": "Convidado externo",
@@ -536,7 +536,8 @@
         "enterMeetingRoom": "Entrar na Sala de Reunião",
         "messageComposer": "Autor da mensagem",
         "showChannels": "Mostrar Canais",
-        "disabledCreateButton": "Verifique os dados inseridos para garantir que não existem erros"
+        "disabledCreateButton": "Verifique os dados inseridos para garantir que não existem erros",
+        "copyVirtualRoomLinkTooltip": "Copie este link para partilhar a Sala Virtual"
     },
     "general": {
         "goToTeam": "Ir para Team",
