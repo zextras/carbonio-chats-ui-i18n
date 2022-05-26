@@ -156,12 +156,14 @@
                 "kicked": {
                     "channel": "{{member_name}} ได้ถูกลบออกจากช่องโดย {{kicked_by}}",
                     "group": "{{member_name}} ถูกลบออกจากกลุ่มโดย {{kicked_by}}",
-                    "space": "{{member_name}} ได้ถูกลบออกจากห้องประชุมโดย {{kicked_by}}"
+                    "space": "{{member_name}} ได้ถูกลบออกจากห้องประชุมโดย {{kicked_by}}",
+                    "chat": "{{member_name}} ได้ถูกลบออกจากแชทโดย {{kicked_by}}"
                 },
                 "left": {
                     "channel": "{{member_name}} ได้ออกจากช่องแล้ว",
                     "space": "{{member_name}} ได้ออกจากห้องประชุมแล้ว",
-                    "group": "{{member_name}} ได้ออกจากกลุ่มแล้ว"
+                    "group": "{{member_name}} ได้ออกจากกลุ่มแล้ว",
+                    "chat": "{{member_name}} ได้ออกจากแชทแล้ว"
                 },
                 "you": {
                     "invited": "คุณได้เชิญ {{member_name}}",
@@ -252,7 +254,11 @@
         "stop": "หยุด",
         "saveToFiles": "บันทึกลงในไฟล์",
         "createRoom": "สร้างห้อง",
-        "browse": "ดูข้อมูล"
+        "browse": "ดูข้อมูล",
+        "copyLinkVirtualRoom": "คัดลอกลิงก์ของห้องเสมือนจริง",
+        "createVirtualRoom": "สร้างห้องเสมือนจริง",
+        "deleteVirtualRoom": "ลบห้องเสมือนจริง",
+        "joinVirtualRoom": "เข้าร่วมห้องเสมือนจริง"
     },
     "appVersion": "เวอร์ชันของแอป",
     "button": {
@@ -280,7 +286,12 @@
         "roomLink": "ลิงก์ของห้อง",
         "fileUploadDescription": "คำอธิบายของไฟล์",
         "roomInfo": "ข้อมูลห้อง",
-        "roomName": "ชื่อห้อง"
+        "roomName": "ชื่อห้อง",
+        "virtualRoomInfo": "ข้อมูลห้องเสมือนจริง",
+        "virtualRoomLink": "ลิงก์ของห้องเสมือนจริง",
+        "virtualRoomLinkDescription": "คัดลอกลิงก์นี้และแชร์เพื่อให้ผู้อื่นเข้าถึงห้องเสมือนจริงนี้ได้",
+        "nameVirtualRoom": "ห้องเสมือนจริงของ {{conversationTitle}}",
+        "virtualRoomName": "ชื่อของห้องเสมือนจริง"
     },
     "conversations": {
         "activeMeetingRooms": "ห้องประชุมที่ใช้งานอยู่",
@@ -304,7 +315,12 @@
         "filterChatList": "ตัวกรองรายการแชท",
         "mockDisplayDescription": "เลือกการสนทนาเพื่อเริ่มการแชท",
         "mockDisplayTitle": "เรามาติดต่อกันเถอะ!",
-        "noFilteredChats": "ไม่มีแชทที่ตรงกับตัวกรองนี้"
+        "noFilteredChats": "ไม่มีแชทที่ตรงกับตัวกรองนี้",
+        "noFilteredVirtualRooms": "ไม่มีห้องเสมือนจริงหรือการประชุมที่วางแผนไว้ที่ตรงกับตัวกรองนี้",
+        "activeVirtualRooms": "ห้องเสมือนที่ใช้งานอยู่",
+        "noActiveVirtualRooms": "ไม่มีห้องเสมือนจริงที่ใช้งานอยู่ในขณะนี้",
+        "personalVirtualRoom": "ห้องเสมือนจริงส่วนตัว",
+        "virtualRooms": "ห้องเสมือนจริง"
     },
     "feedback": {
         "historyClearedSuccessfully": "ล้างประวัติสำเร็จแล้ว!",
@@ -321,7 +337,9 @@
         "linkCopied": "คัดลอกลิงก์แล้ว",
         "saveAttachmentSuccessfull": "บันทึกไฟล์แนบในโฟลเดอร์ที่เลือก",
         "connecting": "กำลังเชื่อมต่อ…",
-        "saveAttachmentError": "ดูเหมือนว่าเกิดปัญหาขึ้นในระหว่างการบันทึก โปรดลองใหม่อีกครั้ง"
+        "saveAttachmentError": "ดูเหมือนว่าเกิดปัญหาขึ้นในระหว่างการบันทึก โปรดลองใหม่อีกครั้ง",
+        "virtualRoomLinkCopied": "คัดลอกลิงก์ของห้องเสมือนจริงแล้ว",
+        "resetPersonalVirtualRoomLinkSuccess": "ลิงก์ของห้องเสมือนจริงส่วนตัวถูกรีเซ็ตแล้ว"
     },
     "meeting": {
         "attendeesComing": "ผู้เข้าร่วมงานกำลังมา",
@@ -361,7 +379,10 @@
             "stopMyVoice": "หยุดเสียงฉัน",
             "playMyVoice": "เล่นเสียงของฉัน",
             "audioEnabled": "เปิดการใช้งานเสียง",
-            "cameraDisabled": "ปิดใช้งานกล้องถ่ายรูป"
+            "cameraDisabled": "ปิดใช้งานกล้องถ่ายรูป",
+            "micTesting": "คุณจะได้ยินเสียงของคุณในเอาต์พุตเริ่มต้น ซึ่งช่วยให้คุณทดสอบคุณภาพของอินพุตและเอาต์พุตที่เลือกสำหรับการประชุมได้",
+            "playMic": "เริ่มการทดสอบไมโครโฟน",
+            "stopMic": "เริ่มการทดสอบไมโครโฟน"
         },
         "startModal": {
             "description": "คุณต้องการเข้าร่วมการประชุมอย่างไร?",
@@ -369,7 +390,10 @@
             "noVideoAndAudio": "ปิดกล้อง, เปิดไมโครโฟน",
             "noVideoAndNoAudio": "ปิดกล้อง, ปิดไมโครโฟน",
             "videoAndAudio": "เปิดกล้อง, เปิดไมโครโฟน",
-            "videoAndNoAudio": "เปิดกล้อง, ปิดไมโครโฟน"
+            "videoAndNoAudio": "เปิดกล้อง, ปิดไมโครโฟน",
+            "descriptionMyPersonalVirtualRoom": "คุณต้องการเข้าสู่ห้องเสมือนจริงส่วนตัวของคุณอย่างไร?",
+            "descriptionPersonalVirtualRoom": "คุณต้องการเข้าสู่ห้องเสมือนจริงส่วนตัวของ {{meeting Title}} อย่างไร?",
+            "descriptionVirtualRoom": "คุณต้องการเข้าสู่ {{meetingTitle}} อย่างไร?"
         },
         "defaultViewModeDedicatedLabel": "\"โหมดเฉพาะ\" จะนำคุณไปยังแท็บที่แยกต่างหาก เพื่อเพลิดเพลินไปกับประสบการณ์การประชุมที่ดีที่สุด",
         "defaultViewModeDefaultLabel": "เมื่อเลือก \"โหมดเริ่มต้น\" การประชุมจะเริ่มในสภาพแวดล้อมภายในที่เป็นปัจจุบัน",
@@ -384,7 +408,13 @@
         "thisMeetingIsBeingRecorded": "กำลังบันทึกการประชุมนี้อยู่",
         "wereToFindRecording": "การบันทึกจะถูกบันทึกไว้ในหน้าแรกของเซิร์ฟเวอร์วิดีโอ สำหรับรายละเอียดเพิ่มเติมโปรดติดต่อผู้ดูแลระบบของคุณ",
         "defaultViewModeDedicatedModeLabelVirtualRoom": "โหมดเฉพาะ",
-        "defaultViewModeDedicatedModeLabelVRoom": "โหมดเฉพาะ"
+        "defaultViewModeDedicatedModeLabelVRoom": "โหมดเฉพาะ",
+        "defaultViewModeDedicatedLabelVirtualRoom": "\"โหมดเฉพาะ\" จะนำคุณไปยังแท็บแยกของเบราว์เซอร์ของคุณ เพื่อเพลิดเพลินกับประสบการณ์ห้องเสมือนจริงที่ดีที่สุด",
+        "defaultViewModeDefaultLabelVirtualRoom": "เมื่อเลือก \"โหมดเริ่มต้น\" ห้องเสมือนจริงจะเริ่มในสภาพแวดล้อมภายในที่เป็นปัจจุบัน",
+        "successSaveMeetingRecording": "คุณจะพบ {{registrationName}} ใน /{{folderName}} ได้ทันทีที่สามารถใช้งานได้",
+        "defaultViewModeTitleModalVirtualRoom": "ตัวเลือกสภาพแวดล้อมของห้องเสมือนจริง",
+        "errorMeetingSavingRecording": "ไม่สามารถหยุดการบันทึกได้ โปรดลองใหม่อีกครั้ง",
+        "wereToFindRec": "การบันทึกจะถูกเก็บบันทึกไว้ในพื้นที่ไฟล์ของผู้ดูแลที่ทำการหยุดการบันทึก"
     },
     "modal": {
         "clearHistoryDescription": "บทสนทนานี้ว่างเปล่าและได้ย้ายไปที่ด้านล่างของรายการการสนทนาเพื่อให้บทสนทนาอื่น ๆ ที่มีการใช้งานอยู่แสดงที่ด้านบน",
@@ -398,7 +428,8 @@
             "deleteRoom": "คุณแน่ใจหรือไม่ว่าต้องการลบห้องนี้?",
             "deleteSpace": "คุณแน่ใจหรือไม่ว่าต้องการลบห้องประชุมนี้?",
             "leaveChannel": "คุณแน่ใจหรือไม่ว่าต้องการออกจากช่องนี้?",
-            "removeMember": "คุณแน่ใจหรือไม่ว่าต้องการลบสมาชิกคนนี้ออก?"
+            "removeMember": "คุณแน่ใจหรือไม่ว่าต้องการลบสมาชิกคนนี้ออก?",
+            "deleteVirtualRoom": "คุณแน่ใจหรือไม่ว่าต้องการลบห้องเสมือนจริงนี้?"
         },
         "forwardModal": {
             "forwardedMessageFrom": "ส่งต่อข้อความจาก",
@@ -428,9 +459,15 @@
         "selectFolder": "เลือกโฟลเดอร์",
         "stopMeetingRec": {
             "stopMeetingTitle": "หยุดบันทึกการประชุม",
-            "stopRecording": "การบันทึกจะหยุดลง ในระหว่างการประชุมนี้คุณสามารถเริ่มบันทึกใหม่ได้ทุกเมื่อ"
+            "stopRecording": "การบันทึกจะหยุดลง ในระหว่างการประชุมนี้คุณสามารถเริ่มบันทึกใหม่ได้ทุกเมื่อ",
+            "locationWhereToSaveRecording": "การบันทึกจะถูกเก็บบันทึกไว้ใน \"/{{folderName}}\"",
+            "recordingName": "ชื่อการบันทึก",
+            "stopRecordingDescription": "คุณจะหยุดการบันทึก คุณสามารถเริ่มต้นใหม่ได้ตลอดเวลา",
+            "stopRecordingTitle": "หยุดการบันทึก"
         },
-        "moderatorMeetingDescription": "คุณจะดูแลห้องนี้ คุณสามารถเพิ่มผู้ดูแลเพิ่มเติมได้ จากนั้นพวกเขาจะมีสิทธิ์เช่นเดียวกับคุณ"
+        "moderatorMeetingDescription": "คุณจะดูแลห้องนี้ คุณสามารถเพิ่มผู้ดูแลเพิ่มเติมได้ จากนั้นพวกเขาจะมีสิทธิ์เช่นเดียวกับคุณ",
+        "moderatorVirtualRoomDescription": "คุณจะดูแลห้องเสมือนจริงนี้ คุณสามารถเพิ่มผู้ดูแลเพิ่มเติมได้ จากนั้นพวกเขาจะมีสิทธิ์เช่นเดียวกับคุณ",
+        "planVirtualRoomDescription": "ตั้งชื่อห้องเสมือนจริงนี้ให้เป็นที่รู้จัก เพื่อให้ผู้เข้าร่วมของคุณรู้ว่าพวกเขาควรคาดหวังอะไรเกี่ยวกับการประชุม"
     },
     "notification": {
         "answer": "รับสาย",
@@ -442,13 +479,15 @@
             "descriptionWaitingLabel": "คุณกำลังรอให้ผู้ดูแลของ {{conversationName}} ยอมรับ",
             "notificationAcceptedByModerator": "คุณได้รับการยอมรับจากผู้ดูแล",
             "notificationJoinTheRoom": "เข้าร่วมห้องเพื่อร่วมการประชุม",
-            "userJoinedWaitingRoom": "ดูเหมือนว่าจะมีใครบางคนรออยู่ในห้องคัดกรอง"
+            "userJoinedWaitingRoom": "ดูเหมือนว่าจะมีใครบางคนรออยู่ในห้องคัดกรอง",
+            "notificationJoinTheVirtualRoom": "เข้าร่วมห้องเสมือนจริงเพื่อร่วมการประชุม"
         },
         "invitationToPersonalRoom": "คำเชิญเข้าห้องส่วนตัวจาก:",
         "meeting": {
             "ended": "สิ้นสุดการประชุมแล้ว"
         },
-        "startMeetingRecording": "เริ่มบันทึกการประชุมของ {{conversationName}} แล้ว"
+        "startMeetingRecording": "เริ่มบันทึกการประชุมของ {{conversationName}} แล้ว",
+        "invitationToPersonalVirtualRoom": "คำเชิญเข้าห้องเสมือนจริงส่วนตัวจาก:"
     },
     "settings": {
         "meeting": {
@@ -458,7 +497,16 @@
             "personalRoomOptionsTitleModal": "รีเซ็ตลิงก์ของห้องส่วนตัว",
             "personalRoomResetButton": "รีเซ็ตลิงก์ของห้องส่วนตัว",
             "description": "ตั้งค่าเสียงและวิดีโอของคุณเพื่อเข้าสู่การประชุม คุณสามารถปรับการตั้งค่าของคุณก่อนเข้าร่วมการประชุมใด ๆ",
-            "personalRoomResetDescription": "การรีเซ็ตลิงก์ของห้องส่วนตัวจะทำให้การเข้าถึงที่ให้ไว้ก่อนหน้านี้ทั้งหมดไม่ทำงานอีกต่อไป"
+            "personalRoomResetDescription": "การรีเซ็ตลิงก์ของห้องส่วนตัวจะทำให้การเข้าถึงที่ให้ไว้ก่อนหน้านี้ทั้งหมดไม่ทำงานอีกต่อไป",
+            "enableEchoCancellation": "การยกเลิกเสียงสะท้อน",
+            "enableNoiseSuppression": "ลดเสียงรบกวน",
+            "personalVirtualRoomOptionsTitleModal": "รีเซ็ตลิงก์ของห้องเสมือนจริงส่วนตัว",
+            "personalVirtualRoomResetButton": "รีเซ็ตลิงก์ของห้องเสมือนจริงส่วนตัว",
+            "virtualRooms": "ห้องเสมือนจริง",
+            "voiceProcessing": "การประมวลผลเสียง",
+            "voiceProcessingDescription": "คุณจะได้ยินเสียงของคุณในเอาต์พุตเริ่มต้น ซึ่งช่วยให้คุณทดสอบคุณภาพของอินพุตและเอาต์พุตที่เลือกสำหรับการประชุมได้",
+            "personalVirtualRoomResetDescription": "การรีเซ็ตลิงก์ของห้องเสมือนจริงส่วนตัวจะทำให้การเข้าถึงที่ให้ไว้ก่อนหน้านี้ทั้งหมดไม่ทำงานอีกต่อไป",
+            "descriptionVirtualRoom": "ตั้งค่าเสียงและวิดีโอของคุณเพื่อเข้าสู่ห้องเสมือนจริง คุณสามารถปรับการตั้งค่าของคุณก่อนเข้าสู่ห้องเสมือนจริงทุกห้อง"
         },
         "notification": {
             "desktop": "การแจ้งเตือนของเดสก์ท็อป",
@@ -491,7 +539,9 @@
         },
         "resetPersonalRoomLinkSuccess": "ลิงก์ของห้องส่วนตัวถูกรีเซ็ตแล้ว",
         "recordingMeeting": {
-            "destinationFolder": "โฟลเดอร์ปลายทาง"
+            "destinationFolder": "โฟลเดอร์ปลายทาง",
+            "descriptionWhereToSaveRegistration": "ตั้งค่าโฟลเดอร์ปลายทางเพื่อทำการบันทึกบันทึกการประชุม",
+            "recording": "การบันทึก"
         }
     },
     "status": {
@@ -542,7 +592,10 @@
         "editInfo": "แก้ไขข้อมูล",
         "enterMeetingRoom": "เข้าห้องประชุม",
         "switchToConversation": "เปลี่ยนเป็นการสนทนา",
-        "disabledCreateButton": "ตรวจสอบอินพุตของคุณเพื่อให้แน่ใจว่าไม่มีข้อผิดพลาดใดๆ"
+        "disabledCreateButton": "ตรวจสอบอินพุตของคุณเพื่อให้แน่ใจว่าไม่มีข้อผิดพลาดใดๆ",
+        "copyVirtualRoomLinkTooltip": "คัดลอกลิงก์นี้เพื่อแชร์ห้องเสมือนจริง",
+        "copyUserVirtualRoomTooltip": "คัดลอกลิงก์นี้และแชร์เพื่อให้ผู้อื่นเข้าถึงห้องเสมือนจริงส่วนตัวของคุณได้",
+        "enterYourVirtualRoomTooltip": "เข้าห้องเสมือนจริงส่วนตัวของคุณ"
     },
     "general": {
         "browserNotSupported": "ไม่สามารถรองรับเวอร์ชันของเบราว์เซอร์ของคุณได้ ขอแนะนำให้อัปเดตเบราว์เซอร์เพื่อการใช้งานคุณสมบัติจากฟีเจอร์ทั้งหมด!",
@@ -567,7 +620,10 @@
             "userLeftLookForwardToSee": "เราหวังว่าจะได้พบคุณอีกครั้ง",
             "userLeftReturnToWaitingRoom": "คุณสามารถกลับมาที่ห้องคัดกรองได้ตลอดเวลาจากลิงก์ของห้อง",
             "userLeftWaitingRoom": "คุณออกจากห้องคัดกรอง"
-        }
+        },
+        "youAreEnteringVirtualRoom": "คุณกำลังจะเข้าสู่ห้องเสมือนจริง",
+        "nobodyInTheVirtualRoom": "ดูเหมือนว่าไม่มีใครอยู่ในห้องเสมือนจริงนี้",
+        "virtualRoomIsEmpty": "ห้องเสมือนจริงนี้ว่างเปล่า"
     },
     "label": {
         "app_name": "Chats"
@@ -592,5 +648,9 @@
         "close": {
             "tooltip": "ปิด"
         }
-    }
+    },
+    "organizeYourVirtualMeeting": "จัดการประชุมของคุณเองหรือเข้าร่วมห้องเสมือนจริงของเพื่อนร่วมงานของคุณ",
+    "enterTheVirtualRoom": "เข้าห้องเสมือนจริง",
+    "organizeYourVMeeting": "จัดการประชุมของคุณเองหรือเข้าร่วมห้องเสมือนจริงของเพื่อนร่วมงานของคุณ",
+    "personalVirtualRoomLabel": "ห้องเสมือนจริงส่วนตัวของ {{userName}}"
 }
