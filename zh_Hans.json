@@ -59,7 +59,11 @@
         "stop": "停止",
         "saveToFiles": "保存至文件",
         "createRoom": "创建房间",
-        "browse": "浏览"
+        "browse": "浏览",
+        "copyLinkVirtualRoom": "复制虚拟房间链接",
+        "createVirtualRoom": "创建虚拟房间",
+        "deleteVirtualRoom": "删除虚拟房间",
+        "joinVirtualRoom": "加入虚拟房间"
     },
     "conversations": {
         "instantMeetings": "即时会议",
@@ -83,7 +87,12 @@
         "mockDisplayTitle": "让我们保持联系！",
         "noActiveChats": "当前没有活动的聊天。创建新聊天或切换标签页。",
         "noFilteredChats": "没有符合此过滤条件的聊天。",
-        "waitingRoom": "等待房间"
+        "waitingRoom": "等待房间",
+        "virtualRooms": "虚拟房间",
+        "noActiveVirtualRooms": "目前没有活动的虚拟房间",
+        "noFilteredVirtualRooms": "没有与此筛选条件匹配的虚拟房间或规划会议",
+        "personalVirtualRoom": "个人虚拟房间",
+        "activeVirtualRooms": "活动虚拟房间"
     },
     "message": {
         "service": {
@@ -175,12 +184,14 @@
                 "kicked": {
                     "channel": "{{member_name}}已被{{kicked_by}}从频道中移除",
                     "group": "{{member_name}}已被{{kicked_by}}从群组中移除",
-                    "space": "{{member_name}}已被{{kicked_by}}从空间中移除"
+                    "space": "{{member_name}}已被{{kicked_by}}从空间中移除",
+                    "chat": "{{member_name}}已被{{kicked_by}}从聊天中移除"
                 },
                 "left": {
                     "channel": "{{member_name}}已离开频道",
                     "space": "{{member_name}}已离开空间",
-                    "group": "{{member_name}}已离开群组"
+                    "group": "{{member_name}}已离开群组",
+                    "chat": "{{member_name}}已离开聊天"
                 },
                 "you": {
                     "invited": "您已邀请{{member_name}}",
@@ -240,7 +251,10 @@
         "showChannels": "显示频道",
         "switchToConversation": "切换至会话",
         "switchToInfoPanel": "切换至信息面板",
-        "disabledCreateButton": "检查您的输入以确保其准确无误"
+        "disabledCreateButton": "检查您的输入以确保其准确无误",
+        "enterYourVirtualRoomTooltip": "进入您的个人房间",
+        "copyVirtualRoomLinkTooltip": "复制链接以共享虚拟房间",
+        "copyUserVirtualRoomTooltip": "复制此链接并将其共享，以便他人进入您的个人虚拟房间"
     },
     "appVersion": "应用版本",
     "button": {
@@ -268,7 +282,12 @@
         "fileUploadDescription": "文件描述",
         "roomInfo": "房间信息",
         "roomLink": "房间链接",
-        "roomName": "房间名称"
+        "roomName": "房间名称",
+        "nameVirtualRoom": "{{conversationTitle}}的虚拟房间",
+        "virtualRoomInfo": "虚拟房间信息",
+        "virtualRoomLink": "虚拟房间链接",
+        "virtualRoomLinkDescription": "复制此链接并将其共享，以便他人进入此虚拟房间。",
+        "virtualRoomName": "虚拟房间名称"
     },
     "creation": {
         "attendeeAdded": "已在列表中添加与会者",
@@ -351,7 +370,9 @@
         "connecting": "正在连接…",
         "linkCopied": "链接已复制",
         "saveAttachmentSuccessfull": "附件已保存在所选文件夹中",
-        "saveAttachmentError": "保存时似乎出现错误，请重试"
+        "saveAttachmentError": "保存时似乎出现错误，请重试",
+        "virtualRoomLinkCopied": "虚拟房间链接已复制",
+        "resetPersonalVirtualRoomLinkSuccess": "个人虚拟房间链接已重置"
     },
     "meeting": {
         "attendeesComing": "参与者正在前来",
@@ -391,7 +412,10 @@
             "audioDisabled": "音频已禁用",
             "audioEnabled": "音频已启用",
             "cameraDisabled": "摄像头已禁用",
-            "playMyVoice": "播放我的声音"
+            "playMyVoice": "播放我的声音",
+            "micTesting": "您将在默认输出中听到自己的声音，便于测试输入质量并为会议选择输出",
+            "playMic": "启动麦克风测试",
+            "stopMic": "停止麦克风测试"
         },
         "startModal": {
             "description": "您想如何进入该会议？",
@@ -399,7 +423,10 @@
             "noVideoAndAudio": "摄像头已关闭，麦克风已打开",
             "noVideoAndNoAudio": "摄像头已关闭，麦克风已关闭",
             "videoAndAudio": "摄像头已打开，麦克风已打开",
-            "videoAndNoAudio": "摄像头已打开，麦克风已关闭"
+            "videoAndNoAudio": "摄像头已打开，麦克风已关闭",
+            "descriptionMyPersonalVirtualRoom": "您想如何进入个人虚拟房间？",
+            "descriptionPersonalVirtualRoom": "您想如何进入{{meetingTitle}}的个人虚拟房间？",
+            "descriptionVirtualRoom": "您想如何进入{{meetingTitle}}？"
         },
         "defaultViewModeDedicatedLabel": "“专用模式”会将您重定向至浏览器的单独标签页中，便于您享受最佳会议体验。",
         "defaultViewModeDefaultLabel": "选择“默认模式”后，会议将在当前内部环境中开始。",
@@ -414,7 +441,13 @@
         "wereToFindRecording": "录制文件将保存在视频服务器主页，请与系统管理员联系以了解更多详情。",
         "errorMeetingRecording": "无法开始注册，请联系您的系统管理员。",
         "defaultViewModeDedicatedModeLabelVRoom": "专用模式",
-        "defaultViewModeDedicatedModeLabelVirtualRoom": "专用模式"
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "专用模式",
+        "defaultViewModeTitleModalVirtualRoom": "虚拟房间环境选项",
+        "defaultViewModeDedicatedLabelVirtualRoom": "“专用模式”会将您重定向至浏览器的单独标签页中，便于您享受最佳虚拟房间体验。",
+        "defaultViewModeDefaultLabelVirtualRoom": "选择“默认模式”后，虚拟将在当前内部环境中开始。",
+        "errorMeetingSavingRecording": "无法停止录制，请重试",
+        "successSaveMeetingRecording": "您将在 {{registrationName}} 可用时于 /{{folderName}} 中立即找到它",
+        "wereToFindRec": "录制将被保存在将其停止的主持人的文件空间中。"
     },
     "modal": {
         "addModeratorDescription": "选择一个或多个用户以将其提权为房间主持人",
@@ -429,7 +462,8 @@
             "leaveChannel": "确定要离开频道吗？",
             "leaveGroup": "确定要离开群组吗？",
             "leaveSpace": "确定要离开空间吗？",
-            "removeMember": "确定要移除该成员吗？"
+            "removeMember": "确定要移除该成员吗？",
+            "deleteVirtualRoom": "确定要删除虚拟房间吗？"
         },
         "forwardModal": {
             "forwardedMessageFrom": "消息已转发自",
@@ -458,9 +492,15 @@
         "selectFolder": "选择文件夹",
         "stopMeetingRec": {
             "stopMeetingTitle": "停止会议录制",
-            "stopRecording": "录制将被停止。您可在会议期间随时开始新录制。"
+            "stopRecording": "录制将被停止。您可在会议期间随时开始新录制。",
+            "locationWhereToSaveRecording": "录制将被保存在“/{{folderName}}”中。",
+            "stopRecordingDescription": "您即将停止录制。您可随时开始新录制。",
+            "stopRecordingTitle": "停止录制",
+            "recordingName": "录制名称"
         },
-        "moderatorMeetingDescription": "您将主持本房间。您可添加额外主持人，其将有与您相同的权限。"
+        "moderatorMeetingDescription": "您将主持本房间。您可添加额外主持人，其将有与您相同的权限。",
+        "moderatorVirtualRoomDescription": "您将主持本虚拟房间。您可添加额外主持人，其将有与您相同的权限。",
+        "planVirtualRoomDescription": "给这个虚拟房间取一个有辨识度的名字，以便让与会者知道会议的主题是什么。"
     },
     "notification": {
         "answer": "答复",
@@ -473,12 +513,14 @@
             "notificationAcceptedByModerator": "主持人已同意您加入",
             "notificationJoinTheRoom": "加入房间，参与会议",
             "userIsWaiting": "新用户正在等待进入",
-            "userJoinedWaitingRoom": "等待房间中似乎有用户"
+            "userJoinedWaitingRoom": "等待房间中似乎有用户",
+            "notificationJoinTheVirtualRoom": "加入虚拟房间，参与会议"
         },
         "meeting": {
             "ended": "会议已结束"
         },
-        "startMeetingRecording": "{{conversationName}} 会议的录制已开始"
+        "startMeetingRecording": "{{conversationName}} 会议的录制已开始",
+        "invitationToPersonalVirtualRoom": "个人虚拟房间邀请，来自："
     },
     "people": {
         "manyMembers": "{{membersCount}}名成员",
@@ -497,7 +539,16 @@
             "personalRoomOptionsTitleModal": "个人房间链接重置",
             "personalRoomResetButton": "重置个人房间链接",
             "description": "设置音频和视频首选项以进入会议。在进入任意会议之前您都可以随时自定义首选项。",
-            "personalRoomResetDescription": "重置个人房间链接后所有之前提供的访问权限将不再有效。"
+            "personalRoomResetDescription": "重置个人房间链接后所有之前提供的访问权限将不再有效。",
+            "enableEchoCancellation": "回声消除",
+            "personalVirtualRoomResetDescription": "重置个人虚拟房间链接后所有之前提供的访问权限将不再有效。",
+            "enableNoiseSuppression": "噪音抑制",
+            "personalVirtualRoomOptionsTitleModal": "个人虚拟房间链接重置",
+            "personalVirtualRoomResetButton": "重置个人虚拟房间链接",
+            "virtualRooms": "虚拟房间",
+            "voiceProcessing": "语音处理",
+            "voiceProcessingDescription": "您将在默认输出中听到自己的声音，便于测试输入质量并为会议选择输出",
+            "descriptionVirtualRoom": "设置您的音频和视频首选项以进入虚拟房间。您将可在每次进入虚拟房间前自定义首选项。"
         },
         "notification": {
             "desktop": "桌面通知",
@@ -530,7 +581,9 @@
         },
         "resetPersonalRoomLinkSuccess": "个人房间链接已重置",
         "recordingMeeting": {
-            "destinationFolder": "目标文件夹"
+            "destinationFolder": "目标文件夹",
+            "descriptionWhereToSaveRegistration": "设置目标文件夹以保存会议录制文件。",
+            "recording": "录制"
         }
     },
     "status": {
@@ -566,7 +619,10 @@
             "userLeftLookForwardToSee": "我们期待着再次与您见面",
             "userLeftReturnToWaitingRoom": "您可以随时使用房间链接返回等待房间",
             "userLeftWaitingRoom": "您已离开等待房间"
-        }
+        },
+        "nobodyInTheVirtualRoom": "似乎虚拟房间中没有人",
+        "virtualRoomIsEmpty": "此虚拟房间为空",
+        "youAreEnteringVirtualRoom": "您即将进入虚拟房间"
     },
     "label": {
         "app_name": "聊天"
@@ -592,5 +648,9 @@
         "close": {
             "tooltip": "关闭"
         }
-    }
+    },
+    "enterTheVirtualRoom": "进入虚拟房间",
+    "organizeYourVMeeting": "组织您自己的会议或加入同事的虚拟房间",
+    "organizeYourVirtualMeeting": "组织您自己的会议或加入同事的虚拟房间",
+    "personalVirtualRoomLabel": "{{userName}} 的个人虚拟房间"
 }
