@@ -59,7 +59,11 @@
         "stop": "Stop",
         "saveToFiles": "Speichern unter Dateien",
         "createRoom": "Raum erstellen",
-        "browse": "Durchsuchen"
+        "browse": "Durchsuchen",
+        "joinVirtualRoom": "Virtuellen Raum betreten",
+        "copyLinkVirtualRoom": "Link des virtuellen Raums kopieren",
+        "createVirtualRoom": "Virtuellen Raum erstellen",
+        "deleteVirtualRoom": "Virtuellen Raum löschen"
     },
     "creation": {
         "group": {
@@ -142,7 +146,9 @@
         "connecting": "Verbinden …",
         "linkCopied": "Link kopiert",
         "saveAttachmentError": "Es scheint ein Problem beim Speichern zu geben, bitte versuchen Sie es erneut",
-        "saveAttachmentSuccessfull": "Im ausgewählten Ordner gespeicherte Anhänge"
+        "saveAttachmentSuccessfull": "Im ausgewählten Ordner gespeicherte Anhänge",
+        "resetPersonalVirtualRoomLinkSuccess": "Der Link des persönlichen Virtuellen Raums wurde zurückgesetzt",
+        "virtualRoomLinkCopied": "Link des Virtuellen Raums kopiert"
     },
     "message": {
         "service": {
@@ -188,12 +194,14 @@
                 "kicked": {
                     "channel": "{{member_name}} wurde von {{kicked_by}} aus dem Kanal entfernt",
                     "group": "{{member_name}} wurde von {{kicked_by}} aus der Gruppe entfernt",
-                    "space": "{{member_name}} wurde von {{kicked_by}} aus dem Space entfernt"
+                    "space": "{{member_name}} wurde von {{kicked_by}} aus dem Space entfernt",
+                    "chat": "{{member_name}} wurde von {{kicked_by}} aus dem Chat entfernt"
                 },
                 "left": {
                     "channel": "{{member_name}} hat den Kanal verlassen",
                     "space": "{{member_name}} hat den Space verlassen",
-                    "group": "{{member_name}} hat die Gruppe verlassen"
+                    "group": "{{member_name}} hat die Gruppe verlassen",
+                    "chat": "{{member_name}} hat den Chat verlassen"
                 },
                 "you": {
                     "invited": "Sie haben {{member_name}} eingeladen",
@@ -297,7 +305,12 @@
         "roomInfo": "Raum Info",
         "fileUploadDescription": "File Beschreibung",
         "roomLink": "Raum Link",
-        "roomName": "Raum Name"
+        "roomName": "Raum Name",
+        "nameVirtualRoom": "Virtueller Raum \"{{conversationTitle}}\"",
+        "virtualRoomInfo": "Informationen über Virtuellen Raum",
+        "virtualRoomLinkDescription": "Kopieren Sie diesen Link und teilen Sie ihn, um anderen Zutritt zu diesem Virtuellen Raum zu gewähren.",
+        "virtualRoomName": "Name des virtuellen Raums",
+        "virtualRoomLink": "Link des virtuellen Raums"
     },
     "conversations": {
         "activeMeetingRooms": "Aktive Meeting Räume",
@@ -321,7 +334,12 @@
         "mockDisplayTitle": "Lassen Sie uns in Kontakt bleiben!",
         "noActiveChats": "Es gibt zur Zeit keine aktiven Chats. Erstellen Sie neue Chats oder wechseln Sie den Reiter.",
         "noFilteredChats": "Es gibt keine Chats, die diesem Filter entsprechen.",
-        "waitingRoom": "Warteraum"
+        "waitingRoom": "Warteraum",
+        "activeVirtualRooms": "Aktive Virtuellen Räume",
+        "noActiveVirtualRooms": "Es gibt derzeit keine aktiven Virtuellen Räume",
+        "noFilteredVirtualRooms": "Es gibt keine Virtuellen Räume oder geplante Meetings, die diesem Filter entsprechen",
+        "personalVirtualRoom": "Persönlicher Virtueller Raum",
+        "virtualRooms": "Virtuelle Räume"
     },
     "meeting": {
         "attendeesComing": "Teilnehmer kommen gerade an",
@@ -361,7 +379,10 @@
             "audioDisabled": "Audio deaktiviert",
             "audioEnabled": "Audio aktiviert",
             "playMyVoice": "Meine Stimme abspielen",
-            "stopMyVoice": "Meine Stimme stoppen"
+            "stopMyVoice": "Meine Stimme stoppen",
+            "micTesting": "Sie werden eine Stimme in Ihrem Standard-Ausgabegerät hören, wodurch Sie die sowohl die Sprach- als auch die Audioqualität für Ihr Meeting testen können",
+            "playMic": "Mikrofon Test starten",
+            "stopMic": "Mikrofon Test anhalten"
         },
         "startModal": {
             "description": "Wie möchten Sie dem Meeting beitreten?",
@@ -369,7 +390,10 @@
             "noVideoAndAudio": "Kamera aus, Mikrofon an",
             "noVideoAndNoAudio": "Kamera aus, Mikrofon aus",
             "videoAndAudio": "Kamera an, Mikrofon an",
-            "videoAndNoAudio": "Kamera an, Mikrofon aus"
+            "videoAndNoAudio": "Kamera an, Mikrofon aus",
+            "descriptionMyPersonalVirtualRoom": "Wie möchten Sie Ihren Persönlichen Virtuellen Raum betreten?",
+            "descriptionPersonalVirtualRoom": "Wie möchten Sie {{meetingTitle}}s Persönlichen Virtuellen Raum betreten?",
+            "descriptionVirtualRoom": "Wie möchten Sie {{meetingTitle}} betreten?"
         },
         "defaultViewModeDefaultLabel": "Bei der Auswahl des \"Standardmodus\", wird das Meeting in der aktuellen internen Umgebung starten.",
         "defaultViewModeSaveLabel": "Option speichern",
@@ -384,7 +408,13 @@
         "wereToFindRecording": "Die Aufzeichnung wird im Heim des Videoservers gespeichert. Wenden Sie sich an Ihren Systemadministrator, um weitere Einzelheiten zu erfahren.",
         "thisMeetingIsBeingRecorded": "Diese Sitzung wird aufgezeichnet",
         "defaultViewModeDedicatedModeLabelVirtualRoom": "Dedizierter Modus",
-        "defaultViewModeDedicatedModeLabelVRoom": "Dedizierter Modus"
+        "defaultViewModeDedicatedModeLabelVRoom": "Dedizierter Modus",
+        "defaultViewModeDedicatedLabelVirtualRoom": "Der \"Dedizierte Modus\" wird Sie zu einem separaten Reiter in Ihrem Browser weiterleiten, um den Virtuellen Raum besser darzustellen.",
+        "defaultViewModeDefaultLabelVirtualRoom": "Bei der Auswahl des \"Standardmodus\" wird der Virtuelle Raum in der aktuellen internen Umgebung starten.",
+        "successSaveMeetingRecording": "Sie werden {{registrationName}} in /{{folderName}} finden, sobald dieser zur Verfügung steht",
+        "defaultViewModeTitleModalVirtualRoom": "Umgebungsoptionen für Virtuelle Räume",
+        "errorMeetingSavingRecording": "Es ist nicht möglich, die Aufnahme anzuhalten, bitte versuchen Sie es erneut",
+        "wereToFindRec": "Die Aufnahme wird im Files Space des Moderators gespeichert werden, der diese beendet hat."
     },
     "modal": {
         "addModeratorDescription": "Einen oder mehrere Nutzer auswählen, um diese zu Moderatoren des Raums zu ernennen",
@@ -399,7 +429,8 @@
             "leaveChannel": "Sind Sie sicher, dass Sie den Kanal verlassen wollen?",
             "leaveGroup": "Sind Sie sicher, dass Sie die Gruppe verlassen wollen?",
             "removeMember": "Sind Sie sicher, dass Sie dieses Mitglied entfernen möchten?",
-            "deleteChannel": "Sind Sie sicher, dass Sie diesen Kanal löschen wollen?"
+            "deleteChannel": "Sind Sie sicher, dass Sie diesen Kanal löschen wollen?",
+            "deleteVirtualRoom": "Sind Sie sicher, dass Sie den Virtuellen Raum löschen möchten?"
         },
         "forwardModal": {
             "forwardedMessageFrom": "Nachricht weitergeleitet von",
@@ -429,8 +460,14 @@
         "moderatorMeetingDescription": "Sie werden diesen Raum moderieren. Sie können weitere Moderatoren hinzufügen, die die gleichen Rechte haben wie Sie.",
         "stopMeetingRec": {
             "stopMeetingTitle": "Aufzeichnung der Besprechung stoppen",
-            "stopRecording": "Die Aufzeichnung wird gestoppt. Sie können während dieser Besprechung jederzeit eine neue Aufzeichnung starten."
-        }
+            "stopRecording": "Die Aufzeichnung wird gestoppt. Sie können während dieser Besprechung jederzeit eine neue Aufzeichnung starten.",
+            "locationWhereToSaveRecording": "Die Aufnahme wird unter \"/{{folderName}}\" gespeichert.",
+            "recordingName": "Name der Aufnahme",
+            "stopRecordingDescription": "Sie werden die Aufnahme anhalten. Sie können eine neue Aufnahme jederzeit starten.",
+            "stopRecordingTitle": "Aufnahme anhalten"
+        },
+        "moderatorVirtualRoomDescription": "Sie werden diesen Virtuellen Raum moderieren. Sie können zusätzliche Moderatoren hinzufügen und diese werden dieselben Rechte haben wie Sie.",
+        "planVirtualRoomDescription": "Geben Sie dem Virtuellen Raum einen wiedererkennbaren Namen, damit die Teilnehmer wissen, worum es bei dem Treffen geht."
     },
     "notification": {
         "answer": "Annehmen",
@@ -443,12 +480,14 @@
             "notificationAcceptedByModerator": "Sie sind vom Moderator akzeptiert worden",
             "notificationJoinTheRoom": "Betreten Sie den Raum, um an der Sitzung teilzunehmen",
             "userIsWaiting": "Neuer Benutzer wartet auf Eintritt",
-            "userJoinedWaitingRoom": "Es scheint jemand im Wartezimmer zu sein"
+            "userJoinedWaitingRoom": "Es scheint jemand im Wartezimmer zu sein",
+            "notificationJoinTheVirtualRoom": "Betreten Sie den Virtuellen Raum, um an der Sitzung teilzunehmen"
         },
         "meeting": {
             "ended": "Sitzung beendet"
         },
-        "startMeetingRecording": "Die Aufzeichnung der Besprechung von {{conversationName}} hat begonnen"
+        "startMeetingRecording": "Die Aufzeichnung der Besprechung von {{conversationName}} hat begonnen",
+        "invitationToPersonalVirtualRoom": "Einladung zum Persönlichen Virtuellen Raum von:"
     },
     "settings": {
         "meeting": {
@@ -458,7 +497,16 @@
             "personalRoomOptionsTitleModal": "Zurücksetzen des Links für den persönlichen Raum",
             "personalRoomResetButton": "Link des persönlichen Raums zurücksetzen",
             "description": "Legen Sie Ihre Audio- und Videoeinstellungen für die Teilnahme an Meetings fest. Sie können Ihre Einstellungen jederzeit anpassen, bevor Sie an einem Meeting teilnehmen.",
-            "personalRoomResetDescription": "Durch das Zurücksetzen der Verknüpfung des Persönlichen Raums werden alle zuvor vergebenen Zugänge nicht mehr funktionieren."
+            "personalRoomResetDescription": "Durch das Zurücksetzen der Verknüpfung des Persönlichen Raums werden alle zuvor vergebenen Zugänge nicht mehr funktionieren.",
+            "enableEchoCancellation": "Abbruch zurückgeben",
+            "enableNoiseSuppression": "Geräuschunterdrückung",
+            "personalVirtualRoomResetButton": "Link des Persönlichen Virtuellen Raums zurücksetzen",
+            "virtualRooms": "Virtuelle Räume",
+            "personalVirtualRoomOptionsTitleModal": "Link des persönlichen Virtuellen Raums zurücksetzen",
+            "voiceProcessing": "Sprachverarbeitung",
+            "voiceProcessingDescription": "Sie werden eine Stimme in Ihrem Standard-Ausgabegerät hören, wodurch Sie die sowohl die Sprach- als auch die Audioqualität für Ihr Meeting testen können",
+            "personalVirtualRoomResetDescription": "Durch das Zurücksetzen der Verknüpfung des Persönlichen Virtuellen Raums werden alle zuvor vergebenen Zugänge nicht mehr funktionieren.",
+            "descriptionVirtualRoom": "Legen Sie Ihre Audio- und Videoeinstellungen für das Betreten von Virtuellen Räumen fest. Sie können Ihre Einstellungen jederzeit anpassen, bevor Sie einen Virtuellen Raum betreten."
         },
         "notification": {
             "desktop": "Desktop Benachrichtigungen",
@@ -491,7 +539,9 @@
         },
         "resetPersonalRoomLinkSuccess": "Der Link des persönlichen Raums wurde zurückgesetzt",
         "recordingMeeting": {
-            "destinationFolder": "Zielordner"
+            "destinationFolder": "Zielordner",
+            "descriptionWhereToSaveRegistration": "Legen Sie einen Zielordner fest, wo Ihre Besprechungsaufnahmen gespeichert werden.",
+            "recording": "Aufnahmen"
         }
     },
     "status": {
@@ -542,7 +592,10 @@
         "sendFile": "Dateien senden",
         "switchToConversation": "Zum Gespräch wechseln",
         "switchToInfoPanel": "Zum Info-Panel wechseln",
-        "disabledCreateButton": "Überprüfen Sie Ihre Eingaben, um sicherzustellen, dass keine Fehler vorhanden sind."
+        "disabledCreateButton": "Überprüfen Sie Ihre Eingaben, um sicherzustellen, dass keine Fehler vorhanden sind.",
+        "copyVirtualRoomLinkTooltip": "Diesen Link kopieren, um den Virtuellen Raum zu teilen",
+        "enterYourVirtualRoomTooltip": "Ihren Persönlichen Virtuellen Raum betreten",
+        "copyUserVirtualRoomTooltip": "Kopieren Sie diesen Link und geben Sie ihn weiter, um anderen den Zugang zu Ihrem Persönlichen Virtuellen Raum zu ermöglichen"
     },
     "general": {
         "browserNotSupported": "Wir unterstützen diese Version Ihres Browsers nicht. Wir empfehlen Ihnen dringend, Ihren Browser zu aktualisieren, um alle Team Funktionen zu nutzen!",
@@ -566,7 +619,10 @@
             "userLeftReturnToWaitingRoom": "Über den Link Room's können Sie jederzeit in den Warteraum zurückkehren",
             "userLeftWaitingRoom": "Sie haben das Wartezimmer verlassen",
             "userLeftLookForwardToSee": "Wir freuen uns auf ein Wiedersehen mit Ihnen"
-        }
+        },
+        "nobodyInTheVirtualRoom": "Es scheint niemand in diesem Virtuellen Raum zu sein",
+        "virtualRoomIsEmpty": "Dieser Virtuelle Raum ist leer",
+        "youAreEnteringVirtualRoom": "Sie sind kurz davor, den Virtuellen Raum zu betreten"
     },
     "label": {
         "app_name": "Chats"
@@ -592,5 +648,9 @@
         "close": {
             "tooltip": "Schließen"
         }
-    }
+    },
+    "enterTheVirtualRoom": "Den Virtuellen Raum betreten",
+    "organizeYourVMeeting": "Organisieren Sie Ihre eigenen Besprechungen oder besuchen Sie die Virtuellen Räume Ihrer Kollegen",
+    "organizeYourVirtualMeeting": "Organisieren Sie Ihre eigenen Besprechungen oder besuchen Sie die Virtuellen Räume Ihrer Kollegen",
+    "personalVirtualRoomLabel": "Persönlicher Virtueller Raum von {{userName}}"
 }
