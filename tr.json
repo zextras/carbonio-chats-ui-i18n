@@ -341,7 +341,7 @@
                     "channel": "{{member_name}} Kanal'dan ayrıldı",
                     "space": "{{member_name}} Konu başlığından ayrıldı",
                     "group": "{{member_name}} Grup'tan ayrıldı",
-                    "chat": "{{member_name}} Sohbet'ten ayrıldı"
+                    "chat": "{{member_name}} sohbet'ten ayrıldı"
                 },
                 "you": {
                     "invited": "{{member_name}} davet edildi",
