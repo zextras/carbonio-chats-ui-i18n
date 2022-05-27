@@ -42,7 +42,7 @@
         "plan": "Planear",
         "remove": "Remover",
         "removeMember": "Quitar miembro",
-        "reply": "responder",
+        "reply": "Responder",
         "replyToSomeone": "Responder a",
         "replyToYourself": "Respondete a ti mismo",
         "scrollToNewMessage": "Desplazar hasta nuevo mensaje",
@@ -268,7 +268,7 @@
         "moderatorCannotLeaveGroupDescription": "Eres el único moderador de {{conversationName}}, por favor elije a alguien más antes de abandonar el Grupo.",
         "moderatorCannotLeaveGroupTitle": "Espera, es necesario un nuevo moderador",
         "notShowAgain": "No mostrar de nuevo",
-        "roomsFunctionalitiesChangelogDescription": "Hemos hecho cambios importantes a las funcionalidades de las reuniones. Lea la introducción a las Salas para saber más.",
+        "roomsFunctionalitiesChangelogDescription": "Hemos hecho cambios importantes a las funcionalidades de las reuniones. ¡Lea la introducción a las Salas para saber más!",
         "showPreviousConversationHistory": "Mostrar historial anterior de conversaciones",
         "teamNews": "Novedades del Team",
         "planMeetingDescription": "El nombre de la sala ayuda a los asistentes a saber cuál es el tema de discusión de la sala.",
@@ -536,14 +536,14 @@
             "enableCamera": "Activar cámara",
             "enableMicrophone": "Activar micrófono",
             "meetings": "Reuniones",
-            "personalRoomOptionsTitleModal": "Enlace de reinicio de sala personal",
-            "personalRoomResetButton": "Reiniciar enlace de sala personal",
+            "personalRoomOptionsTitleModal": "Restablecimiento del enlace de la Sala personal",
+            "personalRoomResetButton": "Restablecer enlace de la Sala personal",
             "description": "Configura tus preferencias de audio y vídeo para entrar en las reuniones. Siempre puedes configurar tus preferencias antes de entrar en cualquier reunión.",
-            "personalRoomResetDescription": "Al reiniciar el enlace de la sala personal, los accesos concedidos anteriormente no funcionarán más.",
+            "personalRoomResetDescription": "Al restablecer el enlace de la sala personal, los accesos otorgados anteriormente no funcionarán más.",
             "enableNoiseSuppression": "Reducción de ruido",
-            "personalVirtualRoomOptionsTitleModal": "Reiniciar el enlace de la Sala Virtual Personal",
-            "personalVirtualRoomResetButton": "Reiniciar enlace de la Sala Personal Virtual",
-            "personalVirtualRoomResetDescription": "Si reinicias el enlace de la Sala Virtual Personal, los accesos otorgados anteriormente ya no funcionarán.",
+            "personalVirtualRoomOptionsTitleModal": "Restablecimiento del enlace de la Sala Virtual Personal",
+            "personalVirtualRoomResetButton": "Restablecer enlace de la Sala Virtual personal",
+            "personalVirtualRoomResetDescription": "Si restableces el enlace de la Sala Virtual personal, los accesos otorgados anteriormente ya no funcionarán.",
             "virtualRooms": "Salas Virtuales",
             "enableEchoCancellation": "Cancelación de eco",
             "voiceProcessing": "Procesamiento de voz",
@@ -552,7 +552,7 @@
         },
         "notification": {
             "desktop": "Notificaciones de escritorio",
-            "openMinichatDescription": "Personalizar el comportamiento de apertura de tus minichats",
+            "openMinichatDescription": "Personalizar el comportamiento de apertura de los minichats",
             "title": {
                 "notifications": "Notificaciones",
                 "openMinichat": "Abrir cuando llegue un nuevo mensaje",
@@ -574,8 +574,8 @@
         "resetPersonalRoomLinkSuccess": "El enlace de su Espacio personal ha sido redefinido",
         "title": "Configuraciones",
         "modal": {
-            "description": "¡Aquí puedes ajustar todas las preferencias de los chats para disfrutar de una experiencia de chat totalmente personalizada!",
-            "title": "Ajustes de los chats"
+            "description": "¡Aquí puedes ajustar todas las preferencias de los chats para disfrutar de una experiencia personalizada!",
+            "title": "Preferencias de los chats"
         },
         "notifications": {
             "description": "Configura tus preferencias para cada tipo de notificación en los chats."
