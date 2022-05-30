@@ -127,31 +127,31 @@
         "uploadConversationPicturesFailed": "Lỗi khi tải lên hình ảnh cuộc hội thoại",
         "historyClearedSuccessfully": "Xoá lịch sử thành công!",
         "offline": "Có vấn đề trong việc kết nối đến máy chủ",
-        "resetPersonalVirtualRoomLinkSuccess": "Liên kế phòng ảo (Personal Virtual Room's link) đã được cài đặt lại",
+        "resetPersonalVirtualRoomLinkSuccess": "Liên kế phòng ảo cá nhân đã được cài đặt lại",
         "appVersionCopied": "Đã sao chép phiên bản ứng dụng",
         "connecting": "Đang kết nối...",
         "linkCopied": "Sao chép liên kết(link)",
         "notificationsActivatedForThisChat": "Thông báo được kích hoạt cho cuộc trò chuyện này",
         "notificationsMutedForThisChat": "Thông báo sẽ tắt cho cuộc trò chuyện này",
-        "resetPersonalRoomLinkSuccess": "Liên kế phòng cá nhân(Personal Room's link) đã được cài đặt lại",
+        "resetPersonalRoomLinkSuccess": "Liên kế phòng cá nhân đã được cài đặt lại",
         "retryConnection": "Đang thử kết nối lại",
-        "roomLinkCopied": "Sao chép liên kết phòng(Room's link)",
-        "virtualRoomLinkCopied": "Sao chép liên kết phòng ảo(Virtual Room's link)"
+        "roomLinkCopied": "Sao chép liên kết phòng",
+        "virtualRoomLinkCopied": "Sao chép liên kết phòng ảo"
     },
     "settings": {
         "meeting": {
             "enableMicrophone": "Bật microphone",
             "meetings": "Cuộc họp",
-            "personalRoomResetButton": "Đặt lại liên kết phòng cá nhân(Personal Room's link)",
-            "personalRoomResetDescription": "Bằng cách đặt lại liên kết phòng cá nhân(Personal Room's link), tất cả các quyền truy cập đã cấp trước đó sẽ không hoạt động nữa.",
-            "personalVirtualRoomOptionsTitleModal": "Đặt lại liên kết phòng ảo (Personal Virtual Room's link)",
-            "personalVirtualRoomResetButton": "Đặt lại liên kết phòng ảo (Personal Virtual Room's link)",
+            "personalRoomResetButton": "Đặt lại liên kết phòng cá nhân",
+            "personalRoomResetDescription": "Bằng cách đặt lại liên kết phòng cá nhân, tất cả các quyền truy cập đã cấp trước đó sẽ không hoạt động nữa.",
+            "personalVirtualRoomOptionsTitleModal": "Đặt lại liên kết phòng ảo cá nhân",
+            "personalVirtualRoomResetButton": "Đặt lại liên kết phòng ảo cá nhân",
             "virtualRooms": "Phòng ảo(Virtual Room)",
             "voiceProcessing": "Đang xử lý âm thanh",
             "enableEchoCancellation": "Hủy tiếng vọng",
             "enableNoiseSuppression": "Loại bỏ tiếng ồn",
-            "personalRoomOptionsTitleModal": "Đặt lại liên kết phòng cá nhân(Personal Room's link)",
-            "personalVirtualRoomResetDescription": "Đặt lại liên kết phòng ảo (Personal Virtual Room's link), tất cả các quyền truy cập đã cấp trước đó sẽ không hoạt động nữa.",
+            "personalRoomOptionsTitleModal": "Đặt lại liên kết phòng cá nhân",
+            "personalVirtualRoomResetDescription": "Đặt lại liên kết phòng ảo cá nhân, tất cả các quyền truy cập đã cấp trước đó sẽ không hoạt động nữa.",
             "voiceProcessingDescription": "Bạn sẽ nghe thấy giọng nói của mình ở đầu ra mặc định, cho phép bạn tự kiểm tra chất lượng đầu vào cũng như đầu ra được chọn cho cuộc họp",
             "description": "Đặt tùy chọn âm thanh và video của bạn để tham gia cuộc họp. Bạn luôn có thể tùy chỉnh tùy chọn của mình trước khi tham gia bất kỳ cuộc họp nào.",
             "descriptionVirtualRoom": "Đặt tùy chọn âm thanh và video của bạn để vào phòng ảo. Bạn luôn có thể tùy chỉnh các tùy chọn của mình trước khi bước vào mọi phòng ảo.",
@@ -170,7 +170,7 @@
                 "openMinichatForGroup": "Mở khi có tin nhắn mới",
                 "openMinichatForSpace": "Mở khi có tin nhắn không gian (Space) mới"
             },
-            "desktop": "Cảnh báo màn hình (Desktop notifications)"
+            "desktop": "Hiển thị cảnh báo màn hình"
         },
         "recordingMeeting": {
             "destinationFolder": "Thư mục đích",
@@ -191,7 +191,7 @@
             "maximumDimension": "Kích thước tối đa: 256kb.",
             "reset": "Cài đặt lại"
         },
-        "resetPersonalRoomLinkSuccess": "Liên kế phòng cá nhân(Personal Room's link) đã được cài đặt lại"
+        "resetPersonalRoomLinkSuccess": "Liên kết phòng cá nhân đã được cài đặt lại"
     },
     "status": {
         "areWriting": "đang ghi…",
@@ -239,7 +239,7 @@
         "switchToConversation": "Chuyển sang cuộc hội thoại",
         "switchToInfoPanel": "Chuyển sang bảng thông tin",
         "collapseChannel": "Thu nhỏ kênh (Chanel)",
-        "copyUserRoom": "Sao chép liên kết này để chia sẻ phòng của bạn(Personal Room's link)",
+        "copyUserRoom": "Sao chép liên kết này để chia sẻ phòng của bạn",
         "copyUserRoomTooltip": "Sao chép liên kết này và chia sẻ để cung cấp cho những người khác quyền truy cập vào phòng cá nhân của bạn (Personal Room)",
         "copyUserVirtualRoomTooltip": "Sao chép liên kết này và chia sẻ để cung cấp cho những người khác quyền truy cập vào phòng ảo của bạn (Personal Virtual Room)",
         "errorUpdatingAvatarStatus": "Có lỗi trong quá trình cài đặt trạng thái. Xin mời thử lại",
@@ -329,7 +329,7 @@
         "copy": "Sao chép",
         "copyAppVersion": "Sao chép app version",
         "addModerator": "Thêm người kiểm duyệt",
-        "copyLinkRoom": "Sao chép Room's Link",
+        "copyLinkRoom": "Sao chép liên kết phòng",
         "copyUserRoomLink": "Sao chép Link",
         "collapse": "Thu gọn",
         "addModerators": "Thêm người kiểm duyệt",
@@ -378,7 +378,7 @@
         "replyToYourself": "Trả lời đến chính bạn",
         "waitingModeratorToJoin": "Bạn đang chờ được người kiểm duyệt chấp nhận",
         "browse": "Duyệt qua",
-        "copyLinkVirtualRoom": "Sao chép Virtual Room's Link",
+        "copyLinkVirtualRoom": "Sao chép liên kết phòng ảo",
         "create": "Tạo",
         "createChannel": "Tạo kênh linked đến {{spaceName}}",
         "deleteRoom": "Xoá Room",
@@ -412,10 +412,10 @@
         "name": "Tên",
         "nameVirtualRoom": "Phòng ảo(Virtual Room) {{conversationTitle}}",
         "roomInfo": "Thông tin phòng(Room)",
-        "roomLink": "Liên kết đến phòng(Room's link)",
+        "roomLink": "Liên kết đến phòng",
         "roomName": "Tên phòng(Room's name)",
         "virtualRoomInfo": "Thông tin phòng ảo(Virtual Room)",
-        "virtualRoomLink": "Liên kết(link) phòng ảo(Virtual Room's link)",
+        "virtualRoomLink": "Liên kết phòng ảo",
         "virtualRoomName": "Tên phòng ảo(Virtual Room)",
         "newMessages": "Tin nhắn mới",
         "nameRoom": "Phòng(Room) {{conversationTitle}}",
@@ -621,7 +621,7 @@
             "externalLoginDescription": "Nếu bạn thuộc về miền này thì bạn sẽ được chuyển hướng đến không gian làm việc thông thường của mình. Nếu bạn là người dùng bên ngoài, bạn sẽ được chuyển hướng đến một giao diện chuyên dụng khác."
         },
         "waitingRoom": {
-            "userLeftReturnToWaitingRoom": "Bạn có thể trở lại phòng chờ(Waiting Room) bất cứ lúc nào từ liên kết(link) của phòng",
+            "userLeftReturnToWaitingRoom": "Bạn có thể trở lại phòng chờ bất cứ lúc nào từ liên kết của phòng",
             "accessDenied": "Từ chối truy cập",
             "moderatorRefusedAccessToRoom": "Người kiểm duyệt đã từ chối quyền truy cập của bạn vào phòng(Room) này",
             "userLeftLookForwardToSee": "Hẹn gặp lại bạn",
