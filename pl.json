@@ -57,7 +57,8 @@
         "leaveAndDelete": "Opuść i usuń",
         "createRoom": "Stwórz Pokój",
         "start": "Rozpocznij",
-        "stop": "Zatrzymaj"
+        "stop": "Zatrzymaj",
+        "browse": "Przeglądaj"
     },
     "appVersion": "Wersja aplikacji",
     "button": {
@@ -256,7 +257,9 @@
         "recordedByOther": "{{username}} rozpoczął nagrywanie",
         "recording": "Nagrywanie",
         "thisMeetingIsBeingRecorded": "To spotkanie jest nagrywane",
-        "wereToFindRecording": "Nagranie zostanie zapisane w starcie serwera wideo, skontaktuj się z administratorem systemu aby poznać więcej szczegółów."
+        "wereToFindRecording": "Nagranie zostanie zapisane w starcie serwera wideo, skontaktuj się z administratorem systemu aby poznać więcej szczegółów.",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Tryb Dedykowany",
+        "defaultViewModeDedicatedModeLabelVRoom": "Tryb Dedykowany"
     },
     "message": {
         "deletedMessage": "Wiadomość usunięta",
@@ -419,7 +422,8 @@
         "stopMeetingRec": {
             "stopMeetingTitle": "Zatrzymaj nagrywanie spotkania",
             "stopRecording": "Nagrywanie zostanie zatrzymane. Możesz rozpocząć nowe nagrywanie kiedykolwiek podczas tego spotkania."
-        }
+        },
+        "selectFolder": "Wybierz folder"
     },
     "notification": {
         "answer": "Odbierz",
@@ -487,7 +491,10 @@
             "update": "Zaktualizuj"
         },
         "resetPersonalRoomLinkSuccess": "Link do Prywatnego Pokoju został zresetowany",
-        "title": "Ustawienia"
+        "title": "Ustawienia",
+        "recordingMeeting": {
+            "destinationFolder": "Folder docelowy"
+        }
     },
     "status": {
         "areWriting": "piszą…",
@@ -570,5 +577,15 @@
     "thanksForParticipating": "Dziękujemy za uczestniczenie",
     "tryLater": "Spróbuj później",
     "typeYourEmail": "Wpisz swój e-mail",
-    "virtualRoom": "Wirtualny Pokój"
+    "virtualRoom": "Wirtualny Pokój",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "Pobierz"
+            }
+        },
+        "close": {
+            "tooltip": "Zamknij"
+        }
+    }
 }
