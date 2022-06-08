@@ -654,5 +654,12 @@
         "close": {
             "tooltip": "Kapat"
         }
+    },
+    "attachments": {
+        "attachLinkFiles": "Dosyalar'dan genel bağlantı ekle",
+        "attachLinkFromFiles": "Dosyalar'dan bağlantı ekle",
+        "share": "Genel bağlantı paylaş",
+        "shareLink": "Bağlantı paylaş",
+        "addFromLocal": "Lokalden ekle"
     }
 }
