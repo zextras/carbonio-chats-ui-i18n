@@ -66,6 +66,13 @@
         "waitingModeratorToJoin": "You’re waiting to be accepted by a moderator"
     },
     "appVersion": "App version",
+    "attachments": {
+        "addFromLocal": "Add from local",
+        "attachLinkFiles": "Attach public link from Files",
+        "attachLinkFromFiles": "Attach link from Files",
+        "share": "Share public link",
+        "shareLink": "Share link"
+    },
     "button": {
         "cancel": "Cancel",
         "no": "No",
