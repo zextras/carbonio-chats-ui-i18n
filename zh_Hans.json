@@ -652,5 +652,9 @@
     "enterTheVirtualRoom": "进入虚拟房间",
     "organizeYourVMeeting": "组织您自己的会议或加入同事的虚拟房间",
     "organizeYourVirtualMeeting": "组织您自己的会议或加入同事的虚拟房间",
-    "personalVirtualRoomLabel": "{{userName}} 的个人虚拟房间"
+    "personalVirtualRoomLabel": "{{userName}} 的个人虚拟房间",
+    "attachments": {
+        "shareLink": "分享链接",
+        "addFromLocal": "从本地添加"
+    }
 }
