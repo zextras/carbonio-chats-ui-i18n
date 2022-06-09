@@ -652,5 +652,9 @@
     },
     "organizeYourVMeeting": "Organiza tus propias reuniones o únete a las Salas Virtuales de tus compañeros",
     "organizeYourVirtualMeeting": "Organiza tus propias reuniones o únete a las Salas Virtuales de tus compañeros",
-    "personalVirtualRoomLabel": "Sala Virtual Personal de {{userName}}"
+    "personalVirtualRoomLabel": "Sala Virtual Personal de {{userName}}",
+    "attachments": {
+        "addFromLocal": "Añadir desde local",
+        "shareLink": "Compartir enlace"
+    }
 }
