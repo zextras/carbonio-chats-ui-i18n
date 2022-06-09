@@ -160,7 +160,7 @@
                 }
             },
             "titleDescription": "Nadaj Natyczmiastowemu Spotkaniu wymowny tytuł, aby uczestnicy znali cel spotkania.",
-            "description": "Natychmiastowe Spotkania to rozmowy wideo, które są zaprojektowane by być szybkie i krótkie. Po zakończeniu rozmowy, jej czat przestanie istnieć, jego zawartość zostanie trwale wymazana. Natychmiastowe Spotkania mogą być tworzone tylko przez użytkowników Team Pro, ale mogą do nich dołączać wszyscy użytkownicy, nawet ci spoza twojej domeny."
+            "description": "Natychmiastowe Spotkania to rozmowy wideo, które są zaprojektowane by być szybkie i krótkie. Po zakończeniu rozmowy, jej czat przestanie istnieć, jego zawartość zostanie trwale wymazana. Natychmiastowe Spotkania mogą być tworzone tylko przez użytkowników Team Pro, ale mogą do nich dołączać wszyscy użytkownicy, nawet ci spoza Twojej domeny."
         },
         "limitOfParticipantReached": "Osiągnięto limit uczestników ustawiony przez administratora",
         "nameMax140Characters": "Max. 140 znaków",
@@ -652,5 +652,12 @@
     "organizeYourVMeeting": "Organizuj swoje własne spotkania lub dołącz do Wirtualnych Pokoi swoich znajomych",
     "organizeYourVirtualMeeting": "Organizuj swoje własne spotkania lub dołącz do Wirtualnych Pokoi swoich znajomych",
     "personalRoomLabel": "Prywatny Pokój użytkownika {{userName}}",
-    "personalVirtualRoomLabel": "Prywatny Wirtualny Pokój użytkownika {{userName}}"
+    "personalVirtualRoomLabel": "Prywatny Wirtualny Pokój użytkownika {{userName}}",
+    "attachments": {
+        "addFromLocal": "Dodaj z tego urządzenia",
+        "attachLinkFromFiles": "Załącz link z Files",
+        "share": "Udostępnij publiczny link",
+        "shareLink": "Udostępnij link",
+        "attachLinkFiles": "Załącz publiczny link z Files"
+    }
 }
