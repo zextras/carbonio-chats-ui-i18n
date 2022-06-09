@@ -114,7 +114,7 @@
             }
         },
         "edited": "Đã biên tập",
-        "forwarded": "Đã chuyển tiếp",
+        "forwarded": "đã chuyển tiếp",
         "now": "Bây giờ",
         "readBy": "Đọc bởi",
         "yesterday": "Hôm qua"
@@ -133,7 +133,7 @@
         "linkCopied": "Sao chép liên kết",
         "notificationsActivatedForThisChat": "Thông báo được kích hoạt cho cuộc trò chuyện này",
         "notificationsMutedForThisChat": "Thông báo sẽ tắt cho cuộc trò chuyện này",
-        "resetPersonalRoomLinkSuccess": "Liên kết phòng cá nhân đã được cài đặt lại",
+        "resetPersonalRoomLinkSuccess": "Liên kết Phòng Cá nhân đã được cài đặt lại",
         "retryConnection": "Đang thử kết nối lại",
         "roomLinkCopied": "Sao chép liên kết phòng",
         "virtualRoomLinkCopied": "Sao chép liên kết phòng ảo"
@@ -143,15 +143,15 @@
             "enableMicrophone": "Bật microphone",
             "meetings": "Cuộc họp",
             "personalRoomResetButton": "Đặt lại liên kết phòng cá nhân",
-            "personalRoomResetDescription": "Bằng cách đặt lại liên kết phòng cá nhân, tất cả các quyền truy cập đã cấp trước đó sẽ không hoạt động nữa.",
-            "personalVirtualRoomOptionsTitleModal": "Đặt lại liên kết phòng cá nhân ảo",
+            "personalRoomResetDescription": "Bằng cách đặt lại liên kết Phòng Cá nhân, tất cả các quyền truy cập đã cấp trước đó sẽ không hoạt động nữa.",
+            "personalVirtualRoomOptionsTitleModal": "Đặt lại liên kết Phòng Cá nhân ảo",
             "personalVirtualRoomResetButton": "Đặt lại liên kết phòng cá nhân ảo",
             "virtualRooms": "Phòng ảo",
             "voiceProcessing": "Đang xử lý âm thanh",
             "enableEchoCancellation": "Hủy tiếng vọng",
             "enableNoiseSuppression": "Loại bỏ tiếng ồn",
-            "personalRoomOptionsTitleModal": "Đặt lại liên kết phòng cá nhân",
-            "personalVirtualRoomResetDescription": "Đặt lại liên kết phòng cá nhân ảo, tất cả các quyền truy cập đã cấp trước đó sẽ không hoạt động nữa.",
+            "personalRoomOptionsTitleModal": "Đặt lại liên kết Phòng Cá nhân",
+            "personalVirtualRoomResetDescription": "Đặt lại liên kết Phòng Cá nhân ảo, tất cả các quyền truy cập đã cấp trước đó sẽ không hoạt động nữa.",
             "voiceProcessingDescription": "Bạn sẽ nghe thấy giọng nói của mình ở đầu ra mặc định, cho phép bạn tự kiểm tra chất lượng đầu vào cũng như đầu ra được chọn cho cuộc họp",
             "description": "Đặt tùy chọn âm thanh và video của bạn để tham gia cuộc họp. Bạn luôn có thể tùy chỉnh tùy chọn của mình trước khi tham gia bất kỳ cuộc họp nào.",
             "descriptionVirtualRoom": "Đặt tùy chọn âm thanh và video của bạn để vào phòng ảo. Bạn luôn có thể tùy chỉnh các tùy chọn của mình trước khi bước vào mọi phòng ảo.",
@@ -191,7 +191,7 @@
             "maximumDimension": "Kích thước tối đa: 256kb.",
             "reset": "Cài đặt lại"
         },
-        "resetPersonalRoomLinkSuccess": "Liên kết phòng cá nhân đã được cài đặt lại"
+        "resetPersonalRoomLinkSuccess": "Liên kết Phòng Cá nhân đã được cài đặt lại"
     },
     "status": {
         "areWriting": "đang ghi…",
@@ -338,21 +338,21 @@
         "addNewMembersTo": "Thêm thành viên mới vào",
         "createGroup": "Tạo nhóm",
         "createChat": "Tạo cuộc trò chuyện",
-        "deleteChannel": "Xoá kênh",
+        "deleteChannel": "Xoá Kênh",
         "delete": "Xoá",
         "expand": "Mở rộng",
         "forward": "Chuyển tiếp",
         "editYourMessage": "Chỉnh sửa tin nhắn của bạn",
         "leaveAndDelete": "Rời đi và xoá",
         "leaveChannel": "Rời Kênh",
-        "leaveGroup": "Rời nhóm",
+        "leaveGroup": "Rời Nhóm",
         "leaveSpace": "Rời Không gian",
         "addOtherModerators": "Thêm người kiểm duyệt khác",
         "saveToFiles": "Lưu vào tệp",
         "edit": "Chỉnh sửa",
         "join": "Tham gia",
         "reply": "Trả lời",
-        "joinChannelAction": "Tham gia kênh",
+        "joinChannelAction": "Tham gia Kênh",
         "joinRoom": "Tham gia phòng",
         "joinVirtualRoom": "Tham gia phòng ảo",
         "leave": "Rời đi",
@@ -382,7 +382,7 @@
         "create": "Tạo",
         "createChannel": "Tạo liên kết kênh đến {{spaceName}}",
         "deleteRoom": "Xoá phòng",
-        "deleteSpace": "Xoá không gian",
+        "deleteSpace": "Xoá Không gian",
         "createSpace": "Tạo không gian lưu trữ",
         "createVirtualRoom": "Tạo phòng ảo",
         "add": "Thêm mới",
@@ -423,7 +423,7 @@
         "virtualRoomLinkDescription": "Sao chép liên kết này và chia sẻ nó để cung cấp cho những người khác quyền truy cập vào phòng ảo này."
     },
     "conversations": {
-        "activeMeetingRooms": "Kích hoạt phòng họp",
+        "activeMeetingRooms": "Kích hoạt Phòng Họp",
         "noActiveMeetings": "Không có phòng nào đang hoạt động vào lúc này",
         "noActiveInstantMeetings": "Hiện không có cuộc họp khẩn nào đang hoạt động. Tạo cuộc họp khẩn mới hoặc chuyển sang thẻ khác.",
         "noActiveSpaces": "Hiện không có không gian nào đang hoạt động. Tạo không gian mới hoặc chuyển đổi thẻ.",
@@ -433,16 +433,16 @@
         "noActiveChats": "Không có cuộc trò chuyện nào đang hoạt động vào lúc này. Tạo một cuộc trò chuyện mới hoặc chuyển đổi thẻ.",
         "noFilteredSpaces": "Không có không gian nào phù hợp với bộ lọc này.",
         "activeVirtualRooms": "Kích hoạt phòng ảo",
-        "chats": "Cuộc trò chuyện",
-        "conversations": "Cuộc hội thoại",
+        "chats": "Các Cuộc Trò chuyện",
+        "conversations": "Các cuộc Hội thoại",
         "filterChatList": "Lọc danh sách trò chuyện",
         "instantMeetings": "Cuộc họp khẩn",
-        "meetingRooms": "Phòng họp",
+        "meetingRooms": "Phòng Họp",
         "noActiveVirtualRooms": "Không có phòng ảo nào đang hoạt động vào lúc này",
         "noFilteredMeetings": "Không có phòng hay cuộc họp đã lên kế hoạch phù hợp với bộ lọc này",
-        "personalRoom": "Phòng cá nhân",
+        "personalRoom": "Phòng Cá nhân",
         "personalVirtualRoom": "Phòng cá nhân ảo",
-        "scheduledMeetings": "Cuộc họp đã lên lịch",
+        "scheduledMeetings": "Các cuộc họp đã lên lịch",
         "spaces": "Không gian",
         "virtualRooms": "Phòng ảo",
         "waitingRoom": "Hàng đợi",
@@ -539,7 +539,7 @@
             "deleteSpace": "Bạn có chắc chắn xoá không gian này?",
             "deleteVirtualRoom": "Bạn có chắc chắn xoá phòng ảo này?",
             "leaveChannel": "Bạn có chắc chắn muốn rời kênh?",
-            "leaveGroup": "Bạn có chắc chắn muốn rời nhóm?",
+            "leaveGroup": "Bạn có chắc chắn muốn rời Nhóm?",
             "removeMember": "Bạn có chắc chắn muốn xoá thành viên này?"
         },
         "moderatorCannotLeaveGroupDescription": "Bạn là người kiểm duyệt duy nhất của {{conversationName}}, vui lòng chọn người thay thế trước khi rời khỏi nhóm.",
@@ -564,7 +564,7 @@
             "forwardedMessageFrom": "Chuyển tiếp tin nhắn từ"
         },
         "moderatorMeetingDescription": "Bạn sẽ kiểm duyệt phòng này. Bạn có thể thêm người kiểm duyệt bổ sung và họ sẽ có các quyền tương tự như bạn.",
-        "planVirtualRoomDescription": "Đặt cho phòng ảo này một cái tên dễ nhận biết để cho những người tham dự của bạn biết những gì họ đến với họ khi tham gia phòng.",
+        "planVirtualRoomDescription": "Đặt cho Phòng Ảo này một cái tên dễ nhận biết để cho những người tham dự của bạn biết những gì họ đến với họ khi tham gia phòng.",
         "selectFolder": "Chọn thư mục",
         "showPreviousConversationHistory": "Hiển thị lịch sử các cuộc hội thoại trước",
         "teamNews": "Tin của đội",
@@ -593,7 +593,7 @@
         "answer": "Trả lời",
         "dismiss": "Bỏ qua",
         "incomingCall": "Cuộc gọi đến từ:",
-        "invitationToPersonalRoom": "Mời tham gia phòng cá nhân từ:",
+        "invitationToPersonalRoom": "Mời vào Phòng Cá nhân từ:",
         "invitationToPersonalVirtualRoom": "Mời tham gia phòng cá nhân ảo từ:",
         "meeting": {
             "ended": "Cuộc họp kết thúc"
@@ -614,7 +614,7 @@
         "teamProductName": "Đội"
     },
     "label": {
-        "app_name": "Cuộc trò chuyện"
+        "app_name": "Các Cuộc Trò chuyện"
     },
     "external": {
         "login": {
@@ -652,5 +652,12 @@
         "close": {
             "tooltip": "Đóng"
         }
+    },
+    "attachments": {
+        "attachLinkFiles": "Đính kèm liên kết công khai từ tệp",
+        "attachLinkFromFiles": "Đính kèm liên kết từ tệp",
+        "shareLink": "Chia sẻ liên kết",
+        "addFromLocal": "Thêm từ cục bộ",
+        "share": "Chia sẻ liên kết công khai"
     }
 }
