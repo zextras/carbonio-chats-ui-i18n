@@ -652,5 +652,9 @@
     "enterTheVirtualRoom": "Den Virtuellen Raum betreten",
     "organizeYourVMeeting": "Organisieren Sie Ihre eigenen Besprechungen oder besuchen Sie die Virtuellen Räume Ihrer Kollegen",
     "organizeYourVirtualMeeting": "Organisieren Sie Ihre eigenen Besprechungen oder besuchen Sie die Virtuellen Räume Ihrer Kollegen",
-    "personalVirtualRoomLabel": "Persönlicher Virtueller Raum von {{userName}}"
+    "personalVirtualRoomLabel": "Persönlicher Virtueller Raum von {{userName}}",
+    "attachments": {
+        "addFromLocal": "Von lokalem Speicherort hinzufügen",
+        "shareLink": "Link teilen"
+    }
 }
