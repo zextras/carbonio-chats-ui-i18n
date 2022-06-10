@@ -652,5 +652,9 @@
     "enterTheVirtualRoom": "Virtual Room में एंटर करें",
     "organizeYourVMeeting": "अपनी खुद की मीटिंग्स ऑर्गनाइज़ करें या अपने साथ काम करने वालों के Virtual Room में जॉइन करें",
     "organizeYourVirtualMeeting": "अपनी खुद की मीटिंग्स ऑर्गनाइज़ करें या अपने साथ काम करने वालों के Virtual Room में जॉइन करें",
-    "personalVirtualRoomLabel": "{{userName}} का पर्सनल Virtual Room"
+    "personalVirtualRoomLabel": "{{userName}} का पर्सनल Virtual Room",
+    "attachments": {
+        "addFromLocal": "लोकल से लगाएँ",
+        "shareLink": "लिंक शेयर करें"
+    }
 }
