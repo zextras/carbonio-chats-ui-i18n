@@ -653,5 +653,9 @@
         "close": {
             "tooltip": "閉じる"
         }
+    },
+    "attachments": {
+        "addFromLocal": "ローカルから追加する",
+        "shareLink": "リンクをシェアする"
     }
 }
