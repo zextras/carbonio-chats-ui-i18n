@@ -652,5 +652,9 @@
     "enterTheVirtualRoom": "De Virtuele Ruimte betreden",
     "organizeYourVMeeting": "Organiseer uw eigen vergaderingen of sluit u aan bij de Virtuele Ruimten van uw collega's",
     "organizeYourVirtualMeeting": "Organiseer uw eigen vergaderingen of sluit u aan bij de Virtuele Ruimten van uw collega's",
-    "personalVirtualRoomLabel": "Persoonlijke Virtuele Ruimte van {{userName}}"
+    "personalVirtualRoomLabel": "Persoonlijke Virtuele Ruimte van {{userName}}",
+    "attachments": {
+        "addFromLocal": "Toevoegen van lokaal",
+        "shareLink": "Link delen"
+    }
 }
