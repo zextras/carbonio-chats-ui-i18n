@@ -654,5 +654,12 @@
         "close": {
             "tooltip": "Fermer"
         }
+    },
+    "attachments": {
+        "addFromLocal": "Ajouter depuis le disque local",
+        "attachLinkFiles": "Joindre un lien publique depuis Files",
+        "attachLinkFromFiles": "Joindre un lien depuis Files",
+        "share": "Partager un lien publique",
+        "shareLink": "Partager le lien"
     }
 }
