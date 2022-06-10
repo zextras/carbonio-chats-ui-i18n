@@ -652,5 +652,9 @@
     "enterTheVirtualRoom": "Masuk ke Ruang Virtual",
     "organizeYourVirtualMeeting": "Selenggarakan rapat sendiri atau gabung ke Ruang Virtual rekan kerja",
     "organizeYourVMeeting": "Selenggarakan rapat sendiri atau gabung ke Ruang Virtual rekan kerja",
-    "personalVirtualRoomLabel": "Ruang Virtual Pribadi {{userName}}"
+    "personalVirtualRoomLabel": "Ruang Virtual Pribadi {{userName}}",
+    "attachments": {
+        "addFromLocal": "Tambahkan dari lokal",
+        "shareLink": "Bagikan tautan"
+    }
 }
