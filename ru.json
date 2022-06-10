@@ -654,5 +654,12 @@
         "close": {
             "tooltip": "Закрыть"
         }
+    },
+    "attachments": {
+        "addFromLocal": "Добавить с локального ресурса",
+        "attachLinkFiles": "Прикрепите публичную ссылку из Files",
+        "attachLinkFromFiles": "Прикрепить ссылку из Files",
+        "share": "Поделиться публичной ссылкой",
+        "shareLink": "Поделиться ссылкой"
     }
 }
