@@ -652,5 +652,9 @@
     "organizeYourVirtualMeeting": "จัดการประชุมของคุณเองหรือเข้าร่วมห้องเสมือนจริงของเพื่อนร่วมงานของคุณ",
     "enterTheVirtualRoom": "เข้าห้องเสมือนจริง",
     "organizeYourVMeeting": "จัดการประชุมของคุณเองหรือเข้าร่วมห้องเสมือนจริงของเพื่อนร่วมงานของคุณ",
-    "personalVirtualRoomLabel": "ห้องเสมือนจริงส่วนตัวของ {{userName}}"
+    "personalVirtualRoomLabel": "ห้องเสมือนจริงส่วนตัวของ {{userName}}",
+    "attachments": {
+        "addFromLocal": "เพิ่มจาก local",
+        "shareLink": "แชร์ลิงก์"
+    }
 }
