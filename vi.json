@@ -385,7 +385,7 @@
         "deleteSpace": "Xoá Không gian",
         "createSpace": "Tạo không gian lưu trữ",
         "createVirtualRoom": "Tạo phòng ảo",
-        "add": "Thêm mới",
+        "add": "Thêm",
         "addChannel": "Thêm kênh",
         "activateNotifications": "Kích hoạt thông báo",
         "addMembers": "Thêm thành viên"
@@ -454,7 +454,7 @@
     "creation": {
         "group": {
             "inputTopicDescriptionLabel": "Nó mô tả chủ đề của nhóm",
-            "groupWithoutNameAddParticipant": "Thêm người tham gia vào nhóm của bạn",
+            "groupWithoutNameAddParticipant": "Thêm người tham gia vào Nhóm của bạn",
             "addParticipantsDescription": "Mời người tham gia bằng cách nhập tên hoặc địa chỉ thư của họ. Bạn cần mời ít nhất hai người tham gia khác, nếu không, bạn có thể tạo trò chuyện(Chat).",
             "mainDescription": "Các nhóm phải có nhiều hơn hai người tham gia và đặt tên nhóm cần ưu tiên để mô tả chủ đề của nhóm",
             "setImageAndTopicDescription": "Đặt một hình ảnh sẽ giúp người dùng xác định nhóm trong các nhóm từ danh sách."
@@ -470,7 +470,7 @@
                 }
             },
             "description": "Cuộc họp khẩn là các cuộc gọi điện video được thiết kế để sử dụng nhanh chóng và tạm thời và không lưu giữ nội dung cũng như dấu vết sau khi kết thúc cuộc gọi. Cuộc họp tức thì có thể được tạo bởi người dùng Team Pro và họ cũng có thể được tham gia bởi người dùng bên ngoài.",
-            "addAttendees": "Thêm người tham dự vào cuộc họp khẩn của bạn",
+            "addAttendees": "Thêm người tham dự vào Cuộc họp khẩn của bạn",
             "addAttendeesDescription": "Mời người tham dự bằng cách nhập tên hoặc địa chỉ thư của họ tại đây.",
             "titleDescription": "Đặt một tiêu đề dễ nhận biết cho cuộc họp khẩn để những người tham dự của bạn sẽ biết mục đích của cuộc gọi này."
         },
@@ -504,7 +504,7 @@
         "space": {
             "addMembersDescription": "Mời người tham gia bằng cách nhập tên hoặc địa chỉ thư của họ. Bạn cần mời ít nhất hai người tham gia khác, nếu không, bạn có thể tạo cuộc trò chuyện.",
             "mainDescription": "Không gian là môi trường giao tiếp chung bao gồm các cuộc trò chuyện cụ thể được gọi là kênh, mỗi cuộc trò chuyện có chủ đề riêng. Để tạo không gian, bạn cần mời ít nhất hai người tham gia. Các kênh có thể được thêm trực tiếp từ bảng thông tin của không gian.",
-            "spaceWithoutNameAddParticipant": "Mời người tham gia vào không gian của bạn",
+            "spaceWithoutNameAddParticipant": "Mời người tham gia vào Không gian của bạn",
             "titleDescription": "Tiêu đề dùng đê xác định không gian vì thế nó phải mô tả chủ đề của nó.",
             "topicDescription": "Vì kênh là các cuộc trò chuyện được thúc đẩy bởi chủ đề được thảo luận, nên bạn nên sử dụng một chủ đề mô tả chủ đề đó tốt hơn.",
             "topicInputExplanation": "Nó mô tả chủ đề của không gian"
@@ -543,7 +543,7 @@
             "removeMember": "Bạn có chắc chắn muốn xoá thành viên này?"
         },
         "moderatorCannotLeaveGroupDescription": "Bạn là người kiểm duyệt duy nhất của {{conversationName}}, vui lòng chọn người thay thế trước khi rời khỏi nhóm.",
-        "moderatorVirtualRoomDescription": "Bạn sẽ kiểm duyệt phòng ảo này. Bạn có thể thêm người kiểm duyệt bổ sung và họ sẽ có các quyền tương tự như bạn.",
+        "moderatorVirtualRoomDescription": "Bạn sẽ kiểm duyệt Phòng Ảo này. Bạn có thể thêm người kiểm duyệt bổ sung và họ sẽ có các quyền tương tự như bạn.",
         "planMeetingDescription": "Tên của phòng giúp những người tham dự biết được vấn đề thảo luận của phòng.",
         "roomsFunctionalitiesChangelogDescription": "Chúng tôi đã thực hiện những thay đổi quan trọng đối với các chức năng của cuộc họp. Đọc phần giới thiệu về phòng để tìm hiểu thêm!",
         "stopMeetingRec": {
@@ -556,7 +556,7 @@
         },
         "deleteMessageDescription": "Khi xóa một tin nhắn, tin nhắn đó sẽ không hiển thị nữa đối với bạn và tất cả những người nhận khác",
         "news": "Tin tức",
-        "addModeratorDescription": "Chọn một hoặc nhiều người dùng để nâng họ lên người kiểm duyệt của phòng này",
+        "addModeratorDescription": "Chọn một hoặc nhiều người dùng để nâng họ lên người kiểm duyệt của Phòng này",
         "forwardModal": {
             "selectOneOrMoreConversations": "Chọn một hoặc nhiều cuộc hội thoại",
             "spaceAndChannels": "Không gian và Kênh",
