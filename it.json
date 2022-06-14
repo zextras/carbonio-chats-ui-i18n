@@ -654,5 +654,12 @@
     },
     "enterTheVirtualRoom": "Accedi alla Stanza Virtuale",
     "organizeYourVirtualMeeting": "Organizza riunioni personali oppure unisciti alle Stanze Virtuali dei tuoi colleghi",
-    "personalVirtualRoomLabel": "Stanza Virtuale Personale di {{userName}}"
+    "personalVirtualRoomLabel": "Stanza Virtuale Personale di {{userName}}",
+    "attachments": {
+        "addFromLocal": "Aggiungi da locale",
+        "attachLinkFiles": "Allega link pubblico da Files",
+        "attachLinkFromFiles": "Allega link da Files",
+        "share": "Condividi link pubblico",
+        "shareLink": "Condividi link"
+    }
 }
