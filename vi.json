@@ -108,9 +108,9 @@
             "newMeeting": "Cuộc gọi đến từ:",
             "conversationCreated": "Cuộc trò chuyện đã được tạo",
             "meeting": {
-                "endedAtTime": "Cuộc họp kết thúc vào",
+                "endedAtTime": "Cuộc họp đã kết thúc lúc",
                 "startedAtTime": "Cuộc họp bắt đầu vào",
-                "ended": "Cuộc họp kết thúc"
+                "ended": "Cuộc họp đã kết thúc"
             }
         },
         "edited": "Đã biên tập",
@@ -204,7 +204,7 @@
         "externalGuest": "Khách bên ngoài",
         "internalGuest": "Khách bên trong"
     },
-    "thanksForParticipating": "Cảm ơn đã tham gia",
+    "thanksForParticipating": "Cảm ơn bạn đã tham gia",
     "tooltip": {
         "acceptQueuedMember": "Cho phép người dùng vào",
         "addFile": "Thêm tệp",
@@ -596,7 +596,7 @@
         "invitationToPersonalRoom": "Mời vào Phòng Cá nhân từ:",
         "invitationToPersonalVirtualRoom": "Mời tham gia phòng cá nhân ảo từ:",
         "meeting": {
-            "ended": "Cuộc họp kết thúc"
+            "ended": "Cuộc họp đã kết thúc"
         }
     },
     "organizeYourMeeting": "Tổ chức các cuộc họp của riêng bạn hoặc tham gia phòng của đồng nghiệp của bạn",
