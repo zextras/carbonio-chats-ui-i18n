@@ -91,7 +91,8 @@
         "stop": "Parar",
         "start": "Iniciar",
         "saveToFiles": "Salvar no Files",
-        "createRoom": "Criar Sala"
+        "createRoom": "Criar Sala",
+        "browse": "Navegar"
     },
     "appVersion": "Versão do aplicativo",
     "button": {
@@ -263,7 +264,9 @@
         "genericErrorMeeting": "Parece que houve um problema com esta reunião, entre em contato com seu administrador do sistema.",
         "errorMeetingRecording": "Não é possível iniciar o registro, entre em contato com seu administrador do sistema.",
         "thisMeetingIsBeingRecorded": "Esta reunião está sendo gravada",
-        "wereToFindRecording": "A gravação será salva no servidor de vídeo. Entre em contato com seu administrador do sistema para mais informações."
+        "wereToFindRecording": "A gravação será salva no servidor de vídeo. Entre em contato com seu administrador do sistema para mais informações.",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Modo dedicado",
+        "defaultViewModeDedicatedModeLabelVRoom": "Modo dedicado"
     },
     "message": {
         "deletedMessage": "Mensagem apagada",
@@ -486,7 +489,10 @@
         "notifications": {
             "description": "Defina suas preferências para cada tipo de notificação dos Chats."
         },
-        "resetPersonalRoomLinkSuccess": "O link da Sala Pessoal foi redefinido"
+        "resetPersonalRoomLinkSuccess": "O link da Sala Pessoal foi redefinido",
+        "recordingMeeting": {
+            "destinationFolder": "Pasta de destino"
+        }
     },
     "status": {
         "lastSeen": "Visto pela última vez {{lastSeen}}",
@@ -577,5 +583,19 @@
     },
     "tryLater": "Tente mais tarde",
     "typeYourEmail": "Digite seu e-mail",
-    "virtualRoom": "Sala Virtual"
+    "virtualRoom": "Sala Virtual",
+    "attachments": {
+        "shareLink": "Partilhar link",
+        "addFromLocal": "Adicionar de pasta local"
+    },
+    "preview": {
+        "close": {
+            "tooltip": "Fechar"
+        },
+        "actions": {
+            "tooltip": {
+                "download": "Download"
+            }
+        }
+    }
 }
