@@ -655,6 +655,9 @@
     "personalVirtualRoomLabel": "Sala Virtual Personal de {{userName}}",
     "attachments": {
         "addFromLocal": "Añadir desde local",
-        "shareLink": "Compartir enlace"
+        "shareLink": "Compartir enlace",
+        "share": "Compartir enlace público",
+        "attachLinkFromFiles": "Agregar enlace desde Files",
+        "attachLinkFiles": "Agregar enlace público desde Files"
     }
 }
