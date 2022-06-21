@@ -446,7 +446,7 @@
         "recordedByMe": "Hai iniziato la registrazione",
         "recordedByOther": "{{username}} ha iniziato la registrazione",
         "recording": "Registrazione",
-        "thisMeetingIsBeingRecorded": "Questa riunione viene registrata",
+        "thisMeetingIsBeingRecorded": "Registrazione della riunione in corso",
         "errorMeetingRecording": "Non è possibile iniziare la registrazione, contatta il tuo amministratore di sistema.",
         "wereToFindRecording": "La registrazione verrà salvata nella home del video server, contatta il tuo amministratore di sistema per maggiori informazioni.",
         "defaultViewModeDedicatedModeLabelVirtualRoom": "Modalità Dedicata",
