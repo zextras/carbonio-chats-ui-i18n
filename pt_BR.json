@@ -293,7 +293,7 @@
         "defaultViewModeDefaultLabelVirtualRoom": "Ao escolher o \"Modo Padrão\", a Sala Virtual se iniciará no ambiente interno atual.",
         "defaultViewModeTitleModalVirtualRoom": "Opções de ambiente da Sala Virtual",
         "errorMeetingSavingRecording": "Não é possível parar a gravação. Tente novamente",
-        "successSaveMeetingRecording": "Você irá encontrar {{registrationName}} em /{{folderName}} assim que estiver disponível",
+        "successSaveMeetingRecording": "Você encontrará {{registrationName}} em /{{folderName}} assim que estiver disponível",
         "wereToFindRec": "A gravação será salva no espaço Files do moderador que a parou."
     },
     "message": {
@@ -655,6 +655,9 @@
     "personalVirtualRoomLabel": "Sala Virtual pessoal de {{userName}}",
     "attachments": {
         "addFromLocal": "Adicionar a partir do Meu Computador",
-        "shareLink": "Compartilhar link"
+        "shareLink": "Compartilhar link",
+        "share": "Compartilhar link público",
+        "attachLinkFromFiles": "Anexar link a partir de Files",
+        "attachLinkFiles": "Anexar link público a partir de Files"
     }
 }
