@@ -656,6 +656,9 @@
     },
     "attachments": {
         "addFromLocal": "ローカルから追加する",
-        "shareLink": "リンクをシェアする"
+        "shareLink": "リンクをシェアする",
+        "share": "パブリックリンクを共有する",
+        "attachLinkFromFiles": "ファイルからリンクを添付する",
+        "attachLinkFiles": "ファイルからパブリックリンクを添付する"
     }
 }
