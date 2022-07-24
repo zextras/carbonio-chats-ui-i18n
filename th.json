@@ -655,6 +655,9 @@
     "personalVirtualRoomLabel": "ห้องเสมือนจริงส่วนตัวของ {{userName}}",
     "attachments": {
         "addFromLocal": "เพิ่มจาก local",
-        "shareLink": "แชร์ลิงก์"
+        "shareLink": "แชร์ลิงก์",
+        "share": "แชร์ลิงก์สาธารณะ",
+        "attachLinkFromFiles": "แนบลิงก์จาก Files",
+        "attachLinkFiles": "แนบลิงก์สาธารณะจาก Files"
     }
 }
