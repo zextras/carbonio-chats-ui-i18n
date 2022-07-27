@@ -655,6 +655,9 @@
     "personalVirtualRoomLabel": "Ruang Virtual Pribadi {{userName}}",
     "attachments": {
         "addFromLocal": "Tambahkan dari lokal",
-        "shareLink": "Bagikan tautan"
+        "shareLink": "Bagikan tautan",
+        "share": "Bagikan tautan publik",
+        "attachLinkFromFiles": "Tambahkan tautan dari Files",
+        "attachLinkFiles": "Lampirkan tautan publik dari Files"
     }
 }
