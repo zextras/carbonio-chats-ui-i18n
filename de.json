@@ -655,6 +655,9 @@
     "personalVirtualRoomLabel": "Persönlicher Virtueller Raum von {{userName}}",
     "attachments": {
         "addFromLocal": "Von lokalem Speicherort hinzufügen",
-        "shareLink": "Link teilen"
+        "shareLink": "Link teilen",
+        "share": "Öffentlichen Link teilen",
+        "attachLinkFromFiles": "Link von Files anhängen",
+        "attachLinkFiles": "Öffentlichen Link von Files anhängen"
     }
 }
