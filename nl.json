@@ -655,6 +655,9 @@
     "personalVirtualRoomLabel": "Persoonlijke Virtuele Ruimte van {{userName}}",
     "attachments": {
         "addFromLocal": "Toevoegen van lokaal",
-        "shareLink": "Link delen"
+        "shareLink": "Link delen",
+        "share": "Publieke link delen",
+        "attachLinkFromFiles": "Link bijvoegen vanuit Bestanden",
+        "attachLinkFiles": "Openbare link bijvoegen vanuit Bestanden"
     }
 }
