@@ -655,6 +655,9 @@
     "personalVirtualRoomLabel": "{{userName}} 的个人虚拟房间",
     "attachments": {
         "shareLink": "分享链接",
-        "addFromLocal": "从本地添加"
+        "addFromLocal": "从本地添加",
+        "share": "分享公开链接",
+        "attachLinkFromFiles": "从文件附件链接",
+        "attachLinkFiles": "从文件附加公开链接"
     }
 }
