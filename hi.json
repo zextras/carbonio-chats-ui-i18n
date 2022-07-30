@@ -655,6 +655,9 @@
     "personalVirtualRoomLabel": "{{userName}} का पर्सनल Virtual Room",
     "attachments": {
         "addFromLocal": "लोकल से लगाएँ",
-        "shareLink": "लिंक शेयर करें"
+        "shareLink": "लिंक शेयर करें",
+        "share": "पब्लिक लिंक शेयर करें",
+        "attachLinkFromFiles": "फाइलों से लिंक अटैच करें",
+        "attachLinkFiles": "फाइलों से पब्लिक लिंक अटैच करें"
     }
 }
