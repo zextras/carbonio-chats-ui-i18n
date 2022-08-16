@@ -1,5 +1,6 @@
 {
     "action": {
-        "forward": "ارسال"
+        "forward": "ارسال",
+        "reply": "پاسخ"
     }
 }
