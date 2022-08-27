@@ -471,7 +471,6 @@
             "leaveGroup": "Vuoi abbandonare questo Gruppo?",
             "leaveSpace": "Vuoi abbandonare questo Spazio?",
             "deleteChannel": "Vuoi eliminare questo Canale?",
-            "removeBuddy": "Vuoi rimuovere questo partecipante?",
             "removeMember": "Vuoi rimuovere questo partecipante?",
             "deleteVirtualRoom": "Vuoi davvero eliminare questa Stanza Virtuale?"
         },
@@ -497,7 +496,6 @@
         "teamNews": "Novità di Team",
         "deleteMessageDescription": "Cancellando un messaggio, questo non sarà più visibile né a te né agli altri partecipanti",
         "planMeetingDescription": "Il nome della Stanza suggerisce ai partecipanti l'argomento trattato all'interno della Stanza.",
-        "chatsNews": "Novità Chat",
         "userJoinedWaitingRoom": "Sembra esserci qualcuno nella Stanza d'Attesa",
         "news": "Novità",
         "stopMeetingRec": {

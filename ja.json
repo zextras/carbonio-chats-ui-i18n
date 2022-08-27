@@ -464,7 +464,6 @@
             "areYouSure": "本当に実行しますか？",
             "clearHistory": "チャット履歴が完全に消去されます。 このチャットの他の参加者の履歴は削除されません。 この操作は元に戻せません。",
             "leaveAndDeleteConversation": "{{conversationName}}を退出して削除してもよろしいですか？",
-            "removeBuddy": "本当にこのシェアを削除しますか？",
             "deleteChannel": "本当にこのチャンネルを削除しますか？",
             "leaveGroup": "本当にグループから退会しますか？",
             "removeMember": "本当にこのメンバーを削除しますか？",

@@ -419,7 +419,6 @@
             "leaveChannel": "Kanal'dan ayrılmak istediğinize emin misiniz?",
             "leaveGroup": "Grup'tan ayrılmak istediğinize emin misiniz?",
             "leaveSpace": "Konu'dan ayrılmak istediğinize emin misiniz?",
-            "removeBuddy": "Bu üyeyi çıkartmak istediğinize emin misiniz?",
             "deleteSpace": "Bu Konu'yu silmek istediğinizden emin misiniz?",
             "removeMember": "Bu üyeyi çıkartmak istediğinize emin misiniz?",
             "deleteVirtualRoom": "Sanal Oda'yı silmek istediğinizden emin misiniz?"
@@ -446,7 +445,6 @@
         "teamNews": "Team Haberleri",
         "planMeetingDescription": "Oda adı katılımcılara Oda'nın tartışma konusu hakkında bilgi verir.",
         "deleteMessageDescription": "Mesajı sildiğinizde, artık size ve diğer alıcılara görünmeyecek",
-        "chatsNews": "Sohbet Haberleri",
         "userJoinedWaitingRoom": "Bekleme Odasında bekleyen kişi var",
         "news": "Haberler",
         "moderatorMeetingDescription": "Bu Oda için moderatör olacaksınız. Başka moderatörler ekleyebilirsiniz, onlar da sizinle aynı izinlere sahip olacak.",

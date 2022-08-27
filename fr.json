@@ -420,7 +420,6 @@
             "leaveChannel": "Êtes-vous sûr de vouloir quitter ce Canal ?",
             "leaveGroup": "Êtes-vous sûr de vouloir quitter ce Groupe ?",
             "leaveSpace": "Êtes-vous sûr de vouloir quitter cet Espace ?",
-            "removeBuddy": "Êtes-vous sur de vouloir enlever ce membre ?",
             "removeMember": "Êtes-vous sûr de vouloir supprimer ce membre ?",
             "deleteVirtualRoom": "Êtes-vous sûr de vouloir supprimer la Salle Virtuelle ?"
         },
@@ -446,7 +445,6 @@
         "teamNews": "Nouvelles de Team",
         "deleteMessageDescription": "Lorsqu'un message est supprimé, il n'est plus visible pour vous ni pour les autres destinataires",
         "planMeetingDescription": "Le nom de la Réunion aide les invités à connaître le sujet en cours de discussion.",
-        "chatsNews": "Nouveautés de Chat",
         "userJoinedWaitingRoom": "Il semble que quelqu'un soit dans la salle d'attente",
         "news": "Nouvelles",
         "moderatorMeetingDescription": "Vous modérerez cette salle. Vous pouvez ajouter des modérateurs supplémentaires et ils auront les mêmes permissions que les vôtres.",
