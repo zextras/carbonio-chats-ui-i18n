@@ -61,8 +61,8 @@
         "browse": "Przeglądaj",
         "saveToFiles": "Zapisz do Files",
         "copyLinkVirtualRoom": "Skopiuj link do Wirtualnego Pokoju",
-        "createVirtualRoom": "Stwórz Wirtualny Pokój",
-        "deleteVirtualRoom": "Usuń Wirtualny Pokój",
+        "createVirtualRoom": "Stwórz Wirtualny pokój",
+        "deleteVirtualRoom": "Usuń Wirtualny pokój",
         "joinVirtualRoom": "Dołącz do Wirtualnego Pokoju"
     },
     "appVersion": "Wersja aplikacji",
@@ -124,7 +124,7 @@
         "noActiveVirtualRooms": "Nie ma w tej chwili żadnych aktywnych Wirtualnych Pokoi",
         "noFilteredVirtualRooms": "Nie ma żadnych Wirtualnych Pokoi ani zaplanowanych spotkań, które odpowiadają temu filtrowi",
         "activeVirtualRooms": "Aktywne Wirtualne Pokoje",
-        "personalVirtualRoom": "Prywatny Wirtualny Pokój",
+        "personalVirtualRoom": "Prywatny Wirtualny pokój",
         "virtualRooms": "Wirtualne Pokoje"
     },
     "creation": {
@@ -288,7 +288,7 @@
         "defaultViewModeTitleModalVirtualRoom": "Opcje środowiska Wirtualnego Pokoju",
         "errorMeetingSavingRecording": "Nie udało się zatrzymać nagrywania, spróbuj ponownie",
         "defaultViewModeDedicatedLabelVirtualRoom": "\"Tryb Dedykowany\" przekieruje Cię do oddzielnej karty przeglądarki, aby umożliwić Ci najlepsze doświadczenie Wirtualnego Pokoju.",
-        "defaultViewModeDefaultLabelVirtualRoom": "Przy wybraniu \"Trybu Domyślnego\" Wirtualny Pokój rozpocznie się w obecnym, wewnętrznym środowisku.",
+        "defaultViewModeDefaultLabelVirtualRoom": "Przy wybraniu \"Trybu Domyślnego\" Wirtualny pokój rozpocznie się w obecnym, wewnętrznym środowisku.",
         "successSaveMeetingRecording": "Znajdziesz {{registrationName}} w /{{folderName}} tak szybko gdy będzie to gotowe",
         "wereToFindRec": "Nagranie zostanie zapisane w przestrzeni Files moderatora, który je zatrzyma."
     },
@@ -427,7 +427,7 @@
             "leaveGroup": "Czy na pewno chcesz wyjść z Grupy?",
             "leaveSpace": "Czy na pewno chcesz wyjść z Przestrzeni?",
             "removeMember": "Czy na pewno chcesz usunąć tego użytkownika?",
-            "deleteVirtualRoom": "Czy na pewno chcesz usunąć Wirtualny Pokój?"
+            "deleteVirtualRoom": "Czy na pewno chcesz usunąć Wirtualny pokój?"
         },
         "deleteMessageDescription": "Kiedy usuwasz wiadomość, staje się ona niewidoczna dla ciebie i innych odbiorców",
         "forwardModal": {
@@ -462,7 +462,7 @@
             "stopRecordingTitle": "Zatrzymaj nagrywanie"
         },
         "selectFolder": "Wybierz folder",
-        "moderatorVirtualRoomDescription": "Będziesz moderował ten Wirtualny Pokój. Możesz dodać dodatkowych moderatorów, będą mieli te same uprawnienia co Ty.",
+        "moderatorVirtualRoomDescription": "Będziesz moderował ten Wirtualny pokój. Możesz dodać dodatkowych moderatorów, będą mieli te same uprawnienia co Ty.",
         "planVirtualRoomDescription": "Nadaj temu Wirtualnemu Pokojowi wymowną nazwę, aby uczestnicy wiedzieli czego będzie dotyczyć spotkanie."
     },
     "notification": {
@@ -599,7 +599,7 @@
         "removeMember": "Usuń członka",
         "enterYourVirtualRoomTooltip": "Dołącz do swojego Prywatnego Wirtualnego Pokoju",
         "copyUserVirtualRoomTooltip": "Skopiuj ten link i udostępnij go, aby dać innym dostęp do Twojego Prywatnego Wirtualnego Pokoju",
-        "copyVirtualRoomLinkTooltip": "Skopiuj ten link, aby udostępnić Wirtualny Pokój",
+        "copyVirtualRoomLinkTooltip": "Skopiuj ten link, aby udostępnić Wirtualny pokój",
         "disabledCreateButton": "Sprawdź swoje wejścia"
     },
     "external": {
@@ -621,7 +621,7 @@
         },
         "youAreEnteringMeeting": "Za chwilę dołączysz do Pokoju",
         "nobodyInTheVirtualRoom": "Wygląda na to, że w tym Wirtualnym Pokoju nikogo nie ma",
-        "virtualRoomIsEmpty": "Ten Wirtualny Pokój jest pusty",
+        "virtualRoomIsEmpty": "Ten Wirtualny pokój jest pusty",
         "youAreEnteringVirtualRoom": "Za chwilę dołączysz do Wirtualnego Pokoju"
     },
     "enterTheRoom": "Dołącz do Pokoju",
@@ -637,7 +637,7 @@
     "thanksForParticipating": "Dziękujemy za uczestniczenie",
     "tryLater": "Spróbuj później",
     "typeYourEmail": "Wpisz swój e-mail",
-    "virtualRoom": "Wirtualny Pokój",
+    "virtualRoom": "Wirtualny pokój",
     "preview": {
         "actions": {
             "tooltip": {
@@ -652,7 +652,7 @@
     "organizeYourVMeeting": "Organizuj swoje własne spotkania lub dołącz do Wirtualnych Pokoi swoich znajomych",
     "organizeYourVirtualMeeting": "Organizuj swoje własne spotkania lub dołącz do Wirtualnych Pokoi swoich znajomych",
     "personalRoomLabel": "Prywatny Pokój użytkownika {{userName}}",
-    "personalVirtualRoomLabel": "Prywatny Wirtualny Pokój użytkownika {{userName}}",
+    "personalVirtualRoomLabel": "Prywatny Wirtualny pokój użytkownika {{userName}}",
     "attachments": {
         "addFromLocal": "Dodaj z tego urządzenia",
         "attachLinkFromFiles": "Załącz link z Files",
