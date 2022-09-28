@@ -258,6 +258,7 @@
     },
     "meeting": {
         "attendeesComing": "Participants are coming",
+        "blurMyBackground": "Blur my background",
         "defaultViewModeDedicatedLabel": "The \"Dedicated Mode\" will redirect you to a separated tab of your browser to enjoy the Meeting experience at its best.",
         "defaultViewModeDedicatedLabelVirtualRoom": "The \"Dedicated Mode” will redirect you to a separated tab of your browser to enjoy the Virtual Room experience at its best.",
         "defaultViewModeDedicatedModeLabel": "Dedicated Mode",
@@ -311,10 +312,12 @@
             "stopMyVoice": "Stop my voice",
             "unpinVideo": "Unpin video"
         },
+        "noEffect": "No effect",
         "recordedByMe": "You have started recording",
         "recordedByOther": "{{username}} has started recording",
         "recording": "Recording",
         "resetMeetingUrlModalDescription": "Are you sure to reset the link for planned \"{{conversationName}}\"?",
+        "setVirtualBackground": "Set virtual background",
         "startModal": {
             "description": "How do you want to enter the meeting?",
             "descriptionMyPersonalVirtualRoom": "How do you want to enter your Personal Virtual Room?",
