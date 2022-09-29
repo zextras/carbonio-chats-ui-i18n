@@ -138,7 +138,10 @@
         "errorMeetingSavingRecording": "Невозможно остановить запись, попробуйте еще раз",
         "wereToFindRec": "Запись будет сохранена в Files в папке модератора, который остановил запись.",
         "defaultViewModeTitleModalVirtualRoom": "Настройки Конференц-зала",
-        "successSaveMeetingRecording": "Вы найдете запись {{registrationName}} в {{folderName}} как только она будет доступна"
+        "successSaveMeetingRecording": "Вы найдете запись {{registrationName}} в {{folderName}} как только она будет доступна",
+        "setVirtualBackground": "Установить виртуальный фон",
+        "noEffect": "Нет эффекта",
+        "blurMyBackground": "Размыть фон"
     },
     "tooltip": {
         "switchToInfoPanel": "Перейти в панель информации",
