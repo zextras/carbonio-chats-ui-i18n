@@ -260,7 +260,8 @@
             "playMyVoice": "Odtwórz mój głos",
             "micTesting": "Usłyszysz swój głos z domyślnego źrodła dźwięku. Będziesz mógł przetestować jakość swojego mikrofonu i wybrane dla spotkania źródło dźwięku",
             "playMic": "Rozpocznij test mikrofonu",
-            "stopMic": "Zatrzymaj test mikrofonu"
+            "stopMic": "Zatrzymaj test mikrofonu",
+            "hangOff": "Rozłącz się"
         },
         "resetMeetingUrlModalDescription": "Czy na pewno chcesz zresetować link dla \"{{conversationName}}\"?",
         "startModal": {
@@ -290,7 +291,10 @@
         "defaultViewModeDedicatedLabelVirtualRoom": "\"Tryb Dedykowany\" przekieruje Cię do oddzielnej karty przeglądarki, aby umożliwić Ci najlepsze doświadczenie Wirtualnego Pokoju.",
         "defaultViewModeDefaultLabelVirtualRoom": "Przy wybraniu \"Trybu Domyślnego\" Wirtualny pokój rozpocznie się w obecnym, wewnętrznym środowisku.",
         "successSaveMeetingRecording": "Znajdziesz {{registrationName}} w /{{folderName}} tak szybko gdy będzie to gotowe",
-        "wereToFindRec": "Nagranie zostanie zapisane w przestrzeni Files moderatora, który je zatrzyma."
+        "wereToFindRec": "Nagranie zostanie zapisane w przestrzeni Files moderatora, który je zatrzyma.",
+        "setVirtualBackground": "Ustaw wirtualne tło",
+        "noEffect": "Brak efektu",
+        "blurMyBackground": "Rozmaż moje tło"
     },
     "message": {
         "deletedMessage": "Wiadomość usunięta",
