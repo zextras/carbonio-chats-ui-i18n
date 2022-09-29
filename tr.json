@@ -253,7 +253,8 @@
             "stopMyVoice": "Sesimi durdur",
             "micTesting": "Sesinizi varsayılan ses çıkışından duyacaksınız, böylece toplantı için seçtiğiniz ses giriş ve ses çıkış kalitesini test edebilirsiniz",
             "playMic": "Mikrofon testini başlat",
-            "stopMic": "Mikrofon testini durdur"
+            "stopMic": "Mikrofon testini durdur",
+            "hangOff": "Kapat"
         },
         "startModal": {
             "description": "Toplantıya nasıl giriş yapmak istersiniz?",
@@ -285,7 +286,10 @@
         "defaultViewModeDefaultLabelVirtualRoom": "\"Varsayılan Mod\" seçerseniz, Sanal Oda şu andaki iç ortamda başlayacak.",
         "defaultViewModeTitleModalVirtualRoom": "Sanal Oda ortam seçenekleri",
         "errorMeetingSavingRecording": "Kayıt durdurulamıyor, lütfen tekrar deneyin",
-        "successSaveMeetingRecording": "Hazır olduğunda {{registrationName}} kayıdını /{{folderName}} klasöründe bulabilirsiniz"
+        "successSaveMeetingRecording": "Hazır olduğunda {{registrationName}} kayıdını /{{folderName}} klasöründe bulabilirsiniz",
+        "setVirtualBackground": "Sanal arkaplan ayarla",
+        "noEffect": "Efekt yok",
+        "blurMyBackground": "Flu arkaplan görünüm"
     },
     "message": {
         "deletedMessage": "Silinmiş mesaj",
