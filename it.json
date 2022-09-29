@@ -456,7 +456,10 @@
         "defaultViewModeDedicatedModeLabelVRoom": "Modalità Dedicata",
         "defaultViewModeTitleModalVirtualRoom": "Opzioni Stanza Virtuale",
         "errorMeetingSavingRecording": "Non è stato possibile fermare la registrazione, riprova",
-        "successSaveMeetingRecording": "Troverai {{registrationName}} all'interno di /{{folderName}} appena il file sarà disponibile"
+        "successSaveMeetingRecording": "Troverai {{registrationName}} all'interno di /{{folderName}} appena il file sarà disponibile",
+        "setVirtualBackground": "Imposta sfondo virtuale",
+        "noEffect": "Nessun effetto",
+        "blurMyBackground": "Applica sfocatura allo sfondo"
     },
     "modal": {
         "addModeratorDescription": "Seleziona uno o più utenti per promuoverli a moderatori di questa Stanza",
