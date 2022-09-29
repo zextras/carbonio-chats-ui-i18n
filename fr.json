@@ -373,7 +373,8 @@
             "stopMyVoice": "Arrêter ma voix",
             "micTesting": "Vous allez entendre votre voix dans la sortie par défaut, vous permettant de vérifier la qualité de votre micro en même temps que le bon fonctionnement de la sortie audio sélectionnée pour la réunion",
             "playMic": "Démarrer le test du micro",
-            "stopMic": "Arrêter le test du micro"
+            "stopMic": "Arrêter le test du micro",
+            "hangOff": "Accrochez-vous"
         },
         "startModal": {
             "description": "Comment souhaitez-vous entrer dans cette réunion ?",
@@ -405,7 +406,10 @@
         "defaultViewModeTitleModalVirtualRoom": "Options d'environnement de la Salle Virtuelle",
         "errorMeetingSavingRecording": "Il n'est pas possible d'arrêter l'enregistrement, veuillez réessayer",
         "successSaveMeetingRecording": "Vous trouverez {{registrationName}} dans /{{folderName}} dès qu'il sera disponible",
-        "wereToFindRec": "L'enregistrement sera enregistré dans l'espace Files du modérateur qui l'arrêtera."
+        "wereToFindRec": "L'enregistrement sera enregistré dans l'espace Files du modérateur qui l'arrêtera.",
+        "setVirtualBackground": "Définir un arrière plan virtuel",
+        "noEffect": "Pas d'effet",
+        "blurMyBackground": "Flouter mon arrière plan"
     },
     "modal": {
         "addModeratorDescription": "Sélectionner un ou plusieurs utilisateurs pour les promouvoir modérateurs de cette salle",
