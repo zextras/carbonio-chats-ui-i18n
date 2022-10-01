@@ -304,7 +304,8 @@
             "cameraEnabled": "カメラが有効になりました",
             "micTesting": "デフォルトの出力で自分の声が聞こえ、会議用に選択された出力だけでなく、入力の品質もテストできます",
             "playMic": "マイクテストを開始する",
-            "stopMic": "マイクテストを中止する"
+            "stopMic": "マイクテストを中止する",
+            "hangOff": "ためらう"
         },
         "startModal": {
             "description": "どのように会議に参加しますか？",
@@ -336,7 +337,10 @@
         "defaultViewModeDedicatedModeLabelVirtualRoom": "専用モード",
         "defaultViewModeTitleModalVirtualRoom": "バーチャルルーム環境オプション",
         "errorMeetingSavingRecording": "録音を停止することはできません。再度お試しください",
-        "wereToFindRec": "録音は、停止したモデレーターのファイルスペースに保存されます。"
+        "wereToFindRec": "録音は、停止したモデレーターのファイルスペースに保存されます。",
+        "setVirtualBackground": "仮想背景を設定する",
+        "noEffect": "影響なし",
+        "blurMyBackground": "背景をぼかす"
     },
     "message": {
         "deletedMessage": "削除されたメッセージ",
