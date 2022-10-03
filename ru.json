@@ -102,7 +102,8 @@
             "stopMyVoice": "Остановить воспроизведение",
             "micTesting": "Вы услышите свой голос на звуковом устройстве по умолчанию. Это позволит вам проверить качество вашего микрофона, а также звукового устройства, выбранного для встречи",
             "stopMic": "Остановить проверку микрофона",
-            "playMic": "Начать проверку микрофона"
+            "playMic": "Начать проверку микрофона",
+            "hangOff": "Повесить трубку"
         },
         "attendeesComing": "Участники присоединяются",
         "defaultViewModeDedicatedModeLabel": "Выделенный режим",
@@ -140,7 +141,7 @@
         "defaultViewModeTitleModalVirtualRoom": "Настройки Конференц-зала",
         "successSaveMeetingRecording": "Вы найдете запись {{registrationName}} в {{folderName}} как только она будет доступна",
         "setVirtualBackground": "Установить виртуальный фон",
-        "noEffect": "Нет эффекта",
+        "noEffect": "Без эффекта",
         "blurMyBackground": "Размыть фон"
     },
     "tooltip": {
