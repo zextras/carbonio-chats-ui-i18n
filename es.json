@@ -197,7 +197,8 @@
             "playMyVoice": "Reproducir mi voz",
             "micTesting": "Escucharás tu voz en la salida predeterminada, permitiéndote probar la calidad de tu entrada así como de la salida elegida para la reunión",
             "playMic": "Iniciar prueba del micrófono",
-            "stopMic": "Detener prueba del micrófono"
+            "stopMic": "Detener prueba del micrófono",
+            "hangOff": "Colgar"
         },
         "attendeesComing": "Los participantes están llegando",
         "defaultViewModeDedicatedModeLabel": "Modo dedicado",
@@ -233,7 +234,10 @@
         "errorMeetingSavingRecording": "No es posible detener la grabación, por favor, inténtalo de nuevo",
         "successSaveMeetingRecording": "Encontrarás {{registrationName}} en /{{folderName}} tan pronto como se encuentre disponible",
         "defaultViewModeDedicatedModeLabelVRoom": "Modo dedicado",
-        "defaultViewModeDedicatedModeLabelVirtualRoom": "Modo dedicado"
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Modo dedicado",
+        "setVirtualBackground": "Poner fondo virtual",
+        "noEffect": "Sin efecto",
+        "blurMyBackground": "Difuminar mi fondo"
     },
     "modal": {
         "confirm": {
