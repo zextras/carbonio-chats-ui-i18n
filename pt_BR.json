@@ -262,7 +262,8 @@
             "stopMyVoice": "Parar minha voz",
             "micTesting": "Você escutará sua voz na saída padrão, o que te permite testar a qualidade da entrada e da saída selecionada para a reunião",
             "playMic": "Iniciar teste do microfone",
-            "stopMic": "Parar teste do microfone"
+            "stopMic": "Parar teste do microfone",
+            "hangOff": "Desligar"
         },
         "startModal": {
             "description": "Como você quer entrar na reunião?",
@@ -294,7 +295,10 @@
         "defaultViewModeTitleModalVirtualRoom": "Opções de ambiente da Sala Virtual",
         "errorMeetingSavingRecording": "Não é possível parar a gravação. Tente novamente",
         "successSaveMeetingRecording": "Você encontrará {{registrationName}} em /{{folderName}} assim que estiver disponível",
-        "wereToFindRec": "A gravação será salva no espaço Files do moderador que a parou."
+        "wereToFindRec": "A gravação será salva no espaço Files do moderador que a parou.",
+        "setVirtualBackground": "Definir plano de fundo virtual",
+        "noEffect": "Sem efeito",
+        "blurMyBackground": "Desfocar meu plano de fundo"
     },
     "message": {
         "deletedMessage": "Mensagem excluída",
