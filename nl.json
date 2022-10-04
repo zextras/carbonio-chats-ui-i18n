@@ -155,7 +155,8 @@
             "stopMyVoice": "Stop mijn stem",
             "micTesting": "U hoort uw stem op de standaard output, zodat u de kwaliteit van uw input kunt testen, evenals de output die voor de vergadering is geselecteerd",
             "playMic": "Microfoontest starten",
-            "stopMic": "Microfoontest stoppen"
+            "stopMic": "Microfoontest stoppen",
+            "hangOff": "Ophangen"
         },
         "attendeesComing": "Deelnemers komen",
         "defaultViewModeDedicatedModeLabel": "Toegewijde modus",
@@ -191,7 +192,10 @@
         "wereToFindRec": "De opname wordt opgeslagen in de Bestandsruimte van de moderator die de opname heeft gestopt.",
         "defaultViewModeTitleModalVirtualRoom": "Virtuele Ruimtes omgevingsopties",
         "errorMeetingSavingRecording": "Het is niet mogelijk om de opname te stoppen, probeer het opnieuw",
-        "successSaveMeetingRecording": "U zult {{registrationName}} in /{{folderName}} vinden zodra het beschikbaar is"
+        "successSaveMeetingRecording": "U zult {{registrationName}} in /{{folderName}} vinden zodra het beschikbaar is",
+        "setVirtualBackground": "Virtuele achtergrond instellen",
+        "noEffect": "Geen effect",
+        "blurMyBackground": "Mijn achtergrond vervagen"
     },
     "message": {
         "now": "Nu",
