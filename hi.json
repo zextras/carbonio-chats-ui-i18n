@@ -306,7 +306,8 @@
             "playMyVoice": "मेरी आवाज़ प्ले करें",
             "micTesting": "आपको डिफ़ाल्ट आउटपुट में आपकी आवाज़ सुनाई देगी जिसे आप अपने मीटिंग के चुने गए इनपुट और आउटपुट की भी की क्वालिटी की जांच कर सकेंगे",
             "playMic": "माइक्रोफोन टेस्ट शुरू करें",
-            "stopMic": "माइक्रोफोन टेस्ट रोकें"
+            "stopMic": "माइक्रोफोन टेस्ट रोकें",
+            "hangOff": "हैंग ऑफ करें"
         },
         "startModal": {
             "description": "आप मीटिंग में कैसे एंटर करना चाहते हैं?",
@@ -338,7 +339,10 @@
         "successSaveMeetingRecording": "आप {{registrationName}} को /{{folderName}} में जैसे ही उपलब्ध होगा देख सकेंगे",
         "defaultViewModeTitleModalVirtualRoom": "Virtual Room एनवायरनमेंट ऑप्शन",
         "errorMeetingSavingRecording": "रिकॉर्डिंग रोक्न संभव नहीं है, दोबारा कोशिश करें",
-        "wereToFindRec": "रिकॉर्डिंग को उस मॉडरेटर के Files स्पेस में सेव किया जाएगा जिसने इसे रोका था।"
+        "wereToFindRec": "रिकॉर्डिंग को उस मॉडरेटर के Files स्पेस में सेव किया जाएगा जिसने इसे रोका था।",
+        "setVirtualBackground": "वर्चुअल बैकग्राउंड सेट करें",
+        "noEffect": "कोई असर नहीं",
+        "blurMyBackground": "मेरा बैकग्राउंड धुंधला करें"
     },
     "message": {
         "deletedMessage": "डिलीट किया मैसेज",
