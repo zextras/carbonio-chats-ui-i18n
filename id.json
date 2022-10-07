@@ -315,7 +315,8 @@
             "stopMyVoice": "Hentikan suara saya",
             "micTesting": "Anda akan mendengar suara di output default, sehingga bisa menguji kualitas input dan output yang dipilih untuk rapat",
             "playMic": "Mulai uji mikrofon",
-            "stopMic": "Hentikan uji mikrofon"
+            "stopMic": "Hentikan uji mikrofon",
+            "hangOff": "Tutup"
         },
         "startModal": {
             "description": "Bagaimana cara yang Anda inginkan untuk masuk ke rapat?",
@@ -347,7 +348,10 @@
         "successSaveMeetingRecording": "Anda akan menemukan {{registrationName}} di /{{folderName}} segera setelah tersedia",
         "defaultViewModeTitleModalVirtualRoom": "Opsi lingkungan Ruang Virtual",
         "errorMeetingSavingRecording": "Perekaman tidak bisa dihentikan, coba lagi",
-        "wereToFindRec": "Rekaman akan disimpan di ruang Files moderator yang menghentikannya."
+        "wereToFindRec": "Rekaman akan disimpan di ruang Files moderator yang menghentikannya.",
+        "setVirtualBackground": "Atur latar belakang virtual",
+        "noEffect": "Tak ada efek",
+        "blurMyBackground": "Buramkan latar belakang saya"
     },
     "message": {
         "deletedMessage": "Pesan yang dihapus",
