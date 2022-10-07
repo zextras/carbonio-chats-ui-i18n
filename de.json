@@ -382,7 +382,8 @@
             "stopMyVoice": "Meine Stimme stoppen",
             "micTesting": "Sie werden eine Stimme in Ihrem Standard-Ausgabegerät hören, wodurch Sie die sowohl die Sprach- als auch die Audioqualität für Ihr Meeting testen können",
             "playMic": "Mikrofon Test starten",
-            "stopMic": "Mikrofon Test anhalten"
+            "stopMic": "Mikrofon Test anhalten",
+            "hangOff": "Auflegen"
         },
         "startModal": {
             "description": "Wie möchten Sie dem Meeting beitreten?",
@@ -414,7 +415,10 @@
         "successSaveMeetingRecording": "Sie werden {{registrationName}} in /{{folderName}} finden, sobald dieser zur Verfügung steht",
         "defaultViewModeTitleModalVirtualRoom": "Umgebungsoptionen für Virtuelle Räume",
         "errorMeetingSavingRecording": "Es ist nicht möglich, die Aufnahme anzuhalten, bitte versuchen Sie es erneut",
-        "wereToFindRec": "Die Aufnahme wird im Files Space des Moderators gespeichert werden, der diese beendet hat."
+        "wereToFindRec": "Die Aufnahme wird im Files Space des Moderators gespeichert werden, der diese beendet hat.",
+        "setVirtualBackground": "Virtuellen Hintergrund festlegen",
+        "noEffect": "Keine Auswirkung",
+        "blurMyBackground": "Hintergrund weichzeichnen"
     },
     "modal": {
         "addModeratorDescription": "Einen oder mehrere Nutzer auswählen, um diese zu Moderatoren des Raums zu ernennen",
