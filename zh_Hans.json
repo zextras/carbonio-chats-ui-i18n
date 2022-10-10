@@ -415,7 +415,8 @@
             "playMyVoice": "播放我的声音",
             "micTesting": "您将在默认输出中听到自己的声音，便于测试输入质量并为会议选择输出",
             "playMic": "启动麦克风测试",
-            "stopMic": "停止麦克风测试"
+            "stopMic": "停止麦克风测试",
+            "hangOff": "挂断"
         },
         "startModal": {
             "description": "您想如何进入该会议？",
@@ -447,7 +448,10 @@
         "defaultViewModeDefaultLabelVirtualRoom": "选择“默认模式”后，虚拟将在当前内部环境中开始。",
         "errorMeetingSavingRecording": "无法停止录制，请重试",
         "successSaveMeetingRecording": "您将在 {{registrationName}} 可用时于 /{{folderName}} 中立即找到它",
-        "wereToFindRec": "录制将被保存在将其停止的主持人的文件空间中。"
+        "wereToFindRec": "录制将被保存在将其停止的主持人的文件空间中。",
+        "setVirtualBackground": "设置虚拟背景",
+        "noEffect": "无效果",
+        "blurMyBackground": "模糊背景"
     },
     "modal": {
         "addModeratorDescription": "选择一个或多个用户以将其提权为房间主持人",
