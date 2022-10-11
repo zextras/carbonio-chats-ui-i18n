@@ -21,7 +21,7 @@
         "createChannel": "Stwórz kanał powiązany z {{spaceName}}",
         "createChat": "Stwórz Czat",
         "createGroup": "Stwórz Grupę",
-        "createInstantMeeting": "Stwórz Natychmiastowe Spotkanie",
+        "createInstantMeeting": "Stwórz Natychmiastowe spotkanie",
         "createSpace": "Stwórz Przestrzeń",
         "delete": "Usuń",
         "deleteChannel": "Usuń Kanał",
@@ -83,7 +83,7 @@
         "name": "Nazwa",
         "instantInfo": "Informacje o natychmiastowym spotkaniu",
         "nameRoom": "Pokój {{conversationTitle}}",
-        "newMessages": "Nowe Wiadomości",
+        "newMessages": "Nowe wiadomości",
         "roomInfo": "Informacje o pokoju",
         "roomLink": "Link do pokoju",
         "roomLinkDescription": "Skopiuj ten link i udostępnij go, aby umożliwić użytkownikom dostęp do tego Pokoju.",
@@ -108,7 +108,7 @@
         "mockDisplayDescription": "Wybierz konwersację, aby rozpocząć czat",
         "mockDisplayTitle": "Będziemy w kontakcie!",
         "noActiveChats": "Nie ma żadnych aktywnych czatów na ten moment. Stwórz nowy czat lub zmień kartę.",
-        "noActiveInstantMeetings": "Nie ma żadnych aktywnych Natychmiastowych Spotkań w tym momencie. Stwórz nowe Natychmiastowe Spotkanie lub zmień kartę.",
+        "noActiveInstantMeetings": "Nie ma żadnych aktywnych Natychmiastowych spotkań w tym momencie. Stwórz nowe Natychmiastowe spotkanie lub zmień kartę.",
         "noActiveMeetings": "Nie ma żadnych aktywnych Pokoi w tym momencie",
         "noActiveSpaces": "Nie ma żadnych aktywnych Przestrzeni w tym momencie. Stwórz nową Przestrzeń lub zmień kartę.",
         "noFilteredChats": "Nie ma żadnych czatów, które pasują do tego filtra.",
@@ -123,9 +123,9 @@
         "yourRoom": "Twój Pokój",
         "noActiveVirtualRooms": "Nie ma w tej chwili żadnych aktywnych Wirtualnych Pokoi",
         "noFilteredVirtualRooms": "Nie ma żadnych Wirtualnych Pokoi ani zaplanowanych spotkań, które odpowiadają temu filtrowi",
-        "activeVirtualRooms": "Aktywne Wirtualne Pokoje",
+        "activeVirtualRooms": "Aktywne wirtualne pokoje",
         "personalVirtualRoom": "Prywatny Wirtualny pokój",
-        "virtualRooms": "Wirtualne Pokoje"
+        "virtualRooms": "Wirtualne pokoje"
     },
     "creation": {
         "attendeeAdded": "Uczestnik został dodany do listy",
@@ -443,7 +443,7 @@
         "instantMeeting": {
             "closedInstantMeeting": "Natychmiastowe Spotkanie zostało zamknięte",
             "continue": "Kontynuuj używając starego Natychmiastowego Spotkania",
-            "create": "Stwórz nowe Natychmiastowe Spotkanie",
+            "create": "Stwórz nowe Natychmiastowe spotkanie",
             "instantMeetingAlreadyRunningText": "Stworzenie nowego nadpisze starsze spotkanie, uczestnicy się wtedy rozłączą, co chcesz zrobić?",
             "endCallByOwner": "Organizator tego Natychmiastowego Spotkania zdecydował zakończyć tą rozmowę. Mamy nadzieję, że ta rozmowa była dla ciebie pozytywnym doświadczeniem",
             "instantMeetingAlreadyRunningTitle": "Natychmiastowe Spotkanie już się rozpoczęło"
@@ -509,20 +509,20 @@
             "enableMicrophone": "Włącz mikrofon",
             "enableEchoCancellation": "Redukcja echa",
             "enableNoiseSuppression": "Redukcja szumu",
-            "personalVirtualRoomOptionsTitleModal": "Link do Prywatnego Wirtualnego Pokoju został zresetowany",
+            "personalVirtualRoomOptionsTitleModal": "Resetowanie linku do prywatnego wirtualnego pokoju",
             "personalVirtualRoomResetButton": "Zresetuj link do Prywatnego Wirtualnego Pokoju",
-            "personalVirtualRoomResetDescription": "Resetując link do Prywatnego Wirtualnego Pokoju, wszystkie poprzednio udzielone dostępy przestaną działać.",
-            "virtualRooms": "Wirtualne Pokoje",
+            "personalVirtualRoomResetDescription": "Resetując link do prywatnego wirtualnego pokoju, wszystkie poprzednio udzielone dostępy przestaną działać.",
+            "virtualRooms": "Wirtualne pokoje",
             "voiceProcessing": "Przetwarzanie głosu",
             "voiceProcessingDescription": "Usłyszysz swój głos z domyślnego źrodła dźwięku. Będziesz mógł przetestować jakość swojego mikrofonu i wybrane dla spotkania źródło dźwięku",
-            "descriptionVirtualRoom": "Ustaw swoje preferencje dźwięku i wideo zanim dołączysz do Wirtualnego Pokoju. Możesz dostosować swoje preferencje przed dołączeniem do każdego Wirtualnego Pokoju."
+            "descriptionVirtualRoom": "Ustaw swoje preferencje dźwięku i wideo zanim dołączysz do wirtualnego pokoju. Możesz dostosować swoje preferencje przed dołączeniem do każdego wirtualnego pokoju."
         },
         "modal": {
-            "title": "Ustawienia Czatów",
+            "title": "Ustawienia czatów",
             "description": "Tutaj możesz dostosować wszystkie preferencje dot. Czatów, aby cieszyć się jak najlepszym doświadczeniem w pełni dostosowanego czatu!"
         },
         "notification": {
-            "desktop": "Powiadomienia Pulpitu",
+            "desktop": "Powiadomienia na pulpicie",
             "openMinichatDescription": "Dostosuj otwieranie miniczatów",
             "title": {
                 "notifications": "Powiadomienia",
