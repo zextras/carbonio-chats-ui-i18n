@@ -541,7 +541,7 @@
             "maximumDimension": "Max. rozmiar: 256kb.",
             "reset": "Zresetuj",
             "restore": "Przywróć",
-            "statusOptionalDescription": "Opcjonalne. Powiedz innym o czym teraz myślisz. Max. 256 znaków",
+            "statusOptionalDescription": "Opcjonalny. Powiedz innym o czym teraz myślisz. Max. 256 znaków",
             "title": "Profil",
             "update": "Zaktualizuj"
         },
