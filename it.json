@@ -424,7 +424,8 @@
             "stopMyVoice": "Ferma la mia voce",
             "stopMic": "Ferma il test del microfono",
             "playMic": "Inizia il test del microfono",
-            "micTesting": "Ascolterai la tua voce dall'uscita audio predefinita. Questo di permetterà di testare la qualità dell'audio in entrata e in uscita per la riunione"
+            "micTesting": "Ascolterai la tua voce dall'uscita audio predefinita. Questo di permetterà di testare la qualità dell'audio in entrata e in uscita per la riunione",
+            "hangOff": "Aggancia"
         },
         "startModal": {
             "description": "Come vuoi accedere al meeting?",
