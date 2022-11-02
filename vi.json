@@ -287,7 +287,8 @@
             "enableAudio": "Bật âm thanh",
             "enableFullScreen": "Full màn hình",
             "enableScreenSharing": "Bật chế độ chia sẻ màn hình",
-            "enableVideo": "Bật Video"
+            "enableVideo": "Bật Video",
+            "hangOff": "Nhấc máy"
         },
         "startModal": {
             "description": "Vì sao bạn muốn tham gia vào cuộc họp?",
@@ -322,7 +323,10 @@
         "defaultViewModeTitleModal": "Tuỳ chọn môi trường cuộc họp",
         "defaultViewModeTitleModalVirtualRoom": "Tuỳ chọn môi trường phòng ảo",
         "errorMeetingSavingRecording": "Không thể dừng ghi, vui lòng thử lại",
-        "genericErrorMeeting": "Có vẻ như có sự cố với cuộc họp này, hãy liên hệ với quản trị viên hệ thống của bạn."
+        "genericErrorMeeting": "Có vẻ như có sự cố với cuộc họp này, hãy liên hệ với quản trị viên hệ thống của bạn.",
+        "setVirtualBackground": "Đặt nền ảo",
+        "noEffect": "Không ảnh hưởng",
+        "blurMyBackground": "Làm mờ nền của tôi"
     },
     "action": {
         "close": "Đóng",
