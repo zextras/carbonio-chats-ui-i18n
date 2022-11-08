@@ -208,11 +208,18 @@
         "title": "Sorry, we couldn’t find that Room"
     },
     "external": {
+        "appStoreLabel": "App Store",
+        "doYouHaveTheAppChats": "Do you already own the Carbonio Chats app?",
+        "doYouHaveTheAppTeam": "Do you already own the Zextras Chats app?",
+        "downloadAppLabel": "Download the app to join the meeting",
+        "enter": "Join in!",
         "login": {
             "externalLoginDescription": "If you already belong to this domain, you will be redirected to your usual workspace. If you're an external user you will be redirected to a dedicated interface."
         },
         "nobodyInTheRoom": "It seems nobody is in this Room",
         "nobodyInTheVirtualRoom": "It seems nobody is in this Virtual Room",
+        "orLabel": "or",
+        "playStoreLabel": "Google Play",
         "roomIsEmpty": "This Room is empty",
         "unsupported": {
             "browser": "Unsupported browser",
