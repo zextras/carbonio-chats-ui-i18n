@@ -209,8 +209,8 @@
     },
     "external": {
         "appStoreLabel": "App Store",
-        "doYouHaveTheAppChats": "Do you already own the Carbonio Chats app?",
-        "doYouHaveTheAppTeam": "Do you already own the Zextras Chats app?",
+        "doYouHaveTheAppChats": "Do you already have the Carbonio Chats app?",
+        "doYouHaveTheAppTeam": "Do you already have the Zextras Chats app?",
         "downloadAppLabel": "Download the app to join the meeting",
         "enter": "Join in!",
         "login": {
