@@ -631,7 +631,14 @@
         "youAreEnteringMeeting": "Stai entrando nella Stanza",
         "nobodyInTheVirtualRoom": "Sembra che non ci sia nessuno nella Stanza Virtuale",
         "virtualRoomIsEmpty": "La Stanza Virtuale è vuota",
-        "youAreEnteringVirtualRoom": "Stai entrando nella Stanza Virtuale"
+        "youAreEnteringVirtualRoom": "Stai entrando nella Stanza Virtuale",
+        "playStoreLabel": "Google Play",
+        "orLabel": "o",
+        "enter": "Partecipa!",
+        "doYouHaveTheAppTeam": "Hai già l'app Zextras Chats?",
+        "doYouHaveTheAppChats": "Hai già l'app Carbonio Chats?",
+        "downloadAppLabel": "Scarica l'applicazione per partecipare alla riunione",
+        "appStoreLabel": "App Store"
     },
     "label": {
         "app_name": "Chat"
