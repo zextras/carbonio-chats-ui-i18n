@@ -626,7 +626,14 @@
         "youAreEnteringMeeting": "Za chwilę dołączysz do pokoju",
         "nobodyInTheVirtualRoom": "Wygląda na to, że w tym wirtualnym pokoju nikogo nie ma",
         "virtualRoomIsEmpty": "Ten wirtualny pokój jest pusty",
-        "youAreEnteringVirtualRoom": "Za chwilę dołączysz do wirtualnego pokoju"
+        "youAreEnteringVirtualRoom": "Za chwilę dołączysz do wirtualnego pokoju",
+        "playStoreLabel": "Sklep Google Play",
+        "orLabel": "lub",
+        "enter": "Dołącz!",
+        "downloadAppLabel": "Aby dołączyć do spotkania, pobierz aplikację",
+        "doYouHaveTheAppTeam": "Masz już aplikację Zextras Chats?",
+        "doYouHaveTheAppChats": "Masz już aplikację Carbonio Chats?",
+        "appStoreLabel": "App Store"
     },
     "enterTheRoom": "Dołącz do pokoju",
     "errorPage": {
