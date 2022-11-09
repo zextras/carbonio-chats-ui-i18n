@@ -627,7 +627,14 @@
         "youAreEnteringMeeting": "Oda'ya girmek üzeresiniz",
         "nobodyInTheVirtualRoom": "Bu Sanal Oda'da kimse yok",
         "virtualRoomIsEmpty": "Bu Sanal Oda boş",
-        "youAreEnteringVirtualRoom": "Sanal Oda'ya girmek üzeresiniz"
+        "youAreEnteringVirtualRoom": "Sanal Oda'ya girmek üzeresiniz",
+        "doYouHaveTheAppTeam": "Zextras Chats uygulaması kullanıyor musunuz?",
+        "doYouHaveTheAppChats": "Carbonio Chats uygulaması kullanıyor musunuz?",
+        "playStoreLabel": "Google Play",
+        "orLabel": "veya",
+        "enter": "Toplantıya katıl!",
+        "downloadAppLabel": "Toplantıya katılmak için uygulamayı indirin",
+        "appStoreLabel": "App Store"
     },
     "label": {
         "app_name": "Sohbetler"
