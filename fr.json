@@ -632,7 +632,14 @@
         "youAreEnteringMeeting": "Vous êtes sur le point de rejoindre la salle",
         "nobodyInTheVirtualRoom": "Il semblerai qu'il n'y ai personne dans cette Salle Virtuelle",
         "virtualRoomIsEmpty": "Cette Salle Virtuelle est vide",
-        "youAreEnteringVirtualRoom": "Vous êtes sur le point d'entrer dans la Salle Virtuelle"
+        "youAreEnteringVirtualRoom": "Vous êtes sur le point d'entrer dans la Salle Virtuelle",
+        "playStoreLabel": "Google Play",
+        "orLabel": "ou",
+        "enter": "Rejoindre !",
+        "downloadAppLabel": "Télécharger l'application pour rejoindre la réunion",
+        "doYouHaveTheAppTeam": "Avez-vous déjà l'application Zextras Chats ?",
+        "doYouHaveTheAppChats": "Avez-vous déjà l'application Carbonio Chats ?",
+        "appStoreLabel": "Magasin d'applications"
     },
     "thanksForParticipating": "Merci pour votre participation",
     "label": {
