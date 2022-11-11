@@ -129,7 +129,7 @@
         "recordedByMe": "Вы начали запись",
         "recordedByOther": "{{username}} включил запись",
         "recording": "Запись",
-        "thisMeetingIsBeingRecorded": "Эта встреча была записана",
+        "thisMeetingIsBeingRecorded": "Идет запись",
         "genericErrorMeeting": "С этой встречей возникла проблема. Обратитесь к системному администратору.",
         "wereToFindRecording": "Запись будет сохранена на локальном видеосервере. Для получения дополнительной информации обратитесь к системному администратору.",
         "defaultViewModeDedicatedLabelVirtualRoom": "«Выделенный режим» перенаправит вас на отдельную вкладку вашего браузера.",
@@ -631,7 +631,14 @@
         },
         "nobodyInTheVirtualRoom": "Кажется никого нет в этом Зале",
         "virtualRoomIsEmpty": "Этот Конференц-зал пустой",
-        "youAreEnteringVirtualRoom": "Вы собираетесь войти в Конференц-зал"
+        "youAreEnteringVirtualRoom": "Вы собираетесь войти в Конференц-зал",
+        "playStoreLabel": "Google Play",
+        "orLabel": "или",
+        "enter": "Присоединяйтесь!",
+        "downloadAppLabel": "Скачайте приложение, чтобы присоединиться к встрече",
+        "doYouHaveTheAppTeam": "У вас уже установлено приложение Zextras Chats?",
+        "doYouHaveTheAppChats": "У вас уже установлено приложение Carbonio Chats?",
+        "appStoreLabel": "App Store"
     },
     "label": {
         "app_name": "Chats"
