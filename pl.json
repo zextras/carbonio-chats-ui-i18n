@@ -448,7 +448,7 @@
             "endCallByOwner": "Organizator tego Natychmiastowego Spotkania zdecydował zakończyć tą rozmowę. Mamy nadzieję, że ta rozmowa była dla ciebie pozytywnym doświadczeniem",
             "instantMeetingAlreadyRunningTitle": "Natychmiastowe Spotkanie już się rozpoczęło"
         },
-        "showPreviousConversationHistory": "Pokaż członkowi poprzednie wiadomości",
+        "showPreviousConversationHistory": "Pokaż wiadomości przed dołączeniem",
         "moderatorCannotLeaveGroupDescription": "Jesteś jedynym moderatorem {{conversationName}}, musisz awansować kogoś nowego na moderatora, aby móc opuścić grupę.",
         "moderatorCannotLeaveGroupTitle": "Poczekaj, potrzebny jest nowy moderator",
         "notShowAgain": "Nie pokazuj tego ponownie",
