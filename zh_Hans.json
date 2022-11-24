@@ -626,7 +626,8 @@
         },
         "nobodyInTheVirtualRoom": "似乎虚拟房间中没有人",
         "virtualRoomIsEmpty": "此虚拟房间为空",
-        "youAreEnteringVirtualRoom": "您即将进入虚拟房间"
+        "youAreEnteringVirtualRoom": "您即将进入虚拟房间",
+        "orLabel": "或"
     },
     "label": {
         "app_name": "聊天"
