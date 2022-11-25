@@ -627,7 +627,8 @@
         },
         "nobodyInTheVirtualRoom": "ऐसा लगता है इस Virtual Room में कोई नहीं है",
         "virtualRoomIsEmpty": "यह Virtual Room खाली है",
-        "youAreEnteringVirtualRoom": "आप Virtual Room में एंटर करने जा रहे हैं"
+        "youAreEnteringVirtualRoom": "आप Virtual Room में एंटर करने जा रहे हैं",
+        "orLabel": "या"
     },
     "label": {
         "app_name": "चैट"
