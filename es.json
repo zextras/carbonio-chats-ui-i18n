@@ -626,7 +626,8 @@
         },
         "nobodyInTheVirtualRoom": "Parece que no hay nadie en esta Sala Virtual",
         "virtualRoomIsEmpty": "Esta Sala Virtual está vacía",
-        "youAreEnteringVirtualRoom": "Estás a punto de entrar en la Sala Virtual"
+        "youAreEnteringVirtualRoom": "Estás a punto de entrar en la Sala Virtual",
+        "orLabel": "o"
     },
     "enterTheRoom": "Entrar a la sala",
     "label": {
