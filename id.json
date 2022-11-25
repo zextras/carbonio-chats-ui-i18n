@@ -627,7 +627,8 @@
         },
         "nobodyInTheVirtualRoom": "Tampaknya tak ada seorang pun di Ruang Virtual ini",
         "virtualRoomIsEmpty": "Ruang Virtual ini kosong",
-        "youAreEnteringVirtualRoom": "Anda akan masuk ke Ruang Virtual"
+        "youAreEnteringVirtualRoom": "Anda akan masuk ke Ruang Virtual",
+        "orLabel": "atau"
     },
     "label": {
         "app_name": "Chats"
