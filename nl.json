@@ -626,7 +626,8 @@
         },
         "nobodyInTheVirtualRoom": "Het lijkt erop dat er niemand in deze Virtuele Ruimte is",
         "virtualRoomIsEmpty": "Deze Virtuele Ruimte is leeg",
-        "youAreEnteringVirtualRoom": "U staat op het punt de Virtuele Ruimte binnen te gaan"
+        "youAreEnteringVirtualRoom": "U staat op het punt de Virtuele Ruimte binnen te gaan",
+        "orLabel": "of"
     },
     "enterTheRoom": "De Ruimte betreden",
     "label": {
