@@ -626,7 +626,8 @@
         },
         "nobodyInTheVirtualRoom": "Es scheint niemand in diesem Virtuellen Raum zu sein",
         "virtualRoomIsEmpty": "Dieser Virtuelle Raum ist leer",
-        "youAreEnteringVirtualRoom": "Sie sind kurz davor, den Virtuellen Raum zu betreten"
+        "youAreEnteringVirtualRoom": "Sie sind kurz davor, den Virtuellen Raum zu betreten",
+        "orLabel": "oder"
     },
     "label": {
         "app_name": "Chats"
