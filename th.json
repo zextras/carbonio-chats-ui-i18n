@@ -627,7 +627,8 @@
         },
         "youAreEnteringVirtualRoom": "คุณกำลังจะเข้าสู่ห้องเสมือนจริง",
         "nobodyInTheVirtualRoom": "ดูเหมือนว่าไม่มีใครอยู่ในห้องเสมือนจริงนี้",
-        "virtualRoomIsEmpty": "ห้องเสมือนจริงนี้ว่างเปล่า"
+        "virtualRoomIsEmpty": "ห้องเสมือนจริงนี้ว่างเปล่า",
+        "orLabel": "หรือ"
     },
     "label": {
         "app_name": "Chats"
