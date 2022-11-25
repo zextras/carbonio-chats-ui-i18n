@@ -635,7 +635,8 @@
         "youAreEnteringMeeting": "ルームに入ろうとしています",
         "youAreEnteringVirtualRoom": "バーチャルルームに入室しようとしています",
         "nobodyInTheVirtualRoom": "このバーチャルルームには誰もいないようです",
-        "virtualRoomIsEmpty": "このバーチャルルームは空です"
+        "virtualRoomIsEmpty": "このバーチャルルームは空です",
+        "orLabel": "または"
     },
     "thanksForParticipating": "参加していただきありがとうございます",
     "organizeYourMeeting": "自分の会議を開催したり、同僚のルームに入室したりできます",
