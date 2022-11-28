@@ -627,7 +627,13 @@
         "nobodyInTheVirtualRoom": "Parece que no hay nadie en esta Sala Virtual",
         "virtualRoomIsEmpty": "Esta Sala Virtual está vacía",
         "youAreEnteringVirtualRoom": "Estás a punto de entrar en la Sala Virtual",
-        "orLabel": "o"
+        "orLabel": "o",
+        "appStoreLabel": "App Store",
+        "doYouHaveTheAppTeam": "¿Ya tienes la aplicación Zextras Chats?",
+        "downloadAppLabel": "Descargar la aplicación para unirte a la reunión",
+        "enter": "¡Unirte!",
+        "playStoreLabel": "Google Play",
+        "doYouHaveTheAppChats": "¿Ya tienes la applicación Carbonio Chats?"
     },
     "enterTheRoom": "Entrar a la sala",
     "label": {
