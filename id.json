@@ -628,7 +628,13 @@
         "nobodyInTheVirtualRoom": "Tampaknya tak ada seorang pun di Ruang Virtual ini",
         "virtualRoomIsEmpty": "Ruang Virtual ini kosong",
         "youAreEnteringVirtualRoom": "Anda akan masuk ke Ruang Virtual",
-        "orLabel": "atau"
+        "orLabel": "atau",
+        "appStoreLabel": "App Store",
+        "doYouHaveTheAppTeam": "Sudah memiliki aplikasi Zextras Chats?",
+        "downloadAppLabel": "Unduh aplikasi untuk mengikuti rapat",
+        "enter": "Gabung!",
+        "playStoreLabel": "Google Play",
+        "doYouHaveTheAppChats": "Sudah memiliki aplikasi Carbonio Chats?"
     },
     "label": {
         "app_name": "Chats"
