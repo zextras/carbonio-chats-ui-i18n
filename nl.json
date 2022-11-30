@@ -627,7 +627,13 @@
         "nobodyInTheVirtualRoom": "Het lijkt erop dat er niemand in deze Virtuele Ruimte is",
         "virtualRoomIsEmpty": "Deze Virtuele Ruimte is leeg",
         "youAreEnteringVirtualRoom": "U staat op het punt de Virtuele Ruimte binnen te gaan",
-        "orLabel": "of"
+        "orLabel": "of",
+        "appStoreLabel": "App Store",
+        "doYouHaveTheAppTeam": "Heeft u de Zextra Chats app al?",
+        "downloadAppLabel": "Download de app om deel te nemen aan de vergadering",
+        "enter": "Doe mee!",
+        "playStoreLabel": "Google Play",
+        "doYouHaveTheAppChats": "Heeft u de Carbonio Chats app al?"
     },
     "enterTheRoom": "De Ruimte betreden",
     "label": {
