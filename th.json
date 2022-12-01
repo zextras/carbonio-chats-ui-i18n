@@ -628,7 +628,13 @@
         "youAreEnteringVirtualRoom": "คุณกำลังจะเข้าสู่ห้องเสมือนจริง",
         "nobodyInTheVirtualRoom": "ดูเหมือนว่าไม่มีใครอยู่ในห้องเสมือนจริงนี้",
         "virtualRoomIsEmpty": "ห้องเสมือนจริงนี้ว่างเปล่า",
-        "orLabel": "หรือ"
+        "orLabel": "หรือ",
+        "doYouHaveTheAppTeam": "คุณมีแอป Zextras Chats แล้วหรือยัง?",
+        "downloadAppLabel": "ดาวน์โหลดแอปเพื่อเข้าร่วมการประชุม",
+        "enter": "เข้าร่วม!",
+        "appStoreLabel": "App Store",
+        "doYouHaveTheAppChats": "คุณมีแอป Carbonio Chats แล้วหรือยัง?",
+        "playStoreLabel": "Google Play"
     },
     "label": {
         "app_name": "Chats"
