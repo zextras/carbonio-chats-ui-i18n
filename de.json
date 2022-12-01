@@ -627,7 +627,13 @@
         "nobodyInTheVirtualRoom": "Es scheint niemand in diesem Virtuellen Raum zu sein",
         "virtualRoomIsEmpty": "Dieser Virtuelle Raum ist leer",
         "youAreEnteringVirtualRoom": "Sie sind kurz davor, den Virtuellen Raum zu betreten",
-        "orLabel": "oder"
+        "orLabel": "oder",
+        "appStoreLabel": "App Store",
+        "doYouHaveTheAppChats": "Haben Sie bereits die Carbonio Chats App?",
+        "doYouHaveTheAppTeam": "Haben Sie bereits die Zextras Chats App?",
+        "downloadAppLabel": "Laden Sie die App herunter, um an dem Meeting teilzunehmen",
+        "enter": "Teilnehmen!",
+        "playStoreLabel": "Google Play"
     },
     "label": {
         "app_name": "Chats"
