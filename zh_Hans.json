@@ -627,7 +627,13 @@
         "nobodyInTheVirtualRoom": "似乎虚拟房间中没有人",
         "virtualRoomIsEmpty": "此虚拟房间为空",
         "youAreEnteringVirtualRoom": "您即将进入虚拟房间",
-        "orLabel": "或"
+        "orLabel": "或",
+        "appStoreLabel": "App Store",
+        "downloadAppLabel": "下载应用以加入会议",
+        "enter": "加入！",
+        "playStoreLabel": "Google Play",
+        "doYouHaveTheAppChats": "是否已有Carbonio Chats应用？",
+        "doYouHaveTheAppTeam": "是否已有Zextras Chats应用？"
     },
     "label": {
         "app_name": "聊天"
