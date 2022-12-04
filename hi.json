@@ -307,7 +307,7 @@
             "micTesting": "आपको डिफ़ाल्ट आउटपुट में आपकी आवाज़ सुनाई देगी जिसे आप अपने मीटिंग के चुने गए इनपुट और आउटपुट की भी की क्वालिटी की जांच कर सकेंगे",
             "playMic": "माइक्रोफोन टेस्ट शुरू करें",
             "stopMic": "माइक्रोफोन टेस्ट रोकें",
-            "hangOff": "हैंग ऑफ करें"
+            "hangOff": "हैंग अप करें"
         },
         "startModal": {
             "description": "आप मीटिंग में कैसे एंटर करना चाहते हैं?",
@@ -628,7 +628,13 @@
         "nobodyInTheVirtualRoom": "ऐसा लगता है इस Virtual Room में कोई नहीं है",
         "virtualRoomIsEmpty": "यह Virtual Room खाली है",
         "youAreEnteringVirtualRoom": "आप Virtual Room में एंटर करने जा रहे हैं",
-        "orLabel": "या"
+        "orLabel": "या",
+        "appStoreLabel": "App Store",
+        "doYouHaveTheAppChats": "क्या आपके पास Carbonio Chats एप पहले से है?",
+        "doYouHaveTheAppTeam": "क्या आपके पास Zextras Chats एप पहले से है?",
+        "downloadAppLabel": "मीटिंग जॉइन करने के लिए एप डाऊनलोड करें",
+        "enter": "जॉइन करें!",
+        "playStoreLabel": "Google Play"
     },
     "label": {
         "app_name": "चैट"
