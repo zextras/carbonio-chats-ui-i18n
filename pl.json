@@ -555,7 +555,7 @@
     },
     "status": {
         "areWriting": "piszą…",
-        "externalGuest": "Gość spoza mojej domeny",
+        "externalGuest": "Gość spoza domeny",
         "internalGuest": "Gość z mojej domeny",
         "isWriting": "pisze…",
         "lastSeen": "Ostatnio widziano {{lastSeen}}",
