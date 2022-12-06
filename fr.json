@@ -374,7 +374,7 @@
             "micTesting": "Vous allez entendre votre voix dans la sortie par défaut, vous permettant de vérifier la qualité de votre micro en même temps que le bon fonctionnement de la sortie audio sélectionnée pour la réunion",
             "playMic": "Démarrer le test du micro",
             "stopMic": "Arrêter le test du micro",
-            "hangOff": "Accrochez-vous"
+            "hangOff": "Raccrocher"
         },
         "startModal": {
             "description": "Comment souhaitez-vous entrer dans cette réunion ?",
