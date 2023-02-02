@@ -92,7 +92,11 @@
         "noActiveVirtualRooms": "Non ci sono Stanze Virtuali attive al momento",
         "noFilteredVirtualRooms": "Nessuna Stanza Virtuale o riunione programmata trovata per questo filtro",
         "personalVirtualRoom": "Stanza Virtuale Personale",
-        "virtualRooms": "Stanze Virtuali"
+        "virtualRooms": "Stanze Virtuali",
+        "rooms": "Stanze",
+        "noFilteredRooms": "Nessuna Stanza o riunione programmata trovata per questo filtro",
+        "noActiveRooms": "Non ci sono Stanze attive al momento",
+        "activeRooms": "Stanze attive"
     },
     "creation": {
         "nameRequired": "Il nome è obbligatorio",
@@ -436,7 +440,9 @@
             "videoAndNoAudio": "Webcam attiva, Microfono spento",
             "descriptionPersonalVirtualRoom": "Come vuoi accedere a {{meetingTitle}} della tua Stanza Virtuale Personale?",
             "descriptionMyPersonalVirtualRoom": "Come vuoi accedere alla tua Stanza Virtuale Personale?",
-            "descriptionVirtualRoom": "Come vuoi accedere a {{meetingTitle}}?"
+            "descriptionVirtualRoom": "Come vuoi accedere a {{meetingTitle}}?",
+            "descriptionPersonalRoom": "Come vuoi accedere alla Stanza personale di {{meetingTitle}}?",
+            "descriptionMyPersonalRoom": "Come vuoi accedere alla tua Stanza Personale?"
         },
         "defaultViewModeDefaultLabel": "Scegliendo la \"Modalità Predefinita\", la Riunione inizierà all'interno della schermata attuale.",
         "defaultViewModeSaveLabel": "Salva Opzioni",
@@ -513,7 +519,9 @@
         "moderatorMeetingDescription": "Sarai il moderatore di questa Stanza. Puoi aggiungere altri moderatori e questi avranno i tuoi stessi permessi.",
         "selectFolder": "Seleziona cartella",
         "moderatorVirtualRoomDescription": "Sarai il moderatore di questa Stanza Virtuale. Puoi aggiungere altri moderatori e questi avranno i tuoi stessi permessi.",
-        "planVirtualRoomDescription": "Dai un nome riconoscibile a questa Stanza Virtuale per far capire ai partecipanti il tema della riunione."
+        "planVirtualRoomDescription": "Dai un nome riconoscibile a questa Stanza Virtuale per far capire ai partecipanti il tema della riunione.",
+        "planRoomDescription": "Dai un nome riconoscibile a questa Stanza per far capire ai partecipanti il tema della riunione.",
+        "moderatorRoomDescription": "Sarai il moderatore di questa Stanza. Puoi aggiungere altri moderatori e questi avranno i tuoi stessi permessi."
     },
     "notification": {
         "answer": "Rispondi",
@@ -552,7 +560,8 @@
             "personalVirtualRoomResetDescription": "Ripristinando il link della tua Stanza Virtuale Personale, tutti gli accessi condivisi precedentemente non funzioneranno più.",
             "descriptionVirtualRoom": "Imposta le tue preferenze audio e video per partecipare alle Stanze Virtuali. Potrai sempre personalizzarle prima di accedere a qualsiasi Stanza Virtuale.",
             "voiceProcessing": "Elaborazione Voce",
-            "voiceProcessingDescription": "Ascolterai la tua voce dall'uscita audio predefinita. Questo di permetterà di testare la qualità dell'audio in entrata e in uscita per la riunione"
+            "voiceProcessingDescription": "Ascolterai la tua voce dall'uscita audio predefinita. Questo di permetterà di testare la qualità dell'audio in entrata e in uscita per la riunione",
+            "descriptionRoom": "Imposta le tue preferenze audio e video per accedere alla Stanza. Potrai sempre personalizzarle prima di accedere a qualsiasi Stanza Virtuale."
         },
         "notification": {
             "desktop": "Notifiche desktop",
@@ -670,5 +679,6 @@
         "attachLinkFromFiles": "Allega link da Files",
         "share": "Condividi link pubblico",
         "shareLink": "Condividi link"
-    }
+    },
+    "room": "Stanza"
 }
