@@ -125,7 +125,11 @@
         "activeVirtualRooms": "Aktif Sanal Odalar",
         "noFilteredVirtualRooms": "Bu arama kriterine uygun Sanal Odalar veya planlanmış toplantılar yok",
         "personalVirtualRoom": "Kişisel Sanal Oda",
-        "virtualRooms": "Sanal Odalar"
+        "virtualRooms": "Sanal Odalar",
+        "rooms": "Odalar",
+        "noFilteredRooms": "Arama kriterine uygun Odalar veya planlanmış toplantılar yok",
+        "noActiveRooms": "Şu anda aktif Odalar bulunmuyor",
+        "activeRooms": "Aktif Odalar"
     },
     "creation": {
         "nameMax140Characters": "Maks. 140 karakter",
@@ -265,7 +269,9 @@
             "videoAndNoAudio": "Kamera açık, Mikrofon kapalı",
             "descriptionVirtualRoom": "{{meetingTitle}} Sanal Odasına nasıl girmek istersiniz?",
             "descriptionMyPersonalVirtualRoom": "Kişisel Sanal Odanıza nasıl girmek istersiniz?",
-            "descriptionPersonalVirtualRoom": "{{meetingTitle}} Kişisel Sanal Odasına nasıl girmek istersiniz?"
+            "descriptionPersonalVirtualRoom": "{{meetingTitle}} Kişisel Sanal Odasına nasıl girmek istersiniz?",
+            "descriptionPersonalRoom": "{{meetingTitle}} Kişisel Odasına nasıl girmek istersiniz?",
+            "descriptionMyPersonalRoom": "Kişisel Odanıza nasıl girmek istersiniz?"
         },
         "defaultViewModeDefaultLabel": "\"Varsayılan Mod\" seçerseniz, Toplantı şu andaki iç ortamda başlayacak.",
         "defaultViewModeSaveLabel": "Seçeneği Kaydet",
@@ -462,7 +468,9 @@
         },
         "selectFolder": "Klasör seçin",
         "moderatorVirtualRoomDescription": "Bu Sanal Oda için moderatör olacaksınız. Başka moderatörler ekleyebilirsiniz, onlar da sizinle aynı izinlere sahip olacak.",
-        "planVirtualRoomDescription": "Bu Sanal Oda'ya toplantı konusuyla ilgili bir isim vererek katılımcıların toplantının ne hakkında olduğunu bilmelerini sağlayabilirsiniz."
+        "planVirtualRoomDescription": "Bu Sanal Oda'ya toplantı konusuyla ilgili bir isim vererek katılımcıların toplantının ne hakkında olduğunu bilmelerini sağlayabilirsiniz.",
+        "planRoomDescription": "Bu Odaya toplantı konusuyla ilgili bir isim vererek katılımcıların toplantının ne hakkında olduğunu bilmelerini sağlayabilirsiniz.",
+        "moderatorRoomDescription": "Bu Oda için moderatör olacaksınız. Başka moderatörler ekleyebilirsiniz, onlar da sizinle aynı izinlere sahip olacak."
     },
     "notification": {
         "answer": "Yanıtla",
@@ -510,7 +518,8 @@
             "enableEchoCancellation": "Yankılanmayı düzelt",
             "enableNoiseSuppression": "Gürültüyü azalt",
             "voiceProcessing": "Ses İşleme",
-            "voiceProcessingDescription": "Sesinizi varsayılan ses çıkışından duyacaksınız, böylece toplantı için seçtiğiniz ses giriş ve ses çıkış kalitesini test edebilirsiniz"
+            "voiceProcessingDescription": "Sesinizi varsayılan ses çıkışından duyacaksınız, böylece toplantı için seçtiğiniz ses giriş ve ses çıkış kalitesini test edebilirsiniz",
+            "descriptionRoom": "Odaya girmek için kullanacağınız ses ve görüntü tercihlerinizi ayarlayın. Her Odaya katılmadan önce tercihlerinizi değiştirebilirsiniz."
         },
         "notification": {
             "desktop": "Masaüstü bildirimleri",
@@ -670,5 +679,6 @@
         "share": "Genel bağlantı paylaş",
         "shareLink": "Bağlantı paylaş",
         "addFromLocal": "Lokalden ekle"
-    }
+    },
+    "room": "Oda"
 }
