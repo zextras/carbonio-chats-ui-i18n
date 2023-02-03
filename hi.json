@@ -144,7 +144,8 @@
         "moderatorMeetingDescription": "इस Room को आप मॉडरेट करेंगे। आप और मॉडरेटर जोड़ सकते हैं और इन्हें आपके जैसी ही परमीशन उपलब्ध होंगी।",
         "moderatorVirtualRoomDescription": "इस Virtual Room को आप मॉडरेट करेंगे। आप और मॉडरेटर जोड़ सकते हैं और इन्हें आपके जैसी ही परमीशन उपलब्ध होंगी।",
         "planVirtualRoomDescription": "इस Virtual Room को कोई पहचान में आने वाला नाम दें ताकि इसमें आने वाले लोगों को समझ आ जाए ये मीटिंग किसलिए हो रही है।",
-        "planRoomDescription": "इस Room को कोई पहचान में आने वाला नाम दें ताकि इसमें आने वाले लोगों को समझ आ जाए ये मीटिंग किसलिए हो रही है।"
+        "planRoomDescription": "इस Room को कोई पहचान में आने वाला नाम दें ताकि इसमें आने वाले लोगों को समझ आ जाए ये मीटिंग किसलिए हो रही है।",
+        "moderatorRoomDescription": "इस Room को आप मॉडरेट करेंगे। आप और मॉडरेटर जोड़ सकते हैं और इन्हें आपके जैसी ही परमीशन उपलब्ध होंगी।"
     },
     "appVersion": "एप वर्शन",
     "conversation": {
@@ -199,7 +200,10 @@
         "noActiveVirtualRooms": "अभी कोई एक्टिव Virtual Room नहीं हैं",
         "activeVirtualRooms": "एक्टिव Virtual Room",
         "virtualRooms": "Virtual Rooms",
-        "rooms": "रूम"
+        "rooms": "रूम",
+        "activeRooms": "एक्टिव Room",
+        "noFilteredRooms": "इस फ़िल्टर से मैच करने वाले रूम या प्लान मीटिंग नहीं हैं",
+        "noActiveRooms": "अभी कोई एक्टिव रूम नहीं हैं"
     },
     "creation": {
         "attendeeAdded": "हाजिर व्यक्ति को लिस्ट में जोड़ा गया",
@@ -675,5 +679,6 @@
         "share": "पब्लिक लिंक शेयर करें",
         "attachLinkFromFiles": "फाइलों से लिंक अटैच करें",
         "attachLinkFiles": "फाइलों से पब्लिक लिंक अटैच करें"
-    }
+    },
+    "room": "रूम"
 }
