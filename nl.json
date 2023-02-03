@@ -50,7 +50,10 @@
         "noActiveVirtualRooms": "Er zijn geen actieve Virtuele Ruimten op dit moment",
         "noFilteredVirtualRooms": "Er zijn geen Virtuele Ruimten of geplande vergaderingen die bij dit filter passen",
         "personalVirtualRoom": "Persoonlijke Virtuele Ruimte",
-        "virtualRooms": "Virtuele Ruimten"
+        "virtualRooms": "Virtuele Ruimten",
+        "noFilteredRooms": "Er zijn geen Ruimten of geplande vergaderingen die bij dit filter passen",
+        "noActiveRooms": "Er zijn geen actieve Kamers op dit moment",
+        "activeRooms": "Actieve Kamers"
     },
     "creation": {
         "nameMax140Characters": "Max. 140 tekens",
@@ -462,7 +465,8 @@
             "stopRecordingTitle": "Opname stoppen"
         },
         "moderatorVirtualRoomDescription": "U zal deze Virtuele Ruimte modereren. U kunt extra moderators toevoegen en zij zullen dezelfde permissies hebben als u.",
-        "planVirtualRoomDescription": "Geef deze Virtuele Ruimte een herkenbare naam, zodat uw aanwezigen weten waarover ze vergaderen."
+        "planVirtualRoomDescription": "Geef deze Virtuele Ruimte een herkenbare naam, zodat uw aanwezigen weten waarover ze vergaderen.",
+        "moderatorRoomDescription": "U zal deze Ruimte modereren. U kunt extra moderators toevoegen en zij zullen dezelfde permissies hebben als u."
     },
     "notification": {
         "answer": "Antwoorden",
@@ -670,5 +674,6 @@
         "share": "Publieke link delen",
         "attachLinkFromFiles": "Link bijvoegen vanuit Bestanden",
         "attachLinkFiles": "Openbare link bijvoegen vanuit Bestanden"
-    }
+    },
+    "room": "Kamer"
 }
