@@ -109,11 +109,11 @@
         "mockDisplayTitle": "Pozostań w kontakcie!",
         "noActiveChats": "Nie ma żadnych aktywnych czatów na ten moment. Stwórz nowy czat lub zmień kartę.",
         "noActiveInstantMeetings": "Nie ma żadnych aktywnych Natychmiastowych spotkań w tym momencie. Stwórz nowe Natychmiastowe spotkanie lub zmień kartę.",
-        "noActiveMeetings": "Nie ma żadnych aktywnych Pokoi w tym momencie",
+        "noActiveMeetings": "W tej chwili nie ma żadnych aktywnych pokoi",
         "noActiveSpaces": "Nie ma żadnych aktywnych przestrzeni w tym momencie. Stwórz nową przestrzeń lub zmień kartę.",
         "noFilteredChats": "Nie ma żadnych czatów, które pasują do tego filtra.",
         "noFilteredInstantMeetings": "Nie ma żadnych Natychmiastowych Spotkań, które pasują do tego filtra.",
-        "noFilteredMeetings": "Nie ma żadnych Pokoi ani zaplanowanych spotkań, które pasują do tego filtra",
+        "noFilteredMeetings": "Nie ma żadnych pokoi ani zaplanowanych spotkań, które pasują do tego filtra",
         "personalRoom": "Własny pokój",
         "noFilteredSpaces": "Nie ma żadnych przestrzeni, które pasują do tego filtra.",
         "scheduledMeetings": "Zaplanowane Spotkania",
@@ -125,7 +125,11 @@
         "noFilteredVirtualRooms": "Nie ma żadnych wirtualnych pokoi ani zaplanowanych spotkań, które odpowiadają temu filtrowi",
         "activeVirtualRooms": "Aktywne wirtualne pokoje",
         "personalVirtualRoom": "Własny wirtualny pokój",
-        "virtualRooms": "Wirtualne pokoje"
+        "virtualRooms": "Wirtualne pokoje",
+        "rooms": "Pokoje",
+        "noFilteredRooms": "Nie ma żadnych pokoi ani zaplanowanych spotkań, które pasują do tego filtra",
+        "noActiveRooms": "W tej chwili nie ma żadnych aktywnych pokoi",
+        "activeRooms": "Aktywne pokoje"
     },
     "creation": {
         "attendeeAdded": "Uczestnik został dodany do listy",
@@ -218,12 +222,12 @@
         "browserNotSupported": "Ta wersja przeglądarki jest niewspierana. Wysoce zalecamy, aby zaktualizować przeglądarkę, aby móc korzystać ze wszystkich funkcji!"
     },
     "meeting": {
-        "defaultViewModeDedicatedLabel": "\"Tryb Dedykowany\" przekieruje cię do oddzielnej karty przeglądarki, aby umożliwić najlepsze doświadczenie Spotkania.",
-        "defaultViewModeDedicatedModeLabel": "Tryb Dedykowany",
-        "defaultViewModeDefaultModeLabel": "Tryb Domyślny",
-        "defaultViewModeSaveLabel": "Zapisz Opcję",
+        "defaultViewModeDedicatedLabel": "\"Tryb dedykowany\" przekieruje cię do oddzielnej karty przeglądarki, aby umożliwić najlepsze doświadczenie spotkania.",
+        "defaultViewModeDedicatedModeLabel": "Tryb dedykowany",
+        "defaultViewModeDefaultModeLabel": "Tryb domyślny",
+        "defaultViewModeSaveLabel": "Zapisz opcję",
         "defaultViewModeSecondaryDescriptionLabel": "Ta opcja zostanie zapisana w ustawieniach. Będzie można ją zmienić w każdym momencie.",
-        "defaultViewModeTitleModal": "Ustawienia środowiska Spotkania",
+        "defaultViewModeTitleModal": "Ustawienia środowiska spotkania",
         "interactions": {
             "cinemaView": "Widok kinowy",
             "closeCall": "Zakończ tą rozmowę",
@@ -273,10 +277,12 @@
             "noVideoAndNoAudio": "Wideo wyłączone, Mikrofon wyłączony",
             "descriptionMyPersonalVirtualRoom": "W jaki sposób chcesz dołączyć do własnego wirtualnego pokoju?",
             "descriptionPersonalVirtualRoom": "W jaki sposób chcesz dołączyć do własnego wirtualnego pokoju {{meetingTitle}}?",
-            "descriptionVirtualRoom": "W jaki sposób chcesz dołączyć do {{meetingTitle}}?"
+            "descriptionVirtualRoom": "W jaki sposób chcesz dołączyć do {{meetingTitle}}?",
+            "descriptionPersonalRoom": "Jak chcesz dołączyć do własnego pokoju {{meetingTitle}}?",
+            "descriptionMyPersonalRoom": "Jak chcesz dołączyć do Twojego własnego pokoju?"
         },
         "attendeesComing": "Uczestnicy za chwilę dołączą",
-        "defaultViewModeDefaultLabel": "Przy wyborze \"Trybu Domyślnego\", Spotkanie rozpocznie się w obecnym, wewnętrznym środowisku.",
+        "defaultViewModeDefaultLabel": "Po wyborze \"Trybu domyślnego\" spotkanie rozpocznie się w obecnym, wewnętrznym środowisku.",
         "errorMeetingRecording": "Nie można rozpocząć nagrywania, skontaktuj się z administratorem systemu.",
         "genericErrorMeeting": "Wygląda na to, że wystąpił problem z tym spotkaniem, skontaktuj się z administratorem systemu.",
         "recordedByMe": "Rozpocząłeś nagrywanie",
@@ -284,12 +290,12 @@
         "recording": "Nagrywanie",
         "thisMeetingIsBeingRecorded": "To spotkanie jest nagrywane",
         "wereToFindRecording": "Nagranie zostanie zapisane w starcie serwera wideo, skontaktuj się z administratorem systemu aby poznać więcej szczegółów.",
-        "defaultViewModeDedicatedModeLabelVirtualRoom": "Tryb Dedykowany",
-        "defaultViewModeDedicatedModeLabelVRoom": "Tryb Dedykowany",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Tryb dedykowany",
+        "defaultViewModeDedicatedModeLabelVRoom": "Tryb dedykowany",
         "defaultViewModeTitleModalVirtualRoom": "Opcje środowiska wirtualnego pokoju",
         "errorMeetingSavingRecording": "Nie udało się zatrzymać nagrywania, spróbuj ponownie",
-        "defaultViewModeDedicatedLabelVirtualRoom": "\"Tryb Dedykowany\" przekieruje Cię do oddzielnej karty przeglądarki, aby umożliwić Ci najlepsze doświadczenie wirtualnego pokoju.",
-        "defaultViewModeDefaultLabelVirtualRoom": "Przy wybraniu \"Trybu Domyślnego\" Wirtualny pokój rozpocznie się w obecnym, wewnętrznym środowisku.",
+        "defaultViewModeDedicatedLabelVirtualRoom": "\"Tryb dedykowany\" przekieruje Cie do oddzielnej karty przeglądarki, aby umożliwić Ci najlepsze doświadczenie wirtualnego pokoju.",
+        "defaultViewModeDefaultLabelVirtualRoom": "Po wyborze \"Trybu domyślnego\" wirtualny pokój rozpocznie się w obecnym, wewnętrznym środowisku.",
         "successSaveMeetingRecording": "Znajdziesz {{registrationName}} w /{{folderName}} tak szybko gdy będzie to gotowe",
         "wereToFindRec": "Nagranie zostanie zapisane w przestrzeni Files moderatora, który je zatrzyma.",
         "setVirtualBackground": "Ustaw wirtualne tło",
@@ -467,7 +473,9 @@
         },
         "selectFolder": "Wybierz folder",
         "moderatorVirtualRoomDescription": "Będziesz moderował tym wirtualnym pokojem. Możesz dodać dodatkowych moderatorów, będą mieli te same uprawnienia co Ty.",
-        "planVirtualRoomDescription": "Nadaj temu wirtualnemu pokojowi wymowną nazwę, aby uczestnicy wiedzieli czego będzie dotyczyć spotkanie."
+        "planVirtualRoomDescription": "Nadaj temu wirtualnemu pokojowi wymowną nazwę, aby uczestnicy wiedzieli czego będzie dotyczyć spotkanie.",
+        "planRoomDescription": "Nadaj temu pokojowi rozpoznawalną nazwę tak, by uczestnicy wiedzieli czego dotyczyć będzie spotkanie.",
+        "moderatorRoomDescription": "Będziesz moderował pokojem. Możesz dodać innych moderatorów, będa oni mieli takie same uprawnienia jak ty."
     },
     "notification": {
         "answer": "Odbierz",
@@ -515,7 +523,8 @@
             "virtualRooms": "Wirtualne pokoje",
             "voiceProcessing": "Przetwarzanie głosu",
             "voiceProcessingDescription": "Usłyszysz swój głos z domyślnego źrodła dźwięku. Będziesz mógł przetestować jakość swojego mikrofonu i wybrane dla spotkania źródło dźwięku",
-            "descriptionVirtualRoom": "Ustaw swoje preferencje dźwięku i wideo zanim dołączysz do wirtualnego pokoju. Możesz dostosować swoje preferencje przed dołączeniem do każdego wirtualnego pokoju."
+            "descriptionVirtualRoom": "Ustaw swoje preferencje dźwięku i wideo zanim dołączysz do wirtualnego pokoju. Możesz dostosować swoje preferencje przed dołączeniem do każdego wirtualnego pokoju.",
+            "descriptionRoom": "Ustaw swoje preferencje dźwięku i wideo, aby dołączyć do pokoju. Możesz dostosowywać swoje ustawienia przed dołączeniem do każdego pokoju."
         },
         "modal": {
             "title": "Ustawienia czatów",
@@ -670,5 +679,6 @@
         "share": "Udostępnij publiczny link",
         "shareLink": "Udostępnij link",
         "attachLinkFiles": "Załącz publiczny link z Files"
-    }
+    },
+    "room": "Pokój"
 }
