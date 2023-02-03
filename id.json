@@ -253,7 +253,10 @@
         "noActiveVirtualRooms": "Tidak ada Ruang Virtual aktif untuk saat ini",
         "noFilteredVirtualRooms": "Tidak ada Ruang Virtual atau rapat terjadwal yang cocok dengan filter ini",
         "personalVirtualRoom": "Ruang Virtual Pribadi",
-        "virtualRooms": "Ruang Virtual"
+        "virtualRooms": "Ruang Virtual",
+        "noFilteredRooms": "Tidak ada Ruang atau rapat terencana yang cocok dengan filter ini",
+        "noActiveRooms": "Tidak ada Ruang aktif untuk saat ini",
+        "activeRooms": "Ruang Aktif"
     },
     "feedback": {
         "historyClearedSuccessfully": "Riwayat berhasil dihapus!",
@@ -524,7 +527,8 @@
         },
         "moderatorMeetingDescription": "Anda akan memoderasi Ruang ini. Anda bisa menambahkan moderator tambahan, dan mereka akan memiliki izin yang sama.",
         "moderatorVirtualRoomDescription": "Anda akan memoderasi Ruang Virtual ini. Anda bisa menambahkan moderator tambahan dan mereka akan memiliki izin yang sama dengan Anda.",
-        "planVirtualRoomDescription": "Beri nama yang dikenal untuk Ruang Virtual ini agar peserta tahu materi diskusi rapat."
+        "planVirtualRoomDescription": "Beri nama yang dikenal untuk Ruang Virtual ini agar peserta tahu materi diskusi rapat.",
+        "moderatorRoomDescription": "Anda akan memoderasi Ruang ini. Anda bisa menambahkan moderator tambahan, dan mereka akan memiliki izin yang sama."
     },
     "people": {
         "manyMembers": "{{membersCount}} anggota",
@@ -670,5 +674,6 @@
         "share": "Bagikan tautan publik",
         "attachLinkFromFiles": "Tambahkan tautan dari Files",
         "attachLinkFiles": "Lampirkan tautan publik dari Files"
-    }
+    },
+    "room": "Ruang"
 }
