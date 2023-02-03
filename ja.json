@@ -26,7 +26,11 @@
         "noActiveVirtualRooms": "現在、アクティブなバーチャルルームはありません",
         "noFilteredVirtualRooms": "このフィルターに一致するバーチャルルームまたは予定されている会議はありません",
         "personalVirtualRoom": "個人のバーチャルルーム",
-        "virtualRooms": "バーチャルルーム"
+        "virtualRooms": "バーチャルルーム",
+        "rooms": "",
+        "noFilteredRooms": "このフィルターに一致するミーティングルームまたは予定されている会議はありません",
+        "noActiveRooms": "現在、アクティブなルームはありません",
+        "activeRooms": "アクティブルーム"
     },
     "people": {
         "me": "自分",
@@ -513,7 +517,8 @@
         "moderatorMeetingDescription": "このルームをモデレートします。 モデレーターを追加すると、モデレーターにはあなたと同じ権限が与えられます。",
         "selectFolder": "フォルダを選択してください",
         "moderatorVirtualRoomDescription": "このバーチャルルームをモデレートします。モデレーターを追加すると、モデレーターにはあなたと同じ権限が与えられます。",
-        "planVirtualRoomDescription": "このバーチャルルームにわかりやすい名前を付けて、出席者に会議の話題を知らせてください。"
+        "planVirtualRoomDescription": "このバーチャルルームにわかりやすい名前を付けて、出席者に会議の話題を知らせてください。",
+        "moderatorRoomDescription": "このルームをモデレートします。 モデレーターを追加すると、モデレーターにはあなたと同じ権限が与えられます。"
     },
     "notification": {
         "answer": "応答する",
@@ -670,5 +675,6 @@
         "share": "パブリックリンクを共有する",
         "attachLinkFromFiles": "ファイルからリンクを添付する",
         "attachLinkFiles": "ファイルからパブリックリンクを添付する"
-    }
+    },
+    "room": "部屋"
 }
