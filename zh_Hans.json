@@ -92,7 +92,10 @@
         "noActiveVirtualRooms": "目前没有活动的虚拟房间",
         "noFilteredVirtualRooms": "没有与此筛选条件匹配的虚拟房间或规划会议",
         "personalVirtualRoom": "个人虚拟房间",
-        "activeVirtualRooms": "活动虚拟房间"
+        "activeVirtualRooms": "活动虚拟房间",
+        "noFilteredRooms": "没有与此筛选条件匹配的房间或规划会议",
+        "noActiveRooms": "目前没有活动的房间",
+        "activeRooms": "活动房间"
     },
     "message": {
         "service": {
@@ -504,7 +507,8 @@
         },
         "moderatorMeetingDescription": "您将主持本房间。您可添加额外主持人，其将有与您相同的权限。",
         "moderatorVirtualRoomDescription": "您将主持本虚拟房间。您可添加额外主持人，其将有与您相同的权限。",
-        "planVirtualRoomDescription": "给这个虚拟房间取一个有辨识度的名字，以便让与会者知道会议的主题是什么。"
+        "planVirtualRoomDescription": "给这个虚拟房间取一个有辨识度的名字，以便让与会者知道会议的主题是什么。",
+        "moderatorRoomDescription": "您将主持本房间。您可添加额外主持人，其将有与您相同的权限。"
     },
     "notification": {
         "answer": "答复",
@@ -670,5 +674,6 @@
         "share": "分享公开链接",
         "attachLinkFromFiles": "从文件附件链接",
         "attachLinkFiles": "从文件附加公开链接"
-    }
+    },
+    "room": "房间"
 }
