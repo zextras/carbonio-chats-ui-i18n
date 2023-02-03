@@ -26,7 +26,10 @@
         "noActiveVirtualRooms": "Não existem Salas Virtuais ativas neste momento",
         "noFilteredVirtualRooms": "Não existem Salas Virtuais ou reuniões programadas que correspondam a este filtro",
         "personalVirtualRoom": "Sala Virtual pessoal",
-        "virtualRooms": "Salas virtuais"
+        "virtualRooms": "Salas virtuais",
+        "noFilteredRooms": "Não existem Salas ou reuniões agendadas que correspondam a este filtro",
+        "noActiveRooms": "Não existem Salas ativas no momento",
+        "activeRooms": "Salas ativas"
     },
     "people": {
         "me": "Eu",
@@ -471,7 +474,8 @@
             "stopRecordingTitle": "Parar gravação"
         },
         "planVirtualRoomDescription": "Dê um nome familiar a esta Sala Virtual para que os participantes saibam qual é o assunto.",
-        "moderatorVirtualRoomDescription": "Você vai moderar essa Sala Virtual. É possível adicionar mais moderadores e eles terão as mesmas permissões que você."
+        "moderatorVirtualRoomDescription": "Você vai moderar essa Sala Virtual. É possível adicionar mais moderadores e eles terão as mesmas permissões que você.",
+        "moderatorRoomDescription": "Você irá moderar essa Sala. Você pode adicionar outros moderadores e eles terão as mesmas permissões que você."
     },
     "notification": {
         "answer": "Responder",
@@ -670,5 +674,6 @@
         "share": "Compartilhar link público",
         "attachLinkFromFiles": "Anexar link a partir de Files",
         "attachLinkFiles": "Anexar link público a partir de Files"
-    }
+    },
+    "room": "Sala"
 }
