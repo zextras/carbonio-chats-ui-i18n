@@ -339,7 +339,10 @@
         "noActiveVirtualRooms": "Es gibt derzeit keine aktiven Virtuellen Räume",
         "noFilteredVirtualRooms": "Es gibt keine Virtuellen Räume oder geplante Meetings, die diesem Filter entsprechen",
         "personalVirtualRoom": "Persönlicher Virtueller Raum",
-        "virtualRooms": "Virtuelle Räume"
+        "virtualRooms": "Virtuelle Räume",
+        "noFilteredRooms": "Es gibt keine Räume oder geplante Meetings, die diesem Filter entsprechen",
+        "noActiveRooms": "Es gibt derzeit keine aktiven Räume",
+        "activeRooms": "Aktive Räume"
     },
     "meeting": {
         "attendeesComing": "Teilnehmer kommen gerade an",
@@ -471,7 +474,8 @@
             "stopRecordingTitle": "Aufnahme anhalten"
         },
         "moderatorVirtualRoomDescription": "Sie werden diesen Virtuellen Raum moderieren. Sie können zusätzliche Moderatoren hinzufügen und diese werden dieselben Rechte haben wie Sie.",
-        "planVirtualRoomDescription": "Geben Sie dem Virtuellen Raum einen wiedererkennbaren Namen, damit die Teilnehmer wissen, worum es bei dem Treffen geht."
+        "planVirtualRoomDescription": "Geben Sie dem Virtuellen Raum einen wiedererkennbaren Namen, damit die Teilnehmer wissen, worum es bei dem Treffen geht.",
+        "moderatorRoomDescription": "Sie werden diesen Raum moderieren. Sie können weitere Moderatoren hinzufügen, die die gleichen Rechte haben wie Sie."
     },
     "notification": {
         "answer": "Annehmen",
@@ -670,5 +674,6 @@
         "share": "Öffentlichen Link teilen",
         "attachLinkFromFiles": "Link von Files anhängen",
         "attachLinkFiles": "Öffentlichen Link von Files anhängen"
-    }
+    },
+    "room": "Raum"
 }
