@@ -29,7 +29,8 @@
         "virtualRooms": "バーチャルルーム",
         "noFilteredRooms": "このフィルターに一致するミーティングルームまたは予定されている会議はありません",
         "noActiveRooms": "現在、アクティブなルームはありません",
-        "activeRooms": "アクティブルーム"
+        "activeRooms": "アクティブルーム",
+        "rooms": "ルーム"
     },
     "people": {
         "me": "自分",
@@ -319,7 +320,9 @@
             "videoAndNoAudio": "カメラオン、マイクオフ",
             "descriptionPersonalVirtualRoom": "{{meetingTitle}}のパーソナルバーチャルルームにどのように参加しますか？",
             "descriptionMyPersonalVirtualRoom": "パーソナルバーチャルルームにどのように入室しますか？",
-            "descriptionVirtualRoom": "{{meetingTitle}}にどのように参加しますか？"
+            "descriptionVirtualRoom": "{{meetingTitle}}にどのように参加しますか？",
+            "descriptionPersonalRoom": "{{meetingTitle}}のパーソナル ルームに入る方法を教えてください。",
+            "descriptionMyPersonalRoom": "パーソナルルームに入る方法を教えてください。"
         },
         "defaultViewModeDedicatedLabel": "「専用モード」では、ブラウザの別のタブにリダイレクトされ、最高のミーティング体験を楽しめます。",
         "defaultViewModeDefaultLabel": "「デフォルトモード」を選ぶと、現在の内部環境でミーティングが開始されます。",
@@ -517,7 +520,8 @@
         "selectFolder": "フォルダを選択してください",
         "moderatorVirtualRoomDescription": "このバーチャルルームをモデレートします。モデレーターを追加すると、モデレーターにはあなたと同じ権限が与えられます。",
         "planVirtualRoomDescription": "このバーチャルルームにわかりやすい名前を付けて、出席者に会議の話題を知らせてください。",
-        "moderatorRoomDescription": "このルームをモデレートします。 モデレーターを追加すると、モデレーターにはあなたと同じ権限が与えられます。"
+        "moderatorRoomDescription": "このルームをモデレートします。 モデレーターを追加すると、モデレーターにはあなたと同じ権限が与えられます。",
+        "planRoomDescription": "このルームにわかりやすい名前を付けて、出席者に話し合うテーマを知らせてください。"
     },
     "notification": {
         "answer": "応答する",
@@ -556,7 +560,8 @@
             "personalVirtualRoomOptionsTitleModal": "パーソナルバーチャルルームのリンクのリセット",
             "personalVirtualRoomResetDescription": "パーソナルバーチャルルームのリンクをリセットすると、以前に指定されたすべてのアクセス権が機能しなくなります。",
             "voiceProcessingDescription": "デフォルトの出力で自分の声が聞こえ、会議用に選択された出力だけでなく、入力の質もテストできます",
-            "descriptionVirtualRoom": "オーディオと動画のプリファレンスを設定して、バーチャルルームに入室します。 すべてのバーチャルルームに入室する前に、いつでも設定をカスタマイズできます。"
+            "descriptionVirtualRoom": "オーディオと動画のプリファレンスを設定して、バーチャルルームに入室します。 すべてのバーチャルルームに入室する前に、いつでも設定をカスタマイズできます。",
+            "descriptionRoom": "ルームに入室するためのオーディオとビデオの設定を行います。 各ルームに入る前に、いつでも自由にカスタマイズできます。"
         },
         "notification": {
             "desktop": "デスクトップ通知",
