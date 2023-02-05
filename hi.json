@@ -143,7 +143,8 @@
         },
         "moderatorMeetingDescription": "इस Room को आप मॉडरेट करेंगे। आप और मॉडरेटर जोड़ सकते हैं और इन्हें आपके जैसी ही परमीशन उपलब्ध होंगी।",
         "moderatorVirtualRoomDescription": "इस Virtual Room को आप मॉडरेट करेंगे। आप और मॉडरेटर जोड़ सकते हैं और इन्हें आपके जैसी ही परमीशन उपलब्ध होंगी।",
-        "planVirtualRoomDescription": "इस Virtual Room को कोई पहचान में आने वाला नाम दें ताकि इसमें आने वाले लोगों को समझ आ जाए ये मीटिंग किसलिए हो रही है।"
+        "planVirtualRoomDescription": "इस Virtual Room को कोई पहचान में आने वाला नाम दें ताकि इसमें आने वाले लोगों को समझ आ जाए ये मीटिंग किसलिए हो रही है।",
+        "planRoomDescription": "इस Room को कोई पहचान में आने वाला नाम दें ताकि इसमें आने वाले लोगों को समझ आ जाए ये मीटिंग किसलिए हो रही है।"
     },
     "appVersion": "एप वर्शन",
     "conversation": {
@@ -197,7 +198,8 @@
         "personalVirtualRoom": "पर्सनल Virtual Room",
         "noActiveVirtualRooms": "अभी कोई एक्टिव Virtual Room नहीं हैं",
         "activeVirtualRooms": "एक्टिव Virtual Room",
-        "virtualRooms": "Virtual Rooms"
+        "virtualRooms": "Virtual Rooms",
+        "rooms": "रूम"
     },
     "creation": {
         "attendeeAdded": "हाजिर व्यक्ति को लिस्ट में जोड़ा गया",
@@ -318,7 +320,9 @@
             "videoAndNoAudio": "कैमरा चालू, माइक्रोफोन बंद",
             "descriptionPersonalVirtualRoom": "आप {{meetingTitle}} के पर्सनल Virtual Room में कैसे एंटर करना चाहते हैं?",
             "descriptionMyPersonalVirtualRoom": "आप अपने पर्सनल Virtual Room में कैसे एंटर करना चाहते हैं?",
-            "descriptionVirtualRoom": "आप {{meetingTitle}} में कैसे एंटर करना चाहते हैं?"
+            "descriptionVirtualRoom": "आप {{meetingTitle}} में कैसे एंटर करना चाहते हैं?",
+            "descriptionPersonalRoom": "आप {{meetingTitle}} के पर्सनल Room में कैसे एंटर करना चाहते हैं?",
+            "descriptionMyPersonalRoom": "आप अपने पर्सनल Room में कैसे एंटर करना चाहते हैं?"
         },
         "defaultViewModeDedicatedLabel": "\"डेडिकेटेड मोड\" से आपको ब्राउज़र की एक अलग की गई टैब में ले जाया जाएगा ताकि आप सबसे बेहतरीन Meeting अनुभव ले सकें।",
         "defaultViewModeTitleModal": "Meeting एनवायरनमेंट ऑप्शन",
@@ -510,7 +514,8 @@
             "personalVirtualRoomOptionsTitleModal": "पर्सनल Virtual Room की लिंक रीसेट की गई",
             "personalVirtualRoomResetButton": "Virtual Room की लिंक रीसेट करें",
             "personalVirtualRoomResetDescription": "पर्सनल Virtual Room की लिंक रीसेट करने से पहले दी गई सभी एक्सेस काम करना बंद कर देंगी।",
-            "voiceProcessingDescription": "आपको डिफ़ाल्ट आउटपुट में आपकी आवाज़ सुनाई देगी जिसे आप अपने मीटिंग के चुने गए इनपुट और आउटपुट की भी की क्वालिटी की जांच कर सकेंगे"
+            "voiceProcessingDescription": "आपको डिफ़ाल्ट आउटपुट में आपकी आवाज़ सुनाई देगी जिसे आप अपने मीटिंग के चुने गए इनपुट और आउटपुट की भी की क्वालिटी की जांच कर सकेंगे",
+            "descriptionRoom": "Room में आने के लिए अपने ऑडियो और विडियो प्रेफेरेंस सेट करें। आप किसी भी Room में आने से पहले अपने प्रेफेरेंस कस्टमाइज़ कर सकते हैं।"
         },
         "notification": {
             "desktop": "डेस्कटॉप अधिसूचनाएं",
