@@ -256,7 +256,8 @@
         "virtualRooms": "Ruang Virtual",
         "noFilteredRooms": "Tidak ada Ruang atau rapat terencana yang cocok dengan filter ini",
         "noActiveRooms": "Tidak ada Ruang aktif untuk saat ini",
-        "activeRooms": "Ruang Aktif"
+        "activeRooms": "Ruang Aktif",
+        "rooms": "Ruang"
     },
     "feedback": {
         "historyClearedSuccessfully": "Riwayat berhasil dihapus!",
@@ -330,7 +331,9 @@
             "videoAndNoAudio": "Kamera aktif, Mikrofon nonaktif",
             "descriptionMyPersonalVirtualRoom": "Bagaimana Anda ingin masuk ke Ruang Virtual Pribadi?",
             "descriptionPersonalVirtualRoom": "Bagaimana Anda ingin masuk ke Ruang Virtual Pribadi {{meetingTitle}}?",
-            "descriptionVirtualRoom": "Bagaimana Anda ingin masuk ke {{meetingTitle}}?"
+            "descriptionVirtualRoom": "Bagaimana Anda ingin masuk ke {{meetingTitle}}?",
+            "descriptionPersonalRoom": "Bagaimana Anda ingin masuk ke Ruang Pribadi {{meetingTitle}}?",
+            "descriptionMyPersonalRoom": "Bagaimana Anda ingin masuk ke Ruang Pribadi?"
         },
         "defaultViewModeDefaultLabel": "Dengan memilih \"Mode Default\", Rapat akan dimulai di lingkungan internal saat ini.",
         "resetMeetingUrlModalDescription": "Anda yakin ingin mengatur ulang tautan untuk \"{{conversationName}}\" terencana?",
@@ -528,7 +531,8 @@
         "moderatorMeetingDescription": "Anda akan memoderasi Ruang ini. Anda bisa menambahkan moderator tambahan, dan mereka akan memiliki izin yang sama.",
         "moderatorVirtualRoomDescription": "Anda akan memoderasi Ruang Virtual ini. Anda bisa menambahkan moderator tambahan dan mereka akan memiliki izin yang sama dengan Anda.",
         "planVirtualRoomDescription": "Beri nama yang dikenal untuk Ruang Virtual ini agar peserta tahu materi diskusi rapat.",
-        "moderatorRoomDescription": "Anda akan memoderasi Ruang ini. Anda bisa menambahkan moderator tambahan, dan mereka akan memiliki izin yang sama."
+        "moderatorRoomDescription": "Anda akan memoderasi Ruang ini. Anda bisa menambahkan moderator tambahan, dan mereka akan memiliki izin yang sama.",
+        "planRoomDescription": "Beri nama yang dikenal untuk Ruang ini agar peserta tahu materi diskusi rapat."
     },
     "people": {
         "manyMembers": "{{membersCount}} anggota",
@@ -556,7 +560,8 @@
             "voiceProcessing": "Pemrosesan Suara",
             "personalVirtualRoomResetDescription": "Dengan mengatur ulang tautan Ruang Virtual Pribadi, semua akses yang telah diberikan tidak akan berfungsi lagi.",
             "voiceProcessingDescription": "Anda akan mendengar suara di output default, sehingga bisa menguji kualitas input dan output yang dipilih untuk rapat",
-            "descriptionVirtualRoom": "Atur preferensi audio dan video untuk masuk ke Ruang Virtual. Anda selalu dapat menyesuaikan preferensi sebelum masuk ke Ruang Virtual apa pun."
+            "descriptionVirtualRoom": "Atur preferensi audio dan video untuk masuk ke Ruang Virtual. Anda selalu dapat menyesuaikan preferensi sebelum masuk ke Ruang Virtual apa pun.",
+            "descriptionRoom": "Atur preferensi audio dan video untuk masuk ke Ruang. Anda selalu dapat menyesuaikan preferensi sebelum masuk ke setiap Ruang."
         },
         "notification": {
             "desktop": "Notifikasi Desktop",
