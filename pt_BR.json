@@ -29,7 +29,8 @@
         "virtualRooms": "Salas virtuais",
         "noFilteredRooms": "Não existem Salas ou reuniões agendadas que correspondam a este filtro",
         "noActiveRooms": "Não existem Salas ativas no momento",
-        "activeRooms": "Salas ativas"
+        "activeRooms": "Salas ativas",
+        "rooms": "Salas"
     },
     "people": {
         "me": "Eu",
@@ -277,7 +278,9 @@
             "videoAndNoAudio": "Câmera ligada, microfone desligado",
             "descriptionPersonalVirtualRoom": "Como você deseja entrar na Sala Virtual pessoal de {{meetingTitle}}?",
             "descriptionVirtualRoom": "Como você deseja entrar em {{meetingTitle}}?",
-            "descriptionMyPersonalVirtualRoom": "Como você deseja entrar na sua Sala Virtual pessoal?"
+            "descriptionMyPersonalVirtualRoom": "Como você deseja entrar na sua Sala Virtual pessoal?",
+            "descriptionPersonalRoom": "Como deseja entrar na Sala Pessoal de {{meetingTitle}}?",
+            "descriptionMyPersonalRoom": "Como deseja entrar na sua Sala Pessoal?"
         },
         "defaultViewModeTitleModal": "Opções do ambiente das reuniões",
         "defaultViewModeDedicatedLabel": "O \"Modo Dedicado\" irá redirecioná-lo para uma aba separada de seu navegador para desfrutar da experiência da Reunião no seu melhor.",
@@ -475,7 +478,8 @@
         },
         "planVirtualRoomDescription": "Dê um nome familiar a esta Sala Virtual para que os participantes saibam qual é o assunto.",
         "moderatorVirtualRoomDescription": "Você vai moderar essa Sala Virtual. É possível adicionar mais moderadores e eles terão as mesmas permissões que você.",
-        "moderatorRoomDescription": "Você irá moderar essa Sala. Você pode adicionar outros moderadores e eles terão as mesmas permissões que você."
+        "moderatorRoomDescription": "Você irá moderar essa Sala. Você pode adicionar outros moderadores e eles terão as mesmas permissões que você.",
+        "planRoomDescription": "Dê um nome familiar a esta Sala para que seus participantes saibam qual é o assunto da reunião."
     },
     "notification": {
         "answer": "Responder",
@@ -514,7 +518,8 @@
             "voiceProcessing": "Processamento de Voz",
             "voiceProcessingDescription": "Você escutará sua voz na saída padrão, o que te permite testar a qualidade da entrada e da saída selecionada para a reunião",
             "personalVirtualRoomResetDescription": "Ao redefinir o link da Sala Virtual pessoal, todos os acessos concedidos anteriormente não funcionarão mais.",
-            "descriptionVirtualRoom": "Defina suas preferências de áudio e vídeo para entrar na Sala Virtual. Você sempre pode personalizar suas preferências antes de entrar em cada Sala Virtual."
+            "descriptionVirtualRoom": "Defina suas preferências de áudio e vídeo para entrar na Sala Virtual. Você sempre pode personalizar suas preferências antes de entrar em cada Sala Virtual.",
+            "descriptionRoom": "Configure suas preferências de áudio e vídeo para entrar na Sala. Você sempre pode personalizar suas preferências antes de entrar em qualquer Sala."
         },
         "notification": {
             "desktop": "Notificações do desktop",
