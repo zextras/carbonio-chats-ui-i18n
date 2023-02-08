@@ -95,7 +95,8 @@
         "activeVirtualRooms": "活动虚拟房间",
         "noFilteredRooms": "没有与此筛选条件匹配的房间或规划会议",
         "noActiveRooms": "目前没有活动的房间",
-        "activeRooms": "活动房间"
+        "activeRooms": "活动房间",
+        "rooms": "房间"
     },
     "message": {
         "service": {
@@ -430,7 +431,9 @@
             "videoAndNoAudio": "摄像头已打开，麦克风已关闭",
             "descriptionMyPersonalVirtualRoom": "您想如何进入个人虚拟房间？",
             "descriptionPersonalVirtualRoom": "您想如何进入{{meetingTitle}}的个人虚拟房间？",
-            "descriptionVirtualRoom": "您想如何进入{{meetingTitle}}？"
+            "descriptionVirtualRoom": "您想如何进入{{meetingTitle}}？",
+            "descriptionPersonalRoom": "您想如何进入{{meetingTitle}}的个人房间？",
+            "descriptionMyPersonalRoom": "您想如何进入个人房间？"
         },
         "defaultViewModeDedicatedLabel": "“专用模式”会将您重定向至浏览器的单独标签页中，便于您享受最佳会议体验。",
         "defaultViewModeDefaultLabel": "选择“默认模式”后，会议将在当前内部环境中开始。",
@@ -508,7 +511,8 @@
         "moderatorMeetingDescription": "您将主持本房间。您可添加额外主持人，其将有与您相同的权限。",
         "moderatorVirtualRoomDescription": "您将主持本虚拟房间。您可添加额外主持人，其将有与您相同的权限。",
         "planVirtualRoomDescription": "给这个虚拟房间取一个有辨识度的名字，以便让与会者知道会议的主题是什么。",
-        "moderatorRoomDescription": "您将主持本房间。您可添加额外主持人，其将有与您相同的权限。"
+        "moderatorRoomDescription": "您将主持本房间。您可添加额外主持人，其将有与您相同的权限。",
+        "planRoomDescription": "为这个房间取一个具有辨识度的名字，让参与者了解自己即将参与的讨论是什么。"
     },
     "notification": {
         "answer": "答复",
@@ -556,7 +560,8 @@
             "virtualRooms": "虚拟房间",
             "voiceProcessing": "语音处理",
             "voiceProcessingDescription": "您将在默认输出中听到自己的声音，便于测试输入质量并为会议选择输出",
-            "descriptionVirtualRoom": "设置您的音频和视频首选项以进入虚拟房间。您将可在每次进入虚拟房间前自定义首选项。"
+            "descriptionVirtualRoom": "设置您的音频和视频首选项以进入虚拟房间。您将可在每次进入虚拟房间前自定义首选项。",
+            "descriptionRoom": "设置您在进入房间时的音视频偏好。进入每个房间之前，您总是可以对偏好进行自定义。"
         },
         "notification": {
             "desktop": "桌面通知",
