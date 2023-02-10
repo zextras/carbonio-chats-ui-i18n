@@ -53,7 +53,8 @@
         "virtualRooms": "Virtuele Ruimten",
         "noFilteredRooms": "Er zijn geen Ruimten of geplande vergaderingen die bij dit filter passen",
         "noActiveRooms": "Er zijn geen actieve Kamers op dit moment",
-        "activeRooms": "Actieve Kamers"
+        "activeRooms": "Actieve Kamers",
+        "rooms": "Kamers"
     },
     "creation": {
         "nameMax140Characters": "Max. 140 tekens",
@@ -174,7 +175,9 @@
             "videoAndNoAudio": "Camera aan, Microfoon uit",
             "descriptionVirtualRoom": "Hoe wilt u in de {{meetingTitle}} binnengaan?",
             "descriptionMyPersonalVirtualRoom": "Hoe wilt u uw Persoonlijke Virtuele Ruimte binnengaan?",
-            "descriptionPersonalVirtualRoom": "Hoe wilt u in de Persoonlijke Virtuele Kamer van {{meetingTitle}} binnengaan?"
+            "descriptionPersonalVirtualRoom": "Hoe wilt u in de Persoonlijke Virtuele Kamer van {{meetingTitle}} binnengaan?",
+            "descriptionPersonalRoom": "Hoe wilt u in de persoonlijke kamer van {{meetingTitle}} komen?",
+            "descriptionMyPersonalRoom": "Hoe wilt u uw Persoonlijke Kamer binnengaan?"
         },
         "defaultViewModeSaveLabel": "Optie opslaan",
         "defaultViewModeDedicatedLabel": "De \" Toegewijde Modus \" leidt u naar een apart tabblad van uw browser om optimaal van de vergader-ervaring te kunnen genieten.",
@@ -466,7 +469,8 @@
         },
         "moderatorVirtualRoomDescription": "U zal deze Virtuele Ruimte modereren. U kunt extra moderators toevoegen en zij zullen dezelfde permissies hebben als u.",
         "planVirtualRoomDescription": "Geef deze Virtuele Ruimte een herkenbare naam, zodat uw aanwezigen weten waarover ze vergaderen.",
-        "moderatorRoomDescription": "U zal deze Ruimte modereren. U kunt extra moderators toevoegen en zij zullen dezelfde permissies hebben als u."
+        "moderatorRoomDescription": "U zal deze Ruimte modereren. U kunt extra moderators toevoegen en zij zullen dezelfde permissies hebben als u.",
+        "planRoomDescription": "Geef deze Ruimte een herkenbare naam, zodat uw aanwezigen weten waarover ze vergaderen."
     },
     "notification": {
         "answer": "Antwoorden",
@@ -514,7 +518,8 @@
             "virtualRooms": "Virtuele Ruimten",
             "voiceProcessing": "Spraakverwerking",
             "voiceProcessingDescription": "U hoort uw stem op de standaard output, zodat u de kwaliteit van uw input kunt testen, evenals de output die voor de vergadering is geselecteerd",
-            "descriptionVirtualRoom": "Stel uw audio- en video-voorkeuren in om de Virtuele Ruimte binnen te gaan. U kunt uw voorkeuren altijd aanpassen voordat u een Virtuele Ruimte binnengaat."
+            "descriptionVirtualRoom": "Stel uw audio- en video-voorkeuren in om de Virtuele Ruimte binnen te gaan. U kunt uw voorkeuren altijd aanpassen voordat u een Virtuele Ruimte binnengaat.",
+            "descriptionRoom": "Stel uw audio- en videovoorkeuren in om de kamer binnen te gaan. U kunt altijd uw voorkeuren aanpassen voordat u in elke Kamer binnengaat."
         },
         "notification": {
             "desktop": "Desktopmeldingen",
