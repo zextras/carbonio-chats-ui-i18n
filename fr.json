@@ -311,7 +311,11 @@
         "activeVirtualRooms": "Salle Virtuelle active",
         "noActiveVirtualRooms": "Il n'y a pas de Salle Virtuelle active pour le moment",
         "personalVirtualRoom": "Salle Virtuelle personnelle",
-        "virtualRooms": "Salles Virtuelles"
+        "virtualRooms": "Salles Virtuelles",
+        "activeRooms": "Salles actives",
+        "noActiveRooms": "Il n'y a pas de salle active pour le moment",
+        "noFilteredRooms": "Il n'y a pas de salle ou de rendez-vous qui correspondent à ce filtre",
+        "rooms": "Salles"
     },
     "feedback": {
         "historyClearedSuccessfully": "Historique effacé avec succès !",
@@ -385,7 +389,9 @@
             "videoAndNoAudio": "Caméra active, microphone désactivé",
             "descriptionMyPersonalVirtualRoom": "Comment souhaitez-vous rejoindre votre Salle Virtuelle Personnelle ?",
             "descriptionPersonalVirtualRoom": "Comment souhaitez-vous entrer dans la Salle Virtuelle Personnelle de {{meetingTitle}} ?",
-            "descriptionVirtualRoom": "Comment souhaitez-vous entrer dans {{meetingTitle}} ?"
+            "descriptionVirtualRoom": "Comment souhaitez-vous entrer dans {{meetingTitle}} ?",
+            "descriptionMyPersonalRoom": "Comment souhaitez-vous entrer dans votre salle personnelle ?",
+            "descriptionPersonalRoom": "Comment souhaitez vous entrer dans la salle personnelle de {{meetingTitle}} ?"
         },
         "defaultViewModeDefaultLabel": "En sélectionnant le \"Mode par défaut\", la réunion démarrera dans l'environnement interne actuel.",
         "defaultViewModeSaveLabel": "Enregistrer les options",
@@ -462,7 +468,9 @@
         },
         "selectFolder": "Sélectionner un dossier",
         "moderatorVirtualRoomDescription": "Vous allez modérer cette Salle Virtuelle. Vous pouvez ajouter d'autre modérateur et ils auront les permissions que vous.",
-        "planVirtualRoomDescription": "Donnez un nom reconnaissable à cette Salle Virtuelle pour permettre aux participants de connaître facilement l'objet de la réunion."
+        "planVirtualRoomDescription": "Donnez un nom reconnaissable à cette Salle Virtuelle pour permettre aux participants de connaître facilement l'objet de la réunion.",
+        "moderatorRoomDescription": "Vous serez modérateur de cette salle. Vous pouvez ajouter d'autres modérateurs et ils auront les mêmes permissions que vous.",
+        "planRoomDescription": "Mettez un nom reconnaissable à cette salle afin de permettre aux participants de connaître facilement le sujet de cette réunion."
     },
     "notification": {
         "answer": "réponse",
@@ -510,7 +518,8 @@
             "enableNoiseSuppression": "Suppression du bruit",
             "enableEchoCancellation": "Annulation de l'écho",
             "voiceProcessing": "Traitement de la voix",
-            "voiceProcessingDescription": "Vous allez entendre votre voix dans la sortie audio par défaut, vous permettant de tester la qualité autant de votre entrée audio que de la sortie sélectionnée pour la réunion"
+            "voiceProcessingDescription": "Vous allez entendre votre voix dans la sortie audio par défaut, vous permettant de tester la qualité autant de votre entrée audio que de la sortie sélectionnée pour la réunion",
+            "descriptionRoom": "Définissez vos préférences audio et vidéo pour entrer dans la salle. Vous pourrez toujours modifier ces paramètre dans vos préférences avant d'entrer dans une salle."
         },
         "notification": {
             "desktop": "Notifications desktop",
@@ -670,5 +679,6 @@
         "attachLinkFromFiles": "Joindre un lien depuis Files",
         "share": "Partager un lien publique",
         "shareLink": "Partager le lien"
-    }
+    },
+    "room": "Salle"
 }
