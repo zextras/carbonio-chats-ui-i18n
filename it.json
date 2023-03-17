@@ -602,7 +602,7 @@
     "status": {
         "externalGuest": "Ospite esterno",
         "internalGuest": "Ospite interno",
-        "isWriting": "sta scrivendo...",
+        "isWriting": "sta scrivendo…",
         "lastSeen": "Ultima visualizzazione {{lastSeen}}",
         "offline": "Offline",
         "online": "Online",
