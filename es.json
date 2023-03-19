@@ -3,11 +3,11 @@
         "activateNotifications": "Activar notificaciones",
         "add": "Agregar",
         "addChannel": "Nuevo Canal",
-        "addMembers": "Agregar participantes",
+        "addMembers": "Añadir participantes",
         "addModerator": "Agregar moderador",
         "addModerators": "Agregar moderadores",
-        "addNewMembers": "Agregar participantes",
-        "addNewMembersTo": "Agregar participantes a",
+        "addNewMembers": "Añadir participantes",
+        "addNewMembersTo": "Añadir participantes a",
         "addOtherModerators": "Agregar otros moderadores",
         "clearHistory": "Borrar historial",
         "close": "Cerrar",
@@ -54,7 +54,7 @@
         "copyUserRoomLink": "Link Sala",
         "leaveGroup": "Abandonar Chat Grupal",
         "openInChats": "Abrir en Chats",
-        "resetLink": "Restablecer enlace",
+        "resetLink": "Regenerar enlace",
         "start": "Inicio",
         "stop": "Detener",
         "saveToFiles": "Guardar en Files",
@@ -85,7 +85,7 @@
         "noActiveChats": "No hay Chats activos en este momento.",
         "noFilteredChats": "No hay Chats que coincidan con la búsqueda.",
         "filterChatList": "Buscar conversaciones",
-        "mockDisplayDescription": "Selecciona una conversación",
+        "mockDisplayDescription": "Elige una conversación para iniciar un chat",
         "mockDisplayTitle": "¡Mantengámonos en contacto!",
         "waitingRoom": "Sala de espera",
         "noActiveVirtualRooms": "No hay Salas activas en este momento",
@@ -110,7 +110,7 @@
             "setImageAndTitleDescription": "Adjunta una imagen para reconocer mejor al Canal dentro del Espacio. La imagen del Canal también se puede agregar o cambiar desde el panel de información del mismo.",
             "titleInputRequirements": "140 caracteres permitidos, el título debe ser único dentro del Espacio",
             "topicInputExplanation": "Describe el tema del Canal",
-            "topicDescription": "Ya que los Canales son conversaciones sobre un asunto específico, se recomienda una descripción coherente en el Tema."
+            "topicDescription": "Ya que los Canales son conversaciones sobre un tema específico, se recomienda una descripción coherente en el asunto."
         },
         "group": {
             "addParticipantsDescription": "Invita más participantes escribiendo su nombre o dirección de Email. Es necesario invitar al menos a dos participantes, de lo contrario puedes crear un Chat individual.",
@@ -142,16 +142,16 @@
         "selectOneOrMoreUsers": "Elije uno o más usuarios",
         "space": {
             "spaceWithoutNameAddParticipant": "Agrega participantes al Espacio",
-            "topicDescription": "Ya que los Espacios son conversaciones relacionadas con el asunto tratado, se recomienda una descripción coherente en el Tema.",
+            "topicDescription": "Al ser los Espacios conversaciones relacionadas con el tema tratado, se recomienda una descripción coherente en el tema.",
             "topicInputExplanation": "Describe el tema del Espacio",
-            "addMembersDescription": "Invita otros participantes escribiendo su nombre o dirección de Email. Es necesario invitar al menos a dos participantes, de lo contrario puedes crear un Chat individual.",
+            "addMembersDescription": "Invita otros participantes escribiendo su nombre o dirección de e-mail. Es necesario invitar al menos a dos participantes, de lo contrario puedes crear un Chat individual.",
             "mainDescription": "Los Espacios son lugares genéricos para conversar, que incluyen Canales con su propio tema. Para crear un Espacio tendrás que invitar al menos a dos participantes. Los Canales se pueden crear desde el panel de información del Espacio al que quieres que pertenezcan.",
             "titleDescription": "El título identifica al Espacio y, por lo tanto, debes describir su tema."
         },
         "startTypingToPick": "Comienza a escribir para ver las direcciones",
         "topicMax255Characters": "Máximo 255 caracteres",
-        "topicOptional": "Opcional. Describe el tema tratado",
-        "typeToFilter": "Escribe para seleccionar",
+        "topicOptional": "Opcional. Describe el tema",
+        "typeToFilter": "Escribe para filtrar de la lista",
         "typeWithNameAddParticipant": "Agregar participantes a",
         "youCanInviteOther": "Puedes invitar aún a {{limit}} participantes",
         "chat": {
@@ -162,7 +162,7 @@
         "emailReplicated": "El contacto introducido ya ha sido agregado",
         "nameRequired-max140Characters-avoidReusingNames": "Nombre requerido. Máx. 140 caracteres. Evita repetir nombres.",
         "titleInputRequirements": "140 caracteres permitidos. El título debe ser único",
-        "topicNeeds2Letters": "El asunto es opcional. Mínimo 2 caracteres"
+        "topicNeeds2Letters": "El tema es opcional. Mínimo 2 caracteres"
     },
     "meeting": {
         "interactions": {
@@ -192,7 +192,7 @@
             },
             "unpinVideo": "Desanclar video",
             "enableFullScreen": "Pantalla completa",
-            "muteUserForAllDescription": "Al silenciar al usuario, nadie más podrá escucharlo. Sólo el usuario silenciado puede reactivar su propio micrófono. ¿Proceder?",
+            "muteUserForAllDescription": "Al silenciar al usuario, nadie más podrá escucharlo. Sólo el usuario silenciado puede reactivar su propio micrófono. ¿Continuar?",
             "cameraEnabled": "Cámara activada",
             "stopMyVoice": "Silenciar mi voz",
             "audioDisabled": "Audio desactivado",
@@ -222,7 +222,7 @@
             "descriptionMyPersonalRoom": "¿Cómo quieres entrar en tu Sala Personal?"
         },
         "defaultViewModeDedicatedLabel": "El \"Modo dedicado\" abrirá una nueva pestaña del navegador para que puedas disfrutar de la mejor experiencia de reunión.",
-        "resetMeetingUrlModalDescription": "¿Seguro que quieres reiniciar el enlace para {{conversationName}} ?",
+        "resetMeetingUrlModalDescription": "¿Seguro que quieres regenerar el enlace para {{conversationName}} ?",
         "defaultViewModeDefaultLabel": "Al elegir el \"Modo por defecto\", la reunión se iniciará en el entorno interno actual.",
         "defaultViewModeSaveLabel": "Guardar opción",
         "defaultViewModeTitleModal": "Opciones del entorno de reuniones",
@@ -264,7 +264,7 @@
         "forwardModal": {
             "forwardedMessageFrom": "Mensaje reenviado por",
             "selectOneOrMoreConversations": "Selecciona una o más conversaciones",
-            "typeToFilterTheList": "Escribe un nombre",
+            "typeToFilterTheList": "Escribe para filtrar de la lista",
             "spaceAndChannels": "Espacio y Canales"
         },
         "instantMeeting": {
@@ -319,7 +319,7 @@
         "errorUpdatingAvatarStatus": "Error al definir el estado. Intenta nuevamente",
         "errorUploadingAvatarPicture": "Error al cargar el avatar. Intenta nuevamente",
         "errorRemovingAvatarPicture": "Error al remover el avatar. Intenta nuevamente",
-        "goToPrivateChat": "Ir al Chat privado",
+        "goToPrivateChat": "Ir al Chat individual",
         "messageComposer": "Autor del mensaje",
         "openMinichat": "Abrir minichat",
         "promoteModerator": "Promover como moderador",
@@ -359,7 +359,7 @@
         "instantInfo": "Información de la Llamada Instantanea",
         "name": "Nombre",
         "nameRoom": "Sala {{conversationTitle}}",
-        "newMessages": "Nuevos mensajes",
+        "newMessages": "Mensajes nuevos",
         "roomLinkDescription": "Copia este enlace y compártelo con quien quieras invitar a esta sala.",
         "spaceInfo": "Información del Espacio",
         "speakersCorner": "Usuarios en la Sala",
@@ -380,9 +380,9 @@
         "notificationsActivatedForThisChat": "Notificaciones activadas para este chat",
         "notificationsMutedForThisChat": "Notificaciones silenciadas para este chat",
         "online": "¡De nuevo online!",
-        "resetPersonalRoomLinkSuccess": "El enlace del Espacio personal ha sido restablecido",
+        "resetPersonalRoomLinkSuccess": "Se ha restablecido el enlace de tu Sala Personal",
         "retryConnection": "Reintentar conexión",
-        "uploadConversationPicturesFailed": "Error al cargar la imagen de la conversación",
+        "uploadConversationPicturesFailed": "Falló la carga de la imagen de la conversación",
         "appVersionCopied": "¡Versión de la aplicación copiada!",
         "offline": "Parece ser un problema de conexión con el servidor",
         "roomLinkCopied": "Se ha copiado el enlace de la Sala",
@@ -391,7 +391,7 @@
         "linkCopied": "Enlace copiado",
         "saveAttachmentError": "Parece que hubo un problema al guardar. Intenta nuevamente",
         "saveAttachmentSuccessfull": "El adjunto se ha guardado en la carpeta seleccionada",
-        "resetPersonalVirtualRoomLinkSuccess": "Se ha restablecido el enlace de la Sala",
+        "resetPersonalVirtualRoomLinkSuccess": "Se ha restablecido el enlace de tu Sala Personal",
         "virtualRoomLinkCopied": "Se ha copiado el enlace de la Sala"
     },
     "message": {
@@ -426,7 +426,7 @@
                     "channel": "{{member_name}} ha creado el Canal",
                     "space": "{{member_name}} ha creado el Espacio",
                     "group": "{{member_name}} ha creado el grupo",
-                    "single": "{{member_name}} ha creado el Chat Individual"
+                    "single": "{{member_name}} ha iniciado la conversación"
                 },
                 "deleted": {
                     "channel": "{{member_name}} ha eliminado el Canal",
@@ -445,7 +445,7 @@
                     "chat": "{{member_name}} ha sido eliminado del Chat por {{kicked_by}}"
                 },
                 "left": {
-                    "channel": "{{member_name}} abandonó el Canal",
+                    "channel": "{{member_name}} ha abandonado el Canal",
                     "space": "{{member_name}} ha abandonado el Espacio",
                     "group": "{{member_name}} ha abandonado la conversación",
                     "chat": "{{member_name}} ha abandonado la conversación"
@@ -483,7 +483,7 @@
                     "channel": "Has creado el Canal",
                     "space": "Has creado el Espacio",
                     "group": "Has creado el Chat Grupal",
-                    "single": "Has creado el Chat Individual"
+                    "single": "Has iniciado una conversación Individual"
                 },
                 "deleted": {
                     "channel": "Has eliminado el Canal",
@@ -509,7 +509,7 @@
                     "group": "Has abandonado la conversación"
                 }
             },
-            "conversationCreated": "Chat creado"
+            "conversationCreated": "Chat iniciado"
         },
         "readBy": "Leido por",
         "yesterday": "Ayer"
@@ -548,14 +548,14 @@
             "enableCamera": "Activar cámara",
             "enableMicrophone": "Activar micrófono",
             "meetings": "Reuniones",
-            "personalRoomOptionsTitleModal": "El enlace de la Sala Personal ha sido restablecido",
-            "personalRoomResetButton": "Restablecer enlace",
+            "personalRoomOptionsTitleModal": "El enlace de la Sala Personal ha sido generado nuevamente",
+            "personalRoomResetButton": "Regenerar enlace",
             "description": "Configura tus preferencias de audio y vídeo para entrar en las reuniones. Siempre podrás configurar tus preferencias antes de entrar en cualquier reunión.",
-            "personalRoomResetDescription": "Al restablecer el enlace de la Sala todos los accesos otorgados anteriormente dejarán de funcionar.",
+            "personalRoomResetDescription": "Al regenerar el enlace de la Sala todos los accesos otorgados anteriormente dejarán de funcionar.",
             "enableNoiseSuppression": "Reducción de ruido",
-            "personalVirtualRoomOptionsTitleModal": "Restablecimiento del enlace de la Sala",
-            "personalVirtualRoomResetButton": "Restablecer enlace",
-            "personalVirtualRoomResetDescription": "Si restableces el enlace de la Sala, los accesos otorgados anteriormente dejarán de funcionar.",
+            "personalVirtualRoomOptionsTitleModal": "Se ha generado nuevamente el enlace de la Sala",
+            "personalVirtualRoomResetButton": "Restablecer el enlace de la Sala personal",
+            "personalVirtualRoomResetDescription": "Al restablecer el enlace de tu Sala Personal todos los enlaces anteriores dejarán de funcionar",
             "virtualRooms": "Salas",
             "enableEchoCancellation": "Cancelación de eco",
             "voiceProcessing": "Configuración de voz",
@@ -569,13 +569,13 @@
             "title": {
                 "notifications": "Notificaciones",
                 "openMinichat": "Abrir cuando llegue un nuevo mensaje",
-                "openMinichatForGroup": "Abrir cuando llegue un nuevo mensaje de un Chat Grupal",
-                "openMinichatForSingle": "Abrir cuando llegue un nuevo mensaje de un Chat Individual",
+                "openMinichatForGroup": "Abrir cuando llegue un nuevo mensaje de un grupo",
+                "openMinichatForSingle": "Abrir cuando llegue un nuevo mensaje de chat individual",
                 "openMinichatForSpace": "Abrir cuando llegue un nuevo mensaje de un Espacio"
             }
         },
         "profile": {
-            "errorGenericResponse": "Algo ha salido mal. Intenta nuevamente",
+            "errorGenericResponse": "Algo salió mal. Intenta nuevamente",
             "reset": "Restablecer",
             "restore": "Restaurar",
             "statusOptionalDescription": "Opcional. Hazle saber a los demás lo que estás pensando. Máximo: 256 caracteres",
@@ -584,7 +584,7 @@
             "chooseAProfilePic": "Elige una imagen de perfil. Esta se centrará automáticamente.",
             "maximumDimension": "Tamaño máximo: 256 Kb."
         },
-        "resetPersonalRoomLinkSuccess": "El enlace de tu Espacio ha sido restablecido",
+        "resetPersonalRoomLinkSuccess": "Se ha restablecido el enlace de tu Sala Personal",
         "title": "Configuraciones",
         "modal": {
             "description": "¡Aquí puedes ajustar todas las preferencias de los Chats para disfrutar de una experiencia personalizada!",
