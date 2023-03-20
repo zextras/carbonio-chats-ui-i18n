@@ -329,7 +329,7 @@
         "offline": "Il semble que ce soit un problème de connexion au serveur",
         "roomLinkCopied": "Le lien de la salle a été copié",
         "tryAReconnectionIn": "Essayez de vous reconnecter dans {{seconds}}",
-        "connecting": "Connexion...",
+        "connecting": "Connexion…",
         "linkCopied": "Lien copié",
         "saveAttachmentError": "Il semble y avoir un problème lors de l'enregistrement, merci de réessayer",
         "saveAttachmentSuccessfull": "La pièce jointe a été enregistré dans le dossier sélectionné",
