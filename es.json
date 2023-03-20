@@ -387,7 +387,7 @@
         "offline": "Parece ser un problema de conexión con el servidor",
         "roomLinkCopied": "Se ha copiado el enlace de la Sala",
         "tryAReconnectionIn": "Intentando reconectar en {{seconds}}",
-        "connecting": "Conectando...",
+        "connecting": "Conectando…",
         "linkCopied": "Enlace copiado",
         "saveAttachmentError": "Parece que hubo un problema al guardar. Intenta nuevamente",
         "saveAttachmentSuccessfull": "El adjunto se ha guardado en la carpeta seleccionada",
