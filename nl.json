@@ -410,7 +410,7 @@
         "offline": "Het lijkt een probleem te zijn met de serververbinding",
         "tryAReconnectionIn": "Probeer een herverbinding in {{seconds}}",
         "roomLinkCopied": "Link naar Ruimte gekopieerd",
-        "connecting": "Wordt verbonden...",
+        "connecting": "Wordt verbonden…",
         "linkCopied": "Link gekopieerd",
         "saveAttachmentSuccessfull": "Bijlage opgeslagen in de geselecteerde map",
         "saveAttachmentError": "Er lijkt een probleem te zijn bij het opslaan, probeer het opnieuw",
