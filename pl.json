@@ -209,7 +209,7 @@
         "tryAReconnectionIn": "Spróbuj połączyć się ponownie za {{seconds}}",
         "retryConnection": "Połącz się ponownie",
         "uploadConversationPicturesFailed": "Nie udało się dodać obrazu konwersacji",
-        "connecting": "Łączenie...",
+        "connecting": "Łączenie…",
         "linkCopied": "Link został skopiowany",
         "saveAttachmentError": "Wystąpił problem przy zapisywaniu, spróbuj ponownie",
         "saveAttachmentSuccessfull": "Załącznik został zapisany w wybranym folderze",
