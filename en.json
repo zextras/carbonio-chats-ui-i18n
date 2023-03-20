@@ -242,7 +242,7 @@
     },
     "feedback": {
         "appVersionCopied": "App version copied",
-        "connecting": "Connecting...",
+        "connecting": "Connecting…",
         "historyClearedSuccessfully": "History cleared successfully!",
         "linkCopied": "Link copied",
         "notificationsActivatedForThisChat": "Notifications activated for this chat",
