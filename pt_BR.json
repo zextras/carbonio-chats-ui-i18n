@@ -218,7 +218,7 @@
         "resetPersonalRoomLinkSuccess": "O link da Sala Pessoal foi redefinido",
         "roomLinkCopied": "Link da Sala copiado",
         "tryAReconnectionIn": "Tente reconectar em {{seconds}}",
-        "connecting": "Conectando...",
+        "connecting": "Conectando…",
         "linkCopied": "Link copiado",
         "saveAttachmentSuccessfull": "Anexo salvo na pasta selecionada",
         "saveAttachmentError": "Parece que houve um problema ao salvar. Tente novamente",
