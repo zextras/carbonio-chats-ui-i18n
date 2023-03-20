@@ -454,7 +454,7 @@
                 },
                 "kicked": {
                     "channel": "{{kicked_by}}によってチャンネルから削除されました",
-                    "group": "{kicked_by}}によってグループから削除されました",
+                    "group": "{{kicked_by}} によってグループから削除されました",
                     "space": "{{kicked_by}}によってスペースから削除されました"
                 },
                 "left": {
