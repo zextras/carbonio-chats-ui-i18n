@@ -136,11 +136,11 @@
         "wereToFindRecording": "Запись будет сохранена на локальном видеосервере. Для получения дополнительной информации обратитесь к системному администратору.",
         "defaultViewModeDedicatedLabelVirtualRoom": "«Выделенный режим» перенаправит вас на отдельную вкладку вашего браузера.",
         "defaultViewModeDedicatedModeLabelVirtualRoom": "Выделенный режим",
-        "defaultViewModeDefaultLabelVirtualRoom": "При выборе «Режима по умолчанию» Конференц-зал запустится в текущем браузере.",
+        "defaultViewModeDefaultLabelVirtualRoom": "При выборе «Режима по умолчанию» Виртуальная комната запустится в текущем браузере.",
         "defaultViewModeDedicatedModeLabelVRoom": "Выделенный режим",
         "errorMeetingSavingRecording": "Невозможно остановить запись, попробуйте еще раз",
         "wereToFindRec": "Запись будет сохранена в Files в папке модератора, который остановил запись.",
-        "defaultViewModeTitleModalVirtualRoom": "Настройки Конференц-зала",
+        "defaultViewModeTitleModalVirtualRoom": "Настройки Виртуальной комнаты",
         "successSaveMeetingRecording": "Вы найдете запись {{registrationName}} в {{folderName}} как только она будет доступна",
         "setVirtualBackground": "Установить виртуальный фон",
         "noEffect": "Без эффекта",
@@ -176,11 +176,11 @@
         "sendMessage": "Отправить сообщение",
         "showChannels": "Показать Каналы",
         "switchToConversation": "Перейти в чат",
-        "copyUserRoom": "Скопировать ссылку на Персональный зал",
+        "copyUserRoom": "Скопировать ссылку на Персональную комнату",
         "planMeeting": "Запланировать встречу",
         "searchForParticipant": "Поиск участника",
         "acceptQueuedMember": "Разрешить вход",
-        "inviteToPersonalRoom": "Пригласить в Персональный зал",
+        "inviteToPersonalRoom": "Пригласить в Персональную комнату",
         "rejectQueuedMember": "Отклонить вход пользователя",
         "copyUserRoomTooltip": "Скопируйте эту ссылку и поделитесь ею, чтобы предоставить другим доступ к вашей Персональной комнате",
         "disabledCreateButton": "Проверьте введенные данные, чтобы убедиться в отсутствии ошибок",
@@ -249,7 +249,7 @@
         "createRoom": "Создать Комнату",
         "saveToFiles": "Сохранить в Files",
         "browse": "Просмотр",
-        "copyLinkVirtualRoom": "Скопировать ссылку на Конференц-зал",
+        "copyLinkVirtualRoom": "Скопировать ссылку",
         "createVirtualRoom": "Создать Виртуальную комнату",
         "deleteVirtualRoom": "Удалить Комнату",
         "joinVirtualRoom": "Войти в Комнату"
@@ -270,51 +270,51 @@
         "info": "Информация",
         "instantInfo": "Информация о Встрече",
         "name": "Имя",
-        "nameRoom": "Зал {{conversationTitle}}",
+        "nameRoom": "Виртуальная комната {{conversationTitle}}",
         "newMessages": "Новые сообщения",
-        "roomLinkDescription": "Скопируйте ссылку и поделитесь ей для доступа в этот Конференц-зал.",
-        "roomName": "Название Зала",
+        "roomLinkDescription": "Для доступа в эту комнату скопируйте ссылку и поделитесь ей.",
+        "roomName": "Название Комнаты",
         "spaceInfo": "Информация о Переговорной",
-        "speakersCorner": "Пользователи в Конференц-зале",
+        "speakersCorner": "Пользователи в Комнате",
         "title": "Название",
         "topic": "Тема",
-        "roomLink": "Ссылка на Зал",
+        "roomLink": "Ссылка на Комнату",
         "fileUploadDescription": "Описание файла",
-        "roomInfo": "Информация о Зале",
-        "virtualRoomLinkDescription": "Скопируйте эту ссылку и поделитесь ею, чтобы предоставить другим доступ к этому Конференц-залу.",
-        "nameVirtualRoom": "{{conversationTitle}} Конференц-зал",
-        "virtualRoomInfo": "Информация о Конференц-зале",
-        "virtualRoomLink": "Ссылка Конференц-зала",
-        "virtualRoomName": "Название Конференц-зала"
+        "roomInfo": "Информация о комнате",
+        "virtualRoomLinkDescription": "Чтобы предоставить другим пользователям доступ в эту комнату, скопируйте ссылку и поделитесь ей.",
+        "nameVirtualRoom": "Виртуальная комната {{conversationTitle}}",
+        "virtualRoomInfo": "Информация о Комнате",
+        "virtualRoomLink": "Ссылка на Комнату",
+        "virtualRoomName": "Название Комнаты"
     },
     "conversations": {
-        "activeMeetingRooms": "Активные Конференц-залы",
+        "activeMeetingRooms": "Активные Комнаты",
         "chats": "Чаты",
         "conversations": "Чаты",
         "instantMeetings": "Мгновенные Совещания",
-        "meetingRooms": "Конференц-залы",
+        "meetingRooms": "Комнаты",
         "noActiveInstantMeetings": "В настоящее время нет активных Мгновенных Совещаний. Создайте новое Мгновенное Совещание или переключитесь на вкладку.",
-        "noActiveMeetings": "В настоящее время нет активных Конференц-залов",
+        "noActiveMeetings": "В настоящее время нет активных Комнат",
         "noActiveSpaces": "На данный момент нет активных Переговорных. Создайте новую Переговорную.",
         "noFilteredInstantMeetings": "Нет Мгновенных совещаний соответствующих этому фильтру.",
-        "noFilteredMeetings": "По этому фильтру Конференц-залов или запланированных встреч не найдено",
+        "noFilteredMeetings": "Нет Комнат или запланированных встреч, которые соответствуют этому фильтру",
         "noFilteredSpaces": "Нет Переговорных соответствующих этому фильтру.",
-        "personalRoom": "Персональный зал",
+        "personalRoom": "Персональная Виртуальная комната",
         "scheduledMeetings": "Запланированные встречи",
         "spaces": "Переговорные",
         "spaceGeneralChannel": "Общий",
-        "waitingRoom": "Зал ожидания",
-        "yourRoom": "Ваш Конференц-зал",
+        "waitingRoom": "Комната ожидания",
+        "yourRoom": "Ваша Виртуальная комната",
         "noFilteredChats": "Нет чатов, соответствующих этому фильтру.",
         "filterChatList": "Фильтровать список чатов",
         "mockDisplayDescription": "Выберите беседу, чтобы начать чат",
         "mockDisplayTitle": "Будем на связи!",
         "noActiveChats": "В данный момент нет активных чатов. Создайте новый чат или переключите вкладку.",
-        "noActiveVirtualRooms": "На данный момент нет активных Конференц-залов",
-        "noFilteredVirtualRooms": "Нет Конференц-залов или запланированных встреч, которые соответствуют этому фильтру",
-        "activeVirtualRooms": "Активные Конференц-залы",
+        "noActiveVirtualRooms": "На данный момент нет активных Комнат",
+        "noFilteredVirtualRooms": "Нет Комнат или запланированных встреч, которые соответствуют этому фильтру",
+        "activeVirtualRooms": "Активные Комнаты",
         "personalVirtualRoom": "Персональная Виртуальная комната",
-        "virtualRooms": "Конференц-залы",
+        "virtualRooms": "Виртуальные комнаты",
         "rooms": "Комнаты",
         "noFilteredRooms": "Нет комнат или запланированных собраний, соответствующих этому фильтру",
         "noActiveRooms": "В данный момент нет активных комнат",
@@ -325,7 +325,7 @@
         "notificationsActivatedForThisChat": "Уведомления включены для этого Чата",
         "notificationsMutedForThisChat": "Отключить уведомления для этого чата",
         "online": "Снова в сети!",
-        "resetPersonalRoomLinkSuccess": "Ссылка на персональный зал была сброшена",
+        "resetPersonalRoomLinkSuccess": "Ссылка на персональную комнату была сброшена",
         "retryConnection": "Повторить подключение",
         "roomLinkCopied": "Ссылка скопирована",
         "uploadConversationPicturesFailed": "Не удалось загрузить фотографию чата",
@@ -337,7 +337,7 @@
         "saveAttachmentSuccessfull": "Вложение сохранено в выбранной папке",
         "saveAttachmentError": "Возникла проблема при сохранении, попробуйте еще раз",
         "resetPersonalVirtualRoomLinkSuccess": "Ссылка на Персональную виртуальную комнату сброшена",
-        "virtualRoomLinkCopied": "Ссылка на Конференц-зал скопирована"
+        "virtualRoomLinkCopied": "Ссылка на Комнату скопирована"
     },
     "message": {
         "deletedMessage": "Удаленное сообщение",
@@ -440,7 +440,7 @@
                     "channel": "Вы присоединились к Каналу",
                     "instantMeeting": "Вы присоединились к Мгновенному Совещанию",
                     "space": "Вы присоединились к Переговорной",
-                    "userRoom": "Вы вошли в Конференц-зал",
+                    "userRoom": "Вы вошли в Комнату",
                     "group": "Вы присоединились к Группе"
                 },
                 "kicked": {
@@ -460,7 +460,7 @@
         "yesterday": "Вчера"
     },
     "modal": {
-        "addModeratorDescription": "Сделайте одного или нескольких пользователей модераторами этого Конференц-зала",
+        "addModeratorDescription": "Сделайте одного или нескольких пользователей модераторами этой Комнаты",
         "clearHistoryDescription": "История этого чата была удалена, и теперь он перемещен в нижнюю часть списка чатов, чтобы облегчить доступ к активным чатам.",
         "confirm": {
             "areYouSure": "Вы уверены?",
@@ -492,12 +492,12 @@
         "moderatorCannotLeaveGroupDescription": "Вы единственный модератор группы {{conversationName}}, передайте права другому пользователю, прежде чем выйти из группы.",
         "moderatorCannotLeaveGroupTitle": "Подождите, требуется новый модератор",
         "notShowAgain": "Не показывай это снова",
-        "roomsFunctionalitiesChangelogDescription": "Мы внесли важные изменения в функции Team. Ознакомьтесь с информацией о Конференц-залах!",
+        "roomsFunctionalitiesChangelogDescription": "Мы внесли важные изменения в функциональные возможности. Ознакомьтесь с информацией о Виртуальных комнатах!",
         "showPreviousConversationHistory": "Показать предыдущую историю чата",
         "teamNews": "Новости Team",
-        "userJoinedWaitingRoom": "Кажется, в зале ожидания кто-то есть",
+        "userJoinedWaitingRoom": "Кажется, в комнате ожидания кто-то есть",
         "deleteMessageDescription": "При удалении сообщения оно больше не будет видно вам и всем остальным получателям",
-        "planMeetingDescription": "Укажите название Конференц-зала.",
+        "planMeetingDescription": "Укажите название Комнаты.",
         "news": "Новости",
         "stopMeetingRec": {
             "stopMeetingTitle": "Остановить запись встречи",
@@ -507,9 +507,9 @@
             "stopRecordingTitle": "Остановить запись",
             "locationWhereToSaveRecording": "Запись будет сохранена в {{folderName}}."
         },
-        "moderatorMeetingDescription": "Вы будете модератором этого Зала. Вы можете добавить дополнительных модераторов, и они будут иметь те же права, что и вы.",
+        "moderatorMeetingDescription": "Вы будете модератором этой Комнаты. Вы можете добавить дополнительных модераторов, и они будут иметь те же права, что и вы.",
         "selectFolder": "Выберите папку",
-        "planVirtualRoomDescription": "Укажите название Конференц-зала.",
+        "planVirtualRoomDescription": "Укажите название Комнаты.",
         "moderatorVirtualRoomDescription": "Вы будете модератором этой виртуальной комнаты. Вы можете добавить дополнительных модераторов, и они будут иметь те же права, что и вы.",
         "moderatorRoomDescription": "Вы будете модератором этой комнаты. Вы можете добавить дополнительных модераторов, и они будут иметь те же права, что и вы.",
         "planRoomDescription": "Дайте тематическое название этой Комнате."
@@ -518,15 +518,15 @@
         "answer": "Ответить",
         "dismiss": "Отклонить",
         "incomingCall": "Входящий звонок:",
-        "invitationToPersonalRoom": "Приглашение в персональный зал:",
+        "invitationToPersonalRoom": "Приглашение в персональную комнату от:",
         "waiting": {
             "notificationAcceptedByModerator": "Вы одобрены модератором",
             "descriptionAcceptedLabel": "Вы одобрены модератором {{conversationName}}",
             "descriptionWaitingLabel": "Вы ожидаете одобрения модератором {{conversationName}}",
             "notificationJoinTheRoom": "Войти в Комнату",
             "userIsWaiting": "Новый пользователь ожидает входа",
-            "userJoinedWaitingRoom": "В Зале ожидания кто-то есть",
-            "notificationJoinTheVirtualRoom": "Войдите в Конференц-зал"
+            "userJoinedWaitingRoom": "В комнате ожидания кто-то есть",
+            "notificationJoinTheVirtualRoom": "Войти в Виртуальную Комнату"
         },
         "meeting": {
             "ended": "Встреча завершена"
@@ -548,15 +548,15 @@
             "enableCamera": "Включить камеру",
             "enableMicrophone": "Включить микрофон",
             "meetings": "Встречи",
-            "personalRoomOptionsTitleModal": "Сброс ссылки Конференц-зала",
+            "personalRoomOptionsTitleModal": "Сброс ссылки на Персональную комнату",
             "personalRoomResetButton": "Удалить ссылку",
-            "personalRoomResetDescription": "При сбросе ссылки на персональный зал все ранее предоставленные доступы будут отменены.",
+            "personalRoomResetDescription": "При сбросе ссылки на Персональную комнату все ранее предоставленные доступы будут отменены.",
             "description": "Настройте параметры звука и видео. Вы всегда можете изменить настройки перед входом на любую встречу.",
-            "descriptionVirtualRoom": "Установите свои аудио и видео предпочтения, перед входом в Конференц-зал. Вы всегда можете настроить свои предпочтения перед входом.",
+            "descriptionVirtualRoom": "Установите свои аудио и видео предпочтения, перед входом в Виртуальную Комнату. Вы всегда можете настроить свои предпочтения перед входом.",
             "personalVirtualRoomOptionsTitleModal": "Ссылка на Персональную Виртуальную комнату сброшена",
             "personalVirtualRoomResetButton": "Сбросить ссылку на Персональную комнату",
             "personalVirtualRoomResetDescription": "При сбросе ссылки на Персональную виртуальную комнату все ранее предоставленные доступы больше не будут работать.",
-            "virtualRooms": "Конференц-зал",
+            "virtualRooms": "Виртуальные Комнаты",
             "enableEchoCancellation": "Подавление Эхо",
             "enableNoiseSuppression": "Шумоподавление",
             "voiceProcessing": "Обработка голоса",
@@ -617,29 +617,29 @@
     },
     "errorPage": {
         "errorCode": "Код ошибки 404",
-        "title": "Извините, мы не смогли найти этот Зал",
+        "title": "Извините, мы не смогли найти эту Комнату",
         "description": "Проверьте свою ссылку, она может быть неправильной"
     },
     "external": {
-        "nobodyInTheRoom": "В этом Зале никого нет",
-        "roomIsEmpty": "Этот Зал пустой",
+        "nobodyInTheRoom": "В этой Комнате никого нет",
+        "roomIsEmpty": "Эта Виртуальная комната пустая",
         "unsupported": {
             "browser": "Неподдерживаемый браузер",
             "device": "Неподдерживаемое устройство"
         },
         "waitingRoom": {
             "accessDenied": "В доступе отказано",
-            "moderatorRefusedAccessToRoom": "Модератор отказал вам в доступе в этот Зал",
+            "moderatorRefusedAccessToRoom": "Модератор отказал вам в доступе в эту Комнату",
             "userLeftLookForwardToSee": "До встречи",
-            "userLeftWaitingRoom": "Вы покинули зал ожидания",
-            "userLeftReturnToWaitingRoom": "Вы можете вернуться в зал ожидания в любое время по ссылке Зала"
+            "userLeftWaitingRoom": "Вы покинули Комнату ожидания",
+            "userLeftReturnToWaitingRoom": "Вы можете вернуться в Комнату ожидания в любое время по ссылке"
         },
         "youAreEnteringMeeting": "Вы собираетесь войти в Комнату",
         "login": {
             "externalLoginDescription": "Если вы уже принадлежите этому домену, вы будете перенаправлены в свой обычный рабочий интерфейс. Если вы внешний пользователь, вы будете перенаправлены на выделенный интерфейс."
         },
-        "nobodyInTheVirtualRoom": "Кажется никого нет в этом Зале",
-        "virtualRoomIsEmpty": "Этот Конференц-зал пустой",
+        "nobodyInTheVirtualRoom": "Кажется никого нет в этой Комнате",
+        "virtualRoomIsEmpty": "Эта Виртуальная комната пустая",
         "youAreEnteringVirtualRoom": "Вы собираетесь войти в Комнату",
         "playStoreLabel": "Google Play",
         "orLabel": "или",
@@ -652,8 +652,8 @@
     "label": {
         "app_name": "Chats"
     },
-    "organizeYourMeeting": "Создавайте личные встречи или присоединяйтесь к конференц-залам своих коллег",
-    "virtualRoom": "Конференц Зал",
+    "organizeYourMeeting": "Создавайте личные встречи или присоединяйтесь к Виртуальным комнатам своих коллег",
+    "virtualRoom": "Виртуальная комната",
     "enterTheRoom": "Войти в Комнату",
     "thanksForParticipating": "До встречи",
     "tryLater": "Попробуй позже",
@@ -662,7 +662,7 @@
     "enterTheVirtualRoom": "Войти в Комнату",
     "organizeYourVMeeting": "Создайте личные встречи или присоединяйтесь к Виртуальным комнатам ваших коллег",
     "organizeYourVirtualMeeting": "Создайте личные встречи или присоединяйтесь к Виртуальным комнатам ваших коллег",
-    "personalVirtualRoomLabel": "Персональная комната {{userName}}",
+    "personalVirtualRoomLabel": "Персональная Виртуальная комната {{userName}}",
     "preview": {
         "actions": {
             "tooltip": {
@@ -680,5 +680,5 @@
         "share": "Поделиться публичной ссылкой",
         "shareLink": "Поделиться ссылкой"
     },
-    "room": "Комната"
+    "room": "Виртуальная комната"
 }
