@@ -4,11 +4,11 @@
         "add": "Añadir",
         "addChannel": "Nuevo Canal",
         "addMembers": "Añadir participantes",
-        "addModerator": "Agregar moderador",
-        "addModerators": "Agregar moderadores",
+        "addModerator": "Añadir moderador",
+        "addModerators": "Añadir moderadores",
         "addNewMembers": "Añadir participantes",
         "addNewMembersTo": "Añadir participantes a",
-        "addOtherModerators": "Agregar otros moderadores",
+        "addOtherModerators": "Añadir otros moderadores",
         "clearHistory": "Borrar historial",
         "close": "Cerrar",
         "collapse": "Contraer",
@@ -138,7 +138,7 @@
         "nameRequired": "El nombre es requerido",
         "requiresOneMoreParticipant": "Requiere de por lo menos 1 participante más",
         "requiresTwoOthers": "Requiere de por lo menos 2 más",
-        "selectMoreParticipantsForInstantMeetings": "Selecciona un participante de la lista o escribe una dirección de correo para añadir a un usuario externo",
+        "selectMoreParticipantsForInstantMeetings": "Selecciona un participante de la lista o escribe una dirección de e-mail para añadir a un usuario externo",
         "selectOneOrMoreUsers": "Selecciona uno o más usuarios",
         "space": {
             "spaceWithoutNameAddParticipant": "Añade participantes al Espacio",
@@ -206,7 +206,7 @@
         },
         "attendeesComing": "Los participantes están llegando",
         "defaultViewModeDedicatedModeLabel": "Modo dedicado",
-        "defaultViewModeDefaultModeLabel": "Modo por defecto",
+        "defaultViewModeDefaultModeLabel": "Modo predeterminado",
         "defaultViewModeSecondaryDescriptionLabel": "Esta opción se guardadará en los ajustes y podrás modificarla siempre que lo desees.",
         "startModal": {
             "description": "¿Cómo quieres entrar en la reunión?",
@@ -223,7 +223,7 @@
         },
         "defaultViewModeDedicatedLabel": "El \"Modo dedicado\" abrirá una nueva pestaña del navegador para que puedas disfrutar de la mejor experiencia de reunión.",
         "resetMeetingUrlModalDescription": "¿Seguro que quieres restablecer el enlace para {{conversationName}} ?",
-        "defaultViewModeDefaultLabel": "Al elegir el \"Modo por defecto\", la reunión se iniciará en el entorno interno actual.",
+        "defaultViewModeDefaultLabel": "Si eliges el modo predeterminado, la reunión se iniciará en el entorno interno actual.",
         "defaultViewModeSaveLabel": "Recordar opción",
         "defaultViewModeTitleModal": "Opciones del entorno de reuniones",
         "recordedByMe": "Has comenzado a grabar",
@@ -234,7 +234,7 @@
         "genericErrorMeeting": "Parece que hay un problema con esta reunión. Contacta con el administrador del sistema.",
         "wereToFindRecording": "La grabación será guardada en el servidor de video. Contacta con el administrador del sistema para más detalles.",
         "defaultViewModeDedicatedLabelVirtualRoom": "El \"Modo Dedicado\" abrirá una nueva pestaña del navegador para que puedas disfrutar de la mejor experiencia en esta Sala Virtual.",
-        "defaultViewModeDefaultLabelVirtualRoom": "Al elegir el \"Modo por defecto\" la Sala Virtual iniciará en el entorno interno actual.",
+        "defaultViewModeDefaultLabelVirtualRoom": "Si eliges el modo predeterminado, la Sala Virtual iniciará en el entorno interno actual.",
         "wereToFindRec": "La grabación se guardará en una carpeta en Files del moderador que la detuvo.",
         "defaultViewModeTitleModalVirtualRoom": "Opciones del entorno de las Salas Virtuales",
         "errorMeetingSavingRecording": "No es posible detener la grabación. Intenta nuevamente",
@@ -337,7 +337,7 @@
         "inviteToPersonalRoom": "Invitar a tu Sala Personal",
         "rejectQueuedMember": "Rechazar usuario",
         "searchForParticipant": "Buscar participante",
-        "disabledCreateButton": "Comprueba los datos introducidos para asegurarte que no hay ningún error",
+        "disabledCreateButton": "Verifica los datos introducidos para asegurarte que no hay ningún error",
         "enterYourVirtualRoomTooltip": "Entra en tu Sala Personal",
         "copyVirtualRoomLinkTooltip": "Copia este enlace para compartir el acceso a la Sala Virtual",
         "copyUserVirtualRoomTooltip": "Copia este enlace y compártelo con quien quieras invitar a tu Sala Personal"
@@ -389,7 +389,7 @@
         "tryAReconnectionIn": "Intentando reconectar en {{seconds}}",
         "connecting": "Conectando…",
         "linkCopied": "Enlace copiado",
-        "saveAttachmentError": "Parece que hubo un problema al guardar. Intenta nuevamente",
+        "saveAttachmentError": "Se produjo un problema al guardar. Intenta nuevamente",
         "saveAttachmentSuccessfull": "El adjunto se ha guardado en la carpeta seleccionada",
         "resetPersonalVirtualRoomLinkSuccess": "Se ha restablecido el enlace de la Sala Personal",
         "virtualRoomLinkCopied": "Enlace de la Sala Virtual copiado"
@@ -649,7 +649,7 @@
         "app_name": "Chats"
     },
     "errorPage": {
-        "description": "Comprueba el enlace, puede estar mal",
+        "description": "Verifica el enlace, puede estar mal",
         "errorCode": "Error: código 404",
         "title": "No se puede encontrar la sala"
     },
@@ -657,7 +657,7 @@
     "organizeYourMeeting": "Organiza tus propias reuniones o únete a las Salas de tus compañeros",
     "thanksForParticipating": "Gracias por participar",
     "tryLater": "Inténtalo más tarde",
-    "typeYourEmail": "Introduce tu Email",
+    "typeYourEmail": "Introduce tu e-mail",
     "virtualRoom": "Sala Virtual",
     "enterTheVirtualRoom": "Entrar en la Sala Virtual",
     "preview": {
