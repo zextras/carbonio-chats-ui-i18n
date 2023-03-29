@@ -6,11 +6,11 @@
         "conversations": "Conversas",
         "instantMeetings": "Reuniões Instantâneas",
         "meetingRooms": "Salas de Reunião",
-        "noActiveInstantMeetings": "Não há Reuniões Instantâneas ativas no momento. Crie uma nova ou mude de aba.",
-        "noActiveMeetings": "Não existem Salas ativas no momento",
-        "noActiveSpaces": "Não há Espaços ativos no momento. Crie um novo Espaço ou mude de aba.",
+        "noActiveInstantMeetings": "Não há Reuniões Instantâneas ativas no momento. Crie uma nova ou mude de guia.",
+        "noActiveMeetings": "Não há salas ativas no momento",
+        "noActiveSpaces": "Não há Espaços ativos no momento. Crie um ou mude de guia.",
         "noFilteredInstantMeetings": "Não há Reuniões Instantâneas que correspondam a este filtro.",
-        "noFilteredMeetings": "Não existem Salas ou reuniões agendadas que correspondam a este filtro",
+        "noFilteredMeetings": "Não existem Salas ou reuniões programadas que correspondam a este filtro",
         "noFilteredSpaces": "Não há Espaços que correspondam a este filtro.",
         "personalRoom": "Sala pessoal",
         "scheduledMeetings": "Reuniões agendadas",
@@ -21,14 +21,14 @@
         "noFilteredChats": "Não há chats que correspondam a este filtro.",
         "waitingRoom": "Sala de espera",
         "filterChatList": "Filtrar lista de chats",
-        "noActiveChats": "Não há chats ativos no momento. Crie um novo Chat ou mude de aba.",
+        "noActiveChats": "Não há chats ativos no momento. Crie um novo Chat ou mude de guia.",
         "activeVirtualRooms": "Salas Virtuais ativas",
-        "noActiveVirtualRooms": "Não existem Salas Virtuais ativas neste momento",
-        "noFilteredVirtualRooms": "Não existem Salas Virtuais ou reuniões programadas que correspondam a este filtro",
-        "personalVirtualRoom": "Sala Virtual pessoal",
+        "noActiveVirtualRooms": "Não há salas virtuais ativas no momento",
+        "noFilteredVirtualRooms": "Não existem salas virtuais ou reuniões programadas que correspondam a este filtro",
+        "personalVirtualRoom": "Sala Pessoal",
         "virtualRooms": "Salas virtuais",
-        "noFilteredRooms": "Não existem Salas ou reuniões agendadas que correspondam a este filtro",
-        "noActiveRooms": "Não existem Salas ativas no momento",
+        "noFilteredRooms": "Não existem Salas ou reuniões programadas que correspondam a este filtro",
+        "noActiveRooms": "Não há salas ativas no momento",
         "activeRooms": "Salas ativas",
         "rooms": "Salas"
     },
@@ -71,7 +71,7 @@
         "expand": "Expandir",
         "forward": "Encaminhar",
         "join": "Unir-se",
-        "joinChannel": "Entrar no Canal para enviar mensagens e receber notificações",
+        "joinChannel": "Participe do Canal para enviar mensagens e receber notificações",
         "joinChannelAction": "Entrar no Canal",
         "joinRoom": "Entrar na Sala",
         "leave": "Sair",
@@ -125,7 +125,7 @@
         "name": "Nome",
         "nameRoom": "Sala de {{conversationTitle}}",
         "newMessages": "Novas mensagens",
-        "roomLinkDescription": "Copie este link e compartilhe-o para conceder acesso a esta Sala para outras pessoas.",
+        "roomLinkDescription": "Copie este link e compartilhe para permitir que outras pessoas acessem a esta Sala.",
         "spaceInfo": "Informação do espaço",
         "speakersCorner": "Usuários na Sala de reunião",
         "title": "Título",
@@ -136,7 +136,7 @@
         "roomLink": "Link da Sala",
         "nameVirtualRoom": "Sala virtual de {{conversationTitle}}",
         "virtualRoomLink": "Link da Sala virtual",
-        "virtualRoomLinkDescription": "Copie este link e compartilhe para permitir o acesso dos outros a esta Sala virtual.",
+        "virtualRoomLinkDescription": "Copie este link e compartilhe para permitir que outras pessoas acessem a esta Sala Virtual.",
         "virtualRoomInfo": "Informações da Sala virtual",
         "virtualRoomName": "Nome da Sala virtual"
     },
@@ -147,7 +147,7 @@
             "setImageAndTitleDescription": "Defina uma imagem para reconhecer melhor o Canal dentro do Espaço que o aloja. A imagem do Canal também pode ser definida ou alterada no painel informativo do Canal.",
             "titleInputRequirements": "140 caracteres permitidos. O título deve ser único dentro do Espaço",
             "topicInputExplanation": "Descreve o assunto do Canal",
-            "topicDescription": "Como os Canais são chats orientados pelo tema discutido, recomenda-se um uma descrição o mais precisa possível."
+            "topicDescription": "Já que os Canais são chats orientados pelo tema discutido, recomenda-se um uma descrição o mais precisa possível."
         },
         "group": {
             "addParticipantsDescription": "Convide os participantes digitando seu nome ou endereço de e-mail. Você precisa convidar pelo menos dois participantes, caso contrário, você pode criar um Chat individual.",
@@ -167,7 +167,7 @@
                 }
             },
             "description": "As Reuniões Instantâneas são chamadas de vídeo projetadas para serem rápidas e momentâneas. Nenhum rastro do chat será mantido e, uma vez que a chamada termine, ela deixará de existir. Reuniões Instantâneas podem ser criadas por usuários com licença Team Pro e também podem ser acessadas até mesmo por usuários externos.",
-            "titleDescription": "Dê um nome reconhecível a uma Reunião Instantânea, para que seus participantes saibam o propósito da chamada."
+            "titleDescription": "Dê a esta Reunião Instantânea um nome reconhecível, a fim de que os participantes saibam o propósito da chamada."
         },
         "limitOfParticipantReached": "Você atingiu o limite de participantes estabelecido pelo administrador",
         "nameMax140Characters": "Máx. 140 caracteres",
@@ -184,7 +184,7 @@
         "selectOneOrMoreUsers": "Selecione um ou mais usuários",
         "space": {
             "spaceWithoutNameAddParticipant": "Adicionar participantes ao seu Espaço",
-            "topicDescription": "Já que os Espaços são chats conduzidos pelo tópico discutido, recomenda-se uma descrição o mais precisa possível.",
+            "topicDescription": "Já que os Espaços são chats conduzidos pelo tema discutido, recomenda-se uma descrição o mais precisa possível.",
             "topicInputExplanation": "Descreve o tema do Espaço",
             "addMembersDescription": "Convide as pessoas digitando seu nome ou endereço de e-mail. Você precisa convidar pelo menos duas pessoas, caso contrário, você pode criar um Chat individual.",
             "mainDescription": "Os Espaços são ambientes genéricos de comunicação que incluem chats específicos chamados Canais, cada um com seu próprio tema. Para criar um Espaço você precisa convidar pelo menos dois participantes. Os Canais podem ser adicionados diretamente do painel informativo do Espaço.",
@@ -222,7 +222,7 @@
         "linkCopied": "Link copiado",
         "saveAttachmentSuccessfull": "Anexo salvo na pasta selecionada",
         "saveAttachmentError": "Parece que houve um problema ao salvar. Tente novamente",
-        "resetPersonalVirtualRoomLinkSuccess": "O link da Sala Virtual Pessoal foi redefinido",
+        "resetPersonalVirtualRoomLinkSuccess": "O link da Sala Pessoal foi redefinido",
         "virtualRoomLinkCopied": "Link da Sala Virtual copiado"
     },
     "meeting": {
@@ -257,14 +257,14 @@
             },
             "unpinVideo": "Desprender video",
             "enableFullScreen": "Tela cheia",
-            "muteUserForAllDescription": "Ao silenciar o usuário, todos os participantes não ouvirão mais ele. Somente o usuário silenciado pode ser reativado. Proceder?",
+            "muteUserForAllDescription": "Ao silenciar o usuário, todos os participantes não ouvirão mais ele. Somente o usuário silenciado pode ser reativado. Continuar?",
             "cameraEnabled": "Câmera habilitada",
             "audioDisabled": "Áudio desabilitado",
             "audioEnabled": "Áudio habilitado",
             "cameraDisabled": "Câmera desabilitada",
             "playMyVoice": "Reproduzir minha voz",
             "stopMyVoice": "Parar minha voz",
-            "micTesting": "Você escutará sua voz na saída padrão, o que te permite testar a qualidade da entrada e da saída selecionada para a reunião",
+            "micTesting": "Você ouvirá sua voz sobre a saída padrão, permitindo testar a qualidade de sua entrada, assim como a saída selecionada para a reunião",
             "playMic": "Iniciar teste do microfone",
             "stopMic": "Parar teste do microfone",
             "hangOff": "Desligar"
@@ -276,14 +276,14 @@
             "noVideoAndNoAudio": "Câmera desligada, microfone desligado",
             "videoAndAudio": "Câmera ligada, microfone ligado",
             "videoAndNoAudio": "Câmera ligada, microfone desligado",
-            "descriptionPersonalVirtualRoom": "Como você deseja entrar na Sala Virtual pessoal de {{meetingTitle}}?",
+            "descriptionPersonalVirtualRoom": "Como você deseja entrar na Sala Pessoal de {{meetingTitle}}?",
             "descriptionVirtualRoom": "Como você deseja entrar em {{meetingTitle}}?",
-            "descriptionMyPersonalVirtualRoom": "Como você deseja entrar na sua Sala Virtual pessoal?",
+            "descriptionMyPersonalVirtualRoom": "Como você deseja entrar na sua Sala Pessoal?",
             "descriptionPersonalRoom": "Como deseja entrar na Sala Pessoal de {{meetingTitle}}?",
             "descriptionMyPersonalRoom": "Como deseja entrar na sua Sala Pessoal?"
         },
         "defaultViewModeTitleModal": "Opções do ambiente das reuniões",
-        "defaultViewModeDedicatedLabel": "O \"Modo Dedicado\" irá redirecioná-lo para uma aba separada de seu navegador para desfrutar da experiência da Reunião no seu melhor.",
+        "defaultViewModeDedicatedLabel": "O \"Modo Dedicado\" irá redirecioná-lo para uma guia separada de seu navegador para desfrutar da experiência da Reunião no seu melhor.",
         "defaultViewModeDefaultLabel": "Selecionando o \"Modo Padrão\", a Reunião começará no ambiente interno atual.",
         "defaultViewModeSaveLabel": "Salvar Opção",
         "resetMeetingUrlModalDescription": "Tem certeza que deseja redefinir o link para \"{{conversationName}}\"?",
@@ -296,7 +296,7 @@
         "wereToFindRecording": "A gravação será salva no servidor de vídeo. Entre em contato com o administrador do seu sistema para mais informações.",
         "defaultViewModeDedicatedModeLabelVRoom": "Modo dedicado",
         "defaultViewModeDedicatedModeLabelVirtualRoom": "Modo dedicado",
-        "defaultViewModeDedicatedLabelVirtualRoom": "O \"Modo Dedicado\" vai te redirecionar a uma aba separada no seu navegador para desfrutar da melhor experiência na Sala Virtual.",
+        "defaultViewModeDedicatedLabelVirtualRoom": "O \"Modo Dedicado\" vai te redirecioná-lo para uma guia separada no seu navegador para desfrutar da melhor experiência na Sala Virtual.",
         "defaultViewModeDefaultLabelVirtualRoom": "Ao escolher o \"Modo Padrão\", a Sala Virtual se iniciará no ambiente interno atual.",
         "defaultViewModeTitleModalVirtualRoom": "Opções de ambiente da Sala Virtual",
         "errorMeetingSavingRecording": "Não é possível parar a gravação. Tente novamente",
@@ -371,7 +371,7 @@
                     }
                 }
             },
-            "newMeeting": "Recebendo chamada de:",
+            "newMeeting": "Chamada recebida de:",
             "notificationsActivatedForThisChat": "Notificações ativas para este chat",
             "notificationsMutedForThisChat": "Notificações silenciadas para este chat",
             "you": {
@@ -404,7 +404,7 @@
                 },
                 "invited": "Você foi convidado por {{invited_by}}",
                 "join": {
-                    "channel": "Você se uniu ao Canal",
+                    "channel": "Você se juntou ao Canal",
                     "instantMeeting": "Você se juntou à Reunião Instantânea",
                     "space": "Você se juntou ao Espaço",
                     "userRoom": "Você entrou na Sala",
@@ -463,9 +463,9 @@
         "notShowAgain": "Não mostrar isso novamente",
         "roomsFunctionalitiesChangelogDescription": "Fizemos alterações importantes nas funcionalidades da reunião. Leia a introdução às Salas para saber mais!",
         "teamNews": "Notícias do Team",
-        "userJoinedWaitingRoom": "Parece que tem alguém na Sala de Espera",
+        "userJoinedWaitingRoom": "Parece que tem alguém na sala de espera",
         "deleteMessageDescription": "Ao excluir uma mensagem, ela não será mais visível para você nem para os demais destinatários",
-        "planMeetingDescription": "O nome da Sala ajuda os participantes a saber o assunto da mesma.",
+        "planMeetingDescription": "O nome da sala ajuda os participantes a conhecer o assunto de discussão da mesma.",
         "selectFolder": "Selecionar pasta",
         "moderatorMeetingDescription": "Você irá moderar essa Sala. Você pode adicionar outros moderadores e eles terão as mesmas permissões que você.",
         "stopMeetingRec": {
@@ -476,15 +476,15 @@
             "stopRecordingDescription": "Você vai parar a gravação. É possível iniciar uma nova a qualquer momento.",
             "stopRecordingTitle": "Parar gravação"
         },
-        "planVirtualRoomDescription": "Dê um nome familiar a esta Sala Virtual para que os participantes saibam qual é o assunto.",
+        "planVirtualRoomDescription": "Dê a esta Sala Virtual um nome reconhecível, a fim de que os participantes saibam o assunto da mesma.",
         "moderatorVirtualRoomDescription": "Você vai moderar essa Sala Virtual. É possível adicionar mais moderadores e eles terão as mesmas permissões que você.",
         "moderatorRoomDescription": "Você irá moderar essa Sala. Você pode adicionar outros moderadores e eles terão as mesmas permissões que você.",
-        "planRoomDescription": "Dê um nome familiar a esta Sala para que seus participantes saibam qual é o assunto da reunião."
+        "planRoomDescription": "Dê a esta Sala um nome reconhecível, a fim de que os participantes saibam o assunto da mesma."
     },
     "notification": {
         "answer": "Responder",
         "dismiss": "Dispensar",
-        "incomingCall": "Recebendo chamada de:",
+        "incomingCall": "Chamada recebida de:",
         "invitationToPersonalRoom": "Convite para uma Sala pessoal de:",
         "waiting": {
             "descriptionWaitingLabel": "Você está aguardando o aceite do moderador de {{conversationName}}",
@@ -499,7 +499,7 @@
             "ended": "Reunião encerrada"
         },
         "startMeetingRecording": "A gravação da reunião {{conversationName}} foi iniciada",
-        "invitationToPersonalVirtualRoom": "Convite para Sala Virtual pessoal de:"
+        "invitationToPersonalVirtualRoom": "Convite para Sala Pessoal de:"
     },
     "settings": {
         "meeting": {
@@ -512,14 +512,14 @@
             "description": "Defina suas preferências de áudio e vídeo para entrar nas reuniões. Você pode sempre personalizar suas preferências antes de participar de cada reunião.",
             "enableEchoCancellation": "Cancelamento de eco",
             "enableNoiseSuppression": "Supressão de ruído",
-            "personalVirtualRoomOptionsTitleModal": "Link da Sala Virtual pessoal redefinido",
-            "personalVirtualRoomResetButton": "Redefinir link da Sala Virtual pessoal",
+            "personalVirtualRoomOptionsTitleModal": "Link da Sala Pessoal redefinido",
+            "personalVirtualRoomResetButton": "Redefinir link da Sala Pessoal",
             "virtualRooms": "Salas Virtuais",
             "voiceProcessing": "Processamento de Voz",
-            "voiceProcessingDescription": "Você escutará sua voz na saída padrão, o que te permite testar a qualidade da entrada e da saída selecionada para a reunião",
-            "personalVirtualRoomResetDescription": "Ao redefinir o link da Sala Virtual pessoal, todos os acessos concedidos anteriormente não funcionarão mais.",
+            "voiceProcessingDescription": "Você ouvirá sua voz sobre a saída padrão, permitindo testar a qualidade de sua entrada, assim como a saída selecionada para a reunião",
+            "personalVirtualRoomResetDescription": "Ao redefinir o link da Sala Pessoal, todos os acessos concedidos anteriormente não funcionarão mais.",
             "descriptionVirtualRoom": "Defina suas preferências de áudio e vídeo para entrar na Sala Virtual. Você sempre pode personalizar suas preferências antes de entrar em cada Sala Virtual.",
-            "descriptionRoom": "Configure suas preferências de áudio e vídeo para entrar na Sala. Você sempre pode personalizar suas preferências antes de entrar em qualquer Sala."
+            "descriptionRoom": "Configure suas preferências de áudio e vídeo para entrar na Sala. Você sempre pode personalizar suas preferências antes de entrar em cada Sala."
         },
         "notification": {
             "desktop": "Notificações do desktop",
@@ -570,8 +570,8 @@
     },
     "tooltip": {
         "close": "Fechar",
-        "copyRoomLink": "Copiar este link para compartilhar a Sala",
-        "copyRoomLinkTooltip": "Copiar este link para compartilhar a Sala",
+        "copyRoomLink": "Copie este link para compartilhar a Sala",
+        "copyRoomLinkTooltip": "Copie este link para compartilhar a Sala",
         "editDescription": "Editar descrição",
         "enterYourRoom": "Entrar na sua Sala pessoal",
         "enterYourRoomTooltip": "Entrar na sua Sala pessoal",
@@ -601,14 +601,14 @@
         "selectEmoji": "Selecionar emoji",
         "switchToConversation": "Alterar para a conversa",
         "switchToInfoPanel": "Alterar para o painel de informação",
-        "copyUserRoomTooltip": "Copie este link e compartilhe-o para conceder acesso a sua Sala pessoal para outras pessoas",
+        "copyUserRoomTooltip": "Copie este link e compartilhe para permitir que outras pessoas acessem sua Sala Pessoal",
         "enterMeetingRoom": "Entrar na Sala de Reunião",
         "messageComposer": "Autor da mensagem",
         "showChannels": "Mostrar Canais",
         "disabledCreateButton": "Verifique os dados inseridos para garantir que não existem erros",
         "copyVirtualRoomLinkTooltip": "Copie este link para compartilhar a Sala Virtual",
-        "enterYourVirtualRoomTooltip": "Entre na sua Sala Virtual pessoal",
-        "copyUserVirtualRoomTooltip": "Copie este link e compartilhe para permitir que outras pessoas acessem sua Sala Virtual pessoal"
+        "enterYourVirtualRoomTooltip": "Entre na sua Sala Pessoal",
+        "copyUserVirtualRoomTooltip": "Copie este link e compartilhe para permitir que outras pessoas acessem sua Sala Pessoal"
     },
     "general": {
         "goToTeam": "Ir para Team",
@@ -672,7 +672,7 @@
     "enterTheVirtualRoom": "Entrar na Sala Virtual",
     "organizeYourVMeeting": "Organize suas próprias reuniões ou entre nas Salas Virtuais dos seus colegas",
     "organizeYourVirtualMeeting": "Organize suas próprias reuniões ou entre nas Salas Virtuais dos seus colegas",
-    "personalVirtualRoomLabel": "Sala Virtual pessoal de {{userName}}",
+    "personalVirtualRoomLabel": "Sala Pessoal de {{userName}}",
     "attachments": {
         "addFromLocal": "Adicionar a partir do Meu Computador",
         "shareLink": "Compartilhar link",
