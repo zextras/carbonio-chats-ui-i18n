@@ -221,7 +221,7 @@
         "connecting": "Conectando…",
         "linkCopied": "Link copiado",
         "saveAttachmentSuccessfull": "Anexo salvo na pasta selecionada",
-        "saveAttachmentError": "Parece que houve um problema ao salvar. Tente novamente",
+        "saveAttachmentError": "Parece haver um problema ao salvar. Tente novamente",
         "resetPersonalVirtualRoomLinkSuccess": "O link da Sala Pessoal foi redefinido",
         "virtualRoomLinkCopied": "Link da Sala Virtual copiado"
     },
@@ -290,7 +290,7 @@
         "recordedByMe": "Você iniciou a gravação",
         "recordedByOther": "{{username}} iniciou a gravação",
         "recording": "Gravando",
-        "genericErrorMeeting": "Parece que houve um problema com esta reunião, entre em contato com o administrador do seu sistema.",
+        "genericErrorMeeting": "Parece haver um problema com esta reunião, entre em contato com o administrador do seu sistema.",
         "errorMeetingRecording": "Não é possível iniciar a gravação, entre em contato com o administrador do seu sistema.",
         "thisMeetingIsBeingRecorded": "Esta reunião está sendo gravada",
         "wereToFindRecording": "A gravação será salva no servidor de vídeo. Entre em contato com o administrador do seu sistema para mais informações.",
