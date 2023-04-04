@@ -284,7 +284,7 @@
         "virtualRoomLinkDescription": "Чтобы предоставить другим пользователям доступ в эту комнату, скопируйте ссылку и поделитесь ей.",
         "nameVirtualRoom": "Виртуальная комната {{conversationTitle}}",
         "virtualRoomInfo": "Информация о Комнате",
-        "virtualRoomLink": "Ссылка на Комнату",
+        "virtualRoomLink": "Ссылка на Виртуальную комнату",
         "virtualRoomName": "Название Комнаты"
     },
     "conversations": {
