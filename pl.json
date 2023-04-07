@@ -59,7 +59,7 @@
         "start": "Rozpocznij",
         "stop": "Zatrzymaj",
         "browse": "Przeglądaj",
-        "saveToFiles": "Zapisz do Files",
+        "saveToFiles": "Zapisz do Carbonio Pliki",
         "copyLinkVirtualRoom": "Skopiuj link do wirtualnego pokoju",
         "createVirtualRoom": "Stwórz wirtualny pokój",
         "deleteVirtualRoom": "Usuń wirtualny pokój",
@@ -297,7 +297,7 @@
         "defaultViewModeDedicatedLabelVirtualRoom": "\"Tryb dedykowany\" przekieruje Cie do oddzielnej karty przeglądarki, aby umożliwić Ci najlepsze doświadczenie wirtualnego pokoju.",
         "defaultViewModeDefaultLabelVirtualRoom": "Po wyborze \"Trybu domyślnego\" wirtualny pokój rozpocznie się w obecnym, wewnętrznym środowisku.",
         "successSaveMeetingRecording": "Znajdziesz {{registrationName}} w /{{folderName}} tak szybko gdy będzie to gotowe",
-        "wereToFindRec": "Nagranie zostanie zapisane w przestrzeni Files moderatora, który je zatrzyma.",
+        "wereToFindRec": "Nagranie zostanie zapisane w przestrzeni Carbonio Pliki moderatora, który zatrzyma nagrywanie.",
         "setVirtualBackground": "Ustaw wirtualne tło",
         "noEffect": "Brak efektu",
         "blurMyBackground": "Rozmaż moje tło"
@@ -675,10 +675,10 @@
     "personalVirtualRoomLabel": "Własny wirtualny pokój użytkownika {{userName}}",
     "attachments": {
         "addFromLocal": "Dodaj z tego urządzenia",
-        "attachLinkFromFiles": "Załącz link z Files",
+        "attachLinkFromFiles": "Załącz link z Plików",
         "share": "Udostępnij publiczny link",
         "shareLink": "Udostępnij link",
-        "attachLinkFiles": "Załącz publiczny link z Files"
+        "attachLinkFiles": "Załącz publiczny link z Plików"
     },
     "room": "Pokój"
 }
