@@ -143,7 +143,7 @@
         "appVersionCopied": "App Version kopiert",
         "resetPersonalRoomLinkSuccess": "Der Link des persönlichen Raums wurde zurückgesetzt",
         "roomLinkCopied": "Raum- Link kopiert",
-        "connecting": "Verbinden …",
+        "connecting": "Verbinden…",
         "linkCopied": "Link kopiert",
         "saveAttachmentError": "Es scheint ein Problem beim Speichern zu geben, bitte versuchen Sie es erneut",
         "saveAttachmentSuccessfull": "Im ausgewählten Ordner gespeicherte Anhänge",
@@ -326,7 +326,7 @@
         "noFilteredSpaces": "Es gibt keine Spaces, die diesem Filter entsprechen.",
         "personalRoom": "Persönlicher Raum",
         "scheduledMeetings": "Geplante Meetings",
-        "spaces": "Spaces",
+        "spaces": "Räume",
         "spaceGeneralChannel": "Allgemein",
         "yourRoom": "Ihr Raum",
         "filterChatList": "Liste der Chats filtern",
@@ -342,7 +342,8 @@
         "virtualRooms": "Virtuelle Räume",
         "noFilteredRooms": "Es gibt keine Räume oder geplante Meetings, die diesem Filter entsprechen",
         "noActiveRooms": "Es gibt derzeit keine aktiven Räume",
-        "activeRooms": "Aktive Räume"
+        "activeRooms": "Aktive Räume",
+        "rooms": "Räume"
     },
     "meeting": {
         "attendeesComing": "Teilnehmer kommen gerade an",
@@ -397,7 +398,9 @@
             "videoAndNoAudio": "Kamera an, Mikrofon aus",
             "descriptionMyPersonalVirtualRoom": "Wie möchten Sie Ihren Persönlichen Virtuellen Raum betreten?",
             "descriptionPersonalVirtualRoom": "Wie möchten Sie {{meetingTitle}}s Persönlichen Virtuellen Raum betreten?",
-            "descriptionVirtualRoom": "Wie möchten Sie {{meetingTitle}} betreten?"
+            "descriptionVirtualRoom": "Wie möchten Sie {{meetingTitle}} betreten?",
+            "descriptionMyPersonalRoom": "Wie möchten Sie Ihren persönlichen Raum betreten?",
+            "descriptionPersonalRoom": "Wie möchten Sie den persönlichen Raum von {{meetingTitle}} betreten?"
         },
         "defaultViewModeDefaultLabel": "Bei der Auswahl des \"Standardmodus\", wird das Meeting in der aktuellen internen Umgebung starten.",
         "defaultViewModeSaveLabel": "Option speichern",
@@ -461,7 +464,7 @@
         "deleteMessageDescription": "Wenn Sie eine Nachricht löschen, wird sie für Sie und alle anderen Empfänger nicht mehr sichtbar sein",
         "teamNews": "Team's Nachrichten",
         "userJoinedWaitingRoom": "Es scheint jemand im Warteraum zu sein",
-        "news": "News",
+        "news": "Nachrichten",
         "notShowAgain": "Zeigen Sie dies nicht mehr",
         "selectFolder": "Ordner auswählen",
         "moderatorMeetingDescription": "Sie werden diesen Raum moderieren. Sie können weitere Moderatoren hinzufügen, die die gleichen Rechte haben wie Sie.",
@@ -475,7 +478,8 @@
         },
         "moderatorVirtualRoomDescription": "Sie werden diesen Virtuellen Raum moderieren. Sie können zusätzliche Moderatoren hinzufügen und diese werden dieselben Rechte haben wie Sie.",
         "planVirtualRoomDescription": "Geben Sie dem Virtuellen Raum einen wiedererkennbaren Namen, damit die Teilnehmer wissen, worum es bei dem Treffen geht.",
-        "moderatorRoomDescription": "Sie werden diesen Raum moderieren. Sie können weitere Moderatoren hinzufügen, die die gleichen Rechte haben wie Sie."
+        "moderatorRoomDescription": "Sie werden diesen Raum moderieren. Sie können weitere Moderatoren hinzufügen, die die gleichen Rechte haben wie Sie.",
+        "planRoomDescription": "Geben Sie diesem Raum einen wiedererkennbaren Namen, damit Ihre Teilnehmer wissen, worum es bei dem Treffen geht."
     },
     "notification": {
         "answer": "Annehmen",
@@ -514,7 +518,8 @@
             "voiceProcessing": "Sprachverarbeitung",
             "voiceProcessingDescription": "Sie werden eine Stimme in Ihrem Standard-Ausgabegerät hören, wodurch Sie die sowohl die Sprach- als auch die Audioqualität für Ihr Meeting testen können",
             "personalVirtualRoomResetDescription": "Durch das Zurücksetzen der Verknüpfung des Persönlichen Virtuellen Raums werden alle zuvor vergebenen Zugänge nicht mehr funktionieren.",
-            "descriptionVirtualRoom": "Legen Sie Ihre Audio- und Videoeinstellungen für das Betreten von Virtuellen Räumen fest. Sie können Ihre Einstellungen jederzeit anpassen, bevor Sie einen Virtuellen Raum betreten."
+            "descriptionVirtualRoom": "Legen Sie Ihre Audio- und Videoeinstellungen für das Betreten von Virtuellen Räumen fest. Sie können Ihre Einstellungen jederzeit anpassen, bevor Sie einen Virtuellen Raum betreten.",
+            "descriptionRoom": "Legen Sie Ihre Audio- und Videoeinstellungen für das Betreten von Räumen fest. Sie können Ihre Einstellungen jederzeit anpassen, bevor Sie einen Raum betreten."
         },
         "notification": {
             "desktop": "Desktop Benachrichtigungen",
@@ -600,7 +605,7 @@
         "sendFile": "Dateien senden",
         "switchToConversation": "Zum Gespräch wechseln",
         "switchToInfoPanel": "Zum Info-Panel wechseln",
-        "disabledCreateButton": "Überprüfen Sie Ihre Eingaben, um sicherzustellen, dass keine Fehler vorhanden sind.",
+        "disabledCreateButton": "Überprüfen Sie Ihre Eingaben, um sicherzustellen, dass keine Fehler vorhanden sind",
         "copyVirtualRoomLinkTooltip": "Diesen Link kopieren, um den Virtuellen Raum zu teilen",
         "enterYourVirtualRoomTooltip": "Ihren Persönlichen Virtuellen Raum betreten",
         "copyUserVirtualRoomTooltip": "Kopieren Sie diesen Link und geben Sie ihn weiter, um anderen den Zugang zu Ihrem Persönlichen Virtuellen Raum zu ermöglichen"
@@ -648,7 +653,7 @@
         "description": "Überprüfen Sie Ihren Link, er könnte falsch sein",
         "title": "Tut uns leid, wir konnten den Raum nicht finden"
     },
-    "organizeYourMeeting": "Organisieren Sie Ihre eigenen Besprechungen oder nehmen Sie an den Besprechungen Ihrer Kollegen teil.",
+    "organizeYourMeeting": "Organisieren Sie Ihre eigenen Besprechungen oder nehmen Sie an den Besprechungen Ihrer Kollegen teil",
     "personalRoomLabel": "Persönlicher Raum von {{userName}}",
     "thanksForParticipating": "Danke für die Teilnahme",
     "tryLater": "Versuchen Sie es später",
