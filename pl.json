@@ -492,7 +492,7 @@
             "notificationJoinTheVirtualRoom": "Dołącz do wirtualnego pokoju, aby wziąć udział w spotkaniu"
         },
         "meeting": {
-            "ended": "Spotkanie zostało Zakończone"
+            "ended": "Spotkanie zostało zakończone"
         },
         "startMeetingRecording": "Nagrywanie spotkania {{conversationName}} zostało rozpoczęte",
         "invitationToPersonalVirtualRoom": "Zaproszenie do własnego wirtualnego pokoju od:"
