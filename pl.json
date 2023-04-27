@@ -485,7 +485,7 @@
         "waiting": {
             "descriptionAcceptedLabel": "Zostałeś zaakceptowany przez moderatora konwersacji {{conversationName}}",
             "notificationAcceptedByModerator": "Zostałeś zaakceptowany przez moderatora",
-            "descriptionWaitingLabel": "Czekasz na bycie zaakceptowanym przez moderatora konwersacji {{conversationName}}",
+            "descriptionWaitingLabel": "Czekasz na zaakceptowanie przez moderatora konwersacji {{conversationName}}",
             "notificationJoinTheRoom": "Dołącz do pokoju, aby wziąć udział w spotkaniu",
             "userIsWaiting": "Nowy użytkownik czeka na wpuszczenie",
             "userJoinedWaitingRoom": "Wygląda na to, że ktoś znajduje się w poczekalni",
