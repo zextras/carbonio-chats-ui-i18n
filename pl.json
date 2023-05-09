@@ -407,7 +407,7 @@
                     "space": "Dołączyłeś do przestrzeni",
                     "userRoom": "Dołączyłeś do pokoju"
                 },
-                "invited": "Zostałeś zaproszony przez {{invited_by}}",
+                "invited": "Zostałeś zaproszony przez użytkownika {{invited_by}}",
                 "left": {
                     "channel": "Opuściłeś Kanał",
                     "group": "Opuściłeś grupę",
@@ -480,7 +480,7 @@
     "notification": {
         "answer": "Odbierz",
         "incomingCall": "Nadchodząca rozmowa od:",
-        "dismiss": "Ignoruj",
+        "dismiss": "Zamknij",
         "invitationToPersonalRoom": "Zaproszenie do własnego pokoju od:",
         "waiting": {
             "descriptionAcceptedLabel": "Zostałeś zaakceptowany przez moderatora konwersacji {{conversationName}}",
@@ -653,7 +653,7 @@
     "label": {
         "app_name": "Czaty"
     },
-    "organizeYourMeeting": "Zorganizuj własne spotkania lub dołącz do Pokoi swoich kolegów",
+    "organizeYourMeeting": "Zorganizuj własne spotkanie lub dołącz do pokoju jednego z Twoich kolegów",
     "thanksForParticipating": "Dziękujemy za uczestniczenie",
     "tryLater": "Spróbuj później",
     "typeYourEmail": "Wpisz swój e-mail",
