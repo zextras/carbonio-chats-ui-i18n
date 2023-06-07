@@ -352,7 +352,7 @@
                     "channel": "{{member_name}} został usunięty z Kanału przez {{kicked_by}}",
                     "group": "{{member_name}} został usunięty z grupy przez {{kicked_by}}",
                     "space": "{{member_name}} został usunięty z przestrzeni przez {{kicked_by}}",
-                    "chat": "{{member_name}} został usunięty z Czatu przez {{kicked_by}}"
+                    "chat": "{{member_name}} został usunięty z czatu przez {{kicked_by}}"
                 },
                 "left": {
                     "channel": "{{member_name}} opuścił(a) Kanał",
@@ -414,7 +414,7 @@
                     "space": "Opuściłeś przestrzeń"
                 },
                 "kicked": {
-                    "channel": "Zostałeś usunięty z Kanału przez {{kicked_by}}",
+                    "channel": "Zostałeś usunięty z kanału przez {{kicked_by}}",
                     "group": "Zostałeś usunięty z grupy przez {{kicked_by}}",
                     "space": "Zostałeś usunięty z przestrzeni przez {{kicked_by}}"
                 }
