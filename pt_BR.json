@@ -601,14 +601,14 @@
         "selectEmoji": "Selecionar emoji",
         "switchToConversation": "Alterar para a conversa",
         "switchToInfoPanel": "Alterar para o painel de informação",
-        "copyUserRoomTooltip": "Copie este link e compartilhe para permitir que outras pessoas acessem sua Sala Pessoal",
+        "copyUserRoomTooltip": "Copie este link e compartilhe para permitir que outras pessoas acessem a sua sala pessoal",
         "enterMeetingRoom": "Entrar na Sala de Reunião",
         "messageComposer": "Autor da mensagem",
         "showChannels": "Mostrar Canais",
         "disabledCreateButton": "Verifique os dados inseridos para garantir que não existem erros",
         "copyVirtualRoomLinkTooltip": "Copie este link para compartilhar a Sala Virtual",
         "enterYourVirtualRoomTooltip": "Entre na sua Sala Pessoal",
-        "copyUserVirtualRoomTooltip": "Copie este link e compartilhe para permitir que outras pessoas acessem sua Sala Pessoal"
+        "copyUserVirtualRoomTooltip": "Copie este link e compartilhe para permitir que outras pessoas acessem a sua sala pessoal"
     },
     "general": {
         "goToTeam": "Ir para Team",
