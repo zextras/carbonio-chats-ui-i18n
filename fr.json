@@ -233,7 +233,7 @@
                 "you": {
                     "invited": "Vous avez invité {{member_name}}",
                     "kicked": {
-                        "group": "Vous avez retirez {{member_name}} du Groupe",
+                        "group": "Vous avez retiré {{member_name}} du Groupe",
                         "space": "Vous avez retiré {{member_name}} de l'Espace",
                         "channel": "Vous avez retiré {{member_name}} du Canal"
                     }
