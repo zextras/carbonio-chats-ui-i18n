@@ -544,7 +544,7 @@
         },
         "title": "Configurações",
         "modal": {
-            "title": "Configurações dos chats",
+            "title": "Configurações de chat",
             "description": "Aqui você pode definir todas as preferências do Chat a fim de desfrutar de uma experiência de chat personalizada!"
         },
         "notifications": {
