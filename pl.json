@@ -21,7 +21,7 @@
         "createChannel": "Stwórz kanał powiązany z {{spaceName}}",
         "createChat": "Stwórz Czat",
         "createGroup": "Stwórz grupę",
-        "createInstantMeeting": "Stwórz Natychmiastowe spotkanie",
+        "createInstantMeeting": "Stwórz natychmiastowe spotkanie",
         "createSpace": "Stwórz przestrzeń",
         "delete": "Usuń",
         "deleteChannel": "Usuń Kanał",
@@ -103,16 +103,16 @@
         "chats": "Czaty",
         "conversations": "Konwersacje",
         "filterChatList": "Filtruj listę czatów",
-        "instantMeetings": "Natychmiastowe Spotkania",
+        "instantMeetings": "Natychmiastowe spotkania",
         "meetingRooms": "Pokoje spotkań",
         "mockDisplayDescription": "Wybierz konwersację, aby zacząć rozmawiać",
         "mockDisplayTitle": "Pozostań w kontakcie!",
         "noActiveChats": "Nie ma żadnych aktywnych czatów na ten moment. Stwórz nowy czat lub zmień kartę.",
-        "noActiveInstantMeetings": "Nie ma żadnych aktywnych Natychmiastowych spotkań w tym momencie. Stwórz nowe Natychmiastowe spotkanie lub zmień kartę.",
+        "noActiveInstantMeetings": "Nie ma żadnych aktywnych natychmiastowych spotkań w tym momencie. Stwórz nowe natychmiastowe spotkanie lub zmień zakładkę.",
         "noActiveMeetings": "W tej chwili nie ma żadnych aktywnych pokoi",
         "noActiveSpaces": "Nie ma żadnych aktywnych przestrzeni w tym momencie. Stwórz nową przestrzeń lub zmień kartę.",
         "noFilteredChats": "Nie ma żadnych czatów, które pasują do tego filtra.",
-        "noFilteredInstantMeetings": "Nie ma żadnych Natychmiastowych Spotkań, które pasują do tego filtra.",
+        "noFilteredInstantMeetings": "Nie ma żadnych natychmiastowych spotkań, które pasują do tego filtra.",
         "noFilteredMeetings": "Nie ma żadnych pokoi ani zaplanowanych spotkań, które pasują do tego filtra",
         "personalRoom": "Własny pokój",
         "noFilteredSpaces": "Nie ma żadnych przestrzeni, które pasują do tego filtra.",
@@ -154,7 +154,7 @@
             "setImageAndTopicDescription": "Ustaw obraz, który pomoże użytkownikom rozpoznać tą grupę spośród innych na liście."
         },
         "instantMeeting": {
-            "addAttendees": "Dodaj uczestników do swojego Natychmiastowego Spotkania",
+            "addAttendees": "Dodaj uczestników do swojego natychmiastowego spotkania",
             "addAttendeesDescription": "Zaprość uczestników wpisując ich imiona lub adresy e-mail tutaj.",
             "addAttendeesInputExplanation": "Możesz również zaprosić użytkowników spoza swojej domeny wpisując ich adres e-mail.",
             "attendee": {
@@ -163,8 +163,8 @@
                     "neutral": "Wybierz jednego lub więcej uczestników"
                 }
             },
-            "titleDescription": "Nadaj Natyczmiastowemu Spotkaniu wymowny tytuł, aby uczestnicy znali cel spotkania.",
-            "description": "Natychmiastowe Spotkania to rozmowy wideo, które są zaprojektowane by być szybkie i krótkie. Po zakończeniu rozmowy, jej czat przestanie istnieć, jego zawartość zostanie trwale wymazana. Natychmiastowe Spotkania mogą być tworzone tylko przez użytkowników Team Pro, ale mogą do nich dołączać wszyscy użytkownicy, nawet ci spoza Twojej domeny."
+            "titleDescription": "Nadaj natyczmiastowemu spotkaniu wymowny tytuł, aby uczestnicy znali cel spotkania.",
+            "description": "Natychmiastowe spotkania to rozmowy wideo, które są zaprojektowane by być szybkie i krótkie. Po zakończeniu rozmowy, jej czat przestanie istnieć, jego zawartość zostanie trwale wymazana. Natychmiastowe spotkania mogą być tworzone tylko przez użytkowników Team Pro, ale mogą do nich dołączać wszyscy użytkownicy, nawet ci spoza Twojej domeny."
         },
         "limitOfParticipantReached": "Osiągnięto limit uczestników ustawiony przez administratora",
         "nameMax140Characters": "Max. 140 znaków",
@@ -340,7 +340,7 @@
                 },
                 "deleted": {
                     "channel": "{{member_name}} usunął Kanał",
-                    "instantMeeting": "{{member_name}} usunął Natychmiastowe Spotkanie",
+                    "instantMeeting": "{{member_name}} usunął natychmiastowe spotkanie",
                     "space": "{{member_name}} usunął przestrzeń"
                 },
                 "invited": "{{member_name}} dostał(a) zaproszenie od {{invited_by}}",
@@ -397,13 +397,13 @@
                 },
                 "deleted": {
                     "channel": "Usunąłeś Kanał",
-                    "instantMeeting": "Usunąłeś Natychmiastowe Spotkanie",
+                    "instantMeeting": "Usunąłeś natychmiastowe spotkanie",
                     "space": "Usunąłeś przestrzeń"
                 },
                 "join": {
                     "channel": "Dołączyłeś do Kanału",
                     "group": "Dołączyłeś do grupy",
-                    "instantMeeting": "Dołączyłeś do Natychmiastowego Spotkania",
+                    "instantMeeting": "Dołączyłeś do natychmiastowego spotkania",
                     "space": "Dołączyłeś do przestrzeni",
                     "userRoom": "Dołączyłeś do pokoju"
                 },
@@ -430,9 +430,9 @@
             "areYouSure": "Na pewno?",
             "deleteSpace": "Czy na pewno chcesz usunąć tę przestrzeń?",
             "leaveAndDeleteConversation": "Czy na pewno chcesz wyjść i usunąć {{conversationName}}?",
-            "leaveChannel": "Czy na pewno chcesz wyjść z Kanału?",
+            "leaveChannel": "Czy na pewno chcesz wyjść z kanału?",
             "clearHistory": "Twoja historia czatu zostanie trwale usunięta. Historie innych uczestników nie zostaną usunięte. Tej akcji nie da się cofnąć.",
-            "deleteChannel": "Czy na pewno chcesz usunąć ten Kanał?",
+            "deleteChannel": "Czy na pewno chcesz usunąć ten kanał?",
             "deleteRoom": "Czy na pewno chcesz usunąć ten pokój?",
             "leaveGroup": "Czy na pewno chcesz wyjść z grupy?",
             "leaveSpace": "Czy na pewno chcesz wyjść z przestrzeni?",
@@ -447,12 +447,12 @@
             "selectOneOrMoreConversations": "Wybierz jedną lub więcej konwersacji"
         },
         "instantMeeting": {
-            "closedInstantMeeting": "Natychmiastowe Spotkanie zostało zamknięte",
-            "continue": "Kontynuuj używając starego Natychmiastowego Spotkania",
-            "create": "Stwórz nowe Natychmiastowe spotkanie",
-            "instantMeetingAlreadyRunningText": "Stworzenie nowego nadpisze starsze spotkanie, uczestnicy się wtedy rozłączą, co chcesz zrobić?",
-            "endCallByOwner": "Organizator tego Natychmiastowego Spotkania zdecydował zakończyć tą rozmowę. Mamy nadzieję, że ta rozmowa była dla ciebie pozytywnym doświadczeniem",
-            "instantMeetingAlreadyRunningTitle": "Natychmiastowe Spotkanie już się rozpoczęło"
+            "closedInstantMeeting": "Natychmiastowe spotkanie zostało zamknięte",
+            "continue": "Kontynuuj używając poprzedniego natychmiastowego spotkania",
+            "create": "Stwórz nowe natychmiastowe spotkanie",
+            "instantMeetingAlreadyRunningText": "Stworzenie nowego zastąpi poprzednie spotkanie a uczestnicy się rozłączą, co chcesz zrobić?",
+            "endCallByOwner": "Organizator tego natychmiastowego spotkania zdecydował zakończyć tę rozmowę. Mamy nadzieję, że była ona dla ciebie pozytywnym doświadczeniem",
+            "instantMeetingAlreadyRunningTitle": "Natychmiastowe spotkanie już się rozpoczęło"
         },
         "showPreviousConversationHistory": "Pokaż wiadomości przed dołączeniem",
         "moderatorCannotLeaveGroupDescription": "Jesteś jedynym moderatorem {{conversationName}}, musisz awansować kogoś nowego na moderatora, aby móc opuścić grupę.",
