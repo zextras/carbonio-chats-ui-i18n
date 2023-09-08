@@ -3,7 +3,7 @@
         "reply": "Odpowiedz",
         "forward": "Przekaż dalej",
         "add": "Dodaj",
-        "addChannel": "Dodaj Kanał",
+        "addChannel": "Dodaj kanał",
         "addMembers": "Dodaj członków",
         "addModerator": "Dodaj moderatora",
         "addModerators": "Dodaj moderatorów",
@@ -24,7 +24,7 @@
         "createInstantMeeting": "Stwórz natychmiastowe spotkanie",
         "createSpace": "Stwórz przestrzeń",
         "delete": "Usuń",
-        "deleteChannel": "Usuń Kanał",
+        "deleteChannel": "Usuń kanał",
         "deleteRoom": "Usuń pokój",
         "deleteSpace": "Usuń przestrzeń",
         "edit": "Edytuj",
@@ -32,10 +32,10 @@
         "expand": "Rozwiń",
         "goToGuide": "Idź do przewodnika",
         "join": "Dołącz",
-        "joinChannelAction": "Dołącz do Kanału",
+        "joinChannelAction": "Dołącz do kanału",
         "joinRoom": "Dołącz do pokoju",
         "leave": "Opuść",
-        "leaveChannel": "Opuść Kanał",
+        "leaveChannel": "Opuść kanał",
         "leaveGroup": "Opuść grupę",
         "leaveSpace": "Opuść przestrzeń",
         "muteNotifications": "Wycisz powiadomienia",
@@ -53,7 +53,7 @@
         "startMeeting": "Rozpocznij Spotkanie",
         "waitingModeratorToJoin": "Czekasz na zaakceptowanie przez moderatora",
         "activateNotifications": "Włącz powiadomienia",
-        "joinChannel": "Dołącz do Kanału, aby wysyłać wiadomości i otrzymywać powiadomienia",
+        "joinChannel": "Dołącz do kanału, aby wysyłać wiadomości i otrzymywać powiadomienia",
         "leaveAndDelete": "Opuść i usuń",
         "createRoom": "Stwórz pokój",
         "start": "Rozpocznij",
@@ -137,8 +137,8 @@
             "mainDescription": "Kanały są konkretnie zdefiniowanymi czatami tematycznymi, które znajdują się w przestrzeni. Uczestnicy przestrzeni mogą dołączyć do kanału, aby aktywnie dyskutować o jego tematyce. Uczestnicy mogą opuścić kanał bez równoczesnego opuszczania przestrzeni.",
             "setImageAndTitleDescription": "Ustaw obraz, aby kanał był łatwo rozpoznawalny w przestrzeni. Obraz kanału może być również ustawiony lub zmieniony w panelu informacyjnym kanału.",
             "titleInputRequirements": "Max. 140 znaków, tytuł nie może występować w przestrzeni",
-            "topicDescription": "Ponieważ Kanały to czaty opierające się na omawianym temacie, zalecamy ustawienie dobrze dopasowanego tematu.",
-            "topicInputExplanation": "Opisuje tematykę Kanału"
+            "topicDescription": "Ponieważ kanały to czaty opierające się na omawianym temacie, zalecamy ustawienie dobrze dopasowanego tematu.",
+            "topicInputExplanation": "Opisuje tematykę kanału"
         },
         "chat": {
             "addParticipant": "Wybierz uczestnika, z którym chcesz rozpocząć czat",
@@ -318,18 +318,18 @@
             "member": {
                 "changed": {
                     "name": {
-                        "channel": "{{member_name}} zmienił(a) nazwę Kanału w {{name}}",
+                        "channel": "{{member_name}} zmienił(a) nazwę kanału w {{name}}",
                         "space": "{{member_name}} zmienił(a) nazwę przestrzeni w {{name}}"
                     },
                     "picture": {
-                        "channel": "{{member_name}} zmienił(a) obraz Kanału",
+                        "channel": "{{member_name}} zmienił(a) obraz kanału",
                         "group": "{{member_name}} zmienił(a) obraz grupy",
                         "space": "{{member_name}} zmienił(a) obraz przestrzeni"
                     },
                     "topic": {
                         "group": "{{member_name}} zmienił(a) temat grupy w {{topic}}",
                         "space": "{{member_name}} zmienił(a) temat przestrzeni w {{topic}}",
-                        "channel": "{{member_name}} zmienił(a) temat Kanału w {{topic}}"
+                        "channel": "{{member_name}} zmienił(a) temat kanału w {{topic}}"
                     }
                 },
                 "created": {
@@ -339,30 +339,30 @@
                     "space": "{{member_name}} stworzył(a) przestrzeń"
                 },
                 "deleted": {
-                    "channel": "{{member_name}} usunął Kanał",
+                    "channel": "{{member_name}} usunął kanał",
                     "instantMeeting": "{{member_name}} usunął natychmiastowe spotkanie",
                     "space": "{{member_name}} usunął przestrzeń"
                 },
-                "invited": "{{member_name}} dostał(a) zaproszenie od {{invited_by}}",
+                "invited": "Użytkownik {{member_name}} dostał zaproszenie od {{invited_by}}",
                 "join": {
-                    "channel": "{{member_name}} dołączył(a) do Kanału",
+                    "channel": "{{member_name}} dołączył(a) do kanału",
                     "conversation": "{{member_name}} dołączył(a) do Czatu"
                 },
                 "kicked": {
-                    "channel": "{{member_name}} został usunięty z Kanału przez {{kicked_by}}",
+                    "channel": "{{member_name}} został usunięty z kanału przez {{kicked_by}}",
                     "group": "{{member_name}} został usunięty z grupy przez {{kicked_by}}",
                     "space": "{{member_name}} został usunięty z przestrzeni przez {{kicked_by}}",
                     "chat": "{{member_name}} został usunięty z czatu przez {{kicked_by}}"
                 },
                 "left": {
-                    "channel": "{{member_name}} opuścił(a) Kanał",
+                    "channel": "{{member_name}} opuścił(a) kanał",
                     "group": "{{member_name}} opuścił(a) grupę",
                     "space": "{{member_name}} opuścił(a) przestrzeń",
                     "chat": "{{member_name}} opuścił czat"
                 },
                 "you": {
                     "kicked": {
-                        "channel": "Usunąłeś {{member_name}} z Kanału",
+                        "channel": "Usunąłeś {{member_name}} z kanału",
                         "group": "Usunąłęś {{member_name}} z grupy",
                         "space": "Usunąłeś {{member_name}} z przestrzeni"
                     },
@@ -375,33 +375,33 @@
             "you": {
                 "changed": {
                     "name": {
-                        "channel": "Zmieniłeś nazwę Kanału na {{name}}",
+                        "channel": "Zmieniłeś nazwę kanału na {{name}}",
                         "space": "Zmieniłeś nazwę przestrzeni na {{name}}"
                     },
                     "picture": {
-                        "channel": "Zmieniłeś obraz Kanału",
+                        "channel": "Zmieniłeś obraz kanału",
                         "group": "Zmieniłeś obraz grupy",
                         "space": "Zmieniłeś nazwę przestrzeni"
                     },
                     "topic": {
-                        "channel": "Zmieniłeś temat Kanału na {{topic}}",
+                        "channel": "Zmieniłeś temat kanału na {{topic}}",
                         "group": "Zmieniłeś temat grupy na {{topic}}",
                         "space": "Zmieniłeś temat przestrzeni na {{topic}}"
                     }
                 },
                 "created": {
-                    "channel": "Stworzyłeś Kanał",
+                    "channel": "Stworzyłeś kanał",
                     "group": "Stworzyłeś grupę",
                     "single": "Stworzyłeś czat",
                     "space": "Stworzyłeś przestrzeń"
                 },
                 "deleted": {
-                    "channel": "Usunąłeś Kanał",
+                    "channel": "Usunąłeś kanał",
                     "instantMeeting": "Usunąłeś natychmiastowe spotkanie",
                     "space": "Usunąłeś przestrzeń"
                 },
                 "join": {
-                    "channel": "Dołączyłeś do Kanału",
+                    "channel": "Dołączyłeś do kanału",
                     "group": "Dołączyłeś do grupy",
                     "instantMeeting": "Dołączyłeś do natychmiastowego spotkania",
                     "space": "Dołączyłeś do przestrzeni",
@@ -409,7 +409,7 @@
                 },
                 "invited": "Zostałeś zaproszony przez użytkownika {{invited_by}}",
                 "left": {
-                    "channel": "Opuściłeś Kanał",
+                    "channel": "Opuściłeś kanał",
                     "group": "Opuściłeś grupę",
                     "space": "Opuściłeś przestrzeń"
                 },
@@ -441,7 +441,7 @@
         },
         "deleteMessageDescription": "Kiedy usuniesz wiadomość, stanie się ona niewidoczna dla Ciebie i innych odbiorców",
         "forwardModal": {
-            "spaceAndChannels": "Przestrzenie i Kanały",
+            "spaceAndChannels": "Przestrzenie i kanały",
             "typeToFilterTheList": "Wpisz coś, aby filtrować listę",
             "forwardedMessageFrom": "Wiadomość przekazana z",
             "selectOneOrMoreConversations": "Wybierz jedną lub więcej konwersacji"
@@ -580,7 +580,7 @@
         "chooseFile": "Wybierz plik",
         "close": "Zamknij",
         "closeSearch": "Zamknij wyszukiwanie",
-        "collapseChannel": "Zwiń Kanały",
+        "collapseChannel": "Zwiń kanały",
         "copyRoomLink": "Skopiuj ten link, aby udostępnić pokój",
         "copyUserRoom": "Skopiuj link do własnego pokoju",
         "copyRoomLinkTooltip": "Skopiuj ten link, aby udostępnić pokój",
@@ -606,7 +606,7 @@
         "selectEmoji": "Wybierz emoji",
         "sendFile": "Wyślij plik",
         "sendMessage": "Wyślij wiadomość",
-        "showChannels": "Pokaż Kanały",
+        "showChannels": "Pokaż kanały",
         "switchToConversation": "Przełącz na konwersację",
         "switchToInfoPanel": "Przełącz na panel informacyjny",
         "removeMember": "Usuń członka",
