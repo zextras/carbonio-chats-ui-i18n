@@ -496,7 +496,7 @@
             "notificationJoinTheVirtualRoom": "Betreten Sie den Virtuellen Raum, um an der Sitzung teilzunehmen"
         },
         "meeting": {
-            "ended": "Sitzung beendet"
+            "ended": "Sitzung Beendet"
         },
         "startMeetingRecording": "Die Aufzeichnung der Sitzung von {{conversationName}} hat begonnen",
         "invitationToPersonalVirtualRoom": "Einladung zum Persönlichen Virtuellen Raum von:"
