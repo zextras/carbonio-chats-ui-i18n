@@ -384,10 +384,10 @@
                     "conversation": "{{member_name}} присоединился к Чату"
                 },
                 "kicked": {
-                    "channel": "{{member_name}} был удален из Канала {{kicked_by}}",
-                    "group": "{{member_name}} был удален из группы пользователем {{kicked_by}}",
-                    "space": "{{member_name}} был удален из Переговорной {{kicked_by}}",
-                    "chat": "{{member_name}} был удален из Chat пользователем {{kicked_by}}"
+                    "channel": "{{member_name}} был(а) удален(а) из Канала {{kicked_by}}",
+                    "group": "{{member_name}} был(а) удален(а) из группы пользователем {{kicked_by}}",
+                    "space": "{{member_name}} был(а) удален(а) из Переговорной {{kicked_by}}",
+                    "chat": "{{member_name}} был(а) удален(а) из Chat пользователем {{kicked_by}}"
                 },
                 "left": {
                     "channel": "{{member_name}} покинул Канал",
