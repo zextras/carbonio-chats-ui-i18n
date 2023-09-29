@@ -533,7 +533,7 @@
             }
         },
         "profile": {
-            "errorGenericResponse": "Alguma coisa deu errado. Por favor tente novamente",
+            "errorGenericResponse": "Ocorreu um erro. Por favor tente novamente",
             "reset": "Redefinir",
             "restore": "Restaurar",
             "statusOptionalDescription": "Opcional. Deixe os demais saberem o que você está pensando. Máximo até 256 caracteres",
@@ -575,9 +575,9 @@
         "editDescription": "Editar descrição",
         "enterYourRoom": "Entrar na sua Sala pessoal",
         "enterYourRoomTooltip": "Entrar na sua Sala pessoal",
-        "errorUpdatingAvatarStatus": "Algo deu errado ao definir o status. Por favor, tente novamente",
-        "errorUploadingAvatarPicture": "Algo deu errado enquanto carregava um novo avatar. Por favor, tente novamente",
-        "errorRemovingAvatarPicture": "Algo deu errado ao remover o avatar. Por favor, tente novamente",
+        "errorUpdatingAvatarStatus": "Ocorreu um erro ao definir o estado. Por favor, tente novamente",
+        "errorUploadingAvatarPicture": "Ocorreu um erro ao carregar um novo avatar. Por favor, tente novamente",
+        "errorRemovingAvatarPicture": "Ocorreu um erro ao remover o avatar. Por favor, tente novamente",
         "sendFile": "Enviar arquivo",
         "sendMessage": "Enviar mensagem",
         "inviteToPersonalRoom": "Convidar para sua Sala pessoal",
@@ -652,7 +652,7 @@
     "organizeYourMeeting": "Organize suas próprias reuniões ou entre nas Salas dos seus colegas",
     "personalRoomLabel": "Sala pessoal de {{userName}}",
     "errorPage": {
-        "description": "Verifique seu link, ele pode estar errado",
+        "description": "Verifique o seu link, ele pode estar incorreto",
         "errorCode": "erro código 404",
         "title": "Desculpe, mas não encontramos a Sala"
     },
