@@ -1,1 +1,6 @@
-{}
+{
+    "action": {
+        "forward": "Továbbítás",
+        "reply": "Válasz"
+    }
+}
