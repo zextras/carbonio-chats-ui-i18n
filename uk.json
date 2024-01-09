@@ -1,1 +1,11 @@
-{}
+{
+    "action": {
+        "activateNotifications": "Включити сповіщення",
+        "add": "Додати",
+        "addChannel": "Додати канал",
+        "addNewMembers": "Додайте нових учасників",
+        "addModerator": "Додати модератора",
+        "addModerators": "Додати модераторів",
+        "addMembers": "Додати учасників"
+    }
+}
