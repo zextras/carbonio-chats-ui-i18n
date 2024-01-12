@@ -230,7 +230,7 @@
         "defaultViewModeTitleModal": "Ustawienia środowiska spotkania",
         "interactions": {
             "cinemaView": "Widok kinowy",
-            "closeCall": "Zakończ tą rozmowę",
+            "closeCall": "Zakończ tę rozmowę",
             "disableAudio": "Wyłącz dźwięk",
             "disableFullScreen": "Wyjdź z trybu pełnoekranowego",
             "disableScreensharing": "Zakończ udostępnianie ekranu",
@@ -296,7 +296,7 @@
         "errorMeetingSavingRecording": "Nie udało się zatrzymać nagrywania, spróbuj ponownie",
         "defaultViewModeDedicatedLabelVirtualRoom": "\"Tryb dedykowany\" przekieruje Cie do oddzielnej karty przeglądarki, aby umożliwić Ci najlepsze doświadczenie wirtualnego pokoju.",
         "defaultViewModeDefaultLabelVirtualRoom": "Po wyborze \"Trybu domyślnego\" wirtualny pokój rozpocznie się w obecnym, wewnętrznym środowisku.",
-        "successSaveMeetingRecording": "Znajdziesz {{registrationName}} w /{{folderName}} tak szybko gdy będzie to gotowe",
+        "successSaveMeetingRecording": "Znajdziesz {{registrationName}} w /{{folderName}} tak szybko gdy będzie ono dostępne",
         "wereToFindRec": "Nagranie zostanie zapisane w przestrzeni Carbonio Pliki moderatora, który zatrzyma nagrywanie.",
         "setVirtualBackground": "Ustaw wirtualne tło",
         "noEffect": "Brak efektu",
@@ -423,7 +423,7 @@
         "yesterday": "Wczoraj"
     },
     "modal": {
-        "addModeratorDescription": "Wybierz jednego lub więcej użytkoników, aby awansować ich na moderatorów tego pokoju",
+        "addModeratorDescription": "Wybierz jednego lub więcej użytkowników, aby awansować ich na moderatorów tego pokoju",
         "news": "Nowości",
         "clearHistoryDescription": "Ta konwersacja jest pusta, więc została przeniesiona na dół listy, aby wyeksponować aktywne konwersacje.",
         "confirm": {
@@ -454,7 +454,7 @@
             "endCallByOwner": "Organizator tego natychmiastowego spotkania zdecydował zakończyć tę rozmowę. Mamy nadzieję, że była ona dla ciebie pozytywnym doświadczeniem",
             "instantMeetingAlreadyRunningTitle": "Natychmiastowe spotkanie już się rozpoczęło"
         },
-        "showPreviousConversationHistory": "Pokaż wiadomości przed dołączeniem",
+        "showPreviousConversationHistory": "Pokaż wiadomości sprzed dołączenia",
         "moderatorCannotLeaveGroupDescription": "Jesteś jedynym moderatorem {{conversationName}}, musisz awansować kogoś nowego na moderatora, aby móc opuścić grupę.",
         "moderatorCannotLeaveGroupTitle": "Poczekaj, potrzebny jest nowy moderator",
         "notShowAgain": "Nie pokazuj tego ponownie",
