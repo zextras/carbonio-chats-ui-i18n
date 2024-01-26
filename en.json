@@ -119,8 +119,8 @@
         "noActiveChats": "There aren't active chats at the moment. Create a new chat or switch tab.",
         "noActiveInstantMeetings": "There aren't active Instant Meetings at the moment. Create a new Instant meeting or switch tab.",
         "noActiveMeetings": "There aren't active Rooms at the moment",
-        "noActiveSpaces": "There aren't active Spaces at the moment. Create a new Space or switch tab.",
         "noActiveRooms": "There aren't active Rooms at the moment",
+        "noActiveSpaces": "There aren't active Spaces at the moment. Create a new Space or switch tab.",
         "noActiveVirtualRooms": "There aren't active Virtual Rooms at the moment",
         "noFilteredChats": "There aren't chats that match this filter.",
         "noFilteredInstantMeetings": "There aren't Instant Meetings that match this filter.",
@@ -213,6 +213,7 @@
     },
     "external": {
         "appStoreLabel": "App Store",
+        "doYouHaveTheApp": "Do you already own the Chats app?",
         "doYouHaveTheAppChats": "Do you already have the Carbonio Chats app?",
         "doYouHaveTheAppTeam": "Do you already have the Zextras Chats app?",
         "downloadAppLabel": "Download the app to join the meeting",
@@ -333,8 +334,8 @@
         "startModal": {
             "description": "How do you want to enter the meeting?",
             "descriptionMyPersonalRoom": "How do you want to enter your Personal Room?",
-            "descriptionPersonalRoom": "How do you want to enter {{meetingTitle}}'s Personal Room?",
             "descriptionMyPersonalVirtualRoom": "How do you want to enter your Personal Virtual Room?",
+            "descriptionPersonalRoom": "How do you want to enter {{meetingTitle}}'s Personal Room?",
             "descriptionPersonalVirtualRoom": "How do you want to enter {{meetingTitle}}'s Personal Virtual Room?",
             "descriptionVirtualRoom": "How do you want to enter {{meetingTitle}}?",
             "enter": "Enter",
@@ -502,13 +503,13 @@
         "moderatorCannotLeaveGroupDescription": "You're the only moderator of {{conversationName}}, please promote someone else before leaving the Group.",
         "moderatorCannotLeaveGroupTitle": "Wait, a new moderator is needed",
         "moderatorMeetingDescription": "You will moderate this Room. You can add additional moderators and they'll have the same permissions as you.",
-        "moderatorVirtualRoomDescription": "You will moderate this Virtual Room. You can add additional moderators and they'll have the same permissions as you.",
         "moderatorRoomDescription": "You will moderate this Room. You can add additional moderators and they'll have the same permissions as you.",
+        "moderatorVirtualRoomDescription": "You will moderate this Virtual Room. You can add additional moderators and they'll have the same permissions as you.",
         "news": "News",
         "notShowAgain": "Do not show this again",
         "planMeetingDescription": "Room's name helps the attendees to know the Room's matter of discussion.",
-        "planVirtualRoomDescription": "Give to this Virtual Room a recognizable name in order to let your attendees know what they are expecting to meet about.",
         "planRoomDescription": "Give to this Room a recognizable name in order to let your attendees know what they are expecting to meet about.",
+        "planVirtualRoomDescription": "Give to this Virtual Room a recognizable name in order to let your attendees know what they are expecting to meet about.",
         "roomsFunctionalitiesChangelogDescription": "We have made important changes to the meeting functionalities. Read the introduction to the Rooms to find out more!",
         "selectFolder": "Select folder",
         "showPreviousConversationHistory": "Show previous conversation history",
@@ -523,6 +524,7 @@
         "teamNews": "Team's News",
         "userJoinedWaitingRoom": "There seems to be someone in the Waiting Room"
     },
+    "noRoomSelected": "No Virtual Room selected",
     "notification": {
         "answer": "Answer",
         "dismiss": "Dismiss",
@@ -567,11 +569,11 @@
             "tooltip": "Close"
         }
     },
-    "room": "Room",
+    "room": "Virtual Room",
     "settings": {
         "meeting": {
             "description": "Set your audio and video preferences to enter meetings. You can always customize your preferences before entering any meeting.",
-            "descriptionRoom": "Set your audio and video preferences to enter in Room. You'll can always customize your preferences before entering in every Room.",
+            "descriptionRoom": "Set your audio and video preferences to enter in Room. You can always customize your preferences before entering in every Room.",
             "descriptionVirtualRoom": "Set your audio and video preferences to enter in Virtual Room. You'll can always customize your preferences before entering in every Virtual Room.",
             "enableCamera": "Enable camera",
             "enableEchoCancellation": "Echo cancellation",
@@ -641,6 +643,7 @@
         "addFile": "Add file",
         "cancelFilter": "Cancel filter",
         "chooseFile": "Choose file",
+        "chooseRoom": "Choose virtual room",
         "close": "Close",
         "closeSearch": "Close search",
         "collapseChannel": "Collapse Channels",
