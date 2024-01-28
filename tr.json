@@ -519,7 +519,7 @@
             "enableNoiseSuppression": "Gürültüyü azalt",
             "voiceProcessing": "Ses İşleme",
             "voiceProcessingDescription": "Sesinizi varsayılan ses çıkışından duyacaksınız, böylece toplantı için seçtiğiniz ses giriş ve ses çıkış kalitesini test edebilirsiniz",
-            "descriptionRoom": "Odaya girmek için kullanacağınız ses ve görüntü tercihlerinizi ayarlayın. Her Odaya katılmadan önce tercihlerinizi değiştirebilirsiniz."
+            "descriptionRoom": "Odaya girmek için kullanacağınız ses ve görüntü tercihlerinizi ayarlayın. Odaya katılmadan önce her zaman tercihlerinizi değiştirebilirsiniz."
         },
         "notification": {
             "desktop": "Masaüstü bildirimleri",
@@ -608,7 +608,8 @@
         "disabledCreateButton": "Giriş bilgilerinde hata olup olmadığını kontrol edin",
         "copyUserVirtualRoomTooltip": "Başkalarının Kişisel Sanal Odanıza erişimini sağlamak için bu bağlantıyı kopyalayıp paylaşın",
         "copyVirtualRoomLinkTooltip": "Sanal Oda'yı paylaşmak için bu bağlantıyı kopyalayın",
-        "enterYourVirtualRoomTooltip": "Kişisel Sanal Oda'nıza giriş yapın"
+        "enterYourVirtualRoomTooltip": "Kişisel Sanal Oda'nıza giriş yapın",
+        "chooseRoom": "Sanal odayı seçin"
     },
     "general": {
         "goToTeam": "Team'e git",
@@ -643,7 +644,8 @@
         "orLabel": "veya",
         "enter": "Toplantıya katıl!",
         "downloadAppLabel": "Toplantıya katılmak için uygulamayı indirin",
-        "appStoreLabel": "App Store"
+        "appStoreLabel": "App Store",
+        "doYouHaveTheApp": "Chats uygulaması kullanıyor musunuz?"
     },
     "label": {
         "app_name": "Sohbetler"
@@ -680,5 +682,6 @@
         "shareLink": "Bağlantı paylaş",
         "addFromLocal": "Lokalden ekle"
     },
-    "room": "Oda"
+    "room": "Sanal Oda",
+    "noRoomSelected": "Sanal Oda seçilmedi"
 }
