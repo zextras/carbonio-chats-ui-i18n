@@ -245,7 +245,7 @@
             "muteUser": "Wycisz",
             "muteUserForAllDescription": "Wyciszając tego użytkownika, żaden z uczestników go nie usłyszy. Tylko wyciszony użytkownik jest w stanie się odciszyć. Kontynuować?",
             "muteUserForAllTitle": "Wycisz dla wszystkich",
-            "mutedByModerators": "Zostałeś wyciszony przez moderatora. Odcisz się, aby inni cię słyszeli",
+            "mutedByModerators": "Zostałeś wyciszony przez moderatora. Odcisz się, aby inni Cię słyszeli",
             "mutedByOthers": "Zostałeś wyciszony",
             "pinVideo": "Przypnij wideo",
             "shortCutLabel": "(C)",
@@ -524,7 +524,7 @@
             "voiceProcessing": "Przetwarzanie głosu",
             "voiceProcessingDescription": "Usłyszysz swój głos z domyślnego źrodła dźwięku. Będziesz mógł przetestować jakość swojego mikrofonu i wybrane dla spotkania źródło dźwięku",
             "descriptionVirtualRoom": "Ustaw swoje preferencje dźwięku i wideo zanim dołączysz do wirtualnego pokoju. Możesz dostosować swoje preferencje przed dołączeniem do każdego wirtualnego pokoju.",
-            "descriptionRoom": "Ustaw swoje preferencje dźwięku i wideo, aby dołączyć do pokoju. Możesz dostosowywać swoje ustawienia przed dołączeniem do każdego pokoju."
+            "descriptionRoom": "Ustaw swoje preferencje dźwięku i wideo, aby dołączyć do pokoju. Możesz dostosować swoje preferencje przed dołączeniem do każdego pokoju."
         },
         "modal": {
             "title": "Ustawienia czatów",
@@ -613,7 +613,8 @@
         "enterYourVirtualRoomTooltip": "Dołącz do Twojego własnego wirtualnego pokoju",
         "copyUserVirtualRoomTooltip": "Skopiuj ten link i udostępnij go, aby dać innym dostęp do Twojego własnego wirtualnego pokoju",
         "copyVirtualRoomLinkTooltip": "Skopiuj ten link, aby udostępnić wirtualny pokój",
-        "disabledCreateButton": "Sprawdź swoje wejścia"
+        "disabledCreateButton": "Sprawdź swoje wejścia",
+        "chooseRoom": "Wybierz wirtualny pokój"
     },
     "external": {
         "login": {
@@ -642,7 +643,8 @@
         "downloadAppLabel": "Aby dołączyć do spotkania, pobierz aplikację",
         "doYouHaveTheAppTeam": "Masz już aplikację Zextras Chats?",
         "doYouHaveTheAppChats": "Masz już aplikację Carbonio Chats?",
-        "appStoreLabel": "App Store"
+        "appStoreLabel": "App Store",
+        "doYouHaveTheApp": "Czy masz już aplikację Chats?"
     },
     "enterTheRoom": "Dołącz do pokoju",
     "errorPage": {
@@ -680,5 +682,6 @@
         "shareLink": "Udostępnij link",
         "attachLinkFiles": "Załącz publiczny link z Plików"
     },
-    "room": "Pokój"
+    "room": "Wirtualny pokój",
+    "noRoomSelected": "Nie wybrano żadnego wirtualnego pokoju"
 }
