@@ -512,7 +512,7 @@
         "planVirtualRoomDescription": "Give to this Virtual Room a recognizable name in order to let your attendees know what they are expecting to meet about.",
         "roomsFunctionalitiesChangelogDescription": "We have made important changes to the meeting functionalities. Read the introduction to the Rooms to find out more!",
         "selectFolder": "Select folder",
-        "showPreviousConversationHistory": "Show previous conversation history",
+        "showPreviousConversationHistory": "Show previous chat history",
         "stopMeetingRec": {
             "locationWhereToSaveRecording": "The recording will be saved in \"/{{folderName}}\".",
             "recordingName": "Recording Name",
