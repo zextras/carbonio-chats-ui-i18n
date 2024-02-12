@@ -608,7 +608,8 @@
         "disabledCreateButton": "Vérifier votre saisie afin de vous assurer qu'il n'y a pas d'erreurs",
         "copyUserVirtualRoomTooltip": "Copiez ce lien et partagez le pour permettre aux autres d'avoir accès à votre Salle Virtuelle Personnelle",
         "copyVirtualRoomLinkTooltip": "Copiez ce lien pour partager la Salle Virtuelle",
-        "enterYourVirtualRoomTooltip": "Entrer dans votre Salle Virtuelle Personnelle"
+        "enterYourVirtualRoomTooltip": "Entrer dans votre Salle Virtuelle Personnelle",
+        "chooseRoom": "Choisissez une salle virtuelle"
     },
     "general": {
         "browserNotSupported": "La version de votre navigateur n'est pas supportée. Il est fortement recommander de mettre à jour votre navigateur pour bénéficier de l'ensemble des fonctionnalités !",
@@ -648,7 +649,8 @@
         "downloadAppLabel": "Télécharger l'application pour rejoindre la réunion",
         "doYouHaveTheAppTeam": "Avez-vous déjà l'application Zextras Chats ?",
         "doYouHaveTheAppChats": "Avez-vous déjà l'application Carbonio Chats ?",
-        "appStoreLabel": "Magasin d'applications"
+        "appStoreLabel": "Magasin d'applications",
+        "doYouHaveTheApp": "Vous possédez déjà l'application Chats ?"
     },
     "thanksForParticipating": "Merci pour votre participation",
     "label": {
@@ -680,5 +682,6 @@
         "share": "Partager un lien publique",
         "shareLink": "Partager le lien"
     },
-    "room": "Salle"
+    "room": "Salle virtuelle",
+    "noRoomSelected": "Aucune salle virtuelle n'est sélectionnée"
 }
