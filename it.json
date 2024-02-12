@@ -333,7 +333,8 @@
         "disabledCreateButton": "Controlla i dati inseriti e assicurati che non ci siano errori",
         "copyVirtualRoomLinkTooltip": "Copia questo link per condividere la Stanza Virtuale",
         "enterYourVirtualRoomTooltip": "Entra nella tua Stanza Virtuale Personale",
-        "copyUserVirtualRoomTooltip": "Copia e condividi questo link per dare accesso alla tua Stanza Virtuale Personale"
+        "copyUserVirtualRoomTooltip": "Copia e condividi questo link per dare accesso alla tua Stanza Virtuale Personale",
+        "chooseRoom": "Scegli una Virtual Room"
     },
     "appVersion": "Versione app",
     "button": {
@@ -561,7 +562,7 @@
             "descriptionVirtualRoom": "Imposta le tue preferenze audio e video per partecipare alle Stanze Virtuali. Potrai sempre personalizzarle prima di accedere a qualsiasi Stanza Virtuale.",
             "voiceProcessing": "Elaborazione Voce",
             "voiceProcessingDescription": "Ascolterai la tua voce dall'uscita audio predefinita. Questo di permetterà di testare la qualità dell'audio in entrata e in uscita per la riunione",
-            "descriptionRoom": "Imposta le tue preferenze audio e video per accedere alla Stanza. Potrai sempre personalizzarle prima di accedere a qualsiasi Stanza Virtuale."
+            "descriptionRoom": "Imposta le tue preferenze audio e video per accedere alla Stanza. Puoi sempre personalizzarle prima di accedere a qualsiasi Stanza."
         },
         "notification": {
             "desktop": "Notifiche desktop",
@@ -647,7 +648,8 @@
         "doYouHaveTheAppTeam": "Hai già l'app Zextras Chats?",
         "doYouHaveTheAppChats": "Hai già l'app Carbonio Chats?",
         "downloadAppLabel": "Scarica l'applicazione per partecipare alla riunione",
-        "appStoreLabel": "App Store"
+        "appStoreLabel": "App Store",
+        "doYouHaveTheApp": "Possiedi già l'app di Chats?"
     },
     "label": {
         "app_name": "Chat"
@@ -680,5 +682,6 @@
         "share": "Condividi link pubblico",
         "shareLink": "Condividi link"
     },
-    "room": "Stanza"
+    "room": "Virtual Room",
+    "noRoomSelected": "Nessuna Virtual Room selezionata"
 }
