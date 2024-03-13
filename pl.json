@@ -466,7 +466,7 @@
         "stopMeetingRec": {
             "stopMeetingTitle": "Zatrzymaj nagrywanie spotkania",
             "stopRecording": "Nagrywanie zostanie zatrzymane. Możesz rozpocząć nowe nagrywanie kiedykolwiek podczas tego spotkania.",
-            "stopRecordingDescription": "Za chwilę zatrzymasz nagrywanie. Możesz rozpocząć nowe kiedykolwiek będziesz chciał.",
+            "stopRecordingDescription": "Za chwilę zatrzymasz nagrywanie. Możesz rozpocząć nowe kiedy będziesz chciał.",
             "locationWhereToSaveRecording": "Nagranie zostanie zapisane w \"/{{folderName}}\".",
             "recordingName": "Nazwa nagrania",
             "stopRecordingTitle": "Zatrzymaj nagrywanie"
