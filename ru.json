@@ -186,7 +186,8 @@
         "disabledCreateButton": "Проверьте введенные данные, чтобы убедиться в отсутствии ошибок",
         "copyUserVirtualRoomTooltip": "Скопируйте эту ссылку и поделитесь ею, чтобы предоставить другим доступ к вашей Персональной виртуальной комнате",
         "copyVirtualRoomLinkTooltip": "Скопируйте ссылку",
-        "enterYourVirtualRoomTooltip": "Войти в Персональную комнату"
+        "enterYourVirtualRoomTooltip": "Войти в Персональную комнату",
+        "chooseRoom": "Выбрать виртуальную комнату"
     },
     "action": {
         "activateNotifications": "Включить уведомления",
@@ -647,7 +648,8 @@
         "downloadAppLabel": "Скачайте приложение, чтобы присоединиться к встрече",
         "doYouHaveTheAppTeam": "У вас уже установлено приложение Zextras Chats?",
         "doYouHaveTheAppChats": "У вас уже установлено приложение Carbonio Chats?",
-        "appStoreLabel": "App Store"
+        "appStoreLabel": "App Store",
+        "doYouHaveTheApp": "Вы используете мобильное приложение Chats?"
     },
     "label": {
         "app_name": "Chats"
@@ -680,5 +682,6 @@
         "share": "Поделиться публичной ссылкой",
         "shareLink": "Поделиться ссылкой"
     },
-    "room": "Виртуальная комната"
+    "room": "Виртуальная комната",
+    "noRoomSelected": "Виртуальная комната не выбрана"
 }
