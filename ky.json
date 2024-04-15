@@ -188,7 +188,94 @@
         "selectMoreParticipantsForInstantMeetings": "Тизмеден катышуучуну тандаңыз же тышкы пайдалануучуну кошуу үчүн даректи териңиз",
         "selectOneOrMoreUsers": "Бир же бир нече пайдалануучуну тандоо",
         "space": {
-            "addMembersDescription": "Атын же электрондук почтанын дарегин киргизүү менен пайдалануучуларды чакырыңыз. Кеминде эки пайдалануучуну чакыруу керек, болбосо Чат түзүүгө мүмкүн болбойт."
-        }
+            "addMembersDescription": "Атын же электрондук почтанын дарегин киргизүү менен пайдалануучуларды чакырыңыз. Кеминде эки пайдалануучуну чакыруу керек, болбосо Чат түзүүгө мүмкүн болбойт.",
+            "topicDescription": "Иш мейкиндиги бул Каналдар менен тематикалык чаттар",
+            "mainDescription": "Иш мейкиндиги - бул тематикалык чаттарды (Каналдарды) камтыган коммуникациялык чөйрө. Иш мейкиндигин түзүү үчүн кеминде эки катышуучуну чакыруу талап кылынат. Каналдарды Иш мейкиндигинин маалыматтык панелинен түз кошууга болот.",
+            "spaceWithoutNameAddParticipant": "Иш мейкиндигине катышуучуларды кошуу",
+            "titleDescription": "Иш мекиндигинин аталышын көрсөтүңүз",
+            "topicInputExplanation": "Иш мейкиндигинин темаларын сүрөттөө"
+        },
+        "typeWithNameAddParticipant": "Катышуучуларды кошуу",
+        "titleInputRequirements": "140 символго жол берилет, аталышы уникалдуу булууга тийиш",
+        "startTypingToPick": "Даректи тандоо үчүн басып баштаңыз",
+        "topicMax255Characters": "Максимум 255 символ",
+        "topicNeeds2Letters": "Аталышынын болушу милдеттүү эмес. Кеминде 2 сөз",
+        "topicOptional": "Опция. Теманын сүрөттөлүшү",
+        "typeToFilter": "Тизмени чыпкалоо",
+        "youCanInviteOther": "Сиз башка катышуучуларды чакыра аласыз"
+    },
+    "errorPage": {
+        "description": "Шилтемени текшериңиз, туура эмес болушу мүмкүн",
+        "errorCode": "Катанын коду 404",
+        "title": "Кечиресиз, биз ал Бөлмөнү тапкан жокпуз"
+    },
+    "external": {
+        "doYouHaveTheAppChats": "Сизде Carbonio Chats тиркемеси орнотулганбы?",
+        "waitingRoom": {
+            "userLeftReturnToWaitingRoom": "Сиз шилтеме боюнча каалаган убагыңызда Күтүү бөлмөсүнө кайтып келе аласыз",
+            "accessDenied": "Кирүү мүмкүнчүлүгүнө уруксат берилген жок",
+            "moderatorRefusedAccessToRoom": "Сизге бул Бөлмөгө кирүү үчүн модератор уруксат берген жок",
+            "userLeftLookForwardToSee": "Жолугушууга чейин",
+            "userLeftWaitingRoom": "Сиз Күтүү бөлмөсүнөн чыгып кеттиңиз"
+        },
+        "login": {
+            "externalLoginDescription": "Эгерде Сиз ушул доменге таандык болсоңуз, кадимки иштөө интерфейсиңизге багытталасыз. Эгер сиз тышкы пайдалануучу болсоңуз, анда атайын бөлүнгөн интерфейске багытталасыз."
+        },
+        "appStoreLabel": "App Store",
+        "doYouHaveTheApp": "Сиз Chats мобилдик тиркемесин колдоносузбу?",
+        "doYouHaveTheAppTeam": "Сизде Zextras Chats тиркемеси орнотулганбы?",
+        "downloadAppLabel": "Жолугушууга кошулуу үчүн тиркемени жүктөп алыңыз",
+        "enter": "Кошулуңуз!",
+        "nobodyInTheRoom": "Бул Бөлмөдө эч ким жок",
+        "nobodyInTheVirtualRoom": "Бул Бөлмөдө эч ким жок окшойт",
+        "orLabel": "же",
+        "playStoreLabel": "Google Play",
+        "roomIsEmpty": "Бул Виртуалдык бөлмө бош",
+        "unsupported": {
+            "browser": "Колдоого алынбаган браузер",
+            "device": "Колдоого алынбаган түзүлүш"
+        },
+        "virtualRoomIsEmpty": "Бул Виртуалдык бөлмө бош",
+        "youAreEnteringMeeting": "Сиз Бөлмөгө кирейин деп жатасыз",
+        "youAreEnteringVirtualRoom": "Сиз Бөлмөгө кирейин деп жатасыз"
+    },
+    "feedback": {
+        "historyClearedSuccessfully": "Тарых тазалданды!",
+        "offline": "Серверге туташтырууда көйгөй бар",
+        "saveAttachmentSuccessfull": "Тиркеме тандалган папкага сакталды",
+        "online": "Кайрадан тармактасыз!",
+        "resetPersonalVirtualRoomLinkSuccess": "Жеке Виртуалдык бөлмөгө шилтеме жөнөтүлгөн",
+        "appVersionCopied": "Тиркеменин версиясы көчүрүлдү",
+        "connecting": "Туташуу…",
+        "linkCopied": "Шилтеме көчүрүлдү",
+        "notificationsActivatedForThisChat": "Бул Чат үчүн билдирүү иштетилген",
+        "notificationsMutedForThisChat": "Бул Чат үчүн билдирүүнү өчүрүү",
+        "resetPersonalRoomLinkSuccess": "Жеке бөлмөгө шилтеме жибрилген",
+        "retryConnection": "Туташууну кайталаңыз",
+        "roomLinkCopied": "Шилтеме көчүрүлдү",
+        "saveAttachmentError": "Сактоодо көйгөй жаралды, дагы бир жолу кайталаңыз",
+        "tryAReconnectionIn": "{{seconds}} аркылуу кайра туташууга аракет кылып көрүңүз",
+        "uploadConversationPicturesFailed": "Чаттын сүрөтүн жүктөө мүмкүн болгон жок",
+        "virtualRoomLinkCopied": "Бөлмөгө шилтеме көчүрүлдү"
+    },
+    "meeting": {
+        "defaultViewModeDedicatedLabel": "\"Атайын режим\" сиздин браузердин өзүнчө кыстырмасына багыттайт.",
+        "attendeesComing": "Катышуучулар кошулууда",
+        "blurMyBackground": "Фонду бүдөмүк кылуу",
+        "defaultViewModeDedicatedLabelVirtualRoom": "\"Атайын режим\" сиздин браузердин өзүнчө кыстырмасына багыттайт.",
+        "defaultViewModeDedicatedModeLabel": "Атайын режим",
+        "defaultViewModeDedicatedModeLabelVRoom": "Атайын режим",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Атайын режим",
+        "defaultViewModeDefaultLabel": "\"Демейки режимди\" тандасаңыз, жолугушуу учурдагы браузерде башталат."
+    },
+    "general": {
+        "browserNotSupported": "Сиздин браузердин версиясы колдоого алынбайт. Бардык функцияларды колдонуу үчүн браузерди жаңылоо сунушталат!",
+        "goToTeam": "Team өтүү",
+        "teamProductName": "Team"
+    },
+    "enterTheRoom": "Бөлмөгө кирүү",
+    "enterTheVirtualRoom": "Бөлмөгө кирүү",
+    "label": {
+        "app_name": "Chats"
     }
 }
