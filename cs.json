@@ -1,1 +1,5 @@
-{}
+{
+    "action": {
+        "activateNotifications": "Aktivovat oznámení"
+    }
+}
