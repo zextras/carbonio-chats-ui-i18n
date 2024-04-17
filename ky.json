@@ -307,9 +307,9 @@
             "unpinVideo": "Видеону алып салуу"
         },
         "resetMeetingUrlModalDescription": "Сиз \"{{conversationName}}\" пландалган жолугушуу үчүн шилтемени алып салгыңыз келет?",
-        "recordedByMe": "Сиз жазууну баштадыңыз",
-        "successSaveMeetingRecording": "Ал жеткиликтүү болсо эле, {{registrationName}}  {{folderName}} жазууларын таба аласыз",
-        "wereToFindRec": "Жазууну токтоткон модератордун папкасындагы Files жазуу сакталат.",
+        "recordedByMe": "Сиз жаздырууну баштадыңыз",
+        "successSaveMeetingRecording": "Ал жеткиликтүү болсо эле, {{registrationName}}  {{folderName}} жаздырууларын таба аласыз",
+        "wereToFindRec": "Жаздырууну токтоткон модератордун папкасындагы Files жаздыруу сакталат.",
         "startModal": {
             "descriptionPersonalRoom": "Сиз {{meetingTitle}} жеке бөлмөңүзгө кантип кирүүнү каалайсыз?",
             "noVideoAndNoAudio": "Камера да, микрофон да өчүрүлгөн",
@@ -323,7 +323,7 @@
             "noVideoAndAudio": "Камера өчүрүлгөн, микрофон иштеп жатат",
             "videoAndAudio": "Камера да, микрофон да иштеп жатат"
         },
-        "wereToFindRecording": "Жазуу локалдык видеосерверде сакталат. Кошумча маалымат алуу үчүн системалык администраторго кайрылыңыз.",
+        "wereToFindRecording": "Жаздыруу локалдык видеосерверде сакталат. Кошумча маалымат алуу үчүн системалык администраторго кайрылыңыз.",
         "defaultViewModeDefaultLabelVirtualRoom": "\"Демейки режимди\" тандасаңыз, Виртуалдык бөлмө учурдагы браузерде иштей баштайт.",
         "defaultViewModeDefaultModeLabel": "Демейки режим",
         "defaultViewModeSaveLabel": "Сактоо параметри",
@@ -334,10 +334,10 @@
         "errorMeetingSavingRecording": "Жазууну токтотууга мүмкүн болбой жатат, дагы бир жолу аракет кылып көрүңүз",
         "genericErrorMeeting": "Бул жолугушууда көйгөй жаралды. Системалык администраторго кайрылыңыз.",
         "noEffect": "Эффект жок",
-        "recordedByOther": "{{username}}  жазууну иштетүү",
-        "recording": "Жазуу",
+        "recordedByOther": "{{username}}  жаздырууну иштетүү",
+        "recording": "Жаздыруу",
         "setVirtualBackground": "Виртуалдык фон орнотуу",
-        "thisMeetingIsBeingRecorded": "Жазылып жатат"
+        "thisMeetingIsBeingRecorded": "Жаздыруу жүрүп жатат"
     },
     "general": {
         "browserNotSupported": "Сиздин браузердин версиясы колдоого алынбайт. Бардык функцияларды пайдалануу үчүн браузерди жаңылоо сунушталат!",
@@ -471,6 +471,184 @@
     },
     "modal": {
         "clearHistoryDescription": "Бул Чаттын тарыхы өчүрүлдү, активдүү чаттарга кирүүнү жеңилдетүү үчүн эми ал чаттардын тизмесинин төмөн жагына жайгаштырылды.",
-        "addModeratorDescription": "Бул Бөлмөгө бир де бир нече пайдалануучуну модератор кылыңыз"
-    }
+        "addModeratorDescription": "Бул Бөлмөгө бир де бир нече пайдалануучуну модератор кылыңыз",
+        "confirm": {
+            "leaveGroup": "Топтон чыгууну каалайсызбы?",
+            "removeMember": "Бул пайдалануучуну өчүрүп салууну каалайсызбы?",
+            "areYouSure": "Чын эле каалап жатасызбы?",
+            "clearHistory": "Сиз Чаттын тарыхын биротоло тазалайсыз. Бул Чаттын тарыхы башка катышуучуларда өчүрүлбөйт. Мындай аракет кайтарылгыс.",
+            "deleteChannel": "Чын эле бул Каналды жок кылууну каалайсызбы?",
+            "deleteRoom": "Чын эле бул Бөлмөнү жок кылууну каалайсызбы?",
+            "deleteSpace": "Чын эле бул Иш мейкиндигин жок кылууну каалайсызбы?",
+            "deleteVirtualRoom": "Чын эле Бөлмөнү жок кылууну каалайсызбы?",
+            "leaveAndDeleteConversation": "Чын эле {{conversationName}} чыгууну жана аны жок кылууну каалайсызбы?",
+            "leaveChannel": "Каналдан чыгууну каалайсызбы?",
+            "leaveSpace": "Иш мейкиндигинен чыгууну каалайсызбы?"
+        },
+        "instantMeeting": {
+            "endCallByOwner": "Ыкчам кеңешменин уюштуруучусу сүйлөшүүнү токтотууну чечти",
+            "instantMeetingAlreadyRunningText": "Жаңы \"жолугушууну\" түзүү, учурдагыны жок кылат, ал эми анын катышуучулар байланышын жоготот. Улантууну каалайсызбы?",
+            "closedInstantMeeting": "Ыкчам кеңешме аяктады",
+            "continue": "Ыкчам кеңешмени улантуу",
+            "create": "Жаңы Ыкчам кеңешме түзүү",
+            "instantMeetingAlreadyRunningTitle": "Ыкчам кеңешме башталган"
+        },
+        "forwardModal": {
+            "selectOneOrMoreConversations": "Бир же бир нече чатты тандаңыз",
+            "forwardedMessageFrom": "Билдирүү жөнөтүлдү",
+            "spaceAndChannels": "Иш мейкиндиктери жана Каналдар",
+            "typeToFilterTheList": "Тизменин чыпкасы"
+        },
+        "stopMeetingRec": {
+            "stopRecordingDescription": "Жаздырууну токтотоюн деп жатасыз. Жаңы жаздырууну каалаган учурда баштай аласыз.",
+            "stopMeetingTitle": "Жолугушууну жаздырууну токтотуу",
+            "stopRecording": "Жаздыруу токтотулат. Бул жолугушууда каалаган учурда жаздырууну баштасаңыз болот.",
+            "locationWhereToSaveRecording": "Жаздыруу {{folderName}} сакталат.",
+            "recordingName": "Жаздыруунун аталышы",
+            "stopRecordingTitle": "Жаздырууну токтотуу"
+        },
+        "moderatorMeetingDescription": "Сиз бул Бөлмөнүн модераторусуз. Кошумча модераторлорду кошо аласыз жана алар сиздей эле укуктарга ээ болушат.",
+        "moderatorVirtualRoomDescription": "Сиз бул Виртуалдык бөлмөнүн модераторусуз. Кошумча модераторлорду кошо аласыз жана алар сиздей эле укуктарга ээ болушат.",
+        "roomsFunctionalitiesChangelogDescription": "Функционалдык мүмкүнчүлүктөргө маанилүү өзгөртүүлөрдү киргиздик. Виртуалдык бөлмөлөр жөнүндө маалыматтар менен таанышкыла!",
+        "deleteMessageDescription": "Бул билдирүүнү өчүрүп салсаңыз, ал сизге жана калган бардык алуучуларга да көрүнбөй калат",
+        "moderatorCannotLeaveGroupDescription": "Сиз {{conversationName}} топтун жалгыз модераторусуз, бул топтон чыгуудан мурда укукту башка пайдалануучуга өткөрүп бериңиз.",
+        "moderatorCannotLeaveGroupTitle": "Күтө туруңуз, жаңы модератор талап кылынат",
+        "moderatorRoomDescription": "Сиз бул Бөлмөнүн модераторусуз. Кошумча модераторлорду кошо аласыз жана алар сиздей эле укуктарга ээ болушат.",
+        "news": "Жаңылыктар",
+        "notShowAgain": "Муну кайра көрсөтпө",
+        "planMeetingDescription": "Бөлмөнүн аталышын көрсөтүңүз.",
+        "planRoomDescription": "Бул Бөлмөгө тематикалык атталыш бериңиз.",
+        "planVirtualRoomDescription": "Бөлмөнүн аталышын көрсөтүңүз.",
+        "selectFolder": "Папка тандаңыз",
+        "teamNews": "Team жаңылыктары",
+        "userJoinedWaitingRoom": "Күтүү бөлмөсүндө бирөө бар окшойт"
+    },
+    "notification": {
+        "invitationToPersonalRoom": ".... жеке бөлмөгө чакыруу",
+        "startMeetingRecording": "{{conversationName}} менен жолугушууну жаздыруу башталды",
+        "waiting": {
+            "descriptionAcceptedLabel": "Сиз {{conversationName}} модератор тарабынан кабыл алындыңыз",
+            "descriptionWaitingLabel": "Сиз {{conversationName}} модератор тарабынан кабыл алууну күтүп жатасыз",
+            "notificationAcceptedByModerator": "Сиз модератор тарабынан кабыл алындыңыз",
+            "notificationJoinTheRoom": "Бөлмөгө кирүү",
+            "notificationJoinTheVirtualRoom": "Виртуалдык бөлмөгө кирүү",
+            "userIsWaiting": "Жаңы пайдалануучу кирүүнү күтүп жатат",
+            "userJoinedWaitingRoom": "Күтүү бөлмөсүндө бирөө бар"
+        },
+        "answer": "Жооп берүү",
+        "dismiss": "Четке кагуу",
+        "incomingCall": "Кирген чалуу:",
+        "invitationToPersonalVirtualRoom": "... Жеке виртуалдык бөлмөгө чакыруу",
+        "meeting": {
+            "ended": "Жолугушуу аяктады"
+        }
+    },
+    "tooltip": {
+        "copyRoomLink": "Шилтемени көчүрүп алуу жана бөлүшүү",
+        "chooseFile": "Файл тандоо",
+        "acceptQueuedMember": "Кирүүгө уруксат берүү",
+        "addFile": "Файл кошуу",
+        "cancelFilter": "Чыпканы жокко чыгаруу",
+        "chooseRoom": "Виртуалдык бөлмөнү тандоо",
+        "close": "Жабуу",
+        "closeSearch": "Издөөнү жабуу",
+        "collapseChannel": "Каналдарды түрүү",
+        "copyRoomLinkTooltip": "Шилтемени көчүрүп алуу жана бөлүшүү",
+        "copyUserRoom": "Жеке бөлмөгө шилтемени көчүрүү",
+        "copyUserRoomTooltip": "Шилтемени көчүрүп алыңыз жана Жеке бөлмөңүзгө башкалардын кирүүсү үчүн аны бөлүшкүлө"
+    },
+    "organizeYourVirtualMeeting": "Жеке жолугушууларды түзгүлө же кесиптештериңиздин Виртуалдык бөлмөсүнө кошулгула",
+    "settings": {
+        "meeting": {
+            "descriptionVirtualRoom": "Виртуалдык бөлмөгө кирүү алдында аудио жана видеону каалаганыңыздай орнотуңуз. Кирүү алдында каалагандай ыңгайлаштырууга болот.",
+            "description": "Видео жана үн параметрлерин жөндөө. Каалаган жолугушууга кирүү алдында жөндөөнү өзгөртө аласыз.",
+            "personalRoomResetDescription": "Жеке бөлмөгө шилтеме баштапкы абалга келтирилсе, мурда берилген бардык кирүү мүмкүнчүлүктөрү жокко чыгарылат.",
+            "voiceProcessing": "Үндү иштетүү",
+            "personalVirtualRoomResetDescription": "Жеке Виртуалдык бөлмөгө шилтемени баштапкы абалга келтирүүдө, мурда берилген бардык кирүү мүмкүнчүлүктөрү иштебей калат.",
+            "voiceProcessingDescription": "Үнүңүздү демейки үн түзүлүшүнөн угасыз. Бул микрофондун сапатын, ошондой эле жолугушуу үчүн тандалган үн түзүлүшүн текшерүүгө мүмкүндүк берет.",
+            "descriptionRoom": "Бөлмөгө кирүү үчүн видеону жана үндү ыңгайлаштыруу. Ар бир бөлмөгө кирүү алдында каалагандай ыңгайлаштырып алсаңыз болот.",
+            "enableCamera": "Камераны иштетүү",
+            "enableEchoCancellation": "Эхону басуу",
+            "enableMicrophone": "Микрофонду иштетүү",
+            "enableNoiseSuppression": "Ызы-чууну басуу",
+            "meetings": "Жолугушуулар",
+            "personalRoomOptionsTitleModal": "Жеке бөлмөгө шилтемени баштапкы абалга келтирүү",
+            "personalRoomResetButton": "Шилтемени өчүрүү",
+            "personalVirtualRoomOptionsTitleModal": "Жеке Виртуалдык бөлмөгө шилтеме баштапкы абалга келтирилди",
+            "personalVirtualRoomResetButton": "Жеке бөлмөгө шилтемени баштапкы абалга келтирүү",
+            "virtualRooms": "Виртуалдык бөлмөлөр"
+        },
+        "notifications": {
+            "description": "Чаттарда билдирүүнүн ар бир тиби үчүн жөнгө салууну орнотуу."
+        },
+        "resetPersonalRoomLinkSuccess": "Жеке бөлмөгө шилтеме алгачкы калыбына келтирилди",
+        "notification": {
+            "title": {
+                "openMinichatForGroup": "Топто жаңы билдирүү келгенде ачуу",
+                "notifications": "Билдирүү",
+                "openMinichat": "Жаңы билдирүүнү ачуу",
+                "openMinichatForSingle": "Жаңы билдирүү келгенде ачуу",
+                "openMinichatForSpace": "Иш мейкиндигине келген жаңы билдирүүнү ачуу"
+            },
+            "desktop": "Билдирүү",
+            "openMinichatDescription": "Мини чат ачууну жөнгө салыңыз"
+        },
+        "profile": {
+            "statusOptionalDescription": "Опция. Белгилердин максималдык саны 256",
+            "chooseAProfilePic": "Профилдин сүрөтүн тандаңыз, сүрөт автоматтык түрдө борбордо болот.",
+            "errorGenericResponse": "Бир нерсе туура эмес болуп калды. Кайталап көрүңүз",
+            "maximumDimension": "Максималдык өлчөмү: 256кб.",
+            "reset": "Өчүрүү",
+            "restore": "Калыбына келтирүү",
+            "title": "Профиль",
+            "update": "Жаңылоо"
+        },
+        "modal": {
+            "description": "Бул жерден бардык чаттар үчүн атайын жөнгө салууларды орното аласыз!",
+            "title": "Чаттарды жөндөө"
+        },
+        "recordingMeeting": {
+            "descriptionWhereToSaveRegistration": "Жаздырууларды сактоо үчүн көздөгөн папканы орнотуу.",
+            "destinationFolder": "Көздөгөн папка",
+            "recording": "Жаздыруулар"
+        },
+        "title": "Жөндөө"
+    },
+    "organizeYourMeeting": "Жеке жолугушууларды түзгүлө же кесиптештериңиздин Виртуалдык бөлмөсүнө кошулгула",
+    "personalVirtualRoomLabel": "{{userName}} жеке Виртуалдык бөлмөсү",
+    "status": {
+        "waitingToEnter": "Кирүүнү күтүп жатат",
+        "areWriting": "жазып жатат…",
+        "externalGuest": "Тышкы конок",
+        "internalGuest": "Ички конок",
+        "isWriting": "жазып жатат…",
+        "lastSeen": "{{lastSeen}} акыркы болуусу",
+        "offline": "Тармактан тышкары",
+        "online": "Тармакта",
+        "userStatus": "Статус"
+    },
+    "noRoomSelected": "Виртуалдык бөлмө тандалган жок",
+    "organizeYourVMeeting": "Жеке жолугушууларды түзгүлө же кесиптештериңиздин Виртуалдык бөлмөсүнө кошулгула",
+    "people": {
+        "manyMembers": "{{membersCount}} катышуучулары",
+        "me": "Мен",
+        "oneParticipant": "Бир катышуучу",
+        "otherParticipants": "{{numberParticipants}} башка катышуучулары",
+        "participants": "Катышуучулар",
+        "whoYoureLookinkFor": "Кимди издеп жатасыз?",
+        "you": "Сиз"
+    },
+    "personalRoomLabel": "{{userName}} жеке бөлмө",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "Жүктөө"
+            }
+        },
+        "close": {
+            "tooltip": "Жабуу"
+        }
+    },
+    "room": "Виртуалдык бөлмө",
+    "thanksForParticipating": "Жолугушканга чейин"
 }
