@@ -1,5 +1,6 @@
 {
     "action": {
-        "activateNotifications": "Aktivovat oznámení"
+        "activateNotifications": "Aktivovat oznámení",
+        "addNewMembers": "Přidat nové členy"
     }
 }
