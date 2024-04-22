@@ -278,7 +278,7 @@
             },
             "audioDisabled": "Үнү өчүрүлдү",
             "audioEnabled": "Үнү иштетилди",
-            "cameraDisabled": "Камера өчүрүлгөн",
+            "cameraDisabled": "Камера өчүрүдү",
             "cameraEnabled": "Камера иштетилди",
             "cinemaView": "Кинотеатр режими",
             "closeCall": "Чалууну аяктоо",
@@ -462,7 +462,7 @@
             },
             "notificationsActivatedForThisChat": "Бул Чат үчүн билдирүү иштетилген"
         },
-        "deletedMessage": "Өчүрүлгөн билдирүүлөр",
+        "deletedMessage": "Өчүрүлгөн билдирүү",
         "edited": "редакцияланган",
         "forwarded": "жөнөтүлгөндөр",
         "now": "Азыр",
