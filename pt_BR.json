@@ -62,7 +62,7 @@
         "createGroup": "Criar grupo",
         "createInstantMeeting": "Criar Reunião Instantânea",
         "createSpace": "Criar Espaço",
-        "delete": "Apagar",
+        "delete": "Excluir",
         "deleteChannel": "Excluir Canal",
         "deleteRoom": "Excluir Sala",
         "deleteSpace": "Excluir Espaço",
@@ -608,7 +608,8 @@
         "disabledCreateButton": "Verifique os dados inseridos para garantir que não existem erros",
         "copyVirtualRoomLinkTooltip": "Copie este link para compartilhar a Sala Virtual",
         "enterYourVirtualRoomTooltip": "Entre na sua Sala Pessoal",
-        "copyUserVirtualRoomTooltip": "Copie este link e compartilhe para permitir que outras pessoas acessem a sua sala pessoal"
+        "copyUserVirtualRoomTooltip": "Copie este link e compartilhe para permitir que outras pessoas acessem a sua sala pessoal",
+        "chooseRoom": "Escolher Sala Virtual"
     },
     "general": {
         "goToTeam": "Ir para Team",
@@ -646,7 +647,8 @@
         "downloadAppLabel": "Baixe o app e entre em uma reunião",
         "enter": "Entre já!",
         "playStoreLabel": "Google Play",
-        "orLabel": "or"
+        "orLabel": "or",
+        "doYouHaveTheApp": "Você já tem o app Chats?"
     },
     "thanksForParticipating": "Obrigado por participar",
     "organizeYourMeeting": "Organize suas próprias reuniões ou entre nas Salas dos seus colegas",
@@ -680,5 +682,6 @@
         "attachLinkFromFiles": "Anexar link a partir de Files",
         "attachLinkFiles": "Anexar link público a partir de Files"
     },
-    "room": "Sala"
+    "room": "Sala Virtual",
+    "noRoomSelected": "Nenhuma Sala Virtual selecionada"
 }
