@@ -17,7 +17,7 @@
         "copyAppVersion": "Copier la version de l'application",
         "create": "Créer",
         "createChannel": "Créer un canal lié à {{spaceName}}",
-        "createChat": "Créer un Chat",
+        "createChat": "Créer une conversation",
         "createGroup": "Créer un Groupe",
         "createInstantMeeting": "Créer une conversation",
         "createSpace": "Créer un Espace",
@@ -49,7 +49,7 @@
         "scrollToNewMessage": "Scroller jusqu’au nouveau message",
         "scrollToTheBottom": "Scroller jusqu’en bas",
         "startMeeting": "Démarrer la réunion",
-        "openInChats": "Ouvrir dans Chat",
+        "openInChats": "Ouvrir dans Conversation",
         "leaveGroup": "Quitter le groupe",
         "planMeeting": "Organiser une réunion",
         "copyLinkRoom": "Copier le lien de la Salle",
@@ -68,14 +68,14 @@
     "creation": {
         "attendeeAdded": "Participant ajouté à la liste",
         "channel": {
-            "mainDescription": "Les canaux sont des chats à thème bien définis qui sont inclus dans un espace. Les participants de l'espace peuvent rejoindre le canal pour discuter activement de son sujet. Les participants peuvent abandonner le canal sans quitter l'espace.",
+            "mainDescription": "Les canaux sont des conversations à thème bien définis qui sont inclus dans un espace. Les participants de l'espace peuvent rejoindre le canal pour discuter activement de son sujet. Les participants peuvent abandonner le canal sans quitter l'espace.",
             "setImageAndTitleDescription": "Définissez une image pour mieux reconnaître le Canal à l'intérieur de l'Espace d'hébergement. L'image du canal peut également être définie ou modifiée sur le panneau d'information du canal.",
             "titleInputRequirements": "140 caractères autorisés, le titre doit être unique à l'intérieur de l'Espace d'hébergement",
             "topicInputExplanation": "Il décrit le sujet du Canal",
-            "topicDescription": "Comme les canaux sont des discussions orientées par le thème discuté, il est recommandé de décrire au mieux le sujet du canal."
+            "topicDescription": "Comme les canaux sont des conversations orientées par le thème discuté, il est recommandé de décrire au mieux le sujet du canal."
         },
         "group": {
-            "addParticipantsDescription": "Invitez les participants en tapant leur nom ou leur adresse électronique. Vous devez inviter au moins deux autres participants, sinon vous pouvez créer un Chat.",
+            "addParticipantsDescription": "Invitez les participants en tapant leur nom ou leur adresse électronique. Vous devez inviter au moins deux autres participants, sinon vous pouvez créer une conversation.",
             "groupWithoutNameAddParticipant": "Ajouter des participants à votre Groupe",
             "inputTopicDescriptionLabel": "Il décrit l'objet du Groupe",
             "setImageAndTopicDescription": "Définissez une image qui aidera les utilisateurs à identifier le Groupe parmi ceux qui figurent dans la liste.",
@@ -92,7 +92,7 @@
                 }
             },
             "titleDescription": "Donnez un titre reconnaissable à la réunion instantanée, afin que vos participants connaissent l'objectif de cet appel.",
-            "description": "Les réunions instantanées sont des appels vidéo conçus pour être rapides et momentanés. Aucune trace de la discussion ne sera conservée et, une fois l'appel terminé, elle cessera d'exister. Les réunions instantanées peuvent être créées par les utilisateurs de Team Pro et peuvent être rejointes par des utilisateurs externes."
+            "description": "Les réunions instantanées sont des appels vidéo conçus pour être rapides et momentanés. Aucune trace de la conversation ne sera conservée et, une fois l'appel terminé, elle cessera d'exister. Les réunions instantanées peuvent être créées par les utilisateurs de Team Pro et peuvent être rejointes par des utilisateurs externes."
         },
         "limitOfParticipantReached": "Vous avez atteint la limite de participants imposée par l’administrateur",
         "nameMax140Characters": "Max. 140 caractères",
@@ -109,11 +109,11 @@
         "selectOneOrMoreUsers": "Sélectionnez un ou plusieurs utilisateurs",
         "space": {
             "spaceWithoutNameAddParticipant": "Ajouter des participants à votre Espace",
-            "topicDescription": "Les espaces étant des chats axés sur le sujet discuté, il est recommandé de choisir un sujet qui décrit mieux l'objet de l'espace.",
+            "topicDescription": "Les espaces étant des conversations axés sur le sujet discuté, il est recommandé de choisir un sujet qui décrit mieux l'objet de l'espace.",
             "topicInputExplanation": "Il décrit le sujet de l'Espace",
             "titleDescription": "Le titre identifie l'espace et doit donc décrire son thème.",
-            "addMembersDescription": "Invitez des personnes en tapant leur nom ou leur adresse e-mail. Vous devez inviter au moins deux autres personnes, sinon vous pouvez créer une discussion.",
-            "mainDescription": "Les Espaces sont des environnements de communication génériques qui comprennent des discussions spécifiques appelées Canaux, chacune ayant son propre sujet. Pour créer un Espace, vous devez inviter au moins deux participants. Les Canaux peuvent être ajoutés directement à partir du panneau d'information de l'espace."
+            "addMembersDescription": "Invitez des personnes en tapant leur nom ou leur adresse e-mail. Vous devez inviter au moins deux autres personnes, sinon vous pouvez créer une conversation.",
+            "mainDescription": "Les Espaces sont des environnements de communication génériques qui comprennent des conversations spécifiques appelées Canaux, chacune ayant son propre sujet. Pour créer un Espace, vous devez inviter au moins deux participants. Les Canaux peuvent être ajoutés directement à partir du panneau d'information de l'espace."
         },
         "startTypingToPick": "Commencez à taper pour choisir une adresse",
         "topicMax255Characters": "Max. 255 caractères",
@@ -122,9 +122,9 @@
         "typeWithNameAddParticipant": "Ajouter des participants à",
         "youCanInviteOther": "Vous pouvez encore inviter {{limit}} participants",
         "chat": {
-            "addParticipant": "Choisissez un participant avec qui commencer une discussion",
-            "chatFilterDescription": "Vous pouvez créer un chat en cliquant simplement sur le participant avec lequel vous voulez parler",
-            "description": "Les chats sont des conversations en tête-à-tête qui vous permettent de rester en contact."
+            "addParticipant": "Choisissez un participant avec qui commencer une conversation",
+            "chatFilterDescription": "Vous pouvez créer une conversation en cliquant simplement sur le participant avec lequel vous voulez parler",
+            "description": "Les conversations sont des discussions en tête-à-tête qui vous permettent de rester en contact avec vos interlocuteurs."
         },
         "emailReplicated": "L'e-mail saisi a déjà été ajouté",
         "titleInputRequirements": "140 caractères autorisés, le titre doit être unique",
@@ -161,7 +161,7 @@
                     "channel": "Vous avez créé le Canal",
                     "space": "Vous avez créé l’Espace",
                     "group": "Vous avez créé le Groupe",
-                    "single": "Vous avez créé le Chat"
+                    "single": "Vous avez créé la conversation"
                 },
                 "deleted": {
                     "channel": "Vous avez supprimé le Canal",
@@ -206,7 +206,7 @@
                     "channel": "{{member_name}} a créé le Canal",
                     "space": "{{member_name}} a créé l’Espace",
                     "group": "{{member_name}} a créé le Groupe",
-                    "single": "{{member_name}} a créé le Chat"
+                    "single": "{{member_name}} a créé la conversation"
                 },
                 "deleted": {
                     "channel": "{{member_name}} a supprimé le Canal",
@@ -216,19 +216,19 @@
                 "invited": "{{member_name}} a été invité par {{invited_by}}",
                 "join": {
                     "channel": "{{member_name}} a rejoint le Canal",
-                    "conversation": "{{member_name}} a rejoint le Chat"
+                    "conversation": "{{member_name}} a rejoint la conversation"
                 },
                 "kicked": {
                     "channel": "{{member_name}} a été supprimé du Canal par {{kicked_by}}",
                     "group": "{{member_name}} a été retiré du groupe par {{kicked_by}}",
                     "space": "{{member_name}} a été supprimé de l’Espace par {{kicked_by}}",
-                    "chat": "{{member_name}} a été supprimé du Chat par {{kicked_by}}"
+                    "chat": "{{member_name}} a été supprimé de la conversation par {{kicked_by}}"
                 },
                 "left": {
                     "channel": "{{member_name}} a quitté le Canal",
                     "space": "{{member_name}} a quitté l’Espace",
                     "group": "{{member_name}} a quitté le Groupe",
-                    "chat": "{{member_name}} a quitté le chat"
+                    "chat": "{{member_name}} a quitté la conversation"
                 },
                 "you": {
                     "invited": "Vous avez invité {{member_name}}",
@@ -240,9 +240,9 @@
                 }
             },
             "newMeeting": "Appel entrant de :",
-            "notificationsActivatedForThisChat": "Notifications activées pour ce Canal",
-            "notificationsMutedForThisChat": "Notifications désactivées pour ce chat",
-            "conversationCreated": "Chat créé"
+            "notificationsActivatedForThisChat": "Notifications activées pour cette conversation",
+            "notificationsMutedForThisChat": "Notifications désactivées pour cette conversation",
+            "conversationCreated": "Conversation créé"
         },
         "yesterday": "Hier",
         "deletedMessage": "Message effacé",
@@ -286,7 +286,7 @@
     },
     "conversations": {
         "activeMeetingRooms": "Activer les salles de réunion",
-        "chats": "Chats",
+        "chats": "Conversations",
         "conversations": "Conversations",
         "instantMeetings": "Réunions instantanées",
         "meetingRooms": "Salles de réunion",
@@ -303,10 +303,10 @@
         "waitingRoom": "Salle d'attente",
         "yourRoom": "Votre salle",
         "filterChatList": "Filtrer la liste des conversations",
-        "mockDisplayDescription": "Choisissez une conversation pour démarrer une discussion",
+        "mockDisplayDescription": "Choisissez une conversation pour démarrer une conversation",
         "mockDisplayTitle": "Restons en contact !",
-        "noActiveChats": "Il n'y a pas de discussions actives en ce moment. Créez un nouveau chat ou changez d'onglet.",
-        "noFilteredChats": "Aucune discussion ne correspond à ce filtre.",
+        "noActiveChats": "Il n'y a pas de conversation actives en ce moment. Créez une nouvelle conversation ou changez d'onglet.",
+        "noFilteredChats": "Aucune conversation ne correspond à ce filtre.",
         "noFilteredVirtualRooms": "Il n'y a pas de Salles Virtuelles ou de rendez-vous planifié qui correspondent à ces filtres",
         "activeVirtualRooms": "Salle Virtuelle active",
         "noActiveVirtualRooms": "Il n'y a pas de Salle Virtuelle active pour le moment",
@@ -319,8 +319,8 @@
     },
     "feedback": {
         "historyClearedSuccessfully": "Historique effacé avec succès !",
-        "notificationsActivatedForThisChat": "Notifications activées pour ce Canal",
-        "notificationsMutedForThisChat": "Notifications désactivées pour ce chat",
+        "notificationsActivatedForThisChat": "Notifications activées pour cette conversation",
+        "notificationsMutedForThisChat": "Notifications désactivées pour cette conversation",
         "online": "De retour en ligne !",
         "resetPersonalRoomLinkSuccess": "Le lien de la Salle Personnelle a été réinitialisé",
         "retryConnection": "Réessayer la connexion",
@@ -422,7 +422,7 @@
         "clearHistoryDescription": "Cette conversation est maintenant vide, elle a été déplacée en bas de la liste des conversations afin de mettre en valeur celles qui sont actives.",
         "confirm": {
             "areYouSure": "Etes-vous certain ?",
-            "clearHistory": "Vous effacerez définitivement votre historique de chat. L'historique des autres participants à cette discussion ne sera pas effacé. Cette action est irréversible.",
+            "clearHistory": "Vous effacerez définitivement votre historique de conversation. L'historique des autres participants à cette conversation ne sera pas effacé. Cette action est irréversible.",
             "leaveAndDeleteConversation": "Êtes-vous certain de vouloir quitter et effacer {{conversationName}} ?",
             "deleteChannel": "Êtes-vous sûr de vouloir supprimer ce Canal ?",
             "deleteRoom": "Êtes-vous sûr de vouloir supprimer cette Salle ?",
@@ -545,11 +545,11 @@
         "resetPersonalRoomLinkSuccess": "Le lien de la Salle Personnelle a été réinitialisé",
         "title": "Paramètres",
         "notifications": {
-            "description": "Définissez vos préférence pour chaque type de notification dans les discussions."
+            "description": "Définissez vos préférence pour chaque type de notification dans les conversations."
         },
         "modal": {
-            "description": "Vous pouvez ici configurer toutes les préférences dédiées au Chat pour bénéficier d'une configuration personnalisée pour les discussions !",
-            "title": "Paramétrage de Chats"
+            "description": "Vous pouvez ici configurer toutes les préférences dédiées à la conversation pour bénéficier d'une configuration personnalisée pour les configurations !",
+            "title": "Paramétrage des conversations"
         },
         "recordingMeeting": {
             "descriptionWhereToSaveRegistration": "Définir un dossier de destination pour le stockage des enregistrements de réunion.",
@@ -586,7 +586,7 @@
         "errorUpdatingAvatarStatus": "Quelque chose s'est mal passé lors des réglages. Veuillez réessayer",
         "errorUploadingAvatarPicture": "Quelque chose s'est mal passé lors du téléchargement du nouvel avatar. Veuillez réessayer",
         "errorRemovingAvatarPicture": "Quelque chose s'est mal passé lors de la suppression du nouvel avatar. Veuillez réessayer",
-        "goToPrivateChat": "Aller dans un chat privé",
+        "goToPrivateChat": "Aller dans une conversation privée",
         "openMinichat": "Ouvrir le Minichat",
         "promoteModerator": "Promouvoir un modérateur",
         "removeFile": "Supprimer un fichier",
@@ -648,13 +648,13 @@
         "enter": "Rejoindre !",
         "downloadAppLabel": "Télécharger l'application pour rejoindre la réunion",
         "doYouHaveTheAppTeam": "Avez-vous déjà l'application Zextras Chats ?",
-        "doYouHaveTheAppChats": "Avez-vous déjà l'application Carbonio Chats ?",
+        "doYouHaveTheAppChats": "Avez-vous déjà l'application Carbonio Conversation ?",
         "appStoreLabel": "Magasin d'applications",
-        "doYouHaveTheApp": "Vous possédez déjà l'application Chats ?"
+        "doYouHaveTheApp": "Vous possédez déjà l'application Conversation ?"
     },
     "thanksForParticipating": "Merci pour votre participation",
     "label": {
-        "app_name": "Chats"
+        "app_name": "Conversations"
     },
     "organizeYourMeeting": "Organisez votre propre réunion ou rejoignez les salles de vos collègues",
     "tryLater": "Essayez plus tard",
