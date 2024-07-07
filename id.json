@@ -191,7 +191,8 @@
         "disabledCreateButton": "Periksa input untuk memastikan tidak ada kesalahan",
         "copyUserVirtualRoomTooltip": "Salin tautan ini dan bagikan agar orang lain mendapat akses ke Ruang Virtual Pribadi Anda",
         "copyVirtualRoomLinkTooltip": "Salin tautan ini untuk berbagi Ruang Virtual",
-        "enterYourVirtualRoomTooltip": "Masuk ke Ruang Virtual Pribadi"
+        "enterYourVirtualRoomTooltip": "Masuk ke Ruang Virtual Pribadi",
+        "chooseRoom": "Pilih ruang virtual"
     },
     "appVersion": "Versi aplikasi",
     "button": {
@@ -643,7 +644,8 @@
         "downloadAppLabel": "Unduh aplikasi untuk mengikuti rapat",
         "enter": "Gabung!",
         "playStoreLabel": "Google Play",
-        "doYouHaveTheAppChats": "Sudah memiliki aplikasi Carbonio Chats?"
+        "doYouHaveTheAppChats": "Sudah memiliki aplikasi Carbonio Chats?",
+        "doYouHaveTheApp": "Apakah Anda sudah memiliki aplikasi Obrolan?"
     },
     "label": {
         "app_name": "Chats"
@@ -680,5 +682,6 @@
         "attachLinkFromFiles": "Tambahkan tautan dari Files",
         "attachLinkFiles": "Lampirkan tautan publik dari Files"
     },
-    "room": "Ruang"
+    "room": "Ruang Virtual",
+    "noRoomSelected": "Belum memilih Ruang Virtual"
 }
