@@ -262,7 +262,7 @@
     },
     "conversation": {
         "channelInfo": "Info du canal",
-        "contactInfo": "Contact info",
+        "contactInfo": "Information du contact",
         "groupInfo": "Info du groupe",
         "info": "Info",
         "instantInfo": "Info de l’Instant Meeting",
@@ -522,7 +522,7 @@
             "descriptionRoom": "Définissez vos préférences audio et vidéo pour entrer dans la salle. Vous pourrez toujours modifier ces paramètre dans vos préférences avant d'entrer dans une salle."
         },
         "notification": {
-            "desktop": "Notifications desktop",
+            "desktop": "Notifications de bureau",
             "openMinichatDescription": "Personnalisez le comportement d'ouverture de vos minichats",
             "title": {
                 "notifications": "Notifications",
