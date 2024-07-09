@@ -340,7 +340,8 @@
         "disabledCreateButton": "Verifica los datos introducidos para asegurarte que no hay ningún error",
         "enterYourVirtualRoomTooltip": "Entra en tu Sala Personal",
         "copyVirtualRoomLinkTooltip": "Copia este enlace para compartir el acceso a la Sala Virtual",
-        "copyUserVirtualRoomTooltip": "Copia este enlace y compártelo con quien quieras invitar a tu Sala Personal"
+        "copyUserVirtualRoomTooltip": "Copia este enlace y compártelo con quien quieras invitar a tu Sala Personal",
+        "chooseRoom": "Elegir sala virtual"
     },
     "appVersion": "Versión de la aplicación",
     "button": {
@@ -642,7 +643,8 @@
         "downloadAppLabel": "Descarga la aplicación para participar de la reunión",
         "enter": "¡Únete!",
         "playStoreLabel": "Google Play",
-        "doYouHaveTheAppChats": "¿Ya tienes la aplicación Carbonio Chats?"
+        "doYouHaveTheAppChats": "¿Ya tienes la aplicación Carbonio Chats?",
+        "doYouHaveTheApp": "¿Tienes ya la app de Chats?"
     },
     "enterTheRoom": "Entrar en la Sala",
     "label": {
@@ -680,5 +682,6 @@
         "attachLinkFromFiles": "Agregar un enlace de Files",
         "attachLinkFiles": "Adjuntar enlace público desde Files"
     },
-    "room": "Sala"
+    "room": "Sala virtual",
+    "noRoomSelected": "Sala virtual no seleccionada"
 }
