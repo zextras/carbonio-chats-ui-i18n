@@ -143,16 +143,16 @@
     "creation": {
         "attendeeAdded": "Participante adicionado à lista",
         "channel": {
-            "mainDescription": "Os Canais são chats com um tema bem definido, e são inclusos em um Espaço. Os participantes do Espaço podem entrar no Canal para discutir ativamente sobre um tema. Os participantes podem abandonar o Canal sem sair do Espaço também.",
+            "mainDescription": "Os Canais são chats com um assunto bem definido, e são inclusos em um Espaço. Os participantes do Espaço podem entrar no Canal para discutir ativamente sobre um assunto. Os participantes podem abandonar o Canal sem sair do Espaço também.",
             "setImageAndTitleDescription": "Defina uma imagem para reconhecer melhor o Canal dentro do Espaço que o aloja. A imagem do Canal também pode ser definida ou alterada no painel informativo do Canal.",
             "titleInputRequirements": "140 caracteres permitidos. O título deve ser único dentro do Espaço",
             "topicInputExplanation": "Descreve o assunto do Canal",
-            "topicDescription": "Já que os Canais são chats orientados pelo tema discutido, recomenda-se um uma descrição o mais precisa possível."
+            "topicDescription": "Já que os Canais são chats orientados pelo assunto discutido, recomenda-se uma descrição o mais precisa possível."
         },
         "group": {
             "addParticipantsDescription": "Convide os participantes digitando seu nome ou endereço de e-mail. Você precisa convidar pelo menos dois participantes, caso contrário, você pode criar um Chat individual.",
             "groupWithoutNameAddParticipant": "Adicionar participantes ao seu grupo",
-            "inputTopicDescriptionLabel": "Descreve o tema do Grupo",
+            "inputTopicDescriptionLabel": "Descreve o assunto do Grupo",
             "setImageAndTopicDescription": "Defina uma imagem que ajudará os usuários a identificar o Grupo dentre aqueles na lista.",
             "mainDescription": "Os grupos precisam incluir mais de dois participantes. Nomeie o Grupo como preferido a fim de descrever seu assunto"
         },
@@ -184,8 +184,8 @@
         "selectOneOrMoreUsers": "Selecione um ou mais usuários",
         "space": {
             "spaceWithoutNameAddParticipant": "Adicionar participantes ao seu Espaço",
-            "topicDescription": "Já que os Espaços são chats conduzidos pelo tema discutido, recomenda-se uma descrição o mais precisa possível.",
-            "topicInputExplanation": "Descreve o tema do Espaço",
+            "topicDescription": "Já que os Espaços são chats conduzidos pelo assunto discutido, recomenda-se uma descrição o mais precisa possível.",
+            "topicInputExplanation": "Descreve o assunto do Espaço",
             "addMembersDescription": "Convide as pessoas digitando seu nome ou endereço de e-mail. Você precisa convidar pelo menos duas pessoas, caso contrário, você pode criar um Chat individual.",
             "mainDescription": "Os Espaços são ambientes genéricos de comunicação que incluem chats específicos chamados Canais, cada um com seu próprio tema. Para criar um Espaço você precisa convidar pelo menos dois participantes. Os Canais podem ser adicionados diretamente do painel informativo do Espaço.",
             "titleDescription": "O título identifica o Espaço e por isso deve descrever seu assunto."
@@ -331,7 +331,7 @@
                     "topic": {
                         "channel": "{{member_name}} mudou o assunto do Canal para {{topic}}",
                         "space": "{{member_name}} mudou o assunto do Espaço para {{topic}}",
-                        "group": "{{member_name}} alterou o nome do Grupo para {{topic}}"
+                        "group": "{{member_name}} alterou o assunto do Grupo para {{topic}}"
                     }
                 },
                 "created": {
