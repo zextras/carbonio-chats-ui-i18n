@@ -54,7 +54,7 @@
         "copyUserRoomLink": "Salin Tautan",
         "openInChats": "Buka di Chats",
         "planMeeting": "Rencanakan Rapat",
-        "resetLink": "Atur ulang tautan",
+        "resetLink": "Reset tautan",
         "start": "Mulai",
         "stop": "Hentikan",
         "saveToFiles": "Simpan ke File",
@@ -269,14 +269,14 @@
         "uploadConversationPicturesFailed": "Gagal mengunggah gambar percakapan",
         "appVersionCopied": "Versi aplikasi disalin",
         "offline": "Tampaknya ada masalah koneksi server",
-        "resetPersonalRoomLinkSuccess": "Tautan Ruang Pribadi diatur ulang",
+        "resetPersonalRoomLinkSuccess": "Tautan Ruang Pribadi direset",
         "roomLinkCopied": "Tautan ruang disalin",
         "tryAReconnectionIn": "Coba sambungkan ulang dalam {{seconds}}",
         "connecting": "Menghubungkan…",
         "linkCopied": "Tautan disalin",
         "saveAttachmentSuccessfull": "Lampiran disimpan di folder yang dipilih",
         "saveAttachmentError": "Tampaknya ada masalah saat menyimpan. Harap coba lagi.",
-        "resetPersonalVirtualRoomLinkSuccess": "Tautan Ruang Virtual Pribadi diatur ulang",
+        "resetPersonalVirtualRoomLinkSuccess": "Tautan Ruang Virtual Pribadi direset",
         "virtualRoomLinkCopied": "Tautan Ruang Virtual disalin"
     },
     "meeting": {
@@ -337,7 +337,7 @@
             "descriptionMyPersonalRoom": "Bagaimana Anda ingin masuk ke Ruang Pribadi?"
         },
         "defaultViewModeDefaultLabel": "Dengan memilih \"Mode Default\", Rapat akan dimulai di lingkungan internal saat ini.",
-        "resetMeetingUrlModalDescription": "Anda yakin ingin mengatur ulang tautan untuk \"{{conversationName}}\" terencana?",
+        "resetMeetingUrlModalDescription": "Anda yakin ingin mereset tautan untuk \"{{conversationName}}\" terencana?",
         "defaultViewModeDedicatedLabel": "\"Mode Khusus\" akan mengarahkan Anda ke tab terpisah di browser Anda untuk menikmati pengalaman Rapat yang terbaik.",
         "defaultViewModeSaveLabel": "Simpan Opsi",
         "defaultViewModeTitleModal": "Opsi lingkungan rapat",
@@ -552,14 +552,14 @@
             "personalRoomOptionsTitleModal": "Reset tautan Ruang Pribadi",
             "personalRoomResetButton": "Reset tautan Ruang Pribadi",
             "description": "Atur preferensi audio dan video untuk masuk ke rapat. Anda selalu dapat menyesuaikan preferensi sebelum masuk ke rapat apa pun.",
-            "personalRoomResetDescription": "Dengan mengatur ulang tautan Ruang Pribadi, semua akses yang diberikan tidak akan berfungsi lagi.",
+            "personalRoomResetDescription": "Dengan mereset tautan Ruang Pribadi, semua akses yang diberikan tidak akan berfungsi lagi.",
             "enableEchoCancellation": "Pengurang gema",
             "enableNoiseSuppression": "Peredam bising",
-            "personalVirtualRoomOptionsTitleModal": "Tautan Ruang Virtual Pribadi diatur ulang",
-            "personalVirtualRoomResetButton": "Atur ulang tautan Ruang Virtual Pribadi",
+            "personalVirtualRoomOptionsTitleModal": "Tautan Ruang Virtual Pribadi direset",
+            "personalVirtualRoomResetButton": "Reset tautan Ruang Virtual Pribadi",
             "virtualRooms": "Ruang Virtual",
             "voiceProcessing": "Pemrosesan Suara",
-            "personalVirtualRoomResetDescription": "Dengan mengatur ulang tautan Ruang Virtual Pribadi, semua akses yang telah diberikan tidak akan berfungsi lagi.",
+            "personalVirtualRoomResetDescription": "Dengan mereset tautan Ruang Virtual Pribadi, semua akses yang telah diberikan tidak akan berfungsi lagi.",
             "voiceProcessingDescription": "Anda akan mendengar suara di output default, sehingga bisa menguji kualitas input dan output yang dipilih untuk rapat",
             "descriptionVirtualRoom": "Atur preferensi audio dan video untuk masuk ke Ruang Virtual. Anda selalu dapat menyesuaikan preferensi sebelum masuk ke Ruang Virtual apa pun.",
             "descriptionRoom": "Atur preferensi audio dan video untuk masuk ke Ruang. Anda selalu dapat menyesuaikan preferensi sebelum masuk ke setiap Ruang."
@@ -577,7 +577,7 @@
         },
         "profile": {
             "errorGenericResponse": "Terjadi kesalahan. Harap coba lagi",
-            "reset": "Atur ulang",
+            "reset": "Reset",
             "restore": "Pulihkan",
             "statusOptionalDescription": "Opsional. Beri tahu orang lain apa yang Anda pikirkan. Panjang maks: 256 karakter",
             "title": "Profil",
@@ -593,7 +593,7 @@
         "notifications": {
             "description": "Atur preferensi Anda untuk tiap jenis notifikasi di Chats."
         },
-        "resetPersonalRoomLinkSuccess": "Tautan Ruang Pribadi diatur ulang",
+        "resetPersonalRoomLinkSuccess": "Tautan Ruang Pribadi direset",
         "recordingMeeting": {
             "destinationFolder": "Folder tujuan",
             "recording": "Rekaman",
