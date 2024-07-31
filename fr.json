@@ -626,7 +626,7 @@
         "login": {
             "externalLoginDescription": "Si vous appartenez déjà à ce domaine, vous allez être redirigé dans votre espace de travail habituel. Si vous êtes un utilisateur extérieur, vous allez être redirigé vers l'interface dédiée."
         },
-        "nobodyInTheRoom": "Il semble qu'il n'y ai personne dans cette salle",
+        "nobodyInTheRoom": "Il semble qu'il n'y ait personne dans cette salle",
         "roomIsEmpty": "Cette salle est vide",
         "unsupported": {
             "browser": "Ce navigateur web n'est pas supporté",
@@ -640,7 +640,7 @@
             "userLeftWaitingRoom": "Vous avez quitté la salle d'attente"
         },
         "youAreEnteringMeeting": "Vous êtes sur le point de rejoindre la salle",
-        "nobodyInTheVirtualRoom": "Il semblerai qu'il n'y ai personne dans cette Salle Virtuelle",
+        "nobodyInTheVirtualRoom": "Il semblerai qu'il n'y ait personne dans cette Salle Virtuelle",
         "virtualRoomIsEmpty": "Cette Salle Virtuelle est vide",
         "youAreEnteringVirtualRoom": "Vous êtes sur le point d'entrer dans la Salle Virtuelle",
         "playStoreLabel": "Google Play",
