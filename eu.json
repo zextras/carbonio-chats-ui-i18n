@@ -1,1 +1,6 @@
-{}
+{
+    "action": {
+        "reply": "Erantzun",
+        "forward": "Birbidali"
+    }
+}
