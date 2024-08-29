@@ -519,7 +519,7 @@
             "enableEchoCancellation": "Annulation de l'écho",
             "voiceProcessing": "Traitement de la voix",
             "voiceProcessingDescription": "Vous allez entendre votre voix dans la sortie audio par défaut, vous permettant de tester la qualité autant de votre entrée audio que de la sortie sélectionnée pour la réunion",
-            "descriptionRoom": "Définissez vos préférences audio et vidéo pour entrer dans la salle. Vous pourrez toujours modifier ces paramètre dans vos préférences avant d'entrer dans une salle."
+            "descriptionRoom": "Définissez vos préférences audio et vidéo pour entrer dans la salle. Vous pourrez toujours modifier ces paramètres dans vos préférences avant d'entrer dans une salle."
         },
         "notification": {
             "desktop": "Notifications de bureau",
