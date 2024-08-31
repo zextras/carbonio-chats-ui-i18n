@@ -1,6 +1,8 @@
 {
     "action": {
         "reply": "Erantzun",
-        "forward": "Birbidali"
+        "forward": "Birbidali",
+        "delete": "Ezabatu",
+        "edit": "Editatu"
     }
 }
