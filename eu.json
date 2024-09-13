@@ -3,6 +3,7 @@
         "reply": "Erantzun",
         "forward": "Birbidali",
         "delete": "Ezabatu",
-        "edit": "Editatu"
+        "edit": "Editatu",
+        "copy": "kopiatu"
     }
 }
