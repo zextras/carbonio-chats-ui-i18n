@@ -608,7 +608,8 @@
         "disabledCreateButton": "अपने इनपुट जाँच लें और जानें कि इनमें कोई त्रुटि नहीं हैं",
         "copyVirtualRoomLinkTooltip": "Virtual Room शेयर करने के लिए इस लिंक को कॉपी करें",
         "enterYourVirtualRoomTooltip": "अपने पर्सनल Virtual Room में जाएँ",
-        "copyUserVirtualRoomTooltip": "दूसरों को अपने पर्सनल Virtual Room में एक्सेस देने के लिए इस लिंक को कॉपी करके शेयर करें"
+        "copyUserVirtualRoomTooltip": "दूसरों को अपने पर्सनल Virtual Room में एक्सेस देने के लिए इस लिंक को कॉपी करके शेयर करें",
+        "chooseRoom": "वर्चुअल रूम चुनें"
     },
     "general": {
         "browserNotSupported": "आपके ब्राउज़र का यह वर्शन सपोर्टेड नहीं है। आप ब्राउज़र को अपडेट कर लें जिससे सभी फीचर्स का पूरा लाभ उठा सकें!",
@@ -643,7 +644,8 @@
         "doYouHaveTheAppTeam": "क्या आपके पास Zextras Chats एप पहले से है?",
         "downloadAppLabel": "मीटिंग जॉइन करने के लिए एप डाऊनलोड करें",
         "enter": "जॉइन करें!",
-        "playStoreLabel": "Google Play"
+        "playStoreLabel": "Google Play",
+        "doYouHaveTheApp": "क्या आपके पास पहले से ही चैट्स ऐप है?"
     },
     "label": {
         "app_name": "चैट"
@@ -680,5 +682,6 @@
         "attachLinkFromFiles": "फाइलों से लिंक अटैच करें",
         "attachLinkFiles": "फाइलों से पब्लिक लिंक अटैच करें"
     },
-    "room": "रूम"
+    "room": "वर्चुअल रूम",
+    "noRoomSelected": "कोई वर्चुअल रूम चयनित नहीं"
 }
