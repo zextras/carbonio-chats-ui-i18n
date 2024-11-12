@@ -163,7 +163,7 @@
                     "neutral": "Wybierz jednego lub więcej uczestników"
                 }
             },
-            "titleDescription": "Nadaj natyczmiastowemu spotkaniu wymowny tytuł, aby uczestnicy znali cel spotkania.",
+            "titleDescription": "Nadaj natychmiastowemu spotkaniu wymowny tytuł, aby uczestnicy znali cel spotkania.",
             "description": "Natychmiastowe spotkania to rozmowy wideo, które są zaprojektowane by być szybkie i krótkie. Po zakończeniu rozmowy, jej czat przestanie istnieć, jego zawartość zostanie trwale wymazana. Natychmiastowe spotkania mogą być tworzone tylko przez użytkowników Team Pro, ale mogą do nich dołączać wszyscy użytkownicy, nawet ci spoza Twojej domeny."
         },
         "limitOfParticipantReached": "Osiągnięto limit uczestników ustawiony przez administratora",
@@ -474,7 +474,7 @@
         "selectFolder": "Wybierz folder",
         "moderatorVirtualRoomDescription": "Będziesz moderował tym wirtualnym pokojem. Możesz dodać dodatkowych moderatorów, będą mieli te same uprawnienia co Ty.",
         "planVirtualRoomDescription": "Nadaj temu wirtualnemu pokojowi wymowną nazwę, aby uczestnicy wiedzieli czego będzie dotyczyć spotkanie.",
-        "planRoomDescription": "Nadaj temu pokojowi rozpoznawalną nazwę tak, by uczestnicy wiedzieli czego dotyczyć będzie spotkanie.",
+        "planRoomDescription": "Nadaj temu pokojowi wymowną nazwę tak, by uczestnicy wiedzieli czego dotyczyć będzie spotkanie.",
         "moderatorRoomDescription": "Będziesz moderował pokojem. Możesz dodać innych moderatorów, będa oni mieli takie same uprawnienia jak ty."
     },
     "notification": {
