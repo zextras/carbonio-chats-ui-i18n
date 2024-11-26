@@ -5,5 +5,15 @@
         "copy": "نسخ",
         "delete": "حذف",
         "edit": "تعديل"
+    },
+    "preview": {
+        "close": {
+            "tooltip": "إغلاق"
+        },
+        "actions": {
+            "tooltip": {
+                "download": "تنزيل"
+            }
+        }
     }
 }
