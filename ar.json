@@ -82,14 +82,14 @@
         "filterChatList": "تصفية قائمة الدردشات",
         "instantMeetings": "الاجتماعات الفورية",
         "meetingRooms": "غرف الاجتماعات",
-        "noActiveChats": "لا توجد محادثات نشطة في الوقت الحالي. قم بإنشاء محادثة جديدة أو غير تبويب المحادثات.",
+        "noActiveChats": "لا توجد دردشات نشطة في الوقت الحالي. قم بإنشاء دردشة جديدة أو غير تبويب الدردشات.",
         "mockDisplayDescription": "اختر محادثة لبدء الدردشة",
         "mockDisplayTitle": "لنبقى على تواصل!",
         "noActiveInstantMeetings": "لا توجد اجتماعات فورية نشطة في الوقت الحالي. قم بإنشاء تبويب اجتماع فوري أو بدل تبويب الاجتماعات.",
         "noActiveMeetings": "لا توجد غرف نشطة في الوقت الحالي",
         "noActiveSpaces": "لا توجد مساحات نشطة في الوقت الحالي. قم بإنشاء مساحة جديدة أو بدل التبويب المساحات.",
         "noActiveRooms": "لا توجد غرف نشطة في الوقت الحالي",
-        "noFilteredChats": "لا توجد محادثات تطابق هذه التصفية.",
+        "noFilteredChats": "لا توجد دردشات تطابق هذه التصفية.",
         "personalRoom": "غرفة شخصية",
         "personalVirtualRoom": "غرفة افتراضية شخصية",
         "rooms": "الغرف",
@@ -111,20 +111,20 @@
     "creation": {
         "attendeeAdded": "تمت إضافة الحضور إلى القائمة",
         "channel": {
-            "mainDescription": "القنوات عبارة عن محادثات موضوعية محددة جيدًا يتم تضمينها في مساحة. يمكن لمشاركي المساحة الانضمام إلى القناة لمناقشة موضوعها بنشاط. يمكن للمشاركين مغادرة القناة دون مغادرة المساحة أيضًا.",
+            "mainDescription": "القنوات عبارة عن دردشات موضوعية محددة جيدًا يتم تضمينها في مساحة. يمكن لمشاركي المساحة الانضمام إلى القناة لمناقشة موضوعها بنشاط. يمكن للمشاركين مغادرة القناة دون مغادرة المساحة أيضًا.",
             "titleInputRequirements": "المسموح به 140 حرفًا، ويجب أن يكون العنوان فريدًا داخل مساحة الاستضافة",
             "topicInputExplanation": "يصف موضوع القناة",
             "setImageAndTitleDescription": "قم بتعيين صورة للتعرف بشكل أفضل على القناة داخل مساحة الاستضافة. يمكن أيضًا تعيين صورة القناة أو تغييرها في لوحة معلومات القناة.",
-            "topicDescription": "نظرًا لأن القنوات عبارة عن محادثات تعتمد على الموضوع الذي تتم مناقشته، فمن المستحسن استخدام موضوع يصف الموضوع بشكل أفضل."
+            "topicDescription": "نظرًا لأن القنوات عبارة عن دردشات تعتمد على الموضوع الذي تتم مناقشته، فمن المستحسن استخدام موضوع يصف الموضوع بشكل أفضل."
         },
         "chat": {
-            "addParticipant": "اختر مشاركًا لبدء الدردشة معه",
-            "chatFilterDescription": "يمكنك إنشاء محادثة فقط من خلال النقر على المشارك الذي تريد التحدث معه",
+            "addParticipant": "اختر مُشاركًا لبدء الدردشة معه",
+            "chatFilterDescription": "يمكنك إنشاء دردشة فقط من خلال النقر على المشارك الذي تريد التحدث معه",
             "description": "الدردشات هي محادثات فردية تساعدك على البقاء على اتصال مع جهات الاتصال الخاصة بك."
         },
         "emailReplicated": "البريد الإلكتروني الذي تم إدخاله مضاف مسبقاً",
         "group": {
-            "addParticipantsDescription": "قم بدعوة المشاركين عن طريق كتابة أسمائهم أو عناوين بريدهم الإلكتروني. يجب عليك دعوة مشاركين آخرين على الأقل، وإلا يمكنك إنشاء محادثة.",
+            "addParticipantsDescription": "قم بدعوة المشاركين عن طريق كتابة أسمائهم أو عناوين بريدهم الإلكتروني. يجب عليك دعوة مشاركين آخرين على الأقل، وإلا يمكنك إنشاء دردشة.",
             "groupWithoutNameAddParticipant": "إضافة مشاركين إلى مجموعتك",
             "inputTopicDescriptionLabel": "يصف موضوع المجموعة",
             "setImageAndTopicDescription": "تعيين صورة تساعد المستخدمين على تحديد المجموعة من المجموعات الموجودة في القائمة.",
@@ -139,7 +139,7 @@
                     "negative": "البريد الإلكتروني الذي تم إدخاله غير صحيح ، يرجى إدخال عنوان بريد إلكتروني صحيح"
                 }
             },
-            "description": "الاجتماعات الفورية عبارة عن مكالمات فيديو مصممة لتكون سريعة ولحظية، ولن يتم الاحتفاظ بأي أثر للمحادثة وبمجرد انتهاء المكالمة، ستتوقف عن الوجود. يمكن إنشاء الاجتماعات الفورية بواسطة مستخدمي الفريق الاحترافي -Team Pro- ويمكن أيضًا للمستخدمين الخارجيين الانضمام إليها.",
+            "description": "الاجتماعات الفورية عبارة عن مكالمات فيديو مصممة لتكون سريعة ولحظية، ولن يتم الاحتفاظ بأي أثر للدردشة وبمجرد انتهاء المكالمة، ستتوقف عن الوجود. يمكن إنشاء الاجتماعات الفورية بواسطة مستخدمي الفريق الاحترافي -Team Pro- ويمكن أيضًا للمستخدمين الخارجيين الانضمام إليها.",
             "addAttendeesDescription": "قم بدعوة الحاضرين عن طريق كتابة أسمائهم أو عنوان بريدهم الإلكتروني هنا.",
             "titleDescription": "امنح عنوانا مميزا للاجتماع الفوري، حتى يعرف الحاضرون الغرض من هذه المكالمة."
         },
@@ -161,9 +161,9 @@
             "spaceWithoutNameAddParticipant": "إضافة مشاركين إلى مساحتك",
             "titleDescription": "العنوان يحدد ماهي المساحة وبالتالي يجب أن يصف موضوعها.",
             "topicInputExplanation": "يصف موضوع المساحة",
-            "addMembersDescription": "قم بدعوة الأشخاص عن طريق كتابة أسمائهم أو عناوين بريدهم الإلكتروني. يجب عليك دعوة شخصين آخرين على الأقل، وإلا فيمكنك إنشاء محادثة.",
-            "mainDescription": "المساحات عبارة عن بيئات اتصال عامة تتضمن محادثات محددة تسمى القنوات، ولكل منها موضوعها الخاص. لإنشاء مساحة، تحتاج إلى دعوة مشاركين اثنين على الأقل. يمكن إضافة القنوات مباشرة من لوحة معلومات المساحة.",
-            "topicDescription": "نظرا لأن المساحات عبارة عن محادثات مبنيةٌ على الموضوع الذي تمت مناقشته ، يوصى بعنوان يصف الموضوع بشكل أفضل."
+            "addMembersDescription": "قم بدعوة الأشخاص عن طريق كتابة أسمائهم أو عناوين بريدهم الإلكتروني. يجب عليك دعوة شخصين آخرين على الأقل، وإلا فيمكنك إنشاء دردشة.",
+            "mainDescription": "المساحات عبارة عن بيئات اتصال عامة تتضمن دردشات محددة تسمى القنوات، ولكل منها موضوعها الخاص. لإنشاء مساحة، تحتاج إلى دعوة مشاركين اثنين على الأقل. يمكن إضافة القنوات مباشرة من لوحة معلومات المساحة.",
+            "topicDescription": "نظرا لأن المساحات عبارة عن دردشات مبنيةٌ على الموضوع الذي تمت مناقشته ، يوصى بعنوان يصف الموضوع بشكل أفضل."
         },
         "startTypingToPick": "ابدأ بالكتابة لاختيار عنوان",
         "titleInputRequirements": "140 حرفا مسموحا به ، يجب أن يكون العنوان فريدا من نوعه",
@@ -226,7 +226,9 @@
         "notificationsActivatedForThisChat": "الإشعارات نُشطت لهذه الدردشة",
         "retryConnection": "إعادة محاولة الاتصال",
         "roomLinkCopied": "تم نسخ رابط الغرفة",
-        "linkCopied": "تم نسخ الرابط"
+        "linkCopied": "تم نسخ الرابط",
+        "uploadConversationPicturesFailed": "فشل تحميل صورة المحادثة",
+        "virtualRoomLinkCopied": "تم نسخ رابط الغرفة الافتراضية"
     },
     "message": {
         "service": {
@@ -236,7 +238,53 @@
                     "group": "لقد أنشأ {{member_name}} المجموعة",
                     "single": "لقد أنشأ {{member_name}} الدردشة",
                     "space": "لقد أنشأ {{member_name}} المساحة"
-                }
+                },
+                "changed": {
+                    "name": {
+                        "space": "{{member_name}} غير إسم المساحة لـ{{name}}",
+                        "channel": "{{member_name}} غير إسم القناة لـ{{name}}"
+                    },
+                    "picture": {
+                        "space": "{{member_name}} غير صورة المساحة",
+                        "channel": "{{member_name}} غير صورة القناة",
+                        "group": "{{member_name}} غير صورة المجموعة"
+                    },
+                    "topic": {
+                        "group": "{{member_name}} غير موضوع المجموعة في {{topic}}",
+                        "space": "{{member_name}} غير موضوع المساحة في {{topic}}",
+                        "channel": "{{member_name}} غير موضوع القناة في {{topic}}"
+                    }
+                },
+                "deleted": {
+                    "channel": "{{member_name}} حذف القناة",
+                    "space": "{{member_name}} حذف المساحة",
+                    "instantMeeting": "{{member_name}} حذف الاجتماع الفوري"
+                },
+                "join": {
+                    "channel": "انضم {{member_name}} إلى القناة",
+                    "conversation": "انضم {{member_name}} إلى الدردشة"
+                },
+                "kicked": {
+                    "chat": "{{member_name}} أُزيل من الدردشة من قبل {{kicked_by}}",
+                    "space": "{{member_name}} أُزيل من المساحة من قبل {{kicked_by}}",
+                    "channel": "{{member_name}} أُزيل من القناة من قبل {{kicked_by}}",
+                    "group": "{{member_name}} أُزيل من المجموعة من قبل {{kicked_by}}"
+                },
+                "left": {
+                    "group": "لقد غادر {{member_name}} المجموعة",
+                    "chat": "{{member_name}} غادر الدردشة",
+                    "channel": "لقد غادر {{member_name}} القناة",
+                    "space": "لقد غادر {{member_name}} المساحة"
+                },
+                "you": {
+                    "invited": "لقد قمت بدعوة {{member_name}}",
+                    "kicked": {
+                        "group": "لقد قمت بإزالة {{member_name}} من المجموعة",
+                        "channel": "لقد قمت بإزالة {{member_name}} من القناة",
+                        "space": "لقد قمت بإزالة {{member_name}} من المساحة"
+                    }
+                },
+                "invited": "{{member_name}} دُعي من قبل {{invited_by}}"
             },
             "conversationCreated": "تم إنشاء الدردشة",
             "you": {
@@ -244,15 +292,117 @@
                     "channel": "لقد قمت بإنشاء القناة",
                     "group": "لقد قمت بإنشاء المجموعة",
                     "single": "لقد قمت بإنشاء الدردشة",
-                    "space": "لقد قمت بإنشاء الفضاء"
-                }
-            }
-        }
+                    "space": "لقد قمت بإنشاء المساحة"
+                },
+                "changed": {
+                    "picture": {
+                        "channel": "لقد قمت بتغيير صورة القناة",
+                        "group": "لقد قمت بتغيير صورة المجموعة",
+                        "space": "لقد قمت بتغيير اسم المساحة"
+                    },
+                    "name": {
+                        "space": "لقد قمت بتغيير اسم المساحة في {{name}}",
+                        "channel": "لقد قمت بتغيير اسم القناة في {{name}}"
+                    },
+                    "topic": {
+                        "channel": "لقد قمت بتغيير موضوع القناة في {{topic}}",
+                        "group": "لقد قمت بتغيير موضوع المجموعة في {{topic}}",
+                        "space": "لقد قمت بتغيير موضوع المساحة في {{topic}}"
+                    }
+                },
+                "deleted": {
+                    "channel": "لقد قمت بحذف القناة",
+                    "instantMeeting": "لقد قمت بحذف الاجتماع الفوري",
+                    "space": "لقد قمت بحذف المساحة"
+                },
+                "join": {
+                    "group": "لقد انضممت إلى المجموعة",
+                    "instantMeeting": "لقد انضممت إلى الاجتماع الفوري",
+                    "space": "لقد انضممت إلى المساحة",
+                    "userRoom": "لقد انضممت إلى الغرفة",
+                    "channel": "لقد انضممت إلى القناة"
+                },
+                "kicked": {
+                    "channel": "لقد تم إزالتك من القناة بواسطة {{kicked_by}}",
+                    "group": "لقد تم إزالتك من المجموعة بواسطة {{kicked_by}}",
+                    "space": "لقد تم إزالتك من المساحة بواسطة {{kicked_by}}"
+                },
+                "left": {
+                    "group": "لقد غادرت المجموعة",
+                    "space": "لقد غادرت المساحة",
+                    "channel": "لقد غادرت القناة"
+                },
+                "invited": "لقد تمت دعوتك بواسطة {{invited_by}}"
+            },
+            "notificationsMutedForThisChat": "اﻹشعارات كُتمت لهذه الدردشة",
+            "notificationsActivatedForThisChat": "اﻹشعارات فُعلت لهذه الدردشة",
+            "meeting": {
+                "ended": "انتهى الاجتماع",
+                "endedAtTime": "انتهى الاجتماع في",
+                "startedAtTime": "بدأ الاجتماع في"
+            },
+            "newMeeting": "مكالمة واردة من:"
+        },
+        "deletedMessage": "الرسالة محذوفة",
+        "yesterday": "أمس",
+        "edited": "محررةٌ",
+        "forwarded": "معاد توجيهها",
+        "now": "الآن",
+        "readBy": "قُرأت من قبل"
     },
     "modal": {
         "instantMeeting": {
-            "create": "إنشاء اجتماع فوري جديد"
-        }
+            "create": "إنشاء اجتماع فوري جديد",
+            "closedInstantMeeting": "تم إغلاق الاجتماع الفوري",
+            "continue": "متابعة الاجتماع الفوري القديم",
+            "endCallByOwner": "لقد قرر مالك الاجتماع الفوري على إنهاء المكالمة، نأمل أن تكون قد استمتعت بتجربة الاجتماع الفوري",
+            "instantMeetingAlreadyRunningText": "إن إنشاء اجتماع جديد سيؤدي إلى استبدال الاجتماع القديم وسيفقد الحاضرون الاتصال، فماذا تريد أن تفعل؟",
+            "instantMeetingAlreadyRunningTitle": "اجتماع فوري قيد التشغيل"
+        },
+        "addModeratorDescription": "حدد مستخدمًا واحدًا أو أكثر لترقيتهم إلى مشرفين على هذه الغرفة",
+        "confirm": {
+            "areYouSure": "هل أنت متأكد؟",
+            "deleteRoom": "هل أنت متأكد من حذف الغرفة؟",
+            "leaveChannel": "هل أنت متأكد من مغادرة القناة؟",
+            "leaveGroup": "هل أنت متأكد من أنك تريد مغادرة المجموعة؟",
+            "leaveSpace": "هل أنت متأكد من مغادرة المساحة؟",
+            "deleteVirtualRoom": "هل أنت متأكد أنك تريد حذف الغرفة الافتراضية؟",
+            "leaveAndDeleteConversation": "هل أنت متأكد أنك تريد مغادرة وحذف {{conversationName}}؟",
+            "clearHistory": "سيتم مسح سجل الدردشة الخاص بك بشكل دائم. لن يتم حذف سجل الدردشة الخاص بالمشاركين الآخرين. هذا الإجراء لا رجعة فيه.",
+            "deleteChannel": "هل أنت متأكد من حذف هذه القناة؟",
+            "deleteSpace": "هل أنت متأكد من حذف هذه المساحة؟",
+            "removeMember": "هل أنت متأكد أنك تريد إزالة هذا العضو؟"
+        },
+        "deleteMessageDescription": "عند حذف رسالة، لن تكون مرئية لك ولجميع المستلمين الآخرين بعد الآن",
+        "forwardModal": {
+            "forwardedMessageFrom": "رسالة معاد توجيهها من",
+            "selectOneOrMoreConversations": "حدد محادثة واحدة أو أكثر",
+            "spaceAndChannels": "المساحة والقنوات",
+            "typeToFilterTheList": "اكتب لتصفية القائمة"
+        },
+        "moderatorCannotLeaveGroupDescription": "أنت المشرف الوحيد على {{conversationName}}، يرجى ترقية شخص آخر قبل مغادرة المجموعة.",
+        "moderatorCannotLeaveGroupTitle": "انتظر، هناك حاجة إلى مشرف جديد",
+        "moderatorMeetingDescription": "أنت من سيدير هذه الغرفة. يمكنك إضافة مشرفين إضافيين وسيكون لديهم نفس الصلاحيات التي لديك.",
+        "moderatorVirtualRoomDescription": "أنت من سيدير هذه الغرفة الافتراضية. يمكنك إضافة مشرفين إضافيين وسيكون لديهم نفس الصلاحيات التي لديك.",
+        "moderatorRoomDescription": "أنت من سيدير هذه الغرفة. يمكنك إضافة مشرفين إضافيين وسيكون لديهم نفس الصلاحيات التي لديك.",
+        "news": "الأخبار",
+        "notShowAgain": "لا تظهره مرة أخرى",
+        "planMeetingDescription": "يساعد اسم الغرفة الحضور على معرفة موضوع المناقشة في الغرفة.",
+        "planVirtualRoomDescription": "قم بإعطاء هذه الغرفة الافتراضية اسمًا يمكن التعرف عليه حتى يتمكن الحاضرون من معرفة ما يتوقعون الاجتماع بشأنه.",
+        "planRoomDescription": "قم بإعطاء هذه الغرفة اسمًا يمكن التعرف عليه حتى يتمكن الحاضرون من معرفة ما يتوقعون الاجتماع بشأنه.",
+        "selectFolder": "إختر مجلد",
+        "stopMeetingRec": {
+            "locationWhereToSaveRecording": "سيتم حفظ التسجيل في \"/{{folderName}}\".",
+            "recordingName": "اسم التسجيل",
+            "stopMeetingTitle": "إيقاف تسجيل الاجتماع",
+            "stopRecording": "سيتم إيقاف التسجيل. يمكنك بدء تسجيل جديد في أي وقت أثناء هذا الاجتماع.",
+            "stopRecordingTitle": "إيقاف التسجيل",
+            "stopRecordingDescription": "سوف تقوم بإيقاف التسجيل. يمكنك بدء تسجيل جديد في أي وقت."
+        },
+        "clearHistoryDescription": "هذه المحادثة فارغة الآن، وتم نقلها إلى أسفل قائمة المحادثات ﻹظهار المحادثات النشطة.",
+        "roomsFunctionalitiesChangelogDescription": "لقد أجرينا تغييرات مهمة على وظائف الاجتماعات. اقرأ مقدمة الغرف لمعرفة المزيد!",
+        "teamNews": "اخبار الفريق",
+        "userJoinedWaitingRoom": "يبدو أن هناك شخص في غرفة الانتظار"
     },
     "appVersion": "نسخة التطبيق",
     "attachments": {
@@ -278,7 +428,7 @@
         "info": "المعلومات",
         "instantInfo": "معلومات الاجتماع الفوري",
         "name": "الإسم",
-        "nameRoom": "غرفة {{conversationTitle}}",
+        "nameRoom": "{{conversationTitle}}غرفة {{conversationTitle}}",
         "nameVirtualRoom": "الغرفة الافتراضية لـ {{conversationTitle}}",
         "newMessages": "رسائل جديدة",
         "roomInfo": "معلومات الغرفة",
@@ -295,6 +445,164 @@
         "virtualRoomName": "اسم الغرفة الافتراضية"
     },
     "tooltip": {
-        "disabledCreateButton": "تحقق من مدخلاتك للتأكد من عدم وجود أخطاء"
-    }
+        "disabledCreateButton": "تحقق من مدخلاتك للتأكد من عدم وجود أخطاء",
+        "switchToConversation": "بدل للمحادثة",
+        "goToPrivateChat": "انتقل إلى الدردشة الخاصة",
+        "openMinichat": "إفتح الدردشة المصغرة"
+    },
+    "general": {
+        "teamProductName": "الفريق",
+        "browserNotSupported": "إصدار المتصفح الخاص بك غير مدعوم. يوصى بشدة بتحديث المتصفح للاستفادة من جميع الميزات!",
+        "goToTeam": "إنتقل للفريق"
+    },
+    "meeting": {
+        "attendeesComing": "المشاركون قادمون",
+        "blurMyBackground": "طَمِّس خلفيتي",
+        "defaultViewModeDedicatedLabel": "سيعمل \"الوضع المخصص\" على إعادة توجيهك إلى علامة تبويب منفصلة في متصفحك للاستمتاع بتجربة الاجتماع في أفضل حالاتها.",
+        "defaultViewModeDedicatedModeLabel": "الوضع المخصص",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "الوضع المخصص",
+        "genericErrorMeeting": "يبدو أن هناك مشكلة في هذا الاجتماع، اتصل بمسؤول النظام لديك.",
+        "interactions": {
+            "audioDisabled": "الصوت معطل",
+            "audioEnabled": "الصوت مُمَكنٌ",
+            "cameraDisabled": "الكاميرا معطلةٌ",
+            "cameraEnabled": "الكاميرا ممكنةٌ",
+            "cinemaView": "العرض السينمائي",
+            "closeCall": "إغلاق المكالمة",
+            "disableAudio": "تعطيل الصوت",
+            "disableVideo": "تعطيل الفيديو",
+            "enableAudio": "تمكين الصوت",
+            "enableFullScreen": "الشاشة الكاملة",
+            "enableScreenSharing": "تمكين مشاركة الشاشة",
+            "gridView": "العرض الشبكي",
+            "hangOff": "أغلق اﻹجتماع",
+            "micTesting": "ستسمع صوتك على المخرج الافتراضي، مما يسمح لك باختبار جودة مدخل الصوت بالإضافة إلى المخرج المحدد للاجتماع",
+            "muteUser": "كتم",
+            "muteUserForAllTitle": "كتم الصوت للجميع",
+            "mutedByModerators": "لقد تم كتم صوتك بواسطة أحد المشرفين، قم بإلغاء كتم صوتك لتتمكن من التحدث",
+            "mutedByOthers": "لقد تم كتم صوتك",
+            "pinVideo": "تثبيت الفيديو",
+            "playMic": "إبدأ اختبار الميكروفون",
+            "playMyVoice": "إستمع لصوتي",
+            "showChat": "عرض الدردشة",
+            "showParticipants": "عرض المشاركين",
+            "status": {
+                "cameraMicOff": "الكاميرا والميكروفون الخاصين بك معطلين",
+                "cameraOff": "الكاميرا الخاصة بك معطلة"
+            },
+            "stopMic": "إيقاف اختبار الميكروفون",
+            "muteUserForAllDescription": "من خلال كتم صوت المستخدم، لن يسمعه جميع المشاركين بعد الآن. فقط المستخدم الذي تم كتم صوته يمكنه إلغاء كتم صوته بنفسه. هل تريد المتابعة؟",
+            "disableFullScreen": "الخروج من الشاشة الكاملة",
+            "disableScreensharing": "تعطيل مشاركة الشاشة",
+            "enableVideo": "تمكين الفيديو",
+            "hideChat": "إخفاء الدردشة",
+            "hideParticipants": "إخفاء المشاركين",
+            "shortCutLabel": "(C)",
+            "stopMyVoice": "عطل صوتي",
+            "unpinVideo": "إلغاء تثبيت الفيديو"
+        },
+        "noEffect": "لا تأثيرات",
+        "resetMeetingUrlModalDescription": "هل أنت متأكد من إعادة تعيين الرابط للإجتماع \"{{conversationName}}\" المخطط له؟",
+        "setVirtualBackground": "تعيين الخلفية الافتراضية",
+        "startModal": {
+            "description": "كيف تريد الدخول إلى الاجتماع؟",
+            "descriptionMyPersonalRoom": "كيف تريد الدخول إلى غرفتك الشخصية؟",
+            "descriptionMyPersonalVirtualRoom": "كيف تريد الدخول إلى غرفتك الإفتراضية الشخصية؟",
+            "descriptionPersonalRoom": "كيف تريد الدخول إلى غرفة {{meeting Title}} الشخصية؟",
+            "descriptionPersonalVirtualRoom": "كيف تريد الدخول إلى الغرفة الافتراضية الشخصية {{meetingTitle}}؟",
+            "noVideoAndAudio": "الكاميرا معطلة والميكروفون مفعل",
+            "videoAndNoAudio": "الكاميرا مفعلة والميكروفون معطل",
+            "noVideoAndNoAudio": "الكاميرا معطلة والميكروفون معطل",
+            "videoAndAudio": "الكاميرا مفعلة والميكروفون مفعل",
+            "descriptionVirtualRoom": "كيف تريد الدخول إلى {{meetingTitle}}؟",
+            "enter": "إدخل"
+        },
+        "wereToFindRec": "سيتم حفظ التسجيل في مساحة الملفات الخاصة بالمشرف الذي أوقف التسجيل.",
+        "successSaveMeetingRecording": "ستجل {{registrationName}} في {{folderName}} بمجرد توفره",
+        "thisMeetingIsBeingRecorded": "هذا اﻹجتماع يتم تسجيله",
+        "wereToFindRecording": "سيتم حفظ التسجيل في خادم الفيديو الرئيسي، اتصل بمسؤول النظام لديك لمزيد من التفاصيل.",
+        "defaultViewModeDefaultLabelVirtualRoom": "عند تحديد \"الوضع الافتراضي\" ، ستبدأ الغرفة الافتراضية في البيئة الداخلية الحالية.",
+        "defaultViewModeDefaultModeLabel": "الوضع الافتراضي",
+        "defaultViewModeSaveLabel": "حفظ الخيار",
+        "defaultViewModeSecondaryDescriptionLabel": "سيتم حفظ هذا الخيار في إعداداتك ويمكن تحديثه في أي وقت تريده.",
+        "defaultViewModeTitleModal": "خيارات بيئة الاجتماعات",
+        "errorMeetingRecording": "لا يمكن البدء بالتسجيل، يرجى الاتصال بمسؤول النظام الخاص بك.",
+        "errorMeetingSavingRecording": "لا يمكن إيقاف التسجيل، يرجى المحاولة مرة أخرى",
+        "defaultViewModeDefaultLabel": "عند تحديد \"الوضع الافتراضي\"، سيبدأ الاجتماع في البيئة الداخلية الحالية.",
+        "defaultViewModeTitleModalVirtualRoom": "خيارات بيئة الغرف الافتراضية",
+        "defaultViewModeDedicatedLabelVirtualRoom": "سيعمل \"الوضع المخصص\" على إعادة توجيهك إلى علامة تبويب منفصلة في متصفحك للاستمتاع بتجربة الغرفة الافتراضية في أفضل حالاتها.",
+        "defaultViewModeDedicatedModeLabelVRoom": "الوضع المخصص",
+        "recordedByMe": "لقد بدأت التسجيل",
+        "recordedByOther": "بدأ {{username}} تسجيل الاجتماع",
+        "recording": "تسجيل"
+    },
+    "label": {
+        "app_name": "الدردشات"
+    },
+    "notification": {
+        "waiting": {
+            "descriptionWaitingLabel": "أنت تنتظر أن يتم قبولك من قبل مشرف {{conversationName}}",
+            "descriptionAcceptedLabel": "لقد تم قبولك من قبل المشرف لـ{{conversationName}}",
+            "notificationAcceptedByModerator": "لقد تم قبولك من قبل المشرف",
+            "notificationJoinTheRoom": "انضم إلى الغرفة للمشاركة في الاجتماع",
+            "notificationJoinTheVirtualRoom": "انضم إلى الغرفة الافتراضية للمشاركة في الاجتماع",
+            "userIsWaiting": "المستخدم الجديد ينتظر الدخول",
+            "userJoinedWaitingRoom": "يبدو أن هناك شخص ما في غرفة الانتظار"
+        },
+        "startMeetingRecording": "لقد بدأ تسجيل اجتماع {{conversationName}}",
+        "dismiss": "أبعد",
+        "answer": "أجب",
+        "incomingCall": "مكالمة واردة من:",
+        "invitationToPersonalRoom": "دعوة إلى الغرفة الشخصية من:",
+        "invitationToPersonalVirtualRoom": "دعوة إلى الغرفة الافتراضية الشخصية من:",
+        "meeting": {
+            "ended": "انتهى الاجتماع"
+        }
+    },
+    "organizeYourMeeting": "قم بتنظيم اجتماعاتك الخاصة أو انضم إلى غرف زملائك",
+    "organizeYourVirtualMeeting": "قم بتنظيم اجتماعاتك الخاصة أو انضم إلى الغرف الافتراضية لزملائك",
+    "people": {
+        "manyMembers": "{{membersCount}} عضوًا",
+        "me": "أنا",
+        "oneParticipant": "مشارك واحد",
+        "otherParticipants": "{{numberParticipants}} مشاركين آخرين",
+        "participants": "المشاركون",
+        "whoYoureLookinkFor": "تبحث عن من؟",
+        "you": "أنت"
+    },
+    "room": "الغرفة الافتراضية",
+    "settings": {
+        "meeting": {
+            "enableEchoCancellation": "إلغاء الصدى",
+            "enableMicrophone": "مكن الميكروفون",
+            "enableCamera": "مَكِن الكاميرا",
+            "enableNoiseSuppression": "قمع الضوضاء",
+            "description": "اضبط إعدادات الصوت والفيديو الخاصة بك للدخول إلى الاجتماعات. يمكنك دائمًا تخصيص إعداداتك قبل الدخول إلى أي اجتماع.",
+            "descriptionRoom": "اضبط إعدادات الصوت والفيديو للدخول إلى الغرفة. يمكنك دائمًا تخصيص إعداداتك قبل الدخول إلى كل غرفة.",
+            "descriptionVirtualRoom": "اضبط إعدادات الصوت والفيديو للدخول إلى الغرفة الافتراضية. يمكنك دائمًا تخصيص إعداداتك قبل الدخول إلى كل غرفة افتراضية.",
+            "meetings": "الاجتماعات",
+            "personalRoomOptionsTitleModal": "إعادة تعيين رابط الغرفة الشخصية",
+            "personalRoomResetButton": "رابط إعادة تعيين الغرفة الشخصية"
+        },
+        "modal": {
+            "title": "إعدادات الدردشات",
+            "description": "هنا يمكنك تعيين إعدادات جميع الدردشات المخصصة للاستمتاع بتجربة دردشة مخصصة كاملة!"
+        },
+        "notification": {
+            "title": {
+                "openMinichatForSingle": "افتح عندما تصل رسالة واحدة جديدة",
+                "openMinichatForSpace": "افتح عندما تصل رسالة مساحة جديدة",
+                "openMinichat": "افتح عندما تصل رسالة جديدة",
+                "openMinichatForGroup": "افتح عندما تصل رسالة جماعية جديدة"
+            },
+            "openMinichatDescription": "قم بإعداد طريقة فتح الدردشات الصغيرة الخاصة بك"
+        },
+        "notifications": {
+            "description": "قم بتعيين الإعدادات لكل نوع من الإشعارات في الدردشات."
+        }
+    },
+    "organizeYourVMeeting": "قم بتنظيم اجتماعاتك الخاصة أو انضم إلى الغرف الافتراضية لزملائك",
+    "noRoomSelected": "لم يتم تحديد غرفة افتراضية",
+    "personalRoomLabel": "الغرفة الشخصية لـ {{userName}}",
+    "personalVirtualRoomLabel": "الغرفة الافتراضية الشخصية لـ {{userName}}"
 }
