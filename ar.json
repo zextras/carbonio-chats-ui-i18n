@@ -582,7 +582,14 @@
             "descriptionVirtualRoom": "اضبط إعدادات الصوت والفيديو للدخول إلى الغرفة الافتراضية. يمكنك دائمًا تخصيص إعداداتك قبل الدخول إلى كل غرفة افتراضية.",
             "meetings": "الاجتماعات",
             "personalRoomOptionsTitleModal": "إعادة تعيين رابط الغرفة الشخصية",
-            "personalRoomResetButton": "رابط إعادة تعيين الغرفة الشخصية"
+            "personalRoomResetButton": "رابط إعادة تعيين الغرفة الشخصية",
+            "personalRoomResetDescription": "عند إعادة تعيين رابط الغرفة الشخصية ، لن تعمل جميع روابط الوصول التي تم تقديمها سابقاً.",
+            "personalVirtualRoomResetDescription": "عند تعيين رابط الغرفة الافتراضية الشخصية ، لن تعمل جميع روابط الوصول التي تم تقديمها سابقا.",
+            "virtualRooms": "الغرف الافتراضية",
+            "voiceProcessing": "معالجة الصوت",
+            "voiceProcessingDescription": "‮ستسمع صوتك من المخرج الافتراضي ، مما يسمح لنفسك باختبار جودة مدخلاتك بالإضافة إلى المخرجات المحددة للاجتماع",
+            "personalVirtualRoomOptionsTitleModal": "إعادة تعيين رابط الغرفة الافتراضية الشخصية",
+            "personalVirtualRoomResetButton": "إعادة تعيين رابط الغرفة الافتراضية الشخصية"
         },
         "modal": {
             "title": "إعدادات الدردشات",
@@ -593,12 +600,28 @@
                 "openMinichatForSingle": "افتح عندما تصل رسالة واحدة جديدة",
                 "openMinichatForSpace": "افتح عندما تصل رسالة مساحة جديدة",
                 "openMinichat": "افتح عندما تصل رسالة جديدة",
-                "openMinichatForGroup": "افتح عندما تصل رسالة جماعية جديدة"
+                "openMinichatForGroup": "افتح عندما تصل رسالة جماعية جديدة",
+                "notifications": "اﻹشعارات"
             },
-            "openMinichatDescription": "قم بإعداد طريقة فتح الدردشات الصغيرة الخاصة بك"
+            "openMinichatDescription": "قم بإعداد طريقة فتح الدردشات الصغيرة الخاصة بك",
+            "desktop": "إشعارات سطح المكتب"
         },
         "notifications": {
             "description": "قم بتعيين الإعدادات لكل نوع من الإشعارات في الدردشات."
+        },
+        "profile": {
+            "chooseAProfilePic": "اختر الصورة التعريفية ، سيتم توسيط الصورة تلقائيا.",
+            "errorGenericResponse": "حدث خطأ ما. يرجى إعادة المحاولة",
+            "maximumDimension": "البعد الأعلى: 256 كيلو بايت.",
+            "reset": "اعاده التعيين",
+            "restore": "استعاده",
+            "statusOptionalDescription": "اختياري. دع الآخرين يعرفون ما الذي تفكر فيه. أقصى طول: 256 حرفا",
+            "title": "ملف التعريف",
+            "update": "تحديث"
+        },
+        "recordingMeeting": {
+            "descriptionWhereToSaveRegistration": "قم بتعيين مجلد حفظ تسجيلات الاجتماعات.",
+            "destinationFolder": "مجلد الوجهة"
         }
     },
     "organizeYourVMeeting": "قم بتنظيم اجتماعاتك الخاصة أو انضم إلى الغرف الافتراضية لزملائك",
