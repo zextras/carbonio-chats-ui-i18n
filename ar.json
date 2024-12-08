@@ -448,7 +448,44 @@
         "disabledCreateButton": "تحقق من مدخلاتك للتأكد من عدم وجود أخطاء",
         "switchToConversation": "بدل للمحادثة",
         "goToPrivateChat": "انتقل إلى الدردشة الخاصة",
-        "openMinichat": "إفتح الدردشة المصغرة"
+        "openMinichat": "إفتح الدردشة المصغرة",
+        "copyRoomLinkTooltip": "انسخ هذا الرابط لمشاركة الغرفة",
+        "copyRoomLink": "نسخ هذا الرابط لمشاركة الغرفة",
+        "copyUserRoomTooltip": "انسخ هذا الرابط وشاركه لتزويد الآخرين بإمكانية الوصول إلى غرفتك الشخصية",
+        "copyUserRoom": "نسخ رابط غرفتك الشخصية",
+        "copyUserVirtualRoomTooltip": "انسخ هذا الرابط وشاركه لتزويد الآخرين بإمكانية الوصول إلى غرفتك الافتراضية الشخصية",
+        "copyVirtualRoomLinkTooltip": "انسخ هذا الرابط لمشاركة الغرفة الافتراضية",
+        "editDescription": "تعديل الوصف",
+        "editInfo": "تعديل المعلومات",
+        "enterYourVirtualRoomTooltip": "أدخل غرفتك الافتراضية الشخصية",
+        "errorUploadingAvatarPicture": "حدث خطأ أثناء تحميل الصورة الرمزية الجديدة. يرجى إعادة المحاولة",
+        "planMeeting": "التخطيط لاجتماع",
+        "promoteModerator": "الترقية إلى مشرف",
+        "removeMember": "إزالة العضو",
+        "sendMessage": "أرسل رسالة",
+        "switchToInfoPanel": "التبديل إلى لوحة المعلومات",
+        "cancelFilter": "إلغاء التصفية",
+        "chooseFile": "اختر ملف",
+        "close": "أغلق",
+        "addFile": "أضف ملف",
+        "rejectQueuedMember": "رفض المستخدم",
+        "acceptQueuedMember": "السماح للمستخدم بالدخول",
+        "chooseRoom": "اختر غرفة افتراضية",
+        "closeSearch": "أغلق البحث",
+        "collapseChannel": "طي القنوات",
+        "downgradeModerator": "تخفيض مستوى المشرف",
+        "enterMeetingRoom": "ادخل إلى غرفة الاجتماعات",
+        "enterYourRoom": "أدخل غرفتك الشخصية",
+        "enterYourRoomTooltip": "أدخل غرفتك الشخصية",
+        "errorRemovingAvatarPicture": "حدث خطأ أثناء إزالة الصورة الرمزية. يرجى إعادة المحاولة",
+        "errorUpdatingAvatarStatus": "حدث خطأ أثناء حالة الإعدادات. يرجى إعادة المحاولة",
+        "inviteToPersonalRoom": "دعوة إلى غرفتك الشخصية",
+        "messageComposer": "مؤلف الرسالة",
+        "removeFile": "إزالة الملف",
+        "searchForParticipant": "البحث عن المشارك",
+        "selectEmoji": "إختر الرمز التعبيري -إيموجي-",
+        "sendFile": "أرسل الملف",
+        "showChannels": "أظهر القنوات"
     },
     "general": {
         "teamProductName": "الفريق",
@@ -621,11 +658,29 @@
         },
         "recordingMeeting": {
             "descriptionWhereToSaveRegistration": "قم بتعيين مجلد حفظ تسجيلات الاجتماعات.",
-            "destinationFolder": "مجلد الوجهة"
-        }
+            "destinationFolder": "مجلد الوجهة",
+            "recording": "التسجيلات"
+        },
+        "resetPersonalRoomLinkSuccess": "تم إعادة تعيين رابط الغرفة الشخصية",
+        "title": "إعدادات"
     },
     "organizeYourVMeeting": "قم بتنظيم اجتماعاتك الخاصة أو انضم إلى الغرف الافتراضية لزملائك",
     "noRoomSelected": "لم يتم تحديد غرفة افتراضية",
     "personalRoomLabel": "الغرفة الشخصية لـ {{userName}}",
-    "personalVirtualRoomLabel": "الغرفة الافتراضية الشخصية لـ {{userName}}"
+    "personalVirtualRoomLabel": "الغرفة الافتراضية الشخصية لـ {{userName}}",
+    "status": {
+        "areWriting": "يكتب…",
+        "offline": "غير متصل",
+        "externalGuest": "ضيف خارجي",
+        "internalGuest": "ضيف داخلي",
+        "isWriting": "يكتب…",
+        "lastSeen": "آخر ظهور {{lastSeen}}",
+        "online": "متصل",
+        "userStatus": "الحالة",
+        "waitingToEnter": "في انتظار الدخول"
+    },
+    "tryLater": "حاول لاحقا",
+    "typeYourEmail": "اكتب بريدك الإلكتروني",
+    "virtualRoom": "الغرفة الافتراضية",
+    "thanksForParticipating": "شكرا على المشاركة"
 }
