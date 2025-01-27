@@ -1,7 +1,7 @@
 {
     "action": {
         "add": "Dodaj",
-        "addChannel": "Dodaj kanal",
+        "addChannel": "Dodaj Kanal",
         "addMembers": "Dodaj članove",
         "addModerator": "Dodaj moderatora",
         "addNewMembers": "Dodajte nove članove",
@@ -27,7 +27,7 @@
         "edit": "Uredi",
         "expand": "Proširi",
         "join": "Pridruži se",
-        "joinChannel": "Pridruži se Kanalu kako biste slali poruke i primali obavijesti",
+        "joinChannel": "Pridruži se Kanalu kako bi slali poruke i primali obavijesti",
         "joinChannelAction": "Pridružite se Kanalu",
         "joinRoom": "Pridruži se Sobi",
         "joinVirtualRoom": "Pridružiti se Virtualnoj Sobi",
@@ -47,12 +47,28 @@
         "editYourMessage": "Uredite vašu Poruku",
         "addModerators": "Dodaj moderatore",
         "activateNotifications": "Aktivirajte obavijesti",
-        "scrollToNewMessage": "Pomakni se do nove poruke",
-        "leaveAndDelete": "Izađi i izbriši"
+        "scrollToNewMessage": "Pomjeri se na novu poruku",
+        "leaveAndDelete": "Izađi i izbriši",
+        "collapse": "Sažmi",
+        "createInstantMeeting": "Kreiraj Instant Sastanak",
+        "deleteSpace": "Obriši Prostor",
+        "goToGuide": "Idite na vodič",
+        "leaveSpace": "Napusti Prostor",
+        "openInChats": "Otvori u Razgovorima",
+        "openInTeam": "Otvori u Timu",
+        "plan": "Plan",
+        "replyToSomeone": "Odgovori na",
+        "replyToYourself": "Odgovori sebi",
+        "resetLink": "Reset linka",
+        "scrollToTheBottom": "Pomjeri se na kraj",
+        "waitingModeratorToJoin": "Sačekajte da vas moderator prihvati"
     },
     "attachments": {
         "share": "Podijeli javni link",
-        "shareLink": "Podijeli link"
+        "shareLink": "Podijeli link",
+        "addFromLocal": "Dodajte iz lokalnog",
+        "attachLinkFiles": "Dodajte javni link iz datoteka",
+        "attachLinkFromFiles": "Dodaj link iz datoteka"
     },
     "button": {
         "cancel": "Odustani",
@@ -69,77 +85,89 @@
         "info": "Informacije",
         "name": "Ime",
         "roomInfo": "Informacije o Sobi",
-        "roomLink": "Link sobe",
+        "roomLink": "Link Sobe",
         "roomName": "Naziv Sobe",
         "speakersCorner": "Korisnici u Sobi za sastanke",
         "title": "Naslov",
         "topic": "Tema",
         "virtualRoomInfo": "Informacije o Virtualnoj Sobi",
-        "virtualRoomLink": "Link Virtualne sobe",
-        "virtualRoomLinkDescription": "Kopirajte i podijelite vezu kako biste drugima omogućili pristup Virtualnoj Sobi.",
+        "virtualRoomLink": "Link Virtualne Sobe",
+        "virtualRoomLinkDescription": "Kopirajte i podijelite link kako biste drugima omogućili pristup Virtualnoj Sobi.",
         "virtualRoomName": "Naziv Virtualne sobe",
         "newMessages": "Nova Poruka",
-        "roomLinkDescription": "Kopirajte ovu vezu i podijelite je kako biste drugima omogućili pristup ovoj sobi."
+        "roomLinkDescription": "Kopirajte link i podijelite ga kako biste drugima omogućili pristup ovoj Sobi.",
+        "contactInfo": "Informacije o kontaktu",
+        "instantInfo": "Informacije o Instant Sastanku",
+        "nameRoom": "Soba {{conversationTitle}}",
+        "nameVirtualRoom": "Virtualna Soba {{conversationTitle}}",
+        "spaceInfo": "Informacije o Prostoru"
     },
     "conversations": {
         "activeRooms": "Aktivne sobe",
         "activeVirtualRooms": "Aktivne Virtualne Sobe",
         "chats": "Razgovori",
-        "conversations": "Razgovori",
+        "conversations": "Konverzacije",
         "filterChatList": "Filtriraj listu razgovora",
         "mockDisplayDescription": "Odaberite konverzaciju da započnete razgovor",
         "mockDisplayTitle": "Ostanimo u kontaktu!",
-        "noActiveInstantMeetings": "Nema trenutno aktivnih sastanaka. Kreirajte novi sastanak ili promijenite izbornik.",
+        "noActiveInstantMeetings": "Trenutno nema aktivnih Instant Sastanaka. Kreirajte novi Instant Sastanak ili promijenite izbornik.",
         "noActiveMeetings": "Trenutno nema aktivnih Soba",
-        "noActiveVirtualRooms": "Trenutno nema aktivnih Virtualnih soba",
-        "noFilteredInstantMeetings": "Nema Sastanaka koji odgovara zadanom filteru.",
-        "noFilteredChats": "Nema razgovora koji odgovara zadanom filteru.",
+        "noActiveVirtualRooms": "Trenutno nema aktivnih Virtualnih Soba",
+        "noFilteredInstantMeetings": "Nema Instant Sastanaka koji odgovara zadanom filteru.",
+        "noFilteredChats": "Nema Razgovora koji odgovara zadanom filteru.",
         "noFilteredMeetings": "Nema Soba niti planiranih Sastanaka koji odgovaraju ovom filteru",
         "noFilteredSpaces": "Nema Prostora koji odgovaraju ovom filteru.",
         "noFilteredVirtualRooms": "Nema Virtualnih Soba ni planiranih Sastanaka koji odgovaraju ovom filteru",
         "personalRoom": "Lična soba",
-        "personalVirtualRoom": "Lična Virtualna soba",
+        "personalVirtualRoom": "Lična Virtualna Soba",
         "rooms": "Sobe",
         "scheduledMeetings": "Planirani Sastanci",
         "virtualRooms": "Virtualne Sobe",
         "yourRoom": "Vaša Soba",
         "noFilteredRooms": "Nema Soba niti planiranih Sastanaka koji odgovaraju ovom filteru",
-        "meetingRooms": "Sobe za sastanke",
+        "meetingRooms": "Sobe za Sastanke",
         "noActiveChats": "Trenutno nema aktivnih razgovora. Kreirajte novi razgovor ili se prebacite na drugi izbornik.",
         "noActiveRooms": "Trenutno nema aktivnih Soba",
-        "noActiveSpaces": "Trenutno nema aktivnih Prostora. Kreirajte novi Prostor ili promijenite izbornik."
+        "noActiveSpaces": "Trenutno nema aktivnih Prostora. Kreirajte novi Prostor ili promijenite izbornik.",
+        "activeMeetingRooms": "Aktivna Sobe za sastanke",
+        "instantMeetings": "Instant Sastanak",
+        "spaceGeneralChannel": "Općenito",
+        "spaces": "Prostor",
+        "waitingRoom": "Soba za čekanje"
     },
     "creation": {
         "channel": {
             "topicDescription": "Diskusije na Kanalima su tematski vođene pa je preporučljivo odabrati naslov koji što detaljnije opisuje temu",
-            "topicInputExplanation": "Opisuje temu Kanala",
-            "setImageAndTitleDescription": "Za bolje prepoznavanje Kanala unutar Prostora dodijelite mu sliku. Slika kanala se dodatno može postaviti ili promijeniti na info panelu Kanala."
+            "topicInputExplanation": "Opisuje naziv Kanala",
+            "setImageAndTitleDescription": "Za bolje prepoznavanje Kanala unutar Prostora dodijelite mu sliku. Slika Kanala se dodatno može postaviti ili promijeniti na info panelu Kanala.",
+            "mainDescription": "Kanali uključeni u Prostor su definirani Temama. Učesnici Prostora se mogu priključiti Kanalu kako bi aktivno raspravljali o određenoj temi. Učesnici mogu napustiti Kanal bez napuštanja Prostora.",
+            "titleInputRequirements": "Dopušteno je do 140 znakova, naslov mora biti jedinstven u Prostoru"
         },
         "chat": {
             "addParticipant": "Odaberite učesnika za početak konverzacije",
-            "chatFilterDescription": "Razgovor možete kreiratiti tako što ćete kliknuti na sudionika s kojim želite razgovarati",
+            "chatFilterDescription": "Razgovor možete kreiratiti tako što ćete kliknuti na učesnika sa kojim želite razgovarati",
             "description": "Direktna konverzacija (jedan-na-jedan) vam pomažu da ostanete u vezi sa vašim kontaktima."
         },
         "emailReplicated": "Unesena e-mail adresa već je dodana",
         "group": {
-            "groupWithoutNameAddParticipant": "Dodaj učesnike u vašu Grupu",
+            "groupWithoutNameAddParticipant": "Dodaj učesnike u  Grupu",
             "inputTopicDescriptionLabel": "Opisuje naziv Grupe",
             "mainDescription": "Grupe moraju sadržavati više od dva učesnika. Imenujte Grupu na način da što bolje opisuje temu",
-            "setImageAndTopicDescription": "Postavite sliku koja će pomoći korisnicima da prepozna Grupu unutar liste .",
+            "setImageAndTopicDescription": "Postavite sliku koja će pomoći korisnicima da prepoznaju Grupu unutar liste .",
             "addParticipantsDescription": "Pozovite učesnike tako što ćete upisati njihova imena ili e-adrese. Potrebno je pozvati barem još dva učesnika, u suprotnom možete kreirati Razgovor."
         },
         "instantMeeting": {
-            "addAttendees": "Dodajte učesnike u Sastanak",
+            "addAttendees": "Dodajte učesnike u Instant Sastanak",
             "addAttendeesInputExplanation": "Vanjske učesnike možete pozvati tako što ćete upisati njihovu e-mail adresu.",
             "attendee": {
                 "feedback": {
-                    "negative": "Uneseni e-mail nije važeći, molim vas unesite validnu adresu",
+                    "negative": "Uneseni e-mail nije važeći, molim vas unesite validnu e-mail adresu",
                     "neutral": "Odaberite jednog ili više učesnika"
                 }
             },
             "titleDescription": "Dajte prepoznatljiv naziv Instant Sastanku, tako da učesnici znaju svrhu ovog poziva.",
-            "addAttendeesDescription": "Pozovite učesnike tako što ćete upisati njihovo ime ili adresu e-pošte ovdje.",
-            "description": "Instant Sastanci su video pozivi koji su dizajnirani da budu brzi i kratkotrajni i kada se završi, nestaje svaki trag o njemu. Mogu biti kreirani od strane korisnika Team Pro, a mogu im se pridružiti i vanjski sudionici."
+            "addAttendeesDescription": "Pozovite učesnike tako što ćete ovdje upisati njihovo ime ili adresu e-pošte.",
+            "description": "Instant Sastanci su video pozivi dizajnirani da budu brzi i kratkotrajni i kada se završe, nestaje svaki trag o njima. Mogu biti kreirani od strane korisnika Tim Pro, a mogu im se pridružiti i vanjski sudionici."
         },
         "limitOfParticipantReached": "Dostignuto je ograničenje broja učesnika koje je postavio administrator",
         "nameMax140Characters": "Maksimalno 140 znakova",
@@ -154,12 +182,20 @@
         "selectMoreParticipantsForInstantMeetings": "Odaberite učesnika iz liste ili upišite adresu za dodavanje vanjskog korisnika",
         "selectOneOrMoreUsers": "Odaberite jednog ili više korisnika",
         "space": {
-            "spaceWithoutNameAddParticipant": "Dodajte učesnike u vaš Prostor",
+            "spaceWithoutNameAddParticipant": "Dodajte učesnike u Prostor",
             "topicDescription": "Budući da se u Prostoru vode tematski usmjerene diskusije preporučljivo je odabrati naslov koji najbolje opisuje temu",
             "mainDescription": "Prostori su okruženja koja uključuju specifične razgovore tkz Kanale, svaki sa svojom temom. Da bi kreirali Prostor potrebno je pozvati najmanje dva učesnika. Kanali se mogu dodati direktno sa info panela Prostora.",
-            "addMembersDescription": "Pozovite osobe tako što ćete upisati njihova imena ili e-adrese. Potrebno je pozvati barem dvije druge osobe, u suprotnom možete kreirati Razgovor."
+            "addMembersDescription": "Pozovite osobe tako što ćete upisati njihova imena ili e-mail adrese. Potrebno je pozvati barem dvije druge osobe, u suprotnom možete kreirati Razgovor.",
+            "titleDescription": "Naslov identificira Prostor i treba opisivati njegovu temu.",
+            "topicInputExplanation": "Opisuje naziv Prostora"
         },
-        "nameRequired-max140Characters-avoidReusingNames": "Dozvoljeno Max. 140 znakova, izbjegavajte ponavljanje imena."
+        "nameRequired-max140Characters-avoidReusingNames": "Dozvoljeno Max. 140 znakova, izbjegavajte ponavljanje imena.",
+        "attendeeAdded": "Učesnik je dodan na listu",
+        "requiresTwoOthers": "Potrebna još najmanje dva",
+        "startTypingToPick": "Počnite unositi da bi odabrali adresu",
+        "titleInputRequirements": "Dozvoljeno do 140 znakova, naslov mora biti jedinstven",
+        "topicMax255Characters": "Maksimalno 255 znakova",
+        "topicNeeds2Letters": "Tema je opcionalna. Min. 2 karaktera"
     },
     "external": {
         "youAreEnteringMeeting": "Ući ćete u Sobu",
@@ -276,9 +312,251 @@
                     "channel": "{{member_name}} je kreirao Kanal",
                     "group": "{{member_name}} je kreirao Grupu",
                     "single": "{{member_name}} je kreirao Poruku"
+                },
+                "kicked": {
+                    "group": "{{member_name}} je uklonjen iz Grupe od strane {{kicked_by}}",
+                    "space": "{{member_name}} je uklonjen iz Prostora od strane {{kicked_by}}",
+                    "chat": "{{member_name}} je uklonjen iz Razgovora od {{kicked_by}}"
+                },
+                "left": {
+                    "channel": "{{member_name}} je napustio Kanal",
+                    "chat": "{{member_name}} je napustio Razgovor.",
+                    "group": "{{member_name}} je napustio Grupu",
+                    "space": "{{member_name}} je napustio Prostor"
+                },
+                "you": {
+                    "kicked": {
+                        "channel": "{{member_name}} je uklonjen s Kanala",
+                        "group": "{{member_name}} je uklonjen iz Grupe",
+                        "space": "{{member_name}} je uklonjen iz Prostora"
+                    }
                 }
+            },
+            "newMeeting": "Dolazni poziv od:",
+            "notificationsActivatedForThisChat": "Aktivirana Obavještenja za ovaj razgovor",
+            "you": {
+                "changed": {
+                    "name": {
+                        "channel": "Ime Kanala je promijenjeno u {{name}}",
+                        "space": "Promijenili ste naziv Prostora u {{name}}"
+                    },
+                    "picture": {
+                        "channel": "Promijenili ste sliku Kanala",
+                        "group": "Promijenili ste sliku Grupe",
+                        "space": "Promijenili ste naziv Prostora"
+                    },
+                    "topic": {
+                        "group": "Promijenili ste Temu Grupe u {{topic}}",
+                        "space": "Promijenili ste Temu Prostora u {{topic}}",
+                        "channel": "Promijenili ste Temu Kanala u {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "Kreirali ste Kanal",
+                    "group": "Kreirali ste Grupu",
+                    "single": "Kreirali ste Razgovor",
+                    "space": "Kreirali ste Prostor"
+                },
+                "deleted": {
+                    "channel": "Izbrisali ste Kanal",
+                    "instantMeeting": "Vaš Trenutni Sastanak je obrisan",
+                    "space": "Prostor je obrisan"
+                },
+                "join": {
+                    "instantMeeting": "Pridružili ste se Trenutnom Sastanku",
+                    "space": "Pridružili ste se Prostoru",
+                    "group": "Pridružili ste se Grupi",
+                    "channel": "Pridružili ste se Kanalu"
+                },
+                "kicked": {
+                    "channel": "Uklonjeni ste sa Kanala od strane {{kicked_by}}",
+                    "group": "Uklonjeni ste iz Grupe od strane {{kicked_by}}",
+                    "space": "Uklonjeni ste iz Prostora od strane {{kicked_by}}"
+                },
+                "left": {
+                    "channel": "Napustili ste Kanal",
+                    "group": "Napustili ste Grupu",
+                    "space": "Napustili ste Prostor"
+                },
+                "invited": "Pozvan ste od {{invited_by}}"
+            },
+            "notificationsMutedForThisChat": "Obavještenja isključena za ovaj Razgovor"
+        },
+        "yesterday": "Jučer"
+    },
+    "appVersion": "Verzija aplikacije",
+    "modal": {
+        "addModeratorDescription": "Odaberite jednog ili više korisnika da postanu moderatori Sobe",
+        "confirm": {
+            "areYouSure": "Da li ste sigurni?",
+            "clearHistory": "Trajno ćete izbrisati svoju istoriju razgovora. Istorija razgovora drugih učesnika neće biti izbrisana. Ova akcija je nepovratna.",
+            "deleteChannel": "Da li ste sigurni da želite izbrisati ovaj Kanal?",
+            "deleteRoom": "Da li ste sigurni da želite izbrisati Sobu?",
+            "deleteSpace": "Da li ste sigurni da želite izbrisati Prostor?",
+            "leaveChannel": "Da li ste sigurni da želite napustiti Kanal?",
+            "leaveGroup": "Da li ste sigurni da želite napustiti Grupu?",
+            "leaveSpace": "Da li ste sigurni da želite napustiti Prostor?",
+            "removeMember": "Da li ste sigurni da želite ukloniti ovog člana?",
+            "leaveAndDeleteConversation": "Da li ste sigurni da želite napustiti i obrisati {{conversationName}}?",
+            "deleteVirtualRoom": "Da li ste sigurni da želite izbrisati Virtualnu Sobu?"
+        },
+        "deleteMessageDescription": "Kada obrišete poruku, ista više neće biti vidljiva ni vama ni ostalim učesnicima",
+        "forwardModal": {
+            "forwardedMessageFrom": "Poruka proslijeđena od",
+            "selectOneOrMoreConversations": "Izaberite jedan ili više razgovora",
+            "spaceAndChannels": "Prostor i Kanali"
+        },
+        "instantMeeting": {
+            "closedInstantMeeting": "Trenutni Sastanak je završen",
+            "create": "Kreiraj novi Trenutni Sastanak",
+            "instantMeetingAlreadyRunningText": "Stvaranje novog će prebrisati prethodni i prisutni će izgubiti vezu, što želite učiniti?",
+            "instantMeetingAlreadyRunningTitle": "Instant Sastanak je u toku",
+            "endCallByOwner": "Vlasnik Instant Sastanka odlučio je prekinuti poziv, nadamo se da ste uživali u Instant Sastanku"
+        },
+        "moderatorCannotLeaveGroupTitle": "Sačekajtej, potreban je novi moderator",
+        "moderatorMeetingDescription": "Vi ćete biti moderator Sobe. Možete dodati druge moderate i oni će imati ista ovlaštenja kao vi.",
+        "news": "Vijesti",
+        "notShowAgain": "Ne prikazuj ovo ponovo",
+        "planMeetingDescription": "Naziv Sobe pomaže prisutnima da saznaju o čemu se u Sobi raspravlja.",
+        "planVirtualRoomDescription": "Dodijelite Virtualnoj Sobi prepoznatljivo ime kako bi učesnici znali o kojoj tematici se radi",
+        "roomsFunctionalitiesChangelogDescription": "Napravili smo važne promjene u funkcionalnostima sastanka. Pročitajte informacije o Sobi kako biste saznali više!",
+        "selectFolder": "Odaberi mapu",
+        "showPreviousConversationHistory": "Prikaži prethodnu istoriju razgovora",
+        "stopMeetingRec": {
+            "locationWhereToSaveRecording": "Snimak će biti spremljen u \"/{{folderName}}\".",
+            "recordingName": "Naziv snimka",
+            "stopMeetingTitle": "Prekini snimanje sastanka",
+            "stopRecordingDescription": "Snimanje će biti zaustavljeno. Možete započeti novo u bilo kojem trenutku.",
+            "stopRecordingTitle": "Zaustavi snimanje",
+            "stopRecording": "Snimanje će biti zaustavljeno. Možete pokrenuti novo snimanje u bilo kom trenutku tokom ovog sastanka."
+        },
+        "moderatorCannotLeaveGroupDescription": "Vi ste jedini moderator {{conversationName}}, potrebno je promovirati nekoga drugoga prije nego napustite Grupu.",
+        "clearHistoryDescription": "Ovaj Razgovor je prazan i premješten je na dno liste kako bi se istaknuli aktivi razgovori.",
+        "moderatorRoomDescription": "Vi ste moderator Sobe. Možete dodati druge moderate i oni će imati ista ovlaštenja kao vi.",
+        "planRoomDescription": "Dodijelite Sobi prepoznatljivo ime kako bi učesnici znali o kojoj tematici se radi",
+        "moderatorVirtualRoomDescription": "Vi ste moderator Virtalne Sobe. Možete dodati druge moderate i oni će imati ista ovlaštenja kao vi."
+    },
+    "noRoomSelected": "Nije odabrana Virtualna soba",
+    "notification": {
+        "answer": "Odgovor",
+        "dismiss": "Odbaci",
+        "incomingCall": "Dolazni poziv od:",
+        "invitationToPersonalVirtualRoom": "Poziv u Ličnu Virtuelnu Sobu od:",
+        "meeting": {
+            "ended": "Sastanak završen"
+        },
+        "startMeetingRecording": "Snimanje {{conversationName}} sastanka je počelo",
+        "waiting": {
+            "descriptionAcceptedLabel": "Prihvaćeni ste od strane moderatora {{conversationName}}",
+            "notificationAcceptedByModerator": "Prihvaćeni ste od strane moderatora",
+            "notificationJoinTheRoom": "Pridružite se Sobi kako biste prisustvovali sastanku",
+            "notificationJoinTheVirtualRoom": "Pridružite se Virtualnoj sobi kako biste prisustvovali sastanku",
+            "userIsWaiting": "Novi korisnik čeka da uđe",
+            "userJoinedWaitingRoom": "Netko je u čekaonici",
+            "descriptionWaitingLabel": "Čekate da vas moderator {{conversationName}} prihvati"
+        },
+        "invitationToPersonalRoom": "Poziv u Ličnu Sobu od:"
+    },
+    "organizeYourMeeting": "Organizujte vlastite sastanke ili se pridružite Sobama drugih",
+    "organizeYourVirtualMeeting": "Organizujete svoje sastanke ili se pridružite virtualnim sobama drugih",
+    "people": {
+        "manyMembers": "{{membersCount}} čanova",
+        "oneParticipant": "Jedan učesnik",
+        "otherParticipants": "Broj ostalih učesnika {{numberParticipants}}",
+        "participants": "Učesnici"
+    },
+    "personalVirtualRoomLabel": "Lična Virtualna Soba od {{userName}}",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "Preuzimanje"
             }
+        },
+        "close": {
+            "tooltip": "Zatvori"
         }
     },
-    "appVersion": "Verzija aplikacije"
+    "room": "Virtualna Soba",
+    "settings": {
+        "meeting": {
+            "descriptionVirtualRoom": "Podesite audio i video postavke za ulazak u Virtualnu Sobu. Postavke možete prilagoditi prije ulaska u svaku Virtualnu sobu.",
+            "enableCamera": "Omogući kameru",
+            "enableMicrophone": "Omogući mikrofon",
+            "enableNoiseSuppression": "Suzbijanje buke",
+            "meetings": "Sastanak",
+            "personalRoomOptionsTitleModal": "Reset linka Lične Sobe",
+            "personalRoomResetButton": "Reset linka Lične sobe",
+            "personalRoomResetDescription": "Resetom linka Lične Sobe, prethodno dodijeljeni pristupi više neće biti u funkciji.",
+            "personalVirtualRoomOptionsTitleModal": "Reset linka Lične Virtuale Sobe",
+            "personalVirtualRoomResetButton": "Reset linka Lične Virtuale Sobe",
+            "virtualRooms": "Virtualne Sobe",
+            "voiceProcessingDescription": "Glas koji čujete na odabranom izlazu omogućava vam da testirate kvalitet ulaznih i izlaznih postavki podešenih za sastanak",
+            "descriptionRoom": "Podesite audio i video postavke za ulazak u Sobu. Postavke možete prilagoditi prije ulaska u svaku sobu.",
+            "description": "Podesite audio i video postavke za ulazak na sastanke. Postavke možete prilagoditi prije ulaska na bilo koji sastanak.",
+            "personalVirtualRoomResetDescription": "Resetom linka Lične Virtuale Sobe, svi prethodno dodjeljeni pristupi više neće funkcionisati."
+        },
+        "modal": {
+            "description": "Ovdje možete podesiti sve postavke kako biste potpuno uživali u prilagođenom iskustvu Razgovora!",
+            "title": "Postavke Razgovora"
+        },
+        "notification": {
+            "desktop": "Obavještenja na radnoj površini",
+            "title": {
+                "notifications": "Obavještenja",
+                "openMinichat": "Otvorite kada stigne nova poruka",
+                "openMinichatForGroup": "Otvori kada stigne nova poruka Grupe"
+            },
+            "openMinichatDescription": "Prilagodite postavke otvaranja vaših mini razgovora"
+        },
+        "notifications": {
+            "description": "Podesi postavke za svaki tip obavijesti u Razgovorima"
+        },
+        "profile": {
+            "errorGenericResponse": "Došlo je do pogreške. Pokušajte ponovno",
+            "maximumDimension": "Maksimalna veličina: 256kb.",
+            "reset": "Reset",
+            "statusOptionalDescription": "Opcionalno. Neka drugi znaju o čemu razmišljate.Maksimalna dužina: 256 znakova",
+            "title": "Profil",
+            "update": "Ažuriranje",
+            "chooseAProfilePic": "Izaberi profilnu sliku, slika će biti automatski centrirana."
+        },
+        "recordingMeeting": {
+            "destinationFolder": "Odredišna mapa",
+            "recording": "Snimke",
+            "descriptionWhereToSaveRegistration": "Postavi odredišnu mapu za spremanje snimaka sastanaka."
+        },
+        "resetPersonalRoomLinkSuccess": "Link Lične Sobe je resetovan",
+        "title": "Postavke"
+    },
+    "status": {
+        "externalGuest": "Vanjski gost",
+        "internalGuest": "Interni gost",
+        "isWriting": "piše…",
+        "lastSeen": "Zadnji put viđen {{lastSeen}}",
+        "offline": "Izvan mreža",
+        "online": "Na mreži",
+        "userStatus": "Status"
+    },
+    "thanksForParticipating": "Hvala za učešće",
+    "tooltip": {
+        "acceptQueuedMember": "Pusti korisnika unutra",
+        "addFile": "Dodaj datoteku",
+        "cancelFilter": "Otkaži filter",
+        "chooseFile": "Izaberi datoteku",
+        "close": "Zatvori",
+        "closeSearch": "Zatvori pretragu",
+        "copyUserRoom": "Kopirajte link svoje Lične Sobe",
+        "copyUserVirtualRoomTooltip": "Kopirajte ovaj link i podijelite ga kako biste drugima omogućili pristup vašem Ličnom Virtualnom Prostoru",
+        "editDescription": "Uredi opis",
+        "editInfo": "Uredi informacije",
+        "enterYourRoom": "Uđite u vašu Ličnu Sobu",
+        "enterYourRoomTooltip": "Uđite u vašu Ličnu Sobu",
+        "enterYourVirtualRoomTooltip": "Uđite u Vašu Ličnu Virtualnu Sobu",
+        "errorUpdatingAvatarStatus": "Došlo je do pogreške prilikom postavljanja statusa. Pokušajte ponovo",
+        "copyUserRoomTooltip": "Kopirajte ovaj link i podijelite ga kako biste drugima omogućili pristup vašem Ličnom Prostoru",
+        "chooseRoom": "Odaberi Virtualnu Sobu",
+        "errorRemovingAvatarPicture": "Došlo je do greške prilikom uklanjanja avatara. Pokušajte ponovo"
+    },
+    "organizeYourVMeeting": "Organizujete svoje sastanke ili se pridružite Virtualnim sobama drugih",
+    "personalRoomLabel": "Lična Soba od {{userName}}"
 }
