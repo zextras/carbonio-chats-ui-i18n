@@ -53,7 +53,7 @@
         "createInstantMeeting": "Kreiraj Instant Sastanak",
         "deleteSpace": "Obriši Prostor",
         "goToGuide": "Idite na vodič",
-        "leaveSpace": "Napusti Prostor",
+        "leaveSpace": "Ostavi Razmak",
         "openInChats": "Otvori u Razgovorima",
         "openInTeam": "Otvori u Timu",
         "plan": "Plan",
@@ -94,7 +94,7 @@
         "virtualRoomLink": "Link Virtualne Sobe",
         "virtualRoomLinkDescription": "Kopirajte i podijelite link kako biste drugima omogućili pristup Virtualnoj Sobi.",
         "virtualRoomName": "Naziv Virtualne sobe",
-        "newMessages": "Nova Poruka",
+        "newMessages": "Nove Poruke",
         "roomLinkDescription": "Kopirajte link i podijelite ga kako biste drugima omogućili pristup ovoj Sobi.",
         "contactInfo": "Informacije o kontaktu",
         "instantInfo": "Informacije o Instant Sastanku",
@@ -137,7 +137,7 @@
     },
     "creation": {
         "channel": {
-            "topicDescription": "Diskusije na Kanalima su tematski vođene pa je preporučljivo odabrati naslov koji što detaljnije opisuje temu",
+            "topicDescription": "Diskusije na Kanalima su tematski vođene pa je preporučljivo odabrati naslov koji što detaljnije opisuje temu.",
             "topicInputExplanation": "Opisuje naziv Kanala",
             "setImageAndTitleDescription": "Za bolje prepoznavanje Kanala unutar Prostora dodijelite mu sliku. Slika Kanala se dodatno može postaviti ili promijeniti na info panelu Kanala.",
             "mainDescription": "Kanali uključeni u Prostor su definirani Temama. Učesnici Prostora se mogu priključiti Kanalu kako bi aktivno raspravljali o određenoj temi. Učesnici mogu napustiti Kanal bez napuštanja Prostora.",
@@ -150,7 +150,7 @@
         },
         "emailReplicated": "Unesena e-mail adresa već je dodana",
         "group": {
-            "groupWithoutNameAddParticipant": "Dodaj učesnike u  Grupu",
+            "groupWithoutNameAddParticipant": "Dodaj učesnike u Grupu",
             "inputTopicDescriptionLabel": "Opisuje naziv Grupe",
             "mainDescription": "Grupe moraju sadržavati više od dva učesnika. Imenujte Grupu na način da što bolje opisuje temu",
             "setImageAndTopicDescription": "Postavite sliku koja će pomoći korisnicima da prepoznaju Grupu unutar liste .",
@@ -183,7 +183,7 @@
         "selectOneOrMoreUsers": "Odaberite jednog ili više korisnika",
         "space": {
             "spaceWithoutNameAddParticipant": "Dodajte učesnike u Prostor",
-            "topicDescription": "Budući da se u Prostoru vode tematski usmjerene diskusije preporučljivo je odabrati naslov koji najbolje opisuje temu",
+            "topicDescription": "Budući da se u Prostoru vode tematski usmjerene diskusije preporučljivo je odabrati naslov koji najbolje opisuje temu.",
             "mainDescription": "Prostori su okruženja koja uključuju specifične razgovore tkz Kanale, svaki sa svojom temom. Da bi kreirali Prostor potrebno je pozvati najmanje dva učesnika. Kanali se mogu dodati direktno sa info panela Prostora.",
             "addMembersDescription": "Pozovite osobe tako što ćete upisati njihova imena ili e-mail adrese. Potrebno je pozvati barem dvije druge osobe, u suprotnom možete kreirati Razgovor.",
             "titleDescription": "Naslov identificira Prostor i treba opisivati njegovu temu.",
@@ -197,7 +197,7 @@
         "topicMax255Characters": "Maksimalno 255 znakova",
         "topicNeeds2Letters": "Tema je opcionalna. Min. 2 karaktera",
         "topicOptional": "Opcionalno. Opisuje naziv predmeta",
-        "typeToFilter": "Unesite za filtriranje liste",
+        "typeToFilter": "Unesi za filtriranje liste",
         "typeWithNameAddParticipant": "Dodajte učesnike u",
         "youCanInviteOther": "Možete pozvati još {{limit}} učesnika"
     },
@@ -301,7 +301,7 @@
             "mutedByModerators": "Utišani ste od strane moderatora, za razgovor morate uključiti svoj mikrofon",
             "cinemaView": "\"Cinema\" pogled",
             "gridView": "\"Grid\" pogled",
-            "hangOff": "Prekid",
+            "hangOff": "Prekini",
             "playMyVoice": "Reproduciraj moj glas",
             "muteUserForAllTitle": "Isključi zvuk za sve",
             "stopMyVoice": "Zaustavi glas",
@@ -320,13 +320,13 @@
             "noVideoAndAudio": "Kamera isključena, Mikrofon uključen",
             "descriptionPersonalRoom": "Kako želite ući u Ličnu Sobu {{meetingTitle}}?",
             "descriptionPersonalVirtualRoom": "Kako želite ući u Ličnu Virtualnu Sobu {{meetingTitle}}?",
-            "descriptionVirtualRoom": "Kako želite ući na  {{meetingTitle}}?",
+            "descriptionVirtualRoom": "Kako želite ući na {{meetingTitle}}?",
             "enter": "Ulaz"
         },
         "thisMeetingIsBeingRecorded": "Ovaj sastanak se snima",
         "wereToFindRecording": "Snimak će biti sačuvan na video serveru, kontaktirajte svog sistem administratora za dodatne informacije.",
         "recordedByMe": "Snimljenje je počelo",
-        "defaultViewModeDedicatedLabelVirtualRoom": "\"Namjenski način rada\" će vas će preusmjeriti na odvojenu karticu vašeg preglednika kako biste iskoristili mogućnosti Virtualne Sobe na na najbolji način.",
+        "defaultViewModeDedicatedLabelVirtualRoom": "\"Namjenski način rada\" će vas preusmjeriti na odvojenu karticu vašeg preglednika kako biste iskoristili mogućnosti Virtualne Sobe na najbolji način.",
         "defaultViewModeSecondaryDescriptionLabel": "Ova opcija će biti sačuvana u postavkama i može se ažurirati svaki put kada želite.",
         "defaultViewModeDefaultModeLabel": "Zadani način rada",
         "resetMeetingUrlModalDescription": "Da li ste sigurni da želite resetovati link za \"{{conversationName}}\"?",
@@ -381,7 +381,7 @@
                 },
                 "left": {
                     "channel": "{{member_name}} je napustio Kanal",
-                    "chat": "{{member_name}} je napustio Razgovor.",
+                    "chat": "{{member_name}} je napustio Razgovor",
                     "group": "{{member_name}} je napustio Grupu",
                     "space": "{{member_name}} je napustio Prostor"
                 },
@@ -510,7 +510,7 @@
         "moderatorCannotLeaveGroupDescription": "Vi ste jedini moderator {{conversationName}}, potrebno je promovirati nekoga drugoga prije nego napustite Grupu.",
         "clearHistoryDescription": "Ovaj Razgovor je prazan i premješten je na dno liste kako bi se istaknuli aktivi razgovori.",
         "moderatorRoomDescription": "Vi ste moderator Sobe. Možete dodati druge moderate i oni će imati ista ovlaštenja kao vi.",
-        "planRoomDescription": "Dodijelite Sobi prepoznatljivo ime kako bi učesnici znali o kojoj tematici se radi",
+        "planRoomDescription": "Dodijelite Sobi prepoznatljivo ime kako bi učesnici znali o kojoj tematici se radi.",
         "moderatorVirtualRoomDescription": "Vi ste moderator Virtalne Sobe. Možete dodati druge moderate i oni će imati ista ovlaštenja kao vi.",
         "teamNews": "Novosti",
         "userJoinedWaitingRoom": "Netko je u Čekaonici"
@@ -543,7 +543,7 @@
         "oneParticipant": "Jedan učesnik",
         "otherParticipants": "Broj ostalih učesnika {{numberParticipants}}",
         "participants": "Učesnici",
-        "me": "Meni",
+        "me": "Ja",
         "whoYoureLookinkFor": "Koga tražite?",
         "you": "Vi"
     },
@@ -595,7 +595,7 @@
             "openMinichatDescription": "Prilagodite postavke otvaranja vaših mini Razgovora"
         },
         "notifications": {
-            "description": "Podesi postavke za svaki tip obavijesti u Razgovorima"
+            "description": "Podesi postavke za svaki tip obavijesti u Razgovorima."
         },
         "profile": {
             "errorGenericResponse": "Došlo je do pogreške. Pokušajte ponovno",
