@@ -1,0 +1,20 @@
+{
+    "action": {
+        "activateNotifications": "Включити сповіщення",
+        "add": "Додати",
+        "addChannel": "Додати канал",
+        "addNewMembers": "Додайте нових учасників",
+        "addModerator": "Додати модератора",
+        "addModerators": "Додати модераторів",
+        "addMembers": "Додати учасників",
+        "browse": "Переглянути",
+        "clearHistory": "Очистити історію",
+        "close": "Закрити",
+        "collapse": "Згорнути",
+        "copy": "Копіювати",
+        "create": "Створити"
+    },
+    "message": {
+        "edited": "відредаговано"
+    }
+}

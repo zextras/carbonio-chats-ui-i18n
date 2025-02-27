@@ -1,0 +1,667 @@
+{
+    "message": {
+        "deletedMessage": "Đã xoá tin nhắn",
+        "service": {
+            "member": {
+                "created": {
+                    "channel": "{{member_name}} đã tạo kênh",
+                    "group": "{{member_name}} đã tạo nhóm",
+                    "single": "{{member_name}} đã tạo cuộc trò chuyện",
+                    "space": "{{member_name}} đã tạo không gian"
+                },
+                "join": {
+                    "conversation": "{{member_name}} đã tham gia cuộc trò chuyện",
+                    "channel": "{{member_name}} đã tham gia kênh"
+                },
+                "changed": {
+                    "topic": {
+                        "channel": "{{member_name}} đã thay đổi chủ đề kênh {{topic}}",
+                        "space": "{{member_name}} đã thay đổi chủ đề không gian trong {{topic}}",
+                        "group": "{{member_name}} đã thay đổi chủ đề nhóm trong {{topic}}"
+                    },
+                    "name": {
+                        "space": "{{member_name}} đã thay đổi tên không gian trong {{name}}",
+                        "channel": "{{member_name}} đã thay đổi tên kênh trong {{name}}"
+                    },
+                    "picture": {
+                        "space": "{{member_name}} đã thay đổi ảnh không gian",
+                        "group": "{{member_name}} đã thay đổi ảnh nhóm",
+                        "channel": "{{member_name}} đã thay đổi ảnh kênh"
+                    }
+                },
+                "kicked": {
+                    "group": "{{member_name}} đã bị xoá khỏi nhóm bởi {{kicked_by}}",
+                    "space": "{{member_name}} đã bị xoá khỏi không gian bởi {{kicked_by}}",
+                    "channel": "{{member_name}} đã bị xoá khỏi kênh bởi {{kicked_by}}",
+                    "chat": "{{member_name}} đã bị xoá khỏi cuộc trò chuyện bởi {{kicked_by}}"
+                },
+                "you": {
+                    "kicked": {
+                        "group": "Bạn đã xoá {{member_name}} khỏi nhóm",
+                        "space": "Bạn đã xoá {{member_name}} khỏi không gian",
+                        "channel": "Bạn đã xoá {{member_name}} khỏi kênh"
+                    },
+                    "invited": "Bạn đã mời {{member_name}}"
+                },
+                "deleted": {
+                    "instantMeeting": "{{member_name}} đã xoá cuộc họp khẩn",
+                    "channel": "{{member_name}} đã xoá kênh",
+                    "space": "{{member_name}} đã xoá không gian"
+                },
+                "left": {
+                    "chat": "{{member_name}} đã rời khỏi cuộc trò chuyện",
+                    "channel": "{{member_name}} đã rời khỏi kênh",
+                    "group": "{{member_name}} đã rời khỏi nhóm",
+                    "space": "{{member_name}} đã rời khỏi không gian"
+                },
+                "invited": "{{member_name}} đã được mời bởi {{invited_by}}"
+            },
+            "you": {
+                "deleted": {
+                    "space": "Bạn đã xoá không gian",
+                    "instantMeeting": "Bạn đã xoá cuộc họp khẩn",
+                    "channel": "Bạn đã xoá kênh"
+                },
+                "join": {
+                    "userRoom": "Bạn đã tham gia vào phòng",
+                    "space": "Bạn đã tham gia vào không gian",
+                    "channel": "Bạn đã tham gia vào kênh",
+                    "group": "Bạn đã tham gia vào nhóm",
+                    "instantMeeting": "Bạn đã tham gia vào cuộc họp khẩn"
+                },
+                "kicked": {
+                    "channel": "Bạn đã bị xoá khỏi kênh bởi {{kicked_by}}",
+                    "group": "Bạn đã bị xoá khỏi nhóm bởi {{kicked_by}}",
+                    "space": "Bạn đã bị xoá khỏi không gian bởi {{kicked_by}}"
+                },
+                "left": {
+                    "space": "Bạn đã rời không gian",
+                    "channel": "Bạn đã rời kênh",
+                    "group": "Bạn đã rời nhóm"
+                },
+                "changed": {
+                    "name": {
+                        "channel": "Bạn đã thay đổi tên kênh trong {{name}}",
+                        "space": "Bạn đã thay đổi tên không gian trong {{name}}"
+                    },
+                    "picture": {
+                        "channel": "Bạn đã thay đổi ảnh kênh",
+                        "group": "Bạn đã thay đổi ảnh nhóm",
+                        "space": "Bạn đã thay đổi tên không gian"
+                    },
+                    "topic": {
+                        "group": "Bạn đã thay đổi chủ đề nhóm trong {{topic}}",
+                        "channel": "Bạn đã thay đổi chủ đề kênh trong {{topic}}",
+                        "space": "Bạn đã thay đổi chủ đề không gian trong {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "Bạn đã tạo kênh",
+                    "group": "Bạn đã tạo nhóm",
+                    "single": "Bạn đã tạo cuộc trò chuyện",
+                    "space": "Bạn đã tạo không gian"
+                },
+                "invited": "Bạn đã mời {{invited_by}}"
+            },
+            "notificationsActivatedForThisChat": "Đã kích hoạt thông báo cho cuộc trò chuyện này",
+            "notificationsMutedForThisChat": "Thông báo sẽ tắt cho cuộc trò chuyện này",
+            "newMeeting": "Cuộc gọi đến từ:",
+            "conversationCreated": "Cuộc trò chuyện đã được tạo",
+            "meeting": {
+                "endedAtTime": "Cuộc họp đã kết thúc lúc",
+                "startedAtTime": "Cuộc họp bắt đầu vào",
+                "ended": "Cuộc họp đã kết thúc"
+            }
+        },
+        "edited": "Đã biên tập",
+        "forwarded": "đã chuyển tiếp",
+        "now": "Bây giờ",
+        "readBy": "Đọc bởi",
+        "yesterday": "Hôm qua"
+    },
+    "feedback": {
+        "saveAttachmentError": "Có vẻ như đã xảy ra sự cố khi lưu, vui lòng thử lại",
+        "saveAttachmentSuccessfull": "Đã lưu đính kèm trong thư mục đã chọn",
+        "online": "Quay lại trực tuyến!",
+        "tryAReconnectionIn": "Đang thử kết nối lại trong vòng {{seconds}}",
+        "uploadConversationPicturesFailed": "Lỗi khi tải lên hình ảnh cuộc hội thoại",
+        "historyClearedSuccessfully": "Xoá lịch sử thành công!",
+        "offline": "Có vấn đề trong việc kết nối đến máy chủ",
+        "resetPersonalVirtualRoomLinkSuccess": "Liên kết phòng cá nhân ảo đã được cài đặt lại",
+        "appVersionCopied": "Đã sao chép phiên bản ứng dụng",
+        "connecting": "Đang kết nối…",
+        "linkCopied": "Sao chép liên kết",
+        "notificationsActivatedForThisChat": "Thông báo được kích hoạt cho cuộc trò chuyện này",
+        "notificationsMutedForThisChat": "Thông báo sẽ tắt cho cuộc trò chuyện này",
+        "resetPersonalRoomLinkSuccess": "Liên kết Phòng Cá nhân đã được cài đặt lại",
+        "retryConnection": "Đang thử kết nối lại",
+        "roomLinkCopied": "Sao chép liên kết phòng",
+        "virtualRoomLinkCopied": "Sao chép liên kết phòng ảo"
+    },
+    "settings": {
+        "meeting": {
+            "enableMicrophone": "Bật microphone",
+            "meetings": "Cuộc họp",
+            "personalRoomResetButton": "Đặt lại liên kết phòng cá nhân",
+            "personalRoomResetDescription": "Bằng cách đặt lại liên kết Phòng Cá nhân, tất cả các quyền truy cập đã cấp trước đó sẽ không hoạt động nữa.",
+            "personalVirtualRoomOptionsTitleModal": "Đặt lại liên kết Phòng Cá nhân ảo",
+            "personalVirtualRoomResetButton": "Đặt lại liên kết phòng cá nhân ảo",
+            "virtualRooms": "Phòng ảo",
+            "voiceProcessing": "Đang xử lý âm thanh",
+            "enableEchoCancellation": "Hủy tiếng vọng",
+            "enableNoiseSuppression": "Loại bỏ tiếng ồn",
+            "personalRoomOptionsTitleModal": "Đặt lại liên kết Phòng Cá nhân",
+            "personalVirtualRoomResetDescription": "Đặt lại liên kết Phòng Cá nhân ảo, tất cả các quyền truy cập đã cấp trước đó sẽ không hoạt động nữa.",
+            "voiceProcessingDescription": "Bạn sẽ nghe thấy giọng nói của mình ở đầu ra mặc định, cho phép bạn tự kiểm tra chất lượng đầu vào cũng như đầu ra được chọn cho cuộc họp",
+            "description": "Đặt tùy chọn âm thanh và video của bạn để tham gia cuộc họp. Bạn luôn có thể tùy chỉnh tùy chọn của mình trước khi tham gia bất kỳ cuộc họp nào.",
+            "descriptionVirtualRoom": "Đặt tùy chọn âm thanh và video của bạn để vào phòng ảo. Bạn luôn có thể tùy chỉnh các tùy chọn của mình trước khi bước vào mọi phòng ảo.",
+            "enableCamera": "Bật Camera"
+        },
+        "modal": {
+            "title": "Cài đặt cuộc trò chuyện",
+            "description": "Tại đây, bạn có thể đặt tất cả các tùy chọn dành riêng cho cuộc trò chuyện để tận hưởng trải nghiệm trò chuyện với tùy chỉnh hoàn chỉnh!"
+        },
+        "notification": {
+            "openMinichatDescription": "Tùy chỉnh hành vi mở minichats của bạn",
+            "title": {
+                "notifications": "Các thông báo",
+                "openMinichat": "Mở khi có tin nhắn mới",
+                "openMinichatForSingle": "Mở khi có tin nhắn đơn mới",
+                "openMinichatForGroup": "Mở khi có tin nhắn mới",
+                "openMinichatForSpace": "Mở khi có tin nhắn không gian mới"
+            },
+            "desktop": "Hiển thị cảnh báo màn hình"
+        },
+        "recordingMeeting": {
+            "destinationFolder": "Thư mục đích",
+            "recording": "đang ghi",
+            "descriptionWhereToSaveRegistration": "Đặt thư mục đích để lư bản ghi cuộc họp."
+        },
+        "title": "Cài đặt",
+        "notifications": {
+            "description": "Đặt tùy chọn của bạn cho mọi loại thông báo trong trò chuyện."
+        },
+        "profile": {
+            "errorGenericResponse": "Có lỗi xảy ra, vui lòng thử lại",
+            "chooseAProfilePic": "Chọn một ảnh hồ sơ, ảnh sẽ được căn giữa tự động.",
+            "restore": "Khôi phục",
+            "title": "Hồ sơ",
+            "statusOptionalDescription": "Tuỳ chọn. Hãy cho người khác biết suy nghĩ của bạn. Độ dài tối đa: 256 ký tự",
+            "update": "Cập nhập",
+            "maximumDimension": "Kích thước tối đa: 256kb.",
+            "reset": "Cài đặt lại"
+        },
+        "resetPersonalRoomLinkSuccess": "Liên kết Phòng Cá nhân đã được cài đặt lại"
+    },
+    "status": {
+        "areWriting": "đang ghi…",
+        "isWriting": "đang ghi…",
+        "lastSeen": "Lần xem cuối {{lastSeen}}",
+        "userStatus": "Trạng thái",
+        "waitingToEnter": "Đợi để vào",
+        "online": "Trực tuyến",
+        "offline": "Ngoại tuyến",
+        "externalGuest": "Khách bên ngoài",
+        "internalGuest": "Khách bên trong"
+    },
+    "thanksForParticipating": "Cảm ơn bạn đã tham gia",
+    "tooltip": {
+        "acceptQueuedMember": "Cho phép người dùng vào",
+        "addFile": "Thêm tệp",
+        "cancelFilter": "Huỷ bộ lọc",
+        "chooseFile": "Chọn tệp",
+        "close": "Đóng",
+        "closeSearch": "Đóng tìm kiếm",
+        "copyRoomLink": "Sao chép liên kết này để chia sẻ phòng",
+        "copyRoomLinkTooltip": "Sao chép liên kết này để chia sẻ phòng",
+        "copyVirtualRoomLinkTooltip": "Sao chép liên kết này để chia sẻ phòng ảo",
+        "disabledCreateButton": "Kiểm tra đầu vào để đảm bảo không có lỗi",
+        "downgradeModerator": "Hạ bậc kiểm soát viên",
+        "enterYourVirtualRoomTooltip": "Vào phòng cá nhân ảo",
+        "errorUploadingAvatarPicture": "Có lỗi trong quá trình thêm hình đại diện. Xin mời thử lại",
+        "goToPrivateChat": "Đi đến cuộc trò chuyện riêng tư",
+        "inviteToPersonalRoom": "Mời vào phòng cá nhân của bạn",
+        "messageComposer": "Người soạn tin nhắn",
+        "openMinichat": "Mở Minichat",
+        "planMeeting": "Lên kế hoạch cuộc họp",
+        "promoteModerator": "Đề bạt làm người kiểm duyệt",
+        "rejectQueuedMember": "Từ chối người dùng",
+        "removeFile": "Xoá tệp",
+        "removeMember": "Xoá thành viên",
+        "editInfo": "Chỉnh sửa thông tin",
+        "enterMeetingRoom": "Vào phòng họp",
+        "enterYourRoom": "Vào phòng cá nhân",
+        "searchForParticipant": "Tìm người tham gia",
+        "selectEmoji": "Chọn biểu tượng Emoji",
+        "sendFile": "Gửi tệp",
+        "sendMessage": "Gửi tin nhắn",
+        "showChannels": "Hiển thị kênh",
+        "switchToConversation": "Chuyển sang cuộc hội thoại",
+        "switchToInfoPanel": "Chuyển sang bảng thông tin",
+        "collapseChannel": "Thu nhỏ kênh",
+        "copyUserRoom": "Sao chép liên kết này để chia sẻ phòng của bạn",
+        "copyUserRoomTooltip": "Sao chép liên kết này và chia sẻ để cung cấp cho những người khác quyền truy cập vào phòng cá nhân của bạn",
+        "copyUserVirtualRoomTooltip": "Sao chép liên kết này và chia sẻ để cung cấp cho những người khác quyền truy cập vào phòng cá nhân ảo của bạn",
+        "errorUpdatingAvatarStatus": "Có lỗi trong quá trình cài đặt trạng thái. Xin mời thử lại",
+        "editDescription": "Chỉnh sửa mô tả",
+        "enterYourRoomTooltip": "Vào phòng cá nhân",
+        "errorRemovingAvatarPicture": "Có lỗi trong quá trình xoá hình đại diện. Xin mời thử lại"
+    },
+    "tryLater": "Thử lại sau",
+    "typeYourEmail": "Gõ địa chỉ thư của bạn",
+    "meeting": {
+        "defaultViewModeDedicatedLabelVirtualRoom": "\"Chế độ chuyên dụng\" sẽ chuyển hướng bạn đến một thẻ riêng biệt của trình duyệt để tận hưởng trải nghiệm phòng ảo tốt nhất.",
+        "interactions": {
+            "hideChat": "Ẩn cuộc trò chuyện",
+            "hideParticipants": "Ẩn người tham gia",
+            "gridView": "Xem dạng lưới",
+            "unpinVideo": "Bỏ ghim Video",
+            "muteUser": "Tắt tiếng",
+            "muteUserForAllTitle": "Tắt tiếng tất cả",
+            "mutedByModerators": "Bạn đã bị người kiểm duyệt tắt tiếng, hãy tự bật tiếng để nói",
+            "mutedByOthers": "Bạn đã tắt tiếng",
+            "pinVideo": "Ghim Video",
+            "playMic": "Bắt đầu kiểm tra microphone",
+            "playMyVoice": "Bật âm thanh của bạn",
+            "shortCutLabel": "(C)",
+            "showChat": "Hiển thị cuộc trò chuyện",
+            "showParticipants": "Hiện người tham gia",
+            "status": {
+                "cameraMicOff": "Camera và microphone của bạn tắt",
+                "cameraOff": "Camera của bạn tắt"
+            },
+            "stopMic": "Dừng kiểm tra microphone",
+            "stopMyVoice": "Dừng âm thanh của bạn",
+            "disableScreensharing": "Tắt chia sẻ màn hình",
+            "micTesting": "Bạn sẽ nghe thấy giọng nói của mình ở đầu ra mặc định, cho phép bạn tự kiểm tra chất lượng đầu vào cũng như đầu ra được chọn cho cuộc họp",
+            "muteUserForAllDescription": "Bằng cách tắt tiếng người dùng, tất cả những người tham gia sẽ không nghe thấy người dùng đó nữa. Chỉ người dùng bị tắt tiếng mới có thể tự bật tiếng. Tiếp tục?",
+            "audioDisabled": "Tắt âm thanh",
+            "audioEnabled": "Bật âm thanh",
+            "cameraDisabled": "Tắt Camera",
+            "cameraEnabled": "Bật Camera",
+            "cinemaView": "Xem theo chế độ rạp phim",
+            "closeCall": "Đóng tất cả cuộc gọi",
+            "disableAudio": "Tắt âm thanh",
+            "disableFullScreen": "Thoát chế độ Full màn hình",
+            "disableVideo": "Tắt Video",
+            "enableAudio": "Bật âm thanh",
+            "enableFullScreen": "Full màn hình",
+            "enableScreenSharing": "Bật chế độ chia sẻ màn hình",
+            "enableVideo": "Bật Video",
+            "hangOff": "Nhấc máy"
+        },
+        "startModal": {
+            "description": "Vì sao bạn muốn tham gia vào cuộc họp?",
+            "descriptionMyPersonalVirtualRoom": "Vì sao bạn muốn tham gia vào phòng cá nhân ảo?",
+            "descriptionPersonalVirtualRoom": "Vì sao bạn muốn tham gia vào phòng cá nhân ảo {{meetingTitle}}'?",
+            "enter": "Đi vào",
+            "noVideoAndAudio": "Camera tắt, Microphone bật",
+            "noVideoAndNoAudio": "Camera tắt, Microphone tắt",
+            "videoAndAudio": "Camera bật, Microphone bật",
+            "videoAndNoAudio": "Camera bật, Microphone tắt",
+            "descriptionVirtualRoom": "Vì sao bạn muốn tham gia {{meetingTitle}}'?"
+        },
+        "recordedByMe": "Bạn bắt đầu ghi",
+        "recordedByOther": "{{username}} bắt đầu ghi",
+        "recording": "đang ghi",
+        "resetMeetingUrlModalDescription": "Bạn có chắc chắn cài đặt lại liên kết cho kế hoạch \"{{conversationName}}\"?",
+        "thisMeetingIsBeingRecorded": "Cuộp họp đang được ghi",
+        "wereToFindRec": "Bản ghi sẽ được lưu trong không gian tệp của người kiểm duyệt đã dừng nó.",
+        "wereToFindRecording": "Bản ghi sẽ được lưu trong trang chủ của máy chủ video, hãy liên hệ với quản trị viên hệ thống của bạn để biết thêm chi tiết.",
+        "attendeesComing": "Người tham gia đang vào",
+        "defaultViewModeDedicatedLabel": "\"Chế độ chuyên dụng\" sẽ chuyển hướng bạn đến một thẻ riêng biệt trên trình duyệt để tận hưởng trải nghiệm cuộc họp một cách tốt nhất.",
+        "defaultViewModeSecondaryDescriptionLabel": "Tùy chọn này sẽ được lưu trong cài đặt của bạn và có thể được cập nhật bất cứ lúc nào bạn muốn.",
+        "errorMeetingRecording": "Không thể bắt đầu đăng ký, vui lòng liên hệ với quản trị viên hệ thống của bạn.",
+        "successSaveMeetingRecording": "Bạn sẽ tìm thấy {{registrationName}} trong / {{folderName}} ngay khi sẵn sàng",
+        "defaultViewModeDedicatedModeLabel": "Chế độ chuyên dụng",
+        "defaultViewModeDedicatedModeLabelVRoom": "Chế độ chuyên dụng",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Chế độ chuyên dụng",
+        "defaultViewModeDefaultLabel": "Chọn \"Chế độ mặc định\", cuộc họp sẽ bắt đầu trong môi trường nội bộ hiện tại.",
+        "defaultViewModeDefaultLabelVirtualRoom": "Chọn \"Chế độ mặc định\", phòng ảo sẽ bắt đầu trong môi trường nội bộ hiện tại.",
+        "defaultViewModeDefaultModeLabel": "Chế độ mặc định",
+        "defaultViewModeSaveLabel": "Lưu tuỳ chọn",
+        "defaultViewModeTitleModal": "Tuỳ chọn môi trường cuộc họp",
+        "defaultViewModeTitleModalVirtualRoom": "Tuỳ chọn môi trường phòng ảo",
+        "errorMeetingSavingRecording": "Không thể dừng ghi, vui lòng thử lại",
+        "genericErrorMeeting": "Có vẻ như có sự cố với cuộc họp này, hãy liên hệ với quản trị viên hệ thống của bạn.",
+        "setVirtualBackground": "Đặt nền ảo",
+        "noEffect": "Không ảnh hưởng",
+        "blurMyBackground": "Làm mờ nền của tôi"
+    },
+    "action": {
+        "close": "Đóng",
+        "copy": "Sao chép",
+        "copyAppVersion": "Sao chép phiên bản ứng dụng",
+        "addModerator": "Thêm người kiểm duyệt",
+        "copyLinkRoom": "Sao chép liên kết phòng",
+        "copyUserRoomLink": "Sao chép liên kết",
+        "collapse": "Thu gọn",
+        "addModerators": "Thêm người kiểm duyệt",
+        "addNewMembers": "Thêm thành viên mới",
+        "clearHistory": "Xoá lịch sử",
+        "addNewMembersTo": "Thêm thành viên mới vào",
+        "createGroup": "Tạo nhóm",
+        "createChat": "Tạo cuộc trò chuyện",
+        "deleteChannel": "Xoá Kênh",
+        "delete": "Xoá",
+        "expand": "Mở rộng",
+        "forward": "Chuyển tiếp",
+        "editYourMessage": "Chỉnh sửa tin nhắn của bạn",
+        "leaveAndDelete": "Rời đi và xoá",
+        "leaveChannel": "Rời Kênh",
+        "leaveGroup": "Rời Nhóm",
+        "leaveSpace": "Rời Không gian",
+        "addOtherModerators": "Thêm người kiểm duyệt khác",
+        "saveToFiles": "Lưu vào tệp",
+        "edit": "Chỉnh sửa",
+        "join": "Tham gia",
+        "reply": "Trả lời",
+        "joinChannelAction": "Tham gia Kênh",
+        "joinRoom": "Tham gia phòng",
+        "joinVirtualRoom": "Tham gia phòng ảo",
+        "leave": "Rời đi",
+        "openInChats": "Mở trong cuộc trò chuyện",
+        "openInTeam": "Mở trong đội",
+        "plan": "Kế hoạch",
+        "planMeeting": "Lên kế hoạch cuộc họp",
+        "remove": "Xoá",
+        "removeMember": "Xoá thành viên",
+        "replyToSomeone": "Trả lời đến",
+        "resetLink": "Cài đặt lại liên kết",
+        "scrollToTheBottom": "Di chuyển xuống dưới cùng",
+        "start": "Bắt đầu",
+        "startMeeting": "Bắt đầu cuộc họp",
+        "stop": "Dừng",
+        "joinChannel": "Tham gia kênh để gửi tin nhắn và nhận thông báo",
+        "scrollToNewMessage": "Di chuyển đến tin nhắn mới",
+        "createRoom": "Tạo phòng",
+        "createInstantMeeting": "Tạo cuộc họp khẩn",
+        "deleteVirtualRoom": "Xoá phòng ảo",
+        "goToGuide": "Đi đến phần hướng dẫn",
+        "muteNotifications": "Tắt thông báo",
+        "replyToYourself": "Trả lời đến chính bạn",
+        "waitingModeratorToJoin": "Bạn đang chờ được người kiểm duyệt chấp nhận",
+        "browse": "Duyệt qua",
+        "copyLinkVirtualRoom": "Sao chép liên kết phòng ảo",
+        "create": "Tạo",
+        "createChannel": "Tạo liên kết kênh đến {{spaceName}}",
+        "deleteRoom": "Xoá phòng",
+        "deleteSpace": "Xoá Không gian",
+        "createSpace": "Tạo không gian lưu trữ",
+        "createVirtualRoom": "Tạo phòng ảo",
+        "add": "Thêm",
+        "addChannel": "Thêm kênh",
+        "activateNotifications": "Kích hoạt thông báo",
+        "addMembers": "Thêm thành viên"
+    },
+    "button": {
+        "ok": "OK",
+        "save": "Lưu",
+        "undo": "Hoàn tác",
+        "cancel": "Huỷ",
+        "no": "Không",
+        "yes": "Có"
+    },
+    "conversation": {
+        "speakersCorner": "Người dùng trong phòng họp",
+        "spaceInfo": "Thông tin không gian",
+        "title": "Tiêu đề",
+        "topic": "Chủ đề",
+        "channelInfo": "Thông tin kênh",
+        "contactInfo": "Thông tin liên hệ",
+        "fileUploadDescription": "Mô tả tệp",
+        "groupInfo": "Thông tin nhóm",
+        "info": "Thông tin",
+        "instantInfo": "Thông tin cuộc họp khẩn",
+        "name": "Tên",
+        "nameVirtualRoom": "Phòng ảo {{conversationTitle}}",
+        "roomInfo": "Thông tin phòng",
+        "roomLink": "Liên kết đến phòng",
+        "roomName": "Tên phòng",
+        "virtualRoomInfo": "Thông tin phòng ảo",
+        "virtualRoomLink": "Liên kết phòng ảo",
+        "virtualRoomName": "Tên phòng ảo",
+        "newMessages": "Tin nhắn mới",
+        "nameRoom": "Phòng {{conversationTitle}}",
+        "roomLinkDescription": "Sao chép và chia sẻ liên kết này để cung cấp cho những người khác quyền truy cập vào phòng này.",
+        "virtualRoomLinkDescription": "Sao chép liên kết này và chia sẻ nó để cung cấp cho những người khác quyền truy cập vào phòng ảo này."
+    },
+    "conversations": {
+        "activeMeetingRooms": "Kích hoạt Phòng Họp",
+        "noActiveMeetings": "Không có phòng nào đang hoạt động vào lúc này",
+        "noActiveInstantMeetings": "Hiện không có cuộc họp khẩn nào đang hoạt động. Tạo cuộc họp khẩn mới hoặc chuyển sang thẻ khác.",
+        "noActiveSpaces": "Hiện không có không gian nào đang hoạt động. Tạo không gian mới hoặc chuyển đổi thẻ.",
+        "noFilteredChats": "Không có cuộc trò chuyện nào phù hợp với bộ lọc này.",
+        "mockDisplayDescription": "Chọn cuộc hội thoại để bắt đầu trò chuyện",
+        "mockDisplayTitle": "Hãy giữ liên lạc!",
+        "noActiveChats": "Không có cuộc trò chuyện nào đang hoạt động vào lúc này. Tạo một cuộc trò chuyện mới hoặc chuyển đổi thẻ.",
+        "noFilteredSpaces": "Không có không gian nào phù hợp với bộ lọc này.",
+        "activeVirtualRooms": "Kích hoạt phòng ảo",
+        "chats": "Trò chuyện",
+        "conversations": "Các cuộc Hội thoại",
+        "filterChatList": "Lọc danh sách trò chuyện",
+        "instantMeetings": "Cuộc họp khẩn",
+        "meetingRooms": "Phòng Họp",
+        "noActiveVirtualRooms": "Không có phòng ảo nào đang hoạt động vào lúc này",
+        "noFilteredMeetings": "Không có phòng hay cuộc họp đã lên kế hoạch phù hợp với bộ lọc này",
+        "personalRoom": "Phòng Cá nhân",
+        "personalVirtualRoom": "Phòng cá nhân ảo",
+        "scheduledMeetings": "Các cuộc họp đã lên lịch",
+        "spaces": "Không gian",
+        "virtualRooms": "Phòng ảo",
+        "waitingRoom": "Hàng đợi",
+        "yourRoom": "Phòng của bạn",
+        "spaceGeneralChannel": "Chung",
+        "noFilteredInstantMeetings": "Không có cuộc họp khẩn nào phù hợp với bộ lọc này.",
+        "noFilteredVirtualRooms": "Không có phòng ảo hay cuộc họp đã lên kế hoạch nào phù hợp với bộ lọc này"
+    },
+    "creation": {
+        "group": {
+            "inputTopicDescriptionLabel": "Nó mô tả chủ đề của nhóm",
+            "groupWithoutNameAddParticipant": "Thêm người tham gia vào Nhóm của bạn",
+            "addParticipantsDescription": "Mời người tham gia bằng cách nhập tên hoặc địa chỉ thư của họ. Bạn cần mời ít nhất hai người tham gia khác, nếu không, bạn có thể tạo trò chuyện(Chat).",
+            "mainDescription": "Các nhóm phải có nhiều hơn hai người tham gia và đặt tên nhóm cần ưu tiên để mô tả chủ đề của nhóm",
+            "setImageAndTopicDescription": "Đặt một hình ảnh sẽ giúp người dùng xác định nhóm trong các nhóm từ danh sách."
+        },
+        "requiresOneMoreParticipant": "Yêu cầu ít nhất một người tham gia nữa",
+        "requiresTwoOthers": "Yêu cầu ít nhất 2 người khác",
+        "instantMeeting": {
+            "addAttendeesInputExplanation": "Bạn cũng có thể mời người dùng bên ngoài chỉ bằng cách nhập địa chỉ thư của họ.",
+            "attendee": {
+                "feedback": {
+                    "negative": "Thư đã nhập không hợp lệ, vui lòng điền địa chỉ thư hợp lệ",
+                    "neutral": "Chọn một hoặc nhiều người tham dự"
+                }
+            },
+            "description": "Cuộc họp khẩn là các cuộc gọi điện video được thiết kế để sử dụng nhanh chóng và tạm thời và không lưu giữ nội dung cũng như dấu vết sau khi kết thúc cuộc gọi. Cuộc họp tức thì có thể được tạo bởi người dùng Team Pro và họ cũng có thể được tham gia bởi người dùng bên ngoài.",
+            "addAttendees": "Thêm người tham dự vào Cuộc họp khẩn của bạn",
+            "addAttendeesDescription": "Mời người tham dự bằng cách nhập tên hoặc địa chỉ thư của họ tại đây.",
+            "titleDescription": "Đặt một tiêu đề dễ nhận biết cho cuộc họp khẩn để những người tham dự của bạn sẽ biết mục đích của cuộc gọi này."
+        },
+        "nameMax140Characters": "Tối đa 140 ký tự",
+        "startTypingToPick": "Bắt đầu nhập để chọn một địa chỉ",
+        "titleInputRequirements": "Tối đa 140 ký tự, tiêu đề phải là duy nhất",
+        "topicMax255Characters": "Tối đa 255 ký tự",
+        "topicNeeds2Letters": "Chủ đề là tuỳ chọn, tối thiểu phải có 2 ký tự",
+        "topicOptional": "Không bắt buộc, dùng để mô tả chủ đề",
+        "typeToFilter": "Nhập để lọc danh sách",
+        "typeWithNameAddParticipant": "Thêm người tham gia vào",
+        "youCanInviteOther": "Bạn có thể mời {{limit}} người tham gia khác",
+        "attendeeAdded": "Đã thêm người tham dự vào danh sách",
+        "channel": {
+            "titleInputRequirements": "Chỉ cho phép 140 ký tự, tiêu đề được đặt phải là duy nhất trong không gian lưu trữ",
+            "topicDescription": "Kênh là các cuộc trò chuyện có chủ đề thảo luận, bạn nên sử dụng một chủ đề mô tả chủ đề đó tốt hơn.",
+            "topicInputExplanation": "Nó mô tả chủ đề của kênh",
+            "mainDescription": "Kênh là một cuộc trò chuyện theo chủ đề được xác định rõ ràng và được đưa vào không gian. Những người tham gia không gian có thể tham gia kênh để thảo luận tích cực về chủ đề của nó. Người tham gia có thể bỏ kênh mà không cần rời khỏi không gian.",
+            "setImageAndTitleDescription": "Đặt một hình ảnh để nhận dạng tốt hơn kênh bên trong không gian lưu trữ. Hình ảnh của kênh cũng có thể được đặt hoặc thay đổi trên bảng thông tin của kênh."
+        },
+        "chat": {
+            "addParticipant": "Chọn một người tham gia để bắt đầu trò chuyện",
+            "chatFilterDescription": "Bạn có thể tạo cuộc trò chuyện chỉ bằng cách nhấp vào người tham gia mà bạn muốn trò chuyện",
+            "description": "Cuộc trò chuyện là các cuộc trao đổi trực tiếp giúp bạn giữ liên lạc với các địa chỉ liên hệ của mình."
+        },
+        "participants": {
+            "feedback": {
+                "neutral": "Chọn ít nhất từ hai người trở lên tham gia"
+            }
+        },
+        "space": {
+            "addMembersDescription": "Mời người tham gia bằng cách nhập tên hoặc địa chỉ thư của họ. Bạn cần mời ít nhất hai người tham gia khác, nếu không, bạn có thể tạo cuộc trò chuyện.",
+            "mainDescription": "Không gian là môi trường giao tiếp chung bao gồm các cuộc trò chuyện cụ thể được gọi là kênh, mỗi cuộc trò chuyện có chủ đề riêng. Để tạo không gian, bạn cần mời ít nhất hai người tham gia. Các kênh có thể được thêm trực tiếp từ bảng thông tin của không gian.",
+            "spaceWithoutNameAddParticipant": "Mời người tham gia vào Không gian của bạn",
+            "titleDescription": "Tiêu đề dùng đê xác định không gian vì thế nó phải mô tả chủ đề của nó.",
+            "topicDescription": "Vì kênh là các cuộc trò chuyện được thúc đẩy bởi chủ đề được thảo luận, nên bạn nên sử dụng một chủ đề mô tả chủ đề đó tốt hơn.",
+            "topicInputExplanation": "Nó mô tả chủ đề của không gian"
+        },
+        "emailReplicated": "Thư vừa nhập đã được thêm vào",
+        "limitOfParticipantReached": "Bạn đã đạt đến giới hạn số người tham gia do quản trị viên đặt",
+        "nameNeeds2Letters": "Tên cần ít nhất hai chữ cái",
+        "nameRequired": "Yêu cầu phải có tên",
+        "nameRequired-max140Characters-avoidReusingNames": "Yêu cầu: Tối đa 140 ký tự, tránh sử dụng tên lặp lại.",
+        "selectMoreParticipantsForInstantMeetings": "Chọn một người tham gia từ danh sách hoặc nhập địa chỉ để thêm người dùng bên ngoài",
+        "selectOneOrMoreUsers": "Chọn ít nhất một người dùng"
+    },
+    "modal": {
+        "instantMeeting": {
+            "instantMeetingAlreadyRunningText": "Tạo một cái mới sẽ ghi đè cái cũ hơn và người tham dự của bạn sẽ mất kết nối, bạn muốn làm gì?",
+            "instantMeetingAlreadyRunningTitle": "Một cuộc họp khẩn đang chạy",
+            "endCallByOwner": "Chủ sở hữu cuộc họp khẩn đã quyết định kết thúc cuộc gọi, chúng tôi hy vọng bạn thích trải nghiệm cuộc họp khẩn",
+            "closedInstantMeeting": "Đóng cuộc họp khẩn",
+            "continue": "Tiếp tục với cuộc họp khẩn cũ",
+            "create": "Tạo cuộc họp khẩn mới"
+        },
+        "moderatorCannotLeaveGroupTitle": "Đợi, cần một người kiểm duyệt mới",
+        "notShowAgain": "Không hiển thị lại lần nữa",
+        "clearHistoryDescription": "Cuộc hội thoại này hiện trống, nó đã được chuyển xuống cuối danh sách cuộc hội thoại để nhấn mạnh những cuộc hội thoại đang hoạt động.",
+        "confirm": {
+            "clearHistory": "Bạn sẽ xóa vĩnh viễn lịch sử trò chuyện của mình. Lịch sử trò chuyện này của những người tham gia khác sẽ không bị xóa. Hành động này là không thể thay đổi.",
+            "leaveAndDeleteConversation": "Bạn có chắc chắn muốn rời và xoá {{conversationName}}?",
+            "leaveSpace": "Bạn có chắc chắn muốn rời không gian?",
+            "areYouSure": "Bạn có chắc chắn?",
+            "deleteChannel": "Bạn có chắc chắn xoá kênh này?",
+            "deleteRoom": "Bạn có chắc chắn xoá phòng này?",
+            "deleteSpace": "Bạn có chắc chắn xoá không gian này?",
+            "deleteVirtualRoom": "Bạn có chắc chắn xoá phòng ảo này?",
+            "leaveChannel": "Bạn có chắc chắn muốn rời kênh?",
+            "leaveGroup": "Bạn có chắc chắn muốn rời Nhóm?",
+            "removeMember": "Bạn có chắc chắn muốn xoá thành viên này?"
+        },
+        "moderatorCannotLeaveGroupDescription": "Bạn là người kiểm duyệt duy nhất của {{conversationName}}, vui lòng chọn người thay thế trước khi rời khỏi nhóm.",
+        "moderatorVirtualRoomDescription": "Bạn sẽ kiểm duyệt Phòng Ảo này. Bạn có thể thêm người kiểm duyệt bổ sung và họ sẽ có các quyền tương tự như bạn.",
+        "planMeetingDescription": "Tên của phòng giúp những người tham dự biết được vấn đề thảo luận của phòng.",
+        "roomsFunctionalitiesChangelogDescription": "Chúng tôi đã thực hiện những thay đổi quan trọng đối với các chức năng của cuộc họp. Đọc phần giới thiệu về phòng để tìm hiểu thêm!",
+        "stopMeetingRec": {
+            "locationWhereToSaveRecording": "Bản ghi sẽ được lưu trong \"/{{folderName}}\".",
+            "stopRecordingDescription": "Bạn sẽ dừng ghi. Bạn có thể bắt đầu bản ghi mới bất cứ lúc nào.",
+            "recordingName": "Tên bản ghi",
+            "stopMeetingTitle": "Dừng ghi cuộc họp",
+            "stopRecording": "Bản ghi sẽ dừng. Bạn có thể bắt đầu bản ghi mới bất cứ khi nào trong thời gian diễn ra cuộc họp.",
+            "stopRecordingTitle": "Dừng ghi"
+        },
+        "deleteMessageDescription": "Khi xóa một tin nhắn, tin nhắn đó sẽ không hiển thị nữa đối với bạn và tất cả những người nhận khác",
+        "news": "Tin tức",
+        "addModeratorDescription": "Chọn một hoặc nhiều người dùng để nâng họ lên người kiểm duyệt của Phòng này",
+        "forwardModal": {
+            "selectOneOrMoreConversations": "Chọn một hoặc nhiều cuộc hội thoại",
+            "spaceAndChannels": "Không gian và Kênh",
+            "typeToFilterTheList": "Gõ để lọc danh sách",
+            "forwardedMessageFrom": "Chuyển tiếp tin nhắn từ"
+        },
+        "moderatorMeetingDescription": "Bạn sẽ kiểm duyệt phòng này. Bạn có thể thêm người kiểm duyệt bổ sung và họ sẽ có các quyền tương tự như bạn.",
+        "planVirtualRoomDescription": "Đặt cho Phòng Ảo này một cái tên dễ nhận biết để cho những người tham dự của bạn biết những gì họ đến với họ khi tham gia phòng.",
+        "selectFolder": "Chọn thư mục",
+        "showPreviousConversationHistory": "Hiển thị lịch sử các cuộc hội thoại trước",
+        "teamNews": "Tin của đội",
+        "userJoinedWaitingRoom": "Dường như có ai trong phòng chờ"
+    },
+    "people": {
+        "you": "Bạn",
+        "whoYoureLookinkFor": "Bạn đang tìm ai vậy?",
+        "otherParticipants": "{{numberParticipants}} tham gia khác",
+        "participants": "Người tham gia",
+        "me": "Tôi",
+        "manyMembers": "{{membersCount}} thành viên",
+        "oneParticipant": "Một người tham gia"
+    },
+    "notification": {
+        "startMeetingRecording": "Bản ghi của cuộc họp {{conversationName}} đã được bắt đầu",
+        "waiting": {
+            "descriptionWaitingLabel": "Bạn đang đợi để chấp thuận là người kiểm duyệt bởi {{conversationName}}",
+            "descriptionAcceptedLabel": "Bạn đã chấp nhận là người kiểm duyệt của {{conversationName}}",
+            "notificationAcceptedByModerator": "Bạn đã chấp nhận là người kiểm duyệt",
+            "notificationJoinTheRoom": "Tham gia vào phòng để tham gia vào cuộc họp",
+            "notificationJoinTheVirtualRoom": "Tham gia vào phòng ảo để tham gia vào cuộc họp",
+            "userIsWaiting": "Người dùng mới đang đợi để vào",
+            "userJoinedWaitingRoom": "Dường như có ai trong phòng chờ"
+        },
+        "answer": "Trả lời",
+        "dismiss": "Bỏ qua",
+        "incomingCall": "Cuộc gọi đến từ:",
+        "invitationToPersonalRoom": "Mời vào Phòng Cá nhân từ:",
+        "invitationToPersonalVirtualRoom": "Mời tham gia phòng cá nhân ảo từ:",
+        "meeting": {
+            "ended": "Cuộc họp đã kết thúc"
+        }
+    },
+    "organizeYourMeeting": "Tổ chức các cuộc họp của riêng bạn hoặc tham gia phòng của đồng nghiệp của bạn",
+    "errorPage": {
+        "description": "Kiểm tra liên kết của bạn, nó bị hỏng",
+        "errorCode": "mã lỗi 404",
+        "title": "Xin lỗi, chúng tôi không thể tìm thấy phòng đó"
+    },
+    "virtualRoom": "Phòng ảo",
+    "appVersion": "Phiên bản ứng dụng",
+    "enterTheRoom": "Tham gia vào phòng",
+    "general": {
+        "browserNotSupported": "Phiên bản trình duyệt của bạn không được hỗ trợ. Bạn nên cập nhật trình duyệt để được hưởng lợi từ tất cả các tính năng!",
+        "goToTeam": "Đi tới đội",
+        "teamProductName": "Đội"
+    },
+    "label": {
+        "app_name": "Các Cuộc Trò chuyện"
+    },
+    "external": {
+        "login": {
+            "externalLoginDescription": "Nếu bạn thuộc về miền này thì bạn sẽ được chuyển hướng đến không gian làm việc thông thường của mình. Nếu bạn là người dùng bên ngoài, bạn sẽ được chuyển hướng đến một giao diện chuyên dụng khác."
+        },
+        "waitingRoom": {
+            "userLeftReturnToWaitingRoom": "Bạn có thể trở lại phòng chờ bất cứ lúc nào từ liên kết của phòng",
+            "accessDenied": "Từ chối truy cập",
+            "moderatorRefusedAccessToRoom": "Người kiểm duyệt đã từ chối quyền truy cập của bạn vào phòng này",
+            "userLeftLookForwardToSee": "Hẹn gặp lại bạn",
+            "userLeftWaitingRoom": "Bạn rời khỏi phòng chờ"
+        },
+        "nobodyInTheRoom": "Có vẻ không có ai trong phòng",
+        "nobodyInTheVirtualRoom": "Có vẻ không có ai ở trong phòng ảo",
+        "roomIsEmpty": "Phòng này rỗng",
+        "unsupported": {
+            "browser": "Không hỗ trợ trình duyệt",
+            "device": "Không hỗ trợ thiết bị"
+        },
+        "virtualRoomIsEmpty": "Phòng ảo này trống",
+        "youAreEnteringMeeting": "Bạn sắp vào phòng",
+        "youAreEnteringVirtualRoom": "Bạn sắp vào phòng ảo"
+    },
+    "enterTheVirtualRoom": "Tham gia vào phòng ảo",
+    "organizeYourVMeeting": "Tổ chức các cuộc họp của riêng bạn hoặc tham gia phòng ảo của đồng nghiệp của bạn",
+    "organizeYourVirtualMeeting": "Tổ chức các cuộc họp của riêng bạn hoặc tham gia phòng ảo của đồng nghiệp của bạn",
+    "personalRoomLabel": "Phòng cá nhân của {{userName}}",
+    "personalVirtualRoomLabel": "Phòng cá nhân ảo của {{userName}}",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "Tải xuống"
+            }
+        },
+        "close": {
+            "tooltip": "Đóng"
+        }
+    },
+    "attachments": {
+        "attachLinkFiles": "Đính kèm liên kết công khai từ tệp",
+        "attachLinkFromFiles": "Đính kèm liên kết từ tệp",
+        "shareLink": "Chia sẻ liên kết",
+        "addFromLocal": "Thêm từ cục bộ",
+        "share": "Chia sẻ liên kết công khai"
+    }
+}

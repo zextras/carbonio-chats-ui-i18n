@@ -1,0 +1,686 @@
+{
+    "action": {
+        "addModerators": "Модераторлорду кошуу",
+        "clearHistory": "Тарыхты тазалоо",
+        "copyLinkRoom": "Шилтемени көчүрүү",
+        "deleteSpace": "Иш мейкиндигин өчүрүү",
+        "join": "Кирүү",
+        "activateNotifications": "Билдирүүнү киштетүү",
+        "createChannel": "{{spaceName}} менен туташтырылган каналды түзүү",
+        "goToGuide": "Нускама",
+        "joinChannel": "Билдирүү жөнөтүү жана кабарлоо алуу үчүн Каналга кошулгула",
+        "openInTeam": "Team ачуу",
+        "replyToYourself": "Жооп берүү",
+        "scrollToTheBottom": "Төмөн жакка жылдырыңыз",
+        "add": "Кошуу",
+        "addChannel": "Канал кошуу",
+        "addMembers": "Катышуучуларды кошуу",
+        "addModerator": "Модераторду кошуу",
+        "addNewMembers": "Жаңы катышуучуларды кошуу",
+        "addNewMembersTo": "Жаңы катышуучуларды --- кошуу",
+        "addOtherModerators": "Башка модераторлорду кошуу",
+        "browse": "Көрүү",
+        "close": "Жабуу",
+        "collapse": "Түрүү (жыйыштыруу)",
+        "copy": "Көчүрүү",
+        "copyAppVersion": "Тиркеменин версиясын көчүрүү",
+        "copyLinkVirtualRoom": "Шилтемени көчүрүү",
+        "copyUserRoomLink": "Шилтемени көчүрүү",
+        "create": "Түзүү",
+        "createChat": "Чат түзүү",
+        "createGroup": "Топ түзүү",
+        "createInstantMeeting": "Ыкчам кеңшме түзүү",
+        "createRoom": "Бөлмө түзүү",
+        "createSpace": "Иш мейкиндигин түзүү",
+        "createVirtualRoom": "Виртуалдык бөлмө түзүү",
+        "delete": "Өчүрүү",
+        "deleteChannel": "Каналды өчүрүү",
+        "deleteRoom": "Бөлмөнү өчүрүү",
+        "deleteVirtualRoom": "Бөлмөнү өчүрүү",
+        "edit": "Редакциялоо",
+        "editYourMessage": "Билдирүүнү редакциялоо",
+        "expand": "Ачуу",
+        "forward": "Кайра жөнөтүү",
+        "joinChannelAction": "Каналга кошулгула",
+        "joinRoom": "Бөлмөгө кирүү",
+        "joinVirtualRoom": "Бөлмөгө кирүү",
+        "leave": "Чыгып кетүү",
+        "leaveAndDelete": "Чыгуу жана өчүрүү",
+        "leaveChannel": "Каналдан чыгуу",
+        "leaveGroup": "Топтон чыгуу",
+        "leaveSpace": "Иш мейкиндигинен чыгуу",
+        "muteNotifications": "Кабарлоону өчүрүү",
+        "openInChats": "Чаттарда ачуу",
+        "plan": "Пландоо",
+        "planMeeting": "Жолугушууну пландоо",
+        "remove": "Өчүрүү",
+        "removeMember": "Катышуучуну өчүрүү",
+        "reply": "Жооп берүү",
+        "replyToSomeone": "Жооп берүү",
+        "resetLink": "Шилтемени өчүрүү",
+        "saveToFiles": "Files сактоо",
+        "scrollToNewMessage": "Жаңы билдрүүгө чейин жылдыруу",
+        "start": "Жазуу",
+        "startMeeting": "Жолугушууну баштоо",
+        "stop": "Стоп",
+        "waitingModeratorToJoin": "Сиз модератордун жактыруусун күтүңүз"
+    },
+    "attachments": {
+        "addFromLocal": "Локалдык ресурстан кошуу",
+        "shareLink": "Шилтеме менен бөлүшүү",
+        "attachLinkFiles": "Коомдук шилтемени Files тиркеңиз",
+        "attachLinkFromFiles": "Шилтемени Files тиркеңиз",
+        "share": "Коомдук шилтеме менен бөлүшүү"
+    },
+    "conversation": {
+        "contactInfo": "Байланышуу үчүн маалымат",
+        "roomLink": "Бөлмөгө шилтеме",
+        "roomLinkDescription": "Бул бөлмөгө кирүү үчүн шилтемени көчүргүлө жана аны бөлүшкүлө",
+        "instantInfo": "Жолугушуу жөнүндө маалымат",
+        "virtualRoomLinkDescription": "Башка пайдалануучуларга бул бөлмөгө кирүү мүмкүнчүлүгүн берүү үчүн шилтемени көчүргүлө жана аны бөлүшкүлө",
+        "virtualRoomLink": "Виртуалдык бөлмөгө шилтеме",
+        "channelInfo": "Канал жөнүндө маалымат",
+        "fileUploadDescription": "Файлдын сүрөттөлүшү",
+        "groupInfo": "Топ жөнүндө маалымат",
+        "info": "Маалымат",
+        "name": "Аты",
+        "nameRoom": "Виртуалдык бөлмө {{conversationTitle}}",
+        "nameVirtualRoom": "Виртуалдык бөлмө {{conversationTitle}}",
+        "newMessages": "Жаңы билдирүү",
+        "roomInfo": "Бөлмө жөнүндө маалымат",
+        "roomName": "Бөлмөнүн аталышы",
+        "spaceInfo": "Иш мейкиндиги жөнүндө маалымат",
+        "speakersCorner": "Бөлмөдөгү пайдалануучулар",
+        "title": "Аталышы",
+        "topic": "Тема",
+        "virtualRoomInfo": "Бөлмө жөнүндө маалымат",
+        "virtualRoomName": "Бөлмөнүн аталышы"
+    },
+    "conversations": {
+        "noActiveInstantMeetings": "Азыркы учурда активдүү Ыкчам кеңешмелер жок. Жаңы Ыкчам кеңешме түзүңүз же кыстырмага которуңуз.",
+        "noFilteredRooms": "Бул чыпкага туура келген бөлмөлөр же пландалган жыйындар жок",
+        "noActiveChats": "Азыркы учурда активдүү чаттар жок. Жаңы чат түзүңүз же кыстырмага которуңуз.",
+        "noFilteredInstantMeetings": "Бул чыпкага туура келген Ыкчам кеңешмелер жок.",
+        "activeMeetingRooms": "Активдүү бөлмөлөр",
+        "activeRooms": "Активдүү бөлмөлөр",
+        "activeVirtualRooms": "Активдүү бөлмөлөр",
+        "chats": "Чаттар",
+        "conversations": "Чаттар",
+        "filterChatList": "Чаттардын тизмесин чыпкалоо",
+        "instantMeetings": "Ыкчам кеңешме",
+        "meetingRooms": "Бөлмөлөр",
+        "mockDisplayDescription": "Чатты баштоо үчүн сүйлөшүүнү тандаңыз",
+        "mockDisplayTitle": "Байланышта болобуз!",
+        "noActiveMeetings": "Азыркы учурда активдүү бөлмөлөр жок",
+        "noActiveRooms": "Азыркы учурда активдүү бөлмөлөр жок",
+        "noActiveSpaces": "Азыркы учурда активдүү иш мейкиндиги жок. Жаңы иш мейкиндигин түзүңүз.",
+        "noActiveVirtualRooms": "Азыркы учурда активдүү бөлмөлөр жок",
+        "noFilteredChats": "Бул чыпкага туура келген чаттар жок.",
+        "noFilteredMeetings": "Бул чыпкага туура келген бөлмөлөр же пландалган жолугушуулар жок",
+        "noFilteredSpaces": "Бул чыпкага туура келген иш мейкиндиги жок.",
+        "noFilteredVirtualRooms": "Бул чыпкага туура келген бөлмөлөр же пландалган жолугушуулар жок",
+        "spaces": "Иш мейкиндиги",
+        "personalRoom": "Жеке Виртуалдык бөлмө",
+        "personalVirtualRoom": "Жеке виртуалдык бөлмө",
+        "rooms": "Бөлмөлөр",
+        "scheduledMeetings": "Пландалган жолугушуулар",
+        "virtualRooms": "Виртуалдык бөлмөлөр",
+        "waitingRoom": "Күтүү бөлмөсү",
+        "yourRoom": "Сиздин Виртуалдык бөлмө",
+        "spaceGeneralChannel": "Жалпы"
+    },
+    "appVersion": "Тиркеменин версиясы",
+    "button": {
+        "cancel": "Жокко чыгаруу",
+        "no": "Жок",
+        "ok": "Ок",
+        "save": "Сактоо",
+        "undo": "Жокко чыгаруу",
+        "yes": "Ооба"
+    },
+    "creation": {
+        "instantMeeting": {
+            "attendee": {
+                "feedback": {
+                    "negative": "Киргизилген электрондук почта туура эмес, туура даректи киргизиңиз",
+                    "neutral": "Бир же бир нече катышуучуну тандаңыз"
+                }
+            },
+            "addAttendeesDescription": "Катышуучулардын атын же электрондук почта дарегин жазуу менен чакырыңыз.",
+            "description": "Ыкчам кеңешме - бул ички жана тышкы пайдалануучулар менен видео байланыш уюштуруу мүмкүнчүлүгү, чаттын тарыхы сакталбайт. Ыкчам кеңешме Pro версиясында жеткиликтүү.",
+            "addAttendees": "Ыкчам кеңешмеге катышуучуларды кошуу",
+            "addAttendeesInputExplanation": "Сиз электрондук почта дарегин терүү менен тышкы пайдалануучуларды чакыра аласыз.",
+            "titleDescription": "Ыкчам кеңешмеге сиздин катышуучулар чалуунун максатын билгендей кылып атагыла."
+        },
+        "channel": {
+            "topicDescription": "Каналдар, бул тематикалык чаттар.",
+            "setImageAndTitleDescription": "Каналга картина коюңуз. Картинаны Каналдын маалыматтык терезесинен өзгөртүүгө болот.",
+            "mainDescription": "Каналдар - бул иш мейкиндигинде түзүлгөн тематикалык чаттар. Иш мейкиндигинин катышуучулары Каналга кошула алышат. Катышуучулар Иш мейкиндигинен чыкпай туруп, Каналдан чыгып кете алышат.",
+            "titleInputRequirements": "140 символго жол берилет, Иш мейкиндигинин аталыш уникалдуу болууга тийиш",
+            "topicInputExplanation": "Каналдын темаларын сүрөттөө"
+        },
+        "requiresOneMoreParticipant": "Дагы бир катышуучу талап кылынат",
+        "chat": {
+            "description": "Чат - бул кесиптештериңиз менен байланышта болууга жардам берген бирден бир сүйлөшүү.",
+            "addParticipant": "Чат баштоо үчүн катышуучуну тандаңыз",
+            "chatFilterDescription": "Сиз сүйлөшүүнү каалаган катышуучуну басуу менен чатты түзө аласыз"
+        },
+        "group": {
+            "addParticipantsDescription": "Электрондук почтанын жана/же атынын жардамы менен катышуучуларды кошууга болот. Сиз кеминде эки катышуучуну кошууңуз талап кылынат. Же чат түзүңүз.",
+            "groupWithoutNameAddParticipant": "Сиздин топко катышуучуларды кошуңуз",
+            "inputTopicDescriptionLabel": "Топтун темасын сүрөттөө",
+            "mainDescription": "Топто экиден ашык катышуучу болууга тийиш",
+            "setImageAndTopicDescription": "Топ үчүн картинка коюңуз."
+        },
+        "attendeeAdded": "Катышуучу тизмеге кошулду",
+        "emailReplicated": "Киргизилген электрондук почтанын дареги мурда кошулган",
+        "limitOfParticipantReached": "Катышуучулардын администратор тарабынан коюлган чегине жеттиңиз",
+        "nameMax140Characters": "Максималдуу 140 символ",
+        "nameNeeds2Letters": "Аталышы кеминде эки тамганы камтууга тийиш",
+        "nameRequired": "Аталышы талап кылынат",
+        "nameRequired-max140Characters-avoidReusingNames": "Зарыл болгон максималдуу 140 символ",
+        "participants": {
+            "feedback": {
+                "neutral": "Эки же андан көп катышуучуларды тандаңыз"
+            }
+        },
+        "requiresTwoOthers": "Дагы 2 талап кылынат",
+        "selectMoreParticipantsForInstantMeetings": "Тизмеден катышуучуну тандаңыз же тышкы пайдалануучуну кошуу үчүн даректи териңиз",
+        "selectOneOrMoreUsers": "Бир же бир нече пайдалануучуну тандоо",
+        "space": {
+            "addMembersDescription": "Атын же электрондук почтанын дарегин киргизүү менен пайдалануучуларды чакырыңыз. Кеминде эки пайдалануучуну чакыруу керек, болбосо Чат түзүүгө мүмкүн болбойт.",
+            "topicDescription": "Иш мейкиндиги бул Каналдар менен тематикалык чаттар",
+            "mainDescription": "Иш мейкиндиги - бул тематикалык чаттарды (Каналдарды) камтыган коммуникациялык чөйрө. Иш мейкиндигин түзүү үчүн кеминде эки катышуучуну чакыруу талап кылынат. Каналдарды Иш мейкиндигинин маалыматтык панелинен түз кошууга болот.",
+            "spaceWithoutNameAddParticipant": "Иш мейкиндигине катышуучуларды кошуу",
+            "titleDescription": "Иш мекиндигинин аталышын көрсөтүңүз",
+            "topicInputExplanation": "Иш мейкиндигинин темаларын сүрөттөө"
+        },
+        "typeWithNameAddParticipant": "Катышуучуларды кошуу",
+        "titleInputRequirements": "140 символго жол берилет, аталышы уникалдуу булууга тийиш",
+        "startTypingToPick": "Даректи тандоо үчүн басып баштаңыз",
+        "topicMax255Characters": "Максимум 255 символ",
+        "topicNeeds2Letters": "Аталышынын болушу милдеттүү эмес. Кеминде 2 сөз",
+        "topicOptional": "Опция. Теманын сүрөттөлүшү",
+        "typeToFilter": "Тизмени чыпкалоо",
+        "youCanInviteOther": "Сиз  {{limit}} башка катышуучуларды чакыра аласыз"
+    },
+    "errorPage": {
+        "description": "Шилтемени текшериңиз, туура эмес болушу мүмкүн",
+        "errorCode": "Катанын коду 404",
+        "title": "Кечиресиз, биз ал Бөлмөнү тапкан жокпуз"
+    },
+    "external": {
+        "doYouHaveTheAppChats": "Сизде Carbonio Chats тиркемеси орнотулганбы?",
+        "waitingRoom": {
+            "userLeftReturnToWaitingRoom": "Сиз шилтеме боюнча каалаган убагыңызда Күтүү бөлмөсүнө кайтып келе аласыз",
+            "accessDenied": "Кирүү мүмкүнчүлүгүнө уруксат берилген жок",
+            "moderatorRefusedAccessToRoom": "Сизге бул Бөлмөгө кирүү үчүн модератор уруксат берген жок",
+            "userLeftLookForwardToSee": "Жолугушууга чейин",
+            "userLeftWaitingRoom": "Сиз Күтүү бөлмөсүнөн чыгып кеттиңиз"
+        },
+        "login": {
+            "externalLoginDescription": "Эгерде Сиз ушул доменге таандык болсоңуз, кадимки иштөө интерфейсиңизге багытталасыз. Эгер сиз тышкы пайдалануучу болсоңуз, анда атайын бөлүнгөн интерфейске багытталасыз."
+        },
+        "appStoreLabel": "App Store",
+        "doYouHaveTheApp": "Сиз Chats мобилдик тиркемесин колдоносузбу?",
+        "doYouHaveTheAppTeam": "Сизде Zextras Chats тиркемеси орнотулганбы?",
+        "downloadAppLabel": "Жолугушууга кошулуу үчүн тиркемени жүктөп алыңыз",
+        "enter": "Кошулуңуз!",
+        "nobodyInTheRoom": "Бул Бөлмөдө эч ким жок",
+        "nobodyInTheVirtualRoom": "Бул Бөлмөдө эч ким жок окшойт",
+        "orLabel": "же",
+        "playStoreLabel": "Google Play",
+        "roomIsEmpty": "Бул Виртуалдык бөлмө бош",
+        "unsupported": {
+            "browser": "Колдоого алынбаган браузер",
+            "device": "Колдоого алынбаган түзүлүш"
+        },
+        "virtualRoomIsEmpty": "Бул Виртуалдык бөлмө бош",
+        "youAreEnteringMeeting": "Сиз Бөлмөгө кирейин деп жатасыз",
+        "youAreEnteringVirtualRoom": "Сиз Бөлмөгө кирейин деп жатасыз"
+    },
+    "feedback": {
+        "historyClearedSuccessfully": "Тарых тазалданды!",
+        "offline": "Серверге туташтырууда көйгөй бар",
+        "saveAttachmentSuccessfull": "Тиркеме тандалган папкага сакталды",
+        "online": "Кайрадан тармактасыз!",
+        "resetPersonalVirtualRoomLinkSuccess": "Жеке Виртуалдык бөлмөгө шилтеме жөнөтүлгөн",
+        "appVersionCopied": "Тиркеменин версиясы көчүрүлдү",
+        "connecting": "Туташуу…",
+        "linkCopied": "Шилтеме көчүрүлдү",
+        "notificationsActivatedForThisChat": "Бул Чат үчүн билдирүү иштетилген",
+        "notificationsMutedForThisChat": "Бул Чат үчүн билдирүүнү өчүрүү",
+        "resetPersonalRoomLinkSuccess": "Жеке бөлмөгө шилтеме жөнөтүлгөн",
+        "retryConnection": "Туташууну кайталаңыз",
+        "roomLinkCopied": "Шилтеме көчүрүлдү",
+        "saveAttachmentError": "Сактоодо көйгөй жаралды, дагы бир жолу кайталаңыз",
+        "tryAReconnectionIn": "{{seconds}} аркылуу кайра туташууга аракет кылып көрүңүз",
+        "uploadConversationPicturesFailed": "Чаттын сүрөтүн жүктөө мүмкүн болгон жок",
+        "virtualRoomLinkCopied": "Бөлмөгө шилтеме көчүрүлдү"
+    },
+    "meeting": {
+        "defaultViewModeDedicatedLabel": "\"Атайын режим\" сиздин браузердин өзүнчө кыстырмасына багыттайт.",
+        "attendeesComing": "Катышуучулар кошулууда",
+        "blurMyBackground": "Фонду бүдөмүк кылуу",
+        "defaultViewModeDedicatedLabelVirtualRoom": "\"Атайын режим\" сиздин браузердин өзүнчө кыстырмасына багыттайт.",
+        "defaultViewModeDedicatedModeLabel": "Атайын режим",
+        "defaultViewModeDedicatedModeLabelVRoom": "Атайын режим",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Атайын режим",
+        "defaultViewModeDefaultLabel": "\"Демейки режимди\" тандасаңыз, жолугушуу учурдагы браузерде башталат.",
+        "interactions": {
+            "mutedByModerators": "Модератор үндү өчүрдү, сүйлөө үчүн үндү иштетиңиз",
+            "enableFullScreen": "Толук экрандык режим",
+            "hideChat": "Чатты жашыруу",
+            "micTesting": "Үнүңүздү үн түзүлүшүнөн угасыз. Бул микрофонуңуздун сапатын, ошондой эле жолугушуу үчүн тандалган үн түзүлүшүн текшерүүгө мүмкүндүк берет",
+            "status": {
+                "cameraMicOff": "Сиздин камера жана микрофон өчүрүлгөн",
+                "cameraOff": "Сиздин камера өчүрүлгөн"
+            },
+            "audioDisabled": "Үнү өчүрүлдү",
+            "audioEnabled": "Үнү иштетилди",
+            "cameraDisabled": "Камера өчүрүдү",
+            "cameraEnabled": "Камера иштетилди",
+            "cinemaView": "Кинотеатр режими",
+            "closeCall": "Чалууну аяктоо",
+            "disableAudio": "Үнүн өчүрүү",
+            "disableFullScreen": "Толук экран режиминен чыгуу",
+            "disableScreensharing": "Экранга жалпы кирүү мүмкүнчүлүгүн өчүрүү",
+            "disableVideo": "Видеону өчүрүү",
+            "enableAudio": "Аудиону иштетүү",
+            "enableScreenSharing": "Экранга жалпы кирүү мүмкүнчүлүгүн иштетүү",
+            "enableVideo": "Видеону иштетүү",
+            "gridView": "\"Торчо\" көрүнүшү",
+            "hangOff": "Трубканы коюу",
+            "hideParticipants": "Катышуучуларды жашыруу",
+            "muteUser": "Үнүн иштетүү",
+            "muteUserForAllDescription": "Пайдалануучунун үнүн өчүргөндө, бардык катышуучулар аны укпай калышат. Үндү өчүргөн пайдалануучу гана аны иштете алат. Уланталыбы?",
+            "muteUserForAllTitle": "Бардыгы үчүн үндү өчүрүү",
+            "mutedByOthers": "Сиз үчүн үн өчүрүлгөн",
+            "pinVideo": "Видеону тиркөө",
+            "playMic": "Микрофонду текшерип баштоо",
+            "playMyVoice": "Үндү чыгаруу",
+            "shortCutLabel": "(С)",
+            "showChat": "Чатты көрсөтүү",
+            "showParticipants": "Катышуучуларды көрсөтүү",
+            "stopMic": "Микрофонду текшерүүнү токтотуу",
+            "stopMyVoice": "Иштетүүнү токтотуу",
+            "unpinVideo": "Видеону алып салуу"
+        },
+        "resetMeetingUrlModalDescription": "Сиз \"{{conversationName}}\" пландалган жолугушуу үчүн шилтемени алып салгыңыз келет?",
+        "recordedByMe": "Сиз жаздырууну баштадыңыз",
+        "successSaveMeetingRecording": "Ал жеткиликтүү болсо эле, {{registrationName}}  {{folderName}} жаздырууларын таба аласыз",
+        "wereToFindRec": "Жаздырууну токтоткон модератордун папкасындагы Files жаздыруу сакталат.",
+        "startModal": {
+            "descriptionPersonalRoom": "Сиз {{meetingTitle}} жеке бөлмөңүзгө кантип кирүүнү каалайсыз?",
+            "noVideoAndNoAudio": "Камера да, микрофон да өчүрүлгөн",
+            "videoAndNoAudio": "Камера иштеп жатат, микрофон өчүрүлгөн",
+            "description": "Сиз кантип кирүүнү каалайсыз?",
+            "descriptionMyPersonalRoom": "Сиз жеке бөлмөңүзгө кантип кирүүнү каалайсыз?",
+            "descriptionMyPersonalVirtualRoom": "Сиз Жеке бөлмөңүзгө кантип кирүүнү каалайсыз?",
+            "descriptionPersonalVirtualRoom": "Сиз {{meetingTitle}} Жеке бөлмөңүзгө кантип кирүүнү каалайсыз?",
+            "descriptionVirtualRoom": "Сиз {{meetingTitle}} кантип кирүүнү каалайсыз?",
+            "enter": "Кирүү",
+            "noVideoAndAudio": "Камера өчүрүлгөн, микрофон иштеп жатат",
+            "videoAndAudio": "Камера да, микрофон да иштеп жатат"
+        },
+        "wereToFindRecording": "Жаздыруу локалдык видеосерверде сакталат. Кошумча маалымат алуу үчүн системалык администраторго кайрылыңыз.",
+        "defaultViewModeDefaultLabelVirtualRoom": "\"Демейки режимди\" тандасаңыз, Виртуалдык бөлмө учурдагы браузерде иштей баштайт.",
+        "defaultViewModeDefaultModeLabel": "Демейки режим",
+        "defaultViewModeSaveLabel": "Сактоо параметри",
+        "defaultViewModeSecondaryDescriptionLabel": "Бул опция Сиздин жөндөөлөрүңүздө сакталат жана кирген сайын жаңыртылып турушу мүмкүн.",
+        "defaultViewModeTitleModal": "Параметрлер",
+        "defaultViewModeTitleModalVirtualRoom": "Виртуалдык бөлмөнүн жөндөөлөрү",
+        "errorMeetingRecording": "Жазууга мүмкүн болбой жатат, системалык администраторго кайрылыңыз.",
+        "errorMeetingSavingRecording": "Жазууну токтотууга мүмкүн болбой жатат, дагы бир жолу аракет кылып көрүңүз",
+        "genericErrorMeeting": "Бул жолугушууда көйгөй жаралды. Системалык администраторго кайрылыңыз.",
+        "noEffect": "Эффект жок",
+        "recordedByOther": "{{username}}  жаздырууну иштетүү",
+        "recording": "Жаздыруу",
+        "setVirtualBackground": "Виртуалдык фон орнотуу",
+        "thisMeetingIsBeingRecorded": "Жаздыруу жүрүп жатат"
+    },
+    "general": {
+        "browserNotSupported": "Сиздин браузердин версиясы колдоого алынбайт. Бардык функцияларды пайдалануу үчүн браузерди жаңылоо сунушталат!",
+        "goToTeam": "Team өтүү",
+        "teamProductName": "Team"
+    },
+    "enterTheRoom": "Бөлмөгө кирүү",
+    "enterTheVirtualRoom": "Бөлмөгө кирүү",
+    "label": {
+        "app_name": "Chats"
+    },
+    "message": {
+        "service": {
+            "member": {
+                "kicked": {
+                    "space": "{{member_name}} Иш мейкиндигинен {{kicked_by}} өчүрүлгөн",
+                    "channel": "{{member_name}} {{kicked_by}} Каналынан өчүрүлгөн",
+                    "chat": "{{member_name}} Чаттан {{kicked_by}} пайдалануучусу тарабынан өчүрүлгөн",
+                    "group": "{{member_name}} Топтон {{kicked_by}} пайдалануучусу тарабынан өчүрүлгөн"
+                },
+                "you": {
+                    "invited": "Сиз {{member_name}} чакырдыңыз",
+                    "kicked": {
+                        "space": "Иш мейкиндигинен {{member_name}} өчүрүп салдыңыз",
+                        "channel": "Каналдан {{member_name}} өчүрүп салдыңыз",
+                        "group": "Топтон {{member_name}} өчүрүп салдыңыз"
+                    }
+                },
+                "changed": {
+                    "name": {
+                        "channel": "{{member_name}} {{name}} каналындагы аталышты өзгөрттү",
+                        "space": "{{member_name}} {{name}} Иш мейкиндигинин аталышын өзгөрттү"
+                    },
+                    "picture": {
+                        "space": "{{member_name}} Иш мейкиндигини картинасын өзгөрттү",
+                        "channel": "{{member_name}} каналдын картинасын өзгөрттү",
+                        "group": "{{member_name}} Топтун картинасын өзгөрттү"
+                    },
+                    "topic": {
+                        "space": "{{member_name}} {{topic}} Каналдын темасын өзгөрттү",
+                        "channel": "{{member_name}} {{topic}} Каналдын темасын өзгөрттү",
+                        "group": "{{member_name}} {{topic}} Топтун темасын өзгөрттү"
+                    }
+                },
+                "deleted": {
+                    "space": "{{member_name}} Иш мейкиндигин өчүрдү",
+                    "channel": "{{member_name}} Каналды өчүрдү",
+                    "instantMeeting": "{{member_name}} Ыкчам кеңешмени өчүрдү"
+                },
+                "created": {
+                    "channel": "{{member_name}} Канал түздү",
+                    "group": "{{member_name}} Топ түздү",
+                    "single": "{{member_name}} Чат түздү",
+                    "space": "{{member_name}} Иш мейкиндигин түздүү"
+                },
+                "invited": "{{member_name}} {{invited_by}} тарабынан чакырылган",
+                "join": {
+                    "channel": "{{member_name}} Каналга кошулду",
+                    "conversation": "{{member_name}} Чатка кошулду"
+                },
+                "left": {
+                    "channel": "{{member_name}} Каналдан чыгып кетти",
+                    "chat": "{{member_name}} chat чыгып кетти",
+                    "group": "{{member_name}} Топтон чыгып кетти",
+                    "space": "{{member_name}} Иш мейкиндигинен чыгып кетти"
+                }
+            },
+            "you": {
+                "changed": {
+                    "picture": {
+                        "group": "Сиз Топтун картинасын өзгөрттүңүз",
+                        "channel": "Сиз Каналдын картинасын өзгөрттүңүз",
+                        "space": "Иш мейкиндигинин аталышын өзгөрттүңүз"
+                    },
+                    "topic": {
+                        "group": "Топтун темасын {{topic}} өзгөрттүңүз",
+                        "channel": "Каналдын темасын {{topic}} өзгөрттүңүз",
+                        "space": "Иш мейкиндигинин темасын {{topic}} өзгөрттүңүз"
+                    },
+                    "name": {
+                        "channel": "Сиз Каналдын аталышын {{name}} өзгөрттүңүз",
+                        "space": "Сиз Иш мейкиндигинин аталышын {{name}} өзгөрттүңүз"
+                    }
+                },
+                "join": {
+                    "group": "Сиз Топко кошулдуңуз",
+                    "channel": "Сиз Каналга кошулдуңуз",
+                    "instantMeeting": "Сиз Ыкчам кеңешмеге кошулдуңуз",
+                    "space": "Сиз Иш мейкиндигине кошулдуңуз",
+                    "userRoom": "Сиз Бөлмөгө кирдиңиз"
+                },
+                "deleted": {
+                    "channel": "Сиз Каналды өчүрүп салдыңыз",
+                    "instantMeeting": "Сиз Ыкчам кеңешмени өчүрүп салдыңыз",
+                    "space": "Иш мейкиндигин өчүрүп салдыңыз"
+                },
+                "kicked": {
+                    "channel": "Сиз Каналдан {{kicked_by}} тарабынан өчүрүлдүңүз",
+                    "group": "Сиз топтон {{kicked_by}} тарабынан өчүрүлдүңүз",
+                    "space": "Сиз Иш мейкиндигинен {{kicked_by}} тарабынан өчүрүлдүңүз"
+                },
+                "left": {
+                    "group": "Сиз Топтон чыгып кеттиңиз",
+                    "channel": "Сиз Каналдан чыгып кеттиңиз",
+                    "space": "Сиз Иш мейкиндигинен чыгып кеттиңиз"
+                },
+                "created": {
+                    "channel": "Сиз Канал түздүңүз",
+                    "group": "Топ түздүңүз",
+                    "single": "Сиз Чат түздүңүз",
+                    "space": "Иш мейкиндигин түздүңүз"
+                },
+                "invited": "Сизди {{invited_by}} чакырган"
+            },
+            "newMeeting": "Кирген чалуулар:",
+            "notificationsMutedForThisChat": "Бул Чат үчүн билдирүүнү өчүрүү",
+            "conversationCreated": "Чат түзүлгөн",
+            "meeting": {
+                "ended": "Кеңешме аяктады",
+                "endedAtTime": "Кеңешме ... аяктады",
+                "startedAtTime": "Кеңешме ... башталды"
+            },
+            "notificationsActivatedForThisChat": "Бул Чат үчүн билдирүү иштетилген"
+        },
+        "deletedMessage": "Өчүрүлгөн билдирүү",
+        "edited": "редакцияланган",
+        "forwarded": "жөнөтүлгөндөр",
+        "now": "Азыр",
+        "readBy": "Окулду",
+        "yesterday": "Кечээ"
+    },
+    "modal": {
+        "clearHistoryDescription": "Бул Чаттын тарыхы өчүрүлдү, активдүү чаттарга кирүүнү жеңилдетүү үчүн эми ал чаттардын тизмесинин төмөн жагына жайгаштырылды.",
+        "addModeratorDescription": "Бул Бөлмөгө бир де бир нече пайдалануучуну модератор кылыңыз",
+        "confirm": {
+            "leaveGroup": "Топтон чыгууну каалайсызбы?",
+            "removeMember": "Бул пайдалануучуну өчүрүп салууну каалайсызбы?",
+            "areYouSure": "Чын эле каалап жатасызбы?",
+            "clearHistory": "Сиз Чаттын тарыхын биротоло тазалайсыз. Бул Чаттын тарыхы башка катышуучуларда өчүрүлбөйт. Мындай аракет кайтарылгыс.",
+            "deleteChannel": "Чын эле бул Каналды жок кылууну каалайсызбы?",
+            "deleteRoom": "Чын эле бул Бөлмөнү жок кылууну каалайсызбы?",
+            "deleteSpace": "Чын эле бул Иш мейкиндигин жок кылууну каалайсызбы?",
+            "deleteVirtualRoom": "Чын эле Бөлмөнү жок кылууну каалайсызбы?",
+            "leaveAndDeleteConversation": "Чын эле {{conversationName}} чыгууну жана аны жок кылууну каалайсызбы?",
+            "leaveChannel": "Каналдан чыгууну каалайсызбы?",
+            "leaveSpace": "Иш мейкиндигинен чыгууну каалайсызбы?"
+        },
+        "instantMeeting": {
+            "endCallByOwner": "Ыкчам кеңешменин уюштуруучусу сүйлөшүүнү токтотууну чечти",
+            "instantMeetingAlreadyRunningText": "Жаңы \"жолугушууну\" түзүү, учурдагыны жок кылат, ал эми анын катышуучулар байланышын жоготот. Улантууну каалайсызбы?",
+            "closedInstantMeeting": "Ыкчам кеңешме аяктады",
+            "continue": "Ыкчам кеңешмени улантуу",
+            "create": "Жаңы Ыкчам кеңешме түзүү",
+            "instantMeetingAlreadyRunningTitle": "Ыкчам кеңешме башталган"
+        },
+        "forwardModal": {
+            "selectOneOrMoreConversations": "Бир же бир нече чатты тандаңыз",
+            "forwardedMessageFrom": "Билдирүү жөнөтүлдү",
+            "spaceAndChannels": "Иш мейкиндиктери жана Каналдар",
+            "typeToFilterTheList": "Тизменин чыпкасы"
+        },
+        "stopMeetingRec": {
+            "stopRecordingDescription": "Жаздырууну токтотоюн деп жатасыз. Жаңы жаздырууну каалаган учурда баштай аласыз.",
+            "stopMeetingTitle": "Жолугушууну жаздырууну токтотуу",
+            "stopRecording": "Жаздыруу токтотулат. Бул жолугушууда каалаган учурда жаздырууну баштасаңыз болот.",
+            "locationWhereToSaveRecording": "Жаздыруу {{folderName}} сакталат.",
+            "recordingName": "Жаздыруунун аталышы",
+            "stopRecordingTitle": "Жаздырууну токтотуу"
+        },
+        "moderatorMeetingDescription": "Сиз бул Бөлмөнүн модераторусуз. Кошумча модераторлорду кошо аласыз жана алар сиздей эле укуктарга ээ болушат.",
+        "moderatorVirtualRoomDescription": "Сиз бул Виртуалдык бөлмөнүн модераторусуз. Кошумча модераторлорду кошо аласыз жана алар сиздей эле укуктарга ээ болушат.",
+        "roomsFunctionalitiesChangelogDescription": "Функционалдык мүмкүнчүлүктөргө маанилүү өзгөртүүлөрдү киргиздик. Виртуалдык бөлмөлөр жөнүндө маалыматтар менен таанышкыла!",
+        "deleteMessageDescription": "Бул билдирүүнү өчүрүп салсаңыз, ал сизге жана калган бардык алуучуларга да көрүнбөй калат",
+        "moderatorCannotLeaveGroupDescription": "Сиз {{conversationName}} топтун жалгыз модераторусуз, бул топтон чыгуудан мурда укукту башка пайдалануучуга өткөрүп бериңиз.",
+        "moderatorCannotLeaveGroupTitle": "Күтө туруңуз, жаңы модератор талап кылынат",
+        "moderatorRoomDescription": "Сиз бул Бөлмөнүн модераторусуз. Кошумча модераторлорду кошо аласыз жана алар сиздей эле укуктарга ээ болушат.",
+        "news": "Жаңылыктар",
+        "notShowAgain": "Муну кайра көрсөтпө",
+        "planMeetingDescription": "Бөлмөнүн аталышын көрсөтүңүз.",
+        "planRoomDescription": "Бул Бөлмөгө тематикалык атталыш бериңиз.",
+        "planVirtualRoomDescription": "Бөлмөнүн аталышын көрсөтүңүз.",
+        "selectFolder": "Папка тандаңыз",
+        "teamNews": "Team жаңылыктары",
+        "userJoinedWaitingRoom": "Күтүү бөлмөсүндө бирөө бар окшойт"
+    },
+    "notification": {
+        "invitationToPersonalRoom": ".... жеке бөлмөгө чакыруу",
+        "startMeetingRecording": "{{conversationName}} менен жолугушууну жаздыруу башталды",
+        "waiting": {
+            "descriptionAcceptedLabel": "Сиз {{conversationName}} модератор тарабынан кабыл алындыңыз",
+            "descriptionWaitingLabel": "Сиз {{conversationName}} модератор тарабынан кабыл алууну күтүп жатасыз",
+            "notificationAcceptedByModerator": "Сиз модератор тарабынан кабыл алындыңыз",
+            "notificationJoinTheRoom": "Бөлмөгө кирүү",
+            "notificationJoinTheVirtualRoom": "Виртуалдык бөлмөгө кирүү",
+            "userIsWaiting": "Жаңы пайдалануучу кирүүнү күтүп жатат",
+            "userJoinedWaitingRoom": "Күтүү бөлмөсүндө бирөө бар"
+        },
+        "answer": "Жооп берүү",
+        "dismiss": "Четке кагуу",
+        "incomingCall": "Кирген чалуу:",
+        "invitationToPersonalVirtualRoom": "... Жеке виртуалдык бөлмөгө чакыруу",
+        "meeting": {
+            "ended": "Жолугушуу аяктады"
+        }
+    },
+    "tooltip": {
+        "copyRoomLink": "Шилтемени көчүрүп алуу жана бөлүшүү",
+        "chooseFile": "Файл тандоо",
+        "acceptQueuedMember": "Кирүүгө уруксат берүү",
+        "addFile": "Файл кошуу",
+        "cancelFilter": "Чыпканы жокко чыгаруу",
+        "chooseRoom": "Виртуалдык бөлмөнү тандоо",
+        "close": "Жабуу",
+        "closeSearch": "Издөөнү жабуу",
+        "collapseChannel": "Каналдарды түрүү",
+        "copyRoomLinkTooltip": "Шилтемени көчүрүп алуу жана бөлүшүү",
+        "copyUserRoom": "Жеке бөлмөгө шилтемени көчүрүү",
+        "copyUserRoomTooltip": "Шилтемени көчүрүп алыңыз жана Жеке бөлмөңүзгө башкалардын кирүүсү үчүн аны бөлүшкүлө",
+        "copyUserVirtualRoomTooltip": "Шилтемени көчүрүп алыңыз жана Жеке виртуалдык бөлмөңүзгө башкалардын кирүүсү үчүн аны бөлүшкүлө",
+        "copyVirtualRoomLinkTooltip": "Шилтемени көчүрүп алгыла",
+        "disabledCreateButton": "Катанын жок экенине ишенүү үчүн киргизилген маалыматтарды текешриңиз",
+        "downgradeModerator": "Модератордун укуктарын төмөндөтүү",
+        "editDescription": "Сүрөттөлүшүн редакциялоо",
+        "editInfo": "Маалыматтарды редакциялоо",
+        "enterMeetingRoom": "Бөлмөгө кирүү",
+        "enterYourRoom": "Жеке бөлмөгө кирүү",
+        "enterYourRoomTooltip": "Жеке бөлмөгө кирүү",
+        "enterYourVirtualRoomTooltip": "Жеке бөлмөгө кирүү",
+        "errorRemovingAvatarPicture": "Картинаны өчүрүүдө ката кетти. Сураныч, кайталап көрүңүз",
+        "errorUpdatingAvatarStatus": "Статусту жөнгө салууда ката кетти. Сураныч, кайталап көрүңүз",
+        "errorUploadingAvatarPicture": "Жаңы картинаны жүктөөдө ката кетти. Сураныч, кайталап көрүңүз",
+        "goToPrivateChat": "Жеке чатка өтүү",
+        "inviteToPersonalRoom": "Жеке бөлмөгө чакыруу",
+        "messageComposer": "Билдирүү түзүү каражаты",
+        "openMinichat": "Мини чат ачуу",
+        "planMeeting": "Жолугушууну пландоо",
+        "promoteModerator": "Модератор кылуу",
+        "rejectQueuedMember": "Пайдалануучунун кирүүсүн четке кагуу",
+        "removeFile": "Файлды өчүрүү",
+        "removeMember": "Катышуучуну өчүрүү",
+        "searchForParticipant": "Катышуучуну издөө",
+        "selectEmoji": "emoji тандоо",
+        "sendFile": "Файл жөнөтүү",
+        "sendMessage": "Билдирүү жөнөтүү",
+        "showChannels": "Каналдарды көрсөтүү",
+        "switchToConversation": "Чатка өтүү",
+        "switchToInfoPanel": "Маалыматтар панелине өтүү"
+    },
+    "organizeYourVirtualMeeting": "Жеке жолугушууларды түзгүлө же кесиптештериңиздин Виртуалдык бөлмөсүнө кошулгула",
+    "settings": {
+        "meeting": {
+            "descriptionVirtualRoom": "Виртуалдык бөлмөгө кирүү алдында аудио жана видеону каалаганыңыздай орнотуңуз. Кирүү алдында каалагандай ыңгайлаштырууга болот.",
+            "description": "Видео жана үн параметрлерин жөндөө. Каалаган жолугушууга кирүү алдында жөндөөнү өзгөртө аласыз.",
+            "personalRoomResetDescription": "Жеке бөлмөгө шилтеме баштапкы абалга келтирилсе, мурда берилген бардык кирүү мүмкүнчүлүктөрү жокко чыгарылат.",
+            "voiceProcessing": "Үндү иштетүү",
+            "personalVirtualRoomResetDescription": "Жеке Виртуалдык бөлмөгө шилтемени баштапкы абалга келтирүүдө, мурда берилген бардык кирүү мүмкүнчүлүктөрү иштебей калат.",
+            "voiceProcessingDescription": "Үнүңүздү демейки үн түзүлүшүнөн угасыз. Бул микрофондун сапатын, ошондой эле жолугушуу үчүн тандалган үн түзүлүшүн текшерүүгө мүмкүндүк берет.",
+            "descriptionRoom": "Бөлмөгө кирүү үчүн видеону жана үндү ыңгайлаштыруу. Ар бир бөлмөгө кирүү алдында каалагандай ыңгайлаштырып алсаңыз болот.",
+            "enableCamera": "Камераны иштетүү",
+            "enableEchoCancellation": "Эхону басуу",
+            "enableMicrophone": "Микрофонду иштетүү",
+            "enableNoiseSuppression": "Ызы-чууну басуу",
+            "meetings": "Жолугушуулар",
+            "personalRoomOptionsTitleModal": "Жеке бөлмөгө шилтемени баштапкы абалга келтирүү",
+            "personalRoomResetButton": "Шилтемени өчүрүү",
+            "personalVirtualRoomOptionsTitleModal": "Жеке Виртуалдык бөлмөгө шилтеме баштапкы абалга келтирилди",
+            "personalVirtualRoomResetButton": "Жеке бөлмөгө шилтемени баштапкы абалга келтирүү",
+            "virtualRooms": "Виртуалдык бөлмөлөр"
+        },
+        "notifications": {
+            "description": "Чаттарда билдирүүнүн ар бир тиби үчүн жөнгө салууну орнотуу."
+        },
+        "resetPersonalRoomLinkSuccess": "Жеке бөлмөгө шилтеме алгачкы калыбына келтирилди",
+        "notification": {
+            "title": {
+                "openMinichatForGroup": "Топто жаңы билдирүү келгенде ачуу",
+                "notifications": "Билдирүү",
+                "openMinichat": "Жаңы билдирүүнү ачуу",
+                "openMinichatForSingle": "Жаңы билдирүү келгенде ачуу",
+                "openMinichatForSpace": "Иш мейкиндигине келген жаңы билдирүүнү ачуу"
+            },
+            "desktop": "Билдирүү",
+            "openMinichatDescription": "Мини чат ачууну жөнгө салыңыз"
+        },
+        "profile": {
+            "statusOptionalDescription": "Опция. Белгилердин максималдык саны 256",
+            "chooseAProfilePic": "Профилдин сүрөтүн тандаңыз, сүрөт автоматтык түрдө борбордо болот.",
+            "errorGenericResponse": "Бир нерсе туура эмес болуп калды. Кайталап көрүңүз",
+            "maximumDimension": "Максималдык өлчөмү: 256кб.",
+            "reset": "Өчүрүү",
+            "restore": "Калыбына келтирүү",
+            "title": "Профиль",
+            "update": "Жаңылоо"
+        },
+        "modal": {
+            "description": "Бул жерден бардык чаттар үчүн атайын жөнгө салууларды орното аласыз!",
+            "title": "Чаттарды жөндөө"
+        },
+        "recordingMeeting": {
+            "descriptionWhereToSaveRegistration": "Жаздырууларды сактоо үчүн көздөгөн папканы орнотуу.",
+            "destinationFolder": "Көздөгөн папка",
+            "recording": "Жаздыруулар"
+        },
+        "title": "Жөндөө"
+    },
+    "organizeYourMeeting": "Жеке жолугушууларды түзгүлө же кесиптештериңиздин Виртуалдык бөлмөсүнө кошулгула",
+    "personalVirtualRoomLabel": "{{userName}} жеке Виртуалдык бөлмөсү",
+    "status": {
+        "waitingToEnter": "Кирүүнү күтүп жатат",
+        "areWriting": "жазып жатат…",
+        "externalGuest": "Тышкы конок",
+        "internalGuest": "Ички конок",
+        "isWriting": "жазып жатат…",
+        "lastSeen": "{{lastSeen}} акыркы жолу киргени",
+        "offline": "Тармактан тышкары",
+        "online": "Тармакта",
+        "userStatus": "Статус"
+    },
+    "noRoomSelected": "Виртуалдык бөлмө тандалган жок",
+    "organizeYourVMeeting": "Жеке жолугушууларды түзгүлө же кесиптештериңиздин Виртуалдык бөлмөсүнө кошулгула",
+    "people": {
+        "manyMembers": "{{membersCount}} катышуучулары",
+        "me": "Мен",
+        "oneParticipant": "Бир катышуучу",
+        "otherParticipants": "{{numberParticipants}} башка катышуучулары",
+        "participants": "Катышуучулар",
+        "whoYoureLookinkFor": "Кимди издеп жатасыз?",
+        "you": "Сиз"
+    },
+    "personalRoomLabel": "{{userName}} жеке бөлмө",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "Жүктөө"
+            }
+        },
+        "close": {
+            "tooltip": "Жабуу"
+        }
+    },
+    "room": "Виртуалдык бөлмө",
+    "thanksForParticipating": "Жолугушканга чейин",
+    "tryLater": "Кийинчерээк кайталаңыз",
+    "typeYourEmail": "Электрондук почтанын дарегин териңиз",
+    "virtualRoom": "Виртуалдык бөлмө"
+}

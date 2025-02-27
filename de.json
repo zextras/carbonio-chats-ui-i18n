@@ -1,0 +1,684 @@
+{
+    "action": {
+        "plan": "planen",
+        "activateNotifications": "Benachrichtigungen aktivieren",
+        "add": "Hinzufügen",
+        "addChannel": "Kanal hinzufügen",
+        "addMembers": "Mitglieder hinzufügen",
+        "addModerator": "Moderator hinzufügen",
+        "addModerators": "Moderatoren hinzufügen",
+        "addNewMembers": "Neue Mitglieder hinzufügen",
+        "addNewMembersTo": "Neue Mitglieder hinzufügen zu",
+        "addOtherModerators": "Weitere Moderatoren hinzufügen",
+        "clearHistory": "Verlauf Löschen",
+        "close": "Schließen",
+        "collapse": "Zusammenklappen",
+        "copy": "Kopieren",
+        "copyAppVersion": "App-Version kopieren",
+        "create": "Erstellen",
+        "createChannel": "Kanal erstellen verknüpft mit {{spaceName}}",
+        "createChat": "Chat erstellen",
+        "createGroup": "Gruppe erstellen",
+        "createInstantMeeting": "Sofortige Sitzung erstellen",
+        "createSpace": "Space erstellen",
+        "delete": "Löschen",
+        "deleteChannel": "Kanal löschen",
+        "deleteRoom": "Raum löschen",
+        "deleteSpace": "Space löschen",
+        "edit": "Bearbeiten",
+        "editYourMessage": "Bearbeiten Sie Ihre Nachricht",
+        "expand": "Aufklappen",
+        "forward": "Weiterleiten",
+        "join": "Beitreten",
+        "joinChannel": "Treten Sie dem Kanal bei, um Nachrichten zu senden und Benachrichtigungen zu erhalten",
+        "joinChannelAction": "Kanal beitreten",
+        "joinRoom": "Raum beitreten",
+        "leave": "Verlassen",
+        "leaveAndDelete": "Verlassen und löschen",
+        "leaveChannel": "Kanal verlassen",
+        "leaveSpace": "Space verlassen",
+        "muteNotifications": "Benachrichtigungen stummschalten",
+        "openInTeam": "In Team öffnen",
+        "remove": "Entfernen",
+        "reply": "Antworten",
+        "replyToSomeone": "Antwort an",
+        "replyToYourself": "Sich selbst antworten",
+        "scrollToNewMessage": "Zur neuen Nachricht scrollen",
+        "scrollToTheBottom": "Nach unten scrollen",
+        "startMeeting": "Sitzung starten",
+        "copyLinkRoom": "Raumlink kopieren",
+        "leaveGroup": "Gruppe verlassen",
+        "waitingModeratorToJoin": "Sie warten darauf, von einem Moderator akzeptiert zu werden",
+        "goToGuide": "Zum Leitfaden",
+        "copyUserRoomLink": "Link kopieren",
+        "openInChats": "In Chats öffnen",
+        "planMeeting": "Eine Sitzung planen",
+        "removeMember": "Mitglied entfernen",
+        "resetLink": "Link zurücksetzen",
+        "start": "Start",
+        "stop": "Stop",
+        "saveToFiles": "Speichern unter Dateien",
+        "createRoom": "Raum erstellen",
+        "browse": "Durchsuchen",
+        "joinVirtualRoom": "Virtuellen Raum betreten",
+        "copyLinkVirtualRoom": "Virtuellen Raumlink kopieren",
+        "createVirtualRoom": "Virtuellen Raum erstellen",
+        "deleteVirtualRoom": "Virtuellen Raum löschen"
+    },
+    "creation": {
+        "group": {
+            "groupWithoutNameAddParticipant": "Teilnehmer zu Ihrer Gruppe hinzufügen",
+            "addParticipantsDescription": "Laden Sie Teilnehmer ein, indem Sie ihren Namen oder E-Mail-Adressen schreiben. Sie müssen mindestens zwei weitere Teilnehmer einladen, anderenfalls können Sie einen Chat erstellen.",
+            "inputTopicDescriptionLabel": "Beschreibt das Thema der Gruppe",
+            "setImageAndTopicDescription": "Stellen Sie ein Bild ein, das helfen wird, dass Benutzer die Gruppe innerhalb der Liste zuordnen können.",
+            "mainDescription": "Gruppen müssen mehr als zwei Teilnehmer beinhalten. Benennen Sie die Gruppe beliebig, um das Thema zu beschreiben"
+        },
+        "instantMeeting": {
+            "attendee": {
+                "feedback": {
+                    "neutral": "Wählen Sie einen oder mehrere Teilnehmer aus",
+                    "negative": "Die eingegebene E-Mail-Adresse ist nicht gültig, bitte geben Sie eine gültige E-Mail-Adresse ein"
+                }
+            },
+            "addAttendees": "Teilnehmer zu Ihrer sofortigen Sitzung hinzufügen",
+            "addAttendeesDescription": "Laden Sie Teilnehmer ein, indem Sie ihre Namen oder E-Mail-Adressen hier eingeben.",
+            "addAttendeesInputExplanation": "Sie können ebenfalls externe Benutzer einladen, indem Sie Ihre E-Mail-Adresse eingeben.",
+            "description": "Sofortige Konversationen sind Videoanrufe, die so konzipiert sind, dass sie schnell und kurz sind, keine Spuren des Chats bleiben und nach dem Ende des Anrufs nicht mehr existieren. Sofortige Sitzungen können von Team Pro-Benutzern erstellt werden und es können auch externe Benutzer daran teilnehmen.",
+            "titleDescription": "Geben Sie der sofortigen Sitzung einen erkennbaren Titel, damit die Teilnehmer den Zweck der Telefonkonferenz kennen."
+        },
+        "selectOneOrMoreUsers": "Wählen Sie einen oder mehrere Benutzer aus",
+        "attendeeAdded": "Teilnehmer zur Liste hinzugefügt",
+        "channel": {
+            "mainDescription": "Kanäle sind klar definierte, themenbezogene Chats, welche in einem Space beinhaltet sind. Die Teilnehmer des Spaces können einem Kanal beitreten, um aktiv an der Diskussion zu dem Thema teilzunehmen. Teilnehmer können einen Kanal verlassen, ohne den Space zu verlassen.",
+            "setImageAndTitleDescription": "Stellen Sie ein Bild ein, um den Kanal im zugehörigen Space besser erkennbar zu machen. Die Bilder der Kanäle können ebenfalls auf dem Infofeld des Kanals gesetzt oder geändert werden.",
+            "titleInputRequirements": "140 Zeichen erlaubt, der titel muss im zugehörigen Space einmalig sein",
+            "topicInputExplanation": "Beschreibt das Thema des Kanals",
+            "topicDescription": "Da Kanäle aus Chats zu einem bestimmten Diskussionsthema bestehen, wird ein Thema empfohlen, welches den Inhalt am besten beschreibt."
+        },
+        "limitOfParticipantReached": "Sie haben die vom Administrator festgelegte Höchstzahl an Teilnehmern erreicht",
+        "nameMax140Characters": "Max. 140 Zeichen",
+        "nameNeeds2Letters": "Der Name muss aus mindestens zwei Buchstaben bestehen",
+        "nameRequired": "Ein Name ist erforderlich",
+        "participants": {
+            "feedback": {
+                "neutral": "Wählen Sie zwei oder mehr Teilnehmer aus"
+            }
+        },
+        "requiresOneMoreParticipant": "Erfordert zumindest einen weiteren Teilnehmer",
+        "requiresTwoOthers": "Erfordert zumindest 2 weitere",
+        "selectMoreParticipantsForInstantMeetings": "Wählen Sie einen Teilnehmer von der Liste aus oder schreiben Sie die Adresse, um einen externen Nutzer hinzuzufügen",
+        "space": {
+            "spaceWithoutNameAddParticipant": "Teilnehmer zu Ihrem Space hinzufügen",
+            "topicDescription": "Da Spaces aus Chats zu einem bestimmten Diskussionsthema bestehen, wird ein Thema empfohlen, welches den Inhalt am besten beschreibt.",
+            "topicInputExplanation": "Beschreibt das Thema des Space",
+            "addMembersDescription": "Laden Sie Leute ein, indem Sie ihre Namen oder E-Mail Adressen schreiben. Sie müssen mindestens zwei weitere Teilnehmer einladen, anderenfalls können Sie einen Chat erstellen.",
+            "mainDescription": "Spaces sind allgemeine Kommunikationsumgebungen, welche bestimmte Chats (Kanäle) enthalten, jeder Kanal hat sein eigenes Thema. Um einen Space zu erstellen, müssen Sie mindestens zwei Teilnehmer einladen. Kanäle können direkt im Infofeld von Space erstellt werden.",
+            "titleDescription": "Der Titel identifiziert den Raum und sollte daher sein Thema beschreiben."
+        },
+        "startTypingToPick": "Beginnen Sie zu schreiben, um einen Kontakt auszuwählen",
+        "topicMax255Characters": "Max. 255 Zeichen",
+        "topicOptional": "Optional. Beschreibt den Inhalt",
+        "typeToFilter": "Schreiben, um die Liste zu filtern",
+        "typeWithNameAddParticipant": "Teilnehmer hinzufügen zu",
+        "youCanInviteOther": "Sie können noch weitere {{limit}} Teilnehmer einladen",
+        "nameRequired-max140Characters-avoidReusingNames": "Erforderlich. Max. 140 Zeichen, bereits genutzte Namen vermeiden.",
+        "chat": {
+            "addParticipant": "Wählen Sie einen Teilnehmer aus, um einen Chat zu starten",
+            "chatFilterDescription": "Sie können einen Chat erstellen, indem Sie einfach auf den Teilnehmer klicken, mit dem Sie sprechen möchten",
+            "description": "Chats sind Einzelgespräche, die Ihnen helfen, mit Ihren Kontakten in Kontakt zu bleiben."
+        },
+        "emailReplicated": "Die eingegebene E-Mail wurde bereits hinzugefügt",
+        "titleInputRequirements": "140 Zeichen erlaubt, der Titel muss einmalig sein",
+        "topicNeeds2Letters": "Das Thema ist optional. Min. 2 Zeichen"
+    },
+    "feedback": {
+        "online": "Wieder online!",
+        "historyClearedSuccessfully": "Verlauf erfolgreich gelöscht!",
+        "notificationsActivatedForThisChat": "Für diesen Chat sind Benachrichtigungen aktiviert",
+        "notificationsMutedForThisChat": "Benachrichtigungen für diesen Chat stummgeschaltet",
+        "retryConnection": "Verbindung wiederherstellen",
+        "uploadConversationPicturesFailed": "Upload des Unterhaltungsbildes fehlgeschlagen",
+        "tryAReconnectionIn": "Versuchen Sie eine Wiederverbindung in {{seconds}}",
+        "offline": "Es scheint ein Problem mit der Serververbindung zu sein",
+        "appVersionCopied": "App-Version kopiert",
+        "resetPersonalRoomLinkSuccess": "Der Link des persönlichen Raums wurde zurückgesetzt",
+        "roomLinkCopied": "Raumlink kopiert",
+        "connecting": "Verbinden…",
+        "linkCopied": "Link kopiert",
+        "saveAttachmentError": "Es scheint ein Problem beim Speichern zu geben, bitte versuchen Sie es erneut",
+        "saveAttachmentSuccessfull": "Im ausgewählten Ordner gespeicherte Anhänge",
+        "resetPersonalVirtualRoomLinkSuccess": "Der Link des persönlichen Virtuellen Raums wurde zurückgesetzt",
+        "virtualRoomLinkCopied": "Link des Virtuellen Raums kopiert"
+    },
+    "message": {
+        "service": {
+            "newMeeting": "Eingehender Anruf von:",
+            "meeting": {
+                "ended": "Sitzung beendet",
+                "startedAtTime": "Die Sitzung begann um",
+                "endedAtTime": "Die Sitzung endete um"
+            },
+            "member": {
+                "changed": {
+                    "name": {
+                        "channel": "{{member_name}} hat den Kanalnamen zu {{name}} geändert",
+                        "space": "{{member_name}} hat den Space - Namen zu {{name}} geändert"
+                    },
+                    "picture": {
+                        "channel": "{{member_name}} hat das Kanalbild geändert",
+                        "space": "{{member_name}} hat das Space-Bild geändert",
+                        "group": "{{member_name}} hat das Gruppenbild geändert"
+                    },
+                    "topic": {
+                        "channel": "{{member_name}} hat das Kanalthema zu {{topic}} geändert",
+                        "space": "{{member_name}} hat das Kanal-Thema zu {{topic}} geändert",
+                        "group": "{{member_name}} hat das Gruppenthema zu {{topic}} geändert"
+                    }
+                },
+                "created": {
+                    "channel": "{{member_name}} hat den Kanal erstellt",
+                    "space": "{{member_name}} hat den Space erstellt",
+                    "group": "{{member_name}} hat die Gruppe erstellt",
+                    "single": "{{member_name}} hat den Chat erstellt"
+                },
+                "deleted": {
+                    "channel": "{{member_name}} hat den Kanal gelöscht",
+                    "instantMeeting": "{{member_name}} hat die sofortige Sitzung gelöscht",
+                    "space": "{{member_name}} hat den Space gelöscht"
+                },
+                "invited": "{{member_name}} wurde von {{invited_by}} eingeladen",
+                "join": {
+                    "channel": "{{member_name}} ist dem Kanal beigetreten",
+                    "conversation": "{{member_name}} ist dem Chat beigetreten"
+                },
+                "kicked": {
+                    "channel": "{{member_name}} wurde von {{kicked_by}} aus dem Kanal entfernt",
+                    "group": "{{member_name}} wurde von {{kicked_by}} aus der Gruppe entfernt",
+                    "space": "{{member_name}} wurde von {{kicked_by}} aus dem Space entfernt",
+                    "chat": "{{member_name}} wurde von {{kicked_by}} aus dem Chat entfernt"
+                },
+                "left": {
+                    "channel": "{{member_name}} hat den Kanal verlassen",
+                    "space": "{{member_name}} hat den Space verlassen",
+                    "group": "{{member_name}} hat die Gruppe verlassen",
+                    "chat": "{{member_name}} hat den Chat verlassen"
+                },
+                "you": {
+                    "invited": "Sie haben {{member_name}} eingeladen",
+                    "kicked": {
+                        "channel": "Du hast {{member_name}} aus dem Channel entfernt",
+                        "group": "Sie haben {{member_name}} aus der Gruppe entfernt",
+                        "space": "Du hast {{member_name}} aus Space entfernt"
+                    }
+                }
+            },
+            "notificationsActivatedForThisChat": "Für diesen Chat sind Benachrichtigungen aktiviert",
+            "notificationsMutedForThisChat": "Benachrichtigungen für diesen Chat stummgeschaltet",
+            "you": {
+                "changed": {
+                    "name": {
+                        "channel": "Sie haben den Kanalnamen zu {{name}} geändert",
+                        "space": "Sie haben den Space-Namen zu {{name}} geändert"
+                    },
+                    "picture": {
+                        "channel": "Sie haben das Kanalbild geändert",
+                        "space": "Sie haben den Space-Namen geändert",
+                        "group": "Sie haben das Gruppenbild geändert"
+                    },
+                    "topic": {
+                        "channel": "Sie haben das Kanalthema zu {{topic}} geändert",
+                        "space": "Sie haben das Space-Thema zu {{topic}} geändert",
+                        "group": "Sie haben das Gruppenthema zu {{topic}} geändert"
+                    }
+                },
+                "created": {
+                    "channel": "Sie haben den Kanal erstellt",
+                    "space": "Sie haben den Space erstellt",
+                    "group": "Sie haben die Gruppe erstellt",
+                    "single": "Sie haben den Chat erstellt"
+                },
+                "deleted": {
+                    "channel": "Sie haben den Kanal gelöscht",
+                    "instantMeeting": "Sie haben die sofortige Sitzung gelöscht",
+                    "space": "Sie haben den Space gelöscht"
+                },
+                "invited": "Sie wurden von {{invited_by}} eingeladen",
+                "join": {
+                    "channel": "Sie sind dem Kanal beigetreten",
+                    "instantMeeting": "Sie sind der sofortigen Sitzung beigetreten",
+                    "space": "Sie sind dem Space beigetreten",
+                    "userRoom": "Sie sind dem Raum beigetreten",
+                    "group": "Sie sind der Gruppe beigetreten"
+                },
+                "kicked": {
+                    "channel": "Sie wurden von {{kicked_by}} aus dem Kanal entfernt",
+                    "group": "Sie wurden von {{kicked_by}} aus der Gruppe entfernt",
+                    "space": "Sie wurden von{{kicked_by}} aus dem Space entfernt"
+                },
+                "left": {
+                    "channel": "Sie haben den Kanal verlassen",
+                    "space": "Sie haben den Space verlassen",
+                    "group": "Sie haben die Gruppe verlassen"
+                }
+            },
+            "conversationCreated": "Chat erstellt"
+        },
+        "readBy": "Gelesen von",
+        "deletedMessage": "Gelöschte Nachricht",
+        "edited": "bearbeitet",
+        "forwarded": "weitergeleitet",
+        "now": "Jetzt",
+        "yesterday": "Gestern"
+    },
+    "people": {
+        "you": "Sie",
+        "manyMembers": "{{membersCount}} Mitglieder",
+        "me": "Ich",
+        "oneParticipant": "Ein Teilnehmer",
+        "otherParticipants": "Weitere {{numberParticipants}} Teilnehmer",
+        "participants": "Teilnehmer",
+        "whoYoureLookinkFor": "Nach wem suchen Sie?"
+    },
+    "appVersion": "App-Version",
+    "button": {
+        "cancel": "Abbrechen",
+        "no": "Nein",
+        "ok": "Ok",
+        "save": "Speichern",
+        "undo": "Rückgängig machen",
+        "yes": "Ja"
+    },
+    "conversation": {
+        "channelInfo": "Kanalinformationen",
+        "contactInfo": "Kontaktdaten",
+        "groupInfo": "Gruppeninformationen",
+        "info": "Info",
+        "instantInfo": "Informationen der sofortigen Sitzung",
+        "name": "Name",
+        "nameRoom": "{{conversationTitle}}s Raum",
+        "newMessages": "Neue Nachrichten",
+        "roomLinkDescription": "Kopieren Sie diesen Link und teilen Sie ihn, um anderen Zutritt zu diesem Raum zu gewähren.",
+        "spaceInfo": "Space-Informationen",
+        "speakersCorner": "Benutzer im Konversationsraum",
+        "title": "Titel",
+        "topic": "Thema",
+        "roomInfo": "Rauminfo",
+        "fileUploadDescription": "Beschreibung der Datei",
+        "roomLink": "Raumlink",
+        "roomName": "Raumname",
+        "nameVirtualRoom": "Virtueller Raum \"{{conversationTitle}}\"",
+        "virtualRoomInfo": "Informationen über Virtuellen Raum",
+        "virtualRoomLinkDescription": "Kopieren Sie diesen Link und teilen Sie ihn, um anderen Zutritt zu diesem Virtuellen Raum zu gewähren.",
+        "virtualRoomName": "Name des virtuellen Raums",
+        "virtualRoomLink": "Link des virtuellen Raums"
+    },
+    "conversations": {
+        "activeMeetingRooms": "Aktive Sitzungsräume",
+        "chats": "Chats",
+        "conversations": "Konversationen",
+        "instantMeetings": "Sofortige Sitzung",
+        "meetingRooms": "Sitzungsräume",
+        "noActiveInstantMeetings": "Es gibt zur Zeit keine aktiven sofortigen Sitzungen. Erstellen Sie eine neue sofortige Sitzung oder wechseln Sie den Reiter.",
+        "noActiveMeetings": "Es gibt derzeit keine aktiven Räume",
+        "noActiveSpaces": "Es gibt zur Zeit keine aktiven Spaces. Erstellen Sie einen neuen Space oder wechseln Sie den Reiter.",
+        "noFilteredInstantMeetings": "Es gibt keine sofortigen Sitzungen, die diesem Filter entsprechen.",
+        "noFilteredMeetings": "Es gibt keine Räume oder geplante Sitzungen, die diesem Filter entsprechen",
+        "noFilteredSpaces": "Es gibt keine Spaces, die diesem Filter entsprechen.",
+        "personalRoom": "Persönlicher Raum",
+        "scheduledMeetings": "Geplante Sitzungen",
+        "spaces": "Spaces",
+        "spaceGeneralChannel": "Allgemeines",
+        "yourRoom": "Ihr Raum",
+        "filterChatList": "Liste der Chats filtern",
+        "mockDisplayDescription": "Wählen Sie eine Konversation, um einen Chat zu beginnen",
+        "mockDisplayTitle": "Lassen Sie uns in Kontakt bleiben!",
+        "noActiveChats": "Es gibt zur Zeit keine aktiven Chats. Erstellen Sie neue Chats oder wechseln Sie den Reiter.",
+        "noFilteredChats": "Es gibt keine Chats, die diesem Filter entsprechen.",
+        "waitingRoom": "Warteraum",
+        "activeVirtualRooms": "Aktive Virtuellen Räume",
+        "noActiveVirtualRooms": "Es gibt derzeit keine aktiven Virtuellen Räume",
+        "noFilteredVirtualRooms": "Es gibt keine Virtuellen Räume oder geplante Sitzungen, die diesem Filter entsprechen",
+        "personalVirtualRoom": "Persönlicher Virtueller Raum",
+        "virtualRooms": "Virtuelle Räume",
+        "noFilteredRooms": "Es gibt keine Räume oder geplante Sitzungen, die diesem Filter entsprechen",
+        "noActiveRooms": "Es gibt derzeit keine aktiven Räume",
+        "activeRooms": "Aktive Räume",
+        "rooms": "Räume"
+    },
+    "meeting": {
+        "attendeesComing": "Teilnehmer kommen an",
+        "defaultViewModeDedicatedModeLabel": "Dedizierter Modus",
+        "defaultViewModeDefaultModeLabel": "Standardmodus",
+        "defaultViewModeSecondaryDescriptionLabel": "Diese Option wird in Ihren Einstellungen gespeichert und kann jederzeit auf Wunsch aktualisiert werden.",
+        "interactions": {
+            "cinemaView": "Kinoansicht",
+            "closeCall": "Diesen Anruf beenden",
+            "disableAudio": "Audio ausschalten",
+            "disableFullScreen": "Vollbildmodus verlassen",
+            "disableVideo": "Video abschalten",
+            "enableAudio": "Audio einschalten",
+            "enableVideo": "Video Anschalten",
+            "gridView": "Gitterdarstellung",
+            "hideChat": "Chat ausblenden",
+            "hideParticipants": "Teilnehmer ausblenden",
+            "muteUser": "Mikrofon stumm schalten",
+            "muteUserForAllTitle": "Für alle stummschalten",
+            "mutedByModerators": "Sie wurden von einem Moderator stummgeschaltet, heben Sie die Stummschaltung auf, um zu sprechen",
+            "mutedByOthers": "Sie wurden stummgeschaltet",
+            "pinVideo": "Video anheften",
+            "shortCutLabel": "(C)",
+            "showChat": "Chat zeigen",
+            "showParticipants": "Teilnehmer anzeigen",
+            "status": {
+                "cameraMicOff": "Ihre Kamera und Ihr Mikrofon sind ausgeschaltet",
+                "cameraOff": "Ihre Kamera ist ausgeschaltet"
+            },
+            "unpinVideo": "Video losheften",
+            "disableScreensharing": "Bildschirmfreigabe deaktivieren",
+            "muteUserForAllDescription": "Wenn der Benutzer stummgeschaltet wird, können alle Teilnehmer den Benutzer nicht mehr hören. Nur der stummgeschaltete Benutzer kann die Stummschaltung selbst wieder aufheben. Wie geht es weiter?",
+            "enableFullScreen": "Vollbild",
+            "enableScreenSharing": "Bildschirmfreigabe aktivieren",
+            "cameraEnabled": "Kamera aktiviert",
+            "cameraDisabled": "Kamera deaktiviert",
+            "audioDisabled": "Audio deaktiviert",
+            "audioEnabled": "Audio aktiviert",
+            "playMyVoice": "Meine Stimme abspielen",
+            "stopMyVoice": "Meine Stimme stoppen",
+            "micTesting": "Sie werden eine Stimme in Ihrem Standard-Ausgabegerät hören, wodurch Sie die sowohl die Sprach- als auch die Audioqualität für Ihre Sitzung testen können",
+            "playMic": "Mikrofon-Test starten",
+            "stopMic": "Mikrofon-Test anhalten",
+            "hangOff": "Auflegen"
+        },
+        "startModal": {
+            "description": "Wie möchten Sie dem Meeting beitreten?",
+            "enter": "Eingabe",
+            "noVideoAndAudio": "Kamera aus, Mikrofon an",
+            "noVideoAndNoAudio": "Kamera aus, Mikrofon aus",
+            "videoAndAudio": "Kamera an, Mikrofon an",
+            "videoAndNoAudio": "Kamera an, Mikrofon aus",
+            "descriptionMyPersonalVirtualRoom": "Wie möchten Sie Ihren Persönlichen Virtuellen Raum betreten?",
+            "descriptionPersonalVirtualRoom": "Wie möchten Sie {{meetingTitle}}s Persönlichen Virtuellen Raum betreten?",
+            "descriptionVirtualRoom": "Wie möchten Sie {{meetingTitle}} betreten?",
+            "descriptionMyPersonalRoom": "Wie möchten Sie Ihren persönlichen Raum betreten?",
+            "descriptionPersonalRoom": "Wie möchten Sie den persönlichen Raum von {{meetingTitle}} betreten?"
+        },
+        "defaultViewModeDefaultLabel": "Bei der Auswahl des \"Standardmodus\", wird das Meeting in der aktuellen internen Umgebung starten.",
+        "defaultViewModeSaveLabel": "Option speichern",
+        "defaultViewModeTitleModal": "Optionen für die Sitzungsumgebung",
+        "defaultViewModeDedicatedLabel": "Der \"dedizierte Modus\" wird Sie in einen separaten Reiter in Ihrem Browser weiterleiten, um das Meetings besser darzustellen.",
+        "resetMeetingUrlModalDescription": "Sind Sie sicher, dass Sie den Link für das geplante \"{{conversationName}}\" zurücksetzen möchten?",
+        "genericErrorMeeting": "Es scheint ein Problem mit dieser Sitzung zu geben, wenden Sie sich an Ihren Systemadministrator.",
+        "errorMeetingRecording": "Es ist nicht möglich, die Registrierung zu starten, wenden Sie sich bitte an Ihren Systemadministrator.",
+        "recordedByMe": "Sie haben mit der Aufnahme begonnen",
+        "recordedByOther": "{{username}} hat mit der Aufnahme begonnen",
+        "recording": "Aufnahme",
+        "wereToFindRecording": "Die Aufzeichnung wird im Videoserver-Home gespeichert. Weitere Informationen erhalten Sie von Ihrem Systemadministrator.",
+        "thisMeetingIsBeingRecorded": "Diese Sitzung wird aufgezeichnet",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Dedizierter Modus",
+        "defaultViewModeDedicatedModeLabelVRoom": "Dedizierter Modus",
+        "defaultViewModeDedicatedLabelVirtualRoom": "Der \"Dedizierte Modus\" wird Sie zu einem separaten Reiter in Ihrem Browser weiterleiten, um den Virtuellen Raum besser darzustellen.",
+        "defaultViewModeDefaultLabelVirtualRoom": "Bei der Auswahl des \"Standardmodus\" wird der Virtuelle Raum in der aktuellen internen Umgebung starten.",
+        "successSaveMeetingRecording": "Sie werden {{registrationName}} in /{{folderName}} finden, sobald dieser zur Verfügung steht",
+        "defaultViewModeTitleModalVirtualRoom": "Umgebungsoptionen für Virtuelle Räume",
+        "errorMeetingSavingRecording": "Es ist nicht möglich, die Aufnahme anzuhalten, bitte versuchen Sie es erneut",
+        "wereToFindRec": "Die Aufnahme wird im Files Space des Moderators gespeichert werden, der diese beendet hat.",
+        "setVirtualBackground": "Virtuellen Hintergrund festlegen",
+        "noEffect": "Keine Auswirkung",
+        "blurMyBackground": "Hintergrund weichzeichnen"
+    },
+    "modal": {
+        "addModeratorDescription": "Einen oder mehrere Nutzer auswählen, um diese zu Moderatoren des Raums zu ernennen",
+        "clearHistoryDescription": "Diese Konversation ist jetzt leer, sie wurde ans Ende der Konversationsliste verschoben, um die aktiven Konversationen hervorzuheben.",
+        "confirm": {
+            "areYouSure": "Sind Sie sicher?",
+            "clearHistory": "Sie löschen Ihren Chat- Verlauf unwiderruflich. Die Verläufe anderer Teilnehmer dieses Chats werden nicht gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.",
+            "leaveAndDeleteConversation": "Sind Sie sicher, dass Sie {{conversationName}} verlassen und löschen möchten?",
+            "deleteRoom": "Sind Sie sicher, dass Sie diesen Raum löschen möchten?",
+            "leaveSpace": "Sind Sie sicher, dass Sie den Raum verlassen wollen?",
+            "deleteSpace": "Sind Sie sicher, dass Sie diesen Space löschen wollen?",
+            "leaveChannel": "Sind Sie sicher, dass Sie den Kanal verlassen wollen?",
+            "leaveGroup": "Sind Sie sicher, dass Sie die Gruppe verlassen wollen?",
+            "removeMember": "Sind Sie sicher, dass Sie dieses Mitglied entfernen möchten?",
+            "deleteChannel": "Sind Sie sicher, dass Sie diesen Kanal löschen wollen?",
+            "deleteVirtualRoom": "Sind Sie sicher, dass Sie den Virtuellen Raum löschen möchten?"
+        },
+        "forwardModal": {
+            "forwardedMessageFrom": "Nachricht weitergeleitet von",
+            "selectOneOrMoreConversations": "Wählen Sie eine oder mehrere Konversationen",
+            "typeToFilterTheList": "Schreiben, um die Liste zu filtern",
+            "spaceAndChannels": "Space und Kanäle"
+        },
+        "instantMeeting": {
+            "closedInstantMeeting": "Sofortige Sitzung geschlossen",
+            "continue": "Mit der alten sofortigen Sitzung fortfahren",
+            "create": "Eine neue sofortige Sitzung erstellen",
+            "endCallByOwner": "Der Besitzer dieser sofortigen Sitzung hat entschieden, den Anruf zu beenden. Wir hoffen, dass Ihnen die Sitzung gefallen hat",
+            "instantMeetingAlreadyRunningText": "Wenn Sie eine neue Datei erstellen, wird die ältere überschrieben und Ihr Teilnehmer verliert die Verbindung. Was wollen Sie tun?",
+            "instantMeetingAlreadyRunningTitle": "Es läuft bereits eine sofortige Sitzung"
+        },
+        "moderatorCannotLeaveGroupDescription": "Sie sind der einzige Moderator von {{conversationName}}, bitte ernennen Sie jemanden zum Moderator, bevor Sie die Gruppe verlassen.",
+        "moderatorCannotLeaveGroupTitle": "Bitte warten, ein neuer Moderator wird benötigt",
+        "showPreviousConversationHistory": "Vorherigen Konversationsverlauf anzeigen",
+        "planMeetingDescription": "Raumnamen helfen den Teilnehmern, das Diskussionsthema des Raums zu kennen.",
+        "roomsFunctionalitiesChangelogDescription": "Wir haben wichtige Änderungen an den Sitzungs-Funktionen vorgenommen. Lesen Sie die Einführung zu den Räumen, um mehr zu erfahren!",
+        "deleteMessageDescription": "Wenn Sie eine Nachricht löschen, wird sie für Sie und alle anderen Empfänger nicht mehr sichtbar sein",
+        "teamNews": "Team's Nachrichten",
+        "userJoinedWaitingRoom": "Es scheint jemand im Warteraum zu sein",
+        "news": "Nachrichten",
+        "notShowAgain": "Zeigen Sie dies nicht mehr",
+        "selectFolder": "Ordner auswählen",
+        "moderatorMeetingDescription": "Sie werden diesen Raum moderieren. Sie können weitere Moderatoren hinzufügen, die die gleichen Rechte haben wie Sie.",
+        "stopMeetingRec": {
+            "stopMeetingTitle": "Aufzeichnung der Besprechung stoppen",
+            "stopRecording": "Die Aufzeichnung wird gestoppt. Sie können während dieser Sitzung jederzeit eine neue Aufzeichnung starten.",
+            "locationWhereToSaveRecording": "Die Aufnahme wird unter \"/{{folderName}}\" gespeichert.",
+            "recordingName": "Name der Aufnahme",
+            "stopRecordingDescription": "Sie werden die Aufnahme anhalten. Sie können eine neue Aufnahme jederzeit starten.",
+            "stopRecordingTitle": "Aufnahme anhalten"
+        },
+        "moderatorVirtualRoomDescription": "Sie werden diesen Virtuellen Raum moderieren. Sie können zusätzliche Moderatoren hinzufügen und diese werden dieselben Rechte haben wie Sie.",
+        "planVirtualRoomDescription": "Geben Sie dem Virtuellen Raum einen wiedererkennbaren Namen, damit die Teilnehmer wissen, worum es bei dem Treffen geht.",
+        "moderatorRoomDescription": "Sie werden diesen Raum moderieren. Sie können weitere Moderatoren hinzufügen, die die gleichen Rechte haben wie Sie.",
+        "planRoomDescription": "Geben Sie diesem Raum einen wiedererkennbaren Namen, damit Ihre Teilnehmer wissen, worum es bei dem Treffen geht."
+    },
+    "notification": {
+        "answer": "Annehmen",
+        "dismiss": "Abweisen",
+        "incomingCall": "Eingehender Anruf von:",
+        "invitationToPersonalRoom": "Einladung zum persönlichen Raum von:",
+        "waiting": {
+            "descriptionAcceptedLabel": "Du wurdest vom Moderator von {{conversationName}} akzeptiert",
+            "descriptionWaitingLabel": "Sie warten darauf, vom Moderator von {{conversationName}} akzeptiert zu werden",
+            "notificationAcceptedByModerator": "Sie sind vom Moderator akzeptiert worden",
+            "notificationJoinTheRoom": "Betreten Sie den Raum, um an der Sitzung teilzunehmen",
+            "userIsWaiting": "Neuer Benutzer wartet auf Eintritt",
+            "userJoinedWaitingRoom": "Es scheint jemand im Wartezimmer zu sein",
+            "notificationJoinTheVirtualRoom": "Betreten Sie den Virtuellen Raum, um an der Sitzung teilzunehmen"
+        },
+        "meeting": {
+            "ended": "Sitzung Beendet"
+        },
+        "startMeetingRecording": "Die Aufzeichnung der Sitzung von {{conversationName}} hat begonnen",
+        "invitationToPersonalVirtualRoom": "Einladung zum Persönlichen Virtuellen Raum von:"
+    },
+    "settings": {
+        "meeting": {
+            "enableCamera": "Kamera einschalten",
+            "enableMicrophone": "Mikrofon einschalten",
+            "meetings": "Sitzungen",
+            "personalRoomOptionsTitleModal": "Zurücksetzen des Links für den persönlichen Raum",
+            "personalRoomResetButton": "Link des persönlichen Raums zurücksetzen",
+            "description": "Legen Sie Ihre Audio- und Videoeinstellungen für die Teilnahme an Sitzungen fest. Sie können Ihre Einstellungen jederzeit anpassen, bevor Sie an einer Sitzung teilnehmen.",
+            "personalRoomResetDescription": "Durch das Zurücksetzen der Verknüpfung des Persönlichen Raums werden alle zuvor vergebenen Zugänge nicht mehr funktionieren.",
+            "enableEchoCancellation": "Abbruch zurückgeben",
+            "enableNoiseSuppression": "Geräuschunterdrückung",
+            "personalVirtualRoomResetButton": "Link des Persönlichen Virtuellen Raums zurücksetzen",
+            "virtualRooms": "Virtuelle Räume",
+            "personalVirtualRoomOptionsTitleModal": "Link des persönlichen Virtuellen Raums zurücksetzen",
+            "voiceProcessing": "Sprachverarbeitung",
+            "voiceProcessingDescription": "Sie werden eine Stimme in Ihrem Standard-Ausgabegerät hören, wodurch Sie die sowohl die Sprach- als auch die Audioqualität für Ihre Sitzung testen können",
+            "personalVirtualRoomResetDescription": "Durch das Zurücksetzen der Verknüpfung des Persönlichen Virtuellen Raums werden alle zuvor vergebenen Zugänge nicht mehr funktionieren.",
+            "descriptionVirtualRoom": "Legen Sie Ihre Audio- und Videoeinstellungen für das Betreten von Virtuellen Räumen fest. Sie können Ihre Einstellungen jederzeit anpassen, bevor Sie einen Virtuellen Raum betreten.",
+            "descriptionRoom": "Legen Sie Ihre Audio- und Videoeinstellungen für das Betreten von Räumen fest. Sie können Ihre Einstellungen jederzeit anpassen, bevor Sie einen Raum betreten."
+        },
+        "notification": {
+            "desktop": "Desktop-Benachrichtigungen",
+            "openMinichatDescription": "Das Öffnungsverhalten Ihrer Minichats anpassen",
+            "title": {
+                "notifications": "Benachrichtigungen",
+                "openMinichat": "Öffnen, sobald eine neue Nachricht ankommt",
+                "openMinichatForGroup": "Öffnen, sobald eine neue Gruppennachricht ankommt",
+                "openMinichatForSingle": "Öffnen, sobald eine neue Einzelnachricht ankommt",
+                "openMinichatForSpace": "Öffnen, sobald eine neue Space-Nachricht ankommt"
+            }
+        },
+        "profile": {
+            "errorGenericResponse": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut",
+            "reset": "Zurücksetzen",
+            "restore": "Wiederherstellen",
+            "statusOptionalDescription": "Optional. Teile deine Meinung mit anderen. Max. Länge: 256 Zeichen",
+            "title": "Profil",
+            "update": "Aktualisierung",
+            "maximumDimension": "Maximale Größe: 256kb.",
+            "chooseAProfilePic": "Wählen Sie ein Profilbild aus. Das Bild wird automatisch zentriert."
+        },
+        "title": "Einstellungen",
+        "modal": {
+            "description": "Hier können Sie die Einstellungen für alle Chats festlegen, um ein komplett individuelles Chatterlebnis zu genießen!",
+            "title": "Chat-Einstellungen"
+        },
+        "notifications": {
+            "description": "Legen Sie Ihre Präferenzen für alle Arten von Benachrichtigungen in Chats fest."
+        },
+        "resetPersonalRoomLinkSuccess": "Der Link des persönlichen Raums wurde zurückgesetzt",
+        "recordingMeeting": {
+            "destinationFolder": "Zielordner",
+            "descriptionWhereToSaveRegistration": "Legen Sie einen Zielordner fest, wo Ihre Besprechungsaufnahmen gespeichert werden.",
+            "recording": "Aufnahmen"
+        }
+    },
+    "status": {
+        "lastSeen": "Zuletzt gesehen {{lastSeen}}",
+        "offline": "Offline",
+        "online": "Online",
+        "userStatus": "Status",
+        "isWriting": "schreibt…",
+        "areWriting": "schreiben…",
+        "externalGuest": "Externer Gast",
+        "internalGuest": "Interner Gast",
+        "waitingToEnter": "Warten auf Eintritt"
+    },
+    "tooltip": {
+        "close": "Schließen",
+        "copyRoomLink": "Diesen Link kopieren, um den Raum zu teilen",
+        "copyRoomLinkTooltip": "Diesen Link kopieren, um den Raum zu teilen",
+        "editDescription": "Beschreibung bearbeiten",
+        "enterYourRoom": "Ihren persönlichen Raum betreten",
+        "enterYourRoomTooltip": "Ihren persönlichen Raum betreten",
+        "errorUpdatingAvatarStatus": "Beim Einstellen des Status ist etwas schiefgelaufen. Bitte versuchen Sie es erneut",
+        "errorUploadingAvatarPicture": "Beim Upload des neuen Avatars ist etwas schiefgelaufen. Bitte versuchen Sie es erneut",
+        "errorRemovingAvatarPicture": "Beim Entfernen des Avatars ist etwas schiefgelaufen. Bitte versuchen Sie es erneut",
+        "sendMessage": "Nachricht senden",
+        "collapseChannel": "Kanäle einklappen",
+        "copyUserRoomTooltip": "Kopieren Sie diesen Link und geben Sie ihn weiter, um anderen den Zugang zu Ihrem persönlichen Raum zu ermöglichen",
+        "removeFile": "Datei entfernen",
+        "showChannels": "Kanäle anzeigen",
+        "enterMeetingRoom": "Sitzungsraum betreten",
+        "acceptQueuedMember": "Benutzer hereinlassen",
+        "addFile": "Datei hinzufügen",
+        "cancelFilter": "Filter löschen",
+        "chooseFile": "Datei auswählen",
+        "closeSearch": "Suche beenden",
+        "copyUserRoom": "Kopieren Sie den Link zu Ihrem persönlichen Raum",
+        "downgradeModerator": "Moderator zurückstufen",
+        "editInfo": "Info bearbeiten",
+        "goToPrivateChat": "Zum privaten Chat gehen",
+        "inviteToPersonalRoom": "In Ihren persönlichen Raum einladen",
+        "messageComposer": "Nachricht entwerfen",
+        "openMinichat": "Minichat öffnen",
+        "planMeeting": "Eine Sitzung planen",
+        "promoteModerator": "Zum Moderator befördern",
+        "rejectQueuedMember": "Benutzer ablehnen",
+        "removeMember": "Mitglied entfernen",
+        "searchForParticipant": "Suche nach Teilnehmer",
+        "selectEmoji": "Emoji auswählen",
+        "sendFile": "Dateien senden",
+        "switchToConversation": "Zum Gespräch wechseln",
+        "switchToInfoPanel": "Zum Info-Panel wechseln",
+        "disabledCreateButton": "Überprüfen Sie Ihre Eingaben, um sicherzustellen, dass keine Fehler vorhanden sind",
+        "copyVirtualRoomLinkTooltip": "Diesen Link kopieren, um den Virtuellen Raum zu teilen",
+        "enterYourVirtualRoomTooltip": "Ihren Persönlichen Virtuellen Raum betreten",
+        "copyUserVirtualRoomTooltip": "Kopieren Sie diesen Link und geben Sie ihn weiter, um anderen den Zugang zu Ihrem Persönlichen Virtuellen Raum zu ermöglichen"
+    },
+    "general": {
+        "browserNotSupported": "Wir unterstützen diese Version Ihres Browsers nicht. Wir empfehlen Ihnen dringend, Ihren Browser zu aktualisieren, um alle Team Funktionen zu nutzen!",
+        "goToTeam": "Zu Team gehen",
+        "teamProductName": "Team"
+    },
+    "external": {
+        "login": {
+            "externalLoginDescription": "Wenn Sie bereits dieser Domain angehören, werden Sie zu Ihrem gewöhnlichen Arbeitsbereich weitergeleitet. Wenn Sie ein externer Nutzer sind, werden Sie zu einer dafür vorgesehenen Benutzeroberfläche weitergeleitet."
+        },
+        "unsupported": {
+            "browser": "Nicht unterstützter Browser",
+            "device": "Nicht unterstütztes Gerät"
+        },
+        "youAreEnteringMeeting": "Sie sind kurz davor, den Raum zu betreten",
+        "nobodyInTheRoom": "Es scheint niemand in diesem Raum zu sein",
+        "roomIsEmpty": "Dieser Raum ist leer",
+        "waitingRoom": {
+            "accessDenied": "Zugang verweigert",
+            "moderatorRefusedAccessToRoom": "Ein Moderator hat Ihnen den Zugang zu diesem Raum verweigert",
+            "userLeftReturnToWaitingRoom": "Über den Link Room's können Sie jederzeit in den Warteraum zurückkehren",
+            "userLeftWaitingRoom": "Sie haben das Wartezimmer verlassen",
+            "userLeftLookForwardToSee": "Wir freuen uns auf ein Wiedersehen mit Ihnen"
+        },
+        "nobodyInTheVirtualRoom": "Es scheint niemand in diesem Virtuellen Raum zu sein",
+        "virtualRoomIsEmpty": "Dieser Virtuelle Raum ist leer",
+        "youAreEnteringVirtualRoom": "Sie sind kurz davor, den Virtuellen Raum zu betreten",
+        "orLabel": "oder",
+        "appStoreLabel": "App Store",
+        "doYouHaveTheAppChats": "Haben Sie bereits die Carbonio Chats-App?",
+        "doYouHaveTheAppTeam": "Haben Sie bereits die Zextras Chats App?",
+        "downloadAppLabel": "Laden Sie die App herunter, um an der Sitzung teilzunehmen",
+        "enter": "Teilnehmen!",
+        "playStoreLabel": "Google Play"
+    },
+    "label": {
+        "app_name": "Chats"
+    },
+    "enterTheRoom": "Den Raum betreten",
+    "errorPage": {
+        "errorCode": "Fehlercode 404",
+        "description": "Überprüfen Sie Ihren Link, er könnte falsch sein",
+        "title": "Tut uns leid, wir konnten den Raum nicht finden"
+    },
+    "organizeYourMeeting": "Organisieren Sie Ihre eigenen Sitzungen oder nehmen Sie an den Sitzungen Ihrer Kollegen teil",
+    "personalRoomLabel": "Persönlicher Raum von {{userName}}",
+    "thanksForParticipating": "Danke für die Teilnahme",
+    "tryLater": "Versuchen Sie es später",
+    "typeYourEmail": "Geben Sie Ihre E-Mail ein",
+    "virtualRoom": "Virtueller Raum",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "Download"
+            }
+        },
+        "close": {
+            "tooltip": "Schließen"
+        }
+    },
+    "enterTheVirtualRoom": "Den Virtuellen Raum betreten",
+    "organizeYourVMeeting": "Organisieren Sie Ihre eigenen Sitzungen oder besuchen Sie die Virtuellen Räume Ihrer Kollegen",
+    "organizeYourVirtualMeeting": "Organisieren Sie Ihre eigenen Sitzungen oder besuchen Sie die Virtuellen Räume Ihrer Kollegen",
+    "personalVirtualRoomLabel": "Persönlicher Virtueller Raum von {{userName}}",
+    "attachments": {
+        "addFromLocal": "Von lokalem Speicherort hinzufügen",
+        "shareLink": "Link teilen",
+        "share": "Öffentlichen Link teilen",
+        "attachLinkFromFiles": "Link von Files anhängen",
+        "attachLinkFiles": "Öffentlichen Link von Files anhängen"
+    },
+    "room": "Raum"
+}

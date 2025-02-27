@@ -1,0 +1,684 @@
+{
+    "action": {
+        "activateNotifications": "अधिसूचनाएं चालू करें",
+        "add": "जोड़ें",
+        "addChannel": "चैनल जोड़ें",
+        "addMembers": "मेम्बर जोड़ें",
+        "addModerator": "मॉडरेटर जोड़ें",
+        "addModerators": "मॉडरेटर जोड़ें",
+        "addNewMembers": "नए मेम्बर जोड़ें",
+        "addNewMembersTo": "नए मेम्बर यहाँ जोड़ें",
+        "addOtherModerators": "दूसरे मॉडरेटर जोड़ें",
+        "clearHistory": "हिस्ट्री क्लियर करें",
+        "close": "बंद करें",
+        "collapse": "नीचे करें",
+        "copy": "कॉपी करें",
+        "copyAppVersion": "एप वर्शन कॉपी करें",
+        "create": "बनाएँ",
+        "createChannel": "{{spaceName}} से लिंक किया Channel बनाएँ",
+        "createChat": "चैट बनाएँ",
+        "createGroup": "ग्रुप बनाएँ",
+        "createInstantMeeting": "इंस्टेंट मीटिंग बनाएँ",
+        "createSpace": "Space बनाएँ",
+        "delete": "डिलीट करें",
+        "deleteChannel": "चैनल डिलीट करें",
+        "deleteRoom": "Room डिलीट करें",
+        "deleteSpace": "स्पेस डिलीट करें",
+        "edit": "बदलाव करें",
+        "editYourMessage": "अपना मैसेज एडिट करें",
+        "expand": "बड़ा करें",
+        "forward": "फॉरवर्ड करें",
+        "goToGuide": "गाइड में जाएँ",
+        "join": "जॉइन करें",
+        "joinChannel": "मैसेज भेजने और अधिसूचनाएं पाने के लिए चैनल जॉइन करें",
+        "joinChannelAction": "चैनल से जुड़ें",
+        "joinRoom": "Room जॉइन करें",
+        "leave": "छोड़ें",
+        "leaveAndDelete": "छोड़ें और डिलीट करें",
+        "leaveChannel": "चैनल छोड़ें",
+        "leaveSpace": "स्पेस छोड़ें",
+        "muteNotifications": "नोटिफ़िकेशन की आवाज़ बंद करें",
+        "openInTeam": "Team में खोलें",
+        "plan": "प्लान करें",
+        "remove": "हटाएँ",
+        "removeMember": "मेम्बर को हटाएँ",
+        "reply": "रिप्लाई करें",
+        "replyToSomeone": "इन्हें रिप्लाई दें",
+        "replyToYourself": "खुद को रिप्लाई दें",
+        "scrollToNewMessage": "नए मैसेज में स्क्रॉल करें",
+        "scrollToTheBottom": "स्क्रॉल करके नीचे जाएँ",
+        "startMeeting": "मीटिंग शुरू करें",
+        "resetLink": "लिंक रीसेट करें",
+        "copyLinkRoom": "Room की लिंक कॉपी करें",
+        "openInChats": "Chats में खोलें",
+        "waitingModeratorToJoin": "आप मॉडरेटर द्वारा स्वीकार करने का इंतज़ार कर रहे हैं",
+        "copyUserRoomLink": "लिंक कॉपी करें",
+        "leaveGroup": "ग्रुप छोड़ें",
+        "planMeeting": "कोई Meeting प्लान करें",
+        "stop": "रोकें",
+        "start": "शुरू करें",
+        "saveToFiles": "Files में सेव करें",
+        "createRoom": "Room बनाएँ",
+        "browse": "ब्राउज़ करें",
+        "deleteVirtualRoom": "Virtual Room डिलीट करें",
+        "joinVirtualRoom": "Virtual Room जॉइन करें",
+        "copyLinkVirtualRoom": "Virtual Room की लिंक कॉपी करें",
+        "createVirtualRoom": "Virtual Room बनाएँ"
+    },
+    "button": {
+        "yes": "हाँ",
+        "cancel": "कैंसल करें",
+        "no": "नहीं",
+        "ok": "ठीक है",
+        "save": "सेव करें",
+        "undo": "अनडू करें"
+    },
+    "feedback": {
+        "online": "वापस ऑनलाइन!",
+        "historyClearedSuccessfully": "हिस्ट्री साफ हो गई!",
+        "notificationsActivatedForThisChat": "इस चैट के लिए अधिसूचनाएं चालू हो गईं",
+        "notificationsMutedForThisChat": "इस चैट के लिए नोटिफ़िकेशन की आवाज़ बंद हो गई हैं",
+        "retryConnection": "कनेक्शन की दोबारा कोशिश करें",
+        "uploadConversationPicturesFailed": "बात-चीत की फोटो अपलोड नहीं कर पाया",
+        "offline": "यह कोई सर्वर कनेक्शन की दिक्कत लग रही है",
+        "roomLinkCopied": "Room की लिंक कॉपी हुई",
+        "appVersionCopied": "एप वर्शन कॉपी हुआ",
+        "resetPersonalRoomLinkSuccess": "पर्सनल Room की लिंक रीसेट की गई",
+        "tryAReconnectionIn": "{{seconds}} में दोबारा कनेक्शन की कोशिश करें",
+        "linkCopied": "लिंक कॉपी हो गई",
+        "saveAttachmentSuccessfull": "अटैचमेंट चुने गए फोल्डर में सेव हो गया",
+        "connecting": "कनेक्ट कर रहा है…",
+        "saveAttachmentError": "सेव करने में कुछ समस्या आ रही है, कृपया दोबारा कोशिश करें",
+        "resetPersonalVirtualRoomLinkSuccess": "पर्सनल Virtual Room की लिंक रीसेट की गई",
+        "virtualRoomLinkCopied": "Virtual Room की लिंक कॉपी की गई"
+    },
+    "modal": {
+        "teamNews": "Team की खबरें",
+        "addModeratorDescription": "एक या ज़्यादा यूज़र चुनकर उन्हें इस Room के मॉडरेटर में प्रोमोट करें",
+        "clearHistoryDescription": "यह बात-चीत अब खाली है, इसे बात-चीत की लिस्ट में नीचे कर दिया गया है ताकि एक्टिव बात-चीतों पर पहले ध्यान जाए।",
+        "confirm": {
+            "areYouSure": "क्या आप वाकई में ऐसा करना चाहते हैं?",
+            "clearHistory": "आप चैट हिस्ट्री हमेशा के लिए डिलीट कर देंगे। इस चैट की दूसरे पार्टिसिपेंट्स की हिस्ट्री डिलीट नहीं होगी। एक बार करने पर वापस नहीं ला सकेंगे।",
+            "leaveAndDeleteConversation": "क्या आप {{conversationName}} को छोड़कर डिलीट करना चाहते हैं?",
+            "deleteChannel": "क्या आप वाकई में इस Channel को डिलीट करना चाहते हैं?",
+            "deleteSpace": "क्या आप वाकई में इस Space को डिलीट करना चाहते हैं?",
+            "leaveSpace": "क्या आप वाकई में Space छोड़ना चाहते हैं?",
+            "deleteRoom": "क्या आप वाकई में Roomको डिलीट करना चाहते हैं?",
+            "leaveChannel": "क्या आप वाकई में Channel को छोड़ना चाहते हैं?",
+            "leaveGroup": "क्या आप वाकई में Group छोड़ना चाहते हैं?",
+            "removeMember": "क्या आप वाकई में इस मेम्बर को हटाना चाहते हैं?",
+            "deleteVirtualRoom": "क्या आप वाकई में Virtual Room को डिलीट करना चाहते हैं?"
+        },
+        "forwardModal": {
+            "forwardedMessageFrom": "इनसे फॉरवर्ड किया मैसेज",
+            "selectOneOrMoreConversations": "एक या ज़्यादा बात-चीत चुनें",
+            "typeToFilterTheList": "लिस्ट फ़िल्टर करने के लिए टाइप करें",
+            "spaceAndChannels": "Space और Channel"
+        },
+        "instantMeeting": {
+            "closedInstantMeeting": "इंस्टेंट मीटिंग बंद हो गई",
+            "continue": "पुरानी इंस्टेंट मीटिंग से जारी रखें",
+            "create": "एक नई इंस्टेंट मीटिंग बनाएँ",
+            "endCallByOwner": "Instant Meeting के ओनर ने कॉल खत्म करने का फैसला कर लिया है, उम्मीद है आपको Instant Meeting एक्सपीरियंस पसंद आया होगा",
+            "instantMeetingAlreadyRunningTitle": "एक Instant Meeting पहले ही चल रही है",
+            "instantMeetingAlreadyRunningText": "एक नई बनाने से पुरानी ओवरराइट हो जाएगी और आपके हाजिर व्यक्तियों का कनेक्शन टूट जाएगा, आप क्या करना चाहते हैं?"
+        },
+        "moderatorCannotLeaveGroupDescription": "आप {{conversationName}} के अकेले मॉडरेटर हैं, ग्रुप छोड़ने से पहले किसी को यह ज़िम्मेदारी देकर जाएँ।",
+        "moderatorCannotLeaveGroupTitle": "रुकिए, एक नए मॉडरेटर की जरूरत है",
+        "notShowAgain": "इसे दोबारा न दिखाएँ",
+        "roomsFunctionalitiesChangelogDescription": "हमने मीटिंग फंक्शनालिटी में महत्वपूर्ण बदलाव किए हैं। और जानकारी के लिए Rooms के परिचय को जानें!",
+        "showPreviousConversationHistory": "बात-चीत की पिछली हिस्ट्री दिखाएँ",
+        "planMeetingDescription": "Room के नाम से मीटिंग में आने वालों को Room में किस विषय पर बात हो रही है जानने में मदद मिलती है।",
+        "deleteMessageDescription": "कोई मैसेज डिलीट करने पर यह आपके लिए या दूसरे सभी पाने वालों को दिखाई नहीं देगा",
+        "news": "न्यूज़",
+        "userJoinedWaitingRoom": "ऐसा लग रहा है कि Waiting Room में कोई है",
+        "selectFolder": "फोल्डर सिलेक्ट करें",
+        "stopMeetingRec": {
+            "stopMeetingTitle": "मीटिंग की रिकॉर्डिंग बंद करें",
+            "stopRecording": "रिकॉर्डिंग बंद हो जाएगी। आप इस मीटिंग के दौरान कभी भी नई रिकॉर्डिंग शुरू कर सकते हैं।",
+            "locationWhereToSaveRecording": "रिकॉर्डिंग\"/ {{folderName}}\" में सेव की जाएगी।",
+            "recordingName": "रिकॉर्डिंग नाम",
+            "stopRecordingDescription": "आप रिकॉर्डिंग रोकने जा रहे हैं। आप कभी भी नई रिकॉर्डिंग शुरू कर सकते हैं।",
+            "stopRecordingTitle": "रिकॉर्डिंग बंद करें"
+        },
+        "moderatorMeetingDescription": "इस Room को आप मॉडरेट करेंगे। आप और मॉडरेटर जोड़ सकते हैं और इन्हें आपके जैसी ही परमीशन उपलब्ध होंगी।",
+        "moderatorVirtualRoomDescription": "इस Virtual Room को आप मॉडरेट करेंगे। आप और मॉडरेटर जोड़ सकते हैं और इन्हें आपके जैसी ही परमीशन उपलब्ध होंगी।",
+        "planVirtualRoomDescription": "इस Virtual Room को कोई पहचान में आने वाला नाम दें ताकि इसमें आने वाले लोगों को समझ आ जाए ये मीटिंग किसलिए हो रही है।",
+        "planRoomDescription": "इस Room को कोई पहचान में आने वाला नाम दें ताकि इसमें आने वाले लोगों को समझ आ जाए ये मीटिंग किसलिए हो रही है।",
+        "moderatorRoomDescription": "इस Room को आप मॉडरेट करेंगे। आप और मॉडरेटर जोड़ सकते हैं और इन्हें आपके जैसी ही परमीशन उपलब्ध होंगी।"
+    },
+    "appVersion": "एप वर्शन",
+    "conversation": {
+        "channelInfo": "चैनल जानकारी",
+        "contactInfo": "संपर्क जानकारी",
+        "groupInfo": "ग्रुप जानकारी",
+        "info": "जानकारी",
+        "instantInfo": "इंस्टेंट मीटिंग जानकारी",
+        "name": "नाम",
+        "nameRoom": "\"{{conversationTitle}}\" का Room",
+        "newMessages": "नए मैसेज",
+        "roomLinkDescription": "दूसरों को इस Room में एक्सेस देने के लिए इस लिंक को कॉपी करके शेयर करें।",
+        "spaceInfo": "Space जानकारी",
+        "speakersCorner": "मीटिंग रूम में यूज़र्स",
+        "title": "शीर्षक",
+        "topic": "विषय",
+        "roomName": "Room का नाम",
+        "fileUploadDescription": "File का विवरण",
+        "roomInfo": "Room जानकारी",
+        "roomLink": "Room की लिंक",
+        "nameVirtualRoom": "{{conversationTitle}} का Virtual Room",
+        "virtualRoomLinkDescription": "इस लिंक को कॉपी करें और इस Virtual Room की एक्सेस देने के लिए दूसरे लोगों से शेयर करें।",
+        "virtualRoomInfo": "वर्चुVirtual Room जानकारी",
+        "virtualRoomLink": "Virtual Room लिंक",
+        "virtualRoomName": "Virtual Room का नाम"
+    },
+    "conversations": {
+        "activeMeetingRooms": "एक्टिव Meeting Rooms",
+        "chats": "चैट",
+        "conversations": "बात-चीतें",
+        "instantMeetings": "इंस्टेंट मीटिंग",
+        "meetingRooms": "Meeting Rooms",
+        "noActiveInstantMeetings": "अभी इंस्टेंट मीटिंग नहीं हैं। कोई नई इंस्टेंट मीटिंग बनाएँ या टैब बदलें।",
+        "noActiveMeetings": "अभी कोई एक्टिव Room नहीं हैं",
+        "noActiveSpaces": "अभी एक्टिव Space नहीं हैं। कोई नया Space बनाएँ या टैब बदलें।",
+        "noFilteredInstantMeetings": "इस फ़िल्टर से मैच करने वाली इंस्टेंट मीटिंग नहीं हैं।",
+        "noFilteredMeetings": "इस फ़िल्टर से मैच करने वाले Room या प्लान मीटिंग नहीं हैं",
+        "noFilteredSpaces": "इस फ़िल्टर से मैच करने वाले Space नहीं हैं।",
+        "personalRoom": "पर्सनल Room",
+        "scheduledMeetings": "शैड्यूल की हुई मीटिंग्स",
+        "spaces": "Spaces",
+        "spaceGeneralChannel": "सामान्य",
+        "yourRoom": "आपका Room",
+        "mockDisplayTitle": "चलिए हम संपर्क में रहते हैं!",
+        "filterChatList": "चैट लिस्ट फिल्टर करें",
+        "mockDisplayDescription": "कोई चैट शुरू करने के लिए कोई बात-चीत चुनें",
+        "noActiveChats": "इस समय एक्टिव चैट नहीं हैं। कोई नई चैट बनाएँ या टैब बदलें।",
+        "noFilteredChats": "इस फ़िल्टर से मैच करने वाली चैट नहीं हैं।",
+        "waitingRoom": "वेटिंग रूम",
+        "noFilteredVirtualRooms": "इस फ़िल्टर से मैच करने वाले Virtual Room या प्लान मीटिंग नहीं हैं",
+        "personalVirtualRoom": "पर्सनल Virtual Room",
+        "noActiveVirtualRooms": "अभी कोई एक्टिव Virtual Room नहीं हैं",
+        "activeVirtualRooms": "एक्टिव Virtual Room",
+        "virtualRooms": "Virtual Rooms",
+        "rooms": "रूम",
+        "activeRooms": "एक्टिव Room",
+        "noFilteredRooms": "इस फ़िल्टर से मैच करने वाले रूम या प्लान मीटिंग नहीं हैं",
+        "noActiveRooms": "अभी कोई एक्टिव रूम नहीं हैं"
+    },
+    "creation": {
+        "attendeeAdded": "हाजिर व्यक्ति को लिस्ट में जोड़ा गया",
+        "channel": {
+            "mainDescription": "Channel ऐसी अच्छे से परिभाषित टॉपिक चैट हैं जिन्हें एक Space में जोड़ा गया है। Space के पार्टिसिपेंट चैनल से जुड़कर टॉपिक पर सक्रिय रूप से चर्चा कर सकते हैं। पार्टिसिपेंट Space छोड़े बिना चैनल छोड़ सकते हैं।",
+            "setImageAndTitleDescription": "कोई फोटो सेट करें ताकि होस्टिंग Space में चैनल अच्छे से पहचाना जा सके। चैनल की फोटो भी सेट की जा सकती है या चैनल जानकारी पैनल पर बदली जा सकती है।",
+            "titleInputRequirements": "140 कैरक्टर की अनुमति है, होस्टिंग Space में शीर्षक अनोखा होना चाहिए",
+            "topicInputExplanation": "यह Channel के विषय के बारे में बताता है",
+            "topicDescription": "चूंकि चैनल ऐसी चैट हैं जो चर्चा हो रहे विषय से चलती हैं, ऐसे टॉपिक की सलाह दी जाती है जो विषय के बारे में अच्छे से बताता हो।"
+        },
+        "group": {
+            "addParticipantsDescription": "पार्टिसिपेंट्स का नाम या ई-मेल टाइप करके उन्हें बुलाएँ। आपको कम से कम दो दूसरे पार्टिसिपेंट बुलाने होंगे नहीं तो आप एक चैट बना सकते हैं।",
+            "groupWithoutNameAddParticipant": "अपने ग्रुप में पार्टिसिपेंट जोड़ें",
+            "inputTopicDescriptionLabel": "यह ग्रुप के विषय के बारे में बताता है",
+            "setImageAndTopicDescription": "कोई ऐसी फोटो सेट करें जिससे यूज़र लिस्ट के अंदर ग्रुप पहचान सकें।",
+            "mainDescription": "ग्रुप में दो से ज़्यादा पार्टिसिपेंट होने चाहिए। ग्रुप को प्रीफर्ड ग्रुप नाम दे दें ताकि इसके विषय के बारे में लिख सकें"
+        },
+        "instantMeeting": {
+            "addAttendees": "अपनी इंस्टेंट मीटिंग में अटेंडी जोड़ें",
+            "addAttendeesDescription": "अटेंड करने वालों के नाम या ईमेल यहाँ टाइप करके उन्हें बुलाएँ।",
+            "addAttendeesInputExplanation": "आप बाहरी यूज़र्स को भी बस उनके ईमेल पते टाइप करके बुला सकते हैं।",
+            "attendee": {
+                "feedback": {
+                    "negative": "एंटर की गई ईमेल मान्य नहीं है, कोई मान्य ईमेल डालें",
+                    "neutral": "एक या ज़्यादा अटेंडी चुनें"
+                }
+            },
+            "titleDescription": "Instant Meeting को कोई पहचाना जाने वाला शीर्षक दें, इससे आपकी मीटिंग में आने व्लोन को इस कॉल का उद्देश्य पता चल जाएगा।",
+            "description": "Instant Meetings ऐसे विडियो कॉल हैं जो तुरंत अरेंज होने के लिए बने हैं और कॉल खत्म होने के बाद चैट का कोई रिकॉर्ड नहीं रहता और यह अस्तित्व में नहीं रहती। Instant Meetings केवल Team से बनाई जा सकती हैं। Instant Meetings Team Pro यूज़र्स बना सकते हैं और इनसे बाहरी यूज़र भी जुड़ सकते हैं।"
+        },
+        "limitOfParticipantReached": "आप एडमिनिस्ट्रेटर द्वारा सेट पार्टिसिपेंट की सीमा तक पहुँच गए हैं",
+        "nameMax140Characters": "अधिकतम 140 कैरक्टर",
+        "nameNeeds2Letters": "नाम में कम से कम दो अक्षर होने चाहिए",
+        "nameRequired": "एक नाम जरूरी है",
+        "participants": {
+            "feedback": {
+                "neutral": "दो या ज़्यादा पार्टिसिपेंट चुनें"
+            }
+        },
+        "requiresOneMoreParticipant": "कम से कम एक और पार्टिसिपेंट जरूरी है",
+        "requiresTwoOthers": "कम से कम 2 और की जरूरत होती है",
+        "selectMoreParticipantsForInstantMeetings": "लिस्ट से कोई पार्टिसिपेंट चुनें या किसी बाहरी यूज़र को जोड़ने के लिए एड्रेस टाइप करें",
+        "selectOneOrMoreUsers": "एक या ज़्यादा यूज़र ढूंढें",
+        "space": {
+            "spaceWithoutNameAddParticipant": "अपने Space में पार्टिसिपेंट जोड़ें",
+            "topicDescription": "चूंकि Spaces ऐसी चैट हैं जो चर्चा हो रहे विषय से चलती हैं, ऐसे टॉपिक की सलाह दी जाती है जो विषय के बारे में अच्छे से बताता हो।",
+            "topicInputExplanation": "यह Space के विषय के बारे में बताता है",
+            "addMembersDescription": "लोगों का नाम या ई-मेल टाइप करके उन्हें बुलाएँ। आपको कम से कम दो दूसरे लोग बुलाने होंगे नहीं तो आप एक चैट बना सकते हैं।",
+            "mainDescription": "Spaces ऐसे जेनेरिक कम्यूनिकेशन एनवायरनमेंट हैं जिनमें खास चैट हो सकती हैं जिन्हें चैनल कहते हैं और जिनमें से हर एक का अपना टॉपिक हो सकता है। कोई Space बनाने के लिए आपको कम से कम दो पार्टिसिपेंट बुलाने होंगे। चैनल Space के जानकारी पैनल से सीधे भी जोड़े जा सकते हैं।",
+            "titleDescription": "शीर्षक Space की पहचान करता है और इसलिए इसे इसके विषय के बारे में बताना चाहिए।"
+        },
+        "startTypingToPick": "कोई एड्रेस चुनने के लिए टाइप करना शुरू करें",
+        "topicMax255Characters": "अधिकतम 255 कैरक्टर",
+        "topicOptional": "वैकल्पिक। यह विषय बताता है",
+        "typeToFilter": "लिस्ट फ़िल्टर करने के लिए टाइप करें",
+        "typeWithNameAddParticipant": "पर्टिसिपेंट्स जोड़ें",
+        "youCanInviteOther": "आप दूसरे {{limit}} पार्टिसिपेंट बुला सकते हैं",
+        "chat": {
+            "description": "Chats एक-दूसरे से अकेले ऐसी बात-चीतें हैं जिनकी मदद से आप अपने कांटैक्ट्स के संपर्क में रह सकते हैं।",
+            "addParticipant": "कोई चैट शुरू करने के लिए कोई पार्टिसिपेंट चुनें",
+            "chatFilterDescription": "आपको जिस पार्टिसिपेंट से बात करनी हो उस पर बस क्लिक करके एक Chat शुरू कर सकते हैं"
+        },
+        "titleInputRequirements": "140 कैरक्टर की अनुमति है, शीर्षक अनोखा होना चाहिए",
+        "emailReplicated": "एंटर की गई ई-मेल पहले ही जोड़ दी गई है",
+        "nameRequired-max140Characters-avoidReusingNames": "जरूरी है। अधिकतम 140 कैरक्टर, नाम दोबारा उपयोग न करें।",
+        "topicNeeds2Letters": "यह टॉपिक वैकल्पिक है। कम से कम 2 कैरक्टर"
+    },
+    "meeting": {
+        "attendeesComing": "पार्टीसिपेंट्स आ रहे हैं",
+        "defaultViewModeDedicatedModeLabel": "डेडिकेटेड मोड",
+        "defaultViewModeDefaultModeLabel": "डिफ़ाल्ट मोड",
+        "defaultViewModeSecondaryDescriptionLabel": "यह विकल्प आपकी सेटिंग्स में सेव कर दिया जाएगा और आप जब चाहे इसे अपडेट कर सकेंगे।",
+        "interactions": {
+            "cinemaView": "सिनेमा व्यू",
+            "closeCall": "इस कॉल को बंद करें",
+            "disableAudio": "ऑडियो बंद करें",
+            "disableFullScreen": "फ़ुल स्क्रीन से बाहर जाएँ",
+            "disableVideo": "विडियो बंद करें",
+            "enableAudio": "ऑडियो चालू करें",
+            "enableVideo": "विडियो चालू करें",
+            "gridView": "ग्रिड व्यू",
+            "hideChat": "चैट छिपाएँ",
+            "hideParticipants": "पर्टिसिपेंट छिपाएँ",
+            "muteUser": "म्यूट करें",
+            "muteUserForAllTitle": "सभी के लिए आवाज़ बंद करें",
+            "mutedByModerators": "मॉडरेटर ने आपका माइक बंद कर दिया है, बोलने के लिए अपना माइक चालू करें",
+            "mutedByOthers": "आपका माइक बंद नहीं किया गया है",
+            "pinVideo": "विडियो पिन करें",
+            "shortCutLabel": "(C)",
+            "showChat": "चैट दिखाएँ",
+            "showParticipants": "पार्टिसिपेंट दिखाएँ",
+            "status": {
+                "cameraMicOff": "आपका कैमरा और माइक बंद हैं",
+                "cameraOff": "आपका कैमरा बंद है"
+            },
+            "unpinVideo": "विडियो अनपिन करें",
+            "enableScreenSharing": "स्क्रीन शेयरिंग चालू करें",
+            "muteUserForAllDescription": "यूज़र की आवाज़ बंद करने पर सभी पार्टिसिपेंट यूज़र की आवाज़ नहीं सुन सकेंगे। सिर्फ आवाज़ बंद किए यूज़र खुद की आवाज़ चालू कर सकते हैं। आगे बढ़ें?",
+            "disableScreensharing": "स्क्रीन शेयरिंग बंद करें",
+            "enableFullScreen": "फुलस्क्रीन",
+            "cameraEnabled": "कैमरा चालू",
+            "audioEnabled": "ऑटो चालू है",
+            "cameraDisabled": "कैमरा बंद",
+            "audioDisabled": "ऑटो बंद है",
+            "stopMyVoice": "मेरी आवाज़ रोकें",
+            "playMyVoice": "मेरी आवाज़ प्ले करें",
+            "micTesting": "आपको डिफ़ाल्ट आउटपुट में आपकी आवाज़ सुनाई देगी जिसे आप अपने मीटिंग के चुने गए इनपुट और आउटपुट की भी की क्वालिटी की जांच कर सकेंगे",
+            "playMic": "माइक्रोफोन टेस्ट शुरू करें",
+            "stopMic": "माइक्रोफोन टेस्ट रोकें",
+            "hangOff": "हैंग अप करें"
+        },
+        "startModal": {
+            "description": "आप मीटिंग में कैसे एंटर करना चाहते हैं?",
+            "enter": "एंटर करें",
+            "noVideoAndAudio": "कैमरा बंद, माइक्रोफोन चालू",
+            "noVideoAndNoAudio": "कैमरा बंद, माइक्रोफोन बंद",
+            "videoAndAudio": "कैमरा चालू, माइक्रोफोन चालू",
+            "videoAndNoAudio": "कैमरा चालू, माइक्रोफोन बंद",
+            "descriptionPersonalVirtualRoom": "आप {{meetingTitle}} के पर्सनल Virtual Room में कैसे एंटर करना चाहते हैं?",
+            "descriptionMyPersonalVirtualRoom": "आप अपने पर्सनल Virtual Room में कैसे एंटर करना चाहते हैं?",
+            "descriptionVirtualRoom": "आप {{meetingTitle}} में कैसे एंटर करना चाहते हैं?",
+            "descriptionPersonalRoom": "आप {{meetingTitle}} के पर्सनल Room में कैसे एंटर करना चाहते हैं?",
+            "descriptionMyPersonalRoom": "आप अपने पर्सनल Room में कैसे एंटर करना चाहते हैं?"
+        },
+        "defaultViewModeDedicatedLabel": "\"डेडिकेटेड मोड\" से आपको ब्राउज़र की एक अलग की गई टैब में ले जाया जाएगा ताकि आप सबसे बेहतरीन Meeting अनुभव ले सकें।",
+        "defaultViewModeTitleModal": "Meeting एनवायरनमेंट ऑप्शन",
+        "defaultViewModeDefaultLabel": "\"डिफ़ाल्ट मोड\" चुनने से Meeting वर्तमान इंटरनल एनवायरनमेंट में चालू होगी।",
+        "defaultViewModeSaveLabel": "सेव का ऑप्शन",
+        "resetMeetingUrlModalDescription": "क्या आप वाकई में प्लान की गई \"{{conversationName}}\" की लिंक रीसेट करना चाहते हैं?",
+        "genericErrorMeeting": "इस मीटिंग में कुछ समस्या आ रही है, अपने सिस्टम एडमिनिस्ट्रेटर से संपर्क करें।",
+        "thisMeetingIsBeingRecorded": "मीटिंग रिकॉर्ड हो रही है",
+        "recordedByMe": "आपने रिकॉर्ड करना शुरू कर दिया है",
+        "recording": "रिकॉर्डिंग",
+        "errorMeetingRecording": "रजिस्ट्रेशन फिर से शुरू करना संभव नहीं है, कृपया अपने सिस्टम एडमिनिस्ट्रेटर से संपर्क करें।",
+        "recordedByOther": "{{username}} ने रिकॉर्ड करना शुरू कर दिया है",
+        "wereToFindRecording": "रिकॉर्डिंग विडियो सर्वर होम में सेव की जाएगी, और जानकारी के लिए अपने सिस्टम एडमिनिस्ट्रेटर से संपर्क करें।",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "डेडिकेटेड मोड",
+        "defaultViewModeDedicatedModeLabelVRoom": "डेडिकेटेड मोड",
+        "defaultViewModeDedicatedLabelVirtualRoom": "\"डेडिकेटेड मोड\" से आपको ब्राउज़र की एक अलग की गई टैब में ले जाया जाएगा ताकि आप सबसे बेहतरीन Virtual Room अनुभव ले सकें।",
+        "defaultViewModeDefaultLabelVirtualRoom": "\"डिफ़ाल्ट मोड\" चुनने से Virtual Room वर्तमान इंटरनल एनवायरनमेंट में चालू होगी।",
+        "successSaveMeetingRecording": "आप {{registrationName}} को /{{folderName}} में जैसे ही उपलब्ध होगा देख सकेंगे",
+        "defaultViewModeTitleModalVirtualRoom": "Virtual Room एनवायरनमेंट ऑप्शन",
+        "errorMeetingSavingRecording": "रिकॉर्डिंग रोक्न संभव नहीं है, दोबारा कोशिश करें",
+        "wereToFindRec": "रिकॉर्डिंग को उस मॉडरेटर के Files स्पेस में सेव किया जाएगा जिसने इसे रोका था।",
+        "setVirtualBackground": "वर्चुअल बैकग्राउंड सेट करें",
+        "noEffect": "कोई असर नहीं",
+        "blurMyBackground": "मेरा बैकग्राउंड धुंधला करें"
+    },
+    "message": {
+        "deletedMessage": "डिलीट किया मैसेज",
+        "edited": "एडिट किया",
+        "forwarded": "फॉरवर्ड किया",
+        "now": "अभी",
+        "service": {
+            "meeting": {
+                "ended": "मीटिंग खत्म हो गई",
+                "endedAtTime": "Meeting इस समय ख़त्म हो गई",
+                "startedAtTime": "मीटिंग इस समय शुरू हो गई"
+            },
+            "member": {
+                "changed": {
+                    "name": {
+                        "channel": "{{member_name}} ने चैनल का नाम {{name}} में बदल दिया है",
+                        "space": "{{member_name}} ने स्पेस का नाम {{name}} में बदल दिया है"
+                    },
+                    "picture": {
+                        "channel": "{{member_name}} ने चैनल की फोटो बदल दी है",
+                        "space": "{{member_name}} ने स्पेस की फोटो बदल दी है",
+                        "group": "{{member_name}} ने ग्रुप की फोटो बदल दी है"
+                    },
+                    "topic": {
+                        "channel": "{{member_name}} ने चैनल का विषय {{topic}} में बदल दिया है",
+                        "space": "{{member_name}} ने स्पेस का विषय {{topic}} में बदल दिया है",
+                        "group": "{{member_name}} ने इस ग्रुप के टॉपिक को बदल कर {{topic}} कर दिया है"
+                    }
+                },
+                "created": {
+                    "channel": "{{member_name}} ने चैनल बना दिया है",
+                    "space": "{{member_name}} ने स्पेस बना दिया है",
+                    "group": "{{member_name}} ने ग्रुप बना दिया है",
+                    "single": "यह Chat {{member_name}} ने बनाई है"
+                },
+                "deleted": {
+                    "channel": "{{member_name}} ने चैनल डिलीट कर दिया है",
+                    "instantMeeting": "{{member_name}} ने इंस्टेंट मीटिंग डिलीट कर दी है",
+                    "space": "{{member_name}} ने स्पेस डिलीट कर दिया है"
+                },
+                "invited": "{{member_name}} को {{invited_by}} ने इन्वाइट किया है",
+                "join": {
+                    "channel": "{{member_name}} ने चैनल जॉइन कर लिया है",
+                    "conversation": "{{member_name}} ने Chat जॉइन कर ली है"
+                },
+                "kicked": {
+                    "channel": "{{member_name}} को {{kicked_by}} ने चैनल से बाहर निकाल दिया है",
+                    "group": "{{member_name}} को {{kicked_by}} ने ग्रुप से बाहर निकाल दिया है",
+                    "space": "{{member_name}} को {{kicked_by}} ने स्पेस से बाहर निकाल दिया है",
+                    "chat": "{{member_name}} को {{kicked_by}} ने Chat से हटा दिया है"
+                },
+                "left": {
+                    "channel": "{{member_name}} ने चैनल छोड़ दिया है",
+                    "space": "{{member_name}} ने स्पेस छोड़ दिया है",
+                    "group": "{{member_name}} ने ग्रुप छोड़ दिया",
+                    "chat": "{{member_name}} ने चैट छोड़ दी है"
+                },
+                "you": {
+                    "invited": "आपने {{member_name}} को इन्वाइट किया है",
+                    "kicked": {
+                        "channel": "आपने {{member_name}} को इस Channel से हटा दिया है",
+                        "group": "आपने {{member_name}} को इस Group से हटा दिया है",
+                        "space": "आपने {{member_name}} को इस Space से हटा दिया है"
+                    }
+                }
+            },
+            "newMeeting": "इनकमिंग कॉल आ रहा है इनका:",
+            "notificationsActivatedForThisChat": "इस चैट के लिए अधिसूचनाएं चालू हो गईं",
+            "notificationsMutedForThisChat": "इस चैट के लिए नोटिफ़िकेशन की आवाज़ बंद हो गई हैं",
+            "you": {
+                "changed": {
+                    "name": {
+                        "channel": "आपने चैनल के नाम को {{name}} में बदल दिया है",
+                        "space": "आपने स्पेस के नाम को {{name}} में बदल दिया है"
+                    },
+                    "picture": {
+                        "channel": "आपने चैनल की फोटो बदल दी है",
+                        "space": "आपने स्पेस का नाम बदल दिया है",
+                        "group": "आपने Group की फोटो बदल दी है"
+                    },
+                    "topic": {
+                        "channel": "आपने चैनल के विषय को {{topic}} में बदल दिया है",
+                        "space": "आपने स्पेस के विषय को {{topic}} में बदल दिया है",
+                        "group": "आपने Group के विषय को {{topic}} में बदल दिया है"
+                    }
+                },
+                "created": {
+                    "channel": "आपने चैनल बना दिया है",
+                    "space": "आपने स्पेस बना दिया है",
+                    "group": "आपने Group बना दिया है",
+                    "single": "आपने Chat बना दी है"
+                },
+                "deleted": {
+                    "channel": "आपने चैनल डिलीट कर दिया है",
+                    "instantMeeting": "आपने इंस्टेंट मीटिंग डिलीट कर दी है",
+                    "space": "आपने स्पेस डिलीट कर दिया है"
+                },
+                "invited": "आपको {{invited_by}} ने इन्वाइट किया है",
+                "join": {
+                    "channel": "आपने चैनल जॉइन कर लिया है",
+                    "instantMeeting": "आपने इंस्टेंट मैसेजिंग जॉइन कर ली है",
+                    "space": "आपने स्पेस जॉइन कर लिया है",
+                    "userRoom": "आपने Room जॉइन कर लिया है",
+                    "group": "आपने Group जॉइन कर लिया है"
+                },
+                "kicked": {
+                    "channel": "आपको {{kicked_by}} ने चैनल से बाहर निकल दिया है",
+                    "group": "आपको {{kicked_by}} ने ग्रुप से बाहर निकल दिया है",
+                    "space": "आपको {{kicked_by}} ने स्पेस से बाहर निकल दिया है"
+                },
+                "left": {
+                    "channel": "आपने चैनल छोड़ दिया है",
+                    "space": "आपने स्पेस छोड़ दिया है",
+                    "group": "आपने Group छोड़ दिया है"
+                }
+            },
+            "conversationCreated": "Chat बन गई"
+        },
+        "readBy": "इन्होंने पढ़ लिया",
+        "yesterday": "कल"
+    },
+    "notification": {
+        "answer": "जबाब दें",
+        "dismiss": "छोड़ें",
+        "incomingCall": "इनकमिंग कॉल आ रहा है इनका:",
+        "waiting": {
+            "descriptionAcceptedLabel": "आपको {{conversationName}} के मॉडरेटर ने स्वीकार कर लिया है",
+            "notificationJoinTheRoom": "मीटिंग में हिस्सा लेने के लिए रूम से जुड़ें",
+            "descriptionWaitingLabel": "आप {{conversationName}} के मॉडरेटर द्वारा एक्सेप्ट होने का इंतज़ार कर रहे हैं",
+            "notificationAcceptedByModerator": "आपको मॉडरेटर ने एक्सेप्ट कर लिया है",
+            "userIsWaiting": "नया यूज़र अंदर आने का इंतज़ार कर रहा है",
+            "userJoinedWaitingRoom": "ऐसा लग रहा है कि वेटिंग रूम में कोई है",
+            "notificationJoinTheVirtualRoom": "मीटिंग में हिस्सा लेने के लिए Virtual Room से जुड़ें"
+        },
+        "invitationToPersonalRoom": "Personal Room में इनका इन्विटेशन:",
+        "meeting": {
+            "ended": "मीटिंग खत्म हो गई"
+        },
+        "startMeetingRecording": "{{conversationName}} की मीटिंग की रिकॉर्डिंग शुरू हो गई है",
+        "invitationToPersonalVirtualRoom": "Personal Virtual Room में इनका इन्विटेशन:"
+    },
+    "people": {
+        "manyMembers": "{{membersCount}} मेम्बर",
+        "me": "मैं",
+        "oneParticipant": "एक पार्टिसिपेंट",
+        "otherParticipants": "{{numberParticipants}} दूसरे पार्टिसिपेंट",
+        "participants": "पार्टिसिपेंट्स",
+        "you": "आप",
+        "whoYoureLookinkFor": "आप किसे ढूंढ रहे हो?"
+    },
+    "settings": {
+        "meeting": {
+            "enableCamera": "कैमरा चालू करें",
+            "enableMicrophone": "माइक्रोफोन चालू करें",
+            "meetings": "मीटिंग्स",
+            "personalRoomOptionsTitleModal": "पर्सनल Room की लिंक रीसेट हो गई",
+            "personalRoomResetButton": "पर्सनल Room की लिंक रीसेट करें",
+            "description": "मीटिंग्स में आने के लिए अपने ऑडियो और विडियो प्रेफेरेंस सेट करें। आप किसी भी मीटिंग में आने से पहले अपने प्रेफेरेंस कस्टमाइज़ कर सकते हैं।",
+            "personalRoomResetDescription": "पर्सनल Room की लिंक रीसेट करने से पहले दी गई सभी एक्सेस काम करना बंद कर देंगी।",
+            "descriptionVirtualRoom": "Virtual Room में आने के लिए अपने ऑडियो और विडियो प्रेफेरेंस सेट करें। आप किसी भी Virtual Room में आने से पहले अपने प्रेफेरेंस कस्टमाइज़ कर सकते हैं।",
+            "enableNoiseSuppression": "आवाज़ दबाएँ",
+            "virtualRooms": "Virtual Rooms",
+            "voiceProcessing": "आवाज़ प्रोसेसिंग",
+            "enableEchoCancellation": "आवाज़ गूंजना बंद करें",
+            "personalVirtualRoomOptionsTitleModal": "पर्सनल Virtual Room की लिंक रीसेट की गई",
+            "personalVirtualRoomResetButton": "Virtual Room की लिंक रीसेट करें",
+            "personalVirtualRoomResetDescription": "पर्सनल Virtual Room की लिंक रीसेट करने से पहले दी गई सभी एक्सेस काम करना बंद कर देंगी।",
+            "voiceProcessingDescription": "आपको डिफ़ाल्ट आउटपुट में आपकी आवाज़ सुनाई देगी जिसे आप अपने मीटिंग के चुने गए इनपुट और आउटपुट की भी की क्वालिटी की जांच कर सकेंगे",
+            "descriptionRoom": "Room में आने के लिए अपने ऑडियो और विडियो प्रेफेरेंस सेट करें। आप किसी भी Room में आने से पहले अपने प्रेफेरेंस कस्टमाइज़ कर सकते हैं।"
+        },
+        "notification": {
+            "desktop": "डेस्कटॉप अधिसूचनाएं",
+            "openMinichatDescription": "अपनी मिनीचैट का ओपनिंग व्यवहार कस्टमाइज़ करें",
+            "title": {
+                "notifications": "अधिसूचनाएं",
+                "openMinichat": "जब कोई नया मैसेज आए तो खोलें",
+                "openMinichatForGroup": "जब कोई नया Group मैसेज आए तो खोलें",
+                "openMinichatForSingle": "जब कोई नया Single मैसेज आए तो खोलें",
+                "openMinichatForSpace": "जब कोई नया Space मैसेज आए तो खोलें"
+            }
+        },
+        "profile": {
+            "errorGenericResponse": "कुछ गड़बड़ हुई। दोबारा कोशिश करें",
+            "reset": "रीसेट करें",
+            "restore": "वापस लाएँ",
+            "statusOptionalDescription": "वैकल्पिक। दूसरों को बताएं कि आप क्या सोच रहे हैं। अधिकतम: 256 कैरक्टर",
+            "title": "प्रोफ़ाइल",
+            "update": "अपडेट करें",
+            "chooseAProfilePic": "कोई प्रोफ़ाइल फोटो सिलेक्ट करें, फोटो अपने आप सेंटर हो जाएगी।",
+            "maximumDimension": "अधिकतम डाइमैन्शन: 256kb."
+        },
+        "title": "सेटिंग्स",
+        "notifications": {
+            "description": "Chats में हर प्रकार के नोटिफ़िकेशन के लिए अपने प्रेफेरेंस सेट करें।"
+        },
+        "modal": {
+            "description": "यहाँ आप Chats के लिए खास सभी प्रेफेरेंस सेट करके अपने लिए पूरा कस्टमाइज़ किया हुआ चैटिंग एक्सपीरियंस पा सकते हैं!",
+            "title": "Chats सेटिंग्स"
+        },
+        "resetPersonalRoomLinkSuccess": "पर्सनल Room की लिंक रीसेट की गई",
+        "recordingMeeting": {
+            "destinationFolder": "गंतव्य फोल्डर",
+            "descriptionWhereToSaveRegistration": "मीटिंग रिकॉर्डिंग सेव करने के लिए कोई डेस्टिनेशन फोल्डर सेट करें।",
+            "recording": "रिकॉर्डिंग"
+        }
+    },
+    "status": {
+        "externalGuest": "एक्सटर्नल गेस्ट",
+        "internalGuest": "इंटरनल गेस्ट",
+        "lastSeen": "पिछली बार देखा गया / गई {{lastSeen}}",
+        "offline": "ऑफ़लाइन",
+        "online": "ऑनलाइन",
+        "userStatus": "स्टेटस",
+        "areWriting": "लिख रहे/रहीं हैं…",
+        "isWriting": "लिख रहे/रहीं हैं…",
+        "waitingToEnter": "अंदर आने के इंतज़ार में"
+    },
+    "tooltip": {
+        "addFile": "फाइल जोड़ें",
+        "cancelFilter": "फिल्टर कैंसल करें",
+        "chooseFile": "फाइल चुनें",
+        "close": "बंद करें",
+        "closeSearch": "सर्च बंद करें",
+        "collapseChannel": "चैनल छोटे करें",
+        "copyRoomLink": "Room शेयर करने के लिए इस लिंक को कॉपी करें",
+        "copyRoomLinkTooltip": "Room शेयर करने के लिए इस लिंक को कॉपी करें",
+        "downgradeModerator": "मॉडरेटर को डाउनग्रेड करें",
+        "editDescription": "विवरण बदलें",
+        "editInfo": "जानकारी बदलें",
+        "enterMeetingRoom": "Meeting Room में जाएँ",
+        "enterYourRoom": "अपने पर्सनल Room में जाएँ",
+        "enterYourRoomTooltip": "अपने पर्सनल Room में जाएँ",
+        "errorUpdatingAvatarStatus": "स्टेटस सेट करते समय कुछ गड़बड़ी हो गई। कृपया दोबारा कोशिश करें",
+        "errorUploadingAvatarPicture": "नया अवतार अपलोड करते समय कुछ गड़बड़ी हो गई। कृपया दोबारा कोशिश करें",
+        "errorRemovingAvatarPicture": "नया अवतार हटाते करते समय कुछ गड़बड़ी हो गई। कृपया दोबारा कोशिश करें",
+        "goToPrivateChat": "प्राइवेट चैट में जाएँ",
+        "messageComposer": "कम्पोज़र को मैसेज करें",
+        "openMinichat": "मिनीचैट खोलें",
+        "promoteModerator": "प्रोमोट करके मॉडरेटर बनाएँ",
+        "removeFile": "फाइल हटाएँ",
+        "removeMember": "मेम्बर को हटाएँ",
+        "selectEmoji": "ईमोजी चुनें",
+        "sendFile": "फाइल भेजें",
+        "sendMessage": "मैसेज भेजें",
+        "showChannels": "चैनल दिखाएँ",
+        "switchToConversation": "बात-चीत में जाएँ",
+        "switchToInfoPanel": "जानकारी पैनल में जाएँ",
+        "copyUserRoom": "अपनी Personal Room लिंक कॉपी करें",
+        "copyUserRoomTooltip": "दूसरों को अपने पर्सनल Room में एक्सेस देने के लिए इस लिंक को कॉपी करके शेयर करें",
+        "inviteToPersonalRoom": "अपने पर्सनल Room में इन्वाइट करें",
+        "acceptQueuedMember": "यूज़र को अंदर आने दें",
+        "planMeeting": "कोई Meeting प्लान करें",
+        "rejectQueuedMember": "यूज़र को रिजेक्ट करें",
+        "searchForParticipant": "पर्टिसिपेंट खोजें",
+        "disabledCreateButton": "अपने इनपुट जाँच लें और जानें कि इनमें कोई त्रुटि नहीं हैं",
+        "copyVirtualRoomLinkTooltip": "Virtual Room शेयर करने के लिए इस लिंक को कॉपी करें",
+        "enterYourVirtualRoomTooltip": "अपने पर्सनल Virtual Room में जाएँ",
+        "copyUserVirtualRoomTooltip": "दूसरों को अपने पर्सनल Virtual Room में एक्सेस देने के लिए इस लिंक को कॉपी करके शेयर करें"
+    },
+    "general": {
+        "browserNotSupported": "आपके ब्राउज़र का यह वर्शन सपोर्टेड नहीं है। आप ब्राउज़र को अपडेट कर लें जिससे सभी फीचर्स का पूरा लाभ उठा सकें!",
+        "goToTeam": "Team में जाएँ",
+        "teamProductName": "Team"
+    },
+    "enterTheRoom": "Room में प्रवेश करें",
+    "external": {
+        "login": {
+            "externalLoginDescription": "यदि आप पहले से इस डोमेन में हैं तो आपको अपने आम वर्कस्पेस में रीडायरेक्ट कर दिया जाएगा। यदि आप कोई बाहरी यूज़र हैं तो आपको एक डेडिकेटेड इंटरफेस पर रीडायरेक्ट किया जाएगा।"
+        },
+        "unsupported": {
+            "browser": "ब्राउज़र सपोर्टेड नहीं है",
+            "device": "डिवाइस सपोर्ट नहीं है"
+        },
+        "youAreEnteringMeeting": "आप Room में प्रवेश करने वाले हैं",
+        "nobodyInTheRoom": "ऐसा लगता है इस Room में कोई नहीं है",
+        "roomIsEmpty": "यह Room खाली है",
+        "waitingRoom": {
+            "accessDenied": "एक्सेस मना की गई",
+            "moderatorRefusedAccessToRoom": "एक मॉडरेटर ने आपको इस Room में एक्सेस मना कर दी है",
+            "userLeftWaitingRoom": "आपने वेटिंग रूम छोड़ दिया",
+            "userLeftLookForwardToSee": "चलिए आपसे फिर मिलेंगे",
+            "userLeftReturnToWaitingRoom": "आप वेटिंग रूम में Room की लिंक से कभी भी वापस आ सकते हैं"
+        },
+        "nobodyInTheVirtualRoom": "ऐसा लगता है इस Virtual Room में कोई नहीं है",
+        "virtualRoomIsEmpty": "यह Virtual Room खाली है",
+        "youAreEnteringVirtualRoom": "आप Virtual Room में एंटर करने जा रहे हैं",
+        "orLabel": "या",
+        "appStoreLabel": "App Store",
+        "doYouHaveTheAppChats": "क्या आपके पास Carbonio Chats एप पहले से है?",
+        "doYouHaveTheAppTeam": "क्या आपके पास Zextras Chats एप पहले से है?",
+        "downloadAppLabel": "मीटिंग जॉइन करने के लिए एप डाऊनलोड करें",
+        "enter": "जॉइन करें!",
+        "playStoreLabel": "Google Play"
+    },
+    "label": {
+        "app_name": "चैट"
+    },
+    "errorPage": {
+        "description": "अपनी लिंक चेक करें, ये शायद गलत है",
+        "errorCode": "एरर कोड 404",
+        "title": "क्षमा करें, हमें वह Room नहीं मिला"
+    },
+    "personalRoomLabel": "{{userName}} का पर्सनल रूम",
+    "thanksForParticipating": "भाग लेने के लिए थैंक्स",
+    "tryLater": "बाद में कोशिश करें",
+    "virtualRoom": "वर्चुअल रूम",
+    "organizeYourMeeting": "अपनी खुद की मीटिंग्स ऑर्गनाइज़ करें या अपने साथ काम करने वालों के रूम में जॉइन करें",
+    "typeYourEmail": "अपनी ई-मेल टाइप करें",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "डाऊनलोड करें"
+            }
+        },
+        "close": {
+            "tooltip": "बंद करें"
+        }
+    },
+    "enterTheVirtualRoom": "Virtual Room में एंटर करें",
+    "organizeYourVMeeting": "अपनी खुद की मीटिंग्स ऑर्गनाइज़ करें या अपने साथ काम करने वालों के Virtual Room में जॉइन करें",
+    "organizeYourVirtualMeeting": "अपनी खुद की मीटिंग्स ऑर्गनाइज़ करें या अपने साथ काम करने वालों के Virtual Room में जॉइन करें",
+    "personalVirtualRoomLabel": "{{userName}} का पर्सनल Virtual Room",
+    "attachments": {
+        "addFromLocal": "लोकल से लगाएँ",
+        "shareLink": "लिंक शेयर करें",
+        "share": "पब्लिक लिंक शेयर करें",
+        "attachLinkFromFiles": "फाइलों से लिंक अटैच करें",
+        "attachLinkFiles": "फाइलों से पब्लिक लिंक अटैच करें"
+    },
+    "room": "रूम"
+}

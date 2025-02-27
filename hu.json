@@ -1,0 +1,554 @@
+{
+    "action": {
+        "forward": "Továbbítás",
+        "reply": "Válasz",
+        "activateNotifications": "Értesítések aktiválása",
+        "add": "Hozzáadás",
+        "addChannel": "Csatorna hozzáadása",
+        "addMembers": "Tagok hozzáadása",
+        "addModerator": "Moderátor hozzáadása",
+        "addModerators": "Moderátorok hozzáadása",
+        "addNewMembers": "Új tagok hozzáadása",
+        "addNewMembersTo": "Új tagok hozzáadása a következőhöz:",
+        "addOtherModerators": "További moderátorok hozzáadása",
+        "browse": "Tallózás",
+        "clearHistory": "Előzmények törlése",
+        "close": "Bezárás",
+        "collapse": "Összecsukás",
+        "copy": "Másolat",
+        "copyAppVersion": "Alkalmazás verziójának másolása",
+        "copyLinkRoom": "Szoba linkjének másolása",
+        "copyLinkVirtualRoom": "Virtuális szoba linkje",
+        "copyUserRoomLink": "Link másolása",
+        "create": "Létrehoz",
+        "createChannel": "{{spaceName}} -hez kapcsolt csatorna létrehozása",
+        "createChat": "Csevegés létrehozása",
+        "createGroup": "Csoport létrehozása",
+        "createInstantMeeting": "Azonnali értekezlet létrehozása",
+        "createRoom": "Szoba létrehozása",
+        "createSpace": "Szabad terület létrehozása",
+        "createVirtualRoom": "Virtuális szoba létrehozása",
+        "delete": "Töröl",
+        "deleteChannel": "Csatorna törlése",
+        "deleteRoom": "Szoba törlése",
+        "deleteSpace": "Terület törlése",
+        "deleteVirtualRoom": "Virtuális szoba törlése",
+        "edit": "Szerkesztés",
+        "editYourMessage": "Az üzenet szerkesztése",
+        "expand": "Kibontás",
+        "goToGuide": "Ugrás az útmutatóhoz",
+        "join": "Csatlakozz",
+        "joinChannel": "Csatlakozz a csatornához üzenetek küldéséhez és értesítések fogadásához",
+        "joinChannelAction": "Belépés a csatornába",
+        "joinRoom": "Belépés a szobába",
+        "joinVirtualRoom": "Belépés a virtuális szobába",
+        "leave": "Távozás",
+        "leaveAndDelete": "Kilép és töröl",
+        "leaveChannel": "Csatorna elhagyása",
+        "leaveGroup": "Kilépés a csoportból",
+        "leaveSpace": "Kilépés a helyből",
+        "muteNotifications": "Értesítések némítása",
+        "openInChats": "Megnyitás csevegésben",
+        "openInTeam": "Megnyitás csapatban",
+        "plan": "Tervezés",
+        "planMeeting": "Értekezlet tervezése",
+        "remove": "Eltávolítás",
+        "removeMember": "Tag eltávolítása",
+        "replyToSomeone": "Válasz a következőnek",
+        "replyToYourself": "Válaszolj magadnak",
+        "resetLink": "Visszaállítás link",
+        "saveToFiles": "Mentés fájlba",
+        "scrollToNewMessage": "Görgess az új üzenethez",
+        "scrollToTheBottom": "Görgessen az aljára",
+        "start": "Kezdés",
+        "startMeeting": "Meeting indítása",
+        "stop": "Leállítás",
+        "waitingModeratorToJoin": "Arra vársz, hogy egy moderátor elfogadjon"
+    },
+    "creation": {
+        "group": {
+            "mainDescription": "A csoportoknak kettőnél több résztvevőt kell tartalmazniuk. Nevezze el a csoportot úgy, ahogyan azt a témájának leírása érdekében szeretné",
+            "setImageAndTopicDescription": "Állítson be egy képet, amely segít a felhasználóknak a listában szereplő csoportok azonosításában.",
+            "addParticipantsDescription": "Hívja meg a résztvevőket nevük vagy e-mail címük megadásával. Legalább két másik résztvevőt kell meghívnia, különben létrehozhat egy csevegést.",
+            "groupWithoutNameAddParticipant": "Résztvevők hozzáadása a csoporthoz",
+            "inputTopicDescriptionLabel": "Leírja a Csoport témáját"
+        },
+        "instantMeeting": {
+            "addAttendeesDescription": "Hívja meg a résztvevőket a nevük vagy e-mail címük beírásával.",
+            "addAttendeesInputExplanation": "E-mail címük beírásával külső felhasználókat is meghívhat.",
+            "description": "Az azonnali találkozók olyan videohívások, amelyeket úgy terveztek, hogy gyorsak és pillanatnyiak legyenek, a beszélgetésnek nem marad nyoma, és a hívás végeztével megszűnik létezni. Az azonnali megbeszéléseket a Team Pro felhasználói hozhatják létre, és külső felhasználók is csatlakozhatnak hozzájuk.",
+            "addAttendees": "Résztvevők hozzáadása az azonnali értekezlethez",
+            "attendee": {
+                "feedback": {
+                    "negative": "A megadott e-mail-cím nem érvényes, kérjük, adjon meg egy érvényes címet",
+                    "neutral": "Válasszon ki egy vagy több résztvevőt"
+                }
+            },
+            "titleDescription": "Adjon felismerhető címet az Azonnali értekezletnek, hogy a résztvevők megismerjék a hívás célját."
+        },
+        "space": {
+            "addMembersDescription": "Hívja meg a résztvevőket nevük vagy e-mail címük megadásával. Legalább két másik résztvevőt kell meghívnia, máskülönben létrehozhat egy csevegést.",
+            "mainDescription": "A terek olyan általános kommunikációs környezetek, amelyek speciális csevegéseket, úgynevezett csatornákat tartalmaznak, amelyek mindegyike saját témával rendelkezik. Egy Tér létrehozásához legalább két résztvevőt kell meghívnia. A csatornákat közvetlenül a tér információs paneljén lehet hozzáadni.",
+            "spaceWithoutNameAddParticipant": "Résztvevők hozzáadása a térhez",
+            "titleDescription": "A cím azonosítja a teret, és meg kell adnia a témáját.",
+            "topicDescription": "Mivel a Csatornák a tárgyalt téma által vezérelt csevegések, ajánlott egy olyan téma, amely jobban leírja a téma tárgyát.",
+            "topicInputExplanation": "Bemutatja a tér témáját"
+        },
+        "attendeeAdded": "Résztvevő hozzáadva a listához",
+        "channel": {
+            "mainDescription": "A csatornák egy jól meghatározott témájú beszélgetések, amelyek egy térbe vannak foglalva. A tér résztvevői csatlakozhatnak a csatornához, hogy aktívan megvitassák annak témáját. A résztvevők elhagyhatják a csatornát anélkül, hogy elhagynák a teret.",
+            "setImageAndTitleDescription": "Állítson be egy képet, hogy jobban felismerje a Csatornát a tárhelyen belül. A csatorna képe a csatorna információs paneljén is beállítható vagy megváltoztatható.",
+            "titleInputRequirements": "140 karakter megengedett, a címnek egyedinek kell lennie a vendégfogadási helyen belül",
+            "topicDescription": "Mivel a Csatornák a tárgyalt téma által vezérelt csevegések, ajánlott egy olyan téma, amely jobban leírja a témát.",
+            "topicInputExplanation": "Leírja a Csatorna témáját"
+        },
+        "chat": {
+            "addParticipant": "Válasszon ki egy résztvevőt, akivel csevegni szeretne",
+            "chatFilterDescription": "Csevegést úgy hozhat létre, hogy rákattint arra a résztvevőre, akivel beszélni szeretne",
+            "description": "A csevegések négyszemközti beszélgetések, amelyek segítenek, hogy kapcsolatban maradj a kapcsolataiddal."
+        },
+        "emailReplicated": "A megadott e-mail-cím már hozzá lett adva",
+        "limitOfParticipantReached": "Elérte az adminisztrátor által meghatározott résztvevői korlátot",
+        "nameMax140Characters": "Max. 140 karakter",
+        "nameNeeds2Letters": "A névnek legalább két betűből kell állnia",
+        "nameRequired": "A nevét kötelező megadni",
+        "nameRequired-max140Characters-avoidReusingNames": "Szükséges. Max. 140 karakter, kerülje a nevek ismételt használatát.",
+        "participants": {
+            "feedback": {
+                "neutral": "Válasszon ki két vagy több résztvevőt"
+            }
+        },
+        "requiresOneMoreParticipant": "Legalább még egy résztvevő szükséges",
+        "requiresTwoOthers": "Legalább 2 további szükséges",
+        "selectMoreParticipantsForInstantMeetings": "Válasszon ki egy résztvevőt a listából, vagy írja be a címet külső felhasználó hozzáadásához",
+        "selectOneOrMoreUsers": "Válasszon ki egy vagy több felhasználót",
+        "startTypingToPick": "Kezdj el gépelni egy cím kiválasztásához",
+        "titleInputRequirements": "140 karakter megengedett, a címnek egyedinek kell lennie",
+        "topicMax255Characters": "Max. 255 karakter"
+    },
+    "meeting": {
+        "interactions": {
+            "hangOff": "Vonal bontása",
+            "micTesting": "Az alapértelmezett kimeneten hallhatja a hangját, lehetővé téve magának, hogy tesztelje a bemenet minőségét, valamint az értekezlethez kiválasztott kimenetet",
+            "muteUserForAllDescription": "A felhasználó elnémításával az összes résztvevő nem hallja többé a felhasználót. Csak a némított felhasználó tudja feloldani a némítást. Folytassa?",
+            "audioDisabled": "Hang letiltva",
+            "audioEnabled": "Hang engedélyezve",
+            "cameraDisabled": "Kamera letiltva",
+            "cameraEnabled": "Kamera engedélyezve",
+            "cinemaView": "Mozi nézet",
+            "closeCall": "Hívás lezárása",
+            "disableAudio": "Hang letiltása",
+            "disableFullScreen": "Kilépés a teljes képernyős módból",
+            "disableScreensharing": "Képernyőmegosztás letiltása",
+            "disableVideo": "Videó tiltása",
+            "enableAudio": "Hang engedélyezése",
+            "enableFullScreen": "Teljes képernyős",
+            "enableScreenSharing": "Képernyőmegosztás engedélyezése",
+            "enableVideo": "Videó engedélyezése",
+            "gridView": "Rácsűrlap nézet",
+            "hideChat": "Csevegés elrejtése",
+            "hideParticipants": "Résztvevők elrejtése",
+            "muteUser": "Némítás",
+            "muteUserForAllTitle": "Némítás mindenki számára",
+            "mutedByModerators": "Egy moderátor elnémított, hallgattasd el magad, hogy megszólalhass",
+            "mutedByOthers": "Elnémították",
+            "pinVideo": "Videó rögzítése",
+            "playMic": "Mikrofon teszt indítása",
+            "playMyVoice": "A hangom lejátszása",
+            "shortCutLabel": "(C)",
+            "showChat": "Csevegés megjelenítése",
+            "showParticipants": "Résztvevők megjelenítése",
+            "status": {
+                "cameraMicOff": "A kamera és a mikrofon ki van kapcsolva",
+                "cameraOff": "A kamera ki van kapcsolva"
+            },
+            "stopMic": "Mikrofon teszt leállítása",
+            "stopMyVoice": "Állítsa le a hangomat",
+            "unpinVideo": "Videó rögzítésének feloldása"
+        },
+        "attendeesComing": "Jönnek a résztvevők",
+        "blurMyBackground": "A háttér elmosása",
+        "defaultViewModeDedicatedLabel": "A \"Dedikált mód\" átirányítja Önt a böngészője egy külön lapjára, hogy a lehető legjobban élvezhesse az értekezlet-élményt.",
+        "defaultViewModeDedicatedLabelVirtualRoom": "A \"Dedikált mód\" átirányítja Önt a böngészője egy külön lapjára, hogy a lehető legjobban élvezhesse az értekezlet-élményt.",
+        "defaultViewModeDedicatedModeLabel": "Dedikált mód",
+        "defaultViewModeDedicatedModeLabelVRoom": "Dedikált mód",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Dedikált mód",
+        "defaultViewModeDefaultLabel": "Az „Alapértelmezett mód” kiválasztásával az értekezlet az aktuális belső környezetben kezdődik.",
+        "defaultViewModeDefaultLabelVirtualRoom": "Az „Alapértelmezett mód” kiválasztásával az értekezlet az aktuális belső környezetben kezdődik.",
+        "defaultViewModeDefaultModeLabel": "Alapértelmezett mód",
+        "defaultViewModeSaveLabel": "Opció mentése",
+        "defaultViewModeSecondaryDescriptionLabel": "Ez az opció elmentésre kerül a beállításaid között, és bármikor frissíthető.",
+        "defaultViewModeTitleModal": "Találkozók környezeti lehetőségei",
+        "defaultViewModeTitleModalVirtualRoom": "Virtuális szobák környezeti lehetőségei",
+        "errorMeetingRecording": "Nem lehet elindítani a regisztrációt, kérjük, lépjen kapcsolatba a rendszergazdával.",
+        "errorMeetingSavingRecording": "Nem lehet leállítani a felvételt, próbálkozzon újra",
+        "genericErrorMeeting": "Úgy tűnik, hogy probléma van ezzel a találkozóval, lépjen kapcsolatba a rendszergazdával.",
+        "noEffect": "Nincs effektus",
+        "recordedByMe": "Elkezdte a felvételt",
+        "recordedByOther": "{{username}} megkezdte a felvételt",
+        "recording": "Rögzítés",
+        "resetMeetingUrlModalDescription": "Biztosan visszaállítja a (z) „{{conversationName}}” tervezett beszélgetésre mutató hivatkozást?",
+        "setVirtualBackground": "Virtuális háttér beállítása",
+        "startModal": {
+            "description": "Hogyan szeretne részt venni az értekezleten?",
+            "descriptionMyPersonalRoom": "Hogyan szeretne belépni a személyes szobájába?",
+            "descriptionPersonalRoom": "Hogyan szeretne belépni {{meetingTitle}} személyes szobájába?",
+            "descriptionMyPersonalVirtualRoom": "Hogyan szeretne belépni a személyes virtuális szobájába?",
+            "descriptionPersonalVirtualRoom": "Hogyan szeretne belépni {{meetingTitle}} személyes szobájába?",
+            "descriptionVirtualRoom": "Hogyan szeretne belépni a következőbe: {{meetingTitle}}?",
+            "enter": "Belép",
+            "noVideoAndAudio": "Kamera kikapcsolva, Mikrofon bekapcsolva",
+            "noVideoAndNoAudio": "Kamera kikapcsolva, Mikrofon kikapcsolva",
+            "videoAndAudio": "Kamera bekapcsolva, Mikrofon bekapcsolva",
+            "videoAndNoAudio": "Kamera bekapcsolva, Mikrofon kikapcsolva"
+        },
+        "successSaveMeetingRecording": "{{registrationName}} található /{{folderName}} mappában, amint elérhetővé válik",
+        "thisMeetingIsBeingRecorded": "Az értekezlet rögzítése folyamatban van",
+        "wereToFindRec": "A felvétel annak a moderátornak a Fájlok mezőjébe kerül mentésre, aki leállította.",
+        "wereToFindRecording": "A felvétel a videokiszolgáló kezdőlapján kerül mentésre, további részletekért forduljon a rendszergazdához."
+    },
+    "general": {
+        "browserNotSupported": "Az Ön böngészőjének verziója nem támogatott. Nagyon ajánlott frissíteni a böngészőt, hogy minden funkciót kihasználhasson!",
+        "goToTeam": "Ugrás a csapathoz",
+        "teamProductName": "Csapat"
+    },
+    "modal": {
+        "moderatorMeetingDescription": "Ön fogja moderálni ezt a termet. További moderátorokat adhat hozzá, akik ugyanazokkal a jogokkal rendelkeznek, mint Ön.",
+        "addModeratorDescription": "Válasszon ki egy vagy több felhasználót, hogy előléptesse őket a szoba moderátorai közé",
+        "clearHistoryDescription": "Ez a beszélgetés most üres, a beszélgetési lista aljára került, hogy kiemelje az aktívakat.",
+        "confirm": {
+            "areYouSure": "Biztos benne?",
+            "clearHistory": "Véglegesen törölni fogja a csevegési előzményeket. Más résztvevők előzményei nem törlődnek. Ez a művelet visszafordíthatatlan.",
+            "deleteChannel": "Biztosan törli ezt a csatornát?",
+            "deleteRoom": "Biztosan törli ezt a szobát?",
+            "deleteSpace": "Biztosan törli ezt a teret?",
+            "deleteVirtualRoom": "Biztosan törli a virtuális szobát?",
+            "leaveAndDeleteConversation": "Biztosan kilép, és törli a következőt: {{conversationName}}?",
+            "leaveChannel": "Biztosan elhagyja ezt a csatornát?",
+            "leaveGroup": "Biztosan kilép a Csoportból?",
+            "leaveSpace": "Biztosan elhagyja ezt a teret?",
+            "removeMember": "Biztos benne, hogy törli ezt a tagot?"
+        },
+        "deleteMessageDescription": "Ha törölsz egy üzenetet, az már nem lesz látható számodra és az összes többi címzett számára",
+        "forwardModal": {
+            "forwardedMessageFrom": "Továbbított üzenet innen:",
+            "selectOneOrMoreConversations": "Válasszon ki egy vagy több beszélgetést",
+            "spaceAndChannels": "Tér és csatornák",
+            "typeToFilterTheList": "Írja be a lista szűréséhez"
+        },
+        "instantMeeting": {
+            "closedInstantMeeting": "Azonnali találkozó lezárva",
+            "continue": "Folytatás a régi Azonnali értekezlettel",
+            "create": "Új azonnali értekezlet létrehozása",
+            "endCallByOwner": "Az azonnali találkozó tulajdonosa úgy döntött, hogy befejezi a hívást, reméljük, élvezte az azonnali találkozó élményét",
+            "instantMeetingAlreadyRunningText": "Új létrehozása felülírja a régit, és a résztvevő elveszíti a kapcsolatot. Mit szeretne tenni?",
+            "instantMeetingAlreadyRunningTitle": "Egy Azonnali értekezlet már fut"
+        },
+        "moderatorCannotLeaveGroupDescription": "{{conversationName}} egyetlen moderátora vagy. Kérjük, léptess elő valaki mást, mielőtt elhagyod a Csoportot.",
+        "moderatorCannotLeaveGroupTitle": "Várjon, új moderátorra van szükség",
+        "moderatorVirtualRoomDescription": "Ön fogja moderálni ezt a virtuális szobát. További moderátorokat adhat hozzá, akik ugyanazokkal a jogokkal rendelkeznek, mint Ön.",
+        "moderatorRoomDescription": "Ön fogja moderálni ezt a szobát. További moderátorokat adhat hozzá, akik ugyanazokkal a jogokkal rendelkeznek, mint Ön.",
+        "news": "Hírek",
+        "notShowAgain": "Ne mutassa újra",
+        "planMeetingDescription": "A szoba neve segít a résztvevőknek, hogy megismerjék a szoba megvitatásának kérdését.",
+        "planVirtualRoomDescription": "Adjon felismerhető nevet ennek a virtuális szobának, hogy a résztvevők tudják, miről fognak beszélgetni.",
+        "planRoomDescription": "Adjon felismerhető nevet ennek a szobának, hogy a résztvevők tudják, miről fognak beszélgetni.",
+        "roomsFunctionalitiesChangelogDescription": "Fontos változtatásokat hajtottunk végre a megbeszélések funkcióiban. Olvassa el a Szobák bevezetőjét, hogy többet megtudjon!",
+        "selectFolder": "Mappaválasztás",
+        "showPreviousConversationHistory": "Korábbi beszélgetési előzmények megjelenítése",
+        "stopMeetingRec": {
+            "locationWhereToSaveRecording": "A felvétel a (z) „/{{folderName}}” mappába lesz mentve.",
+            "recordingName": "Név rögzítése",
+            "stopMeetingTitle": "Tárgyalás rögzítésének leállítása",
+            "stopRecording": "A felvétel leáll. A megbeszélés során bármikor indíthat új felvételt.",
+            "stopRecordingDescription": "Leállítja a felvételt. Bármikor kezdhet egy újat.",
+            "stopRecordingTitle": "Felvétel leállítása"
+        },
+        "teamNews": "Csapat hírei",
+        "userJoinedWaitingRoom": "Úgy tűnik, van valaki a váróban"
+    },
+    "appVersion": "Alkalmazásverzió",
+    "attachments": {
+        "addFromLocal": "Hozzáadás a helyi mappából",
+        "attachLinkFiles": "Nyilvános hivatkozás csatolása fájlokból",
+        "attachLinkFromFiles": "Link csatolása fájlokból",
+        "share": "Nyilvános hivatkozás megosztása",
+        "shareLink": "Link megosztása"
+    },
+    "button": {
+        "cancel": "Mégse",
+        "no": "Nem",
+        "ok": "OK",
+        "save": "Mentés",
+        "undo": "Visszavonás",
+        "yes": "Igen"
+    },
+    "conversation": {
+        "channelInfo": "Csatorna infó",
+        "contactInfo": "Elérhetőségi adatok",
+        "fileUploadDescription": "A fájl leírása",
+        "groupInfo": "Csoport infó",
+        "info": "Információ",
+        "instantInfo": "Azonnali értekezlet adatai",
+        "name": "Név",
+        "nameRoom": "{{conversationTitle}}szobája",
+        "newMessages": "Új üzenetek",
+        "nameVirtualRoom": "{{conversationTitle}} virtuális szobája",
+        "roomInfo": "Szobainformáció",
+        "roomLink": "Szoba linkje",
+        "roomLinkDescription": "Másold ki ezt a linket, és oszd meg, hogy mások is hozzáférhessenek ehhez a szobához.",
+        "roomName": "Szoba neve",
+        "spaceInfo": "Helyinformáció",
+        "speakersCorner": "Felhasználók a tárgyalóban",
+        "title": "Cím",
+        "topic": "Témakör",
+        "virtualRoomInfo": "Virtuális szoba infó",
+        "virtualRoomLink": "Virtuális szoba linkje",
+        "virtualRoomLinkDescription": "Másold ki ezt a linket, és oszd meg, hogy mások is hozzáférhessenek ehhez a szobához.",
+        "virtualRoomName": "Virtuális szoba neve"
+    },
+    "conversations": {
+        "activeMeetingRooms": "Aktív tárgyalótermek",
+        "activeRooms": "Aktív szobák",
+        "activeVirtualRooms": "Aktív virtuális szobák",
+        "chats": "Csevegések",
+        "conversations": "Párbeszédek",
+        "filterChatList": "Csevegések listájának szűrése",
+        "instantMeetings": "Azonnali találkozók",
+        "meetingRooms": "Tárgyalótermek",
+        "mockDisplayDescription": "Csevegés indításához válasszon ki egy beszélgetést",
+        "mockDisplayTitle": "Maradjunk kapcsolatban!",
+        "noActiveChats": "Jelenleg nincsenek aktív csevegések. Hozzon létre egy új csevegést vagy váltson lapot.",
+        "noActiveInstantMeetings": "Jelenleg nincsenek aktív azonnali értekezletek. Hozzon létre egy új értekezletet vagy váltson lapot.",
+        "noActiveMeetings": "Jelenleg nincsenek aktív Szobák",
+        "noActiveSpaces": "Jelenleg nincsenek aktív helyek. Hozzon létre egy új helyt vagy váltson lapot.",
+        "noActiveRooms": "Jelenleg nincsenek aktív Szobák",
+        "noActiveVirtualRooms": "Jelenleg nincsenek aktív virtuális szobák",
+        "noFilteredChats": "Nincsenek csevegések, amelyek megfelelnek ennek a szűrőnek.",
+        "noFilteredInstantMeetings": "Nincsenek azonnali találkozók, amelyek megfelelnek ennek a szűrőnek.",
+        "noFilteredMeetings": "Nincsenek olyan szobák vagy tervezett találkozók, amelyek megfelelnek ennek a szűrőnek",
+        "noFilteredRooms": "Nincsenek olyan szobák vagy tervezett találkozók, amelyek megfelelnek ennek a szűrőnek",
+        "noFilteredSpaces": "Nincsenek helyek, amelyek megfelelnek ennek a szűrőnek.",
+        "noFilteredVirtualRooms": "Nincsenek olyan virtuális szobák vagy tervezett találkozók, amelyek megfelelnek ennek a szűrőnek",
+        "personalRoom": "Személyes szoba",
+        "personalVirtualRoom": "Személyes virtuális szoba",
+        "rooms": "Szobák",
+        "scheduledMeetings": "Ütemezett találkozók",
+        "spaceGeneralChannel": "Általános",
+        "spaces": "Helyek",
+        "virtualRooms": "Virtuális szobák",
+        "waitingRoom": "Váróterem",
+        "yourRoom": "Az Ön szobája"
+    },
+    "external": {
+        "login": {
+            "externalLoginDescription": "Ha már tartozik ehhez a tartományhoz, akkor a rendszer átirányítja a szokásos munkaterületére. Ha külső felhasználó, akkor egy külön felületre irányítjuk át."
+        },
+        "nobodyInTheRoom": "Úgy tűnik, senki sincs ebben a szobában",
+        "nobodyInTheVirtualRoom": "Úgy tűnik, senki sincs ebben a virtuális szobában",
+        "orLabel": "vagy",
+        "playStoreLabel": "Google Play",
+        "roomIsEmpty": "Ez a szoba üres",
+        "unsupported": {
+            "browser": "Nem támogatott böngésző",
+            "device": "nem támogatott eszköz"
+        },
+        "virtualRoomIsEmpty": "Ez a virtuális szoba üres",
+        "waitingRoom": {
+            "accessDenied": "Hozzáférés megtagadva",
+            "moderatorRefusedAccessToRoom": "Egy moderátor elutasította a szobához való hozzáférésedet",
+            "userLeftLookForwardToSee": "Reméljük, hogy hamarosan újra üdvözölhetünk",
+            "userLeftReturnToWaitingRoom": "A Szoba linkjéről bármikor visszatérhet a váróterembe",
+            "userLeftWaitingRoom": "Elhagytad a várótermet"
+        },
+        "youAreEnteringMeeting": "A szobába készülsz belépni",
+        "youAreEnteringVirtualRoom": "A virtuális szobába készülsz belépni"
+    },
+    "feedback": {
+        "appVersionCopied": "Alkalmazás verziója másolva",
+        "connecting": "Kapcsolódás …",
+        "historyClearedSuccessfully": "Előzmények sikeresen törölve!",
+        "linkCopied": "Hivatkozás másolva",
+        "notificationsActivatedForThisChat": "Értesítések aktiválva ehhez a csevegéshez",
+        "notificationsMutedForThisChat": "Értesítések elnémítva ehhez a csevegéshez",
+        "offline": "Szerverkapcsolati problémának tűnik",
+        "online": "Újra online!",
+        "resetPersonalRoomLinkSuccess": "A személyes szoba linkjét visszaállítottuk",
+        "resetPersonalVirtualRoomLinkSuccess": "A személyes virtuális szoba linkjét visszaállítottuk",
+        "retryConnection": "Csatlakozás újrapróbálása",
+        "roomLinkCopied": "Szoba linkje másolva",
+        "saveAttachmentError": "Úgy tűnik, probléma merült fel a mentés során, próbálkozzon újra",
+        "saveAttachmentSuccessfull": "A kiválasztott mappába mentett melléklet",
+        "tryAReconnectionIn": "Próbálj meg újra csatlakozni {{seconds}} múlva",
+        "uploadConversationPicturesFailed": "Beszélgetés képének feltöltése sikertelen",
+        "virtualRoomLinkCopied": "Virtuális szoba linkje másolva"
+    },
+    "label": {
+        "app_name": "Beszélgetések"
+    },
+    "message": {
+        "deletedMessage": "Törölt üzenet",
+        "edited": "szerkesztve",
+        "forwarded": "továbbított",
+        "now": "Most",
+        "readBy": "Elolvasta:",
+        "service": {
+            "conversationCreated": "Csevegés létrehozva",
+            "meeting": {
+                "ended": "Az értekezlet véget ért",
+                "endedAtTime": "A találkozó ekkor ért véget:",
+                "startedAtTime": "A találkozó ekkor kezdődött:"
+            },
+            "member": {
+                "changed": {
+                    "name": {
+                        "channel": "{{member_name}} megváltoztatta a csatorna nevét itt: {{name}}",
+                        "space": "{{member_name}} megváltoztatta a tér nevét itt: {{name}}"
+                    },
+                    "picture": {
+                        "channel": "{{member_name}} módosította a csatorna képét",
+                        "group": "{{member_name}} módosította a csoport képét",
+                        "space": "{{member_name}} módosította a tér képét"
+                    },
+                    "topic": {
+                        "channel": "{{member_name}} megváltoztatta a csatorna témáját itt: {{topic}}",
+                        "group": "{{member_name}} megváltoztatta a csoport témáját itt: {{topic}}",
+                        "space": "{{member_name}} megváltoztatta a tér témáját itt: {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "{{member_name}} létrehozta a csatornát",
+                    "group": "{{member_name}} létrehozta a Csoportot",
+                    "single": "{{member_name}} létrehozta a csevegést",
+                    "space": "{{member_name}} létrehozta a teret"
+                },
+                "deleted": {
+                    "channel": "{{member_name}} törölte a csatornát",
+                    "instantMeeting": "{{member_name}} törölte az azonnali értekezletet",
+                    "space": "{{member_name}} törölte a teret"
+                },
+                "invited": "{{member_name}} meghívást kapott {{invited_by}} részéről",
+                "join": {
+                    "channel": "{{member_name}} csatlakozott a csatornához",
+                    "conversation": "{{member_name}} csatlakozott a csevegéshez"
+                },
+                "kicked": {
+                    "channel": "{{member_name}} eltávolításra került a csatornáról {{kicked_by}} által",
+                    "chat": "{{member_name}} eltávolításra került a csevegésből {{kicked_by}} által",
+                    "group": "{{member_name}} eltávolításra került a csoportból {{kicked_by}} által",
+                    "space": "{{member_name}} eltávolításra került a térből {{kicked_by}} által"
+                },
+                "left": {
+                    "channel": "{{member_name}} elhagyta a csatornát",
+                    "chat": "{{member_name}} elhagyta a csevegést",
+                    "group": "{{member_name}} kilépett a Csoportotból",
+                    "space": "{{member_name}} elhagyta a teret"
+                },
+                "you": {
+                    "invited": "Meghívta a következőt: {{member_name}}",
+                    "kicked": {
+                        "channel": "Eltávolította {{member_name}} felhasználót a csatornából",
+                        "group": "Eltávolította {{member_name}} felhasználót a csoportból",
+                        "space": "Eltávolította {{member_name}} felhasználót a térből"
+                    }
+                }
+            },
+            "newMeeting": "Bejövő hívás ettől:",
+            "notificationsActivatedForThisChat": "Értesítések aktiválva ehhez a csevegéshez",
+            "notificationsMutedForThisChat": "Értesítések elnémítva ehhez a csevegéshez",
+            "you": {
+                "changed": {
+                    "name": {
+                        "channel": "Megváltoztatta a csatorna nevét itt: {{name}}",
+                        "space": "Megváltoztatta a tér nevét itt: {{name}}"
+                    },
+                    "picture": {
+                        "channel": "Megváltoztatta a csatorna képét",
+                        "group": "Megváltoztatta a csoport képét",
+                        "space": "Megváltoztattad a tér képét"
+                    },
+                    "topic": {
+                        "channel": "Megváltoztatta a csatorna témáját itt: {{topic}}",
+                        "group": "Megváltoztatta a csoport témáját itt: {{topic}}",
+                        "space": "Megváltoztatta a tér témáját itt: {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "Ön létrehozta a csatornát",
+                    "group": "Létrehozta a Csoportot",
+                    "single": "Létrehozta a csevegést",
+                    "space": "Létrehozta a teret"
+                },
+                "deleted": {
+                    "channel": "Törölte a csatornát",
+                    "instantMeeting": "Törölte az Azonnali értekezletet",
+                    "space": "Törölte a teret"
+                },
+                "invited": "{{invited_by}} meghívta Önt",
+                "join": {
+                    "channel": "Csatlakozott a csatornához",
+                    "group": "Csatlakozott a Csoporthoz",
+                    "instantMeeting": "Ön csatlakozott az azonnali értekezlethez",
+                    "space": "Csatlakozott a térhez",
+                    "userRoom": "Belépett a szobába"
+                },
+                "kicked": {
+                    "channel": "{{kicked_by}} eltávolította Önt a csatornáról",
+                    "group": "{{kicked_by}} eltávolította Önt a Csoportból",
+                    "space": "{{kicked_by}} eltávolította Önt a térből"
+                },
+                "left": {
+                    "channel": "Elhagyta a csatornát",
+                    "group": "Kilépett a Csoportból",
+                    "space": "Elhagyta a teret"
+                }
+            }
+        },
+        "yesterday": "Tegnap"
+    },
+    "notification": {
+        "answer": "Válasz",
+        "dismiss": "Elvetés",
+        "incomingCall": "Bejövő hívás ettől:",
+        "invitationToPersonalRoom": "Meghívó a személyes szobába innen:",
+        "invitationToPersonalVirtualRoom": "Meghívó személyes virtuális szobába innen:",
+        "meeting": {
+            "ended": "Az értekezlet véget ért"
+        },
+        "startMeetingRecording": "{{conversationName}} találkozójának rögzítése megkezdődött",
+        "waiting": {
+            "descriptionAcceptedLabel": "{{conversationName}} moderátora elfogadta Önt",
+            "descriptionWaitingLabel": "Arra vár, hogy {{conversationName}} moderátora elfogadja Önt",
+            "notificationAcceptedByModerator": "A moderátor elfogadta Önt",
+            "notificationJoinTheRoom": "Csatlakozzon a szobához, hogy részt vehessen a megbeszélésen",
+            "notificationJoinTheVirtualRoom": "Csatlakozzon a virtuális szobához, hogy részt vehessen a találkozón",
+            "userIsWaiting": "Új felhasználó vár a belépésre",
+            "userJoinedWaitingRoom": "Úgy tűnik, van valaki a váróban"
+        }
+    },
+    "organizeYourMeeting": "Szervezze meg saját találkozóit, vagy csatlakozzon kollégái szobájához",
+    "organizeYourVMeeting": "Szervezze meg saját találkozóit, vagy csatlakozzon kollégái virtuális szobájához",
+    "organizeYourVirtualMeeting": "Szervezze meg saját találkozóit, vagy csatlakozzon kollégái virtuális szobájához",
+    "people": {
+        "manyMembers": "{{membersCount}} tag",
+        "me": "Nekem",
+        "oneParticipant": "Egy résztvevő",
+        "otherParticipants": "További {{numberParticipants}} résztvevő",
+        "participants": "Résztvevők",
+        "whoYoureLookinkFor": "Kit keres?",
+        "you": "Ön"
+    },
+    "personalRoomLabel": "{{userName}} személyes szobája",
+    "personalVirtualRoomLabel": "{{userName}} személyes virtuális szobája",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "Letöltés"
+            }
+        },
+        "close": {
+            "tooltip": "Bezárás"
+        }
+    },
+    "room": "Szoba"
+}

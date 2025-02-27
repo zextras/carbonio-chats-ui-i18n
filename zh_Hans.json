@@ -1,0 +1,684 @@
+{
+    "action": {
+        "activateNotifications": "激活消息通知",
+        "add": "添加",
+        "addChannel": "添加频道",
+        "addMembers": "添加成员",
+        "addModerator": "添加主持人",
+        "addModerators": "添加主持人",
+        "addNewMembers": "添加新成员",
+        "addNewMembersTo": "添加新成员至",
+        "addOtherModerators": "添加其他主持人",
+        "clearHistory": "清除历史记录",
+        "close": "关闭",
+        "collapse": "收起",
+        "copy": "复制",
+        "copyAppVersion": "复制应用版本",
+        "create": "创建",
+        "createChannel": "创建链接至{{spaceName}}的频道",
+        "createChat": "创建聊天",
+        "createGroup": "创建群组",
+        "createInstantMeeting": "创建即时会议",
+        "createSpace": "创建空间",
+        "delete": "删除",
+        "deleteChannel": "删除频道",
+        "deleteRoom": "删除房间",
+        "deleteSpace": "删除空间",
+        "edit": "编辑",
+        "editYourMessage": "编辑您的消息",
+        "expand": "展开",
+        "forward": "转发",
+        "join": "加入",
+        "joinChannel": "加入频道以发送消息并接收通知",
+        "joinChannelAction": "加入频道",
+        "joinRoom": "加入房间",
+        "leave": "离开",
+        "leaveAndDelete": "离开并删除",
+        "leaveChannel": "离开频道",
+        "leaveSpace": "离开空间",
+        "muteNotifications": "静音通知",
+        "openInTeam": "在团队中打开",
+        "plan": "规划",
+        "remove": "移除",
+        "reply": "回复",
+        "replyToSomeone": "回复",
+        "replyToYourself": "回复自己",
+        "scrollToNewMessage": "滑至新消息",
+        "scrollToTheBottom": "滑至底部",
+        "startMeeting": "开始会议",
+        "copyLinkRoom": "复制房间链接",
+        "copyUserRoomLink": "复制链接",
+        "goToGuide": "转到指南",
+        "openInChats": "在聊天中打开",
+        "leaveGroup": "离开群组",
+        "planMeeting": "规划会议",
+        "removeMember": "移除成员",
+        "resetLink": "重置链接",
+        "waitingModeratorToJoin": "您正在等待成为主持人",
+        "start": "开始",
+        "stop": "停止",
+        "saveToFiles": "保存至文件",
+        "createRoom": "创建房间",
+        "browse": "浏览",
+        "copyLinkVirtualRoom": "复制虚拟房间链接",
+        "createVirtualRoom": "创建虚拟房间",
+        "deleteVirtualRoom": "删除虚拟房间",
+        "joinVirtualRoom": "加入虚拟房间"
+    },
+    "conversations": {
+        "instantMeetings": "即时会议",
+        "activeMeetingRooms": "活动会议室",
+        "chats": "聊天",
+        "conversations": "会话",
+        "meetingRooms": "会议室",
+        "noActiveInstantMeetings": "当前没有活动的即时会议。创建新即时会议或切换标签页。",
+        "noActiveMeetings": "目前没有活动的房间",
+        "noActiveSpaces": "目前没有活动的空间。创建新空间或切换标签页。",
+        "noFilteredInstantMeetings": "没有符合此过滤条件的即时会议。",
+        "noFilteredMeetings": "没有与此筛选条件匹配的房间或规划会议",
+        "noFilteredSpaces": "没有匹配此过滤条件的空间。",
+        "personalRoom": "个人房间",
+        "scheduledMeetings": "已计划会议",
+        "spaces": "空间",
+        "spaceGeneralChannel": "通用",
+        "yourRoom": "您的房间",
+        "filterChatList": "过滤聊天列表",
+        "mockDisplayDescription": "选择要进行聊天的会话",
+        "mockDisplayTitle": "让我们保持联系！",
+        "noActiveChats": "当前没有活动的聊天。创建新聊天或切换标签页。",
+        "noFilteredChats": "没有符合此过滤条件的聊天。",
+        "waitingRoom": "等待房间",
+        "virtualRooms": "虚拟房间",
+        "noActiveVirtualRooms": "目前没有活动的虚拟房间",
+        "noFilteredVirtualRooms": "没有与此筛选条件匹配的虚拟房间或规划会议",
+        "personalVirtualRoom": "个人虚拟房间",
+        "activeVirtualRooms": "活动虚拟房间",
+        "noFilteredRooms": "没有与此筛选条件匹配的房间或规划会议",
+        "noActiveRooms": "目前没有活动的房间",
+        "activeRooms": "活动房间",
+        "rooms": "房间"
+    },
+    "message": {
+        "service": {
+            "you": {
+                "deleted": {
+                    "space": "您已删除空间",
+                    "channel": "您已删除频道",
+                    "instantMeeting": "您已删除即时会议"
+                },
+                "changed": {
+                    "name": {
+                        "channel": "您已更改频道名称：{{name}}",
+                        "space": "您已更改空间名称：{{name}}"
+                    },
+                    "picture": {
+                        "channel": "您已更改频道图片",
+                        "space": "您已更改空间图片",
+                        "group": "您已更改群组图片"
+                    },
+                    "topic": {
+                        "channel": "您已更改频道主题：{{topic}}",
+                        "space": "您已更改空间主题：{{topic}}",
+                        "group": "您已更改群组主题：{{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "您已创建频道",
+                    "space": "您已创建空间",
+                    "group": "您已创建群组",
+                    "single": "您已创建聊天"
+                },
+                "invited": "{{invited_by}}邀请了您",
+                "join": {
+                    "channel": "您已加入频道",
+                    "instantMeeting": "您已加入即时会议",
+                    "space": "您已加入空间",
+                    "userRoom": "您已加入房间",
+                    "group": "您已加入群组"
+                },
+                "kicked": {
+                    "channel": "您已被{{kicked_by}}从频道中移除",
+                    "group": "您已被{{kicked_by}}从群组中移除",
+                    "space": "您已被{{kicked_by}}从空间中移除"
+                },
+                "left": {
+                    "channel": "您已离开频道",
+                    "space": "您已离开空间",
+                    "group": "您已离开群组"
+                }
+            },
+            "meeting": {
+                "ended": "会议已结束",
+                "endedAtTime": "会议结束于",
+                "startedAtTime": "会议开始于"
+            },
+            "member": {
+                "changed": {
+                    "name": {
+                        "channel": "{{member_name}}已更改频道名称：{{name}}",
+                        "space": "{{member_name}}已更改空间名称：{{name}}"
+                    },
+                    "picture": {
+                        "channel": "{{member_name}}已更改频道图片",
+                        "space": "{{member_name}}已更改空间图片",
+                        "group": "{{member_name}}已更改群组图片"
+                    },
+                    "topic": {
+                        "channel": "{{member_name}}已更改频道主题：{{topic}}",
+                        "space": "{{member_name}}已更改空间主题：{{topic}}",
+                        "group": "{{member_name}}已更改群组主题：{{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "{{member_name}}已创建频道",
+                    "space": "{{member_name}}已创建空间",
+                    "group": "{{member_name}}已创建群组",
+                    "single": "{{member_name}}已创建聊天"
+                },
+                "deleted": {
+                    "channel": "{{member_name}}已删除频道",
+                    "instantMeeting": "{{member_name}}已删除即时会议",
+                    "space": "{{member_name}}已删除空间"
+                },
+                "invited": "{{invited_by}}邀请了{{member_name}}",
+                "join": {
+                    "channel": "{{member_name}}已加入频道",
+                    "conversation": "{{member_name}}已加入聊天"
+                },
+                "kicked": {
+                    "channel": "{{member_name}}已被{{kicked_by}}从频道中移除",
+                    "group": "{{member_name}}已被{{kicked_by}}从群组中移除",
+                    "space": "{{member_name}}已被{{kicked_by}}从空间中移除",
+                    "chat": "{{member_name}}已被{{kicked_by}}从聊天中移除"
+                },
+                "left": {
+                    "channel": "{{member_name}}已离开频道",
+                    "space": "{{member_name}}已离开空间",
+                    "group": "{{member_name}}已离开群组",
+                    "chat": "{{member_name}}已离开聊天"
+                },
+                "you": {
+                    "invited": "您已邀请{{member_name}}",
+                    "kicked": {
+                        "channel": "您已将{{member_name}}从频道中移除",
+                        "group": "您已将{{member_name}}从群组中移除",
+                        "space": "您已将{{member_name}}从空间中移除"
+                    }
+                }
+            },
+            "newMeeting": "呼入电话，来自：",
+            "notificationsActivatedForThisChat": "已为此聊天激活消息通知",
+            "notificationsMutedForThisChat": "已为此聊天静音消息通知",
+            "conversationCreated": "聊天已创建"
+        },
+        "deletedMessage": "已删除消息",
+        "edited": "已编辑",
+        "forwarded": "已转发",
+        "now": "现在",
+        "readBy": "已读",
+        "yesterday": "昨天"
+    },
+    "tooltip": {
+        "enterYourRoom": "计入您的个人房间",
+        "enterYourRoomTooltip": "计入您的个人房间",
+        "errorUpdatingAvatarStatus": "设置状态时出错。请重试",
+        "errorUploadingAvatarPicture": "上传新头像时出错。请重试",
+        "errorRemovingAvatarPicture": "移除头像时出错。请重试",
+        "sendMessage": "发送消息",
+        "close": "关闭",
+        "copyRoomLink": "复制链接以共享房间",
+        "copyRoomLinkTooltip": "复制链接以共享房间",
+        "editDescription": "编辑描述",
+        "acceptQueuedMember": "允许用户进入",
+        "addFile": "添加文件",
+        "cancelFilter": "取消过滤",
+        "chooseFile": "选择文件",
+        "closeSearch": "关闭搜索",
+        "collapseChannel": "收起频道",
+        "copyUserRoom": "复制您的个人房间链接",
+        "downgradeModerator": "降级主持人",
+        "enterMeetingRoom": "进入会议室",
+        "goToPrivateChat": "转到私密聊天",
+        "inviteToPersonalRoom": "邀请至您的个人房间",
+        "messageComposer": "消息编辑器",
+        "openMinichat": "打开 Minichat",
+        "planMeeting": "规划会议",
+        "promoteModerator": "晋升主持人",
+        "rejectQueuedMember": "拒绝用户",
+        "removeFile": "移除文件",
+        "removeMember": "移除成员",
+        "searchForParticipant": "搜索参与者",
+        "copyUserRoomTooltip": "复制此链接并将其共享，以便他人进入您的个人房间",
+        "editInfo": "编辑信息",
+        "selectEmoji": "选择表情符号",
+        "sendFile": "发送文件",
+        "showChannels": "显示频道",
+        "switchToConversation": "切换至会话",
+        "switchToInfoPanel": "切换至信息面板",
+        "disabledCreateButton": "检查您的输入以确保其准确无误",
+        "enterYourVirtualRoomTooltip": "进入您的个人房间",
+        "copyVirtualRoomLinkTooltip": "复制链接以共享虚拟房间",
+        "copyUserVirtualRoomTooltip": "复制此链接并将其共享，以便他人进入您的个人虚拟房间"
+    },
+    "appVersion": "应用版本",
+    "button": {
+        "cancel": "取消",
+        "no": "否",
+        "ok": "OK",
+        "save": "保存",
+        "undo": "撤消",
+        "yes": "是"
+    },
+    "conversation": {
+        "channelInfo": "频道信息",
+        "contactInfo": "联系信息",
+        "groupInfo": "群组信息",
+        "info": "信息",
+        "instantInfo": "即时会议信息",
+        "name": "名称",
+        "nameRoom": "{{conversationTitle}}的房间",
+        "newMessages": "新消息",
+        "roomLinkDescription": "复制此链接并将其共享，以便他人进入此房间。",
+        "spaceInfo": "空间信息",
+        "speakersCorner": "会议室中的用户",
+        "title": "标题",
+        "topic": "主题",
+        "fileUploadDescription": "文件描述",
+        "roomInfo": "房间信息",
+        "roomLink": "房间链接",
+        "roomName": "房间名称",
+        "nameVirtualRoom": "{{conversationTitle}}的虚拟房间",
+        "virtualRoomInfo": "虚拟房间信息",
+        "virtualRoomLink": "虚拟房间链接",
+        "virtualRoomLinkDescription": "复制此链接并将其共享，以便他人进入此虚拟房间。",
+        "virtualRoomName": "虚拟房间名称"
+    },
+    "creation": {
+        "attendeeAdded": "已在列表中添加与会者",
+        "channel": {
+            "mainDescription": "频道是空间中围绕单一话题展开的聊天。空间参与者可加入到频道中并就话题开展主动探讨。参与者无需离开空间也可退出频道。",
+            "setImageAndTitleDescription": "设置图片以更好地识别空间内的频道。频道图像也可在频道信息面板中进行设置或更改。",
+            "titleInputRequirements": "标题中最高允许140个字符，且必须在空间内唯一",
+            "topicInputExplanation": "描述频道主题",
+            "topicDescription": "由于频道是围绕讨论主题展开的聊天，因此建议使用可更好描述主题的话题。"
+        },
+        "group": {
+            "addParticipantsDescription": "输入参与者的名称或邮件地址以对其进行邀请。您需要邀请至少两名其他参与者，少于两人时也可创建聊天。",
+            "groupWithoutNameAddParticipant": "为您的群组添加参与者",
+            "inputTopicDescriptionLabel": "描述群组主题",
+            "setImageAndTopicDescription": "设置图片以帮助用户在列表中识别群组。",
+            "mainDescription": "群组中需要包含两位以上的参与者。根据需要命名群组以对其主题进行描述"
+        },
+        "instantMeeting": {
+            "addAttendees": "向您的即时会议添加参与者",
+            "addAttendeesDescription": "在此处输入参与者名称或邮箱地址以进行邀请。",
+            "addAttendeesInputExplanation": "您也可以邀请外部用户，输入其邮箱地址即可。",
+            "attendee": {
+                "feedback": {
+                    "negative": "输入的邮箱地址无效，请输入有效的地址",
+                    "neutral": "选择一名或多名参与者"
+                }
+            },
+            "description": "即时会议是短时快速的视频呼叫。聊天过程在结束后不会被保留。即时会议可由团队专业版用户创建，且允许外部用户参与。",
+            "titleDescription": "给这个即时会议取一个有辨识度的名字，以便让与会者知道通话的主题是什么。"
+        },
+        "limitOfParticipantReached": "您已达到管理员设置的参与者限制",
+        "nameMax140Characters": "最多140个字符",
+        "nameNeeds2Letters": "名称至少需要两个字母",
+        "nameRequired": "需要名称",
+        "participants": {
+            "feedback": {
+                "neutral": "选择两名或更多参与者"
+            }
+        },
+        "requiresOneMoreParticipant": "需要至少另外1名参与者",
+        "requiresTwoOthers": "至少需要另外2个",
+        "selectMoreParticipantsForInstantMeetings": "从列表中选择参与者或输入地址以添加外部用户",
+        "selectOneOrMoreUsers": "选择一个或多个用户",
+        "space": {
+            "spaceWithoutNameAddParticipant": "向您的空间添加参与者",
+            "topicDescription": "由于空间是围绕讨论主题展开的聊天，因此建议使用可更好描述主题的话题。",
+            "topicInputExplanation": "描述空间主题",
+            "addMembersDescription": "输入名称或邮件地址以邀请他人。您需要邀请至少两名其他人，少于两人时也可创建聊天。",
+            "mainDescription": "空间是通用的沟通环境，其中包含名为频道的特定聊天渠道，每个频道都有自己的主题。如需创建空间，您需要邀请至少两名参与者。频道则可在空间的信息面板中直接添加。",
+            "titleDescription": "标题是空间的标识，所以其中应提及空间的话题。"
+        },
+        "startTypingToPick": "开始输入以选择地址",
+        "topicMax255Characters": "最多255个字符",
+        "topicOptional": "可选。描述主题",
+        "typeToFilter": "输入以筛选列表",
+        "typeWithNameAddParticipant": "添加参与者至",
+        "youCanInviteOther": "您还可以邀请{{limit}}名参与者",
+        "chat": {
+            "addParticipant": "选择要进行聊天的参与者",
+            "chatFilterDescription": "您可通过点击想要进行沟通的参与者来创建聊天",
+            "description": "聊天是一对一的会话，可帮助您与联系人保持联系。"
+        },
+        "emailReplicated": "输入的邮箱已添加",
+        "titleInputRequirements": "标题中最多允许140个字符，且必须唯一",
+        "topicNeeds2Letters": "话题可选。最少2个字符",
+        "nameRequired-max140Characters-avoidReusingNames": "必要。最多140个字符，请避免重复使用名称。"
+    },
+    "feedback": {
+        "historyClearedSuccessfully": "历史记录清除成功！",
+        "notificationsActivatedForThisChat": "已为此聊天激活消息通知",
+        "notificationsMutedForThisChat": "已为此聊天静音消息通知",
+        "online": "重新上线！",
+        "retryConnection": "重试连接",
+        "uploadConversationPicturesFailed": "上传会话图片失败",
+        "appVersionCopied": "应用版本已复制",
+        "offline": "似乎有一个服务器连接问题",
+        "resetPersonalRoomLinkSuccess": "个人房间链接已重置",
+        "tryAReconnectionIn": "重试连接：{{seconds}}",
+        "roomLinkCopied": "房间链接已复制",
+        "connecting": "正在连接…",
+        "linkCopied": "链接已复制",
+        "saveAttachmentSuccessfull": "附件已保存在所选文件夹中",
+        "saveAttachmentError": "保存时似乎出现错误，请重试",
+        "virtualRoomLinkCopied": "虚拟房间链接已复制",
+        "resetPersonalVirtualRoomLinkSuccess": "个人虚拟房间链接已重置"
+    },
+    "meeting": {
+        "attendeesComing": "参与者正在前来",
+        "defaultViewModeDedicatedModeLabel": "专用模式",
+        "defaultViewModeDefaultModeLabel": "默认模式",
+        "defaultViewModeSecondaryDescriptionLabel": "此选项将在您的设置中个保存且可随时进行更新。",
+        "interactions": {
+            "cinemaView": "影院视图",
+            "closeCall": "关闭此呼叫",
+            "disableAudio": "禁用音频",
+            "disableFullScreen": "退出全屏",
+            "disableVideo": "禁用视频",
+            "enableAudio": "启用音频",
+            "enableVideo": "启用视频",
+            "gridView": "网格视图",
+            "hideChat": "隐藏聊天",
+            "hideParticipants": "隐藏参与者",
+            "muteUser": "静音",
+            "muteUserForAllTitle": "对所有人静音",
+            "mutedByModerators": "您已被主持人静音，请取消静音以说话",
+            "mutedByOthers": "您已被静音",
+            "pinVideo": "放入视频",
+            "shortCutLabel": "(C)",
+            "showChat": "显示聊天",
+            "showParticipants": "显示参与者",
+            "status": {
+                "cameraMicOff": "您的相机和麦克风已关闭",
+                "cameraOff": "您的相机已关闭"
+            },
+            "unpinVideo": "取消固定视频",
+            "disableScreensharing": "禁用屏幕共享",
+            "enableFullScreen": "全屏",
+            "enableScreenSharing": "启用屏幕共享",
+            "muteUserForAllDescription": "静音用户后，所有参与者将无法再听到用户的声音。仅被静音用户可自行取消静音。是否继续？",
+            "cameraEnabled": "摄像头已启用",
+            "stopMyVoice": "停止我的声音",
+            "audioDisabled": "音频已禁用",
+            "audioEnabled": "音频已启用",
+            "cameraDisabled": "摄像头已禁用",
+            "playMyVoice": "播放我的声音",
+            "micTesting": "您将在默认输出中听到自己的声音，便于测试输入质量并为会议选择输出",
+            "playMic": "启动麦克风测试",
+            "stopMic": "停止麦克风测试",
+            "hangOff": "挂断"
+        },
+        "startModal": {
+            "description": "您想如何进入该会议？",
+            "enter": "进入",
+            "noVideoAndAudio": "摄像头已关闭，麦克风已打开",
+            "noVideoAndNoAudio": "摄像头已关闭，麦克风已关闭",
+            "videoAndAudio": "摄像头已打开，麦克风已打开",
+            "videoAndNoAudio": "摄像头已打开，麦克风已关闭",
+            "descriptionMyPersonalVirtualRoom": "您想如何进入个人虚拟房间？",
+            "descriptionPersonalVirtualRoom": "您想如何进入{{meetingTitle}}的个人虚拟房间？",
+            "descriptionVirtualRoom": "您想如何进入{{meetingTitle}}？",
+            "descriptionPersonalRoom": "您想如何进入{{meetingTitle}}的个人房间？",
+            "descriptionMyPersonalRoom": "您想如何进入个人房间？"
+        },
+        "defaultViewModeDedicatedLabel": "“专用模式”会将您重定向至浏览器的单独标签页中，便于您享受最佳会议体验。",
+        "defaultViewModeDefaultLabel": "选择“默认模式”后，会议将在当前内部环境中开始。",
+        "defaultViewModeSaveLabel": "保存选项",
+        "defaultViewModeTitleModal": "会议环境选项",
+        "resetMeetingUrlModalDescription": "确定要重置已规划“{{conversationName}}”的链接吗？",
+        "recordedByMe": "您已开始录制",
+        "recordedByOther": "{{username}} 已开始录制",
+        "recording": "录制",
+        "genericErrorMeeting": "会议似乎存在问题，请联系您的系统管理员。",
+        "thisMeetingIsBeingRecorded": "正在录制此会议",
+        "wereToFindRecording": "录制文件将保存在视频服务器主页，请与系统管理员联系以了解更多详情。",
+        "errorMeetingRecording": "无法开始注册，请联系您的系统管理员。",
+        "defaultViewModeDedicatedModeLabelVRoom": "专用模式",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "专用模式",
+        "defaultViewModeTitleModalVirtualRoom": "虚拟房间环境选项",
+        "defaultViewModeDedicatedLabelVirtualRoom": "“专用模式”会将您重定向至浏览器的单独标签页中，便于您享受最佳虚拟房间体验。",
+        "defaultViewModeDefaultLabelVirtualRoom": "选择“默认模式”后，虚拟将在当前内部环境中开始。",
+        "errorMeetingSavingRecording": "无法停止录制，请重试",
+        "successSaveMeetingRecording": "您将在 {{registrationName}} 可用时于 /{{folderName}} 中立即找到它",
+        "wereToFindRec": "录制将被保存在将其停止的主持人的文件空间中。",
+        "setVirtualBackground": "设置虚拟背景",
+        "noEffect": "无效果",
+        "blurMyBackground": "模糊背景"
+    },
+    "modal": {
+        "addModeratorDescription": "选择一个或多个用户以将其提权为房间主持人",
+        "clearHistoryDescription": "此会话目前为空，其已被移动至会话列表底部以便于查看活跃会话。",
+        "confirm": {
+            "areYouSure": "确定吗？",
+            "clearHistory": "您将永久清除聊天记录。其他参与者处有关此聊天的记录不会被删除。此操作不可逆。",
+            "leaveAndDeleteConversation": "确定要离开并删除{{conversationName}}？",
+            "deleteChannel": "确定要删除此频道吗？",
+            "deleteRoom": "确定要删除房间吗？",
+            "deleteSpace": "确定要删除此空间吗？",
+            "leaveChannel": "确定要离开频道吗？",
+            "leaveGroup": "确定要离开群组吗？",
+            "leaveSpace": "确定要离开空间吗？",
+            "removeMember": "确定要移除该成员吗？",
+            "deleteVirtualRoom": "确定要删除虚拟房间吗？"
+        },
+        "forwardModal": {
+            "forwardedMessageFrom": "消息已转发自",
+            "selectOneOrMoreConversations": "选择一个或多个会话",
+            "typeToFilterTheList": "输入以筛选列表",
+            "spaceAndChannels": "空间和频道"
+        },
+        "instantMeeting": {
+            "closedInstantMeeting": "即时会议已关闭",
+            "continue": "继续旧的即时会议",
+            "create": "创建新的即时会议",
+            "instantMeetingAlreadyRunningText": "创建新的将覆盖旧的，您的与会者将失去连接。确定吗？",
+            "instantMeetingAlreadyRunningTitle": "即时会议已在进行",
+            "endCallByOwner": "即时会议的所有者已决定结束通话，希望您的即时会议体验令人愉快"
+        },
+        "moderatorCannotLeaveGroupDescription": "您是 {{conversationName}} 的唯一主持人，请在离开此群组前将权限授予他人。",
+        "moderatorCannotLeaveGroupTitle": "稍等，需要新的主持人",
+        "showPreviousConversationHistory": "显示之前的对话历史记录",
+        "news": "新闻",
+        "deleteMessageDescription": "删除消息后，您和所有其他收件人都无法再看到消息",
+        "notShowAgain": "不要再次显示",
+        "planMeetingDescription": "房间名称有助于参与者了解会议的讨论事项。",
+        "roomsFunctionalitiesChangelogDescription": "我们对会议功能进行了重大更改。请阅读房间说明以了解更多信息！",
+        "userJoinedWaitingRoom": "等待房间中似乎有用户",
+        "teamNews": "团队新闻",
+        "selectFolder": "选择文件夹",
+        "stopMeetingRec": {
+            "stopMeetingTitle": "停止会议录制",
+            "stopRecording": "录制将被停止。您可在会议期间随时开始新录制。",
+            "locationWhereToSaveRecording": "录制将被保存在“/{{folderName}}”中。",
+            "stopRecordingDescription": "您即将停止录制。您可随时开始新录制。",
+            "stopRecordingTitle": "停止录制",
+            "recordingName": "录制名称"
+        },
+        "moderatorMeetingDescription": "您将主持本房间。您可添加额外主持人，其将有与您相同的权限。",
+        "moderatorVirtualRoomDescription": "您将主持本虚拟房间。您可添加额外主持人，其将有与您相同的权限。",
+        "planVirtualRoomDescription": "给这个虚拟房间取一个有辨识度的名字，以便让与会者知道会议的主题是什么。",
+        "moderatorRoomDescription": "您将主持本房间。您可添加额外主持人，其将有与您相同的权限。",
+        "planRoomDescription": "为这个房间取一个具有辨识度的名字，让参与者了解自己即将参与的讨论是什么。"
+    },
+    "notification": {
+        "answer": "答复",
+        "dismiss": "收起",
+        "incomingCall": "呼入电话，来自：",
+        "invitationToPersonalRoom": "个人房间邀请，来自：",
+        "waiting": {
+            "descriptionAcceptedLabel": "{{conversationName}}的主持人已同意您加入",
+            "descriptionWaitingLabel": "您正在等待成为{{conversationName}}的主持人",
+            "notificationAcceptedByModerator": "主持人已同意您加入",
+            "notificationJoinTheRoom": "加入房间，参与会议",
+            "userIsWaiting": "新用户正在等待进入",
+            "userJoinedWaitingRoom": "等待房间中似乎有用户",
+            "notificationJoinTheVirtualRoom": "加入虚拟房间，参与会议"
+        },
+        "meeting": {
+            "ended": "会议已结束"
+        },
+        "startMeetingRecording": "{{conversationName}} 会议的录制已开始",
+        "invitationToPersonalVirtualRoom": "个人虚拟房间邀请，来自："
+    },
+    "people": {
+        "manyMembers": "{{membersCount}}名成员",
+        "me": "我",
+        "oneParticipant": "1名参与者",
+        "otherParticipants": "另外{{numberParticipants}}名参与者",
+        "participants": "参与者",
+        "you": "您",
+        "whoYoureLookinkFor": "您在找谁？"
+    },
+    "settings": {
+        "meeting": {
+            "enableCamera": "启用相机",
+            "enableMicrophone": "启用麦克风",
+            "meetings": "会议",
+            "personalRoomOptionsTitleModal": "个人房间链接重置",
+            "personalRoomResetButton": "重置个人房间链接",
+            "description": "设置音频和视频首选项以进入会议。在进入任意会议之前您都可以随时自定义首选项。",
+            "personalRoomResetDescription": "重置个人房间链接后所有之前提供的访问权限将不再有效。",
+            "enableEchoCancellation": "回声消除",
+            "personalVirtualRoomResetDescription": "重置个人虚拟房间链接后所有之前提供的访问权限将不再有效。",
+            "enableNoiseSuppression": "噪音抑制",
+            "personalVirtualRoomOptionsTitleModal": "个人虚拟房间链接重置",
+            "personalVirtualRoomResetButton": "重置个人虚拟房间链接",
+            "virtualRooms": "虚拟房间",
+            "voiceProcessing": "语音处理",
+            "voiceProcessingDescription": "您将在默认输出中听到自己的声音，便于测试输入质量并为会议选择输出",
+            "descriptionVirtualRoom": "设置您的音频和视频首选项以进入虚拟房间。您将可在每次进入虚拟房间前自定义首选项。",
+            "descriptionRoom": "设置您在进入房间时的音视频偏好。进入每个房间之前，您总是可以对偏好进行自定义。"
+        },
+        "notification": {
+            "desktop": "桌面通知",
+            "openMinichatDescription": "自定义您的迷你聊天窗口打开行为",
+            "title": {
+                "notifications": "通知",
+                "openMinichat": "送达时打开为新消息",
+                "openMinichatForGroup": "送达时打开为新群组消息",
+                "openMinichatForSingle": "送达时打开为新单独消息",
+                "openMinichatForSpace": "送达时打开为新空间消息"
+            }
+        },
+        "profile": {
+            "errorGenericResponse": "出现错误。请重试",
+            "reset": "重置",
+            "restore": "恢复",
+            "statusOptionalDescription": "可选。让他人了解您的想法。最大长度：256字符",
+            "title": "档案",
+            "update": "更新",
+            "chooseAProfilePic": "选择档案图片，图像将自动居中。",
+            "maximumDimension": "最大大小：256KB。"
+        },
+        "title": "设置",
+        "modal": {
+            "description": "在这里，您可以设置一切专属于聊天的偏好，以享受完整的自定义聊天体验！",
+            "title": "聊天设置"
+        },
+        "notifications": {
+            "description": "为聊天中的各种类型通知设置您的首选项。"
+        },
+        "resetPersonalRoomLinkSuccess": "个人房间链接已重置",
+        "recordingMeeting": {
+            "destinationFolder": "目标文件夹",
+            "descriptionWhereToSaveRegistration": "设置目标文件夹以保存会议录制文件。",
+            "recording": "录制"
+        }
+    },
+    "status": {
+        "lastSeen": "上次出现{{lastSeen}}",
+        "offline": "离线",
+        "online": "在线",
+        "userStatus": "状态",
+        "areWriting": "输入中…",
+        "isWriting": "正在输入…",
+        "externalGuest": "外部访客",
+        "internalGuest": "内部访客",
+        "waitingToEnter": "等待进入"
+    },
+    "general": {
+        "browserNotSupported": "不支持该版本的浏览器。我们强烈建议您更新浏览器以充分享受全部功能！",
+        "goToTeam": "前往团队",
+        "teamProductName": "团队"
+    },
+    "external": {
+        "login": {
+            "externalLoginDescription": "如果您已经属于此域，则将被重定向至您通常的工作区。 如果您是外部用户，则将被重定向至专属界面。"
+        },
+        "unsupported": {
+            "browser": "不支持的浏览器",
+            "device": "不支持的设备"
+        },
+        "youAreEnteringMeeting": "您即将进入房间",
+        "nobodyInTheRoom": "似乎房间中没有人",
+        "roomIsEmpty": "此房间为空",
+        "waitingRoom": {
+            "accessDenied": "访问拒绝",
+            "moderatorRefusedAccessToRoom": "主持人拒绝了您对于此房间的访问请求",
+            "userLeftLookForwardToSee": "我们期待着再次与您见面",
+            "userLeftReturnToWaitingRoom": "您可以随时使用房间链接返回等待房间",
+            "userLeftWaitingRoom": "您已离开等待房间"
+        },
+        "nobodyInTheVirtualRoom": "似乎虚拟房间中没有人",
+        "virtualRoomIsEmpty": "此虚拟房间为空",
+        "youAreEnteringVirtualRoom": "您即将进入虚拟房间",
+        "orLabel": "或",
+        "appStoreLabel": "App Store",
+        "downloadAppLabel": "下载应用以加入会议",
+        "enter": "加入！",
+        "playStoreLabel": "Google Play",
+        "doYouHaveTheAppChats": "是否已有Carbonio Chats应用？",
+        "doYouHaveTheAppTeam": "是否已有Zextras Chats应用？"
+    },
+    "label": {
+        "app_name": "聊天"
+    },
+    "enterTheRoom": "进入房间",
+    "tryLater": "稍后再试",
+    "errorPage": {
+        "description": "请检查您的链接，其可能有误",
+        "errorCode": "错误代码 404",
+        "title": "抱歉，我们无法找到房间"
+    },
+    "organizeYourMeeting": "组织您自己的会议或加入同事的房间",
+    "personalRoomLabel": "{{userName}} 的个人房间",
+    "thanksForParticipating": "感谢参与",
+    "typeYourEmail": "输入您的邮件",
+    "virtualRoom": "虚拟房间",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "下载"
+            }
+        },
+        "close": {
+            "tooltip": "关闭"
+        }
+    },
+    "enterTheVirtualRoom": "进入虚拟房间",
+    "organizeYourVMeeting": "组织您自己的会议或加入同事的虚拟房间",
+    "organizeYourVirtualMeeting": "组织您自己的会议或加入同事的虚拟房间",
+    "personalVirtualRoomLabel": "{{userName}} 的个人虚拟房间",
+    "attachments": {
+        "shareLink": "分享链接",
+        "addFromLocal": "从本地添加",
+        "share": "分享公开链接",
+        "attachLinkFromFiles": "从文件附件链接",
+        "attachLinkFiles": "从文件附加公开链接"
+    },
+    "room": "房间"
+}

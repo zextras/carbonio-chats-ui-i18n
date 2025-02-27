@@ -1,0 +1,687 @@
+{
+    "action": {
+        "addMembers": "Üye ekle",
+        "addModerator": "Moderatör ekle",
+        "addModerators": "Moderatörler Ekle",
+        "addNewMembers": "Yeni üyeler ekle",
+        "addNewMembersTo": "Yeni üyelerin ekleneceği yer",
+        "createSpace": "Konu Oluştur",
+        "delete": "Sil",
+        "deleteRoom": "Odayı Sil",
+        "edit": "Düzenle",
+        "forward": "İlet",
+        "join": "Katıl",
+        "joinChannel": "Mesaj göndermek ve bildirim almak için Kanala katılın",
+        "joinChannelAction": "Kanala katıl",
+        "joinRoom": "Oda'ya katıl",
+        "leave": "Ayrıl",
+        "leaveAndDelete": "Ayrıl ve sil",
+        "leaveGroup": "Gruptan ayrıl",
+        "leaveSpace": "Konudan ayrıl",
+        "muteNotifications": "Bildirimleri kapat",
+        "openInTeam": "Team ile Aç",
+        "openInChats": "Sohbetler ile aç",
+        "plan": "Plan",
+        "planMeeting": "Toplantı planla",
+        "remove": "Kaldır",
+        "reply": "Yanıtla",
+        "replyToSomeone": "Yanıtla",
+        "replyToYourself": "Kendine yanıtla",
+        "resetLink": "Bağlantıyı yenile",
+        "scrollToNewMessage": "Yeni mesaja git",
+        "scrollToTheBottom": "En alta git",
+        "startMeeting": "Toplantıyı Başlat",
+        "activateNotifications": "Bildirimleri etkinleştir",
+        "add": "Ekle",
+        "addChannel": "Kanal Ekle",
+        "addOtherModerators": "Başka moderatörler ekleyin",
+        "clearHistory": "Geçmişi Temizle",
+        "close": "Kapat",
+        "collapse": "Küçült",
+        "copy": "Kopyala",
+        "copyAppVersion": "App sürümü kopyala",
+        "create": "Oluştur",
+        "createChannel": "{{spaceName}} konusuna bağlı Kanal oluştur",
+        "createChat": "Sohbet Oluştur",
+        "createGroup": "Grup Oluştur",
+        "createInstantMeeting": "Anlık Toplantı oluştur",
+        "deleteChannel": "Kanalı sil",
+        "deleteSpace": "Konuyu sil",
+        "editYourMessage": "Mesajınızı düzenleyin",
+        "expand": "Genişlet",
+        "goToGuide": "Tanıtıma git",
+        "leaveChannel": "Kanaldan ayrıl",
+        "removeMember": "Üyeyi kaldır",
+        "copyUserRoomLink": "Bağlantıyı kopyala",
+        "copyLinkRoom": "Oda Bağlantısını kopyala",
+        "waitingModeratorToJoin": "Moderatörün kabul etmesi için bekliyorsunuz",
+        "createRoom": "Oda Oluştur",
+        "start": "Başlat",
+        "stop": "Durdur",
+        "saveToFiles": "Dosyalara Kaydet",
+        "copyLinkVirtualRoom": "Sanal Oda Bağlantısını Kopyala",
+        "browse": "Gözat",
+        "createVirtualRoom": "Sanal Oda oluştur",
+        "deleteVirtualRoom": "Sanal Odayı sil",
+        "joinVirtualRoom": "Sanal Odaya Giriş"
+    },
+    "appVersion": "App sürümü",
+    "button": {
+        "cancel": "İptal",
+        "no": "Hayır",
+        "save": "Kaydet",
+        "undo": "Geri Al",
+        "yes": "Evet",
+        "ok": "Tamam"
+    },
+    "conversation": {
+        "channelInfo": "Kanal Bilgisi",
+        "contactInfo": "İletişim Bilgisi",
+        "groupInfo": "Grup Bilgisi",
+        "info": "Bilgi",
+        "instantInfo": "Anlık Toplantı Bilgisi",
+        "name": "Ad",
+        "nameRoom": "{{conversationTitle}} Odası",
+        "fileUploadDescription": "Dosya Tanımı",
+        "newMessages": "Yeni Mesajlar",
+        "roomLinkDescription": "Başkalarının bu Oda'ya erişimini sağlamak için bağlantıyı kopyalayıp paylaşın.",
+        "roomName": "Oda adı",
+        "spaceInfo": "Konu Bilgisi",
+        "speakersCorner": "Toplantı Odasındaki Kullanıcılar",
+        "title": "Başlık",
+        "topic": "Konu tanımı",
+        "roomLink": "Oda Bağlantısı",
+        "roomInfo": "Oda Bilgisi",
+        "virtualRoomLink": "Sanal Oda bağlantısı",
+        "nameVirtualRoom": "{{conversationTitle}} için Sanal Oda",
+        "virtualRoomInfo": "Sanal Oda Bilgisi",
+        "virtualRoomLinkDescription": "Başkalarının bu Sanal Oda'ya erişimini sağlamak için bağlantıyı kopyalayıp paylaşın.",
+        "virtualRoomName": "Sanal Oda adı"
+    },
+    "conversations": {
+        "activeMeetingRooms": "Aktif Toplantı Odaları",
+        "chats": "Sohbetler",
+        "conversations": "Görüşmeler",
+        "instantMeetings": "Anlık Toplantılar",
+        "meetingRooms": "Toplantı Odaları",
+        "noActiveInstantMeetings": "Şu anda aktif Anlık Toplantı yok. Yeni bir Anlık Toplantı oluşturun veya sekmeyi değiştirin.",
+        "noActiveMeetings": "Şu anda aktif Odalar bulunmuyor",
+        "noActiveSpaces": "Şu anda aktif Konu yok. Yeni bir Konu oluşturun veya sekmeyi değiştirin.",
+        "noFilteredInstantMeetings": "Bu filtrelemeye uygun Anlık Toplantı bulunamadı.",
+        "noFilteredMeetings": "Arama kriterine uygun Odalar veya planlanmış toplantılar yok",
+        "noFilteredSpaces": "Bu filtrelemeye uygun Konu bulunamadı.",
+        "personalRoom": "Kişisel Oda",
+        "scheduledMeetings": "Zamanlanan Toplantılar",
+        "spaces": "Konular",
+        "spaceGeneralChannel": "Genel",
+        "waitingRoom": "Bekleme Odası",
+        "yourRoom": "Odanız",
+        "mockDisplayDescription": "Bir sohbet başlatmak için görüşme seçin",
+        "mockDisplayTitle": "Haberleşelim!",
+        "noFilteredChats": "Bu filtrelemeye uygun Sohbet bulunamadı.",
+        "filterChatList": "Sohbet listesini filtrele",
+        "noActiveChats": "Şu anda aktif Sohbet yok. Yeni bir Sohbet oluşturun veya sekmeyi değiştirin.",
+        "noActiveVirtualRooms": "Şu anda aktif Sanal Odalar bulunmuyor",
+        "activeVirtualRooms": "Aktif Sanal Odalar",
+        "noFilteredVirtualRooms": "Bu arama kriterine uygun Sanal Odalar veya planlanmış toplantılar yok",
+        "personalVirtualRoom": "Kişisel Sanal Oda",
+        "virtualRooms": "Sanal Odalar",
+        "rooms": "Odalar",
+        "noFilteredRooms": "Arama kriterine uygun Odalar veya planlanmış toplantılar yok",
+        "noActiveRooms": "Şu anda aktif Odalar bulunmuyor",
+        "activeRooms": "Aktif Odalar"
+    },
+    "creation": {
+        "nameMax140Characters": "Maks. 140 karakter",
+        "attendeeAdded": "Katılımcı listeye eklendi",
+        "channel": {
+            "mainDescription": "Kanallar, bir Konu altında tanımlı alt başlıklara ait sohbetlerden oluşur. Konu katılımcıları içerik hakkında tartışma için Kanala katılabilir. Katılımcılar Konu'dan ayrılmadan da Kanal'dan ayrılabilir.",
+            "setImageAndTitleDescription": "Konu alanı içindeki Kanal'ı daha iyi tanımlayacak bir resim seçin. Kanal resmi, Kanal bilgi panelinden de belirlenebilir veya değiştirilebilir.",
+            "titleInputRequirements": "140 karakter kullanılabilir, Konu alanındaki başlık diğerlerinden farklı olmalıdır",
+            "topicInputExplanation": "Kanal'ın başlığını tanımlar",
+            "topicDescription": "Kanallar, tartışılan başlıklar halindeki sohbetlerden oluştuğu için içeriği daha açıklayıcı başlık kullanmanız önerilir."
+        },
+        "group": {
+            "addParticipantsDescription": "Adlarını veya e-posta adreslerini yazarak katılımcıları davet edin. En az iki katılımcı davet etmelisiniz yoksa Sohbet oluşturamazsınız.",
+            "groupWithoutNameAddParticipant": "Grup için katılımcılar ekle",
+            "inputTopicDescriptionLabel": "Grubun konusunu açıklar",
+            "setImageAndTopicDescription": "Listede bu Grubu kullanıcıların kolayca belirlemesine yardımcı olacak bir resim seçebilirsiniz.",
+            "mainDescription": "Gruplara ikiden fazla katılımcı eklenmesi gerekir. İçeriğini tanımlayacak bir grup adı belirleyebilirsiniz"
+        },
+        "instantMeeting": {
+            "addAttendees": "Anlık Toplantı için katılımcılar ekle",
+            "addAttendeesDescription": "Ad veya e-posta adreslerini yazarak katılımcıları davet edin.",
+            "addAttendeesInputExplanation": "Dışarıdan kullanıcıları da sadece e-posta adreslerini yazarak davet edebilirsiniz.",
+            "attendee": {
+                "feedback": {
+                    "negative": "Girmiş olduğunuz e-posta geçerli değil, lütfen geçerli bir adres girin",
+                    "neutral": "Bir veya daha fazla katılımcı seçin"
+                }
+            },
+            "titleDescription": "Anlık Toplantı için tanımlayıcı bir başlık belirlemeniz önerilir, böylece katılımcılar bu görüşmenin amacını bilir.",
+            "description": "Anlık Toplantılar hızlı ve o anda yapılmak üzere tasarlanmış görüntülü aramalardır, sohbet ile ilgili kayıt tutulmaz ve arama bittiğinde silinir. Anlık Toplantılar Team Pro lisanslı kullanıcılar tarafından oluşturulabilir ve dışarıdan kullanıcılar da toplantıya katılabilir."
+        },
+        "limitOfParticipantReached": "Yönetici tarafından belirlenmiş katılımcı limitini doldurdunuz",
+        "nameNeeds2Letters": "Ad en az iki harfden oluşmalı",
+        "nameRequired": "Ad gereklidir",
+        "participants": {
+            "feedback": {
+                "neutral": "İki veya daha fazla katılımcı seçin"
+            }
+        },
+        "requiresOneMoreParticipant": "En az bir katılımcı daha gerekli",
+        "requiresTwoOthers": "En az başka 2 kişi gereklidir",
+        "selectMoreParticipantsForInstantMeetings": "Listeden bir katılımcı seçin veya dışarıdan kullanıcı eklemek için eposta adresini yazın",
+        "selectOneOrMoreUsers": "Bir veya daha fazla kullanıcı seçin",
+        "space": {
+            "spaceWithoutNameAddParticipant": "Konu için katılımcılar ekle",
+            "topicDescription": "Konular, tartışılan başlıklar halindeki sohbetlerden oluştuğu için içeriği daha açıklayıcı başlık kullanmanız önerilir.",
+            "topicInputExplanation": "Konu içeriğini açıklar",
+            "addMembersDescription": "Adı veya e-posta adresini yazarak kişileri davet edin. En az iki kişi davet etmelisiniz yoksa Sohbet oluşturamazsınız.",
+            "titleDescription": "Başlık, Konuyu tanımladığı için içeriği açıklaması gerekir.",
+            "mainDescription": "Konular, her birinin kendine ait konu başlığı olan ve Kanallar adı verilen sohbet görüşmelerinden oluşan genel iletişim ortamlarıdır. Bir konu oluşturmak için en az iki katılımcı davet etmeniz gerekir. Konu'nun bilgi panelininden Kanallar doğrudan eklenebilir."
+        },
+        "startTypingToPick": "Bir adres seçmek için yazın",
+        "topicMax255Characters": "Maks. 255 karakter",
+        "topicOptional": "İsteğe bağlı. Konu hakkında tanım yazılabilir",
+        "typeToFilter": "Listeyi filtrelemek için yazın",
+        "typeWithNameAddParticipant": "Katılımcıları ekle",
+        "youCanInviteOther": "{{limit}} katılımcı daha davet edebilirsiniz",
+        "chat": {
+            "addParticipant": "Sohbet başlatmak için bir katılımcı seçin",
+            "description": "Sohbetler kişiler ile iletişiminizi kolaylaştıran bire bir görüşmelerdir.",
+            "chatFilterDescription": "Konuşmak istediğiniz katılımcıya tıklayıp kolayca Sohbet oluşturabilirsiniz"
+        },
+        "emailReplicated": "Belirtilen e-posta önceden eklenmiş",
+        "titleInputRequirements": "140 karakter kullanılabilir, başlık diğerlerinden farklı olmalıdır",
+        "topicNeeds2Letters": "Konu başlığı isteğe bağlıdır. En az 2 karakter olmalıdır",
+        "nameRequired-max140Characters-avoidReusingNames": "Gerekli. Maks. 140 karakter, aynı adlandırmayı yeniden kullanmayınız."
+    },
+    "feedback": {
+        "historyClearedSuccessfully": "Geçmiş başarıyla temizlendi!",
+        "notificationsActivatedForThisChat": "Bu sohbet için bildirimler etkinleştirildi",
+        "notificationsMutedForThisChat": "Bu sohbet için bildirimler kapatıldı",
+        "online": "Yeniden çevrimiçi!",
+        "resetPersonalRoomLinkSuccess": "Kişisel Oda bağlantısı yenilendi",
+        "retryConnection": "Bağlantıyı tekrar dene",
+        "roomLinkCopied": "Oda bağlantısı kopyalandı",
+        "uploadConversationPicturesFailed": "Görüşme fotoğrafı yüklenirken hata oluştu",
+        "appVersionCopied": "App sürümü kopyalandı",
+        "offline": "Sunucu ile bağlantıda bir sorun var",
+        "tryAReconnectionIn": "{{seconds}} saniye sonra yeniden bağlanmayı dene",
+        "connecting": "Bağlanıyor…",
+        "linkCopied": "Bağlantı kopyalandı",
+        "saveAttachmentError": "Kayıt sırasında bir sorun oluştu, lütfen tekrar deneyin",
+        "saveAttachmentSuccessfull": "Ek seçilen klasöre kaydedildi",
+        "resetPersonalVirtualRoomLinkSuccess": "Kişisel Sanal Oda bağlantısı yenilendi",
+        "virtualRoomLinkCopied": "Sanal Oda bağlantısı kopyalandı"
+    },
+    "meeting": {
+        "attendeesComing": "Katılımcılar geliyor",
+        "defaultViewModeDedicatedModeLabel": "Ayrılmış Mod",
+        "defaultViewModeDefaultModeLabel": "Varsayılan Mod",
+        "defaultViewModeSecondaryDescriptionLabel": "Bu seçenek ayarlarınızda kaydedilecek ve istediğinizde değiştirebilirsiniz.",
+        "interactions": {
+            "cinemaView": "Sinema Görünümü",
+            "closeCall": "Görüşmeyi Kapat",
+            "disableAudio": "Ses Devre dışı",
+            "disableFullScreen": "Tam ekrandan çık",
+            "disableVideo": "Video Devre Dışı",
+            "enableAudio": "Sesi Etkinleştir",
+            "enableVideo": "Video Etkinleştir",
+            "gridView": "Izgara Görünümü",
+            "hideChat": "Sohbeti Gizle",
+            "hideParticipants": "Katılımcıları Gizle",
+            "muteUser": "Sesi kapat",
+            "muteUserForAllTitle": "Herkes için sessiz",
+            "mutedByModerators": "Moderatör tarafından sesiniz kapatıldı, konuşmak için sesinizi açın",
+            "mutedByOthers": "Sesiniz kapatıldı",
+            "pinVideo": "Görüntüyü Sabitle",
+            "shortCutLabel": "(C)",
+            "showChat": "Sohbeti Göster",
+            "showParticipants": "Katılımcıları Göster",
+            "status": {
+                "cameraMicOff": "Kamera ve mikrofonunuz kapalı",
+                "cameraOff": "Kameranız kapalı"
+            },
+            "unpinVideo": "Videoyu sabitleme",
+            "disableScreensharing": "Ekran Paylaşımı Devre Dışı",
+            "enableFullScreen": "Tam ekran",
+            "enableScreenSharing": "Ekran Paylaşımını Etkinleştir",
+            "muteUserForAllDescription": "Kullanıcı sesini kapattığınızda bütün katılımcılar artık onu duyamaz. Sadece sesi kapatılan kullanıcı kendi sesini açabilir. Devam edilsin mi?",
+            "audioDisabled": "Ses kapalı",
+            "audioEnabled": "Ses açık",
+            "cameraDisabled": "Kamera kapalı",
+            "cameraEnabled": "Kamera açık",
+            "playMyVoice": "Sesimi dinlet",
+            "stopMyVoice": "Sesimi durdur",
+            "micTesting": "Sesinizi varsayılan ses çıkışından duyacaksınız, böylece toplantı için seçtiğiniz ses giriş ve ses çıkış kalitesini test edebilirsiniz",
+            "playMic": "Mikrofon testini başlat",
+            "stopMic": "Mikrofon testini durdur",
+            "hangOff": "Kapat"
+        },
+        "startModal": {
+            "description": "Toplantıya nasıl giriş yapmak istersiniz?",
+            "enter": "Giriş",
+            "noVideoAndAudio": "Kamera kapalı, Mikrofon açık",
+            "noVideoAndNoAudio": "Kamera kapalı, Mikrofon kapalı",
+            "videoAndAudio": "Kamera açık, mikrofon açık",
+            "videoAndNoAudio": "Kamera açık, Mikrofon kapalı",
+            "descriptionVirtualRoom": "{{meetingTitle}} Sanal Odasına nasıl girmek istersiniz?",
+            "descriptionMyPersonalVirtualRoom": "Kişisel Sanal Odanıza nasıl girmek istersiniz?",
+            "descriptionPersonalVirtualRoom": "{{meetingTitle}} Kişisel Sanal Odasına nasıl girmek istersiniz?",
+            "descriptionPersonalRoom": "{{meetingTitle}} Kişisel Odasına nasıl girmek istersiniz?",
+            "descriptionMyPersonalRoom": "Kişisel Odanıza nasıl girmek istersiniz?"
+        },
+        "defaultViewModeDefaultLabel": "\"Varsayılan Mod\" seçerseniz, Toplantı şu andaki iç ortamda başlayacak.",
+        "defaultViewModeSaveLabel": "Seçeneği Kaydet",
+        "defaultViewModeTitleModal": "Toplantı Ortamı Seçenekleri",
+        "defaultViewModeDedicatedLabel": "\"Ayrılmış Mod\" seçerseniz, Toplantı deneyiminizin en iyi şekilde olması için tarayıcınızda ayrı bir sekmeye yönlendirileceksiniz.",
+        "resetMeetingUrlModalDescription": "Planlanmış \"{{conversationName}}\" için bağlantıyı yenilemek istediğinizden emin misiniz?",
+        "errorMeetingRecording": "Kayıt işlemi başlatılamadı, lütfen sistem yöneticinizle görüşün.",
+        "recordedByOther": "{{username}} kayıt işlemi başlattı",
+        "wereToFindRecording": "Kayıt video sunucu giriş bölümüne kayıt edilecek, daha fazla bilgi için sistem yöneticinizle görüşün.",
+        "genericErrorMeeting": "Bu toplantı ile ilgili bir sorun var, sistem yöneticinizle görüşün.",
+        "recordedByMe": "Kayıt işlemi başlattınız",
+        "recording": "Kayıt yapılıyor",
+        "thisMeetingIsBeingRecorded": "Bu toplantı kayıt ediliyor",
+        "defaultViewModeDedicatedLabelVirtualRoom": "\"Ayrılmış Mod\" seçerseniz, Sanal Oda deneyiminizin en iyi şekilde olması için tarayıcınızda ayrı bir sekmeye yönlendirileceksiniz.",
+        "wereToFindRec": "Ses Kayıt dosyası kayıt işlemini durduran moderatörün Dosyalar alanına kaydedilecek.",
+        "defaultViewModeDedicatedModeLabelVRoom": "Ayrılmış Mod",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Ayrılmış Mod",
+        "defaultViewModeDefaultLabelVirtualRoom": "\"Varsayılan Mod\" seçerseniz, Sanal Oda şu andaki iç ortamda başlayacak.",
+        "defaultViewModeTitleModalVirtualRoom": "Sanal Oda ortam seçenekleri",
+        "errorMeetingSavingRecording": "Kayıt durdurulamıyor, lütfen tekrar deneyin",
+        "successSaveMeetingRecording": "Hazır olduğunda {{registrationName}} kayıdını /{{folderName}} klasöründe bulabilirsiniz",
+        "setVirtualBackground": "Sanal arkaplan ayarla",
+        "noEffect": "Efekt yok",
+        "blurMyBackground": "Flu arkaplan görünüm"
+    },
+    "message": {
+        "deletedMessage": "Silinmiş mesaj",
+        "edited": "düzenlendi",
+        "forwarded": "iletildi",
+        "now": "Şimdi",
+        "service": {
+            "meeting": {
+                "ended": "Toplantı bitti",
+                "startedAtTime": "Toplantı başladı",
+                "endedAtTime": "Toplantı bitti"
+            },
+            "member": {
+                "changed": {
+                    "name": {
+                        "channel": "{{name}} Kanal adı {{member_name}} tarafından değiştirildi",
+                        "space": "{{name}} Konu adı {{member_name}} tarafından değiştirildi"
+                    },
+                    "picture": {
+                        "channel": "{{member_name}} Kanal resmini değiştirdi",
+                        "space": "{{member_name}} Konu resmini değiştirdi",
+                        "group": "{{member_name}} Grup resmini değiştirdi"
+                    },
+                    "topic": {
+                        "channel": "{{topic}} Kanal başlığı {{member_name}} tarafından değiştirildi",
+                        "space": "{{topic}} Konu başlığı {{member_name}} tarafından değiştirildi",
+                        "group": "{{topic}} Grup başlığı {{member_name}} tarafından değiştirildi"
+                    }
+                },
+                "created": {
+                    "channel": "{{member_name}} Kanal'ı oluşturdu",
+                    "space": "{{member_name}} Konu başlığını oluşturdu",
+                    "group": "{{member_name}} Grubu oluşturdu",
+                    "single": "{{member_name}} Sohbeti oluşturdu"
+                },
+                "deleted": {
+                    "channel": "{{member_name}} Kanal'ı sildi",
+                    "instantMeeting": "{{member_name}} Anlık Toplantıyı sildi",
+                    "space": "{{member_name}} Konu başlığını sildi"
+                },
+                "invited": "{{member_name}}, {{invited_by}} tarafından davet edildi",
+                "join": {
+                    "channel": "{{member_name}} Kanal'a katıldı",
+                    "conversation": "{{member_name}} Sohbet'e katıldı"
+                },
+                "kicked": {
+                    "channel": "{{member_name}}, {{kicked_by}} tarafından Kanal'dan çıkarıldı",
+                    "group": "{{member_name}} kullanıcısı {{kicked_by}} tarafından Grup'tan çıkarıldı",
+                    "space": "{{member_name}}, {{kicked_by}} tarafından Konu'dan çıkarıldı",
+                    "chat": "{{member_name}}, {{kicked_by}} tarafından Sohbet'ten çıkarıldı"
+                },
+                "left": {
+                    "channel": "{{member_name}} Kanal'dan ayrıldı",
+                    "space": "{{member_name}} Konu başlığından ayrıldı",
+                    "group": "{{member_name}} Grup'tan ayrıldı",
+                    "chat": "{{member_name}} sohbet'ten ayrıldı"
+                },
+                "you": {
+                    "invited": "{{member_name}} davet edildi",
+                    "kicked": {
+                        "group": "{{member_name}} kullanıcısını Grup'tan çıkardınız",
+                        "space": "{{member_name}} kullanıcısını Konu'dan çıkardınız",
+                        "channel": "{{member_name}} kullanıcısını Kanal'dan çıkardınız"
+                    }
+                }
+            },
+            "newMeeting": "Gelen çağrı:",
+            "notificationsActivatedForThisChat": "Bu sohbet için bildirimler etkinleştirildi",
+            "notificationsMutedForThisChat": "Bu sohbet için bildirimler kapatıldı",
+            "you": {
+                "changed": {
+                    "name": {
+                        "channel": "{{name}} Kanal'ının adını değiştirdiniz",
+                        "space": "{{name}} Konusunun adını değiştirdiniz"
+                    },
+                    "picture": {
+                        "channel": "Kanal resmini değiştirdiniz",
+                        "space": "Konu adını değiştirdiniz",
+                        "group": "Grup resmini değiştirdiniz"
+                    },
+                    "topic": {
+                        "channel": "{{topic}} Kanal'ının başlığını değiştirdiniz",
+                        "space": "{{topic}} Konusunun başlığını değiştirdiniz",
+                        "group": "{{topic}} Grup başlığını değiştirdiniz"
+                    }
+                },
+                "created": {
+                    "channel": "Kanal'ı oluşturdunuz",
+                    "space": "Konu başlığını oluşturdunuz",
+                    "group": "Grup oluşturdunuz",
+                    "single": "Sohbet oluşturdunuz"
+                },
+                "deleted": {
+                    "channel": "Kanal'ı sildiniz",
+                    "instantMeeting": "Anlık Toplantıyı sildiniz",
+                    "space": "Konu başlığını sildiniz"
+                },
+                "invited": "{{invited_by}} tarafından davet edildiniz",
+                "join": {
+                    "channel": "Kanal'a katıldınız",
+                    "instantMeeting": "Anlık Toplantıya katıldınız",
+                    "space": "Konu başlığına katıldınız",
+                    "userRoom": "Oda'ya katıldınız",
+                    "group": "Grup'a katıldınız"
+                },
+                "kicked": {
+                    "channel": "{{kicked_by}} tarafından Kanal'dan çıkarıldınız",
+                    "group": "{{kicked_by}} tarafından Gruptan çıkarıldınız",
+                    "space": "{{kicked_by}} tarafından Konudan çıkarıldınız"
+                },
+                "left": {
+                    "channel": "Kanaldan ayrıldınız",
+                    "space": "Alandan ayrıldınız",
+                    "group": "Grup'tan ayrıldınız"
+                }
+            },
+            "conversationCreated": "Sohbet oluşturuldu"
+        },
+        "readBy": "Okuyan",
+        "yesterday": "Dün"
+    },
+    "modal": {
+        "addModeratorDescription": "Bu Oda'nın moderatörü olarak belirlemek üzere bir veya daha fazla kullanıcıyı seçin",
+        "clearHistoryDescription": "Bu görüşme artık boş ve aktif olanları önplana çıkarmak için görüşmeler listesinin en altına taşındı.",
+        "confirm": {
+            "areYouSure": "Emin misiniz?",
+            "clearHistory": "Sohbet geçmişinizi kalıcı olarak siliyorsunuz. Bu sohbete ait diğer katılımcıların geçmişi silinmeyecek. Bu işlem geri alınamaz.",
+            "leaveAndDeleteConversation": "{{conversationName}} görüşmesinden ayrılmak ve silmek istediğinizden emin misiniz?",
+            "deleteChannel": "Bu Kanal'ı silmek istediğinize emin misiniz?",
+            "deleteRoom": "Oda'yı silmek istediğinizden emin misiniz?",
+            "leaveChannel": "Kanal'dan ayrılmak istediğinize emin misiniz?",
+            "leaveGroup": "Grup'tan ayrılmak istediğinize emin misiniz?",
+            "leaveSpace": "Konu'dan ayrılmak istediğinize emin misiniz?",
+            "deleteSpace": "Bu Konu'yu silmek istediğinizden emin misiniz?",
+            "removeMember": "Bu üyeyi çıkartmak istediğinize emin misiniz?",
+            "deleteVirtualRoom": "Sanal Oda'yı silmek istediğinizden emin misiniz?"
+        },
+        "forwardModal": {
+            "forwardedMessageFrom": "İletilen mesaj",
+            "selectOneOrMoreConversations": "Bir veya daha fazla görüşme seçin",
+            "typeToFilterTheList": "Listeyi filtrelemek için yazın",
+            "spaceAndChannels": "Konu ve Kanallar"
+        },
+        "instantMeeting": {
+            "closedInstantMeeting": "Anlık Toplantı kapandı",
+            "continue": "Önceki Anlık Toplantı ile devam et",
+            "create": "Yeni bir Anlık Toplantı oluştur",
+            "instantMeetingAlreadyRunningTitle": "Başka bir Anlık Toplantı zaten çalışıyor",
+            "endCallByOwner": "Anlık Toplantı sahibi görüşmeyi sonlandırmaya karar verdi, Anlık Toplantı deneyiminden memnun kaldığınızı umarız",
+            "instantMeetingAlreadyRunningText": "Yeni bir tane oluşturmak öncekini sonlandıracak ve katılımcıların bağlantısı kesilecek. Ne yapmak istersiniz?"
+        },
+        "moderatorCannotLeaveGroupDescription": "{{conversationName}} için tek moderatör sizsiniz, Gruptan ayrılmadan önce yetkiyi başkasına devredin.",
+        "moderatorCannotLeaveGroupTitle": "Bekleyin, yeni bir moderatör gerekiyor",
+        "notShowAgain": "Tekrar gösterme",
+        "roomsFunctionalitiesChangelogDescription": "Toplantı özelliklerinde önemli değişiklikler yapıldı. Daha fazla bilgi için lütfen Odalar tanıtımı başlığını okuyun!",
+        "showPreviousConversationHistory": "Önceki görüşme geçmişini göster",
+        "teamNews": "Team Haberleri",
+        "planMeetingDescription": "Oda adı katılımcılara Oda'nın tartışma konusu hakkında bilgi verir.",
+        "deleteMessageDescription": "Mesajı sildiğinizde, artık size ve diğer alıcılara görünmeyecek",
+        "userJoinedWaitingRoom": "Bekleme Odasında bekleyen kişi var",
+        "news": "Haberler",
+        "moderatorMeetingDescription": "Bu Oda için moderatör olacaksınız. Başka moderatörler ekleyebilirsiniz, onlar da sizinle aynı izinlere sahip olacak.",
+        "stopMeetingRec": {
+            "stopRecording": "Kayıt durdurulacak. Toplantı sırasında istediğiniz zaman yeni kayıt başlatabilirsiniz.",
+            "stopMeetingTitle": "Toplantı kayıt işlemini durdur",
+            "locationWhereToSaveRecording": "Ses kayıdı \"/{{folderName}}\" klasörüne kaydedilecek.",
+            "stopRecordingDescription": "Ses kayıt işlemini durduruyorsunuz. İstediğiniz zaman yeni kayıt başlatabilirsiniz.",
+            "recordingName": "Ses Kayıt Adı",
+            "stopRecordingTitle": "Ses kaydını durdur"
+        },
+        "selectFolder": "Klasör seçin",
+        "moderatorVirtualRoomDescription": "Bu Sanal Oda için moderatör olacaksınız. Başka moderatörler ekleyebilirsiniz, onlar da sizinle aynı izinlere sahip olacak.",
+        "planVirtualRoomDescription": "Bu Sanal Oda'ya toplantı konusuyla ilgili bir isim vererek katılımcıların toplantının ne hakkında olduğunu bilmelerini sağlayabilirsiniz.",
+        "planRoomDescription": "Bu Odaya toplantı konusuyla ilgili bir isim vererek katılımcıların toplantının ne hakkında olduğunu bilmelerini sağlayabilirsiniz.",
+        "moderatorRoomDescription": "Bu Oda için moderatör olacaksınız. Başka moderatörler ekleyebilirsiniz, onlar da sizinle aynı izinlere sahip olacak."
+    },
+    "notification": {
+        "answer": "Yanıtla",
+        "dismiss": "Kapat",
+        "incomingCall": "Gelen çağrı:",
+        "invitationToPersonalRoom": "Kişisel Oda için davet gönderen:",
+        "waiting": {
+            "descriptionAcceptedLabel": "{{conversationName}} moderatörü tarafından kabul edildiniz",
+            "descriptionWaitingLabel": "{{conversationName}} moderatörü tarafından kabul edilmek için bekliyorsunuz",
+            "notificationAcceptedByModerator": "Moderatör tarafından kabul edildiniz",
+            "userIsWaiting": "Yeni kullanıcı girmek için bekliyor",
+            "userJoinedWaitingRoom": "Bekleme odasında bekleyen kişi var",
+            "notificationJoinTheRoom": "Toplantıya katılmak için odaya girin",
+            "notificationJoinTheVirtualRoom": "Toplantıya katılmak için Sanal Oda'ya girin"
+        },
+        "meeting": {
+            "ended": "Toplantı Bitti"
+        },
+        "startMeetingRecording": "{{conversationName}} toplantı kayıt işlemi başladı",
+        "invitationToPersonalVirtualRoom": "Kişisel Sanal Oda için davet gönderen:"
+    },
+    "people": {
+        "manyMembers": "{{membersCount}} üye",
+        "me": "Ben",
+        "oneParticipant": "Bir katılımcı",
+        "otherParticipants": "Diğer {{numberParticipants}} katılımcı",
+        "participants": "Katılımcılar",
+        "you": "Siz",
+        "whoYoureLookinkFor": "Kimi arıyorsunuz?"
+    },
+    "settings": {
+        "meeting": {
+            "enableCamera": "Kamerayı etkinleştir",
+            "enableMicrophone": "Mikrofonu etkinleştir",
+            "meetings": "Toplantılar",
+            "personalRoomOptionsTitleModal": "Kişisel Oda bağlantısını yenile",
+            "personalRoomResetButton": "Kişisel Oda bağlantısını yenile",
+            "personalRoomResetDescription": "Kişisel Oda bağlantısını yenilediğinizde daha önceden verilen erişimler artık kullanılamayacak.",
+            "description": "Toplantılara katılırken kullanacağınız ses ve görüntü tercihlerinizi ayarlayın. Her toplantıya katılmadan önce tercihlerinizi değiştirebilirsiniz.",
+            "descriptionVirtualRoom": "Sanal Odaya girmek için kullanacağınız ses ve görüntü tercihlerinizi ayarlayın. Her Sanal Odaya katılmadan önce tercihlerinizi değiştirebilirsiniz.",
+            "personalVirtualRoomOptionsTitleModal": "Kişisel Sanal Oda bağlantısı yenilendi",
+            "personalVirtualRoomResetButton": "Kişisel Sanal Oda bağlantısını yenile",
+            "personalVirtualRoomResetDescription": "Kişisel Sanal Oda bağlantısını yenilediğinizde daha önceden verilen erişimler artık kullanılamayacak.",
+            "virtualRooms": "Sanal Odalar",
+            "enableEchoCancellation": "Yankılanmayı düzelt",
+            "enableNoiseSuppression": "Gürültüyü azalt",
+            "voiceProcessing": "Ses İşleme",
+            "voiceProcessingDescription": "Sesinizi varsayılan ses çıkışından duyacaksınız, böylece toplantı için seçtiğiniz ses giriş ve ses çıkış kalitesini test edebilirsiniz",
+            "descriptionRoom": "Odaya girmek için kullanacağınız ses ve görüntü tercihlerinizi ayarlayın. Odaya katılmadan önce her zaman tercihlerinizi değiştirebilirsiniz."
+        },
+        "notification": {
+            "desktop": "Masaüstü bildirimleri",
+            "openMinichatDescription": "Kısa sohbetlerinizin açılış davranışını özelleştirin",
+            "title": {
+                "notifications": "Bildirimler",
+                "openMinichat": "Yeni mesaj geldiğindeki gibi aç",
+                "openMinichatForGroup": "Yeni bir Grup mesaj geldiğindeki gibi aç",
+                "openMinichatForSingle": "Yeni bir Tekli mesaj geldiğindeki gibi aç",
+                "openMinichatForSpace": "Yeni bir Konu mesajı geldiğindeki gibi aç"
+            }
+        },
+        "profile": {
+            "errorGenericResponse": "Bir sorun oluştu. Lütfen tekrar deneyin",
+            "reset": "Varsayılan",
+            "restore": "Geri al",
+            "statusOptionalDescription": "İsteğe bağlı. Durum bilgisini diğerleri ile paylaşabilirsiniz. Maks 256 karakter",
+            "title": "Profil",
+            "update": "Güncelle",
+            "maximumDimension": "Maksimum boyut: 256kb.",
+            "chooseAProfilePic": "Bir profil resmi seçin, resim otomatik olarak ortalanacak."
+        },
+        "resetPersonalRoomLinkSuccess": "Kişisel Oda bağlantısı yenilendi",
+        "title": "Ayarlar",
+        "notifications": {
+            "description": "Sohbet ile ilgili her türlü bildirim için tercihlerinizi ayarlayın."
+        },
+        "modal": {
+            "description": "Tamamen özelleştirilmiş bir sohbet deneyimi için Sohbet tercihlerinizi buradan değiştirebilirsiniz!",
+            "title": "Sohbet ayarları"
+        },
+        "recordingMeeting": {
+            "descriptionWhereToSaveRegistration": "Toplantı kayıtlarını saklamak için hedef klasör belirleyin.",
+            "destinationFolder": "Hedef klasör",
+            "recording": "Kayıtlar"
+        }
+    },
+    "status": {
+        "externalGuest": "Dış misafir",
+        "internalGuest": "İç misafir",
+        "lastSeen": "Son görülme {{lastSeen}}",
+        "offline": "Çevrimdışı",
+        "online": "Çevrim içi",
+        "userStatus": "Durum",
+        "waitingToEnter": "Girmek için bekleniyor",
+        "isWriting": "yazıyor…",
+        "areWriting": "yazıyor…"
+    },
+    "tooltip": {
+        "addFile": "Dosya ekle",
+        "cancelFilter": "Filtreyi iptal et",
+        "chooseFile": "Dosya seç",
+        "close": "Kapat",
+        "closeSearch": "Aramayı kapat",
+        "collapseChannel": "Kanalları küçült",
+        "copyRoomLink": "Oda'yı paylaşmak için bu bağlantıyı kopyalayın",
+        "copyRoomLinkTooltip": "Oda'yı paylaşmak için bu bağlantıyı kopyalayın",
+        "downgradeModerator": "Moderatör yetkilerini azalt",
+        "editDescription": "Tanımı düzenle",
+        "editInfo": "Bilgiyi düzenle",
+        "enterMeetingRoom": "Toplantı Odasına Gir",
+        "enterYourRoom": "Kişisel Oda'nıza giriş yapın",
+        "enterYourRoomTooltip": "Kişisel Oda'nıza giriş yapın",
+        "errorUpdatingAvatarStatus": "Durumu belirlerken bir hata oluştu. Lütfen tekrar deneyin",
+        "errorUploadingAvatarPicture": "Yeni resmi yüklerken bir hata oluştu. Lütfen tekrar deneyin",
+        "errorRemovingAvatarPicture": "Resmi kaldırırken bir hata oluştu. Lütfen tekrar deneyin",
+        "goToPrivateChat": "Özel sohbete git",
+        "messageComposer": "Mesaj hazırlayıcı",
+        "openMinichat": "Minisohbet aç",
+        "planMeeting": "Toplantı planla",
+        "promoteModerator": "Moderatör yetkileri ver",
+        "removeFile": "Dosyayı kaldır",
+        "removeMember": "Üyeyi kaldır",
+        "selectEmoji": "Emoji seç",
+        "sendFile": "Dosya gönder",
+        "sendMessage": "Mesaj gönder",
+        "showChannels": "Kanalları göster",
+        "switchToConversation": "Görüşmeye geç",
+        "switchToInfoPanel": "Bilgi paneline geç",
+        "inviteToPersonalRoom": "Kişisel Oda'nıza davet edin",
+        "searchForParticipant": "Katılımcıları ara",
+        "acceptQueuedMember": "Kullanıcı girişine izin ver",
+        "copyUserRoom": "Kişisel Oda'nızın bağlantısını kopyalayın",
+        "rejectQueuedMember": "Kullanıcıyı reddet",
+        "copyUserRoomTooltip": "Başkalarının Kişisel Odanıza erişimini sağlamak için bağlantıyı kopyalayıp paylaşın",
+        "disabledCreateButton": "Giriş bilgilerinde hata olup olmadığını kontrol edin",
+        "copyUserVirtualRoomTooltip": "Başkalarının Kişisel Sanal Odanıza erişimini sağlamak için bu bağlantıyı kopyalayıp paylaşın",
+        "copyVirtualRoomLinkTooltip": "Sanal Oda'yı paylaşmak için bu bağlantıyı kopyalayın",
+        "enterYourVirtualRoomTooltip": "Kişisel Sanal Oda'nıza giriş yapın",
+        "chooseRoom": "Sanal odayı seçin"
+    },
+    "general": {
+        "goToTeam": "Team'e git",
+        "teamProductName": "Team",
+        "browserNotSupported": "Tarayıcı sürümünüz desteklenmiyor. Tüm özelliklerden yararlanmak için tarayıcınızı güncellemeniz önerilir!"
+    },
+    "enterTheRoom": "Oda'ya Gir",
+    "external": {
+        "login": {
+            "externalLoginDescription": "Bu etki alanının üyesiyseniz her zaman kullandığınız çalışma alanına yönlendirileceksiniz. Eğer dışarıdan bir kullanıcıysanız özel bir arayüze yönlendirileceksiniz."
+        },
+        "nobodyInTheRoom": "Bu Oda'da kimse yok",
+        "roomIsEmpty": "Bu Oda boş",
+        "unsupported": {
+            "browser": "Desteklenmeyen tarayıcı",
+            "device": "Desteklenmeyen cihaz"
+        },
+        "waitingRoom": {
+            "accessDenied": "Erişim reddedildi",
+            "moderatorRefusedAccessToRoom": "Moderatör bu Oda'ya erişiminize izin vermedi",
+            "userLeftLookForwardToSee": "Tekrar görüşmek üzere",
+            "userLeftReturnToWaitingRoom": "Oda bağlantısından bekleme odasına istediğiniz zaman geri gidebilirsiniz",
+            "userLeftWaitingRoom": "Bekleme odasından ayrıldınız"
+        },
+        "youAreEnteringMeeting": "Oda'ya girmek üzeresiniz",
+        "nobodyInTheVirtualRoom": "Bu Sanal Oda'da kimse yok",
+        "virtualRoomIsEmpty": "Bu Sanal Oda boş",
+        "youAreEnteringVirtualRoom": "Sanal Oda'ya girmek üzeresiniz",
+        "doYouHaveTheAppTeam": "Zextras Chats uygulaması kullanıyor musunuz?",
+        "doYouHaveTheAppChats": "Carbonio Chats uygulaması kullanıyor musunuz?",
+        "playStoreLabel": "Google Play",
+        "orLabel": "veya",
+        "enter": "Toplantıya katıl!",
+        "downloadAppLabel": "Toplantıya katılmak için uygulamayı indirin",
+        "appStoreLabel": "App Store",
+        "doYouHaveTheApp": "Chats uygulaması kullanıyor musunuz?"
+    },
+    "label": {
+        "app_name": "Sohbetler"
+    },
+    "tryLater": "Sonra deneyin",
+    "virtualRoom": "Sanal Oda",
+    "errorPage": {
+        "description": "Bağlantıyı kontrol edin, yanlış olabilir",
+        "errorCode": "hata kodu 404",
+        "title": "Üzgünüz, bu Oda bulunamadı"
+    },
+    "organizeYourMeeting": "Kendi toplantınızı oluşturun veya çalışma arkadaşlarınızın odalarına katılın",
+    "thanksForParticipating": "Katıldığınız için teşekkürler",
+    "typeYourEmail": "E-posta adresinizi yazın",
+    "personalRoomLabel": "{{userName}} Kişisel Oda",
+    "enterTheVirtualRoom": "Sanal Odaya Gir",
+    "organizeYourVirtualMeeting": "Kendi toplantınızı oluşturun veya çalışma arkadaşlarınızın Sanal Odalarına katılın",
+    "organizeYourVMeeting": "Kendi toplantınızı oluşturun veya çalışma arkadaşlarınızın Sanal Odalarına katılın",
+    "personalVirtualRoomLabel": "{{userName}} Kişisel Sanal Oda",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "İndir"
+            }
+        },
+        "close": {
+            "tooltip": "Kapat"
+        }
+    },
+    "attachments": {
+        "attachLinkFiles": "Dosyalar'dan genel bağlantı ekle",
+        "attachLinkFromFiles": "Dosyalar'dan bağlantı ekle",
+        "share": "Genel bağlantı paylaş",
+        "shareLink": "Bağlantı paylaş",
+        "addFromLocal": "Lokalden ekle"
+    },
+    "room": "Sanal Oda",
+    "noRoomSelected": "Sanal Oda seçilmedi"
+}
