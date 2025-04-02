@@ -1,5 +1,6 @@
 {
     "action": {
-        "delete": "Izbriši"
+        "delete": "Izbriši",
+        "edit": "Uredi"
     }
 }
