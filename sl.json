@@ -1,6 +1,10 @@
 {
     "action": {
         "delete": "Izbriši",
-        "edit": "Uredi"
+        "edit": "Uredi",
+        "copy": "Kopiraj"
+    },
+    "notification": {
+        "dismiss": "Opusti"
     }
 }
