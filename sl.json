@@ -2,9 +2,529 @@
     "action": {
         "delete": "Izbriši",
         "edit": "Uredi",
-        "copy": "Kopiraj"
+        "copy": "Kopiraj",
+        "add": "Dodaj",
+        "addChannel": "Dodaj kanal",
+        "addMembers": "Dodaj člane",
+        "addModerator": "Dodaj moderatorja",
+        "addModerators": "Dodaj moderatorje",
+        "addNewMembers": "Dodaj nove člane",
+        "addOtherModerators": "Dodaj druge moderatorje",
+        "browse": "Brskaj",
+        "clearHistory": "Počisti zgodovino",
+        "close": "Zapri",
+        "collapse": "Strni",
+        "copyAppVersion": "Kopiraj različico aplikacije",
+        "copyLinkRoom": "Kopiraj povezavo sobe",
+        "copyLinkVirtualRoom": "Kopiraj povezavo virtualne sobe",
+        "copyUserRoomLink": "Kopiraj povezavo",
+        "create": "Ustvari",
+        "createChat": "Ustvari klepet",
+        "createGroup": "Ustvari skupino",
+        "createInstantMeeting": "Ustvari takojšnje srečanje",
+        "createRoom": "Ustvari sobo",
+        "createSpace": "Ustvari prostor",
+        "createVirtualRoom": "Ustvari virtualno sobo",
+        "deleteChannel": "Izbriši kanal",
+        "deleteRoom": "Izbriši sobo",
+        "deleteSpace": "Izbriši prostor",
+        "editYourMessage": "Uredi svoje sporočilo",
+        "expand": "Razširi",
+        "goToGuide": "Pojdi na vodič",
+        "join": "Pridruži se",
+        "joinRoom": "Pridruži se sobi",
+        "joinVirtualRoom": "Pridruži se virtualni sobi",
+        "leave": "Zapusti",
+        "leaveAndDelete": "Zapusti in izbriši",
+        "leaveChannel": "Zapusti kanal",
+        "leaveGroup": "Zapusti skupino",
+        "leaveSpace": "Zapusti prostor",
+        "openInChats": "Odpri v klepetu",
+        "openInTeam": "Odpri v ekipi",
+        "plan": "Načrtuj",
+        "planMeeting": "Načrtuj srečanje",
+        "remove": "Odstrani",
+        "removeMember": "Odstrani člana",
+        "reply": "Odgovori",
+        "replyToYourself": "Odgovori sebi",
+        "resetLink": "Ponastavi povezavo",
+        "saveToFiles": "Shrani v datoteke",
+        "scrollToNewMessage": "Pomakni se na novo sporočilo",
+        "scrollToTheBottom": "Pomakni se na dno",
+        "start": "Začni",
+        "startMeeting": "Začni srečanje",
+        "stop": "Ustavi",
+        "addNewMembersTo": "Dodaj nove člane v",
+        "forward": "Posreduj",
+        "joinChannel": "Pridruži se kanalu za pošiljanje sporočil in prejemanje obvestil",
+        "activateNotifications": "Omogoči obvestila",
+        "deleteVirtualRoom": "Izbriši virtualno sobo",
+        "muteNotifications": "Utišaj obvestila",
+        "waitingModeratorToJoin": "Čakaš, da te moderator sprejme",
+        "createChannel": "Ustvari kanal, povezan s {{spaceName}}",
+        "joinChannelAction": "Pridruži se kanalu",
+        "replyToSomeone": "Odgovori uporabniku"
     },
     "notification": {
         "dismiss": "Opusti"
-    }
+    },
+    "appVersion": "Različica aplikacije",
+    "attachments": {
+        "addFromLocal": "Dodaj iz lokalne naprave",
+        "attachLinkFromFiles": "Pripni povezavo iz datotek",
+        "share": "Deli javno povezavo",
+        "shareLink": "Deli povezavo",
+        "attachLinkFiles": "Pripni javno povezavo iz datotek"
+    },
+    "button": {
+        "cancel": "Prekliči",
+        "no": "Ne",
+        "ok": "V redu",
+        "save": "Shrani",
+        "undo": "Razveljavi",
+        "yes": "Da"
+    },
+    "conversation": {
+        "channelInfo": "Podatki o kanalu",
+        "contactInfo": "Podatki o stiku",
+        "groupInfo": "Podatki o skupini",
+        "info": "Podatki",
+        "instantInfo": "Podatki o takojšnjem srečanju",
+        "name": "Ime",
+        "nameVirtualRoom": "Virtualna soba za {{conversationTitle}}",
+        "newMessages": "Nova sporočila",
+        "roomInfo": "Podatki o sobi",
+        "roomLink": "Povezava sobe",
+        "roomName": "Ime sobe",
+        "spaceInfo": "Podatki o prostoru",
+        "speakersCorner": "Uporabniki v konferenčni sobi",
+        "title": "Naslov",
+        "topic": "Tema",
+        "virtualRoomInfo": "Podatki o virtualni sobi",
+        "virtualRoomLink": "Povezava virtualne sobe",
+        "virtualRoomName": "Ime virtualne sobe",
+        "roomLinkDescription": "Kopirajte to povezavo in jo delite z drugimi, da omogočite dostop do sobe.",
+        "virtualRoomLinkDescription": "Kopirajte to povezavo in jo delite z drugimi, da omogočite dostop do virtualne sobe.",
+        "fileUploadDescription": "Opis datoteke",
+        "nameRoom": "Soba za {{conversationTitle}}"
+    },
+    "conversations": {
+        "activeMeetingRooms": "Aktivne konferenčne sobe",
+        "activeRooms": "Aktivne sobe",
+        "chats": "Klepeti",
+        "conversations": "Pogovori",
+        "filterChatList": "Filtriraj seznam klepetov",
+        "instantMeetings": "Takojšnja srečanja",
+        "mockDisplayDescription": "Izberite pogovor za začetek klepeta",
+        "mockDisplayTitle": "Ostanimo v stiku!",
+        "noActiveInstantMeetings": "Trenutno ni aktivnih takojšnjih srečanj. Ustvarite novo srečanje ali preklopite zavihek.",
+        "noActiveMeetings": "Trenutno ni aktivnih sob",
+        "noActiveRooms": "Trenutno ni aktivnih sob",
+        "noActiveVirtualRooms": "Trenutno ni aktivnih virtualnih sob",
+        "noFilteredChats": "Ni klepetov, ki ustrezajo filtru.",
+        "noFilteredInstantMeetings": "Ni takojšnjih srečanj, ki ustrezajo filtru.",
+        "noFilteredRooms": "Ni sob ali načrtovanih srečanj, ki ustrezajo filtru",
+        "noFilteredSpaces": "Ni prostorov, ki ustrezajo filtru.",
+        "noFilteredVirtualRooms": "Ni virtualnih sob ali načrtovanih srečanj, ki ustrezajo filtru",
+        "personalRoom": "Osebna soba",
+        "personalVirtualRoom": "Osebna virtualna soba",
+        "rooms": "Sobe",
+        "scheduledMeetings": "Načrtovana srečanja",
+        "spaceGeneralChannel": "Splošno",
+        "spaces": "Prostori",
+        "virtualRooms": "Virtualne sobe",
+        "yourRoom": "Tvoja soba",
+        "noActiveSpaces": "Trenutno ni aktivnih prostorov. Ustvarite novega ali preklopite zavihek.",
+        "noFilteredMeetings": "Ni sob ali načrtovanih srečanj, ki ustrezajo filtru",
+        "activeVirtualRooms": "Aktivne virtualne sobe",
+        "noActiveChats": "Trenutno ni aktivnih klepetov. Ustvarite novega ali preklopite zavihek.",
+        "meetingRooms": "Konferenčne sobe",
+        "waitingRoom": "Čakalnica"
+    },
+    "creation": {
+        "attendeeAdded": "Udeleženec je bil dodan na seznam",
+        "channel": {
+            "titleInputRequirements": "Dovoljeno je 140 znakov, naslov mora biti edinstven v gostujočem prostoru",
+            "topicDescription": "Ker so kanali klepeti, usmerjeni v temo, je priporočljivo izbrati temo, ki najbolje opisuje predmet.",
+            "topicInputExplanation": "Opisuje predmet kanala",
+            "setImageAndTitleDescription": "Nastavite sliko, da boste lažje prepoznali kanal v gostujočem prostoru. Slika kanala se lahko nastavi ali spremeni na informativnem panelu kanala.",
+            "mainDescription": "Kanali so klepeti z dobro opredeljeno temo, ki so vključeni v prostor. Udeleženci prostora se lahko pridružijo kanalu, da aktivno razpravljajo o njegovi temi. Udeleženci lahko zapustijo kanal, ne da bi zapustili prostor."
+        },
+        "chat": {
+            "addParticipant": "Izberite udeleženca, s katerim želite začeti klepet",
+            "chatFilterDescription": "Klepet lahko ustvarite tako, da kliknete na udeleženca, s katerim želite klepetati",
+            "description": "Klepeti so pogovori ena na ena, ki vam pomagajo ostati v stiku s svojimi stiki."
+        },
+        "emailReplicated": "Vnešen e-poštni naslov je že bil dodan",
+        "group": {
+            "groupWithoutNameAddParticipant": "Dodajte udeležence v svojo skupino",
+            "inputTopicDescriptionLabel": "Opisuje temo skupine",
+            "setImageAndTopicDescription": "Nastavite sliko, ki bo pomagala uporabnikom, da prepoznajo skupino med drugimi v seznamu.",
+            "addParticipantsDescription": "Povabite udeležence tako, da vpišete njihova imena ali e-poštne naslove. Potrebno je povabiti vsaj dva druga udeleženca, sicer lahko ustvarite klepet.",
+            "mainDescription": "Skupine morajo vključevati več kot dva udeleženca. Poimenujte skupino, kot želite, da bo opisovala njeno temo"
+        },
+        "instantMeeting": {
+            "addAttendees": "Dodajte udeležence v vaše takojšnje srečanje",
+            "addAttendeesDescription": "Povabite udeležence tako, da vpišete njihova imena ali e-poštne naslove.",
+            "addAttendeesInputExplanation": "Lahko povabite tudi zunanje uporabnike tako, da vpišete njihov e-poštni naslov.",
+            "attendee": {
+                "feedback": {
+                    "neutral": "Izberite enega ali več udeležencev",
+                    "negative": "Vnešen e-poštni naslov ni veljaven, prosimo vnesite veljaven naslov"
+                }
+            },
+            "description": "Takojšnja srečanja so videoklici, namenjeni hitremu in trenutnemu usklajevanju, brez sledi klepeta. Ko je klic končan, ne bo več obstajal. Taki klici so na voljo samo uporabnikom Team Pro, vključujejo pa lahko tudi zunanje uporabnike.",
+            "titleDescription": "Dajte takojšnjemu srečanju prepoznavni naslov, tako da bodo vaši udeleženci vedeli, kaj je namen tega klica."
+        },
+        "limitOfParticipantReached": "Dosegli ste omejitev udeležencev, ki jo je določil administrator",
+        "nameMax140Characters": "Maksimalno 140 znakov",
+        "nameNeeds2Letters": "Ime potrebuje vsaj dve črki",
+        "nameRequired": "Ime je obvezno",
+        "participants": {
+            "feedback": {
+                "neutral": "Izberite dva ali več udeležencev"
+            }
+        },
+        "requiresOneMoreParticipant": "Zahteva vsaj enega udeleženca več",
+        "requiresTwoOthers": "Zahteva vsaj 2 druga",
+        "selectOneOrMoreUsers": "Izberite enega ali več uporabnikov",
+        "space": {
+            "spaceWithoutNameAddParticipant": "Dodajte udeležence v svoj prostor",
+            "titleDescription": "Naslov identificira prostor, zato naj opisuje temo.",
+            "topicDescription": "Ker so prostori klepeti, usmerjeni v temo, je priporočljivo izbrati temo, ki bolje opisuje predmet.",
+            "topicInputExplanation": "Opisuje temo prostora",
+            "addMembersDescription": "Povabite ljudi, tako da vpišete njihova imena ali e-poštne naslove. Potrebno je povabiti vsaj dva druga uporabnika, sicer lahko ustvarite klepet.",
+            "mainDescription": "Prostori so splošna komunikacijska okolja, ki vključujejo specifične klepete, imenovane kanali, vsak s svojo temo. Za ustvarjanje prostora morate povabiti vsaj dva udeleženca. Kanali se lahko dodajo neposredno iz informacijskega panela prostora."
+        },
+        "startTypingToPick": "Začnite tipkati za izbiro naslova",
+        "titleInputRequirements": "Dovoljeno je 140 znakov, naslov mora biti edinstven",
+        "topicMax255Characters": "Maksimalno 255 znakov",
+        "topicNeeds2Letters": "Tema je neobvezna. Min. 2 znaka",
+        "topicOptional": "Neobvezno. Opisuje predmet",
+        "typeToFilter": "Tipkajte za filtriranje seznama",
+        "youCanInviteOther": "Lahko povabite še {{limit}} drugih udeležencev",
+        "typeWithNameAddParticipant": "Dodajte udeležence v",
+        "selectMoreParticipantsForInstantMeetings": "Izberite udeleženca s seznama ali vpišite naslov za dodajanje zunanjega uporabnika",
+        "nameRequired-max140Characters-avoidReusingNames": "Obvezno. Maksimalno 140 znakov, izogibajte se ponovni uporabi imen."
+    },
+    "enterTheRoom": "Vstopi v sobo",
+    "errorPage": {
+        "description": "Preverite povezavo, morda je napačna",
+        "errorCode": "koda napake 404",
+        "title": "Oprostite, te sobe nismo mogli najti"
+    },
+    "external": {
+        "appStoreLabel": "App Trgovina",
+        "doYouHaveTheApp": "Ali že imate aplikacijo Chats?",
+        "downloadAppLabel": "Prenesite aplikacijo za pridružitev srečanju",
+        "enter": "Pridružite se!",
+        "nobodyInTheRoom": "Zdi se, da v tej sobi trenutno ni nikogar",
+        "nobodyInTheVirtualRoom": "Zdi se, da v tej virtualni sobi trenutno ni nikogar",
+        "orLabel": "ali",
+        "playStoreLabel": "Google Play",
+        "unsupported": {
+            "device": "Nepodprta naprava",
+            "browser": "Nepodprt brskalnik"
+        },
+        "virtualRoomIsEmpty": "Ta virtualna soba je prazna",
+        "waitingRoom": {
+            "userLeftLookForwardToSee": "Veselimo se ponovnega snidenja z vami",
+            "userLeftReturnToWaitingRoom": "Kadarkoli se lahko vrnete v čakalnico prek povezave sobe",
+            "userLeftWaitingRoom": "Zapustili ste čakalnico",
+            "moderatorRefusedAccessToRoom": "Moderator je zavrnil dostop do sobe",
+            "accessDenied": "Dostop zavrnjen"
+        },
+        "youAreEnteringMeeting": "Vstopate v sobo",
+        "youAreEnteringVirtualRoom": "Vstopate v virtualno sobo",
+        "login": {
+            "externalLoginDescription": "Če že pripadate tej domeni, boste preusmerjeni v svoje običajno delovno okolje. Če ste zunanji uporabnik, boste preusmerjeni na posebno vmesnik."
+        },
+        "doYouHaveTheAppChats": "Ali že imate aplikacijo Carbonio Chats?",
+        "doYouHaveTheAppTeam": "Ali že imate aplikacijo Zextras Chats?",
+        "roomIsEmpty": "Ta soba je prazna"
+    },
+    "feedback": {
+        "appVersionCopied": "Različica aplikacije je bila kopirana",
+        "historyClearedSuccessfully": "Zgodovina je bila uspešno izbrisana!",
+        "linkCopied": "Povezava je bila kopirana",
+        "notificationsMutedForThisChat": "Obvestila so utišana za ta klepet",
+        "offline": "Zdi se, da je prišlo do težave s povezavo na strežnik",
+        "online": "Povezava ponovno vzpostavljena!",
+        "resetPersonalVirtualRoomLinkSuccess": "Povezava osebne virtualne sobe je bila ponastavljena",
+        "retryConnection": "Poskusi ponovno povezavo",
+        "roomLinkCopied": "Povezava sobe je bila kopirana",
+        "saveAttachmentSuccessfull": "Priloga je bila shranjena v izbrano mapo",
+        "tryAReconnectionIn": "Poskusite ponovno povezavo čez {{seconds}}",
+        "uploadConversationPicturesFailed": "Prenos slike pogovora ni uspel",
+        "virtualRoomLinkCopied": "Povezava virtualne sobe je bila kopirana",
+        "resetPersonalRoomLinkSuccess": "Povezava osebne sobe je bila ponastavljena",
+        "saveAttachmentError": "Prišlo je do težave pri shranjevanju, poskusite znova",
+        "connecting": "Povezovanje…",
+        "notificationsActivatedForThisChat": "Obvestila so omogočena za ta klepet"
+    },
+    "general": {
+        "goToTeam": "Pojdi v Team",
+        "teamProductName": "Team",
+        "browserNotSupported": "Vaša različica brskalnika ni podprta. Priporočamo posodobitev, da boste lahko uporabljali vse funkcionalnosti!"
+    },
+    "label": {
+        "app_name": "Chats"
+    },
+    "meeting": {
+        "attendeesComing": "Udeleženci prihajajo",
+        "blurMyBackground": "Zabriši ozadje",
+        "defaultViewModeDedicatedLabel": "\"Namenski način\" bo odprl srečanje v ločenem zavihku brskalnika za najboljšo izkušnjo.",
+        "defaultViewModeDedicatedModeLabelVRoom": "Namenski način",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "Namenski način",
+        "defaultViewModeDefaultLabel": "Z izbiro \"Privzeti način\" se bo srečanje začelo v trenutnem okolju.",
+        "defaultViewModeDefaultModeLabel": "Privzeti način",
+        "defaultViewModeSaveLabel": "Shrani možnost",
+        "defaultViewModeSecondaryDescriptionLabel": "a možnost bo shranjena v vaših nastavitvah in jo lahko kadar koli spremenite.",
+        "defaultViewModeTitleModal": "Možnosti okolja za srečanja",
+        "defaultViewModeTitleModalVirtualRoom": "Možnosti okolja za virtualne sobe",
+        "errorMeetingRecording": "Snemanja ni mogoče začeti, obrnite se na skrbnika sistema.",
+        "genericErrorMeeting": "Prišlo je do težave s srečanjem, obrnite se na skrbnika sistema.",
+        "interactions": {
+            "audioDisabled": "Zvok onemogočen",
+            "audioEnabled": "Zvok omogočen",
+            "cameraDisabled": "Kamera onemogočena",
+            "cameraEnabled": "Kamera omogočena",
+            "cinemaView": "Kino pogled",
+            "disableAudio": "Onemogoči zvok",
+            "disableFullScreen": "Izhod iz celozaslonskega načina",
+            "disableScreensharing": "Onemogoči skupno rabo zaslona",
+            "disableVideo": "Onemogoči video",
+            "enableAudio": "Omogoči zvok",
+            "enableFullScreen": "Celozaslonski način",
+            "enableVideo": "Omogoči video",
+            "gridView": "Mrežni pogled",
+            "hangOff": "Prekini",
+            "hideChat": "Skrij klepet",
+            "hideParticipants": "Skrij udeležence",
+            "muteUser": "Utišaj",
+            "muteUserForAllTitle": "Utišaj za vse",
+            "mutedByModerators": "Moderator vas je utišal, vključite se, če želite govoriti",
+            "mutedByOthers": "Bili ste utišani",
+            "pinVideo": "Pripni video",
+            "playMic": "Začni test mikrofona",
+            "playMyVoice": "Predvajaj moj glas",
+            "shortCutLabel": "(C)",
+            "showParticipants": "Prikaži udeležence",
+            "status": {
+                "cameraOff": "Vaša kamera je izklopljena",
+                "cameraMicOff": "Vaša kamera in mikrofon sta izklopljena"
+            },
+            "stopMic": "Ustavi test mikrofona",
+            "stopMyVoice": "Ustavi moj glas",
+            "unpinVideo": "Odpni video",
+            "closeCall": "Končaj klic",
+            "micTesting": "Slišali boste svoj glas prek privzete izhodne naprave, kar omogoča testiranje vhodne in izhodne naprave",
+            "muteUserForAllDescription": "Če utišate tega uporabnika, ga nihče več ne bo slišal. Le utišani uporabnik se lahko sam znova vključi. Nadaljujete?",
+            "enableScreenSharing": "Omogoči skupno rabo zaslona",
+            "showChat": "Prikaži klepet"
+        },
+        "noEffect": "Brez učinka",
+        "recordedByMe": "Snemanje ste začeli vi",
+        "recording": "Snemanje",
+        "resetMeetingUrlModalDescription": "Ali ste prepričani, da želite ponastaviti povezavo za načrtovano srečanje \"{{conversationName}}\"?",
+        "setVirtualBackground": "Nastavi virtualno ozadje",
+        "startModal": {
+            "descriptionMyPersonalRoom": "Kako želite vstopiti v svojo osebno sobo?",
+            "descriptionMyPersonalVirtualRoom": "Kako želite vstopiti v svojo osebno virtualno sobo?",
+            "descriptionPersonalRoom": "Kako želite vstopiti v osebno sobo uporabnika {{meetingTitle}}?",
+            "descriptionVirtualRoom": "Kako želite vstopiti v {{meetingTitle}}?",
+            "enter": "Vstopi",
+            "noVideoAndAudio": "Kamera izklopljena, mikrofon vklopljen",
+            "noVideoAndNoAudio": "Kamera izklopljena, mikrofon izklopljen",
+            "videoAndAudio": "Kamera in mikrofon vklopljena",
+            "videoAndNoAudio": "Kamera vklopljena, mikrofon izklopljen",
+            "description": "Kako želite vstopiti v srečanje?",
+            "descriptionPersonalVirtualRoom": "Kako želite vstopiti v osebno virtualno sobo uporabnika {{meetingTitle}}?"
+        },
+        "wereToFindRec": "Posnetek bo shranjen v prostoru Datoteke moderatorja, ki ga je ustavil.",
+        "defaultViewModeDedicatedLabelVirtualRoom": "\"Namenski način\" bo odprl virtualno sobo v ločenem zavihku brskalnika za najboljšo izkušnjo.",
+        "defaultViewModeDedicatedModeLabel": "Namenski način",
+        "errorMeetingSavingRecording": "Snemanja ni mogoče ustaviti, poskusite znova",
+        "defaultViewModeDefaultLabelVirtualRoom": "Z izbiro \"Privzeti način\" se bo virtualna soba začela v trenutnem okolju.",
+        "recordedByOther": "{{username}} je začel snemanje",
+        "successSaveMeetingRecording": "{{registrationName}} bo na voljo v /{{folderName}} takoj, ko bo pripravljen",
+        "wereToFindRecording": "Posnetek bo shranjen v domači mapi video strežnika. Za več podrobnosti se obrnite na skrbnika sistema.",
+        "thisMeetingIsBeingRecorded": "To srečanje se snema"
+    },
+    "message": {
+        "deletedMessage": "Sporočilo izbrisano",
+        "edited": "urejeno",
+        "forwarded": "posredovano",
+        "now": "Zdaj",
+        "readBy": "Prebrano od",
+        "service": {
+            "conversationCreated": "Klepet ustvarjen",
+            "meeting": {
+                "ended": "Srečanje zaključeno",
+                "endedAtTime": "Srečanje zaključeno ob",
+                "startedAtTime": "Srečanje začeto ob"
+            },
+            "member": {
+                "changed": {
+                    "name": {
+                        "channel": "{{member_name}} je spremenil ime kanala v {{name}}",
+                        "space": "{{member_name}} je spremenil ime prostora v {{name}}"
+                    },
+                    "picture": {
+                        "channel": "{{member_name}} je spremenil sliko kanala",
+                        "group": "{{member_name}} je spremenil sliko skupine",
+                        "space": "{{member_name}} je spremenil sliko prostora"
+                    },
+                    "topic": {
+                        "channel": "{{member_name}} je spremenil temo kanala v {{topic}}",
+                        "group": "{{member_name}} je spremenil temo skupine v {{topic}}",
+                        "space": "{{member_name}} je spremenil temo prostora v {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "{{member_name}} je ustvaril kanal",
+                    "group": "{{member_name}} je ustvaril skupino",
+                    "single": "{{member_name}} je ustvaril klepet",
+                    "space": "{{member_name}} je ustvaril prostor"
+                },
+                "deleted": {
+                    "channel": "{{member_name}} je izbrisal kanal",
+                    "instantMeeting": "{{member_name}} je izbrisal takojšnje srečanje",
+                    "space": "{{member_name}} je izbrisal prostor"
+                },
+                "invited": "{{member_name}} je bil povabljen s strani {{invited_by}}",
+                "join": {
+                    "channel": "{{member_name}} se je pridružil kanalu",
+                    "conversation": "{{member_name}} se je pridružil klepetu"
+                },
+                "kicked": {
+                    "chat": "{{member_name}} je bil odstranjen iz klepeta s strani {{kicked_by}}",
+                    "group": "{{member_name}} je bil odstranjen iz skupine s strani {{kicked_by}}",
+                    "space": "{{member_name}} je bil odstranjen iz prostora s strani {{kicked_by}}",
+                    "channel": "{{member_name}} je bil odstranjen iz kanala s strani {{kicked_by}}"
+                },
+                "left": {
+                    "channel": "{{member_name}} je zapustil kanal",
+                    "chat": "{{member_name}} je zapustil klepet",
+                    "space": "{{member_name}} je zapustil prostor",
+                    "group": "{{member_name}} je zapustil skupino"
+                },
+                "you": {
+                    "invited": "Povabili ste {{member_name}}",
+                    "kicked": {
+                        "channel": "Odstranili ste {{member_name}} iz kanala",
+                        "group": "Odstranili ste {{member_name}} iz skupine",
+                        "space": "Odstranili ste {{member_name}} iz prostora"
+                    }
+                }
+            },
+            "newMeeting": "Dohodni klic od:",
+            "notificationsActivatedForThisChat": "Obvestila omogočena za ta klepet",
+            "notificationsMutedForThisChat": "Obvestila utišana za ta klepet",
+            "you": {
+                "changed": {
+                    "name": {
+                        "channel": "Spremenili ste ime kanala v {{name}}",
+                        "space": "Spremenili ste ime prostora v {{name}}"
+                    },
+                    "picture": {
+                        "channel": "Spremenili ste sliko kanala",
+                        "group": "Spremenili ste sliko skupine",
+                        "space": "Spremenili ste sliko prostora"
+                    },
+                    "topic": {
+                        "channel": "Spremenili ste temo kanala v {{topic}}",
+                        "group": "Spremenili ste temo skupine v {{topic}}",
+                        "space": "Spremenili ste temo prostora v {{topic}}"
+                    }
+                },
+                "created": {
+                    "channel": "Ustvarili ste kanal",
+                    "group": "Ustvarili ste skupino",
+                    "single": "Ustvarili ste klepet",
+                    "space": "Ustvarili ste prostor"
+                },
+                "deleted": {
+                    "channel": "Izbrisali ste kanal",
+                    "instantMeeting": "Izbrisali ste takojšnje srečanje",
+                    "space": "Izbrisali ste prostor"
+                },
+                "invited": "Povabil vas je {{invited_by}}",
+                "join": {
+                    "channel": "Pridružili ste se kanalu",
+                    "group": "Pridružili ste se skupini",
+                    "space": "Pridružili ste se prostoru",
+                    "userRoom": "Pridružili ste se sobi",
+                    "instantMeeting": "Pridružili ste se takojšnjemu srečanju"
+                },
+                "kicked": {
+                    "group": "Odstranil vas je {{kicked_by}} iz skupine",
+                    "space": "Odstranil vas je {{kicked_by}} iz prostora",
+                    "channel": "Odstranil vas je {{kicked_by}} iz kanala"
+                },
+                "left": {
+                    "channel": "Zapustili ste kanal",
+                    "group": "Zapustili ste skupino",
+                    "space": "Zapustili ste prostor"
+                }
+            }
+        },
+        "yesterday": "Včeraj"
+    },
+    "modal": {
+        "clearHistoryDescription": "Ta pogovor je zdaj prazen in je bil premaknjen na dno seznama, da bodo aktivni pogovori bolj vidni.",
+        "confirm": {
+            "areYouSure": "Ali ste prepričani?",
+            "deleteRoom": "Ali ste prepričani, da želite izbrisati sobo?",
+            "deleteSpace": "Ali ste prepričani, da želite izbrisati ta prostor?",
+            "leaveAndDeleteConversation": "Ali ste prepričani, da želite zapustiti in izbrisati {{conversationName}}?",
+            "leaveChannel": "Ali ste prepričani, da želite zapustiti kanal?",
+            "leaveGroup": "Ali ste prepričani, da želite zapustiti skupino?",
+            "leaveSpace": "Ali ste prepričani, da želite zapustiti prostor?",
+            "deleteChannel": "Ali ste prepričani, da želite izbrisati ta kanal?",
+            "removeMember": "Ali ste prepričani, da želite odstraniti tega člana?",
+            "deleteVirtualRoom": "Ali ste prepričani, da želite izbrisati to virtualno sobo?",
+            "clearHistory": "Trajno boste izbrisali zgodovino klepeta. Zgodovina drugih udeležencev ne bo izbrisana. To dejanje je nepovratno."
+        },
+        "deleteMessageDescription": "Ko izbrišete sporočilo, ne bo več vidno za vas in ostale prejemnike",
+        "forwardModal": {
+            "forwardedMessageFrom": "Posredovano sporočilo od",
+            "selectOneOrMoreConversations": "Izberite enega ali več pogovorov",
+            "typeToFilterTheList": "Tipkajte za filtriranje seznama",
+            "spaceAndChannels": "Prostori in kanali"
+        },
+        "instantMeeting": {
+            "closedInstantMeeting": "Takojšnje srečanje zaprto",
+            "continue": "Nadaljuj s starim takojšnjim srečanjem",
+            "create": "Ustvari novo takojšnje srečanje",
+            "instantMeetingAlreadyRunningText": "Z ustvarjanjem novega se bo staro srečanje prekinilo in udeleženci bodo izgubili povezavo. Želite nadaljevati?",
+            "instantMeetingAlreadyRunningTitle": "Takojšnje srečanje že poteka",
+            "endCallByOwner": "Lastnik srečanja je zaključil klic. Upamo, da ste uživali v srečanju"
+        },
+        "moderatorCannotLeaveGroupTitle": "Počakajte, potreben je nov moderator",
+        "moderatorMeetingDescription": "Vi boste moderirali to sobo. Lahko dodate dodatne moderatorje, ki bodo imeli enake pravice kot vi.",
+        "moderatorRoomDescription": "Vi boste moderirali to sobo. Lahko dodate dodatne moderatorje, ki bodo imeli enake pravice kot vi.",
+        "news": "Novosti",
+        "notShowAgain": "Ne prikaži več",
+        "planRoomDescription": "Dajte sobi prepoznavno ime, da bodo udeleženci vedeli, o čem bo govora.",
+        "selectFolder": "Izberite mapo",
+        "showPreviousConversationHistory": "Prikaži zgodovino prejšnjih pogovorov",
+        "stopMeetingRec": {
+            "locationWhereToSaveRecording": "Posnetek bo shranjen v \"/{{folderName}}\".",
+            "stopRecording": "Snemanje bo ustavljeno. Novo snemanje lahko začnete kadar koli med srečanjem.",
+            "recordingName": "Ime posnetka",
+            "stopRecordingDescription": "Snemanje bo ustavljeno. Novo snemanje lahko začnete kadar koli.",
+            "stopMeetingTitle": "Ustavi snemanje srečanja",
+            "stopRecordingTitle": "Ustavi snemanje"
+        },
+        "teamNews": "Novice ekipe",
+        "addModeratorDescription": "Izberite enega ali več uporabnikov, ki jih želite nastaviti za moderatorje te sobe",
+        "moderatorVirtualRoomDescription": "Vi boste moderirali to virtualno sobo. Lahko dodate dodatne moderatorje, ki bodo imeli enake pravice kot vi.",
+        "roomsFunctionalitiesChangelogDescription": "Nadgradili smo funkcionalnosti sob. Preberite uvod v sobe za več informacij!",
+        "moderatorCannotLeaveGroupDescription": "Ste edini moderator v {{conversationName}}. Preden zapustite skupino, nastavite drugega moderatorja.",
+        "planVirtualRoomDescription": "Dajte virtualni sobi prepoznavno ime, da bodo udeleženci vedeli, o čem bo govora.",
+        "planMeetingDescription": "Ime sobe udeležencem pove, o čem bo potekalo srečanje.",
+        "userJoinedWaitingRoom": "Zdi se, da je nekdo v čakalnici"
+    },
+    "enterTheVirtualRoom": "Vstopi v virtualno sobo"
 }
