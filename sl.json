@@ -66,7 +66,24 @@
         "replyToSomeone": "Odgovori uporabniku"
     },
     "notification": {
-        "dismiss": "Opusti"
+        "dismiss": "Opusti",
+        "answer": "Odgovori",
+        "incomingCall": "Dohodni klic od:",
+        "invitationToPersonalRoom": "Vabilo v osebno sobo od:",
+        "meeting": {
+            "ended": "Srečanje zaključeno"
+        },
+        "startMeetingRecording": "Snemanje srečanja {{conversationName}} se je začelo",
+        "waiting": {
+            "descriptionAcceptedLabel": "Moderator v {{conversationName}} vas je sprejel",
+            "descriptionWaitingLabel": "Čakate, da vas moderator v {{conversationName}} sprejme",
+            "userIsWaiting": "Nov uporabnik čaka na vstop",
+            "userJoinedWaitingRoom": "Zdi se, da je nekdo v čakalnici",
+            "notificationAcceptedByModerator": "Moderator vas je sprejel",
+            "notificationJoinTheVirtualRoom": "Pridružite se virtualni sobi in sodelujte v srečanju",
+            "notificationJoinTheRoom": "Pridružite se sobi in sodelujte v srečanju"
+        },
+        "invitationToPersonalVirtualRoom": "Vabilo v osebno virtualno sobo od:"
     },
     "appVersion": "Različica aplikacije",
     "attachments": {
@@ -526,5 +543,145 @@
         "planMeetingDescription": "Ime sobe udeležencem pove, o čem bo potekalo srečanje.",
         "userJoinedWaitingRoom": "Zdi se, da je nekdo v čakalnici"
     },
-    "enterTheVirtualRoom": "Vstopi v virtualno sobo"
+    "enterTheVirtualRoom": "Vstopi v virtualno sobo",
+    "noRoomSelected": "Ni izbrane virtualne sobe",
+    "people": {
+        "manyMembers": "{{membersCount}} članov",
+        "me": "Jaz",
+        "oneParticipant": "En udeleženec",
+        "otherParticipants": "Še {{numberParticipants}} udeležencev",
+        "participants": "Udeleženci",
+        "whoYoureLookinkFor": "Koga iščete?",
+        "you": "Vi"
+    },
+    "personalRoomLabel": "Osebna soba uporabnika {{userName}}",
+    "personalVirtualRoomLabel": "Osebna virtualna soba uporabnika {{userName}}",
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "Prenesi"
+            }
+        },
+        "close": {
+            "tooltip": "Zapri"
+        }
+    },
+    "room": "Virtualna soba",
+    "settings": {
+        "meeting": {
+            "descriptionRoom": "Nastavite želene možnosti zvoka in videa za vstop v sobo. Nastavitve lahko vedno spremenite pred vstopom.",
+            "enableCamera": "Omogoči kamero",
+            "enableEchoCancellation": "Preklic odmeva",
+            "enableMicrophone": "Omogoči mikrofon",
+            "enableNoiseSuppression": "Zmanjšanje šuma",
+            "meetings": "Srečanja",
+            "personalRoomResetButton": "Ponastavi povezavo osebne sobe",
+            "personalRoomResetDescription": "Z ponastavitvijo povezave do osebne sobe bodo vse obstoječe povezave prenehale delovati.",
+            "personalVirtualRoomOptionsTitleModal": "Ponastavitev povezave osebne virtualne sobe",
+            "personalVirtualRoomResetDescription": "Z ponastavitvijo povezave do osebne virtualne sobe bodo vse obstoječe povezave prenehale delovati.",
+            "virtualRooms": "Virtualne sobe",
+            "voiceProcessing": "Obdelava glasu",
+            "descriptionVirtualRoom": "Nastavite želene možnosti zvoka in videa za vstop v virtualno sobo. Nastavitve lahko vedno spremenite pred vstopom.",
+            "personalVirtualRoomResetButton": "Ponastavi povezavo osebne virtualne sobe",
+            "voiceProcessingDescription": "Slišali boste svoj glas prek privzete izhodne naprave, kar omogoča testiranje vhodne in izhodne naprave",
+            "description": "Nastavite želene možnosti zvoka in videa za vstop v srečanja. Nastavitve lahko vedno spremenite pred vstopom v katero koli srečanje.",
+            "personalRoomOptionsTitleModal": "Ponastavitev povezave osebne sobe"
+        },
+        "modal": {
+            "title": "Nastavitve klepetov",
+            "description": "u lahko nastavite vse namenske možnosti za klepete in si zagotovite popolnoma prilagojeno izkušnjo!"
+        },
+        "notification": {
+            "desktop": "Namizna obvestila",
+            "openMinichatDescription": "Prilagodite vedenje mini klepeta ob prejemu novih sporočil",
+            "title": {
+                "notifications": "Obvestila",
+                "openMinichat": "Odpri ob novem sporočilu",
+                "openMinichatForSingle": "Odpri ob novem zasebnem sporočilu",
+                "openMinichatForSpace": "Odpri ob novem sporočilu v prostoru",
+                "openMinichatForGroup": "Odpri ob sporočilu za novo skupino"
+            }
+        },
+        "notifications": {
+            "description": "Nastavite svoje želje za vsako vrsto obvestil v klepetih."
+        },
+        "profile": {
+            "errorGenericResponse": "Prišlo je do napake. Poskusite znova.",
+            "maximumDimension": "Največja velikost: 256 kb.",
+            "reset": "Ponastavi",
+            "restore": "Obnovi",
+            "title": "Profil",
+            "update": "Posodobi",
+            "statusOptionalDescription": "Neobvezno. Sporočite drugim, kaj trenutno mislite. Največ 256 znakov",
+            "chooseAProfilePic": "Izberite profilno sliko, slika bo samodejno centrirana."
+        },
+        "recordingMeeting": {
+            "descriptionWhereToSaveRegistration": "Nastavite ciljno mapo za shranjevanje posnetkov srečanj.",
+            "destinationFolder": "Ciljna mapa",
+            "recording": "Posnetki"
+        },
+        "resetPersonalRoomLinkSuccess": "Povezava osebne sobe je bila ponastavljena",
+        "title": "Nastavitve"
+    },
+    "status": {
+        "areWriting": "pišejo…",
+        "externalGuest": "Zunanji gost",
+        "internalGuest": "Notranji gost",
+        "isWriting": "piše…",
+        "lastSeen": "Nazadnje viden {{lastSeen}}",
+        "offline": "Nepovezan",
+        "online": "Povezan",
+        "userStatus": "Status",
+        "waitingToEnter": "Čakanje za vstop"
+    },
+    "thanksForParticipating": "Hvala za sodelovanje",
+    "tooltip": {
+        "acceptQueuedMember": "Dovoli uporabniku vstop",
+        "addFile": "Dodaj datoteko",
+        "cancelFilter": "Prekliči filter",
+        "chooseFile": "Izberi datoteko",
+        "close": "Zapri",
+        "collapseChannel": "Strni kanale",
+        "copyRoomLinkTooltip": "Kopiraj povezavo do sobe",
+        "copyUserRoom": "Kopiraj povezavo do svoje osebne sobe",
+        "copyUserRoomTooltip": "Kopiraj povezavo in jo deli za dostop do tvoje osebne sobe",
+        "copyUserVirtualRoomTooltip": "Kopiraj povezavo in jo deli za dostop do tvoje osebne virtualne sobe",
+        "copyVirtualRoomLinkTooltip": "Kopiraj povezavo do virtualne sobe",
+        "disabledCreateButton": "Preverite vnose, da ne vsebujejo napak",
+        "editInfo": "Uredi informacije",
+        "enterYourRoom": "Vstopi v svojo osebno sobo",
+        "enterYourRoomTooltip": "Vstopi v svojo osebno sobo",
+        "goToPrivateChat": "Pojdi v zasebni klepet",
+        "inviteToPersonalRoom": "Povabi v svojo osebno sobo",
+        "messageComposer": "Urejevalnik sporočil",
+        "openMinichat": "Odpri mini klepet",
+        "promoteModerator": "Dodeli vlogo moderatorja",
+        "rejectQueuedMember": "Zavrni uporabnika",
+        "removeFile": "Odstrani datoteko",
+        "removeMember": "Odstrani člana",
+        "searchForParticipant": "Išči udeleženca",
+        "selectEmoji": "Izberi čustveni simbol",
+        "sendFile": "Pošlji datoteko",
+        "sendMessage": "Pošlji sporočilo",
+        "showChannels": "Prikaži kanale",
+        "switchToConversation": "Preklopi na pogovor",
+        "switchToInfoPanel": "Preklopi na informacijsko ploščo",
+        "chooseRoom": "Izberi virtualno sobo",
+        "errorUploadingAvatarPicture": "Napaka pri nalaganju nove slike. Poskusite znova",
+        "copyRoomLink": "Kopiraj povezavo do sobe",
+        "editDescription": "Uredi opis",
+        "enterYourVirtualRoomTooltip": "Vstopi v svojo osebno virtualno sobo",
+        "errorUpdatingAvatarStatus": "Napaka pri posodabljanju statusa. Poskusite znova",
+        "downgradeModerator": "Odstrani moderatorja",
+        "errorRemovingAvatarPicture": "Prišlo je do napake pri odstranjevanju slike. Poskusite znova",
+        "planMeeting": "Načrtuj srečanje",
+        "closeSearch": "Zapri iskanje",
+        "enterMeetingRoom": "Vstopi v konferenčno sobo"
+    },
+    "tryLater": "Poskusi kasneje",
+    "typeYourEmail": "Vnesite svoj e-poštni naslov",
+    "virtualRoom": "Virtualna soba",
+    "organizeYourVMeeting": "Organizirajte svoja srečanja ali se pridružite virtualnim sobam svojih sodelavcev",
+    "organizeYourMeeting": "Organizirajte svoja srečanja ali se pridružite sobam svojih sodelavcev",
+    "organizeYourVirtualMeeting": "Organizirajte svoja srečanja ali se pridružite virtualnim sobam svojih sodelavcev"
 }
