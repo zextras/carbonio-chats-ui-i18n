@@ -606,7 +606,7 @@
             "description": "Nastavite svoje želje za vsako vrsto obvestil v klepetih."
         },
         "profile": {
-            "errorGenericResponse": "Prišlo je do napake. Poskusite znova.",
+            "errorGenericResponse": "Prišlo je do napake. Poskusite znova",
             "maximumDimension": "Največja velikost: 256 kb.",
             "reset": "Ponastavi",
             "restore": "Obnovi",
