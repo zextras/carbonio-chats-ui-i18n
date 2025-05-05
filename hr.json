@@ -1,1 +1,37 @@
-{}
+{
+    "action": {
+        "activateNotifications": "Aktiviraj obavijesti",
+        "add": "Dodaj",
+        "addChannel": "Dodaj kanal",
+        "addMembers": "Dodaj sudionike",
+        "addModerator": "Dodaj moderatora",
+        "addModerators": "Dodaj moderatore",
+        "addNewMembers": "Dodaj nove sudionike",
+        "addNewMembersTo": "Dodaj nove sudionike u",
+        "addOtherModerators": "Dodaj druge moderatore",
+        "browse": "Pregledaj",
+        "clearHistory": "Očisti povijest",
+        "close": "Zatvori",
+        "collapse": "Sažmi",
+        "copy": "Kopiraj",
+        "copyAppVersion": "Kopiraj verziju aplikacije",
+        "copyLinkRoom": "Kopirajte vezu sobe",
+        "copyLinkVirtualRoom": "Kopirajte poveznicu virtualne sobe",
+        "copyUserRoomLink": "Kopiraj poveznicu",
+        "create": "Stvori",
+        "createChannel": "Kreiraj kanal povezan sa {{spaceName}}",
+        "createChat": "Novi razgovor",
+        "createGroup": "Nova grupa",
+        "createInstantMeeting": "Kreiraj instantni sastanak",
+        "createRoom": "Stvori sobu",
+        "createSpace": "Novi prostor",
+        "createVirtualRoom": "Stvoriti virtualnu sobu",
+        "delete": "Izbriši",
+        "deleteChannel": "Izbriši kanal",
+        "deleteRoom": "Izbriši sobu",
+        "deleteSpace": "Izbriši prostor",
+        "deleteVirtualRoom": "Izbriši virtualnu sobu",
+        "edit": "Uredi",
+        "editYourMessage": "Uredi svoju poruku"
+    }
+}
