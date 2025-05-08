@@ -147,7 +147,7 @@
         },
         "emailReplicated": "Wprowadzony adres e-mail został już wcześniej dodany",
         "group": {
-            "addParticipantsDescription": "Zaproś uczestników wpisując ich imiona lub adresy e-mail. Musisz zaprosić co najmniej dwóch innych uczestników. Jeśli to zbyt dużo - po prostu stwórz Czat z danym użytkownikiem.",
+            "addParticipantsDescription": "Zaproś uczestników wpisując ich imiona lub adresy e-mail. Musisz zaprosić co najmniej dwóch innych uczestników. Jeśli to zbyt dużo - po prostu stwórz czat z danym użytkownikiem.",
             "groupWithoutNameAddParticipant": "Dodaj uczestników do swojej grupy",
             "inputTopicDescriptionLabel": "Opisuje tematykę grupy",
             "mainDescription": "Grupy muszą zawierać co najmniej trzech uczestników. Nazwij grupę tak, aby jej nazwa odzwierciedlała jej tematykę",
