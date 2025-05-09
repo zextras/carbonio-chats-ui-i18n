@@ -87,7 +87,7 @@
             "addAttendeesInputExplanation": "Vous pouvez également inviter des utilisateurs externes en tapant simplement leur adresse électronique.",
             "attendee": {
                 "feedback": {
-                    "negative": "L’e-mail entré n’est pas valide, veuillez en insérer un correct",
+                    "negative": "L’email entré n’est pas valide, veuillez en insérer un correct",
                     "neutral": "Sélectionnez un ou plusieurs participants"
                 }
             },
@@ -112,7 +112,7 @@
             "topicDescription": "Les espaces étant des conversations axés sur le sujet discuté, il est recommandé de choisir un sujet qui décrit mieux l'objet de l'espace.",
             "topicInputExplanation": "Il décrit le sujet de l'Espace",
             "titleDescription": "Le titre identifie l'espace et doit donc décrire son thème.",
-            "addMembersDescription": "Invitez des personnes en tapant leur nom ou leur adresse e-mail. Vous devez inviter au moins deux autres personnes, sinon vous pouvez créer une conversation.",
+            "addMembersDescription": "Invitez des personnes en tapant leur nom ou leur adresse email. Vous devez inviter au moins deux autres personnes, sinon vous pouvez créer une conversation.",
             "mainDescription": "Les Espaces sont des environnements de communication génériques qui comprennent des conversations spécifiques appelées Canaux, chacune ayant son propre sujet. Pour créer un Espace, vous devez inviter au moins deux participants. Les Canaux peuvent être ajoutés directement à partir du panneau d'information de l'espace."
         },
         "startTypingToPick": "Commencez à taper pour choisir une adresse",
@@ -126,7 +126,7 @@
             "chatFilterDescription": "Vous pouvez créer une conversation en cliquant simplement sur le participant avec lequel vous voulez parler",
             "description": "Les conversations sont des discussions en tête-à-tête qui vous permettent de rester en contact avec vos interlocuteurs."
         },
-        "emailReplicated": "L'e-mail saisi a déjà été ajouté",
+        "emailReplicated": "L'email saisi a déjà été ajouté",
         "titleInputRequirements": "140 caractères autorisés, le titre doit être unique",
         "topicNeeds2Letters": "Le sujet est facultatif. Min. 2 caractères",
         "nameRequired-max140Characters-avoidReusingNames": "Requis. Max. 140 caractères, évitez de réutiliser les noms."
