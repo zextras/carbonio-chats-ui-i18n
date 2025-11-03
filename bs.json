@@ -242,7 +242,7 @@
         "tryAReconnectionIn": "Pokušajte ponovo uspostaviti vezu za {{seconds}}",
         "uploadConversationPicturesFailed": "Postavljanja slike razgovora nije uspjelo",
         "virtualRoomLinkCopied": "Kopiran link Virtualne sobe",
-        "saveAttachmentSuccessfull": "Dodatak spašen u odabranu mapu",
+        "saveAttachmentSuccessfull": "Dodatak spašen u odabrani direktorij",
         "notificationsActivatedForThisChat": "Aktivirane notifikacije za ovaj razgovor",
         "linkCopied": "Link kopiran",
         "appVersionCopied": "kopirana verzija aplikacije",
@@ -497,7 +497,7 @@
         "planMeetingDescription": "Naziv Sobe pomaže prisutnima da saznaju o čemu se u Sobi raspravlja.",
         "planVirtualRoomDescription": "Dodijelite Virtualnoj Sobi prepoznatljivo ime kako bi učesnici znali o kojoj tematici se radi.",
         "roomsFunctionalitiesChangelogDescription": "Napravili smo važne promjene u funkcionalnostima sastanka. Pročitajte informacije o Sobi kako biste saznali više!",
-        "selectFolder": "Odaberi mapu",
+        "selectFolder": "Odaberi direktorij",
         "showPreviousConversationHistory": "Prikaži prethodnu istoriju razgovora",
         "stopMeetingRec": {
             "locationWhereToSaveRecording": "Snimak će biti spremljen u \"/{{folderName}}\".",
@@ -610,7 +610,7 @@
         "recordingMeeting": {
             "destinationFolder": "Odredišna mapa",
             "recording": "Snimke",
-            "descriptionWhereToSaveRegistration": "Postavi odredišnu mapu za spremanje snimljenih sastanaka."
+            "descriptionWhereToSaveRegistration": "Postavi odredišni direktorij za spremanje snimljenih sastanaka."
         },
         "resetPersonalRoomLinkSuccess": "Link Lične Sobe je resetovan",
         "title": "Postavke"
