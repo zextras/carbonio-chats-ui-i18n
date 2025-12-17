@@ -565,7 +565,7 @@
     "status": {
         "areWriting": "piszą…",
         "externalGuest": "Gość spoza domeny",
-        "internalGuest": "Gość z mojej domeny",
+        "internalGuest": "Gość z mojej organizacji",
         "isWriting": "pisze…",
         "lastSeen": "Ostatnio widziano {{lastSeen}}",
         "offline": "Offline",
