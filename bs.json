@@ -61,7 +61,8 @@
         "replyToYourself": "Odgovori sebi",
         "resetLink": "Reset linka",
         "scrollToTheBottom": "Pomjeri se na kraj",
-        "waitingModeratorToJoin": "Sačekajte da vas moderator prihvati"
+        "waitingModeratorToJoin": "Sačekajte da vas moderator prihvati",
+        "forward": "Proslijedi"
     },
     "attachments": {
         "share": "Podijeli javni link",
