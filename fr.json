@@ -483,7 +483,7 @@
             "descriptionAcceptedLabel": "Vous avez été accepté par le modérateur de {{conversationName}}",
             "notificationAcceptedByModerator": "Vous avez été accepté par le modérateur",
             "userIsWaiting": "Un nouvel utilisateur attend pour entrer dans la salle",
-            "userJoinedWaitingRoom": "Il semblerai qu'il y ai quelqu'un dans la salle d'attente",
+            "userJoinedWaitingRoom": "Il semblerait qu'il y ait quelqu'un dans la salle d'attente",
             "notificationJoinTheVirtualRoom": "Rejoindre la Salle Virtuelle pour prendre part à la réunion"
         },
         "meeting": {
@@ -619,7 +619,7 @@
     "enterTheRoom": "Entrer dans la salle",
     "errorPage": {
         "title": "Désolé, la salle n'a pas été trouvée",
-        "description": "Vérifiez votre lien, il semblerai qu'il ne soit pas valide",
+        "description": "Vérifiez votre lien, il semblerait qu'il ne soit pas valide",
         "errorCode": "code d'erreur 404"
     },
     "external": {
@@ -640,7 +640,7 @@
             "userLeftWaitingRoom": "Vous avez quitté la salle d'attente"
         },
         "youAreEnteringMeeting": "Vous êtes sur le point de rejoindre la salle",
-        "nobodyInTheVirtualRoom": "Il semblerai qu'il n'y ait personne dans cette Salle Virtuelle",
+        "nobodyInTheVirtualRoom": "Il semblerait qu'il n'y ait personne dans cette Salle Virtuelle",
         "virtualRoomIsEmpty": "Cette Salle Virtuelle est vide",
         "youAreEnteringVirtualRoom": "Vous êtes sur le point d'entrer dans la Salle Virtuelle",
         "playStoreLabel": "Google Play",
