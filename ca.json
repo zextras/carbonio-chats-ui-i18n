@@ -50,7 +50,20 @@
         "scrollToTheBottom": "Desplaça't fins a la part inferior",
         "startMeeting": "Iniciar reunió",
         "stop": "Aturar",
-        "waitingModeratorToJoin": "Estàs esperant ser acceptat per un moderador"
+        "waitingModeratorToJoin": "Estàs esperant ser acceptat per un moderador",
+        "add": "Afegeix",
+        "clearHistory": "Esborra l’historial",
+        "close": "Tancar",
+        "collapse": "Redueix",
+        "copy": "Copia",
+        "create": "Creat",
+        "delete": "Suprimeix",
+        "edit": "Edita",
+        "expand": "Amplia",
+        "forward": "Reenvia",
+        "remove": "Elimina",
+        "reply": "Respon",
+        "start": "Inici"
     },
     "appVersion": "Versió de l'aplicació",
     "attachments": {
@@ -61,20 +74,32 @@
         "shareLink": "Compartir enllaç"
     },
     "button": {
-        "ok": "D'acord"
+        "ok": "D'acord",
+        "cancel": "Cancel·la",
+        "no": "No",
+        "save": "Desa",
+        "undo": "Desfés",
+        "yes": "Sí"
     },
     "conversation": {
         "channelInfo": "Informació del canal",
         "contactInfo": "Informació de contacte",
         "fileUploadDescription": "Descripció de l'arxiu",
-        "groupInfo": "Informació del grup"
+        "groupInfo": "Informació del grup",
+        "name": "Nom",
+        "newMessages": "Missatges nous",
+        "title": "Títol:"
     },
     "status": {
         "areWriting": "està escrivint…",
         "internalGuest": "Convidat intern",
         "isWriting": "està escrivint…",
         "lastSeen": "Darrera vegada {{lastSeen}}",
-        "waitingToEnter": "En espera d'entrar"
+        "waitingToEnter": "En espera d'entrar",
+        "externalGuest": "Convidats externs",
+        "offline": "Sense connexió",
+        "online": "Connectat",
+        "userStatus": "Estat"
     },
     "thanksForParticipating": "Gràcies per participar",
     "tooltip": {
@@ -95,9 +120,83 @@
         "selectEmoji": "Seleccionar emoticona",
         "showChannels": "Mostrar canals",
         "switchToConversation": "Canviar a conversa",
-        "switchToInfoPanel": "Canviar a panell d'informació"
+        "switchToInfoPanel": "Canviar a panell d'informació",
+        "close": "Tancar",
+        "sendFile": "Envia fitxer",
+        "sendMessage": "Envia missatge"
     },
     "tryLater": "Provar més tard",
     "typeYourEmail": "Escriviu el seu correu electrònic",
-    "virtualRoom": "Sala Virtual"
+    "virtualRoom": "Sala Virtual",
+    "conversations": {
+        "chats": "Xat",
+        "conversations": "Converses",
+        "rooms": "Sala",
+        "spaceGeneralChannel": "General"
+    },
+    "creation": {
+        "nameRequired": "Cal un nom de llista"
+    },
+    "feedback": {
+        "connecting": "S’està connectant"
+    },
+    "label": {
+        "app_name": "Xat"
+    },
+    "meeting": {
+        "interactions": {
+            "muteUser": "Silencia"
+        },
+        "startModal": {
+            "enter": "Retorn"
+        }
+    },
+    "message": {
+        "forwarded": "reenviat",
+        "now": "Ara",
+        "yesterday": "Ahir"
+    },
+    "modal": {
+        "confirm": {
+            "deleteVirtualRoom": "Esteu segur que voleu suprimir aquestes regles?",
+            "removeMember": "Segur que voleu eliminar aquest contacte?"
+        },
+        "forwardModal": {
+            "forwardedMessageFrom": "Missatge reenviat"
+        }
+    },
+    "notification": {
+        "dismiss": "Rebutja"
+    },
+    "people": {
+        "participants": "Estat dels participants"
+    },
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "Descarrega"
+            }
+        },
+        "close": {
+            "tooltip": "Tancar"
+        }
+    },
+    "settings": {
+        "meeting": {
+            "meetings": "Reunió"
+        },
+        "modal": {
+            "title": "Configuració del gràfic"
+        },
+        "notification": {
+            "title": {
+                "notifications": "Notificacions"
+            }
+        },
+        "profile": {
+            "reset": "Restableix",
+            "update": "Actualitzat:"
+        },
+        "title": "Configuració:"
+    }
 }
