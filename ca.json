@@ -88,7 +88,9 @@
         "groupInfo": "Informació del grup",
         "name": "Nom",
         "newMessages": "Missatges nous",
-        "title": "Títol:"
+        "title": "Títol:",
+        "virtualRoomInfo": "Sala Virtual",
+        "virtualRoomName": "Enllaç de la Sala Virtual"
     },
     "status": {
         "areWriting": "està escrivint…",
@@ -123,7 +125,8 @@
         "switchToInfoPanel": "Canviar a panell d'informació",
         "close": "Tancar",
         "sendFile": "Envia fitxer",
-        "sendMessage": "Envia missatge"
+        "sendMessage": "Envia missatge",
+        "enterMeetingRoom": "Sala de reunions"
     },
     "tryLater": "Provar més tard",
     "typeYourEmail": "Escriviu el seu correu electrònic",
@@ -132,13 +135,16 @@
         "chats": "Xat",
         "conversations": "Converses",
         "rooms": "Sala",
-        "spaceGeneralChannel": "General"
+        "spaceGeneralChannel": "General",
+        "meetingRooms": "Sala de reunions",
+        "virtualRooms": "Sala Virtual"
     },
     "creation": {
         "nameRequired": "Cal un nom de llista"
     },
     "feedback": {
-        "connecting": "S’està connectant"
+        "connecting": "S’està connectant",
+        "virtualRoomLinkCopied": "Enllaç de la Sala Virtual"
     },
     "label": {
         "app_name": "Xat"
@@ -154,7 +160,8 @@
     "message": {
         "forwarded": "reenviat",
         "now": "Ara",
-        "yesterday": "Ahir"
+        "yesterday": "Ahir",
+        "deletedMessage": "Suprimeix missatges"
     },
     "modal": {
         "confirm": {
@@ -163,7 +170,8 @@
         },
         "forwardModal": {
             "forwardedMessageFrom": "Missatge reenviat"
-        }
+        },
+        "news": "Nou"
     },
     "notification": {
         "dismiss": "Rebutja"
@@ -183,7 +191,8 @@
     },
     "settings": {
         "meeting": {
-            "meetings": "Reunió"
+            "meetings": "Reunió",
+            "virtualRooms": "Sala Virtual"
         },
         "modal": {
             "title": "Configuració del gràfic"
@@ -195,8 +204,14 @@
         },
         "profile": {
             "reset": "Restableix",
-            "update": "Actualitzat:"
+            "update": "Actualitzat:",
+            "errorGenericResponse": "Alguna cosa ha anat malament, torneu-ho a provar"
         },
         "title": "Configuració:"
+    },
+    "external": {
+        "unsupported": {
+            "browser": "Navegadors compatibles"
+        }
     }
 }
