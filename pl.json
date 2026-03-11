@@ -369,7 +369,7 @@
                     "invited": "Zaprosiłeś {{member_name}}"
                 }
             },
-            "newMeeting": "Nadchodząca rozmowa od:",
+            "newMeeting": "Rozmowa przychodząca od:",
             "notificationsActivatedForThisChat": "Powiadomienia zostały włączone dla tego czatu",
             "notificationsMutedForThisChat": "Powiadomienia zostały wyciszone dla tego czatu",
             "you": {
@@ -479,7 +479,7 @@
     },
     "notification": {
         "answer": "Odbierz",
-        "incomingCall": "Nadchodząca rozmowa od:",
+        "incomingCall": "Rozmowa przychodząca od:",
         "dismiss": "Zamknij",
         "invitationToPersonalRoom": "Zaproszenie do własnego pokoju od:",
         "waiting": {
