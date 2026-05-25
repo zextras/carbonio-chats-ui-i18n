@@ -90,7 +90,8 @@
         "newMessages": "Missatges nous",
         "title": "Títol:",
         "virtualRoomInfo": "Sala Virtual",
-        "virtualRoomName": "Enllaç de la Sala Virtual"
+        "virtualRoomName": "Enllaç de la Sala Virtual",
+        "info": "Informació"
     },
     "status": {
         "areWriting": "està escrivint…",
