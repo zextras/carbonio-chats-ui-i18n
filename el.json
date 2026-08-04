@@ -67,7 +67,7 @@
     },
     "appVersion": "Έκδοση εφαρμογής",
     "attachments": {
-        "addFromLocal": "Προσθήκη από τοπικό αρχείο",
+        "addFromLocal": "Προσθήκη από τοπικό",
         "attachLinkFiles": "Επισύναψη δημόσιου συνδέσμου από τα Αρχεία",
         "attachLinkFromFiles": "Επισύναψη συνδέσμου από τα Αρχεία",
         "share": "Κοινή χρήση δημόσιου συνδέσμου",
@@ -82,10 +82,10 @@
         "yes": "Ναι"
     },
     "conversation": {
-        "channelInfo": "Πληροφορίες καναλιού",
-        "contactInfo": "Στοιχεία επικοινωνίας",
-        "fileUploadDescription": "Περιγραφή αρχείου",
-        "groupInfo": "Πληροφορίες ομάδας",
+        "channelInfo": "Πληροφορίες Καναλιού",
+        "contactInfo": "Στοιχεία Επικοινωνίας",
+        "fileUploadDescription": "Περιγραφή Αρχείου",
+        "groupInfo": "Πληροφορίες Ομάδας",
         "info": "Πληροφορίες",
         "instantInfo": "Πληροφορίες άμεσης συνάντησης",
         "name": "Όνομα",
@@ -627,12 +627,12 @@
         "title": "Ρυθμίσεις"
     },
     "status": {
-        "areWriting": "Γράφω…",
+        "areWriting": "Γράφουν…",
         "externalGuest": "Εξωτερικός επισκέπτης",
         "internalGuest": "Εσωτερικός επισκέπτης",
         "isWriting": "Γράφει…",
-        "lastSeen": "Τελευταία εμφάνιση {{lastSeen}}",
-        "offline": "Εκτός σύνδεσης",
+        "lastSeen": "Τελευταία φορά που εμφανίστηκε {{lastSeen}}",
+        "offline": "Απενεργοποιημένος",
         "online": "Συνδεδεμένος",
         "userStatus": "Κατάσταση",
         "waitingToEnter": "Αναμονή για είσοδο"
