@@ -24,7 +24,7 @@
         "createChannel": "Δημιουργία καναλιού συνδεδεμένου με το {{spaceName}}",
         "createChat": "Δημιουργία Συζήτησης",
         "createGroup": "Δημιουργία Ομάδας",
-        "createInstantMeeting": "Δημιουργία άμεσης συνάντησης",
+        "createInstantMeeting": "Δημιουργία Άμεσης Συνάντησης",
         "createRoom": "Δημιουργία Δωματίου",
         "createSpace": "Δημιουργία Χώρου",
         "createVirtualRoom": "Δημιουργία Εικονικού Δωματίου",
@@ -41,7 +41,7 @@
         "joinChannelAction": "Σύνδεση στο Κανάλι",
         "joinRoom": "Συμμετοχή στο δωμάτιο",
         "joinVirtualRoom": "Συμμετοχή στο εικονικό δωμάτιο",
-        "leave": "Έξοδος",
+        "leave": "Αποχώρηση",
         "leaveAndDelete": "Έξοδος και διαγραφή",
         "leaveChannel": "Έξοδος από το κανάλι",
         "leaveGroup": "Έξοδος από την ομάδα",
@@ -55,7 +55,7 @@
         "removeMember": "Κατάργηση μέλους",
         "reply": "Απάντηση",
         "replyToSomeone": "Απάντηση σε",
-        "replyToYourself": "Απάντηση στον εαυτό σου",
+        "replyToYourself": "Απάντηση στον εαυτό σας",
         "resetLink": "Επαναφορά σύνδεσμου",
         "saveToFiles": "Αποθήκευση στα Αρχεία",
         "scrollToNewMessage": "Μετάβαση στο νέο μήνυμα",
@@ -63,12 +63,12 @@
         "start": "Έναρξη",
         "startMeeting": "Έναρξη Συνεδρίας",
         "stop": "Διακοπή",
-        "waitingModeratorToJoin": "Περιμένετε να γίνει αποδοχή από τον διαχειριστή"
+        "waitingModeratorToJoin": "Περιμένετε να γίνει αποδοχή από τον συντονιστή"
     },
     "appVersion": "Έκδοση εφαρμογής",
     "attachments": {
-        "addFromLocal": "Προσθήκη από τοπικό",
-        "attachLinkFiles": "Επισύναψη δημόσιου συνδέσμου από τα Αρχεία",
+        "addFromLocal": "Προσθήκη από τοπικό δίσκο",
+        "attachLinkFiles": "Επισύναψη δημόσιου συνδέσμου από Αρχεία",
         "attachLinkFromFiles": "Επισύναψη συνδέσμου από τα Αρχεία",
         "share": "Κοινή χρήση δημόσιου συνδέσμου",
         "shareLink": "Κοινή χρήση συνδέσμου"
@@ -221,11 +221,11 @@
         "login": {
             "externalLoginDescription": "Εάν ανήκετε ήδη σε αυτόν τον τομέα, θα ανακατευθυνθείτε στον συνήθη χώρο εργασίας σας. Εάν είστε εξωτερικός χρήστης, θα ανακατευθυνθείτε σε μια ειδική διεπαφή."
         },
-        "nobodyInTheRoom": "Φαίνεται ότι δεν υπάρχει κανείς σε αυτό το Δωμάτιο",
+        "nobodyInTheRoom": "Φαίνεται ότι κανείς δεν βρίσκεται σε αυτή την Αίθουσα",
         "nobodyInTheVirtualRoom": "Φαίνεται ότι δεν υπάρχει κανείς σε αυτό το Εικονικό Δωμάτιο",
         "orLabel": "ή",
         "playStoreLabel": "Google Play",
-        "roomIsEmpty": "Αυτό το δωμάτιο είναι άδειο",
+        "roomIsEmpty": "Αυτή η Αίθουσα είναι άδεια",
         "unsupported": {
             "browser": "Μη υποστηριζόμενος περιηγητής",
             "device": "Μη υποστηριζόμενη συσκευή"
@@ -246,8 +246,8 @@
         "connecting": "Σύνδεση…",
         "historyClearedSuccessfully": "Το ιστορικό διαγράφηκε με επιτυχία!",
         "linkCopied": "Ο σύνδεσμος αντιγράφηκε",
-        "notificationsActivatedForThisChat": "Ενεργοποιήθηκαν οι ειδοποιήσεις για αυτή τη συνομιλία",
-        "notificationsMutedForThisChat": "Απενεργοποιήθηκαν οι ειδοποιήσεις για αυτή τη συνομιλία",
+        "notificationsActivatedForThisChat": "Οι ειδοποιήσεις ενεργοποιήθηκαν για αυτή τη συνομιλία",
+        "notificationsMutedForThisChat": "Οι ειδοποιήσεις σιγάστηκαν για αυτή τη συνομιλία",
         "offline": "Φαίνεται να υπάρχει πρόβλημα σύνδεσης με τον διακομιστή",
         "online": "Επιστρέψατε στη σύνδεση!",
         "resetPersonalRoomLinkSuccess": "Ο σύνδεσμος του Προσωπικού Δωματίου επαναρυθμίστηκε",
@@ -289,8 +289,8 @@
         "interactions": {
             "audioDisabled": "Ο ήχος είναι απενεργοποιημένος",
             "audioEnabled": "Ο ήχος είναι ενεργοποιημένος",
-            "cameraDisabled": "Η κάμερα είναι απενεργοποιημένη",
-            "cameraEnabled": "Η κάμερα είναι ενεργοποιημένη",
+            "cameraDisabled": "Η κάμερα απενεργοποιήθηκε",
+            "cameraEnabled": "Η κάμερα ενεργοποιήθηκε",
             "cinemaView": "Προβολή κινηματογράφου",
             "closeCall": "Τερματισμός αυτής της κλήσης",
             "disableAudio": "Απενεργοποίηση ήχου",
@@ -512,7 +512,7 @@
         "planVirtualRoomDescription": "Δώστε σε αυτό το εικονικό δωμάτιο ένα αναγνωρίσιμο όνομα, ώστε οι συμμετέχοντες να γνωρίζουν το θέμα της συνάντησης.",
         "roomsFunctionalitiesChangelogDescription": "Έχουμε πραγματοποιήσει σημαντικές αλλαγές στις λειτουργίες των συναντήσεων. Διαβάστε την εισαγωγή για τα Δωμάτια για να μάθετε περισσότερα!",
         "selectFolder": "Επιλογή φακέλου",
-        "showPreviousConversationHistory": "Εμφάνιση προηγούμενου ιστορικού συνομιλιών",
+        "showPreviousConversationHistory": "Εμφάνιση προηγούμενου ιστορικού συνομιλίας",
         "stopMeetingRec": {
             "locationWhereToSaveRecording": "Η εγγραφή θα αποθηκευτεί στο \"/{{folderName}}\".",
             "recordingName": "Όνομα εγγραφής",
@@ -532,7 +532,7 @@
         "invitationToPersonalRoom": "Πρόσκληση σε προσωπικό δωμάτιο από:",
         "invitationToPersonalVirtualRoom": "Πρόσκληση σε προσωπικό εικονικό δωμάτιο από:",
         "meeting": {
-            "ended": "Η συνάντηση ολοκληρώθηκε"
+            "ended": "Η Συνάντηση Τερματίστηκε"
         },
         "startMeetingRecording": "Ξεκίνησε η εγγραφή της συνάντησης {{conversationName}}",
         "waiting": {
@@ -562,11 +562,11 @@
     "preview": {
         "actions": {
             "tooltip": {
-                "download": "[GR] Download"
+                "download": "Λήψη"
             }
         },
         "close": {
-            "tooltip": "[GR] Close"
+            "tooltip": "Κλείσιμο"
         }
     },
     "room": "Εικονικό δωμάτιο",
@@ -610,7 +610,7 @@
         },
         "profile": {
             "chooseAProfilePic": "Επιλέξτε μια φωτογραφία προφίλ. Η εικόνα θα κεντραριστεί αυτόματα.",
-            "errorGenericResponse": "Παρουσιάστηκε κάποιο σφάλμα. Παρακαλώ δοκιμάστε ξανά",
+            "errorGenericResponse": "Κάτι πήγε στραβά. Δοκιμάστε ξανά",
             "maximumDimension": "Μέγιστο μέγεθος: 256kb.",
             "reset": "Επαναφορά",
             "restore": "Επαναφορά",
@@ -631,13 +631,13 @@
         "externalGuest": "Εξωτερικός επισκέπτης",
         "internalGuest": "Εσωτερικός επισκέπτης",
         "isWriting": "Γράφει…",
-        "lastSeen": "Τελευταία φορά που εμφανίστηκε {{lastSeen}}",
-        "offline": "Απενεργοποιημένος",
-        "online": "Συνδεδεμένος",
+        "lastSeen": "Τελευταία εμφάνιση {{lastSeen}}",
+        "offline": "Εκτός σύνδεσης",
+        "online": "Σε σύνδεση",
         "userStatus": "Κατάσταση",
         "waitingToEnter": "Αναμονή για είσοδο"
     },
-    "thanksForParticipating": "Ευχαριστούμε για τη συμμετοχή σας",
+    "thanksForParticipating": "Ευχαριστούμε για τη συμμετοχή",
     "tooltip": {
         "acceptQueuedMember": "Να επιτραπεί η είσοδος του χρήστη",
         "addFile": "Προσθήκη αρχείου",
@@ -669,7 +669,7 @@
         "messageComposer": "Σύνταξη μηνύματος",
         "openMinichat": "Άνοιγμα Minichat",
         "planMeeting": "Προγραμματίστε μια συνάντηση",
-        "promoteModerator": "Προαγωγή σε διαχειριστή",
+        "promoteModerator": "Ορισμός ως συντονιστή",
         "rejectQueuedMember": "Απόρριψη χρήστη",
         "removeFile": "Κατάργηση αρχείου",
         "removeMember": "Κατάργηση μέλους",
