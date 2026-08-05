@@ -1,1 +1,121 @@
-{}
+{
+    "action": {
+        "delete": "წაშლა",
+        "add": "დამატება",
+        "browse": "დათვალიერება",
+        "close": "დახურვა",
+        "collapse": "ჩაკეცვა",
+        "copy": "კოპირება",
+        "create": "შექმნა",
+        "edit": "ჩასწორება",
+        "expand": "გაფართოვება",
+        "forward": "გადაგზავნა",
+        "join": "მიერთება",
+        "leave": "გასვლა",
+        "plan": "გეგმა",
+        "remove": "წაშლა",
+        "reply": "პასუხი",
+        "start": "დაწყება",
+        "stop": "გაჩერება"
+    },
+    "button": {
+        "cancel": "გაუქმება",
+        "no": "არა",
+        "ok": "Ok",
+        "save": "შენახვა",
+        "undo": "ბრძანების გაუქმება",
+        "yes": "დიახ"
+    },
+    "conversation": {
+        "info": "ინფორმაცია",
+        "name": "სახელი",
+        "title": "სათაური",
+        "topic": "თემა"
+    },
+    "conversations": {
+        "chats": "ჩატები",
+        "conversations": "საუბრები",
+        "rooms": "ოთახები",
+        "spaceGeneralChannel": "ზოგადი",
+        "spaces": "სივრცეები"
+    },
+    "external": {
+        "orLabel": "ან"
+    },
+    "feedback": {
+        "connecting": "დაკავშირება…"
+    },
+    "general": {
+        "teamProductName": "გუნდი"
+    },
+    "label": {
+        "app_name": "ჩატები"
+    },
+    "meeting": {
+        "interactions": {
+            "enableFullScreen": "სრულ ეკრანზე",
+            "muteUser": "დადუმება",
+            "shortCutLabel": "(C)"
+        },
+        "recording": "მიმდინარეობს ჩაწერა",
+        "startModal": {
+            "enter": "შესვლა"
+        }
+    },
+    "message": {
+        "edited": "ჩასწორებულია",
+        "forwarded": "გადაგზავნილია",
+        "now": "ახლა",
+        "yesterday": "გუშინ"
+    },
+    "modal": {
+        "news": "სიახლეები"
+    },
+    "notification": {
+        "answer": "პასუხი",
+        "dismiss": "მოცილება"
+    },
+    "people": {
+        "me": "მე",
+        "participants": "მონაწილეები",
+        "you": "თქვენ"
+    },
+    "preview": {
+        "actions": {
+            "tooltip": {
+                "download": "გადმოწერა"
+            }
+        },
+        "close": {
+            "tooltip": "დახურვა"
+        }
+    },
+    "settings": {
+        "meeting": {
+            "meetings": "შეხვედრები"
+        },
+        "notification": {
+            "title": {
+                "notifications": "გაფრთხილებები"
+            }
+        },
+        "profile": {
+            "reset": "ჩამოყრა",
+            "restore": "აღდგენა",
+            "title": "პროფილი",
+            "update": "განახლება"
+        },
+        "recordingMeeting": {
+            "recording": "ჩანაწერები"
+        },
+        "title": "მორგება"
+    },
+    "status": {
+        "offline": "ხაზგარეშე",
+        "online": "ხაზზე",
+        "userStatus": "სტატუსი"
+    },
+    "tooltip": {
+        "close": "დახურვა"
+    }
+}
