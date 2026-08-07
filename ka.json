@@ -14,9 +14,33 @@
         "leave": "გასვლა",
         "plan": "გეგმა",
         "remove": "წაშლა",
-        "reply": "პასუხი",
+        "reply": "პასუხიhttps://translate.zextras.tools/js/ignore-check/530477/?revert=1",
         "start": "დაწყება",
-        "stop": "გაჩერება"
+        "stop": "გაჩერება",
+        "activateNotifications": "გაფრთხილებების გააქტიურება",
+        "addChannel": "არხის დამატება",
+        "addMembers": "წევრების დამატება",
+        "addModerator": "მოდერატორის დამატება",
+        "addModerators": "მოდერატორების დამატება",
+        "clearHistory": "ისტორიის გასუფთავება",
+        "copyUserRoomLink": "ბმულის კოპირება",
+        "createChat": "ჩატის შექმნა",
+        "createGroup": "ჯგუფის შექმნა",
+        "createRoom": "ოთახის შექმნა",
+        "createSpace": "სივრცის შექმნა",
+        "deleteChannel": "არხის წაშლა",
+        "deleteRoom": "ოთახის წაშლა",
+        "deleteSpace": "სივრცის წაშლა",
+        "joinChannelAction": "არხში შესვლა",
+        "joinRoom": "ოთახში შესვლა",
+        "leaveChannel": "არხის დატოვება",
+        "leaveGroup": "ჯგუფის დატოვება",
+        "leaveSpace": "სივრცის დატოვება",
+        "muteNotifications": "გაფრთხილებების დადუმება",
+        "removeMember": "წევრის წაშლა",
+        "replyToSomeone": "პასუხი წევრს",
+        "resetLink": "ბმულის ჩამოყრა",
+        "startMeeting": "შეხვედრის დაწყება"
     },
     "button": {
         "cancel": "გაუქმება",
@@ -30,20 +54,51 @@
         "info": "ინფორმაცია",
         "name": "სახელი",
         "title": "სათაური",
-        "topic": "თემა"
+        "topic": "თემა",
+        "channelInfo": "არხის ინფორმაცია",
+        "contactInfo": "კონტაქტის ინფორმაცია",
+        "fileUploadDescription": "ფაილის აღწერა",
+        "groupInfo": "ჯგუფის ინფორმაცია",
+        "nameRoom": "{{conversationTitle}}-ის ოთახი",
+        "newMessages": "ახალი შეტყობინებები",
+        "roomInfo": "ოთახის ინფორმაცია",
+        "roomLink": "ოთახის ბმული",
+        "roomName": "ოთახის სახელი",
+        "spaceInfo": "სივრცის ინფორმაცია"
     },
     "conversations": {
         "chats": "ჩატები",
         "conversations": "საუბრები",
         "rooms": "ოთახები",
         "spaceGeneralChannel": "ზოგადი",
-        "spaces": "სივრცეები"
+        "spaces": "სივრცეები",
+        "activeRooms": "აქტიური ოთახები",
+        "instantMeetings": "მყისიერი შეხვედრები",
+        "meetingRooms": "შეხვედრის ოთახები",
+        "personalRoom": "პირადი ოთახი",
+        "scheduledMeetings": "დაგეგმილი შეხვედრები",
+        "virtualRooms": "ვირტუალური ოთახები",
+        "waitingRoom": "მოსაცდელი ოთახი",
+        "yourRoom": "თქვენი ოთახი"
     },
     "external": {
-        "orLabel": "ან"
+        "orLabel": "ან",
+        "appStoreLabel": "აპლიკაციების მაღაზია",
+        "enter": "შეუერთდით!",
+        "playStoreLabel": "Google Play",
+        "unsupported": {
+            "browser": "მხარდაუჭერელი ბრაუზერი",
+            "device": "მხარდაუჭერელი მოწყობილობა"
+        },
+        "waitingRoom": {
+            "accessDenied": "წვდომა აკრძალულია"
+        }
     },
     "feedback": {
-        "connecting": "დაკავშირება…"
+        "connecting": "დაკავშირება…",
+        "linkCopied": "ბმული დაკოპირდა",
+        "online": "ინტერნეტკავშირი აღდგა!",
+        "retryConnection": "ხელახლა დაკავშირება"
     },
     "general": {
         "teamProductName": "გუნდი"
@@ -55,30 +110,72 @@
         "interactions": {
             "enableFullScreen": "სრულ ეკრანზე",
             "muteUser": "დადუმება",
-            "shortCutLabel": "(C)"
+            "shortCutLabel": "(C)",
+            "audioDisabled": "ხმა გათიშულია",
+            "audioEnabled": "ხმა ჩართულია",
+            "cameraDisabled": "კამერა გათიშულია",
+            "cameraEnabled": "კამერა ჩართულია",
+            "cinemaView": "კინოთეატრის რეჟიმი",
+            "disableAudio": "ხმის გათიშვა",
+            "disableVideo": "ვიდეოს გათიშვა",
+            "enableAudio": "ხმის ჩართვა",
+            "enableVideo": "ვიდეოს ჩართვა",
+            "gridView": "ბადის ხედი",
+            "hangOff": "ყურმილის დაკიდება",
+            "hideChat": "ჩატის დამალვა",
+            "hideParticipants": "მონაწილეების დამალვა",
+            "pinVideo": "ვიდეოს ამაგრება",
+            "showChat": "ჩატის ჩვენება",
+            "showParticipants": "მონაწილეების ჩვენება",
+            "unpinVideo": "ვიდეოს ჩამოხსნა"
         },
         "recording": "მიმდინარეობს ჩაწერა",
         "startModal": {
             "enter": "შესვლა"
-        }
+        },
+        "defaultViewModeDedicatedModeLabel": "გამოყოფილი რეჟიმი",
+        "defaultViewModeDedicatedModeLabelVRoom": "გამოყოფილი რეჟიმი",
+        "defaultViewModeDedicatedModeLabelVirtualRoom": "გამოყოფილი რეჟიმი",
+        "defaultViewModeDefaultModeLabel": "ნაგულისხმევი რეჟიმი",
+        "defaultViewModeSaveLabel": "შენახვის პარამეტრი",
+        "noEffect": "ეფექტის გარეშე"
     },
     "message": {
         "edited": "ჩასწორებულია",
         "forwarded": "გადაგზავნილია",
         "now": "ახლა",
-        "yesterday": "გუშინ"
+        "yesterday": "გუშინ",
+        "deletedMessage": "წაშლილი შეტყობინება",
+        "readBy": "წაიკითხა მომხმარებელმა",
+        "service": {
+            "conversationCreated": "ჩატი შეიქმნა",
+            "meeting": {
+                "ended": "შეხვედრა დასრულდა"
+            }
+        }
     },
     "modal": {
-        "news": "სიახლეები"
+        "news": "სიახლეები",
+        "selectFolder": "საქაღალდის არჩევა",
+        "stopMeetingRec": {
+            "recordingName": "ჩაწერის სახელი",
+            "stopRecordingTitle": "ჩაწერის გაჩერება"
+        },
+        "teamNews": "გუნდის სიახლეები"
     },
     "notification": {
         "answer": "პასუხი",
-        "dismiss": "მოცილება"
+        "dismiss": "მოცილება",
+        "meeting": {
+            "ended": "შეხვედრა დასრულდა"
+        }
     },
     "people": {
         "me": "მე",
         "participants": "მონაწილეები",
-        "you": "თქვენ"
+        "you": "თქვენ",
+        "manyMembers": "{{membersCount}} წევრი",
+        "oneParticipant": "ერთი მონაწილე"
     },
     "preview": {
         "actions": {
@@ -92,12 +189,19 @@
     },
     "settings": {
         "meeting": {
-            "meetings": "შეხვედრები"
+            "meetings": "შეხვედრები",
+            "enableCamera": "კამერის ჩართვა",
+            "enableEchoCancellation": "ექოს მოცილება",
+            "enableMicrophone": "მიკროფონის ჩართვა",
+            "enableNoiseSuppression": "ხმაურის მოცილება",
+            "virtualRooms": "ვირტუალური ოთახები",
+            "voiceProcessing": "ხმის დამუშავება"
         },
         "notification": {
             "title": {
                 "notifications": "გაფრთხილებები"
-            }
+            },
+            "desktop": "გაფრთხილებები სამუშაო მაგიდაზე"
         },
         "profile": {
             "reset": "ჩამოყრა",
@@ -106,16 +210,48 @@
             "update": "განახლება"
         },
         "recordingMeeting": {
-            "recording": "ჩანაწერები"
+            "recording": "ჩანაწერები",
+            "destinationFolder": "სამიზნე საქაღალდე"
         },
-        "title": "მორგება"
+        "title": "მორგება",
+        "modal": {
+            "title": "ჩატების მორგება"
+        }
     },
     "status": {
         "offline": "ხაზგარეშე",
         "online": "ხაზზე",
-        "userStatus": "სტატუსი"
+        "userStatus": "სტატუსი",
+        "areWriting": "წერენ…",
+        "externalGuest": "გარე სტუმარი",
+        "internalGuest": "შიდა სტუმარი",
+        "isWriting": "წერს…"
     },
     "tooltip": {
-        "close": "დახურვა"
-    }
+        "close": "დახურვა",
+        "addFile": "ფაილის დამატება",
+        "cancelFilter": "ფილტრის გაუქმება",
+        "chooseFile": "ფაილის არჩევა",
+        "closeSearch": "ძებნის დახურვა",
+        "collapseChannel": "არხების აკეცვა",
+        "downgradeModerator": "მოდერატორის დაქვეითება",
+        "editDescription": "აღწერის ჩასწორება",
+        "editInfo": "ინფორმაციის ჩასწორება",
+        "messageComposer": "შეტყობინების კომპოზიტორი",
+        "openMinichat": "მინიჩატის გახსნა",
+        "rejectQueuedMember": "მომხმარებლის უარყოფა",
+        "removeFile": "ფაილის წაშლა",
+        "removeMember": "წევრის წაშლა",
+        "selectEmoji": "ემოჯის არჩევა",
+        "sendFile": "ფაილის გაგზავნა",
+        "sendMessage": "შეტყობინების გაგზავნა",
+        "showChannels": "არხების ჩვენება"
+    },
+    "appVersion": "აპის ვერსია",
+    "attachments": {
+        "shareLink": "ბმულის გაზიარება"
+    },
+    "room": "ვირლუალური ოთახი",
+    "tryLater": "მოგვიანებით სცადეთ",
+    "virtualRoom": "ვირლუალური ოთახი"
 }
