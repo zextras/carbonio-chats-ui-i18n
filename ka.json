@@ -40,7 +40,17 @@
         "removeMember": "წევრის წაშლა",
         "replyToSomeone": "პასუხი წევრს",
         "resetLink": "ბმულის ჩამოყრა",
-        "startMeeting": "შეხვედრის დაწყება"
+        "startMeeting": "შეხვედრის დაწყება",
+        "addNewMembers": "ახალი წევრების დამატება",
+        "addOtherModerators": "სხვა მოდერატორების დამატება",
+        "copyAppVersion": "აპლიკაციის ვერსიის კოპირება",
+        "copyLinkRoom": "ოთახის ბმულის კოპირება",
+        "createInstantMeeting": "მყისი შეხვედრის შექმნა",
+        "createVirtualRoom": "ვირტუალური ოთახის შექმნა",
+        "deleteVirtualRoom": "ვირტუალური ოთახის წაშლა",
+        "editYourMessage": "თქვენი შეტყობინების ჩასწორება",
+        "joinVirtualRoom": "ვირტუალურ ოთახში შესვლა",
+        "leaveAndDelete": "გასვლა და წაშლა"
     },
     "button": {
         "cancel": "გაუქმება",
@@ -251,7 +261,7 @@
     "attachments": {
         "shareLink": "ბმულის გაზიარება"
     },
-    "room": "ვირლუალური ოთახი",
+    "room": "ვირტუალური ოთახი",
     "tryLater": "მოგვიანებით სცადეთ",
-    "virtualRoom": "ვირლუალური ოთახი"
+    "virtualRoom": "ვირტუალური ოთახი"
 }
