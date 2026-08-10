@@ -50,7 +50,12 @@
         "deleteVirtualRoom": "ვირტუალური ოთახის წაშლა",
         "editYourMessage": "თქვენი შეტყობინების ჩასწორება",
         "joinVirtualRoom": "ვირტუალურ ოთახში შესვლა",
-        "leaveAndDelete": "გასვლა და წაშლა"
+        "leaveAndDelete": "გასვლა და წაშლა",
+        "openInChats": "Chats-ში გახსნა",
+        "openInTeam": "Team-ში გახსნა",
+        "planMeeting": "შეხვედრის დაგეგმვა",
+        "replyToYourself": "პასუხი თქვენი თავისთვის",
+        "saveToFiles": "Files-ში შენახვა"
     },
     "button": {
         "cancel": "გაუქმება",
@@ -74,7 +79,12 @@
         "roomInfo": "ოთახის ინფორმაცია",
         "roomLink": "ოთახის ბმული",
         "roomName": "ოთახის სახელი",
-        "spaceInfo": "სივრცის ინფორმაცია"
+        "spaceInfo": "სივრცის ინფორმაცია",
+        "instantInfo": "მყისი შეხვედრის ინფორმაცია",
+        "nameVirtualRoom": "{{conversationTitle}}-ის ვირტუალური ოთახი",
+        "virtualRoomInfo": "ვირტუალური ოთახის ინფორმაცია",
+        "virtualRoomLink": "ვირტუალური ოთახის ბმული",
+        "virtualRoomName": "ვირტუალური ოთახის სახელი"
     },
     "conversations": {
         "chats": "ჩატები",
@@ -89,7 +99,11 @@
         "scheduledMeetings": "დაგეგმილი შეხვედრები",
         "virtualRooms": "ვირტუალური ოთახები",
         "waitingRoom": "მოსაცდელი ოთახი",
-        "yourRoom": "თქვენი ოთახი"
+        "yourRoom": "თქვენი ოთახი",
+        "activeMeetingRooms": "აქტიური შეხვედრის ოთახები",
+        "activeVirtualRooms": "აქტიური ვირტუალური ოთახები",
+        "filterChatList": "ჩატების სიის გაფილტვრა",
+        "personalVirtualRoom": "პირადი ვირტუალური ოთახი"
     },
     "external": {
         "orLabel": "ან",
@@ -108,10 +122,14 @@
         "connecting": "დაკავშირება…",
         "linkCopied": "ბმული დაკოპირდა",
         "online": "ინტერნეტკავშირი აღდგა!",
-        "retryConnection": "ხელახლა დაკავშირება"
+        "retryConnection": "ხელახლა დაკავშირება",
+        "appVersionCopied": "აპის ვერსია დაკოპირდა",
+        "historyClearedSuccessfully": "ისტორია წარმატებით გასუფთავდა!",
+        "roomLinkCopied": "ოთახის ბმული დაკოპირდა"
     },
     "general": {
-        "teamProductName": "გუნდი"
+        "teamProductName": "გუნდი",
+        "goToTeam": "Team-ზე გადასვლა"
     },
     "label": {
         "app_name": "ჩატები"
@@ -137,7 +155,16 @@
             "pinVideo": "ვიდეოს ამაგრება",
             "showChat": "ჩატის ჩვენება",
             "showParticipants": "მონაწილეების ჩვენება",
-            "unpinVideo": "ვიდეოს ჩამოხსნა"
+            "unpinVideo": "ვიდეოს ჩამოხსნა",
+            "closeCall": "ამ ზარის დახურვა",
+            "disableFullScreen": "სრულეკრანიანი რეჟიმიდან გასვლა",
+            "disableScreensharing": "ეკრანის გაზიარების გათიშვა",
+            "enableScreenSharing": "ეკრანის გაზიარების ჩართვა",
+            "muteUserForAllTitle": "ყველასთვის დადუმება",
+            "playMic": "მიკროფონის შემოწმების დაწყება",
+            "playMyVoice": "ჩემი ხმის დაკვრა",
+            "stopMic": "მიკროფონის ტესტის გაჩერება",
+            "stopMyVoice": "ჩემი ხმის გაჩერება"
         },
         "recording": "მიმდინარეობს ჩაწერა",
         "startModal": {
@@ -148,7 +175,11 @@
         "defaultViewModeDedicatedModeLabelVirtualRoom": "გამოყოფილი რეჟიმი",
         "defaultViewModeDefaultModeLabel": "ნაგულისხმევი რეჟიმი",
         "defaultViewModeSaveLabel": "შენახვის პარამეტრი",
-        "noEffect": "ეფექტის გარეშე"
+        "noEffect": "ეფექტის გარეშე",
+        "attendeesComing": "მონაწილეები შემოდიან",
+        "blurMyBackground": "ჩემი ფონის დაბინდვა",
+        "defaultViewModeTitleModal": "შეხვედრების გარემოს მორგება",
+        "setVirtualBackground": "ვირტუალური ფონის დაყენება"
     },
     "message": {
         "edited": "ჩასწორებულია",
@@ -160,8 +191,11 @@
         "service": {
             "conversationCreated": "ჩატი შეიქმნა",
             "meeting": {
-                "ended": "შეხვედრა დასრულდა"
-            }
+                "ended": "შეხვედრა დასრულდა",
+                "endedAtTime": "შეხვედრის დასრულების დროა",
+                "startedAtTime": "შეხვედრის დაწყების დროა"
+            },
+            "newMeeting": "შემომავალი ზარი ვისგან:"
         }
     },
     "modal": {
@@ -169,23 +203,36 @@
         "selectFolder": "საქაღალდის არჩევა",
         "stopMeetingRec": {
             "recordingName": "ჩაწერის სახელი",
-            "stopRecordingTitle": "ჩაწერის გაჩერება"
+            "stopRecordingTitle": "ჩაწერის გაჩერება",
+            "stopMeetingTitle": "შეხვედრის ჩაწერის გაჩერება"
         },
-        "teamNews": "გუნდის სიახლეები"
+        "teamNews": "გუნდის სიახლეები",
+        "confirm": {
+            "areYouSure": "დარწმუნებული ბრძანდებით?"
+        },
+        "forwardModal": {
+            "forwardedMessageFrom": "გადმოგზავნილი შეტყობინება ვისგან",
+            "spaceAndChannels": "სივრცე და არხები"
+        },
+        "instantMeeting": {
+            "closedInstantMeeting": "მყისი შეხვედრა დაიხურა"
+        }
     },
     "notification": {
         "answer": "პასუხი",
         "dismiss": "მოცილება",
         "meeting": {
             "ended": "შეხვედრა დასრულდა"
-        }
+        },
+        "incomingCall": "შემომავალი ზარი ვისგან:"
     },
     "people": {
         "me": "მე",
         "participants": "მონაწილეები",
         "you": "თქვენ",
         "manyMembers": "{{membersCount}} წევრი",
-        "oneParticipant": "ერთი მონაწილე"
+        "oneParticipant": "ერთი მონაწილე",
+        "otherParticipants": "კიდევ {{numberParticipants}} მონაწილე"
     },
     "preview": {
         "actions": {
@@ -217,7 +264,8 @@
             "reset": "ჩამოყრა",
             "restore": "აღდგენა",
             "title": "პროფილი",
-            "update": "განახლება"
+            "update": "განახლება",
+            "maximumDimension": "მაქს. ზომა: 256კბ."
         },
         "recordingMeeting": {
             "recording": "ჩანაწერები",
@@ -235,7 +283,9 @@
         "areWriting": "წერენ…",
         "externalGuest": "გარე სტუმარი",
         "internalGuest": "შიდა სტუმარი",
-        "isWriting": "წერს…"
+        "isWriting": "წერს…",
+        "lastSeen": "ბოლოს ნანახია {{lastSeen}}",
+        "waitingToEnter": "შესვლის მოლოდინი"
     },
     "tooltip": {
         "close": "დახურვა",
@@ -255,13 +305,34 @@
         "selectEmoji": "ემოჯის არჩევა",
         "sendFile": "ფაილის გაგზავნა",
         "sendMessage": "შეტყობინების გაგზავნა",
-        "showChannels": "არხების ჩვენება"
+        "showChannels": "არხების ჩვენება",
+        "acceptQueuedMember": "მომხმარებლის შემოშვება",
+        "chooseRoom": "ვირტუალური ოთახის არჩევა",
+        "enterMeetingRoom": "შეხვედრის ოთახში შესვლა",
+        "planMeeting": "შეხვედრის დაგეგმვა",
+        "promoteModerator": "მოდერატორამდე დაწინაურება",
+        "searchForParticipant": "მონაწილის ძებნა",
+        "switchToConversation": "საუბარზე გადართვა"
     },
     "appVersion": "აპის ვერსია",
     "attachments": {
-        "shareLink": "ბმულის გაზიარება"
+        "shareLink": "ბმულის გაზიარება",
+        "addFromLocal": "დამატება ლოკალურიდან",
+        "share": "საჯარო ბმულის გაზიარება"
     },
     "room": "ვირტუალური ოთახი",
     "tryLater": "მოგვიანებით სცადეთ",
-    "virtualRoom": "ვირტუალური ოთახი"
+    "virtualRoom": "ვირტუალური ოთახი",
+    "creation": {
+        "nameMax140Characters": "მაქს. 140 სიმბოლო",
+        "topicMax255Characters": "მაქს. 255 სიმბოლო",
+        "typeWithNameAddParticipant": "მონაწილეების დამატება"
+    },
+    "enterTheRoom": "ოთახში შესვლა",
+    "errorPage": {
+        "errorCode": "შეცდომის კოდი 404"
+    },
+    "personalRoomLabel": "{{userName}}-ის პირადი ოთახი",
+    "thanksForParticipating": "მადლობა მონაწილეობისთვის",
+    "typeYourEmail": "აკრიფეთ თქვენი ელფოსტა"
 }
