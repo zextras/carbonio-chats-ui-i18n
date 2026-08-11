@@ -55,7 +55,12 @@
         "openInTeam": "Team-ში გახსნა",
         "planMeeting": "შეხვედრის დაგეგმვა",
         "replyToYourself": "პასუხი თქვენი თავისთვის",
-        "saveToFiles": "Files-ში შენახვა"
+        "saveToFiles": "Files-ში შენახვა",
+        "addNewMembersTo": "ახალი წევრების დამატება ჯგუფში",
+        "copyLinkVirtualRoom": "ვირტუალური ოთახის ბმულის კოპირება",
+        "goToGuide": "სახელმძღვანელოზე გადასვლა",
+        "scrollToNewMessage": "გადახვევა ახალ შეტყობინებაზე",
+        "scrollToTheBottom": "ბოლოში გადახვევა"
     },
     "button": {
         "cancel": "გაუქმება",
@@ -84,7 +89,8 @@
         "nameVirtualRoom": "{{conversationTitle}}-ის ვირტუალური ოთახი",
         "virtualRoomInfo": "ვირტუალური ოთახის ინფორმაცია",
         "virtualRoomLink": "ვირტუალური ოთახის ბმული",
-        "virtualRoomName": "ვირტუალური ოთახის სახელი"
+        "virtualRoomName": "ვირტუალური ოთახის სახელი",
+        "speakersCorner": "მომხმარებლები შეხვედრის ოთახში"
     },
     "conversations": {
         "chats": "ჩატები",
@@ -103,7 +109,8 @@
         "activeMeetingRooms": "აქტიური შეხვედრის ოთახები",
         "activeVirtualRooms": "აქტიური ვირტუალური ოთახები",
         "filterChatList": "ჩატების სიის გაფილტვრა",
-        "personalVirtualRoom": "პირადი ვირტუალური ოთახი"
+        "personalVirtualRoom": "პირადი ვირტუალური ოთახი",
+        "mockDisplayTitle": "დავინარჩუნოთ კავშირი!"
     },
     "external": {
         "orLabel": "ან",
@@ -116,7 +123,8 @@
         },
         "waitingRoom": {
             "accessDenied": "წვდომა აკრძალულია"
-        }
+        },
+        "roomIsEmpty": "ეს ოთახი ცარიელია"
     },
     "feedback": {
         "connecting": "დაკავშირება…",
@@ -125,7 +133,8 @@
         "retryConnection": "ხელახლა დაკავშირება",
         "appVersionCopied": "აპის ვერსია დაკოპირდა",
         "historyClearedSuccessfully": "ისტორია წარმატებით გასუფთავდა!",
-        "roomLinkCopied": "ოთახის ბმული დაკოპირდა"
+        "roomLinkCopied": "ოთახის ბმული დაკოპირდა",
+        "virtualRoomLinkCopied": "ვირტუალური ოთახის ბმული დაკოპირდა"
     },
     "general": {
         "teamProductName": "გუნდი",
@@ -164,11 +173,19 @@
             "playMic": "მიკროფონის შემოწმების დაწყება",
             "playMyVoice": "ჩემი ხმის დაკვრა",
             "stopMic": "მიკროფონის ტესტის გაჩერება",
-            "stopMyVoice": "ჩემი ხმის გაჩერება"
+            "stopMyVoice": "ჩემი ხმის გაჩერება",
+            "mutedByOthers": "თქვენ გაგაჩუმეს",
+            "status": {
+                "cameraOff": "თქვენი კამერა გამორთულია"
+            }
         },
         "recording": "მიმდინარეობს ჩაწერა",
         "startModal": {
-            "enter": "შესვლა"
+            "enter": "შესვლა",
+            "noVideoAndAudio": "კამერა გამორთულია, მიკროფონი ჩართულია",
+            "noVideoAndNoAudio": "კამერა გამორთულია, მიკროფონი გამორთულია",
+            "videoAndAudio": "კამერა ჩართულია, მიკროფონი ჩართულია",
+            "videoAndNoAudio": "კამერა ჩართული, მიკროფონი გათიშულია"
         },
         "defaultViewModeDedicatedModeLabel": "გამოყოფილი რეჟიმი",
         "defaultViewModeDedicatedModeLabelVRoom": "გამოყოფილი რეჟიმი",
@@ -179,7 +196,10 @@
         "attendeesComing": "მონაწილეები შემოდიან",
         "blurMyBackground": "ჩემი ფონის დაბინდვა",
         "defaultViewModeTitleModal": "შეხვედრების გარემოს მორგება",
-        "setVirtualBackground": "ვირტუალური ფონის დაყენება"
+        "setVirtualBackground": "ვირტუალური ფონის დაყენება",
+        "defaultViewModeTitleModalVirtualRoom": "ვირტუალური ოთახის გარემოს პარამეტრები",
+        "recordedByMe": "თქვენ დაიწყეთ ჩაწერა",
+        "recordedByOther": "{{username}}-მა ჩაწერა დაიწყო"
     },
     "message": {
         "edited": "ჩასწორებულია",
@@ -195,7 +215,12 @@
                 "endedAtTime": "შეხვედრის დასრულების დროა",
                 "startedAtTime": "შეხვედრის დაწყების დროა"
             },
-            "newMeeting": "შემომავალი ზარი ვისგან:"
+            "newMeeting": "შემომავალი ზარი ვისგან:",
+            "member": {
+                "you": {
+                    "invited": "თქვენ მოიწვიეთ {{member_name}}"
+                }
+            }
         }
     },
     "modal": {
@@ -216,7 +241,8 @@
         },
         "instantMeeting": {
             "closedInstantMeeting": "მყისი შეხვედრა დაიხურა"
-        }
+        },
+        "showPreviousConversationHistory": "ჩატის ისტორიის ჩვენება"
     },
     "notification": {
         "answer": "პასუხი",
@@ -252,7 +278,9 @@
             "enableMicrophone": "მიკროფონის ჩართვა",
             "enableNoiseSuppression": "ხმაურის მოცილება",
             "virtualRooms": "ვირტუალური ოთახები",
-            "voiceProcessing": "ხმის დამუშავება"
+            "voiceProcessing": "ხმის დამუშავება",
+            "personalRoomOptionsTitleModal": "პირადი ოთახის ბმულის ჩამოყრა",
+            "personalRoomResetButton": "პირადი ოთახის ბმულის ჩამოყრა"
         },
         "notification": {
             "title": {
@@ -312,13 +340,18 @@
         "planMeeting": "შეხვედრის დაგეგმვა",
         "promoteModerator": "მოდერატორამდე დაწინაურება",
         "searchForParticipant": "მონაწილის ძებნა",
-        "switchToConversation": "საუბარზე გადართვა"
+        "switchToConversation": "საუბარზე გადართვა",
+        "enterYourRoom": "შესვლა თქვენს პირად ოთახში",
+        "enterYourRoomTooltip": "შესვლა თქვენს პირად ოთახში",
+        "goToPrivateChat": "პირად ჩატზე გადასვლა",
+        "switchToInfoPanel": "გადართვა ინფორმაციის პანელზე"
     },
     "appVersion": "აპის ვერსია",
     "attachments": {
         "shareLink": "ბმულის გაზიარება",
         "addFromLocal": "დამატება ლოკალურიდან",
-        "share": "საჯარო ბმულის გაზიარება"
+        "share": "საჯარო ბმულის გაზიარება",
+        "attachLinkFromFiles": "ბმულის მიმაგრება Files-დან"
     },
     "room": "ვირტუალური ოთახი",
     "tryLater": "მოგვიანებით სცადეთ",
@@ -326,7 +359,8 @@
     "creation": {
         "nameMax140Characters": "მაქს. 140 სიმბოლო",
         "topicMax255Characters": "მაქს. 255 სიმბოლო",
-        "typeWithNameAddParticipant": "მონაწილეების დამატება"
+        "typeWithNameAddParticipant": "მონაწილეების დამატება",
+        "nameRequired": "სახელი აუცილებელია"
     },
     "enterTheRoom": "ოთახში შესვლა",
     "errorPage": {
@@ -334,5 +368,8 @@
     },
     "personalRoomLabel": "{{userName}}-ის პირადი ოთახი",
     "thanksForParticipating": "მადლობა მონაწილეობისთვის",
-    "typeYourEmail": "აკრიფეთ თქვენი ელფოსტა"
+    "typeYourEmail": "აკრიფეთ თქვენი ელფოსტა",
+    "enterTheVirtualRoom": "შესვლა ვირტუალურ ოთახში",
+    "noRoomSelected": "ვირტუალური ოთახი არჩეული არაა",
+    "personalVirtualRoomLabel": "{{userName}}-ის პირადი ვირტუალური ოთახი"
 }
