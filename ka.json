@@ -120,7 +120,10 @@
         "noFilteredChats": "ჩატები, რომლებიც ამ ფილტრს ემთხვევა, არ არსებობს.",
         "noFilteredSpaces": "სივრცეები, რომლებიც ამ ფილტრს ემთხვევა, არ არსებობს.",
         "noActiveVirtualRooms": "ამჟამად აქტიური ვირტუალური ოთახები არ არსებობს",
-        "noFilteredInstantMeetings": "მყისი შეხვედრები, რომლებიც ამ ფილტრს ემთხვევა, აღმოჩენილი არაა."
+        "noFilteredInstantMeetings": "მყისი შეხვედრები, რომლებიც ამ ფილტრს ემთხვევა, აღმოჩენილი არაა.",
+        "noFilteredMeetings": "ამ ფილტრს შესაბამისი ოთახები ან დაგეგმილი შეხვედრები არ არსებობს",
+        "noFilteredRooms": "ამ ფილტრს შესაბამისი ოთახები ან დაგეგმილი შეხვედრები არ არსებობს",
+        "noFilteredVirtualRooms": "ვირტუალური ოთახები, ან დაგეგმილი შეხვედრები, რომლებიც ამ ფილტრს ემთხვევა, არ არსებობს"
     },
     "external": {
         "orLabel": "ან",
@@ -164,7 +167,8 @@
         "uploadConversationPicturesFailed": "საუბრის სურათის ატვირთვა ჩავარდა",
         "resetPersonalVirtualRoomLinkSuccess": "პირადი ვირტუალური ოთახის ბმული ჩამოყრილია",
         "saveAttachmentSuccessfull": "მიმაგრებული ფაილი შენახულია მონიშნულ საქაღალდეში",
-        "offline": "როგორც ჩანს, სერვერთან დაკავშირებას პრობლემები აქვს"
+        "offline": "როგორც ჩანს, სერვერთან დაკავშირებას პრობლემები აქვს",
+        "saveAttachmentError": "როგორც ჩანს, შენახვისას აღმოჩენილია პრობლემა. კიდევ სცადეთ"
     },
     "general": {
         "teamProductName": "გუნდი",
@@ -208,7 +212,8 @@
             "status": {
                 "cameraOff": "თქვენი კამერა გამორთულია",
                 "cameraMicOff": "თქვენი კამერა და მიკროფონი გამორთულია"
-            }
+            },
+            "mutedByModerators": "თქვენ გაგაჩუმათ მოდერატორმა. სასაუბროდ გააუქმეთ დადუმება"
         },
         "recording": "მიმდინარეობს ჩაწერა",
         "startModal": {
@@ -220,7 +225,9 @@
             "descriptionVirtualRoom": "როგორ გნებავთ {{meetingTitle}}-ზე შესვლა?",
             "description": "როგორ გნებავთ შეხვედრაზე შესვლა?",
             "descriptionMyPersonalRoom": "როგორ გნებავთ, თქვენს პირად ოთახში შეხვიდეთ?",
-            "descriptionPersonalRoom": "როგორ გნებავთ, {{meetingTitle}}-ის პირად ოთახში შეხვიდეთ?"
+            "descriptionPersonalRoom": "როგორ გნებავთ, {{meetingTitle}}-ის პირად ოთახში შეხვიდეთ?",
+            "descriptionMyPersonalVirtualRoom": "როგორ გნებავთ თქვენს პირად ვირტუალურ ოთახში შესვლა?",
+            "descriptionPersonalVirtualRoom": "როგორ გნებავთ{{meetingTitle}}-ის პირად ვირტუალურ ოთახში შესვლა?"
         },
         "defaultViewModeDedicatedModeLabel": "გამოყოფილი რეჟიმი",
         "defaultViewModeDedicatedModeLabelVRoom": "გამოყოფილი რეჟიმი",
@@ -235,7 +242,13 @@
         "defaultViewModeTitleModalVirtualRoom": "ვირტუალური ოთახის გარემოს პარამეტრები",
         "recordedByMe": "თქვენ დაიწყეთ ჩაწერა",
         "recordedByOther": "{{username}}-მა ჩაწერა დაიწყო",
-        "thisMeetingIsBeingRecorded": "ეს შეხვედრა იწერება"
+        "thisMeetingIsBeingRecorded": "ეს შეხვედრა იწერება",
+        "resetMeetingUrlModalDescription": "მართლა გნებავთ ბმულის ჩამოყრა დაგეგმილი საუბრისთვის \"{{conversationName}}\"?",
+        "errorMeetingSavingRecording": "ჩაწერის გაჩერება შეუძლებელია. კიდევ სცადეთ",
+        "successSaveMeetingRecording": "{{registrationName}}-ს იპოვით /{{folderName}}-ში მაშინვე, როგორც კი ხელმისაწვდომი იქნება",
+        "defaultViewModeDefaultLabel": "\"ნაგულისხმევი რეჟიმის\" არჩევისას შეხვედრა მიმდინარე შიდა გარემოში გაეშვება.",
+        "errorMeetingRecording": "რეგისტრაციის დაწყება შეუძლებელია. დაუკავშირდით თქვენს სისტემურ ადმინისტრატორს.",
+        "genericErrorMeeting": "როგორც ჩანს, ამ შეხვედრას პრობლემები აქვს. დაუკავშირდით თქვენს სისტემურ ადმინისტრატორს."
     },
     "message": {
         "edited": "ჩასწორებულია",
@@ -375,7 +388,9 @@
             "leaveChannel": "მართლა გნებავთ არხიდან გასვლა?",
             "leaveGroup": "მართლა გნებავთ ჯგუფიდან გასვლა?",
             "leaveSpace": "მართლა გნებავთ სივრციდან გასვლა?",
-            "removeMember": "მართლა გნებავთ ამ წევრის წაშლა?"
+            "removeMember": "მართლა გნებავთ ამ წევრის წაშლა?",
+            "deleteVirtualRoom": "მართლა გნებავთ ვირტუალური ოთახის წაშლა?",
+            "leaveAndDeleteConversation": "მართლა გნებავთ გასვლა და {{conversationName}}-ის წაშლა?"
         },
         "forwardModal": {
             "forwardedMessageFrom": "გადმოგზავნილი შეტყობინება ვისგან",
@@ -392,7 +407,9 @@
         "showPreviousConversationHistory": "ჩატის ისტორიის ჩვენება",
         "notShowAgain": "ეს აღარ მაჩვენო",
         "moderatorCannotLeaveGroupTitle": "მოითმინეთ. საჭიროა ახალი მოდერატორი",
-        "userJoinedWaitingRoom": "როგორც ჩანს, მოსაცდელ ოთახში ვიღაცაა"
+        "userJoinedWaitingRoom": "როგორც ჩანს, მოსაცდელ ოთახში ვიღაცაა",
+        "planMeetingDescription": "ოთახის სახელი ეხმარება დამსწრეებს იცოდნენ ოთახის დისკუსიის საგანი.",
+        "addModeratorDescription": "აირჩიეთ ერთი, ან მეტი მომხმარებელი ამ ოთახის მოდერატორამდე დასაწინაურებლად"
     },
     "notification": {
         "answer": "პასუხი",
@@ -409,7 +426,8 @@
             "descriptionWaitingLabel": "თქვენ ელოდებით, როდის შეგიშვებთ {{conversationName}}-ის მოდერატორი",
             "descriptionAcceptedLabel": "თქვენ დაგადასტურათ {{conversationName}}-ის მოდერატორმა",
             "notificationJoinTheRoom": "ოთახში შესვლა შეხვედრაში მონაწილეობისთვის",
-            "userJoinedWaitingRoom": "როგორც ჩანს, მოსაცდელ ოთახში ვიღაცაა"
+            "userJoinedWaitingRoom": "როგორც ჩანს, მოსაცდელ ოთახში ვიღაცაა",
+            "notificationJoinTheVirtualRoom": "შეხვედრაში მონაწილეობის მისაღებად შედით ვირტუალურ ოთახში"
         },
         "startMeetingRecording": "შეხვედრის {{conversationName}} ჩაწერა დაიწყო"
     },
@@ -463,7 +481,9 @@
             "title": "პროფილი",
             "update": "განახლება",
             "maximumDimension": "მაქს. ზომა: 256კბ.",
-            "errorGenericResponse": "რაღაც არასწორად წავიდა. კიდევ სცადეთ"
+            "errorGenericResponse": "რაღაც არასწორად წავიდა. კიდევ სცადეთ",
+            "chooseAProfilePic": "აირჩიეთ პროფილის სურათი. გამოსახულების დაცენტრება ავტომატურად მოხდება.",
+            "statusOptionalDescription": "არასავალდებულოა. გააგებინეთ სხვებს, რაზე ფიქრობთ. მაქს. სიგრძე: 256 სიმბოლო"
         },
         "recordingMeeting": {
             "recording": "ჩანაწერები",
@@ -474,7 +494,10 @@
         "modal": {
             "title": "ჩატების მორგება"
         },
-        "resetPersonalRoomLinkSuccess": "პირადი ოთახის ბმული ჩამოყრილია"
+        "resetPersonalRoomLinkSuccess": "პირადი ოთახის ბმული ჩამოყრილია",
+        "notifications": {
+            "description": "დააყენეთ თქვენი პარამეტრები Chats-ის თითოეული გაფრთხილებისთვის."
+        }
     },
     "status": {
         "offline": "ხაზგარეშე",
@@ -525,7 +548,8 @@
         "copyVirtualRoomLinkTooltip": "დააკოპირეთ ეს ბმული ვირტუალური ოთახის გასაზიარებლად",
         "errorRemovingAvatarPicture": "ავატარის წაშლისას რაღაც არასწორად წავიდა. კიდევ სცადეთ",
         "errorUpdatingAvatarStatus": "სტატუსის დაყენებისას რაღაც არასწორად წავიდა. კიდევ სცადეთ",
-        "errorUploadingAvatarPicture": "ავატარის ატვირთვისას რაღაც არასწორად წავიდა. კიდევ სცადეთ"
+        "errorUploadingAvatarPicture": "ავატარის ატვირთვისას რაღაც არასწორად წავიდა. კიდევ სცადეთ",
+        "disabledCreateButton": "შეამოწმეთ რა შეგყავთ და დარწმუნდით, რომ შეცდომები არ დაგიშვიათ"
     },
     "appVersion": "აპის ვერსია",
     "attachments": {
@@ -551,10 +575,13 @@
         "instantMeeting": {
             "attendee": {
                 "feedback": {
-                    "neutral": "მონიშნეთ ერთი, ან მეტი დამსწრე"
+                    "neutral": "მონიშნეთ ერთი, ან მეტი დამსწრე",
+                    "negative": "შეყვანილი ელფოსტა არასწორია. შეიყვანეთ სწორი მისამართი"
                 }
             },
-            "addAttendees": "დამსწრეების დამატება თქვენს მყის შეხვედრაზე"
+            "addAttendees": "დამსწრეების დამატება თქვენს მყის შეხვედრაზე",
+            "addAttendeesDescription": "მოიწვიეთ დამსწრეები მათი სახელების, ან ელფოსტების აქ აკრეფით.",
+            "addAttendeesInputExplanation": "ასევე შეგიძლიათ გარე მომხმარებლების მოწვევა უბრალოდ მათი ელფოსტის მისამართის აკრეფით."
         },
         "participants": {
             "feedback": {
@@ -565,7 +592,8 @@
         "selectOneOrMoreUsers": "მონიშნეთ ერთი, ან მეტი მომხმარებელი",
         "space": {
             "spaceWithoutNameAddParticipant": "მონაწილეების დამატება თქვენს სივრცეში",
-            "topicInputExplanation": "აღწერს სივრცის თემას"
+            "topicInputExplanation": "აღწერს სივრცის თემას",
+            "titleDescription": "სათაური ახდენს სივრცის იდენტიფიკაციას და უნდა აღწერდეს თემას."
         },
         "typeToFilter": "აკრიფეთ სიის გასაფილტრად",
         "nameNeeds2Letters": "სახელს, სულ ცოტა, ორი სიმბოლო სჭირდება",
@@ -574,7 +602,8 @@
         "topicOptional": "არასავალდებულო. აღწერს სუბიექტის არსს",
         "youCanInviteOther": "შეგიძლიათ კიდევ {{limit}} მონაწილის მოწვევა",
         "channel": {
-            "topicInputExplanation": "აღწერს არხის თემას"
+            "topicInputExplanation": "აღწერს არხის თემას",
+            "titleInputRequirements": "დაშვებულია 140 სიმბოლო. სათაური ჰოსტინგის სივრცეში უნიკალური უნდა იყოს"
         },
         "emailReplicated": "შეყვანილი ელფოსტა უკვე დამატებულია",
         "nameRequired-max140Characters-avoidReusingNames": "აუცილებელია. მაქს 140 სიმბოლო. მოერიდეთ სახელის გამეორებას.",
@@ -582,7 +611,8 @@
         "topicNeeds2Letters": "თემა არასავალდებულოა. მინ. 2 სიმბოლო",
         "chat": {
             "addParticipant": "ჩატის დასაწყებად აირჩიეთ მონაწილ"
-        }
+        },
+        "limitOfParticipantReached": "თქვენ მიაღწიეთ ადმინისტრატორის მიერ დაყენებულ მონაწილეების ზღვარს"
     },
     "enterTheRoom": "ოთახში შესვლა",
     "errorPage": {
@@ -596,5 +626,7 @@
     "enterTheVirtualRoom": "შესვლა ვირტუალურ ოთახში",
     "noRoomSelected": "ვირტუალური ოთახი არჩეული არაა",
     "personalVirtualRoomLabel": "{{userName}}-ის პირადი ვირტუალური ოთახი",
-    "organizeYourMeeting": "დააორგანიზეთ თქვენი საკუთარი შეხვედრები, ან შეუერთდით კოლეგის ოთახებს"
+    "organizeYourMeeting": "დააორგანიზეთ თქვენი საკუთარი შეხვედრები, ან შეუერთდით კოლეგის ოთახებს",
+    "organizeYourVMeeting": "დააორგანიზეთ საკუთარი შეხვედრები, ან შედით თქვენი კოლეგის ვირტუალურ ოთახებში",
+    "organizeYourVirtualMeeting": "დააორგანიზეთ საკუთარი შეხვედრები, ან შედით თქვენი კოლეგის ვირტუალურ ოთახებში"
 }
